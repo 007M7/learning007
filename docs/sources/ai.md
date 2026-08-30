@@ -28,6 +28,10 @@
 | [Microsoft GraphRAG](https://microsoft.github.io/graphrag/) | 官方活文档 | AAI13—15 | 图索引、local/global search；官方提示索引成本较高 |
 | [AutoGen 论文](https://arxiv.org/abs/2308.08155) | 2023 | AAI16—18 | 多 Agent conversation 框架/案例；不证明普遍优于单 Agent |
 
+## Agent 前沿强化来源
+
+独立专题维护 2023-08-31—2026-08-30 的一手证据、首次公开/修订日期、冲突观点与更新触发器。最新核心材料为 2026-08-27 提交的 AgentJudgeBench。详见 [Agent 论文证据库](/frontier/agents/evidence)。
+
 ## 三类结论必须分开
 
 1. **规范/接口事实**：MCP 消息、JSON Schema、API 参数，以版本化原文为准；

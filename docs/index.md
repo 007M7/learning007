@@ -12,6 +12,9 @@ hero:
       text: 浏览三大领域
       link: /domains/software/
     - theme: alt
+      text: Agent 前沿强化
+      link: /frontier/agents/
+    - theme: alt
       text: 查看 GitHub
       link: https://github.com/007M7/learning007
 features:
@@ -34,8 +37,8 @@ features:
 <div class="home-stats">
   <div><strong>51</strong><span>必修核心节点</span></div>
   <div><strong>54</strong><span>可选进阶节点</span></div>
-  <div><strong>36</strong><span>完整教程章节</span></div>
-  <div><strong>6 + 6</strong><span>案例与工程模板</span></div>
+  <div><strong>30</strong><span>Agent 前沿节点</span></div>
+  <div><strong>46</strong><span>完整教程章节</span></div>
 </div>
 
 ## 这套学习系统怎样工作

@@ -31,4 +31,8 @@
 
 [从数学与优化开始 →](/advanced/ai/01-math-optimization)
 
+::: tip 需要同步研究前沿？
+本路线解决稳定的模型/系统进阶。若要按 2023-08-31—2026-08-30 时间窗拆解 Agent 论文、复现实验与最新评测，请进入独立的 [Agent 前沿强化专题](/frontier/agents/)。它不会替代本路线的数学、RAG、推理和多 Agent 前置。
+:::
+
 <div class="source-note">主要来源入口（核验于 2026-08-31）：<a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a>、<a href="https://docs.pytorch.org/docs/stable/">PyTorch Documentation</a>、<a href="https://arxiv.org/abs/2106.09685">LoRA</a>、<a href="https://docs.vllm.ai/en/latest/">vLLM Documentation</a>、<a href="https://microsoft.github.io/graphrag/">Microsoft GraphRAG</a>。边界见<a href="../../sources/ai">AI 来源目录</a>。</div>

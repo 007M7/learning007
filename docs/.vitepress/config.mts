@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { domainSidebar } from "./curriculum";
 import { advancedSidebar } from "./advanced-curriculum";
+import { agentFrontierSidebar } from "./agent-frontier";
 
 export default defineConfig({
   title: "Learning 007",
@@ -9,7 +10,7 @@ export default defineConfig({
   base: process.env.GITHUB_ACTIONS ? "/learning007/" : "/",
   cleanUrls: true,
   lastUpdated: true,
-  markdown: { lineNumbers: true },
+  markdown: { lineNumbers: true, math: true },
   head: [
     ["meta", { name: "theme-color", content: "#256f68" }],
     ["meta", { property: "og:title", content: "Learning 007" }],
@@ -29,6 +30,7 @@ export default defineConfig({
       { text: "架构模板", link: "/templates/" },
       { text: "权威来源", link: "/sources/" },
       { text: "可选进阶", link: "/advanced/" },
+      { text: "Agent 前沿", link: "/frontier/agents/" },
     ],
     sidebar: {
       "/guide/": [{ text: "开始学习", items: [
@@ -75,6 +77,7 @@ export default defineConfig({
         { text: "质量与生产交付", link: "/advanced/quality/" },
         { text: "AI 应用与 Agent", link: "/advanced/ai/" },
       ] }],
+      "/frontier/agents/": agentFrontierSidebar(),
     },
     search: { provider: "local" },
     outline: { label: "本页目录", level: [2, 3] },

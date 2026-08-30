@@ -7,6 +7,7 @@ import CurriculumMap from "./components/CurriculumMap.vue";
 import DecisionCard from "./components/DecisionCard.vue";
 import EvidenceTracker from "./components/EvidenceTracker.vue";
 import AdvancedMap from "./components/AdvancedMap.vue";
+import AgentFrontierMap from "./components/AgentFrontierMap.vue";
 import "./custom.css";
 
 export default {
@@ -19,5 +20,6 @@ export default {
     app.component("DecisionCard", DecisionCard);
     app.component("EvidenceTracker", EvidenceTracker);
     app.component("AdvancedMap", AdvancedMap);
+    app.component("AgentFrontierMap", AgentFrontierMap);
   },
 } satisfies Theme;

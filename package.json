@@ -15,10 +15,13 @@
     "check:content": "node scripts/check-content.mjs",
     "verify": "npm run check:links && npm run check:content && npm run build"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "22.19.19",
+    "markdown-it-mathjax3": "^4.3.2",
     "vitepress": "1.6.4"
+  },
+  "overrides": {
+    "@xmldom/xmldom": "0.9.12"
   },
   "type": "module"
 }
