@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "Learning 007"
   text: "看懂系统，判断 AI 写得对不对"
-  tagline: 面向非科班学习者的可视化学习图谱。用三大知识领域、真实项目和掌握证据，把“AI 能生成代码”转化为“我知道自己要什么，也能验证结果”。
+  tagline: 面向非科班学习者的可视化学习图谱。以工程通识、Agent 前沿和六条领域深研路线，把“AI 能生成”转化为“我理解机制、能验证边界，也能持续形成作品证据”。
   actions:
     - theme: brand
       text: 开始学习 →
@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: Agent 前沿强化
       link: /frontier/agents/
+    - theme: alt
+      text: 六大领域深研
+      link: /fields/
     - theme: alt
       text: 查看 GitHub
       link: https://github.com/007M7/learning007
@@ -38,7 +41,8 @@ features:
   <div><strong>51</strong><span>必修核心节点</span></div>
   <div><strong>54</strong><span>可选进阶节点</span></div>
   <div><strong>30</strong><span>Agent 前沿节点</span></div>
-  <div><strong>46</strong><span>完整教程章节</span></div>
+  <div><strong>180</strong><span>领域深研节点</span></div>
+  <div><strong>106</strong><span>完整教程章节</span></div>
 </div>
 
 ## 这套学习系统怎样工作
@@ -55,7 +59,7 @@ features:
 掌握证据：记录应用、错误和复习结果
 ```
 
-知识地图可以一次看全，但近期学习队列始终只保留 **3—5 个节点**。你不需要先成为计算机专家，才开始使用 AI 编码。
+知识地图可以一次看全，但近期学习队列始终只保留 **3—5 个节点**。六个领域不是六份同时开工的待办：先选一条路线，把首章三个节点做成可观察证据，再依据项目阻塞解锁下一章。
 
 ## 三条学习原则
 

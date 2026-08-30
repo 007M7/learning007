@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { domainSidebar } from "./curriculum";
 import { advancedSidebar } from "./advanced-curriculum";
 import { agentFrontierSidebar } from "./agent-frontier";
+import { fieldSidebar, learningFields } from "./field-curriculum";
 
 export default defineConfig({
   title: "Learning 007",
@@ -31,6 +32,7 @@ export default defineConfig({
       { text: "权威来源", link: "/sources/" },
       { text: "可选进阶", link: "/advanced/" },
       { text: "Agent 前沿", link: "/frontier/agents/" },
+      { text: "领域深研", items: learningFields.map((field) => ({ text: field.title, link: `/fields/${field.slug}/` })) },
     ],
     sidebar: {
       "/guide/": [{ text: "开始学习", items: [
@@ -78,6 +80,7 @@ export default defineConfig({
         { text: "AI 应用与 Agent", link: "/advanced/ai/" },
       ] }],
       "/frontier/agents/": agentFrontierSidebar(),
+      ...Object.fromEntries(learningFields.map((field) => [`/fields/${field.slug}/`, fieldSidebar(field.slug)])),
     },
     search: { provider: "local" },
     outline: { label: "本页目录", level: [2, 3] },

@@ -11,6 +11,7 @@
     "preview": "vitepress preview docs",
     "test": "npm run build",
     "lint": "vitepress build docs",
+    "generate:fields": "node --experimental-strip-types scripts/generate-field-library.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:content": "node scripts/check-content.mjs",
     "verify": "npm run check:links && npm run check:content && npm run build"

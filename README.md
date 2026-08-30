@@ -4,12 +4,14 @@
 
 ## 已包含
 
-- 3 个知识大类、46 个完整章节：51 个核心节点＋54 个可选进阶节点＋30 个 Agent 前沿强化节点；
+- 3 个工程通识大类＋6 个领域深研方向，共 106 个完整章节：51 个核心节点＋54 个可选进阶节点＋30 个 Agent 前沿节点＋180 个领域深研节点；
 - 软件与系统工程、软件质量与生产交付、AI 应用与 Agent 的核心/进阶双层地图；
 - 15 题起点诊断、12 周最小路线、每周复盘与中断恢复；
 - 6 个端到端案例和 6 套可复制架构/交付模板；
 - 版本化权威来源目录，统一核验日 2026-08-31；
 - 独立 Agent 前沿路线：严格覆盖 2023-08-31—2026-08-30，一手论文逐篇拆解研究问题、机制、实验、局限、复现与架构影响；
+- 机器学习、深度学习、NLP、AI 产品经理、低空智能、机器人六条深研路线：每条 10 章 / 30 节点，证据截止 2026-08-30；
+- 60 篇深研章节统一包含公式假设、至少两层一手证据、三轮实验消融、失败边界、自测与作品验收，自动门槛为正文不少于 4,700 字符、20 个二级部分；
 - 本地全文搜索、交互决策卡、测验与设备本地证据记录；
 - GitHub Pages 自动构建工作流。
 
@@ -36,7 +38,7 @@ npm run verify
 
 ## 技术栈说明
 
-站点运行时仍是 **VitePress + Vue 3 + TypeScript + CSS**：交互组件位于 `docs/.vitepress/theme/components/*.vue`，课程/侧栏数据与配置使用 `.ts/.mts`，主题使用 `custom.css`。`scripts/*.mjs` 只是 Node.js 构建期的链接与内容契约检查，不参与浏览器 UI，也没有把 Vue/TypeScript 前端改写成 JavaScript。
+站点运行时仍是 **VitePress + Vue 3 + TypeScript + CSS**：交互组件位于 `docs/.vitepress/theme/components/*.vue`，课程/侧栏数据与配置使用 `.ts/.mts`，主题使用 `custom.css`。`scripts/*.mjs` 只是 Node.js 构建期的课程生成、链接和内容契约检查，不参与浏览器 UI，也没有把 Vue/TypeScript 前端改写成 JavaScript。
 
 ## 建议入口
 
@@ -60,13 +62,14 @@ docs/
 │   ├── quality/           18 节点：Kubernetes → 平台与多区域
 │   └── ai/                18 节点：数学/训练 → 多 Agent 治理
 ├── frontier/agents/       30 节点：Agent 论文、复现、评测与安全
+├── fields/                180 节点：ML、DL、NLP、AI 产品、低空、机器人
 ├── templates/             需求、C4、契约、交付、ADR、安全边界
 ├── cases/                 6 个跨领域端到端案例
 ├── sources/               来源、版本、时效与适用边界
 └── CONTENT-STANDARD.md    章节完整度与可读性契约
 ```
 
-核心/进阶/Agent 前沿侧栏分别由 `curriculum.ts`、`advanced-curriculum.ts` 与 `agent-frontier.ts` 统一生成；每章必须遵守 `docs/CONTENT-STANDARD.md` 的机制、图示、案例、权衡、失败、实验、证据与来源要求。
+核心/进阶/Agent 前沿/领域深研侧栏分别由 `curriculum.ts`、`advanced-curriculum.ts`、`agent-frontier.ts` 与 `field-curriculum.ts` 统一生成；每章必须遵守 `docs/CONTENT-STANDARD.md` 的机制、图示、案例、权衡、失败、实验、证据与来源要求。领域正文由 `scripts/field-content/*.mjs` 的结构化源稿生成，修改后运行 `npm run generate:fields`，再运行 `npm run verify`。
 
 ## 参考与许可
 

@@ -8,6 +8,7 @@ import DecisionCard from "./components/DecisionCard.vue";
 import EvidenceTracker from "./components/EvidenceTracker.vue";
 import AdvancedMap from "./components/AdvancedMap.vue";
 import AgentFrontierMap from "./components/AgentFrontierMap.vue";
+import FieldMap from "./components/FieldMap.vue";
 import "./custom.css";
 
 export default {
@@ -21,5 +22,6 @@ export default {
     app.component("EvidenceTracker", EvidenceTracker);
     app.component("AdvancedMap", AdvancedMap);
     app.component("AgentFrontierMap", AgentFrontierMap);
+    app.component("FieldMap", FieldMap);
   },
 } satisfies Theme;
