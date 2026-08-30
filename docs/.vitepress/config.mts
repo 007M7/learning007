@@ -1,0 +1,77 @@
+import { defineConfig } from "vitepress";
+import { domainSidebar } from "./curriculum";
+
+export default defineConfig({
+  title: "Learning 007",
+  description: "面向非科班学习者的 AI 编码与系统工程可视化学习图谱",
+  lang: "zh-CN",
+  base: process.env.GITHUB_ACTIONS ? "/learning007/" : "/",
+  cleanUrls: true,
+  lastUpdated: true,
+  markdown: { lineNumbers: true },
+  head: [
+    ["meta", { name: "theme-color", content: "#256f68" }],
+    ["meta", { property: "og:title", content: "Learning 007" }],
+    ["meta", { property: "og:description", content: "从看懂系统到可靠地使用 AI 编码：教程、知识地图、案例与掌握证据。" }],
+  ],
+  themeConfig: {
+    logo: { src: "/logo.svg", alt: "Learning 007" },
+    nav: [
+      { text: "首页", link: "/" },
+      { text: "学习方法", link: "/guide/" },
+      { text: "三大领域", items: [
+        { text: "软件与系统工程", link: "/domains/software/" },
+        { text: "质量与生产交付", link: "/domains/quality/" },
+        { text: "AI 应用与 Agent", link: "/domains/ai/" },
+      ] },
+      { text: "项目案例", link: "/cases/" },
+      { text: "架构模板", link: "/templates/" },
+      { text: "权威来源", link: "/sources/" },
+      { text: "可选进阶", link: "/advanced/" },
+    ],
+    sidebar: {
+      "/guide/": [{ text: "开始学习", items: [
+        { text: "学习系统说明", link: "/guide/" },
+        { text: "15 题起点诊断", link: "/guide/diagnostic" },
+        { text: "12 周最小路线", link: "/guide/plan" },
+        { text: "怎样与 AI 协作编码", link: "/guide/ai-coding" },
+        { text: "怎样判断真正掌握", link: "/guide/mastery" },
+        { text: "每周复盘与恢复", link: "/guide/review" },
+      ] }],
+      "/domains/software/": domainSidebar("software"),
+      "/domains/quality/": domainSidebar("quality"),
+      "/domains/ai/": domainSidebar("ai"),
+      "/cases/": [{ text: "端到端案例", items: [
+        { text: "案例总览", link: "/cases/" },
+        { text: "01 · 个人任务板", link: "/cases/01-task-board" },
+        { text: "02 · 多租户任务运行器", link: "/cases/02-task-runner" },
+        { text: "03 · 可引用知识助手", link: "/cases/03-rag-assistant" },
+        { text: "04 · 有审批的工具 Agent", link: "/cases/04-tool-agent" },
+        { text: "05 · AI 代码审查流水线", link: "/cases/05-code-review" },
+        { text: "06 · 学习证据系统", link: "/cases/06-learning-system" },
+      ] }],
+      "/templates/": [{ text: "可复用模板", items: [
+        { text: "模板总览", link: "/templates/" },
+        { text: "需求与约束画布", link: "/templates/requirements" },
+        { text: "C4 与数据流", link: "/templates/system-map" },
+        { text: "API 与数据契约", link: "/templates/contracts" },
+        { text: "测试与发布策略", link: "/templates/delivery" },
+        { text: "ADR 架构决策记录", link: "/templates/adr" },
+        { text: "Agent 安全边界", link: "/templates/agent-safety" },
+      ] }],
+      "/sources/": [{ text: "来源治理", items: [
+        { text: "权威来源总览", link: "/sources/" },
+        { text: "软件与系统来源", link: "/sources/software" },
+        { text: "质量与交付来源", link: "/sources/quality" },
+        { text: "AI 与 Agent 来源", link: "/sources/ai" },
+      ] }],
+      "/advanced/": [{ text: "可选进阶", items: [{ text: "进阶内容总览", link: "/advanced/" }] }],
+    },
+    search: { provider: "local" },
+    outline: { label: "本页目录", level: [2, 3] },
+    docFooter: { prev: "上一页", next: "下一页" },
+    lastUpdated: { text: "最后更新" },
+    socialLinks: [{ icon: "github", link: "https://github.com/007M7/learning007" }],
+    footer: { message: "知识地图用于导航，项目与解释证据才代表掌握。", copyright: "Learning 007" },
+  },
+});

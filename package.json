@@ -1,0 +1,24 @@
+{
+  "name": "learning007",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "test": "npm run build",
+    "lint": "vitepress build docs",
+    "check:links": "node scripts/check-links.mjs",
+    "check:content": "node scripts/check-content.mjs",
+    "verify": "npm run check:links && npm run check:content && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "vitepress": "1.6.4"
+  },
+  "type": "module"
+}

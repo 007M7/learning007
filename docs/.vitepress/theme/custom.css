@@ -1,0 +1,30 @@
+:root {
+  --vp-c-brand-1: #256f68;
+  --vp-c-brand-2: #2e8178;
+  --vp-c-brand-3: #1f5b56;
+  --vp-c-brand-soft: rgba(37, 111, 104, 0.14);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #256f68 10%, #4978c4 88%);
+  --vp-home-hero-image-background-image: radial-gradient(circle, rgba(37, 111, 104, 0.25), transparent 62%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+.VPHomeHero .name, .VPHomeHero .text { letter-spacing: -0.025em; }
+.VPHomeHero .tagline { max-width: 720px; line-height: 1.7; }
+.vp-doc h2 { border-top: 0; padding-top: 8px; }
+.learning-note { border: 1px solid var(--vp-c-divider); border-left: 4px solid var(--vp-c-brand-1); border-radius: 12px; padding: 16px 18px; background: var(--vp-c-bg-soft); }
+.level-core { color: #256f68; }
+.level-project { color: #b26900; }
+.level-advanced { color: #6b66c8; }
+.lesson-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 24px; }
+.lesson-meta span { border: 1px solid var(--vp-c-divider); border-radius: 999px; padding: 4px 10px; color: var(--vp-c-text-2); background: var(--vp-c-bg-soft); font-size: 12px; }
+.mechanism { margin: 20px 0; padding: 16px 18px; border-radius: 12px; background: var(--vp-c-bg-soft); }
+.mechanism code { color: var(--vp-c-brand-1); }
+.source-note { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--vp-c-divider); color: var(--vp-c-text-2); font-size: 13px; }
+.vp-doc table { font-size: 14px; }
+.home-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; max-width: 1104px; margin: -36px auto 56px; padding: 0 24px; }
+.home-stats div { padding: 18px; border: 1px solid var(--vp-c-divider); border-radius: 14px; background: var(--vp-c-bg-soft); }
+.home-stats strong, .home-stats span { display: block; }
+.home-stats strong { color: var(--vp-c-brand-1); font-size: 28px; line-height: 1; }
+.home-stats span { margin-top: 7px; color: var(--vp-c-text-2); font-size: 12px; }
+@media (max-width: 700px) { .home-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: -30px; } }
+@media (max-width: 640px) { .VPHomeHero .tagline { font-size: 17px; } }
