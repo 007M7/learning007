@@ -2,22 +2,45 @@ import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 const root = resolve("docs");
-const chapters = {
+const core = {
   software: ["01-programming", "02-runtime", "03-web-api", "04-data", "05-design", "06-architecture"],
   quality: ["01-strategy", "02-testing", "03-build", "04-delivery", "05-operations", "06-production"],
   ai: ["01-models", "02-context", "03-rag", "04-tools-mcp", "05-agent-runtime", "06-evals-safety"],
 };
-const required = ["本章可观察目标", "练习", "常见误区", "本章完成标准", "<EvidenceTracker", "source-note"];
+const advanced = {
+  software: ["01-performance", "02-runtime-compiler", "03-kernel-ebpf", "04-distributed-consensus", "05-storage-streaming", "06-architecture-evolution"],
+  quality: ["01-kubernetes-core", "02-kubernetes-operations", "03-iac-gitops", "04-performance-capacity", "05-chaos-sre", "06-platform-resilience"],
+  ai: ["01-math-optimization", "02-transformer-training", "03-finetuning", "04-inference", "05-advanced-rag", "06-multi-agent"],
+};
+const commonRequired = [
+  "本章可观察目标", "会死在哪里", "与 AI 协作", "练习", "常见误区",
+  "本章小结", "本章完成标准", "<EvidenceTracker", "source-note", "```mermaid",
+];
 const failures = [];
 
-for (const [domain, pages] of Object.entries(chapters)) {
-  for (const page of pages) {
-    const file = resolve(root, "domains", domain, `${page}.md`);
-    if (!existsSync(file)) { failures.push(`缺少章节 ${file}`); continue; }
-    const source = readFileSync(file, "utf8");
-    for (const marker of required) if (!source.includes(marker)) failures.push(`${domain}/${page} 缺少 ${marker}`);
+function checkChapter(kind, domain, page) {
+  const file = resolve(root, kind === "core" ? "domains" : "advanced", domain, `${page}.md`);
+  if (!existsSync(file)) {
+    failures.push(`缺少章节 ${file}`);
+    return;
   }
+  const source = readFileSync(file, "utf8");
+  const relative = `${kind}/${domain}/${page}`;
+  for (const marker of commonRequired) {
+    if (!source.includes(marker)) failures.push(`${relative} 缺少 ${marker}`);
+  }
+  if (kind === "advanced" && !source.includes("解锁与跳过")) failures.push(`${relative} 缺少解锁与跳过`);
+  if (!source.includes("贯穿")) failures.push(`${relative} 缺少贯穿案例/故障`);
+
+  const h2Count = (source.match(/^## /gm) ?? []).length;
+  const minChars = kind === "core" ? 3200 : 2700;
+  const minH2 = kind === "core" ? 10 : 12;
+  if (source.length < minChars) failures.push(`${relative} 正文过薄：${source.length} < ${minChars} 字符预警线`);
+  if (h2Count < minH2) failures.push(`${relative} 推理链不足：${h2Count} < ${minH2} 个二级部分`);
 }
+
+for (const [domain, pages] of Object.entries(core)) for (const page of pages) checkChapter("core", domain, page);
+for (const [domain, pages] of Object.entries(advanced)) for (const page of pages) checkChapter("advanced", domain, page);
 
 for (let index = 1; index <= 6; index += 1) {
   const prefix = String(index).padStart(2, "0");
@@ -26,14 +49,20 @@ for (let index = 1; index <= 6; index += 1) {
   if (!found) failures.push(`缺少案例 ${prefix}`);
 }
 
-const curriculum = readFileSync(resolve(root, ".vitepress", "curriculum.ts"), "utf8");
+const coreCurriculum = readFileSync(resolve(root, ".vitepress", "curriculum.ts"), "utf8");
 for (const [prefix, expected] of [["SW", 16], ["Q", 16], ["AI", 19]]) {
-  const ids = new Set([...curriculum.matchAll(new RegExp(`"(${prefix}\\d{2})"`, "g"))].map((match) => match[1]));
-  if (ids.size !== expected) failures.push(`${prefix} 节点应为 ${expected}，实际 ${ids.size}`);
+  const ids = new Set([...coreCurriculum.matchAll(new RegExp(`"(${prefix}\\d{2})"`, "g"))].map((match) => match[1]));
+  if (ids.size !== expected) failures.push(`${prefix} 核心节点应为 ${expected}，实际 ${ids.size}`);
+}
+
+const advancedCurriculum = readFileSync(resolve(root, ".vitepress", "advanced-curriculum.ts"), "utf8");
+for (const [prefix, expected] of [["ASW", 18], ["AQ", 18], ["AAI", 18]]) {
+  const ids = new Set([...advancedCurriculum.matchAll(new RegExp(`"(${prefix}\\d{2})"`, "g"))].map((match) => match[1]));
+  if (ids.size !== expected) failures.push(`${prefix} 进阶节点应为 ${expected}，实际 ${ids.size}`);
 }
 
 if (failures.length) {
   console.error(`内容契约失败:\n${failures.join("\n")}`);
   process.exit(1);
 }
-console.log("内容契约通过：18 章、51 节点、6 个案例。Q 表示质量节点，不与章节数重复统计。" );
+console.log("内容契约通过：18 个核心章 / 51 节点，18 个进阶章 / 54 节点，6 个案例；每章均含机制图、贯穿案例、失败边界、实战与掌握证据。" );

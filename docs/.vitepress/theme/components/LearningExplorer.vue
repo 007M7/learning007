@@ -12,7 +12,9 @@ const cards: Card[] = [
   { title: "软件项目路线", icon: "→", level: "project", description: "把语言、网络、数据库和后端知识放进同一个纵向切片。", link: "/domains/software/roadmap" },
   { title: "交付项目路线", icon: "↻", level: "project", description: "围绕真实服务补齐测试、容器、流水线、日志与恢复。", link: "/domains/quality/roadmap" },
   { title: "Agent 项目路线", icon: "◎", level: "project", description: "从结构化输出到 RAG、工具调用、状态恢复和评测。", link: "/domains/ai/roadmap" },
-  { title: "可选进阶", icon: "△", level: "advanced", description: "分布式系统、Kubernetes、模型训练和多 Agent 等远期扩展。", link: "/advanced/" },
+  { title: "软件进阶 · 18 节点", icon: "△", level: "advanced", description: "性能、运行时、内核、共识、数据流与服务架构演进。", link: "/advanced/software/" },
+  { title: "交付进阶 · 18 节点", icon: "◇", level: "advanced", description: "Kubernetes、IaC、容量、Chaos、容灾与平台工程。", link: "/advanced/quality/" },
+  { title: "AI 进阶 · 18 节点", icon: "✧", level: "advanced", description: "数学、训练、微调、推理系统、GraphRAG 与多 Agent。", link: "/advanced/ai/" },
 ];
 const filters = [
   { key: "all", label: "全部" }, { key: "core", label: "必修核心" },

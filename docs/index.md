@@ -32,10 +32,10 @@ features:
 <LearningExplorer />
 
 <div class="home-stats">
-  <div><strong>51</strong><span>细粒度知识节点</span></div>
-  <div><strong>18</strong><span>结构化课程章节</span></div>
-  <div><strong>6</strong><span>端到端案例</span></div>
-  <div><strong>6</strong><span>可复用工程模板</span></div>
+  <div><strong>51</strong><span>必修核心节点</span></div>
+  <div><strong>54</strong><span>可选进阶节点</span></div>
+  <div><strong>36</strong><span>完整教程章节</span></div>
+  <div><strong>6 + 6</strong><span>案例与工程模板</span></div>
 </div>
 
 ## 这套学习系统怎样工作

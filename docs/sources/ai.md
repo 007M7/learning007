@@ -15,6 +15,19 @@
 | [NIST AI 600-1 GenAI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) | 2024-07；页面 2026-04-08 更新 | AI17—19 | GenAI 跨行业风险与行动；自愿框架，不替代法规 |
 | [JSON Schema 2020-12](https://json-schema.org/specification) | 2020-12 | AI03、AI09 | 数据形状与验证语言；业务正确性需额外规则 |
 
+## 可选进阶来源
+
+| 来源 | 版本/状态 | 支持节点 | 使用边界 |
+|---|---|---|---|
+| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | 2017；原始 Transformer 论文 | AAI01—06 | 核心 attention 架构；不代表所有现代模型实现 |
+| [PyTorch Documentation](https://docs.pytorch.org/docs/stable/) | stable 活文档 | AAI01—06 | 张量、autograd、训练/分布式；具体 API 按安装版本 |
+| [LoRA](https://arxiv.org/abs/2106.09685) | 2021 原始论文 | AAI07—09 | 低秩适配的研究证据；不能直接外推所有任务/模型 |
+| [Hugging Face PEFT](https://huggingface.co/docs/peft/) | 官方活文档 | AAI07—09 | LoRA/PEFT 工程实现；版本与 base 兼容需锁定 |
+| [vLLM Documentation](https://docs.vllm.ai/en/latest/) | latest 活文档 | AAI10—12 | serving、quantization、parallelism、observability；性能依硬件/workload |
+| [PagedAttention 论文](https://arxiv.org/abs/2309.06180) | 2023 | AAI10—12 | KV cache 分页管理；不替代端到端容量评测 |
+| [Microsoft GraphRAG](https://microsoft.github.io/graphrag/) | 官方活文档 | AAI13—15 | 图索引、local/global search；官方提示索引成本较高 |
+| [AutoGen 论文](https://arxiv.org/abs/2308.08155) | 2023 | AAI16—18 | 多 Agent conversation 框架/案例；不证明普遍优于单 Agent |
+
 ## 三类结论必须分开
 
 1. **规范/接口事实**：MCP 消息、JSON Schema、API 参数，以版本化原文为准；
@@ -23,4 +36,4 @@
 
 ## 易过时项
 
-模型名称、上下文长度、价格、SDK、API 参数、供应商数据政策不写死进通识课程，使用时实时查官方文档。MCP 新稳定规范、OWASP/NIST 新版、Embedding/Prompt/工具 Schema 变化都触发评测集与安全边界复核。
+模型名称、上下文长度、价格、SDK、API 参数、供应商数据政策不写死进通识课程，使用时实时查官方文档。PyTorch/PEFT/vLLM/GraphRAG 当前行为按季度复核；MCP 新稳定规范、OWASP/NIST 新版、Embedding/Tokenizer/Prompt/工具 Schema 变化都触发评测集与安全边界复核。

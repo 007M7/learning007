@@ -4,8 +4,8 @@
 
 ## 已包含
 
-- 3 个知识大类、18 个章节、51 个细粒度节点；
-- 软件与系统工程、软件质量与生产交付、AI 应用与 Agent 的完整地图；
+- 3 个知识大类、36 个完整章节：51 个核心节点＋54 个可选进阶节点；
+- 软件与系统工程、软件质量与生产交付、AI 应用与 Agent 的核心/进阶双层地图；
 - 15 题起点诊断、12 周最小路线、每周复盘与中断恢复；
 - 6 个端到端案例和 6 套可复制架构/交付模板；
 - 版本化权威来源目录，统一核验日 2026-08-31；
@@ -33,6 +33,10 @@ npm run verify
 
 它会检查内部链接、课程内容契约并构建站点。结果位于 `docs/.vitepress/dist/`；可运行 `npm run preview` 本地预览构建结果。
 
+## 技术栈说明
+
+站点运行时仍是 **VitePress + Vue 3 + TypeScript + CSS**：交互组件位于 `docs/.vitepress/theme/components/*.vue`，课程/侧栏数据与配置使用 `.ts/.mts`，主题使用 `custom.css`。`scripts/*.mjs` 只是 Node.js 构建期的链接与内容契约检查，不参与浏览器 UI，也没有把 Vue/TypeScript 前端改写成 JavaScript。
+
 ## 建议入口
 
 1. 先做 `docs/guide/diagnostic.md`，只激活 3—5 个近期节点；
@@ -50,13 +54,17 @@ docs/
 │   ├── software/          16 节点：代码执行 → 架构决策
 │   ├── quality/           16 节点：验收 → 生产恢复
 │   └── ai/                19 节点：模型调用 → 可治理 Agent
+├── advanced/
+│   ├── software/          18 节点：性能 → 分布式架构演进
+│   ├── quality/           18 节点：Kubernetes → 平台与多区域
+│   └── ai/                18 节点：数学/训练 → 多 Agent 治理
 ├── templates/             需求、C4、契约、交付、ADR、安全边界
 ├── cases/                 6 个跨领域端到端案例
 ├── sources/               来源、版本、时效与适用边界
-└── advanced/              按真实瓶颈解锁的可选进阶
+└── CONTENT-STANDARD.md    章节完整度与可读性契约
 ```
 
-课程侧栏由 `docs/.vitepress/curriculum.ts` 统一生成；新增节点时应同步更新正文、来源、练习与内容检查。
+核心/进阶侧栏分别由 `curriculum.ts` 与 `advanced-curriculum.ts` 统一生成；每章必须遵守 `docs/CONTENT-STANDARD.md` 的机制、图示、案例、权衡、失败、实验、证据与来源要求。
 
 ## 参考与许可
 

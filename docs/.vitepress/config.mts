@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { domainSidebar } from "./curriculum";
+import { advancedSidebar } from "./advanced-curriculum";
 
 export default defineConfig({
   title: "Learning 007",
@@ -65,7 +66,15 @@ export default defineConfig({
         { text: "质量与交付来源", link: "/sources/quality" },
         { text: "AI 与 Agent 来源", link: "/sources/ai" },
       ] }],
-      "/advanced/": [{ text: "可选进阶", items: [{ text: "进阶内容总览", link: "/advanced/" }] }],
+      "/advanced/software/": advancedSidebar("software"),
+      "/advanced/quality/": advancedSidebar("quality"),
+      "/advanced/ai/": advancedSidebar("ai"),
+      "/advanced/": [{ text: "可选进阶", items: [
+        { text: "进阶内容总览", link: "/advanced/" },
+        { text: "软件与系统工程", link: "/advanced/software/" },
+        { text: "质量与生产交付", link: "/advanced/quality/" },
+        { text: "AI 应用与 Agent", link: "/advanced/ai/" },
+      ] }],
     },
     search: { provider: "local" },
     outline: { label: "本页目录", level: [2, 3] },
