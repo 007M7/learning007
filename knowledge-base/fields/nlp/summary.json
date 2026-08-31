@@ -1,0 +1,41 @@
+{
+  "field": "nlp",
+  "title": "自然语言处理（NLP）",
+  "updated_at": "2026-08-31",
+  "books": {
+    "total": 10,
+    "downloaded_open_fulltext": 0,
+    "declared_open_fulltext": 2,
+    "official_online": 2,
+    "commercial_metadata_only": 6,
+    "download_failures": 2
+  },
+  "papers": {
+    "total": 120,
+    "open_access": 120,
+    "since_2023": 57,
+    "snapshot_date": "2026-08-30",
+    "topic_counts": {
+      "tasks-corpora": 16,
+      "tokenization": 15,
+      "semantics-embeddings": 11,
+      "encoders-decoders": 14,
+      "pretraining-adaptation": 15,
+      "structured-language": 13,
+      "generation": 15,
+      "multilingual": 15,
+      "retrieval-context": 15,
+      "factuality-evaluation": 15
+    },
+    "top_venues": {
+      "arXiv (Cornell University)": 41,
+      "Transactions of the Association for Computational Linguistics": 9,
+      "IEEE Access": 6,
+      "ACM Computing Surveys": 4,
+      "Computational Linguistics": 4,
+      "npj Digital Medicine": 4,
+      "Frontiers of Computer Science": 3,
+      "Journal of Artificial Intelligence Research": 3
+    }
+  }
+}

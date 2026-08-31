@@ -14,7 +14,13 @@
     "generate:fields": "node --experimental-strip-types scripts/generate-field-library.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:content": "node scripts/check-content.mjs",
-    "verify": "npm run check:links && npm run check:content && npm run build"
+    "verify": "npm run check:links && npm run check:content && npm run build",
+    "kb:init-books": "node scripts/knowledge-base/init-books.mjs",
+    "kb:refresh": "node scripts/knowledge-base/init-books.mjs && node scripts/knowledge-base/refresh-papers.mjs",
+    "kb:download-books": "node scripts/knowledge-base/download-books.mjs",
+    "kb:validate": "node scripts/knowledge-base/validate.mjs",
+    "kb:report": "node scripts/knowledge-base/report.mjs",
+    "analyze:writing-dna": "node scripts/analyze-reference-writing-dna.mjs"
   },
   "devDependencies": {
     "@types/node": "22.19.19",

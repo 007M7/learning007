@@ -1,0 +1,130 @@
+{
+  "query": "official PDF Dive into Deep Learning Geometric Deep Learning Mathematics for Machine Learning Speech Language Processing third edition",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://explorecourses.stanford.edu/search?q=all+courses&view=catalog&ref=stanfordreview.org&filter-term-Winter=off&filter-term-Summer=off&academicYear=20232024&filter-term-Autumn=off&filter-term-Spring=off&page=329&filter-coursestatus-Active=on",
+      "title": "CS 229B: Machine Learning for Sequence Modeling (STATS ...",
+      "content": "This course will cover fundamental concepts and principled algorithms in machine learning, Geometric deep learning on graphs and sets.",
+      "score": 0.98588,
+      "raw_content": null,
+      "id": "1d757a-00"
+    },
+    {
+      "url": "https://www.d2l.ai/chapter_preface/index.html",
+      "title": "Preface — Dive into Deep Learning 1.0.3 documentation",
+      "content": "Optimization and Deep Learning](https://www.d2l.ai/chapter_optimization/optimization-intro.html). Eigendecompositions](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/eigendecomposition.html). Multivariable Calculus](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/multivariable-calculus.html). Integral Calculus](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/integral-calculus.html). Distributions](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/distributions.html). Statistics](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/statistics.html). Information Theory](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/information-theory.html). Using Jupyter Notebooks](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/jupyter.html). Using Amazon SageMaker](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/sagemaker.html). Using Google Colab](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/colab.html). Contributing to This Book](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html). Utility Functions and Classes](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/utils.html). The `d2l` API Document](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/d2l.html). Optimization and Deep Learning](https://www.d2l.ai/chapter_optimization/optimization-intro.html). Eigendecompositions](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/eigendecomposition.html). Multivariable Calculus](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/multivariable-calculus.html). Integral Calculus](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/integral-calculus.html). Distributions](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/distributions.html). Statistics](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/statistics.html). Information Theory](https://www.d2l.ai/chapter_appendix-mathematics-for-deep-learning/information-theory.html). Using Jupyter Notebooks](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/jupyter.html). Using Amazon SageMaker](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/sagemaker.html). Using Google Colab](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/colab.html). Contributing to This Book](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/contributing.html). Utility Functions and Classes](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/utils.html). The `d2l` API Document](https://www.d2l.ai/chapter_appendix-tools-for-deep-learning/d2l.html). The book can be divided into roughly three parts, dealing with preliminaries, deep learning techniques, and advanced topics focused on real systems and applications ([Fig. 1](https://www.d2l.ai/chapter_preface/index.html#fig-book-org)). [Section 1](https://www.d2l.ai/chapter_introduction/index.html#chap-introduction) is an introduction to deep learning. Then, in [Section 2](https://www.d2l.ai/chapter_preliminaries/index.html#chap-preliminaries), we quickly bring you up to speed on the prerequisites required for hands-on deep learning, such as how to store and manipulate data, and how to apply various numerical operations based on elementary concepts from linear algebra, calculus, and probability. [Section 6](https://www.d2l.ai/chapter_builders-guide/index.html#chap-computation) describes the key computational components of deep learning systems and lays the groundwork for our subsequent implementations of more complex models. *   [Learning by Doing](https://www.d2l.ai/chapter_preface/index.html#learning-by-doing). *   [Code](https://www.d2l.ai/chapter_preface/index.html#code).",
+      "score": 0.98554,
+      "raw_content": null,
+      "id": "0a6b13-01"
+    },
+    {
+      "url": "https://d2l.ai/d2l-en.pdf",
+      "title": "d2l-en.pdf",
+      "content": "115 3.6.3 Model Selection 116 3.6.4 Summary 117 3.6.5 Exercises 117 3.7 Weight Decay 118 3.7.1 Norms and Weight Decay 119 3.7.2 High-Dimensional Linear Regression 120 3.7.3 Implementation from Scratch 121 3.7.4 Concise Implementation 122 3.7.5 Summary 124 3.7.6 Exercises 124 4 Linear Neural Networks for Classiﬁcation 125 4.1 Softmax Regression 125 v 4.1.1 Classification 126 4.1.2 Loss Function 129 4.1.3 Information Theory Basics 130 4.1.4 Summary and Discussion 131 4.1.5 Exercises 132 4.2 The Image Classification Dataset 134 4.2.1 Loading the Dataset 134 4.2.2 Reading a Minibatch 135 4.2.3 Visualization 136 4.2.4 Summary 137 4.2.5 Exercises 137 4.3 The Base Classification Model 138 4.3.1 The Classifier Class 138 4.3.2 Accuracy 138 4.3.3 Summary 139 4.3.4 Exercises 139 4.4 Softmax Regression Implementation from Scratch 140 4.4.1 The Softmax 140 4.4.2 The Model 141 4.4.3 The Cross-Entropy Loss 141 4.4.4 Training 142 4.4.5 Prediction 143 4.4.6 Summary 143 4.4.7 Exercises 144 4.5 Concise Implementation of Softmax Regression 144 4.5.1 Defining the Model 145 4.5.2 Softmax Revisited 145 4.5.3 Training 146 4.5.4 Summary 146 4.5.5 Exercises 147 4.6 Generalization in Classification 147 4.6.1 The Test Set 148 4.6.2 Test Set Reuse 150 4.6.3 Statistical Learning Theory 151 4.6.4 Summary 153 4.6.5 Exercises 154 4.7 Environment and Distribution Shift 154 4.7.1 Types of Distribution Shift 155 4.7.2 Examples of Distribution Shift 157 4.7.3 Correction of Distribution Shift 159 4.7.4 A Taxonomy of Learning Problems 163 4.7.5 Fairness, Accountability, and Transparency in Machine Learning 164 4.7.6 Summary 165 4.7.7 Exercises 166 vi 5 Multilayer Perceptrons 167 5.1 Multilayer Perceptrons 167 5.1.1 Hidden Layers 167 5.1.2 Activation Functions 171 5.1.3 Summary and Discussion 174 5.1.4 Exercises 175 5.2 Implementation of Multilayer Perceptrons 176 5.2.1 Implementation from Scratch 176 5.2.2 Concise Implementation 177 5.2.3 Summary 178 5.2.4 Exercises 179 5.3 Forward Propagation, Backward Propagation, and Computational Graphs 180 5.3.1 Forward Propagation 180 5.3.2 Computational Graph of Forward Propagation 181 5.3.3 Backpropagation 181 5.3.4 Training Neural Networks",
+      "score": 0.98506,
+      "raw_content": null,
+      "id": "d79848-02"
+    },
+    {
+      "url": "https://geometricdeeplearning.com/book/introduction.html",
+      "title": "Chapter 1: Introduction - Geometric Deep Learning",
+      "content": "an experimental revolution in data science and machine learning, epitomised by deep learning RNNs, a geometric domain, natural lan- guage processing and speech",
+      "score": 0.983,
+      "raw_content": null,
+      "id": "46f225-03"
+    },
+    {
+      "url": "https://d2l.ai",
+      "title": "Dive into Deep Learning",
+      "content": "# Dive into Deep Learning¶. ## Dive into Deep Learning. **Interactive** deep learning book with code, math, and discussions. * [Feb 2023] The book is forthcoming on Cambridge University Press (order). * [Jul 2022] Check out our new API for implementation and new topics like generalization in classification and deep learning, ResNeXt, CNN design space, and transformers for vision and large-scale pretraining. Birla Institute of Technology and Science, Hyderabad. Birla Institute of Technology and Science, Pilani. Center for Research and Advanced Studies of the National Polytechnic Institute. City University of Science and Information Technology. Gwangju Institute of Science and Technology. Higher Institute of Applied Science and Technology of Sousse. Hong Kong University of Science and Technology. Huazhong University of Science and Technology. Missouri University of Science and Technology. National Taichung University of Science and Technology. National University of Sciences and Technology. Pohang University of Science and Technology. Seoul National University of Science and Technology. University of Science and Technology of China.",
+      "score": 0.98178,
+      "raw_content": null,
+      "id": "2dfa90-04"
+    },
+    {
+      "url": "https://explorecourses.stanford.edu/search?q=CS&view=catalog&filter-term-Winter=off&filter-term-Summer=off&academicYear=20262027&filter-term-Autumn=off&filter-term-Spring=off&page=17&filter-coursestatus-Active=on%2F1000",
+      "title": "Stanford University Explore Courses",
+      "content": "This class integrates foundational concepts in time series analysis with modern machine learning methods for sequence modeling.",
+      "score": 0.97902,
+      "raw_content": null,
+      "id": "8e1cac-05"
+    },
+    {
+      "url": "https://d2l.ai/chapter_introduction/index.html",
+      "title": "1. Introduction — Dive into Deep Learning 1.0.3 documentation",
+      "content": "Until recently, nearly every computer program that you might have interacted with during an ordinary day was coded up as a rigid set of rules specifying precisely how it should behave. After huddling around a whiteboard for a few hours to ponder the problem, we might settle on the broad strokes of a working solution, for example: (i) users interact with the application through an interface running in a web browser or mobile application; (ii) our application interacts with a commercial-grade database engine to keep track of each user’s state and maintain records of historical transactions; and (iii) at the heart of our application, the *business logic* (you might say, the *brains*) of our application spells out a set of rules that map every conceivable circumstance to the corresponding action that our program should take. And when you are able to devise solutions that work \\(100\\%\\) of the time, you typically should not be worrying about machine learning.",
+      "score": 0.97743,
+      "raw_content": null,
+      "id": "39ba39-06"
+    },
+    {
+      "url": "https://d2l.ai/chapter_preliminaries/autograd.html",
+      "title": "2.5. Automatic Differentiation — Dive into Deep Learning 1.0.3 documentation",
+      "content": "While the calculations are straightforward, working them out by hand can be tedious and error-prone, and these issues only grow as our models become more complex. As we pass data through each successive function, the framework builds a *computational graph* that tracks how each value depends on others. Let’s assume that we are interested in differentiating the function \\(y = 2\\mathbf{x}^{\\top}\\mathbf{x}\\) with respect to the column vector \\(\\mathbf{x}\\). Before we calculate the gradient of \\(y\\) with respect to \\(\\mathbf{x}\\), we need a place to store it. Note that the gradient of a scalar-valued function with respect to a vector \\(\\mathbf{x}\\) is vector-valued with the same shape as \\(\\mathbf{x}\\). We now calculate our function of `x` and assign the result to `y`. We can now take the gradient of `y` with respect to `x` by calling its `backward` method. We can now take the gradient of `y` with respect to `x` by passing through the `grad` transform. We can now calculate the gradient of `y` with respect to `x` by calling the `gradient` method.",
+      "score": 0.97534,
+      "raw_content": null,
+      "id": "b2c432-07"
+    },
+    {
+      "url": "https://d2l.ai/chapter_recurrent-neural-networks/language-model.html",
+      "title": "9.3. Language Models — Dive into Deep Learning 1.0.3 documentation",
+      "content": "Language Models¶ Open the notebook in Colab Open the notebook in Colab Open the notebook in Colab Open the notebook in Colab Open the notebook in SageMaker Studio Lab. In Section 9.2, we saw how to map text sequences into tokens, where these tokens can be viewed as a sequence of discrete observations such as words or characters. Assume that the tokens in a text sequence of length \\(T\\) are in turn \\(x\\_1, x\\_2, \\ldots, x\\_T\\). The goal of *language models* is to estimate the joint probability of the whole sequence:. (9.3.1)¶\\[P(x\\_1, x\\_2, \\ldots, x\\_T),\\]. For instance, an ideal language model should generate natural text on its own, simply by drawing one token at a time \\(x\\_t \\sim P(x\\_t \\mid x\\_{t-1}, \\ldots, x\\_1)\\). (9.3.2)¶\\[P(x\\_1, x\\_2, \\ldots, x\\_T) = \\prod\\_{t=1}^T P(x\\_t \\mid x\\_1, \\ldots, x\\_{t-1}).\\]. A distribution over sequences satisfies the Markov property of first order if \\(P(x\\_{t+1} \\mid x\\_t, \\ldots, x\\_1) = P(x\\_{t+1} \\mid x\\_t)\\).",
+      "score": 0.97453,
+      "raw_content": null,
+      "id": "31c84e-08"
+    },
+    {
+      "url": "https://geometricdeeplearning.com/book",
+      "title": "GDL Book",
+      "content": "# Geometric Deep Learning. Grids, Groups, Graphs, Geodesics, and Gauges. The Geometric Deep Learning textbook is a resource intended to help students and practitioners enter the field of geometric deep learning. As we prepare for releasing our book with MIT Press, we will make individual draft chapters of the book available here. In addition, we have leveraged the material from the GDL Textbook to support Master’s level courses at both Oxford and Cambridge. **Mathematical Foundations of Geometric Deep Learning** *(Borde and Bronstein, 2025)*. #### **Part I:** *Geometric Foundations of Deep Learning*. | **Chapter 2**: *Foundations of Supervised Learning* | Lecture 3 (*Learning in High Dimension*) |  |. | **Chapter 3**: *Foundations of Equivariant Deep Learning* |  | Lecture 1 (*Introduction to Groups and Representations*) |. | **Chapter 4**: *Foundations of Geometric Deep Learning* | Lectures 4–5 (*Geometric Priors*) |  |. | **Chapter 8**: *Geometric Graphs* | Lecture 12 (*Geometric Graphs & Geometric GNNs*) |  |. @article{bronstein2021geometric, title=\"{Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges}\", author={Michael M.",
+      "score": 0.97202,
+      "raw_content": null,
+      "id": "cad232-09"
+    },
+    {
+      "url": "https://d2l.ai/chapter_appendix-mathematics-for-deep-learning/information-theory.html",
+      "title": "22.11. Information Theory — Dive into Deep Learning 1.0.3 documentation",
+      "content": "Information provides a common language across disciplinary rifts: from Shakespeare’s Sonnet to researchers’ paper on Cornell ArXiv, from Van Gogh’s printing Starry Night to Beethoven’s music Symphony No. 5, from the first programming language Plankalkül to the state-of-the-art machine learning algorithms. With information theory, we can measure and compare how much information is present in different signals. In this section, we will investigate the fundamental concepts of information theory and applications of information theory in machine learning. Before we get started, let’s outline the relationship between machine learning and information theory. For example, many machine learning applications use the cross-entropy loss as described in Section 4.1. Let’s start with the “soul” of information theory: information. Next, they flip over a card and say, “I see a heart.” This provides us some information, but in reality there are only \\(4\\) different suits that were possible, each equally likely, so we are not surprised by this outcome.",
+      "score": 0.97112,
+      "raw_content": null,
+      "id": "4d7907-10"
+    },
+    {
+      "url": "https://dokumen.pub/dive-into-deep-learning-0161nbsped.html",
+      "title": "Dive into Deep Learning [0.16.1 ed.] - DOKUMEN.PUB",
+      "content": "###### Dive Into Deep Learning. \"Mathematics for Machine Learning: A Deep Dive into Algorithms\" is a comprehensive guide that bridges the gap. *340*  *134*  *58MB* Read more](https://dokumen.pub/dive-into-deep-learning-1nbsped-9781009389433.html). Mathematics for Machine Learning: A Deep Dive into Algorithms. ###### Deep Dive. Understand the basics of flow and learn how to implement guidelines in real-life scenarios, including Robotic Process Au. Kinds of Machine Learning Problems. The Road to Deep Learning. Finding All the Functions and Classes in a Module. From Linear Regression to Deep Networks. Implementation of Softmax Regression from Scratch. Fairness, Accountability, and Transparency in Machine Learning. Deep Convolutional Neural Networks (AlexNet). Applying Batch Normalization in LeNet. Language Models and the Dataset. Implementation of Recurrent Neural Networks from Scratch. Training a Bidirectional RNN for a Wrong Application. Downloading and Preprocessing the Dataset. Concise Implementation for Multiple GPUs. Using an Image Augmentation Training Model. 1.3 Kinds of Machine Learning Problems 1.4 Roots . . 3.2.1 Generating the Dataset . 8.3.1 Learning a Language Model .",
+      "score": 0.97107,
+      "raw_content": null,
+      "id": "9bce61-11"
+    },
+    {
+      "url": "https://explorecourses.stanford.edu/search?q=CS&view=catalog&academicYear=20262027&filter-term-Spring=on&page=6&filter-coursestatus-Active=on",
+      "title": "70 of 127 results for: CS - Stanford University Explore Courses",
+      "content": "This course provides a broad and deep introduction to interpretability, Geometric deep learning on graphs and sets. able modeling of",
+      "score": 0.96668,
+      "raw_content": null,
+      "id": "3ce2e2-12"
+    },
+    {
+      "url": "https://classic.d2l.ai/chapter_introduction/index.html",
+      "title": "1. Introduction — Dive into Deep Learning 0.17.6 documentation",
+      "content": "We feed the training dataset into a supervised learning algorithm, a function that takes as input a dataset and outputs another function: the learned model.",
+      "score": 0.96301,
+      "raw_content": null,
+      "id": "c3a082-13"
+    },
+    {
+      "url": "https://mml-book.github.io/book/mml-book.pdf",
+      "title": "Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong",
+      "content": "Aldo Faisal Cheng Soon Ong Contents Foreword 1 Part I Mathematical Foundations 9 1 Introduction and Motivation 11 1.1 Finding Words for Intuitions 12 1.2 Two Ways to Read This Book 13 1.3 Exercises and Feedback 16 2 Linear Algebra 17 2.1 Systems of Linear Equations 19 2.2 Matrices 22 2.3 Solving Systems of Linear Equations 27 2.4 Vector Spaces 35 2.5 Linear Independence 40 2.6 Basis and Rank 44 2.7 Linear Mappings 48 2.8 Affine Spaces 61 2.9 Further Reading 63 Exercises 64 3 Analytic Geometry 70 3.1 Norms 71 3.2 Inner Products 72 3.3 Lengths and Distances 75 3.4 Angles and Orthogonality 76 3.5 Orthonormal Basis 78 3.6 Orthogonal Complement 79 3.7 Inner Product of Functions 80 3.8 Orthogonal Projections 81 3.9 Rotations 91 3.10 Further Reading 94 Exercises 96 4 Matrix Decompositions 98 4.1 Determinant and Trace 99 i This material is published by Cambridge University Press as Mathematics for Machine Learning by Marc Peter Deisenroth, A.",
+      "score": 0.95991,
+      "raw_content": null,
+      "id": "a8a705-14"
+    }
+  ],
+  "response_time": 4.98,
+  "request_id": "decd853b-4d20-4603-87cb-96df8930605e"
+}

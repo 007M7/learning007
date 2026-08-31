@@ -1,0 +1,130 @@
+{
+  "query": "authoritative deep learning textbooks official university course book",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://mitpress.mit.edu/9780262337373/deep-learning",
+      "title": "Deep Learning",
+      "content": "This is the definitive textbook on deep learning. Written by major contributors to the field, it is clear, comprehensive, and authoritative.",
+      "score": 0.98587,
+      "raw_content": null,
+      "id": "baadce-00"
+    },
+    {
+      "url": "https://www.deeplearningbook.org",
+      "title": "Deep Learning",
+      "content": "# Deep Learning. ## An MIT Press book. ### Ian Goodfellow and Yoshua Bengio and Aaron Courville. The Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free. The deep learning textbook can now be ordered on Amazon. @book{Goodfellow-et-al-2016, title={Deep Learning}, author={Ian Goodfellow and Yoshua Bengio and Aaron Courville}, publisher={MIT Press}, note={\\url{http://www.deeplearningbook.org}}, year={2016} }. * Part I: Applied Math and Machine Learning Basics. + 7 Regularization for Deep Learning. * Part III: Deep Learning Research. + 16 Structured Probabilistic Models for Deep Learning. * Can I get a PDF of this book? * Why are you using HTML format for the web version of the book? This format is a sort of weak DRM required by our contract with MIT Press.",
+      "score": 0.98514,
+      "raw_content": null,
+      "id": "f2d294-01"
+    },
+    {
+      "url": "https://d2l.ai/d2l-en.pdf",
+      "title": "d2l-en.pdf",
+      "content": "115 3.6.3 Model Selection 116 3.6.4 Summary 117 3.6.5 Exercises 117 3.7 Weight Decay 118 3.7.1 Norms and Weight Decay 119 3.7.2 High-Dimensional Linear Regression 120 3.7.3 Implementation from Scratch 121 3.7.4 Concise Implementation 122 3.7.5 Summary 124 3.7.6 Exercises 124 4 Linear Neural Networks for Classiﬁcation 125 4.1 Softmax Regression 125 v 4.1.1 Classification 126 4.1.2 Loss Function 129 4.1.3 Information Theory Basics 130 4.1.4 Summary and Discussion 131 4.1.5 Exercises 132 4.2 The Image Classification Dataset 134 4.2.1 Loading the Dataset 134 4.2.2 Reading a Minibatch 135 4.2.3 Visualization 136 4.2.4 Summary 137 4.2.5 Exercises 137 4.3 The Base Classification Model 138 4.3.1 The Classifier Class 138 4.3.2 Accuracy 138 4.3.3 Summary 139 4.3.4 Exercises 139 4.4 Softmax Regression Implementation from Scratch 140 4.4.1 The Softmax 140 4.4.2 The Model 141 4.4.3 The Cross-Entropy Loss 141 4.4.4 Training 142 4.4.5 Prediction 143 4.4.6 Summary 143 4.4.7 Exercises 144 4.5 Concise Implementation of Softmax Regression 144 4.5.1 Defining the Model 145 4.5.2 Softmax Revisited 145 4.5.3 Training 146 4.5.4 Summary 146 4.5.5 Exercises 147 4.6 Generalization in Classification 147 4.6.1 The Test Set 148 4.6.2 Test Set Reuse 150 4.6.3 Statistical Learning Theory 151 4.6.4 Summary 153 4.6.5 Exercises 154 4.7 Environment and Distribution Shift 154 4.7.1 Types of Distribution Shift 155 4.7.2 Examples of Distribution Shift 157 4.7.3 Correction of Distribution Shift 159 4.7.4 A Taxonomy of Learning Problems 163 4.7.5 Fairness, Accountability, and Transparency in Machine Learning 164 4.7.6 Summary 165 4.7.7 Exercises 166 vi 5 Multilayer Perceptrons 167 5.1 Multilayer Perceptrons 167 5.1.1 Hidden Layers 167 5.1.2 Activation Functions 171 5.1.3 Summary and Discussion 174 5.1.4 Exercises 175 5.2 Implementation of Multilayer Perceptrons 176 5.2.1 Implementation from Scratch 176 5.2.2 Concise Implementation 177 5.2.3 Summary 178 5.2.4 Exercises 179 5.3 Forward Propagation, Backward Propagation, and Computational Graphs 180 5.3.1 Forward Propagation 180 5.3.2 Computational Graph of Forward Propagation 181 5.3.3 Backpropagation 181 5.3.4 Training Neural Networks",
+      "score": 0.98165,
+      "raw_content": null,
+      "id": "dfef2f-02"
+    },
+    {
+      "url": "https://d2l.ai",
+      "title": "Dive into Deep Learning",
+      "content": "# Dive into Deep Learning¶. ## Dive into Deep Learning. **Interactive** deep learning book with code, math, and discussions. * [Feb 2023] The book is forthcoming on Cambridge University Press (order). * [Jul 2022] Check out our new API for implementation and new topics like generalization in classification and deep learning, ResNeXt, CNN design space, and transformers for vision and large-scale pretraining. Birla Institute of Technology and Science, Hyderabad. Birla Institute of Technology and Science, Pilani. Center for Research and Advanced Studies of the National Polytechnic Institute. City University of Science and Information Technology. Gwangju Institute of Science and Technology. Higher Institute of Applied Science and Technology of Sousse. Hong Kong University of Science and Technology. Huazhong University of Science and Technology. Missouri University of Science and Technology. National Taichung University of Science and Technology. National University of Sciences and Technology. Pohang University of Science and Technology. Seoul National University of Science and Technology. University of Science and Technology of China.",
+      "score": 0.98131,
+      "raw_content": null,
+      "id": "37035d-03"
+    },
+    {
+      "url": "https://udlbook.github.io/udlbook",
+      "title": "Understanding Deep Learning",
+      "content": "1. Introduction: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap1PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1udnl5pUOAc8DcAQ7HQwyzP9pwL95ynnv) / [PPTX](https://docs.google.com/presentation/d/1IjTqIUvWCJc71b5vEJYte-Dwujcp7rvG/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 2. Supervised learning: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap2PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1VSxcU5y1qNFlmd3Lb3uOWyzILuOj1Dla) / [PPTX](https://docs.google.com/presentation/d/1Br7R01ROtRWPlNhC_KOommeHAWMBpWtz/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 3. Shallow neural networks: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap3PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=19kZFWlXhzN82Zx02ByMmSZOO4T41fmqI) / [PPTX](https://docs.google.com/presentation/d/1e9M3jB5I9qZ4dCBY90Q3Hwft_i068QVQ/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 4. Deep neural networks: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap4PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1ojr0ebsOhzvS04ItAflX2cVmYqHQHZUa) / [PPTX](https://docs.google.com/presentation/d/1LTSsmY4mMrJbqXVvoTOCkQwHrRKoYnJj/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 5. Loss functions: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap5PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=17MJO7fiMpFZVqKeqXTbQ36AMpmR4GizZ) / [PPTX](https://docs.google.com/presentation/d/1gcpC_3z9oRp87eMkoco-kdLD-MM54Puk/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 6. Training models: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap6PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1VPdhFRnCr9_idTrX0UdHKGAw2shUuwhK) / [PPTX](https://docs.google.com/presentation/d/1AKoeggAFBl9yLC7X5tushAGzCCxmB7EY/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 7. Gradients and initialization: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap7PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1TTl4gvrTvNbegnml4CoGoKOOd6O8-PGs) / [PPTX](https://docs.google.com/presentation/d/11zhB6PI-Dp6Ogmr4IcI6fbvbqNqLyYcz/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 8. Measuring performance: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap8PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=19eQOnygd_l0DzgtJxXuYnWa4z7QKJrJx) / [PPTX](https://docs.google.com/presentation/d/1SHRmJscDLUuQrG7tmysnScb3ZUAqVMZo/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). 9. Regularization: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap9PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1LprgnUGL7xAM9-jlGZC9LhMPeefjY0r0) / [PPTX](https://docs.google.com/presentation/d/1VwIfvjpdfTny6sEfu4ZETwCnw6m8Eg-5/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Convolutional networks: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap10PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1-Wb3VzaSvVeRzoUzJbI2JjZE0uwqupM9) / [PPTX](https://docs.google.com/presentation/d/1MtfKBC4Y9hWwGqeP6DVwUNbi1j5ncQCg/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Residual networks: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap11PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1Mr58jzEVseUAfNYbGWCQyDtEDwvfHRi1) / [PPTX](https://docs.google.com/presentation/d/1saY8Faz0KTKAAifUrbkQdLA2qkyEjOPI/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Transformers: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap12PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1txzOVNf8-jH4UfJ6SLnrtOfPd1Q3ebzd) / [PPTX](https://docs.google.com/presentation/d/1GVNvYWa0WJA6oKg89qZre-UZEhABfm0l/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Graph neural networks: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap13PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1lQIV6nRp6LVfaMgpGFhuwEXG-lTEaAwe) / [PPTX](https://docs.google.com/presentation/d/1YwF3U82c1mQ74c1WqHVTzLZ0j7GgKaWP/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Unsupervised learning: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap14PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1aMbI6iCuUvOywqk5pBOmppJu1L1anqsM) / [PPTX](https://docs.google.com/presentation/d/1A-lBGv3NHl4L32NvfFgy1EKeSwY-0UeB/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). GANs: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap15PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1EErnlZCOlXc3HK7m83T2Jh_0NzIUHvtL) / [PPTX](https://docs.google.com/presentation/d/10Ernk41ShOTf4IYkMD-l4dJfKATkXH4w/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Normalizing flows: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap16PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1SNtNIY7khlHQYMtaOH-FosSH3kWwL4b7) / [PPTX](https://docs.google.com/presentation/d/1nLLzqb9pdfF_h6i1HUDSyp7kSMIkSUUA/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Variational autoencoders: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap17PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1B9bxtmdugwtg-b7Y4AdQKAIEVWxjx8l3) / [PPTX](https://docs.google.com/presentation/d/1lQE4Bu7-LgvV2VlJOt_4dQT-kusYl7Vo/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Diffusion models: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap18PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1A-pIGl4PxjVMYOKAUG3aT4a8wD3G-q_r) / [PPTX](https://docs.google.com/presentation/d/1x_ufIBtVPzWUvRieKMkpw5SdRjXWwdfR/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Deep reinforcement learning: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap19PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1a5WUoF7jeSgwC_PVdckJi1Gny46fCqh0) / [PPTX](https://docs.google.com/presentation/d/1TnYmVbFNhmMFetbjyfXGmkxp1EHauMqr/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Why does deep learning work?: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap20PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1M2d0DHEgddAQoIedKSDTTt7m1ZdmBLQ3) / [PPTX](https://docs.google.com/presentation/d/1coxF4IsrCzDTLrNjRagHvqB_FBy10miA/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true). Deep learning and ethics: [PDF](https://github.com/udlbook/udlbook/raw/main/PDFFigures/UDLChap21PDF.zip) /  [SVG](https://drive.google.com/uc?export=download&id=1jixmFfwmZkW_UVYzcxmDcMsdFFtnZ0bU) / [PPTX](https://docs.google.com/presentation/d/1EtfzanZYILvi9_-Idm28zD94I_6OrN9R/edit?usp=drive_link&ouid=110441678248547154185&rtpof=true&sd=true).",
+      "score": 0.97971,
+      "raw_content": null,
+      "id": "d7c1f3-04"
+    },
+    {
+      "url": "https://gradml.mit.edu/info/books",
+      "title": "Books - 6.790 Machine Learning - MIT",
+      "content": "# Primary textbooks. * [M1] Probabilistic Machine Learning: An Introduction, Kevin Murphy, MIT Press, 2022. * [M2] Probabilistic Machine Learning: Advanced Topics, Kevin Murphy, MIT Press, 2023. # Other recommended reading. * [Ba] Learning Theory from First Principles Bach, 2025. * [B] Pattern Recognition and Machine Learning, Bishop; Springer, 2006. * [B2] Deep Learning Foundations and Concepts, Bishop; Bishop, 2024. * [HTF] The Elements of Statistical Learning, Hastie, Tibshirani, and Friedman; Springer, 2009. * [HR] Patterns, Predictions, and Actions A story about machine learning Hardt and Recht; Princeton University Press, 2022. * [SB]/[SSS] Understanding Machine Learning: From Theory to Algorithms, Shalev-Shwartz and Ben-David; Cambridge University Press, 2014. * [JWHT] An Introduction to Statistical Learning, James, Witten, Hastie, and Tibshirani; Springer, 2023. * [T] Deep learning theory lecture notes, Matus, Telgarsky; 2021. * [PH] Formal Algorithms for Transformers, Phuong, Hutter; 2022. All freely accessible (an MIT IP may be required).",
+      "score": 0.97768,
+      "raw_content": null,
+      "id": "565e36-05"
+    },
+    {
+      "url": "https://mitpress.mit.edu/supporting-sustainable-scholarship-for-back-to-school",
+      "title": "Supporting sustainable scholarship for back to school",
+      "content": "Understanding Deep Learning provides an authoritative, accessible, and up-to-date treatment of the subject, covering all the key topics",
+      "score": 0.97718,
+      "raw_content": null,
+      "id": "9583c2-06"
+    },
+    {
+      "url": "https://mitpress.mit.edu/9780262048644/understanding-deep-learning",
+      "title": "Understanding Deep Learning",
+      "content": "MIT Press Direct is a distinctive collection of influential MIT Press books curated for scholars and libraries worldwide. MIT Press began publishing journals in 1970 with the first volumes of *Linguistic Inquiry* and the *Journal of Interdisciplinary History*. The MIT Press has been a leader in open access book publishing for over two decades, beginning in 1995 with the publication of William Mitchell’s City of Bits, which appeared simultaneously in print and in a dynamic, open web edition. Collaborating with authors, instructors, booksellers, librarians, and the media is at the heart of what we do as a scholarly publisher. Established in 1962, the MIT Press is one of the largest and most distinguished university presses in the world and a leading publisher of books and journals at the intersection of science, technology, art, social science, and design. Cover of 'Understanding Deep Learning' by Simon J. *Understanding Deep Learning* provides an authoritative, accessible, and up-to-date treatment of the subject, covering all the key topics along with recent advances and cutting-edge concepts.",
+      "score": 0.97401,
+      "raw_content": null,
+      "id": "4b66dd-07"
+    },
+    {
+      "url": "https://mitpress.mit.edu/9780262035613/deep-learning",
+      "title": "Deep Learning",
+      "content": "The MIT Press has been a leader in open access book publishing for over two decades, beginning in 1995 with the publication of William Mitchell’s City of Bits, which appeared simultaneously in print and in a dynamic, open web edition. Collaborating with authors, instructors, booksellers, librarians, and the media is at the heart of what we do as a scholarly publisher. Established in 1962, the MIT Press is one of the largest and most distinguished university presses in the world and a leading publisher of books and journals at the intersection of science, technology, art, social science, and design. Cover of 'Deep Learning' by Ian Goodfellow, Yoshua Bengio and Aaron Courville. An introduction to a broad range of topics in deep learning, covering mathematical and conceptual background, deep learning techniques used in industry, and research perspectives. Deep learning is a form of machine learning that enables computers to learn from experience and understand the world in terms of a hierarchy of concepts.",
+      "score": 0.97065,
+      "raw_content": null,
+      "id": "3bfb79-08"
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/deep-learning-in-a-disorienting-world/cultivating-a-deep-learning-mindset/1681772E270DF3E20AEF3371A3ED1CEB",
+      "title": "Cultivating a Deep Learning Mindset (Chapter 10)",
+      "content": "enhance deep learning in oneself and others. Book: Deep Learning in a Disorienting World Online publication: 29 November 2019",
+      "score": 0.9697,
+      "raw_content": null,
+      "id": "2b30b6-09"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-031-45468-4",
+      "title": "Deep Learning",
+      "content": "We also use optional cookies for advertising, personalisation of content, usage analysis, and social media, as well as to allow video information to be shared for both marketing, analytics and editorial purposes. By accepting optional cookies, you consent to the processing of your personal data - including transfers to third parties. See our privacy policy for more information on the use of your personal data. Manage preferences for further information and to change your choices. This is a preview of subscription content, log in via an institution to check access. The field of deep learning is undergoing rapid evolution, and therefore this book focusses on ideas that are likely to endure the test of time. **Hugh Bishop** is an Applied Scientist at Wayve, a deep learning autonomous driving company in London, where he designs and trains deep neural networks. _“Chris Bishop wrote a terrific textbook on neural networks in 1995 and has a deep knowledge of the field and its core ideas. *   Deep Learning Regularization Techniques in Neural Networks.",
+      "score": 0.96851,
+      "raw_content": null,
+      "id": "ec49dc-10"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10798-022-09789-4",
+      "title": "A pedagogical study on promoting students' deep learning ...",
+      "content": "by C Weng · 2023 · Cited by 216 — This paper illustrates the design-based learning (DBL) approach to promoting the deep learning of students and improving the quality of",
+      "score": 0.96581,
+      "raw_content": null,
+      "id": "d04931-11"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-030-36721-3",
+      "title": "Deep Learning Architectures",
+      "content": "We also use optional cookies for advertising, personalisation of content, usage analysis, and social media, as well as to allow video information to be shared for both marketing, analytics and editorial purposes. By accepting optional cookies, you consent to the processing of your personal data - including transfers to third parties. See our privacy policy for more information on the use of your personal data. Manage preferences for further information and to change your choices. Part of the book series:Springer Series in the Data Sciences (SSDS). This is a preview of subscription content, log in via an institution to check access. The book bridges the gap between ideas and concepts of neural networks, which are used nowadays at an intuitive level, and the precise modern mathematical language, presenting the best practices of the former and enjoying the robustness and elegance of the latter. In addition, the book will be of wide interest to machine learning researchers who are interested in a theoretical understanding of the subject.",
+      "score": 0.96372,
+      "raw_content": null,
+      "id": "c4885e-12"
+    },
+    {
+      "url": "https://link.springer.com/referencework/10.1007/978-1-4899-7502-7",
+      "title": "Encyclopedia of Machine Learning and Data Science",
+      "content": "This authoritative, expanded and updated third edition of Encyclopedia of Machine Learning and Data Mining provides easy access to core information for",
+      "score": 0.96103,
+      "raw_content": null,
+      "id": "bf2806-13"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-032-10738-1",
+      "title": "Elements of Deep Learning | Springer Nature Link",
+      "content": "This textbook provides a rigorous yet accessible introduction to deep learning, covering foundations, advanced models, emerging topics, and applications.",
+      "score": 0.95974,
+      "raw_content": null,
+      "id": "691644-14"
+    }
+  ],
+  "response_time": 0.0,
+  "request_id": "5f4d8144-d701-47eb-9be1-c47251e6045e"
+}

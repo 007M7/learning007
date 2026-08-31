@@ -1,0 +1,303 @@
+{
+  "field": "deep-learning",
+  "title": "深度学习",
+  "curated_count": 10,
+  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "records": [
+    {
+      "id": "book:deep-learning:deep-learning-book",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Ian Goodfellow",
+        "Yoshua Bengio",
+        "Aaron Courville"
+      ],
+      "year": 2016,
+      "publisher": "MIT Press",
+      "topics": [
+        "neural-networks",
+        "optimization",
+        "generative-models"
+      ],
+      "official_url": "https://www.deeplearningbook.org/",
+      "authority_reason": "现代深度学习的经典系统教材，由领域奠基研究者编写。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:d2l",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Dive into Deep Learning",
+      "authors": [
+        "Aston Zhang",
+        "Zachary C. Lipton",
+        "Mu Li",
+        "Alexander J. Smola"
+      ],
+      "year": 2023,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "neural-networks",
+        "implementation",
+        "transformers"
+      ],
+      "official_url": "https://d2l.ai/",
+      "authority_reason": "将数学、代码和现代架构结合的开放教材，持续维护且适合动手学习。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://d2l.ai/d2l-en.pdf",
+        "license": "CC-BY-SA",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:05:31.241Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:understanding-dl",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Understanding Deep Learning",
+      "authors": [
+        "Simon J. D. Prince"
+      ],
+      "year": 2023,
+      "publisher": "MIT Press",
+      "topics": [
+        "foundations",
+        "optimization",
+        "generative-models"
+      ],
+      "official_url": "https://udlbook.github.io/udlbook/",
+      "authority_reason": "现代深度学习教材，图示与练习强调从机制建立理解。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:nndl",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Neural Networks and Deep Learning",
+      "authors": [
+        "Michael Nielsen"
+      ],
+      "year": 2015,
+      "publisher": "Determination Press",
+      "topics": [
+        "neural-networks",
+        "backpropagation",
+        "optimization"
+      ],
+      "official_url": "http://neuralnetworksanddeeplearning.com/",
+      "authority_reason": "以直觉和推导讲解神经网络、反向传播与正则化的开放在线教材。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:geometric-dl",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
+      "authors": [
+        "Michael M. Bronstein",
+        "Joan Bruna",
+        "Taco Cohen",
+        "Petar Veličković"
+      ],
+      "year": 2021,
+      "publisher": "authors",
+      "topics": [
+        "geometric-learning",
+        "graphs",
+        "symmetry"
+      ],
+      "official_url": "https://geometricdeeplearning.com/book",
+      "authority_reason": "几何深度学习统一视角的权威开放在线专著，由该方向核心研究者编写。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:probml-intro",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "authors": [
+        "Kevin P. Murphy"
+      ],
+      "year": 2022,
+      "publisher": "MIT Press",
+      "topics": [
+        "probabilistic-modeling",
+        "deep-learning",
+        "uncertainty"
+      ],
+      "official_url": "https://probml.github.io/pml-book/book1.html",
+      "authority_reason": "用概率视角连接经典机器学习与现代神经网络。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:probml-advanced",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Probabilistic Machine Learning: Advanced Topics",
+      "authors": [
+        "Kevin P. Murphy"
+      ],
+      "year": 2023,
+      "publisher": "MIT Press",
+      "topics": [
+        "generative-models",
+        "latent-variables",
+        "causal-models"
+      ],
+      "official_url": "https://probml.github.io/pml-book/book2.html",
+      "authority_reason": "覆盖变分推断、生成模型和高级概率方法的现代进阶教材。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:mathematics-for-ml",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Mathematics for Machine Learning",
+      "authors": [
+        "Marc Peter Deisenroth",
+        "A. Aldo Faisal",
+        "Cheng Soon Ong"
+      ],
+      "year": 2020,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "linear-algebra",
+        "calculus",
+        "probability"
+      ],
+      "official_url": "https://mml-book.github.io/",
+      "authority_reason": "深度学习所需线性代数、微积分和概率的可靠前置。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://mml-book.github.io/book/mml-book.pdf",
+        "license": "CC-BY-NC-SA",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:06:31.254Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:slp3",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Speech and Language Processing (3rd ed. draft)",
+      "authors": [
+        "Dan Jurafsky",
+        "James H. Martin"
+      ],
+      "year": 2026,
+      "publisher": "authors",
+      "topics": [
+        "transformers",
+        "language-models",
+        "speech"
+      ],
+      "official_url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "authority_reason": "NLP 与语言模型课程的权威持续更新教材，覆盖 Transformer 和大模型。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:07:31.262Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:deep-learning:generative-dl",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Generative Deep Learning (2nd ed.)",
+      "authors": [
+        "David Foster"
+      ],
+      "year": 2023,
+      "publisher": "O'Reilly",
+      "topics": [
+        "generative-models",
+        "vae",
+        "gan",
+        "diffusion"
+      ],
+      "official_url": "https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/",
+      "authority_reason": "面向实践系统梳理主要深度生成模型的专业教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    }
+  ]
+}

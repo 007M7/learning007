@@ -1,0 +1,41 @@
+{
+  "field": "machine-learning",
+  "title": "机器学习",
+  "updated_at": "2026-08-31",
+  "books": {
+    "total": 10,
+    "downloaded_open_fulltext": 0,
+    "declared_open_fulltext": 7,
+    "official_online": 3,
+    "commercial_metadata_only": 0,
+    "download_failures": 7
+  },
+  "papers": {
+    "total": 120,
+    "open_access": 113,
+    "since_2023": 48,
+    "snapshot_date": "2026-08-30",
+    "topic_counts": {
+      "statistical-learning": 12,
+      "data-evaluation": 15,
+      "linear-probabilistic": 14,
+      "trees-boosting": 12,
+      "kernels-representation": 15,
+      "optimization-regularization": 15,
+      "automl-tabular": 15,
+      "causal-inference": 14,
+      "uncertainty-fairness": 11,
+      "production-ml": 7
+    },
+    "top_venues": {
+      "Machine Learning": 5,
+      "arXiv (Cornell University)": 5,
+      "ACM Computing Surveys": 5,
+      "Journal Of Big Data": 4,
+      "Scientific Reports": 4,
+      "Nature Communications": 3,
+      "Information Fusion": 2,
+      "The Annals of Statistics": 2
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "field": "robotics",
+  "title": "物理 AI · 机器人",
+  "curated_count": 10,
+  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "records": [
+    {
+      "id": "book:robotics:modern-robotics",
+      "field": "robotics",
+      "kind": "book",
+      "title": "Modern Robotics: Mechanics, Planning, and Control",
+      "authors": [
+        "Kevin M. Lynch",
+        "Frank C. Park"
+      ],
+      "year": 2017,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "kinematics",
+        "dynamics",
+        "planning",
+        "control"
+      ],
+      "official_url": "https://modernrobotics.northwestern.edu/",
+      "authority_reason": "现代机器人学核心教材，配套公开视频、代码和作者开放 PDF。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://hades.mech.northwestern.edu/images/archive/8/81/20170504034538!MR-largefont.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:11:27.446Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:planning-algorithms",
+      "field": "robotics",
+      "kind": "book",
+      "title": "Planning Algorithms",
+      "authors": [
+        "Steven M. LaValle"
+      ],
+      "year": 2006,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "motion-planning",
+        "search",
+        "control"
+      ],
+      "official_url": "https://lavalle.pl/planning/",
+      "authority_reason": "机器人运动规划与算法领域的经典开放教材。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://lavalle.pl/planning/book.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:12:27.461Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:underactuated",
+      "field": "robotics",
+      "kind": "book",
+      "title": "Underactuated Robotics",
+      "authors": [
+        "Russ Tedrake"
+      ],
+      "year": 2026,
+      "publisher": "MIT",
+      "topics": [
+        "dynamics",
+        "control",
+        "optimization"
+      ],
+      "official_url": "https://underactuated.csail.mit.edu/",
+      "authority_reason": "MIT 持续维护的研究生课程教材，覆盖非线性动力学、控制与轨迹优化。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:state-estimation",
+      "field": "robotics",
+      "kind": "book",
+      "title": "State Estimation for Robotics",
+      "authors": [
+        "Timothy D. Barfoot"
+      ],
+      "year": 2017,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "state-estimation",
+        "lie-groups",
+        "slam"
+      ],
+      "official_url": "http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf",
+      "authority_reason": "机器人状态估计与 Lie 群方法的重要研究生教材。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:13:27.476Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:math-robotic-manipulation",
+      "field": "robotics",
+      "kind": "book",
+      "title": "A Mathematical Introduction to Robotic Manipulation",
+      "authors": [
+        "Richard M. Murray",
+        "Zexiang Li",
+        "S. Shankar Sastry"
+      ],
+      "year": 1994,
+      "publisher": "CRC Press",
+      "topics": [
+        "manipulation",
+        "kinematics",
+        "control"
+      ],
+      "official_url": "https://www.cds.caltech.edu/~murray/books/MLS/pdf/mlsw.pdf",
+      "authority_reason": "操作机器人几何、运动学与控制的经典数学教材，作者提供开放版本。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cds.caltech.edu/~murray/books/MLS/pdf/mlsw.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:13:27.854Z",
+        "download_error": "fetch failed"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:probabilistic-robotics",
+      "field": "robotics",
+      "kind": "book",
+      "title": "Probabilistic Robotics",
+      "authors": [
+        "Sebastian Thrun",
+        "Wolfram Burgard",
+        "Dieter Fox"
+      ],
+      "year": 2005,
+      "publisher": "MIT Press",
+      "topics": [
+        "localization",
+        "mapping",
+        "planning"
+      ],
+      "official_url": "https://mitpress.mit.edu/9780262201629/probabilistic-robotics/",
+      "authority_reason": "概率机器人、定位与 SLAM 领域的奠基性教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:springer-handbook",
+      "field": "robotics",
+      "kind": "handbook",
+      "title": "Springer Handbook of Robotics (2nd ed.)",
+      "authors": [
+        "Bruno Siciliano",
+        "Oussama Khatib"
+      ],
+      "year": 2016,
+      "publisher": "Springer",
+      "topics": [
+        "robotics-handbook",
+        "control",
+        "perception",
+        "hri"
+      ],
+      "official_url": "https://link.springer.com/referencework/10.1007/978-3-319-32552-1",
+      "authority_reason": "覆盖机器人学主要分支的旗舰参考手册，由全球领域专家共同编写。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:robotics-vision-control",
+      "field": "robotics",
+      "kind": "book",
+      "title": "Robotics, Vision and Control",
+      "authors": [
+        "Peter Corke"
+      ],
+      "year": 2023,
+      "publisher": "Springer",
+      "topics": [
+        "robotics",
+        "computer-vision",
+        "control"
+      ],
+      "official_url": "https://link.springer.com/book/10.1007/978-3-031-06469-2",
+      "authority_reason": "把机器人建模、视觉和控制与可运行工具箱结合的权威实践教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:autonomous-mobile-robots",
+      "field": "robotics",
+      "kind": "book",
+      "title": "Introduction to Autonomous Mobile Robots (2nd ed.)",
+      "authors": [
+        "Roland Siegwart",
+        "Illah R. Nourbakhsh",
+        "Davide Scaramuzza"
+      ],
+      "year": 2011,
+      "publisher": "MIT Press",
+      "topics": [
+        "mobile-robots",
+        "localization",
+        "navigation"
+      ],
+      "official_url": "https://mitpress.mit.edu/9780262015356/introduction-to-autonomous-mobile-robots/",
+      "authority_reason": "自主移动机器人感知、定位与导航的经典综合教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:robotics:principles-robot-motion",
+      "field": "robotics",
+      "kind": "book",
+      "title": "Principles of Robot Motion",
+      "authors": [
+        "Howie Choset",
+        "Kevin M. Lynch",
+        "Seth Hutchinson",
+        "George Kantor",
+        "Wolfram Burgard",
+        "Lydia E. Kavraki",
+        "Sebastian Thrun"
+      ],
+      "year": 2005,
+      "publisher": "MIT Press",
+      "topics": [
+        "motion-planning",
+        "localization",
+        "control"
+      ],
+      "official_url": "https://mitpress.mit.edu/9780262033275/principles-of-robot-motion/",
+      "authority_reason": "由规划与概率机器人重要学者共同编写的机器人运动教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    }
+  ]
+}

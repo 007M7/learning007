@@ -13,7 +13,8 @@ writeOverview(learningFields, fieldEvidenceCutoff);
 for (const [slug, domain] of Object.entries(domains)) {
   const field = learningFieldBySlug[slug.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`)];
   if (!field) throw new Error(`Unknown field data: ${slug}`);
-  if (domain.details.length !== field.chapters.length) throw new Error(`${slug} expected ${field.chapters.length} details, received ${domain.details.length}`);
+  const evidenceClusters = new Set(field.chapters.map((_, index) => Math.floor(index / 4))).size;
+  if (domain.details.length !== evidenceClusters) throw new Error(`${slug} expected ${evidenceClusters} source clusters, received ${domain.details.length}`);
   writeDomain(field, domain, fieldEvidenceCutoff);
 }
 

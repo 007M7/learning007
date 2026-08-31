@@ -1,0 +1,130 @@
+{
+  "query": "official PDF Modern Robotics Planning Algorithms State Estimation for Robotics Mathematical Introduction Robotic Manipulation",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://hades.mech.northwestern.edu/images/archive/8/81/20170504034538!MR-largefont.pdf",
+      "title": "MODERN ROBOTICS - Mech",
+      "content": "Prentice-Hall, Upper Saddle River, NJ, 1977.\n B. Mishra, J. T. Schwartz, and M. Sharir. On the existence and synthesis of multiﬁnger positive grips. Algorithmica, 2(4):541–558, 1987.\n P. Morin and C. Samson. Motion control of wheeled mobile robots. In B. Siciliano and O. Khatib, editors, Handbook of Robotics, First Edition, pages 799–826. Springer-Verlag, 2008.\n R. Murray, Z. Li, and S. Sastry. A Mathematical Introduction to Robotic Manipulation. CRC Press, Boca Raton, FL, 1994.\n T. Nef, M. Guidali, and R. Riener. ARMin III—arm therapy exoskeleton with an ergonomic shoulder actuation. Applied Bionics and Biomechanics, 6(2):127–142, 2009.\nc ⃝Lynch and Park. Nov. 2016 preprint of Modern Robotics, Cambridge U. Press, 2017. [...] . . . . . . . . . . 515 13.2.1 Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . 515 13.2.2 Motion Planning . . . . . . . . . . . . . . . . . . . . . . . 520 13.2.3 Feedback Control . . . . . . . . . . . . . . . . . . . . . . . 520 13.3 Nonholonomic Wheeled Mobile Robots . . . . . . . . . . . . . . . 520 13.3.1 Modeling . . . . . . . . . . . . . . . . . . . . . . . . . . . 521 13.3.2 Controllability . . . . . . . . . . . . . . . . . . . . . . . . 528 13.3.3 Motion Planning . . . . . . . . . . . . . . . . . . . . . . . 537 13.3.4 Feedback Control . . . . . . . . . . . . . . . . . . . . . . . 542 13.4 Odometry . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 546 13.5 Mobile Manipulation . . . . . . . . . . . . . . . . . . . . . . . . . 548 13.6 Summary . . . . . . [...] c ⃝Lynch and Park. Nov. 2016 preprint of Modern Robotics, Cambridge U. Press, 2017.\n602 Bibliography Permenter, B. K. Hargrave, R. Platt, R. T. Savely, and R. O. Ambrose.\nRobonaut 2—The ﬁrst humanoid robot in space. In IEEE International Conference on Robotics and Automation, 2011.\n E. W. Dijkstra. A note on two problems in connexion with graphs. Nu-merische Mathematik, 1:269–271, December 1959.\n B. R. Donald and P. Xavier. Provably good approximation algorithms for optimal kinodynamic planning for Cartesian robots and open chain manipulators. Algorithmica, 4(6):480–530, 1995.\n B. R. Donald and P. Xavier. Provably good approximation algorithms for optimal kinodynamic planning: robots with decoupled dynamics bounds.\nAlgorithmica, 4(6):443–479, 1995.",
+      "score": 0.5855047,
+      "raw_content": null,
+      "id": "4a2770-00"
+    },
+    {
+      "url": "https://www.cds.caltech.edu/~murray/mlswiki/index.php/First_edition",
+      "title": "First edition - MLSwiki",
+      "content": "Jan 24, 2021 — This page contains information on the first edition of A Mathematical Introduction to Robotic Manipulation. Complete PDF for first edition (2.7M).Read more",
+      "score": 0.528753,
+      "raw_content": null,
+      "id": "c0ad6f-01"
+    },
+    {
+      "url": "https://www.cds.caltech.edu/~murray/books/MLS",
+      "title": "MLS",
+      "content": "This archive contains information about the book A Mathematical Introduction to Robotic Manipulation by R. M. Murray, Z. X. Li, and S. S. Sastry (CRC Press,",
+      "score": 0.468621,
+      "raw_content": null,
+      "id": "fa8ed5-02"
+    },
+    {
+      "url": "https://www.cds.caltech.edu/~murray/mlswiki/images/mlswiki/3/31/Screws-reference.pdf",
+      "title": "Screws.m",
+      "content": "by S Sur · 1992 — Screws.m is a Mathematica package for performing screw calculus. A Mathematical Introduction to Robotic Manipulation, by R. M. Murray, Z.",
+      "score": 0.44811285,
+      "raw_content": null,
+      "id": "0d7450-03"
+    },
+    {
+      "url": "https://lavalle.pl/planning/node858.html",
+      "title": "Bibliography",
+      "content": "722\n:   R. Munos and A. Moore.   \n    Variable resolution discretization in optimal control.   \n    Machine Learning, 49:291-323, 2001.\n\n723\n:   T. Muppirala, R. Murrieta-Cid, and S. Hutchinson.   \n    Optimal motion strategies based on critical events to maintain visibility of a moving target.   \n    In Proceedings IEEE International Conference on Robotics & Automation, pages 3837-3842, 2005.\n\n724\n:   T. Murphey.   \n    Control of Multiple Model Systems.   \n    PhD thesis, California Institute of Technology, May 2002.\n\n725\n:   R. M. Murray, Z. Li, and S. Sastry.   \n    A Mathematical Introduction to Robotic Manipulation.   \n    CRC Press, Boca Raton, FL, 1994. [...] 15\n:   S. Akella and S. Hutchinson.   \n    Coordinating the motions of multiple robots with specified trajectories.   \n    In Proceedings IEEE International Conference on Robotics & Automation, pages 624-631, 2002.\n\n16\n:   R. Alami, J.-P. Laumond, and T. Siméon.   \n    Two manipulation planning algorithms.   \n    In J.-P. Laumond and M. Overmars, editors, Algorithms for Robotic Motion and Manipulation. A.K. Peters, Wellesley, MA, 1997.\n\n17\n:   R. Alami, T. Siméon, and J.-P. Laumond.   \n    A geometrical approach to planning manipulation tasks.   \n    In Proceedings International Symposium on Robotics Research, pages 113-119, 1989.\n\n18\n:   G. Allgower and K. Georg.   \n    Numerical Continuation Methods.   \n    Springer-Verlag, Berlin, 1990. [...] 815\n:   J. Reif and Z. Sun.   \n    On frictional mechanical systems and their computational power.   \n    SIAM Journal on Computing, 32(6):1449-1474, 2003.\n\n816\n:   J. Reif and H. Wang.   \n    Non-uniform discretization approximations for kinodynamic motion planning.   \n    In J.-P. Laumond and M. H. Overmars, editors, Algorithms for Robotic Motion and Manipulation, pages 97-112. A.K. Peters, Wellesley, MA, 1997.\n\n817\n:   J. H. Reif.   \n    Complexity of the mover's problem and generalizations.   \n    In Proceedings IEEE Symposium on Foundations of Computer Science, pages 421-427, 1979.\n\n818\n:   J. H. Reif and M. Sharir.   \n    Motion planning in the presence of moving obstacles.   \n    In Proceedings IEEE Symposium on Foundations of Computer Science, pages 144-154, 1985.",
+      "score": 0.44666424,
+      "raw_content": null,
+      "id": "d648de-04"
+    },
+    {
+      "url": "http://www.cds.caltech.edu/~murray/preprints/cltbm12-icra.pdf",
+      "title": "Towards Formal Synthesis of Reactive Controllers for Dexterous ...",
+      "content": "Sastry, A Mathematical Introduction to. Robotic Manipulation. CRC Press, 1994. [11] B. Faverjon and J. Ponce, “On computing two-finger force-closure grasps",
+      "score": 0.43784812,
+      "raw_content": null,
+      "id": "5dc052-05"
+    },
+    {
+      "url": "http://ames.caltech.edu/jrm_2012_sa_01.pdf",
+      "title": "Bio-Inspired Feedback Control of Three-Dimensional ...",
+      "content": "B. Morris and J. W. Grizzle, “A Restricted Poincar´ e Map for Deter-mining Exponentially Stable Periodic Orbits in Systems with Im-pulse Effects: Application to Bipedal Robots,” In 44th IEEE Conf.\non Decision and Control and European Control Conf., Sevilla, De-cember 2005.\n R. W. Sinnet, M. J. Powell, S. Jiang, and A. D. Ames, “Com-pass Gait Revisited: A Human Data Perspective with Extensions to Three Dimensions,” In 50th IEEE Conf. on Decision and Control and European Control Conf., Orlando, December 2011.\n R. M. Murray, Z. Li, and S. S. Sastry, “A Mathematical Introduction to Robotic Manipulation,” CRC Press, Boca Raton, March 1994. [...] The Lagrangian, L : TQ →R, can be stated in terms of kinetic energy, K : TQ →R, and potential energy, V : Q →R, as L(q, ˙ q) = T(q, ˙ q)−V(q). The forced Euler-Lagrange equation gives the dynamic model, which, for robotic systems (see ), takes the form: M(q) ¨ q + H(q, ˙ q) = ϒ, with inertia map M : Q →Rn×n and forcing ϒ and H(q, ˙ q) = C(q, ˙ q) ˙ q+N(q) containing terms result-ing from the Coriolis effect and gravity. This corresponds to the vector ﬁeld f(q, ˙ q) = \u0002 ˙ q M−1(q)(ϒ−H(q, ˙ q)).\n\u0003 .\n. . [...] Y. H¨ urm¨ uzl¨ u and D. B. Marghitu, “Rigid body collisions of planar kinematic chains with multiple contact points,” Int. J. of Robotics Research, Vol.13, No.1, pp. 82-92, February 1994.\n J. E. Marsden and T. S. Ratiu, “Introduction to Mechanics and Sym-metry,” Vol.17 of Texts in Applied Mathematics, Springer, 1999.\n A. D. Ames, “A Categorical Theory of Hybrid Systems,” Ph.D. the-sis, University of California, Berkeley, 2006.\n3.   A. D. Ames and R. D. Gregg, “Stably Extending Two-Dimensional Bipedal Walking to Three Dimensions,” In American Control Conf., pp. 2848-2854, July 2007.\n S. H. Collins and A. Ruina, “A Bipedal Walking Robot with Efﬁ-cient and Human-Like Gait,” In IEEE Int. Conf. Robotics and Au-tomation, pp. 1983-1988, Barcelona, April 2005.",
+      "score": 0.4272061,
+      "raw_content": null,
+      "id": "0683e5-06"
+    },
+    {
+      "url": "https://www.cds.caltech.edu/~murray/mlswiki/index.php/Errata",
+      "title": "Errata - MLSwiki",
+      "content": "Aug 16, 2009 — This page contains information about errata for A Mathematical Introduction to Robotic Manipulation. latest list of known errors (PDF file)",
+      "score": 0.41250706,
+      "raw_content": null,
+      "id": "ed2c1d-07"
+    },
+    {
+      "url": "https://www.argallab.northwestern.edu/files/2022/07/th_gopinath.pdf",
+      "title": "[PDF] Active Intent Disambiguation, Control Interpretation, and Arbitration ...",
+      "content": "and Andrew Thompson.1 6.1. Introduction A fundamental problem in robotics is that of state estimation from noisy sensor data . [...] The primary goal of any state estimation algorithm is to reduce the un-certainties that arise from noisy measurements and this can become particularly hard due to limited information channels and associated hardware constraints. In HAI scenarios, usually, state estimation performed by the autonomous agent not only involves estimation of the environment state, but also of the unobserved latent human state that encodes their goals, beliefs, and intentions. Particularly, in the domain of shared autonomy assistive robots, the eﬀectiveness of an assistive autonomous agent depends on how well it is able to infer the user’s intentions unambiguously from the control interface signals that are generated by the human. [...] Barfoot, T. D. State estimation for robotics. Cambridge University Press, 2017.\n Barrouillet, P., Bernardin, S., and Camos, V. Time constraints and re-source sharing in adults working memory spans. Journal of Experimental Psychol-ogy: General (2004), 83–100.\n Beer, J. M., Fisk, A. D., and Rogers, W. A. Toward a framework for levels of robot autonomy in human-robot interaction. Journal of Human-Robot Interaction 3, 2 (2014), 74.\n Bien, Z., Chung, M.-J., Chang, P.-H., Kwon, D.-S., Kim, D.-J., Han, J.-S., Kim, J.-H., Kim, D.-H., Park, H.-S., Kang, S.-H., Lee, K., and Lim, S.-C. Integration of a rehabilitation robotic system (KARES II) with human-friendly man-machine interaction units. Autonomous Robots 16, 2 (2004), 165–191.",
+      "score": 0.4066976,
+      "raw_content": null,
+      "id": "adab5c-08"
+    },
+    {
+      "url": "https://authors.library.caltech.edu/records/yqrmv-2xz53/files/2302.13687.pdf?download=1",
+      "title": "Fast Robust Grasp Generation via the Min-Weight Metric",
+      "content": "by AH Li · 2023 · Cited by 20 — A mathematical introduction to robotic manipulation. CRC press, 1994. [33] Rafaela Filippozzi, Douglas S. Gonçalves, and Luiz-Rafael Santos ...Read more",
+      "score": 0.4024631,
+      "raw_content": null,
+      "id": "b69910-09"
+    },
+    {
+      "url": "https://www.utias.utoronto.ca/wp-content/uploads/2021/06/TA-Posting-June-2021-1.pdf",
+      "title": "Teaching Assistantship applications for Aerospace courses ...",
+      "content": "of the motion planning problem for aerial, ground, and mobile manipulator robot platforms and for multi-robot systems. Geometric representations and the robot configuration space. Sampling-based motion planning. Feedback motion planning in continuous spaces. Planning under sensor uncertainty and with differential constraints.Course project involving the implementation of modern planning algorithms in simulation and (potentially) on a real mobile manipulator. AER 1517H Control for Robotics This course presents optimal, adaptive and learning control principles from the perspective of robotics applications. Working from the Hamilton-Jacobi-Bellman formulation, optimal control methods for aerial and ground robots are developed. Real world challenges such as disturbances, state estimation [...] September AER506F Spacecraft Dynamics and Control M.R. Emami 20 1 marking September AER507F Introduction to Fusion Energy J.W. Davis 15 1 marking September AER525F Robotics M.R. Emami 50 1 marking & 1 lab September ROB301F Introduction to Robotics G. D’Eleuterio 50 1 marking & 2 lab September ROB310F Mathematics for Robotics T.D. Barfoot 50 1 marking September ROB501F Computer Vision for Robotics S.L. Waslander 50 1 marking September AER1202F Advanced Flight Dynamics H.T. Liu 10 1 marking September AER1304F Fundamentals of Combustion O.L. Gulder 15 1 marking September AER1216F Fundamentals of UAVs P.R. Grant 25 1 marking September AER1316F Fundamentals of CFD D.W. Zingg 20 1 marking September AER1410F Topology Optimization C.S. Steeves 20 1 marking September AER1513F State Estimation for [...] 54.40 Program Tags: • AEESCBASEZ: Fall Session – Year 3 ROB310H1 - Mathematics for Robotics Credit Value: 0.50 Hours: 38.4L/12.8T The course addresses advanced mathematical concepts particularly relevant for robotics. The mathematical tools covered in this course are fundamental for understanding, analyzing, and designing robotics algorithms that solve tasks such as robot path planning, robot vision, robot control and robot learning. Topics include complex analysis, optimization techniques, signals and filtering, advanced probability theory, and numerical methods. Concepts will be studied in a mathematically rigorous way but will be motivated with robotics examples throughout the course. Prerequisite: MAT185H1, MAT292H1 Recommended Preparation: ESC103H1, ECE286H1 Total AUs: 44.80 Program",
+      "score": 0.3941782,
+      "raw_content": null,
+      "id": "4d0c9c-10"
+    },
+    {
+      "url": "https://lavalle.pl/papers/OkaTovCheLav06.pdf",
+      "title": "Algorithms for Planning under Uncertainty in Prediction ...",
+      "content": "One common approach is to make an estimation of the current state, with all the information available, and determine some bound for the state uncertainty. Then the uncertainty may be ignored, and the algo-rithms of the previous sections may be applied. However, the state estimation may be completely avoided in the computation of a plan, i.e., the robot may be able to reach achieve its goal without ever determining its current state. This gives rise to the study of the information space, which will be the main topic of this section.\nInformation spaces have appeared throughout the robotics literature in many forms and under many diﬀerent names. [...] • A nonempty action set U. Alternatively, the set of available actions may depend on the current state, i.e. we have a set U(x) for each x ∈X. Since this variation only clutters the notation without making the problem more interesting, we assume that the same actions are available from each state. One possible realization of this action set is that lower-level techniques like motion planning, map building, and manipulation are are implementations of the abstract actions we consider. This sort of layered approach has been used in a number of successful robotic systems [11–16].\n• A nature action set Θ. As with U, nature’s available actions may depend on x.\n• A deterministic state transition function f : X × U × Θ →X.\n• An initial state x1. [...] In general, the robot can gather information about the state from the following sources: • Initial Conditions: Information the robot has about the task before the ﬁrst sensing measurement is taken or the ﬁrst action is performed. The particular initial condition for a planning problem, denoted by η0, can have several forms: – Known State: The initial state x1 ∈X is given. Uncertainty appears when nature interferes with the state transition equation.\n– Nondeterministic: A set X1 ⊂X is given. The initial state is known to lie within X1.\n– Probabilistic: A probability distribution P(x1) over X is given.",
+      "score": 0.38720417,
+      "raw_content": null,
+      "id": "110da1-11"
+    },
+    {
+      "url": "https://www.cds.caltech.edu/~murray/mlswiki/index.php?title=Main_Page",
+      "title": "MLSwiki - Graduate Degree in Control + Dynamical Systems",
+      "content": "Jan 24, 2021 — This is the wiki for the text A Mathematical Introduction to Robotic Manipulation by Richard Murray, Zexiang Li and Shankar Sastry. On this ...Read more",
+      "score": 0.3797929,
+      "raw_content": null,
+      "id": "241781-12"
+    },
+    {
+      "url": "https://modernrobotics.northwestern.edu/chapters/chapter9",
+      "title": "Chapter 9 – Modern Robotics",
+      "content": "## Table of Contents\n\n### Introduction\n\n### Chapter 2 Configuration Space\n\n### Chapter 3 Rigid-Body Motions\n\n### Chapter 4 Forward Kinematics\n\n### Chapter 5 Velocity Kinematics and Statics\n\n### Chapter 6 Inverse Kinematics\n\n### Chapter 7 Kinematics of Closed Chains\n\n### Chapter 8 Dynamics of Open Chains\n\n### Chapter 9 Trajectory Generation\n\n### Chapter 10 Motion Planning\n\n### Chapter 11 Robot Control\n\n### Chapter 12 Grasping and Manipulation\n\n### Chapter 13 Wheeled Mobile Robots\n\nNorthwestern University logo\n\nSocial Media [...] #### 9.1 and 9.2. Point-to-Point Trajectories (Part 2 of 2)\")\n\nPosted May 21, 2018 by Kevin Lynch\n\nThis video introduces third-order polynomial, fifth-order polynomial, trapezoidal, and S-curve time scalings to turn a path into a trajectory.\n\n#### 9.3. Polynomial Via Point Trajectories\n\nPosted May 21, 2018 by Kevin Lynch\n\nThis video introduces robot trajectories passing through via points based on cubic polynomial interpolation.\n\n#### 9.4. Time-Optimal Time Scaling (Part 1 of 3)\")\n\nPosted May 21, 2018 by Kevin Lynch [...] Posted May 21, 2018 by Kevin Lynch\n\nThis video continues the derivation of the time-optimal time-scaling algorithm for robot trajectories by interpreting the path acceleration constraints (due to actuator limits) as cones of feasible motions in the (s, s-dot) phase plane, where s is the path parameter. Time-optimal motions are either “bang-bang” (maximum acceleration followed by maximum deceleration) or they touch a\n\n#### 9.4. Time-Optimal Time Scaling (Part 3 of 3)\")\n\nPosted May 21, 2018 by Kevin Lynch\n\nBuilding on the previous two videos, this video derives an algorithm for finding the time-optimal time scaling along a path that respects actuator limits. The result is the fastest possible motion along the pre-specified path.\n\n## Table of Contents\n\n### Introduction",
+      "score": 0.35079992,
+      "raw_content": null,
+      "id": "65e94f-13"
+    },
+    {
+      "url": "https://tspace.library.utoronto.ca/bitstream/1807/103172/3/Dong_Ke_202011_MAS_thesis.pdf",
+      "title": "High-speed Motion Generation for Mobile Manipulators by ...",
+      "content": "M. M¨ uller, S. Lupashin, and R. D’Andrea, “Quadrocopter ball juggling,” in Proc. of the IEEE/RSJ international conference on Intelligent Robots and Systems (IROS), pp. 5113–5120, IEEE, 2011.\n T. D. Barfoot, State estimation for robotics. Cambridge University Press, 2017.\nBibliography 55  S. Boyd, S. P. Boyd, and L. Vandenberghe, Convex optimization. Cambridge uni-versity press, 2004.\n S. G. Johnson, “The nlopt nonlinear-optimization package.”  stevengj/nlopt. [Online; accessed 20-February-2020].\n H. Ferreau, C. Kirches, A. Potschka, H. Bock, and M. Diehl, “qpOASES: A para-metric active-set algorithm for quadratic programming,” Mathematical Programming Computation, vol. 6, no. 4, pp. 327–363, 2014.\n K. Dong, “A light-weight mlp library for fast online inference.” [...] Introduction 4 There are general motion planning and control algorithms for robots that can be ap-plied to mobile manipulators. Common planning algorithms like potential ﬁeld, rapidly exploring random trees (RRT), and probabilistic roadmaps (PRM) can be used for manip-ulator path planning . These methods are good at ﬁnding feasible paths in cluttered environments, but they are computationally expensive. So they are not suitable here because real-time computation is needed. As for low-level control, there are numerous works that try to improve the tracking performance of high-speed and aggressive trajec-tories. Non-learning-based methods [5, 18] rely on accurate analytical system dynamics models. For example, the feedback linearization control uses an inverse dynamics model to cancel the [...] 2.4.1 Fundamentals We present a brief introduction to RL algorithms here. For a more detailed and accurate tutorial, please see  as a reference. Let M = (S, A, P, R, p0, γ, T) be a ﬁnite-horizon Markov Decision Process (MDP), where S and A are state and action spaces, P : S × A × S →R+ is a state-transition probability function or probabilistic system dynamics, R : S × A →R a reward function, p0 : S →R+ an initial state distribution, γ a reward discount factor, and T a ﬁxed horizon. The MDP has the Markov chain property which means that the next state st+1 is only dependent on the current state st: p(st+1|s0, s1, · · · , st) = p(st+1|st).",
+      "score": 0.34640914,
+      "raw_content": null,
+      "id": "b3a526-14"
+    }
+  ],
+  "response_time": 4.82,
+  "request_id": "3bcc25fb-7b17-451f-998b-eeb1832d7b1c"
+}

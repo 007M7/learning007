@@ -1,0 +1,4682 @@
+{
+  "field": "low-altitude",
+  "title": "物理 AI · 低空智能",
+  "snapshot_date": "2026-08-30",
+  "provider": "OpenAlex",
+  "selection_method": "十个子主题分别抽取经典高影响与 2023 年以来近期论文，按 DOI/OpenAlex ID 去重并保留主题交叉；Tavily 用于官方来源与教材骨架审计。",
+  "caveat": "这是可复核的核心参考文献层，不以引用数代替论文质量判断；课程写作前仍需阅读原文并核验具体结论。",
+  "records": [
+    {
+      "id": "paper:doi:10.1016/j.isprsjprs.2014.02.013",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned aerial systems for photogrammetry and remote sensing: A review",
+      "authors": [
+        "I. Colomina",
+        "P. Molina"
+      ],
+      "year": 2014,
+      "publication_date": "2014-04-01",
+      "type": "article",
+      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "doi": "10.1016/j.isprsjprs.2014.02.013",
+      "openalex_id": "https://openalex.org/W1998943389",
+      "official_url": "https://doi.org/10.1016/j.isprsjprs.2014.02.013",
+      "cited_by_count_snapshot": 2970,
+      "relevance_score_snapshot": 1165.1228,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 123,
+      "language": "en",
+      "topics": [
+        "system-regulation",
+        "aerodynamics",
+        "navigation",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.isprsjprs.2014.02.013",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0924271614000501/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2019.2909530",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aerial Vehicles (UAVs): A Survey on Civil Applications and Key Research Challenges",
+      "authors": [
+        "Hazim Shakhatreh",
+        "Ahmad Sawalmeh",
+        "Ala Al‐Fuqaha",
+        "Zuochao Dou",
+        "Eyad Almaita",
+        "Issa Khalil",
+        "Noor Shamsiah Othman",
+        "Abdallah Khreishah",
+        "Mohsen Guizani"
+      ],
+      "year": 2019,
+      "publication_date": "2019-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2019.2909530",
+      "openalex_id": "https://openalex.org/W4213147678",
+      "official_url": "https://doi.org/10.1109/access.2019.2909530",
+      "cited_by_count_snapshot": 2353,
+      "relevance_score_snapshot": 630.89386,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 329,
+      "language": "en",
+      "topics": [
+        "system-regulation",
+        "sense-avoid",
+        "control-planning",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2019.2909530",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08682048.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1257/jep.8.4.45",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Contingent Valuation: Is Some Number Better than No Number?",
+      "authors": [
+        "Peter Dia­mond",
+        "Jerry A. Hausman"
+      ],
+      "year": 1994,
+      "publication_date": "1994-11-01",
+      "type": "article",
+      "venue": "The Journal of Economic Perspectives",
+      "doi": "10.1257/jep.8.4.45",
+      "openalex_id": "https://openalex.org/W1968513304",
+      "official_url": "https://doi.org/10.1257/jep.8.4.45",
+      "cited_by_count_snapshot": 1964,
+      "relevance_score_snapshot": 144.78894,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 23,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1257/jep.8.4.45",
+        "pdf_url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.8.4.45",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2022.3142859",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Particle Swarm Optimization: A Comprehensive Survey",
+      "authors": [
+        "Tareq M. Shami",
+        "Ayman A. El‐Saleh",
+        "Mohammed Alswaitti",
+        "Qasem Al-Tashi",
+        "Mhd Amen Summakieh",
+        "Seyedali Mirjalili"
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2022.3142859",
+      "openalex_id": "https://openalex.org/W4205129187",
+      "official_url": "https://doi.org/10.1109/access.2022.3142859",
+      "cited_by_count_snapshot": 1394,
+      "relevance_score_snapshot": 530.57776,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 288,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2022.3142859",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/info10110349",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Review on UAV-Based Applications for Precision Agriculture",
+      "authors": [
+        "Dimosthenis C. Tsouros",
+        "Stamatia Bibi",
+        "Panagiotis Sarigiannidis"
+      ],
+      "year": 2019,
+      "publication_date": "2019-11-11",
+      "type": "article",
+      "venue": "Information",
+      "doi": "10.3390/info10110349",
+      "openalex_id": "https://openalex.org/W2983056308",
+      "official_url": "https://doi.org/10.3390/info10110349",
+      "cited_by_count_snapshot": 1203,
+      "relevance_score_snapshot": 528.0493,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 142,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/info10110349",
+        "pdf_url": "https://www.mdpi.com/2078-2489/10/11/349/pdf?version=1573470851",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1137/1007077",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Least Squares Estimate of Satellite Attitude",
+      "authors": [
+        "Grace Wahba"
+      ],
+      "year": 1965,
+      "publication_date": "1965-07-01",
+      "type": "article",
+      "venue": "SIAM Review",
+      "doi": "10.1137/1007077",
+      "openalex_id": "https://openalex.org/W2063005413",
+      "official_url": "https://doi.org/10.1137/1007077",
+      "cited_by_count_snapshot": 1125,
+      "relevance_score_snapshot": 310.47098,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.apenergy.2020.114848",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Technologies and policies to decarbonize global industry: Review and assessment of mitigation drivers through 2070",
+      "authors": [
+        "Jeffrey Rissman",
+        "Chris Bataille",
+        "Eric Masanet",
+        "Nate Aden",
+        "William R. Morrow",
+        "Nan Zhou",
+        "Neal Elliott",
+        "Rebecca Dell",
+        "Niko Heeren",
+        "Brigitta Huckestein",
+        "Joe Cresko",
+        "Sabbie A. Miller",
+        "Joyashree Roy",
+        "Paul S. Fennell",
+        "Betty Cremmins",
+        "Thomas Koch Blank",
+        "David Hone",
+        "Ellen D. Williams",
+        "Stéphane de la Rue du Can",
+        "Bill Sisson"
+      ],
+      "year": 2020,
+      "publication_date": "2020-03-29",
+      "type": "article",
+      "venue": "Applied Energy",
+      "doi": "10.1016/j.apenergy.2020.114848",
+      "openalex_id": "https://openalex.org/W3013534207",
+      "official_url": "https://doi.org/10.1016/j.apenergy.2020.114848",
+      "cited_by_count_snapshot": 1033,
+      "relevance_score_snapshot": 211.35286,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 173,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.apenergy.2020.114848",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0306261920303603/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s11370-022-00452-4",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned aerial vehicles (UAVs): practical aspects, applications, open challenges, security issues, and future trends",
+      "authors": [
+        "Syed Agha Hassnain Mohsan",
+        "Nawaf Qasem Hamood Othman",
+        "Yanlong Li",
+        "Mohammed H. Alsharif",
+        "Muhammad Asghar Khan"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-16",
+      "type": "article",
+      "venue": "Intelligent Service Robotics",
+      "doi": "10.1007/s11370-022-00452-4",
+      "openalex_id": "https://openalex.org/W4316506832",
+      "official_url": "https://doi.org/10.1007/s11370-022-00452-4",
+      "cited_by_count_snapshot": 1030,
+      "relevance_score_snapshot": 413.32285,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 137,
+      "language": "en",
+      "topics": [
+        "system-regulation",
+        "vehicle-propulsion",
+        "control-planning",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1007/s11370-022-00452-4",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11370-022-00452-4.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1002/net.21818",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Optimization approaches for civil applications of unmanned aerial vehicles (UAVs) or aerial drones: A survey",
+      "authors": [
+        "Alena Otto",
+        "Niels Agatz",
+        "James F. Campbell",
+        "Bruce Golden",
+        "Erwin Pesch"
+      ],
+      "year": 2018,
+      "publication_date": "2018-03-25",
+      "type": "article",
+      "venue": "Networks",
+      "doi": "10.1002/net.21818",
+      "openalex_id": "https://openalex.org/W2792557859",
+      "official_url": "https://doi.org/10.1002/net.21818",
+      "cited_by_count_snapshot": 967,
+      "relevance_score_snapshot": 394.99033,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 310,
+      "language": "en",
+      "topics": [
+        "sense-avoid",
+        "control-planning"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1002/net.21818",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/net.21818",
+        "license": "cc-by-sa"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/rs4061671",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aircraft Systems in Remote Sensing and Scientific Research: Classification and Considerations of Use",
+      "authors": [
+        "Adam C. Watts",
+        "Vincent G. Ambrosia",
+        "Everett Hinkley"
+      ],
+      "year": 2012,
+      "publication_date": "2012-06-08",
+      "type": "article",
+      "venue": "Remote Sensing",
+      "doi": "10.3390/rs4061671",
+      "openalex_id": "https://openalex.org/W2120225005",
+      "official_url": "https://doi.org/10.3390/rs4061671",
+      "cited_by_count_snapshot": 931,
+      "relevance_score_snapshot": 891.5099,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 15,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/rs4061671",
+        "pdf_url": "https://www.mdpi.com/2072-4292/4/6/1671/pdf?version=1403130261",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.5075/epfl-thesis-3727",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Design and control of quadrotors with application to autonomous flying",
+      "authors": [
+        "Samir Bouabdallah"
+      ],
+      "year": 2006,
+      "publication_date": "2006-11-24",
+      "type": "article",
+      "venue": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+      "doi": "10.5075/epfl-thesis-3727",
+      "openalex_id": "https://openalex.org/W204815387",
+      "official_url": "https://doi.org/10.5075/epfl-thesis-3727",
+      "cited_by_count_snapshot": 748,
+      "relevance_score_snapshot": 469.6035,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://infoscience.epfl.ch/record/95939",
+        "pdf_url": "https://infoscience.epfl.ch/bitstreams/3f219824-6427-4d0f-bbd9-fc0812358b2b/download",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones3010004",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Survey on Coverage Path Planning with Unmanned Aerial Vehicles",
+      "authors": [
+        "Tauã M. Cabreira",
+        "Lisane Brisolara",
+        "Paulo R. Ferreira"
+      ],
+      "year": 2019,
+      "publication_date": "2019-01-04",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones3010004",
+      "openalex_id": "https://openalex.org/W2906764419",
+      "official_url": "https://doi.org/10.3390/drones3010004",
+      "cited_by_count_snapshot": 595,
+      "relevance_score_snapshot": 374.21832,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 97,
+      "language": "en",
+      "topics": [
+        "sense-avoid",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones3010004",
+        "pdf_url": "https://www.mdpi.com/2504-446X/3/1/4/pdf?version=1547013323",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/comst.2022.3171135",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "What Will the Future of UAV Cellular Communications Be? A Flight From 5G to 6G",
+      "authors": [
+        "Giovanni Geraci",
+        "Adrián García‐Rodríguez",
+        "Mohammad Mahdi Azari",
+        "Angel Lozano",
+        "Marco Mezzavilla",
+        "Symeon Chatzinotas",
+        "Yun Chen",
+        "Sundeep Rangan",
+        "Marco Di Renzo"
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-01",
+      "type": "article",
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "doi": "10.1109/comst.2022.3171135",
+      "openalex_id": "https://openalex.org/W3162720533",
+      "official_url": "https://doi.org/10.1109/comst.2022.3171135",
+      "cited_by_count_snapshot": 529,
+      "relevance_score_snapshot": 352.31702,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 287,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion",
+        "control-planning"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1109/comst.2022.3171135",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/9739/5451756/09768113.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.autcon.2021.103838",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Digital twin and its implementations in the civil engineering sector",
+      "authors": [
+        "Feng Jiang",
+        "Ling Ma",
+        "Tim Broyd",
+        "Ke Chen"
+      ],
+      "year": 2021,
+      "publication_date": "2021-07-27",
+      "type": "article",
+      "venue": "Automation in Construction",
+      "doi": "10.1016/j.autcon.2021.103838",
+      "openalex_id": "https://openalex.org/W3186147994",
+      "official_url": "https://doi.org/10.1016/j.autcon.2021.103838",
+      "cited_by_count_snapshot": 497,
+      "relevance_score_snapshot": 414.55154,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 150,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://discovery.ucl.ac.uk/id/eprint/10131833/",
+        "pdf_url": "https://discovery.ucl.ac.uk/10131833/1/AUTCON-D-21-00189_R2%20copy.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s16010097",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aerial Vehicles (UAVs) and Artificial Intelligence Revolutionizing Wildlife Monitoring and Conservation",
+      "authors": [
+        "Felipé Gonzalez",
+        "Glen Montes",
+        "Eduard Puig",
+        "Sandra Johnson",
+        "Kerrie Mengersen",
+        "Kevin J. Gaston"
+      ],
+      "year": 2016,
+      "publication_date": "2016-01-14",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s16010097",
+      "openalex_id": "https://openalex.org/W2236370645",
+      "official_url": "https://doi.org/10.3390/s16010097",
+      "cited_by_count_snapshot": 475,
+      "relevance_score_snapshot": 314.0235,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 28,
+      "language": "en",
+      "topics": [
+        "sense-avoid"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s16010097",
+        "pdf_url": "https://www.mdpi.com/1424-8220/16/1/97/pdf?version=1452769186",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.rser.2019.109663",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Smart home technologies in Europe: A critical review of concepts, benefits, risks and policies",
+      "authors": [
+        "Benjamin K. Sovacool",
+        "Dylan D. Furszyfer Del Rio"
+      ],
+      "year": 2019,
+      "publication_date": "2019-12-19",
+      "type": "article",
+      "venue": "Renewable and Sustainable Energy Reviews",
+      "doi": "10.1016/j.rser.2019.109663",
+      "openalex_id": "https://openalex.org/W2995564810",
+      "official_url": "https://doi.org/10.1016/j.rser.2019.109663",
+      "cited_by_count_snapshot": 468,
+      "relevance_score_snapshot": 149.76167,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 62,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://www.scopus.com/inward/record.url?scp=85076510139&partnerID=8YFLogxK",
+        "pdf_url": "https://pure.au.dk/portal/en/publications/388eabc9-2e8e-48a0-9920-15b20c15d7bf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.trc.2021.103377",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Urban air mobility: A comprehensive review and comparative analysis with autonomous and electric ground transportation for informing future research",
+      "authors": [
+        "Laurie A. Garrow",
+        "Brian German",
+        "Caroline E. Leonard"
+      ],
+      "year": 2021,
+      "publication_date": "2021-09-28",
+      "type": "article",
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "doi": "10.1016/j.trc.2021.103377",
+      "openalex_id": "https://openalex.org/W3203424619",
+      "official_url": "https://doi.org/10.1016/j.trc.2021.103377",
+      "cited_by_count_snapshot": 463,
+      "relevance_score_snapshot": 596.43396,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 280,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure",
+        "safety-business"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.trc.2021.103377",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0968090X21003788/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.resourpol.2018.02.002",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Social impact assessment in the mining sector: Review and comparison of indicators frameworks",
+      "authors": [
+        "Lucia Mancini",
+        "Serenella Sala"
+      ],
+      "year": 2018,
+      "publication_date": "2018-02-27",
+      "type": "article",
+      "venue": "Resources Policy",
+      "doi": "10.1016/j.resourpol.2018.02.002",
+      "openalex_id": "https://openalex.org/W2790968535",
+      "official_url": "https://doi.org/10.1016/j.resourpol.2018.02.002",
+      "cited_by_count_snapshot": 448,
+      "relevance_score_snapshot": 160.05786,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 77,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.resourpol.2018.02.002",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0301420717301484/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s21196340",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Survey on AI-Driven Digital Twins in Industry 4.0: Smart Manufacturing and Advanced Robotics",
+      "authors": [
+        "Ziqi Huang",
+        "Yang Shen",
+        "Jiayi Li",
+        "Marcel Fey",
+        "Christian Brecher"
+      ],
+      "year": 2021,
+      "publication_date": "2021-09-23",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s21196340",
+      "openalex_id": "https://openalex.org/W3199754434",
+      "official_url": "https://doi.org/10.3390/s21196340",
+      "cited_by_count_snapshot": 402,
+      "relevance_score_snapshot": 322.1364,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 310,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s21196340",
+        "pdf_url": "https://www.mdpi.com/1424-8220/21/19/6340/pdf?version=1632809060",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones3020040",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Review on the Use of Unmanned Aerial Vehicles and Imaging Sensors for Monitoring and Assessing Plant Stresses",
+      "authors": [
+        "Jayme Garcia Arnal Barbedo"
+      ],
+      "year": 2019,
+      "publication_date": "2019-04-20",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones3020040",
+      "openalex_id": "https://openalex.org/W2940856955",
+      "official_url": "https://doi.org/10.3390/drones3020040",
+      "cited_by_count_snapshot": 391,
+      "relevance_score_snapshot": 382.84995,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 182,
+      "language": "en",
+      "topics": [
+        "sense-avoid"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones3020040",
+        "pdf_url": "https://www.mdpi.com/2504-446X/3/2/40/pdf?version=1557203713",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/rs15133266",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aerial Vehicles for Search and Rescue: A Survey",
+      "authors": [
+        "Mingyang Lyu",
+        "Yibo Zhao",
+        "Chao Huang",
+        "Hailong Huang"
+      ],
+      "year": 2023,
+      "publication_date": "2023-06-25",
+      "type": "article",
+      "venue": "Remote Sensing",
+      "doi": "10.3390/rs15133266",
+      "openalex_id": "https://openalex.org/W4382135822",
+      "official_url": "https://doi.org/10.3390/rs15133266",
+      "cited_by_count_snapshot": 390,
+      "relevance_score_snapshot": 720.1162,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 177,
+      "language": "en",
+      "topics": [
+        "aerodynamics",
+        "sense-avoid"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/rs15133266",
+        "pdf_url": "https://www.mdpi.com/2072-4292/15/13/3266/pdf?version=1687686302",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s20072068",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Review of Visual-LiDAR Fusion based Simultaneous Localization and Mapping",
+      "authors": [
+        "César Debeunne",
+        "Damien Vivet"
+      ],
+      "year": 2020,
+      "publication_date": "2020-04-07",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s20072068",
+      "openalex_id": "https://openalex.org/W3015235064",
+      "official_url": "https://doi.org/10.3390/s20072068",
+      "cited_by_count_snapshot": 385,
+      "relevance_score_snapshot": 365.76453,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 86,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s20072068",
+        "pdf_url": "https://www.mdpi.com/1424-8220/20/7/2068/pdf?version=1586254962",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tro.2021.3133730",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "GVINS: Tightly Coupled GNSS–Visual–Inertial Fusion for Smooth and Consistent State Estimation",
+      "authors": [
+        "Shaozu Cao",
+        "Xiuyuan Lu",
+        "Shaojie Shen"
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-04",
+      "type": "article",
+      "venue": "IEEE Transactions on Robotics",
+      "doi": "10.1109/tro.2021.3133730",
+      "openalex_id": "https://openalex.org/W3138764046",
+      "official_url": "https://doi.org/10.1109/tro.2021.3133730",
+      "cited_by_count_snapshot": 384,
+      "relevance_score_snapshot": 590.8224,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 44,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://repository.hkust.edu.hk/ir/Record/1783.1-115906",
+        "pdf_url": "https://repository.hkust.edu.hk/ir/bitstream/1783.1-115906/1/039430_1.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s22020464",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Comparing YOLOv3, YOLOv4 and YOLOv5 for Autonomous Landing Spot Detection in Faulty UAVs",
+      "authors": [
+        "Upesh Nepal",
+        "Hossein Eslamiat"
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-08",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s22020464",
+      "openalex_id": "https://openalex.org/W4205900964",
+      "official_url": "https://doi.org/10.3390/s22020464",
+      "cited_by_count_snapshot": 377,
+      "relevance_score_snapshot": 458.01624,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 30,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s22020464",
+        "pdf_url": "https://www.mdpi.com/1424-8220/22/2/464/pdf?version=1641633027",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1155/2017/3296874",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Review of Deep Learning Methods and Applications for Unmanned Aerial Vehicles",
+      "authors": [
+        "Adrián Carrio",
+        "Carlos Sampedro",
+        "Alejandro Rodríguez-Ramos",
+        "Pascual Campoy"
+      ],
+      "year": 2017,
+      "publication_date": "2017-01-01",
+      "type": "article",
+      "venue": "Journal of Sensors",
+      "doi": "10.1155/2017/3296874",
+      "openalex_id": "https://openalex.org/W2746411854",
+      "official_url": "https://doi.org/10.1155/2017/3296874",
+      "cited_by_count_snapshot": 370,
+      "relevance_score_snapshot": 296.2802,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 25,
+      "language": "en",
+      "topics": [
+        "sense-avoid",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1155/2017/3296874",
+        "pdf_url": "http://downloads.hindawi.com/journals/js/2017/3296874.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s24082647",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Smart Sensors and Smart Data for Precision Agriculture: A Review",
+      "authors": [
+        "Abdellatif Soussi",
+        "Enrico Zero",
+        "Roberto Sacile",
+        "Daniele Trinchero",
+        "Marco Fossa"
+      ],
+      "year": 2024,
+      "publication_date": "2024-04-21",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s24082647",
+      "openalex_id": "https://openalex.org/W4395010695",
+      "official_url": "https://doi.org/10.3390/s24082647",
+      "cited_by_count_snapshot": 370,
+      "relevance_score_snapshot": 193.63971,
+      "search_rank_snapshot": 30,
+      "referenced_works_count": 167,
+      "language": "en",
+      "topics": [
+        "sense-avoid"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s24082647",
+        "pdf_url": "https://www.mdpi.com/1424-8220/24/8/2647/pdf?version=1713686700",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/mwc.131.2200442",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "UAV-Enabled Integrated Sensing and Communication: Opportunities and Challenges",
+      "authors": [
+        "Kaitao Meng",
+        "Qingqing Wu",
+        "Jie Xu",
+        "Wen Chen",
+        "Zhiyong Feng",
+        "Robert Schober",
+        "A. Lee Swindlehurst"
+      ],
+      "year": 2023,
+      "publication_date": "2023-04-10",
+      "type": "article",
+      "venue": "IEEE Wireless Communications",
+      "doi": "10.1109/mwc.131.2200442",
+      "openalex_id": "https://openalex.org/W4364322927",
+      "official_url": "https://doi.org/10.1109/mwc.131.2200442",
+      "cited_by_count_snapshot": 365,
+      "relevance_score_snapshot": 304.44138,
+      "search_rank_snapshot": 38,
+      "referenced_works_count": 15,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.2514/1.6271",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Adaptive Trajectory Control for Autonomous Helicopters",
+      "authors": [
+        "Eric N. Johnson",
+        "Suresh K. Kannan"
+      ],
+      "year": 2005,
+      "publication_date": "2005-05-01",
+      "type": "article",
+      "venue": "Journal of Guidance Control and Dynamics",
+      "doi": "10.2514/1.6271",
+      "openalex_id": "https://openalex.org/W2044987129",
+      "official_url": "https://doi.org/10.2514/1.6271",
+      "cited_by_count_snapshot": 362,
+      "relevance_score_snapshot": 543.1367,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 34,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://hdl.handle.net/1853/35881",
+        "pdf_url": "http://repository.gatech.edu/bitstreams/19c7fb40-b679-4957-842c-0e517bd62948/download",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/jiot.2020.3012835",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "AoI-Minimal Trajectory Planning and Data Collection in UAV-Assisted Wireless Powered IoT Networks",
+      "authors": [
+        "Huimin Hu",
+        "Ke Xiong",
+        "Gang Qu",
+        "Qiang Ni",
+        "Pingyi Fan",
+        "Khaled B. Letaief"
+      ],
+      "year": 2020,
+      "publication_date": "2020-07-29",
+      "type": "article",
+      "venue": "IEEE Internet of Things Journal",
+      "doi": "10.1109/jiot.2020.3012835",
+      "openalex_id": "https://openalex.org/W3046016465",
+      "official_url": "https://doi.org/10.1109/jiot.2020.3012835",
+      "cited_by_count_snapshot": 353,
+      "relevance_score_snapshot": 439.1268,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 53,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://eprints.lancs.ac.uk/id/eprint/151705/1/IoT_journal_Accepted_final.pdf",
+        "pdf_url": "https://eprints.lancs.ac.uk/id/eprint/151705/1/IoT_journal_Accepted_final.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10846-021-01527-7",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Review of Quadrotor Unmanned Aerial Vehicles: Applications, Architectural Design and Control Algorithms",
+      "authors": [
+        "Moad Idrissi",
+        "Mohammad Reza Salami",
+        "Fawaz Annaz"
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-22",
+      "type": "article",
+      "venue": "Journal of Intelligent & Robotic Systems",
+      "doi": "10.1007/s10846-021-01527-7",
+      "openalex_id": "https://openalex.org/W4206933963",
+      "official_url": "https://doi.org/10.1007/s10846-021-01527-7",
+      "cited_by_count_snapshot": 342,
+      "relevance_score_snapshot": 593.11865,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 123,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s10846-021-01527-7",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10846-021-01527-7.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10064-020-01766-2",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "The use of unmanned aerial vehicles (UAVs) for engineering geology applications",
+      "authors": [
+        "Daniele Giordan",
+        "Marc Adams",
+        "Irene Aicardi",
+        "Maria Alicandro",
+        "Paolo Allasia",
+        "Marco Baldo",
+        "Pierluigi De Berardinis",
+        "Donatella Dominici",
+        "Danilo Godone",
+        "Peter Hobbs",
+        "Veronika Lechner",
+        "Tomasz Niedzielski",
+        "Marco Piras",
+        "Marianna Rotilio",
+        "Riccardo Salvini",
+        "V. Segor",
+        "Bernadette Sotier",
+        "Fabrizio Troilo"
+      ],
+      "year": 2020,
+      "publication_date": "2020-04-01",
+      "type": "article",
+      "venue": "Bulletin of Engineering Geology and the Environment",
+      "doi": "10.1007/s10064-020-01766-2",
+      "openalex_id": "https://openalex.org/W3014810590",
+      "official_url": "https://doi.org/10.1007/s10064-020-01766-2",
+      "cited_by_count_snapshot": 335,
+      "relevance_score_snapshot": 636.7912,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 214,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s10064-020-01766-2",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10064-020-01766-2.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s13369-022-06738-0",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Recent Advances in Unmanned Aerial Vehicles: A Review",
+      "authors": [
+        "MD. Faiyaz Ahmed",
+        "J. C. Mohanta",
+        "Anupam Keshari",
+        "Pankaj Singh Yadav"
+      ],
+      "year": 2022,
+      "publication_date": "2022-04-25",
+      "type": "article",
+      "venue": "Arabian Journal for Science and Engineering",
+      "doi": "10.1007/s13369-022-06738-0",
+      "openalex_id": "https://openalex.org/W4224854590",
+      "official_url": "https://doi.org/10.1007/s13369-022-06738-0",
+      "cited_by_count_snapshot": 323,
+      "relevance_score_snapshot": 661.45935,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 83,
+      "language": "en",
+      "topics": [
+        "aerodynamics",
+        "sense-avoid",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1007/s13369-022-06738-0",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13369-022-06738-0.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/systems11080400",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Comprehensive Review of Recent Research Trends on Unmanned Aerial Vehicles (UAVs)",
+      "authors": [
+        "Khaled Telli",
+        "Okba Kraa",
+        "Yassine Himeur",
+        "Abdelmalik Ouamane",
+        "Mohamed Boumehraz",
+        "Shadi Atalla",
+        "Wathiq Mansoor"
+      ],
+      "year": 2023,
+      "publication_date": "2023-08-02",
+      "type": "article",
+      "venue": "Systems",
+      "doi": "10.3390/systems11080400",
+      "openalex_id": "https://openalex.org/W4385900995",
+      "official_url": "https://doi.org/10.3390/systems11080400",
+      "cited_by_count_snapshot": 323,
+      "relevance_score_snapshot": 600.78253,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 348,
+      "language": "en",
+      "topics": [
+        "aerodynamics",
+        "sense-avoid",
+        "control-planning",
+        "utm-c2",
+        "swarm-simulation"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/systems11080400",
+        "pdf_url": "https://www.mdpi.com/2079-8954/11/8/400/pdf?version=1691051996",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1371/journal.pone.0058210",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Configuration and Specifications of an Unmanned Aerial Vehicle (UAV) for Early Site Specific Weed Management",
+      "authors": [
+        "Jorge Torres‐Sánchez",
+        "Francisca López Granados",
+        "Ana Isabel de Castro",
+        "José M. Peña"
+      ],
+      "year": 2013,
+      "publication_date": "2013-03-06",
+      "type": "article",
+      "venue": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0058210",
+      "openalex_id": "https://openalex.org/W2011270889",
+      "official_url": "https://doi.org/10.1371/journal.pone.0058210",
+      "cited_by_count_snapshot": 323,
+      "relevance_score_snapshot": 339.2001,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 35,
+      "language": "en",
+      "topics": [
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft traffic management command control remote identification",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1371/journal.pone.0058210",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0058210&type=printable",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2020.3000064",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aerial Vehicles (UAVs): Collision Avoidance Systems and Approaches",
+      "authors": [
+        "Jawad N. Yasin",
+        "Sherif A. S. Mohamed",
+        "Mohammad-Hashem Haghbayan",
+        "Jukka Heikkonen",
+        "Hannu Tenhunen",
+        "Juha Plosila"
+      ],
+      "year": 2020,
+      "publication_date": "2020-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2020.3000064",
+      "openalex_id": "https://openalex.org/W3033271745",
+      "official_url": "https://doi.org/10.1109/access.2020.3000064",
+      "cited_by_count_snapshot": 323,
+      "relevance_score_snapshot": 290.0901,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 139,
+      "language": "en",
+      "topics": [
+        "sense-avoid"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2020.3000064",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/aerospace6030026",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Electric VTOL Configurations Comparison",
+      "authors": [
+        "Alessandro Bacchini",
+        "Enrico Cestino"
+      ],
+      "year": 2019,
+      "publication_date": "2019-02-28",
+      "type": "article",
+      "venue": "Aerospace",
+      "doi": "10.3390/aerospace6030026",
+      "openalex_id": "https://openalex.org/W2916369150",
+      "official_url": "https://doi.org/10.3390/aerospace6030026",
+      "cited_by_count_snapshot": 302,
+      "relevance_score_snapshot": 372.4883,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 13,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/aerospace6030026",
+        "pdf_url": "https://www.mdpi.com/2226-4310/6/3/26/pdf?version=1551341781",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ast.2021.107035",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Review of designs and flight control techniques of hybrid and convertible VTOL UAVs",
+      "authors": [
+        "Guillaume Ducard",
+        "Mike Allenspach"
+      ],
+      "year": 2021,
+      "publication_date": "2021-08-17",
+      "type": "article",
+      "venue": "Aerospace Science and Technology",
+      "doi": "10.1016/j.ast.2021.107035",
+      "openalex_id": "https://openalex.org/W3195230107",
+      "official_url": "https://doi.org/10.1016/j.ast.2021.107035",
+      "cited_by_count_snapshot": 287,
+      "relevance_score_snapshot": 290.33624,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 375,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion",
+        "control-planning"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.ast.2021.107035",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1270963821005459/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/jiot.2023.3268316",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "AI for UAV-Assisted IoT Applications: A Comprehensive Review",
+      "authors": [
+        "Nan Cheng",
+        "Shen Wu",
+        "Xiucheng Wang",
+        "Zhisheng Yin",
+        "Changle Li",
+        "Wen Chen",
+        "Fangjiong Chen"
+      ],
+      "year": 2023,
+      "publication_date": "2023-05-01",
+      "type": "article",
+      "venue": "IEEE Internet of Things Journal",
+      "doi": "10.1109/jiot.2023.3268316",
+      "openalex_id": "https://openalex.org/W4367665843",
+      "official_url": "https://doi.org/10.1109/jiot.2023.3268316",
+      "cited_by_count_snapshot": 285,
+      "relevance_score_snapshot": 263.82196,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 183,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1109/jiot.2023.3268316",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6488907/6702522/10113154.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.20944/preprints201803.0097.v1",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "On the Use of Unmanned Aerial Systems for Environmental Monitoring",
+      "authors": [
+        "Salvatore Manfreda",
+        "Matthew F. McCabe",
+        "Pauline E. Miller",
+        "Richard Lucas",
+        "Victor Pajuelo Madrigal",
+        "Giorgos Mallinis",
+        "Eyal Ben Dor",
+        "David Helman",
+        "Lyndon Estes",
+        "Giuseppe Ciraolo",
+        "Jana Müllerová",
+        "Flavia Tauro",
+        "M. Isabel P. de Lima",
+        "João L. M. P. de Lima",
+        "Félix Francés",
+        "K. K. Caylor",
+        "Marko Kohv",
+        "Antonino Maltese",
+        "Matthew Perks",
+        "Guiomar Ruiz-Pérez"
+      ],
+      "year": 2018,
+      "publication_date": "2018-03-14",
+      "type": "preprint",
+      "venue": "Preprints.org",
+      "doi": "10.20944/preprints201803.0097.v1",
+      "openalex_id": "https://openalex.org/W3125113274",
+      "official_url": "https://doi.org/10.20944/preprints201803.0097.v1",
+      "cited_by_count_snapshot": 272,
+      "relevance_score_snapshot": 468.58963,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 154,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://doi.org/10.20944/preprints201803.0097.v1",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/s43020-021-00041-3",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Indoor navigation: state of the art and future trends",
+      "authors": [
+        "Naser El‐Sheimy",
+        "You Li"
+      ],
+      "year": 2021,
+      "publication_date": "2021-05-03",
+      "type": "article",
+      "venue": "Satellite Navigation",
+      "doi": "10.1186/s43020-021-00041-3",
+      "openalex_id": "https://openalex.org/W3165528186",
+      "official_url": "https://doi.org/10.1186/s43020-021-00041-3",
+      "cited_by_count_snapshot": 267,
+      "relevance_score_snapshot": 322.06943,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 115,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/s43020-021-00041-3",
+        "pdf_url": "https://satellite-navigation.springeropen.com/counter/pdf/10.1186/s43020-021-00041-3",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.esr.2021.100633",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Advanced biofuels to decarbonise European transport by 2030: Markets, challenges, and policies that impact their successful market uptake",
+      "authors": [
+        "Calliope Panoutsou",
+        "Sonja Germer",
+        "Paraskevi Karka",
+        "Stavros Papadokostantakis",
+        "Yuri Kroyan",
+        "Michał Wojcieszyk",
+        "K. Maniatis",
+        "Philippe Marchand",
+        "Ingvar Landälv"
+      ],
+      "year": 2021,
+      "publication_date": "2021-03-01",
+      "type": "article",
+      "venue": "Energy Strategy Reviews",
+      "doi": "10.1016/j.esr.2021.100633",
+      "openalex_id": "https://openalex.org/W3135460353",
+      "official_url": "https://doi.org/10.1016/j.esr.2021.100633",
+      "cited_by_count_snapshot": 228,
+      "relevance_score_snapshot": 108.28362,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 163,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.esr.2021.100633",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2211467X21000195?via%3Dihub",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.cja.2020.07.017",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Review of hybrid electric powered aircraft, its conceptual design and energy management methodologies",
+      "authors": [
+        "Ye Xie",
+        "Al SAVVARISAL",
+        "Antonios Tsourdos",
+        "Dan Zhang",
+        "Jason Gu"
+      ],
+      "year": 2020,
+      "publication_date": "2020-08-13",
+      "type": "article",
+      "venue": "Chinese Journal of Aeronautics",
+      "doi": "10.1016/j.cja.2020.07.017",
+      "openalex_id": "https://openalex.org/W3049392569",
+      "official_url": "https://doi.org/10.1016/j.cja.2020.07.017",
+      "cited_by_count_snapshot": 217,
+      "relevance_score_snapshot": 265.47702,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 130,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.cja.2020.07.017",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1000936120303368/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones1010002",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aerial Systems for Civil Applications: A Review",
+      "authors": [
+        "H. González-Jorge",
+        "Joaquín Martínez-Sánchez",
+        "Martín Bueno",
+        "and Pedor Arias"
+      ],
+      "year": 2017,
+      "publication_date": "2017-07-13",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones1010002",
+      "openalex_id": "https://openalex.org/W2736229298",
+      "official_url": "https://doi.org/10.3390/drones1010002",
+      "cited_by_count_snapshot": 198,
+      "relevance_score_snapshot": 414.4769,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 55,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones1010002",
+        "pdf_url": "https://www.mdpi.com/2504-446X/1/1/2/pdf?version=1500432790",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.paerosci.2008.08.001",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "On unmanned aircraft systems issues, challenges and operational restrictions preventing integration into the National Airspace System",
+      "authors": [
+        "Konstantinos Dalamagkidis",
+        "Kimon P. Valavanis",
+        "Les A. Piegl"
+      ],
+      "year": 2008,
+      "publication_date": "2008-10-01",
+      "type": "article",
+      "venue": "Progress in Aerospace Sciences",
+      "doi": "10.1016/j.paerosci.2008.08.001",
+      "openalex_id": "https://openalex.org/W2065898880",
+      "official_url": "https://doi.org/10.1016/j.paerosci.2008.08.001",
+      "cited_by_count_snapshot": 197,
+      "relevance_score_snapshot": 620.9046,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 15,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.heliyon.2024.e26503",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Digital twin: Data exploration, architecture, implementation and future",
+      "authors": [
+        "Md. Shezad Dihan",
+        "Anwar Islam Akash",
+        "Zinat Tasneem",
+        "Prangon Das",
+        "Sajal K. Das",
+        "Md. Robiul Islam",
+        "Md. Manirul Islam",
+        "Faisal R. Badal",
+        "Md. Firoj Ali",
+        "Md. Hafiz Ahamed",
+        "Sarafat Hussain Abhi",
+        "Subrata K. Sarker",
+        "Md. Mehedi Hasan"
+      ],
+      "year": 2024,
+      "publication_date": "2024-02-21",
+      "type": "article",
+      "venue": "Heliyon",
+      "doi": "10.1016/j.heliyon.2024.e26503",
+      "openalex_id": "https://openalex.org/W4392017487",
+      "official_url": "https://doi.org/10.1016/j.heliyon.2024.e26503",
+      "cited_by_count_snapshot": 194,
+      "relevance_score_snapshot": 269.4733,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 204,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.heliyon.2024.e26503",
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones7010062",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "UAV Formation Trajectory Planning Algorithms: A Review",
+      "authors": [
+        "Yunhong Yang",
+        "Xingzhong Xiong",
+        "Yuehao Yan"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-16",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones7010062",
+      "openalex_id": "https://openalex.org/W4316468203",
+      "official_url": "https://doi.org/10.3390/drones7010062",
+      "cited_by_count_snapshot": 163,
+      "relevance_score_snapshot": 409.89502,
+      "search_rank_snapshot": 12,
+      "referenced_works_count": 162,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones7010062",
+        "pdf_url": "https://www.mdpi.com/2504-446X/7/1/62/pdf?version=1673850883",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/agriculture11010022",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Comparative Study on Application of Unmanned Aerial Vehicle Systems in Agriculture",
+      "authors": [
+        "Mohammad Fatin Fatihur Rahman",
+        "Shurui Fan",
+        "Yan Zhang",
+        "Lei Chen"
+      ],
+      "year": 2021,
+      "publication_date": "2021-01-01",
+      "type": "article",
+      "venue": "Agriculture",
+      "doi": "10.3390/agriculture11010022",
+      "openalex_id": "https://openalex.org/W3114315101",
+      "official_url": "https://doi.org/10.3390/agriculture11010022",
+      "cited_by_count_snapshot": 159,
+      "relevance_score_snapshot": 435.57672,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 110,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/agriculture11010022",
+        "pdf_url": "https://www.mdpi.com/2077-0472/11/1/22/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/buildings13020441",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "BIM and Digital Twin for Developing Convergence Technologies as Future of Digital Construction",
+      "authors": [
+        "Samad M. E. Sepasgozar",
+        "Ayaz Ahmad Khan",
+        "Kai Smith",
+        "Juan Romero",
+        "Xiaohan Shen",
+        "Sara Shirowzhan",
+        "Heng Li",
+        "Faham Tahmasebinia"
+      ],
+      "year": 2023,
+      "publication_date": "2023-02-04",
+      "type": "article",
+      "venue": "Buildings",
+      "doi": "10.3390/buildings13020441",
+      "openalex_id": "https://openalex.org/W4319316047",
+      "official_url": "https://doi.org/10.3390/buildings13020441",
+      "cited_by_count_snapshot": 158,
+      "relevance_score_snapshot": 260.1064,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 137,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/buildings13020441",
+        "pdf_url": "https://www.mdpi.com/2075-5309/13/2/441/pdf?version=1675732708",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.tre.2022.102868",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "On the understanding of the current status of urban air mobility development and its future prospects: Commuting in a flying vehicle as a new paradigm",
+      "authors": [
+        "Jordi Pons‐Prats",
+        "Tanja Živojinović",
+        "Jovana Kuljanin"
+      ],
+      "year": 2022,
+      "publication_date": "2022-08-31",
+      "type": "article",
+      "venue": "Transportation Research Part E Logistics and Transportation Review",
+      "doi": "10.1016/j.tre.2022.102868",
+      "openalex_id": "https://openalex.org/W4293736052",
+      "official_url": "https://doi.org/10.1016/j.tre.2022.102868",
+      "cited_by_count_snapshot": 158,
+      "relevance_score_snapshot": 269.05795,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 136,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure",
+        "safety-business"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.tre.2022.102868",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1366554522002496/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.robot.2023.104533",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A review of UAV autonomous navigation in GPS-denied environments",
+      "authors": [
+        "Yingxiu Chang",
+        "Yongqiang Cheng",
+        "Umar Manzoor",
+        "John F. Murray"
+      ],
+      "year": 2023,
+      "publication_date": "2023-09-29",
+      "type": "article",
+      "venue": "Robotics and Autonomous Systems",
+      "doi": "10.1016/j.robot.2023.104533",
+      "openalex_id": "https://openalex.org/W4387166575",
+      "official_url": "https://doi.org/10.1016/j.robot.2023.104533",
+      "cited_by_count_snapshot": 157,
+      "relevance_score_snapshot": 363.8139,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 206,
+      "language": "en",
+      "topics": [
+        "navigation",
+        "control-planning"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.robot.2023.104533",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0921889023001720",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/rs15030865",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Design and Application of a UAV Autonomous Inspection System for High-Voltage Power Transmission Lines",
+      "authors": [
+        "Ziran Li",
+        "Yanwen Zhang",
+        "Hao Wu",
+        "Satoshi Suzuki",
+        "Akio Namiki",
+        "Wei Wang"
+      ],
+      "year": 2023,
+      "publication_date": "2023-02-03",
+      "type": "article",
+      "venue": "Remote Sensing",
+      "doi": "10.3390/rs15030865",
+      "openalex_id": "https://openalex.org/W4319315490",
+      "official_url": "https://doi.org/10.3390/rs15030865",
+      "cited_by_count_snapshot": 153,
+      "relevance_score_snapshot": 308.83496,
+      "search_rank_snapshot": 35,
+      "referenced_works_count": 44,
+      "language": "en",
+      "topics": [
+        "control-planning"
+      ],
+      "source_query": "UAV flight control trajectory planning autonomous",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/rs15030865",
+        "pdf_url": "https://www.mdpi.com/2072-4292/15/3/865/pdf?version=1675685506",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.eng.2020.11.007",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Integrated Network Design and Demand Forecast for On-Demand Urban Air Mobility",
+      "authors": [
+        "Zhiqiang Wu",
+        "Yu Zhang"
+      ],
+      "year": 2021,
+      "publication_date": "2021-03-20",
+      "type": "article",
+      "venue": "Engineering",
+      "doi": "10.1016/j.eng.2020.11.007",
+      "openalex_id": "https://openalex.org/W3137084733",
+      "official_url": "https://doi.org/10.1016/j.eng.2020.11.007",
+      "cited_by_count_snapshot": 151,
+      "relevance_score_snapshot": 414.83548,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 32,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.eng.2020.11.007",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095809921000837/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s13272-020-00468-5",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Long-term application potential of urban air mobility complementing public transport: an upper Bavaria example",
+      "authors": [
+        "Kay O. Ploetner",
+        "Christelle Al Haddad",
+        "Constantinos Antoniou",
+        "Florida Frank",
+        "Mengying Fu",
+        "Stefanie Kabel",
+        "Carlos Llorca",
+        "Rolf Moeckel",
+        "Ana Tsui Moreno",
+        "Alona Pukhova",
+        "Raoul Rothfeld",
+        "Michael Shamiyeh",
+        "Anna Straubinger",
+        "Harry Wagner",
+        "Qin Zhang"
+      ],
+      "year": 2020,
+      "publication_date": "2020-08-30",
+      "type": "article",
+      "venue": "CEAS Aeronautical Journal",
+      "doi": "10.1007/s13272-020-00468-5",
+      "openalex_id": "https://openalex.org/W3082450633",
+      "official_url": "https://doi.org/10.1007/s13272-020-00468-5",
+      "cited_by_count_snapshot": 151,
+      "relevance_score_snapshot": 347.40543,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 16,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1007/s13272-020-00468-5",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13272-020-00468-5.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s23104643",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Survey on the Developments of Unmanned Marine Vehicles: Intelligence and Cooperation",
+      "authors": [
+        "배인영",
+        "Jung-Pyo Hong"
+      ],
+      "year": 2023,
+      "publication_date": "2023-05-10",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s23104643",
+      "openalex_id": "https://openalex.org/W4376139506",
+      "official_url": "https://doi.org/10.3390/s23104643",
+      "cited_by_count_snapshot": 144,
+      "relevance_score_snapshot": 189.40729,
+      "search_rank_snapshot": 33,
+      "referenced_works_count": 170,
+      "language": "en",
+      "topics": [
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft traffic management command control remote identification",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s23104643",
+        "pdf_url": "https://www.mdpi.com/1424-8220/23/10/4643/pdf?version=1683778243",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/rs11060610",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Tight Fusion of a Monocular Camera, MEMS-IMU, and Single-Frequency Multi-GNSS RTK for Precise Navigation in GNSS-Challenged Environments",
+      "authors": [
+        "Tuan Li",
+        "Hongping Zhang",
+        "Zhouzheng Gao",
+        "Xiaoji Niu",
+        "Naser El‐Sheimy"
+      ],
+      "year": 2019,
+      "publication_date": "2019-03-13",
+      "type": "article",
+      "venue": "Remote Sensing",
+      "doi": "10.3390/rs11060610",
+      "openalex_id": "https://openalex.org/W2922457702",
+      "official_url": "https://doi.org/10.3390/rs11060610",
+      "cited_by_count_snapshot": 143,
+      "relevance_score_snapshot": 358.4347,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 46,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/rs11060610",
+        "pdf_url": "https://www.mdpi.com/2072-4292/11/6/610/pdf?version=1552462101",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/comst.2019.2949178",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Survey on Coping With Intentional Interference in Satellite Navigation for Manned and Unmanned Aircraft",
+      "authors": [
+        "Rubén Morales Ferré",
+        "Philipp Richter",
+        "Emanuela Falletti",
+        "Alberto de la Fuente",
+        "Elena Simona Lohan"
+      ],
+      "year": 2019,
+      "publication_date": "2019-10-24",
+      "type": "article",
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "doi": "10.1109/comst.2019.2949178",
+      "openalex_id": "https://openalex.org/W2981830252",
+      "official_url": "https://doi.org/10.1109/comst.2019.2949178",
+      "cited_by_count_snapshot": 141,
+      "relevance_score_snapshot": 290.59637,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 289,
+      "language": "en",
+      "topics": [
+        "sense-avoid",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1109/comst.2019.2949178",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/9739/9031610/08882350.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2020.2977693",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Wind Measurement and Simulation Techniques in Multi-Rotor Small Unmanned Aerial Vehicles",
+      "authors": [
+        "Pramod Abichandani",
+        "Deepan Lobo",
+        "Gabriel Ford",
+        "Donald J. Bucci",
+        "Moshe Kam"
+      ],
+      "year": 2020,
+      "publication_date": "2020-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2020.2977693",
+      "openalex_id": "https://openalex.org/W3009481314",
+      "official_url": "https://doi.org/10.1109/access.2020.2977693",
+      "cited_by_count_snapshot": 134,
+      "relevance_score_snapshot": 403.5008,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 99,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2020.2977693",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09020170.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/rs16050879",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Comprehensive Survey of Unmanned Aerial Vehicles Detection and Classification Using Machine Learning Approach: Challenges, Solutions, and Future Directions",
+      "authors": [
+        "Md Habibur Rahman",
+        "Mohammad Abrar Shakil Sejan",
+        "Md Abdul Aziz",
+        "Rana Tabassum",
+        "Jung-In Baik",
+        "Hyoung‐Kyu Song"
+      ],
+      "year": 2024,
+      "publication_date": "2024-03-01",
+      "type": "article",
+      "venue": "Remote Sensing",
+      "doi": "10.3390/rs16050879",
+      "openalex_id": "https://openalex.org/W4392359729",
+      "official_url": "https://doi.org/10.3390/rs16050879",
+      "cited_by_count_snapshot": 134,
+      "relevance_score_snapshot": 142.40247,
+      "search_rank_snapshot": 59,
+      "referenced_works_count": 197,
+      "language": "en",
+      "topics": [
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft traffic management command control remote identification",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/rs16050879",
+        "pdf_url": "https://www.mdpi.com/2072-4292/16/5/879/pdf?version=1709544744",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ijtst.2017.01.004",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aircraft System traffic management: Concept of operation and system architecture",
+      "authors": [
+        "Tao Jiang",
+        "Jared Geller",
+        "Daiheng Ni",
+        "John Collura"
+      ],
+      "year": 2016,
+      "publication_date": "2016-10-01",
+      "type": "article",
+      "venue": "International Journal of Transportation Science and Technology",
+      "doi": "10.1016/j.ijtst.2017.01.004",
+      "openalex_id": "https://openalex.org/W2580824404",
+      "official_url": "https://doi.org/10.1016/j.ijtst.2017.01.004",
+      "cited_by_count_snapshot": 126,
+      "relevance_score_snapshot": 410.353,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 13,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.1016/j.ijtst.2017.01.004",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2046043016300260/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tits.2020.3048364",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "An Initial Assessment of the Potential Weather Barriers of Urban Air Mobility",
+      "authors": [
+        "Colleen Reiche",
+        "Adam Cohen",
+        "Chris Fernando"
+      ],
+      "year": 2021,
+      "publication_date": "2021-01-15",
+      "type": "article",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "doi": "10.1109/tits.2020.3048364",
+      "openalex_id": "https://openalex.org/W3121283633",
+      "official_url": "https://doi.org/10.1109/tits.2020.3048364",
+      "cited_by_count_snapshot": 103,
+      "relevance_score_snapshot": 274.90887,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 11,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://escholarship.org/uc/item/8kz5r10b",
+        "pdf_url": "https://escholarship.org/content/qt8kz5r10b/qt8kz5r10b.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tase.2022.3232025",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Review of Navigation Methods for UAV-Based Parcel Delivery",
+      "authors": [
+        "Didula Dissanayaka",
+        "Thumeera R. Wanasinghe",
+        "Oscar De Silva",
+        "Awantha Jayasiri",
+        "George K. I. Mann"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-02",
+      "type": "article",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "doi": "10.1109/tase.2022.3232025",
+      "openalex_id": "https://openalex.org/W4313413234",
+      "official_url": "https://doi.org/10.1109/tase.2022.3232025",
+      "cited_by_count_snapshot": 102,
+      "relevance_score_snapshot": 297.77017,
+      "search_rank_snapshot": 12,
+      "referenced_works_count": 133,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://nrc-publications.canada.ca/eng/view/accepted/?id=0df92bfe-cdff-4396-af67-b4eb226210bb",
+        "pdf_url": "https://nrc-publications.canada.ca/eng/view/accepted/?id=0df92bfe-cdff-4396-af67-b4eb226210bb",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.trc.2021.103324",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Automated flight planning of high-density urban air mobility",
+      "authors": [
+        "Hualong Tang",
+        "Yu Zhang",
+        "Vahid Mohmoodian",
+        "Hadi Charkhgard"
+      ],
+      "year": 2021,
+      "publication_date": "2021-08-16",
+      "type": "article",
+      "venue": "Transportation Research Part C Emerging Technologies",
+      "doi": "10.1016/j.trc.2021.103324",
+      "openalex_id": "https://openalex.org/W3193901759",
+      "official_url": "https://doi.org/10.1016/j.trc.2021.103324",
+      "cited_by_count_snapshot": 98,
+      "relevance_score_snapshot": 278.42368,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 53,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.trc.2021.103324",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0968090X21003302/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:openalex:w3170306545",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Urban Air Mobility (UAM) Market Study",
+      "authors": [
+        "Shahab Hasan"
+      ],
+      "year": 2018,
+      "publication_date": "2018-11-01",
+      "type": "article",
+      "venue": "NASA STI Repository (National Aeronautics and Space Administration)",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W3170306545",
+      "official_url": "http://hdl.handle.net/2060/20190001190",
+      "cited_by_count_snapshot": 97,
+      "relevance_score_snapshot": 280.31952,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://hdl.handle.net/2060/20190001190",
+        "pdf_url": "http://hdl.handle.net/2060/20190001190",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.paerosci.2017.10.001",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A review of unmanned aircraft system ground risk models",
+      "authors": [
+        "Achim Washington",
+        "Reece Clothier",
+        "J. Fernando Silva"
+      ],
+      "year": 2017,
+      "publication_date": "2017-11-01",
+      "type": "article",
+      "venue": "Progress in Aerospace Sciences",
+      "doi": "10.1016/j.paerosci.2017.10.001",
+      "openalex_id": "https://openalex.org/W2767619463",
+      "official_url": "https://doi.org/10.1016/j.paerosci.2017.10.001",
+      "cited_by_count_snapshot": 95,
+      "relevance_score_snapshot": 484.66605,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 89,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://figshare.com/articles/journal_contribution/A_review_of_unmanned_aircraft_system_ground_risk_models/27421893",
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/978-94-007-2479-2",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "On Integrating Unmanned Aircraft Systems into the National Airspace System : Issues, Challenges, Operational Restrictions, Certification, and Recommendations",
+      "authors": [
+        "Konstantinos Dalamagkidis",
+        "Kimon P. Valavanis",
+        "Les A. Piegl"
+      ],
+      "year": 2012,
+      "publication_date": "2012-01-01",
+      "type": "article",
+      "venue": "International Linear Collider",
+      "doi": "10.1007/978-94-007-2479-2",
+      "openalex_id": "https://openalex.org/W2432950162",
+      "official_url": "https://doi.org/10.1007/978-94-007-2479-2",
+      "cited_by_count_snapshot": 95,
+      "relevance_score_snapshot": 449.1237,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones9050376",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Advances in UAV Path Planning: A Comprehensive Review of Methods, Challenges, and Future Directions",
+      "authors": [
+        "Wenlong Meng",
+        "Xuegang Zhang",
+        "Lvzhuoyu Zhou",
+        "Hangyu Guo",
+        "Xin Hu"
+      ],
+      "year": 2025,
+      "publication_date": "2025-05-16",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones9050376",
+      "openalex_id": "https://openalex.org/W4410438635",
+      "official_url": "https://doi.org/10.3390/drones9050376",
+      "cited_by_count_snapshot": 93,
+      "relevance_score_snapshot": 149.2366,
+      "search_rank_snapshot": 18,
+      "referenced_works_count": 217,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones9050376",
+        "pdf_url": "https://www.mdpi.com/2504-446X/9/5/376/pdf?version=1747399075",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2023.3299290",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Research on GNSS INS & GNSS/INS Integrated Navigation Method for Autonomous Vehicles: A Survey",
+      "authors": [
+        "Yuan He",
+        "Jichuan Li",
+        "Junjie Liu"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2023.3299290",
+      "openalex_id": "https://openalex.org/W4385299544",
+      "official_url": "https://doi.org/10.1109/access.2023.3299290",
+      "cited_by_count_snapshot": 92,
+      "relevance_score_snapshot": 303.17206,
+      "search_rank_snapshot": 11,
+      "referenced_works_count": 114,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2023.3299290",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10195949.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones7010047",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Autonomous Unmanned Aerial Vehicles in Bushfire Management: Challenges and Opportunities",
+      "authors": [
+        "Shouthiri Partheepan",
+        "Farzad Sanati",
+        "Jahan Hassan"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-10",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones7010047",
+      "openalex_id": "https://openalex.org/W4315485213",
+      "official_url": "https://doi.org/10.3390/drones7010047",
+      "cited_by_count_snapshot": 90,
+      "relevance_score_snapshot": 161.88388,
+      "search_rank_snapshot": 43,
+      "referenced_works_count": 151,
+      "language": "en",
+      "topics": [
+        "sense-avoid",
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones7010047",
+        "pdf_url": "https://www.mdpi.com/2504-446X/7/1/47/pdf?version=1673446973",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/su15054209",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "What Is Polluting Delhi’s Air? A Review from 1990 to 2022",
+      "authors": [
+        "Sarath Guttikunda",
+        "Sai Krishna Dammalapati",
+        "Gautam Pradhan",
+        "Bhargav Krishna",
+        "Hiren Jethva",
+        "Puja Jawahar"
+      ],
+      "year": 2023,
+      "publication_date": "2023-02-26",
+      "type": "article",
+      "venue": "Sustainability",
+      "doi": "10.3390/su15054209",
+      "openalex_id": "https://openalex.org/W4322504238",
+      "official_url": "https://doi.org/10.3390/su15054209",
+      "cited_by_count_snapshot": 88,
+      "relevance_score_snapshot": 84.52312,
+      "search_rank_snapshot": 19,
+      "referenced_works_count": 98,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/su15054209",
+        "pdf_url": "https://www.mdpi.com/2071-1050/15/5/4209/pdf?version=1677660755",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.urbmob.2021.100002",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Flying taxis revived: Can Urban air mobility reduce road congestion?",
+      "authors": [
+        "Alona Pukhova",
+        "Carlos Llorca",
+        "Ana Tsui Moreno",
+        "Corin Staves",
+        "Qin Zhang",
+        "Rolf Moeckel"
+      ],
+      "year": 2021,
+      "publication_date": "2021-07-05",
+      "type": "article",
+      "venue": "Journal of Urban Mobility",
+      "doi": "10.1016/j.urbmob.2021.100002",
+      "openalex_id": "https://openalex.org/W3185837460",
+      "official_url": "https://doi.org/10.1016/j.urbmob.2021.100002",
+      "cited_by_count_snapshot": 86,
+      "relevance_score_snapshot": 283.83698,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 37,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.urbmob.2021.100002",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2667091721000029/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.measurement.2022.112256",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "GNSS-denied UAV indoor navigation with UWB incorporated visual inertial odometry",
+      "authors": [
+        "Huei‐Yung Lin",
+        "Jia-Rong Zhan"
+      ],
+      "year": 2022,
+      "publication_date": "2022-11-26",
+      "type": "article",
+      "venue": "Measurement",
+      "doi": "10.1016/j.measurement.2022.112256",
+      "openalex_id": "https://openalex.org/W4310014471",
+      "official_url": "https://doi.org/10.1016/j.measurement.2022.112256",
+      "cited_by_count_snapshot": 84,
+      "relevance_score_snapshot": 466.1573,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 49,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1002/rob.22231",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Autonomous aerial robotics for package delivery: A technical review",
+      "authors": [
+        "Jack Saunders",
+        "Sajad Saeedi",
+        "Wenbin Li"
+      ],
+      "year": 2023,
+      "publication_date": "2023-07-26",
+      "type": "article",
+      "venue": "Journal of Field Robotics",
+      "doi": "10.1002/rob.22231",
+      "openalex_id": "https://openalex.org/W4385271034",
+      "official_url": "https://doi.org/10.1002/rob.22231",
+      "cited_by_count_snapshot": 82,
+      "relevance_score_snapshot": 191.9906,
+      "search_rank_snapshot": 33,
+      "referenced_works_count": 265,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1002/rob.22231",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rob.22231",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/s43020-025-00162-z",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Gnss-denied unmanned aerial vehicle navigation: analyzing computational complexity, sensor fusion, and localization methodologies",
+      "authors": [
+        "Imen Jarraya",
+        "Abdulrahman Al-Batati",
+        "Muhammad Bilal Kadri",
+        "Mohamed Abdelkader",
+        "Adel Ammar",
+        "Wadii Boulila",
+        "Anis Koubâa"
+      ],
+      "year": 2025,
+      "publication_date": "2025-04-06",
+      "type": "article",
+      "venue": "Satellite Navigation",
+      "doi": "10.1186/s43020-025-00162-z",
+      "openalex_id": "https://openalex.org/W4409201921",
+      "official_url": "https://doi.org/10.1186/s43020-025-00162-z",
+      "cited_by_count_snapshot": 80,
+      "relevance_score_snapshot": 171.39981,
+      "search_rank_snapshot": 37,
+      "referenced_works_count": 112,
+      "language": "en",
+      "topics": [
+        "sense-avoid",
+        "navigation"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/s43020-025-00162-z",
+        "pdf_url": "https://satellite-navigation.springeropen.com/counter/pdf/10.1186/s43020-025-00162-z",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ssci.2011.02.004",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Definition of an airworthiness certification framework for civil unmanned aircraft systems",
+      "authors": [
+        "Reece Clothier",
+        "Jennifer L. Palmer",
+        "Rodney A. Walker",
+        "Neale L. Fulton"
+      ],
+      "year": 2011,
+      "publication_date": "2011-03-08",
+      "type": "article",
+      "venue": "Safety Science",
+      "doi": "10.1016/j.ssci.2011.02.004",
+      "openalex_id": "https://openalex.org/W2082483218",
+      "official_url": "https://doi.org/10.1016/j.ssci.2011.02.004",
+      "cited_by_count_snapshot": 79,
+      "relevance_score_snapshot": 604.43756,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 26,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.ssci.2011.02.004",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0925753511000270",
+        "license": "public-domain"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tmc.2022.3193499",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Integrated Sensing and Communication in UAV Swarms for Cooperative Multiple Targets Tracking",
+      "authors": [
+        "Longyu Zhou",
+        "Supeng Leng",
+        "Qing Wang",
+        "Qiang Liu"
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-01",
+      "type": "article",
+      "venue": "IEEE Transactions on Mobile Computing",
+      "doi": "10.1109/tmc.2022.3193499",
+      "openalex_id": "https://openalex.org/W4287887776",
+      "official_url": "https://doi.org/10.1109/tmc.2022.3193499",
+      "cited_by_count_snapshot": 79,
+      "relevance_score_snapshot": 260.04987,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 50,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1109/tmc.2022.3193499",
+        "pdf_url": "https://repository.tudelft.nl/file/File_add5ebec-0dc7-4cb1-b961-038c5d8889db",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/ojvt.2023.3316181",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Comprehensive Survey on Artificial Intelligence for Unmanned Aerial Vehicles",
+      "authors": [
+        "Siva Sai",
+        "Akshat Garg",
+        "Kartik Jhawar",
+        "Vinay Chamola",
+        "Biplab Sikdar"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-01",
+      "type": "article",
+      "venue": "IEEE Open Journal of Vehicular Technology",
+      "doi": "10.1109/ojvt.2023.3316181",
+      "openalex_id": "https://openalex.org/W4386824964",
+      "official_url": "https://doi.org/10.1109/ojvt.2023.3316181",
+      "cited_by_count_snapshot": 79,
+      "relevance_score_snapshot": 333.69342,
+      "search_rank_snapshot": 15,
+      "referenced_works_count": 164,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/ojvt.2023.3316181",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/8782711/8889399/10254249.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.2514/1.c035814",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Aerodynamic Interaction Effects Between Propellers in Typical eVTOL Vehicle Configurations",
+      "authors": [
+        "Tom C. A. Stokkermans",
+        "Daniele Usai",
+        "Tomas Sinnige",
+        "Leo L. Veldhuis"
+      ],
+      "year": 2021,
+      "publication_date": "2021-03-31",
+      "type": "article",
+      "venue": "Journal of Aircraft",
+      "doi": "10.2514/1.c035814",
+      "openalex_id": "https://openalex.org/W3149177335",
+      "official_url": "https://doi.org/10.2514/1.c035814",
+      "cited_by_count_snapshot": 75,
+      "relevance_score_snapshot": 274.7468,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 41,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://resolver.tudelft.nl/uuid:98037fb9-d67b-4a3e-994c-79e1c0c7a784",
+        "pdf_url": "http://resolver.tudelft.nl/uuid:98037fb9-d67b-4a3e-994c-79e1c0c7a784",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2023.3301989",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Comprehensive Review of Research Hotspots on Battery Management Systems for UAVs",
+      "authors": [
+        "Shiqin Jiao",
+        "Guiyang Zhang",
+        "Mei Zhou",
+        "Guoqi Li"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2023.3301989",
+      "openalex_id": "https://openalex.org/W4385569613",
+      "official_url": "https://doi.org/10.1109/access.2023.3301989",
+      "cited_by_count_snapshot": 74,
+      "relevance_score_snapshot": 233.33716,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 142,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2023.3301989",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10208231.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10846-008-9213-x",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Current Status and Future Perspectives for Unmanned Aircraft System Operations in the US",
+      "authors": [
+        "Konstantinos Dalamagkidis",
+        "Kimon P. Valavanis",
+        "Les A. Piegl"
+      ],
+      "year": 2008,
+      "publication_date": "2008-02-26",
+      "type": "article",
+      "venue": "Journal of Intelligent & Robotic Systems",
+      "doi": "10.1007/s10846-008-9213-x",
+      "openalex_id": "https://openalex.org/W2071156806",
+      "official_url": "https://doi.org/10.1007/s10846-008-9213-x",
+      "cited_by_count_snapshot": 72,
+      "relevance_score_snapshot": 333.2307,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 8,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ast.2021.107143",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Understanding the control characteristics of electric vertical take-off and landing (eVTOL) aircraft for urban air mobility",
+      "authors": [
+        "Marilena Pavel"
+      ],
+      "year": 2021,
+      "publication_date": "2021-09-27",
+      "type": "article",
+      "venue": "Aerospace Science and Technology",
+      "doi": "10.1016/j.ast.2021.107143",
+      "openalex_id": "https://openalex.org/W3203283705",
+      "official_url": "https://doi.org/10.1016/j.ast.2021.107143",
+      "cited_by_count_snapshot": 71,
+      "relevance_score_snapshot": 261.4499,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 30,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.ast.2021.107143",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1270963821006532/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tiv.2023.3264812",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A New Era of Intelligent Vehicles and Intelligent Transportation Systems: Digital Twins and Parallel Intelligence",
+      "authors": [
+        "Ziran Wang",
+        "Chen Lv",
+        "Fei–Yue Wang"
+      ],
+      "year": 2023,
+      "publication_date": "2023-04-01",
+      "type": "article",
+      "venue": "IEEE Transactions on Intelligent Vehicles",
+      "doi": "10.1109/tiv.2023.3264812",
+      "openalex_id": "https://openalex.org/W4365420629",
+      "official_url": "https://doi.org/10.1109/tiv.2023.3264812",
+      "cited_by_count_snapshot": 71,
+      "relevance_score_snapshot": 152.44191,
+      "search_rank_snapshot": 23,
+      "referenced_works_count": 15,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1109/tiv.2023.3264812",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/7274857/10130133/10100948.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones7050319",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Advanced Air Mobility Operation and Infrastructure for Sustainable Connected eVTOL Vehicle",
+      "authors": [
+        "Saba Al–Rubaye",
+        "Antonios Tsourdos",
+        "Kamesh Namuduri"
+      ],
+      "year": 2023,
+      "publication_date": "2023-05-16",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones7050319",
+      "openalex_id": "https://openalex.org/W4377043179",
+      "official_url": "https://doi.org/10.3390/drones7050319",
+      "cited_by_count_snapshot": 70,
+      "relevance_score_snapshot": 207.83176,
+      "search_rank_snapshot": 11,
+      "referenced_works_count": 58,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion",
+        "fleet-infrastructure"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones7050319",
+        "pdf_url": "https://www.mdpi.com/2504-446X/7/5/319/pdf?version=1684240563",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s16122164",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Differential GNSS and Vision-Based Tracking to Improve Navigation Performance in Cooperative Multi-UAV Systems",
+      "authors": [
+        "Amedeo Rodi Vetrella",
+        "Giancarmine Fasano",
+        "Domenico Accardo",
+        "Antonio Moccia"
+      ],
+      "year": 2016,
+      "publication_date": "2016-12-17",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s16122164",
+      "openalex_id": "https://openalex.org/W2560871202",
+      "official_url": "https://doi.org/10.3390/s16122164",
+      "cited_by_count_snapshot": 69,
+      "relevance_score_snapshot": 305.5631,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 45,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s16122164",
+        "pdf_url": "https://www.mdpi.com/1424-8220/16/12/2164/pdf?version=1482320876",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/app13179881",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Survey: Future Smart Cities Based on Advance Control of Unmanned Aerial Vehicles (UAVs)",
+      "authors": [
+        "Nadir Abbas",
+        "Zeshan Abbas",
+        "Xiaodong Liu",
+        "Saad Saleem Khan",
+        "Eric Deale Foster",
+        "Stephen Larkin"
+      ],
+      "year": 2023,
+      "publication_date": "2023-08-31",
+      "type": "article",
+      "venue": "Applied Sciences",
+      "doi": "10.3390/app13179881",
+      "openalex_id": "https://openalex.org/W4386380402",
+      "official_url": "https://doi.org/10.3390/app13179881",
+      "cited_by_count_snapshot": 68,
+      "relevance_score_snapshot": 261.8033,
+      "search_rank_snapshot": 21,
+      "referenced_works_count": 96,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/app13179881",
+        "pdf_url": "https://www.mdpi.com/2076-3417/13/17/9881/pdf?version=1693492188",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ssci.2023.106292",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A roadmap for the future of crowd safety research and practice: Introducing the Swiss Cheese Model of Crowd Safety and the imperative of a Vision Zero target",
+      "authors": [
+        "Milad Haghani",
+        "Matt Coughlan",
+        "Ben Crabb",
+        "Anton Dierickx",
+        "Claudio Feliciani",
+        "Roderick van Gelder",
+        "Paul Geoerg",
+        "Nazli Hocaoglu",
+        "Steve Laws",
+        "Ruggiero Lovreglio",
+        "Zoe Miles",
+        "Alexandre Nicolas",
+        "William O’Toole",
+        "Syan Schaap",
+        "Travis Semmens",
+        "Zahra Shahhoseini",
+        "Ramón Spaaij",
+        "Andrew Tatrai",
+        "John Webster",
+        "A. Wilson"
+      ],
+      "year": 2023,
+      "publication_date": "2023-08-29",
+      "type": "article",
+      "venue": "Safety Science",
+      "doi": "10.1016/j.ssci.2023.106292",
+      "openalex_id": "https://openalex.org/W4386267254",
+      "official_url": "https://doi.org/10.1016/j.ssci.2023.106292",
+      "cited_by_count_snapshot": 66,
+      "relevance_score_snapshot": 91.760994,
+      "search_rank_snapshot": 16,
+      "referenced_works_count": 282,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.ssci.2023.106292",
+        "pdf_url": null,
+        "license": "cc-by-nc"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.tranpol.2024.03.003",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Urban Air Mobility (UAM): Airport shuttles or city-taxis?",
+      "authors": [
+        "Pierluigi Coppola",
+        "Francesco De Fabiis",
+        "Fulvio Silvestri"
+      ],
+      "year": 2024,
+      "publication_date": "2024-03-04",
+      "type": "article",
+      "venue": "Transport Policy",
+      "doi": "10.1016/j.tranpol.2024.03.003",
+      "openalex_id": "https://openalex.org/W4392381157",
+      "official_url": "https://doi.org/10.1016/j.tranpol.2024.03.003",
+      "cited_by_count_snapshot": 64,
+      "relevance_score_snapshot": 221.52034,
+      "search_rank_snapshot": 18,
+      "referenced_works_count": 48,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.tranpol.2024.03.003",
+        "pdf_url": null,
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s24030911",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Inspection of Floating Offshore Wind Turbines Using Multi-Rotor Unmanned Aerial Vehicles: Literature Review and Trends",
+      "authors": [
+        "Kong Zhang",
+        "Vikram Pakrashi",
+        "Jimmy Murphy",
+        "Guangbo Hao"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-30",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s24030911",
+      "openalex_id": "https://openalex.org/W4391344795",
+      "official_url": "https://doi.org/10.3390/s24030911",
+      "cited_by_count_snapshot": 62,
+      "relevance_score_snapshot": 226.96707,
+      "search_rank_snapshot": 28,
+      "referenced_works_count": 241,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s24030911",
+        "pdf_url": "https://www.mdpi.com/1424-8220/24/3/911/pdf?version=1706629940",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.2478/ijssis-2023-0012",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Cybersecurity in Unmanned Aerial Vehicles: a Review",
+      "authors": [
+        "Wasswa Shafik",
+        "S. Mojtaba Matinkhah",
+        "Fawad Shokoor"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-01",
+      "type": "article",
+      "venue": "International Journal on Smart Sensing and Intelligent Systems",
+      "doi": "10.2478/ijssis-2023-0012",
+      "openalex_id": "https://openalex.org/W4387756004",
+      "official_url": "https://doi.org/10.2478/ijssis-2023-0012",
+      "cited_by_count_snapshot": 61,
+      "relevance_score_snapshot": 150.16191,
+      "search_rank_snapshot": 54,
+      "referenced_works_count": 52,
+      "language": "en",
+      "topics": [
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft traffic management command control remote identification",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.2478/ijssis-2023-0012",
+        "pdf_url": "https://sciendo.com/pdf/10.2478/ijssis-2023-0012",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3617992",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Survey on the Unmanned Aircraft System Traffic Management",
+      "authors": [
+        "Asma Hamissi",
+        "Amine Dhraief"
+      ],
+      "year": 2023,
+      "publication_date": "2023-09-02",
+      "type": "article",
+      "venue": "ACM Computing Surveys",
+      "doi": "10.1145/3617992",
+      "openalex_id": "https://openalex.org/W4386390767",
+      "official_url": "https://doi.org/10.1145/3617992",
+      "cited_by_count_snapshot": 58,
+      "relevance_score_snapshot": 362.97324,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 67,
+      "language": "en",
+      "topics": [
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft traffic management command control remote identification",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1145/3617992",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3617992",
+        "license": "other-oa"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/electronics12092025",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Digital Twins in the Marine Industry",
+      "authors": [
+        "Zhihan Lv",
+        "Haibin Lv",
+        "Mikael Fridenfalk"
+      ],
+      "year": 2023,
+      "publication_date": "2023-04-27",
+      "type": "article",
+      "venue": "Electronics",
+      "doi": "10.3390/electronics12092025",
+      "openalex_id": "https://openalex.org/W4367316620",
+      "official_url": "https://doi.org/10.3390/electronics12092025",
+      "cited_by_count_snapshot": 57,
+      "relevance_score_snapshot": 178.74559,
+      "search_rank_snapshot": 16,
+      "referenced_works_count": 112,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/electronics12092025",
+        "pdf_url": "https://www.mdpi.com/2079-9292/12/9/2025/pdf?version=1682591144",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/aerospace10030311",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "An Efficient and Robust Sizing Method for eVTOL Aircraft Configurations in Conceptual Design",
+      "authors": [
+        "Osita Ugwueze",
+        "Thomas Statheros",
+        "Nadjim Horri",
+        "Mike Bromfield",
+        "Jules Simo"
+      ],
+      "year": 2023,
+      "publication_date": "2023-03-21",
+      "type": "article",
+      "venue": "Aerospace",
+      "doi": "10.3390/aerospace10030311",
+      "openalex_id": "https://openalex.org/W4328129474",
+      "official_url": "https://doi.org/10.3390/aerospace10030311",
+      "cited_by_count_snapshot": 55,
+      "relevance_score_snapshot": 314.4802,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 34,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/aerospace10030311",
+        "pdf_url": "https://www.mdpi.com/2226-4310/10/3/311/pdf?version=1679560202",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones9010059",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Unmanned Aircraft Systems (UASs): Current State, Emerging Technologies, and Future Trends",
+      "authors": [
+        "Gennaro Ariante",
+        "Giuseppe Del Core"
+      ],
+      "year": 2025,
+      "publication_date": "2025-01-15",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones9010059",
+      "openalex_id": "https://openalex.org/W4406421230",
+      "official_url": "https://doi.org/10.3390/drones9010059",
+      "cited_by_count_snapshot": 54,
+      "relevance_score_snapshot": 180.34232,
+      "search_rank_snapshot": 35,
+      "referenced_works_count": 127,
+      "language": "en",
+      "topics": [
+        "sense-avoid"
+      ],
+      "source_query": "unmanned aircraft detect and avoid perception sensors",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones9010059",
+        "pdf_url": "https://www.mdpi.com/2504-446X/9/1/59/pdf?version=1736955036",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ast.2024.109017",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Aerodynamic interaction between tandem propellers in eVTOL transition flight configurations",
+      "authors": [
+        "Alex Zanotti",
+        "Alessandro Velo",
+        "Chiara Pepe",
+        "Alberto Savino",
+        "D. Grassi",
+        "Luca Riccobene"
+      ],
+      "year": 2024,
+      "publication_date": "2024-02-29",
+      "type": "article",
+      "venue": "Aerospace Science and Technology",
+      "doi": "10.1016/j.ast.2024.109017",
+      "openalex_id": "https://openalex.org/W4392351951",
+      "official_url": "https://doi.org/10.1016/j.ast.2024.109017",
+      "cited_by_count_snapshot": 51,
+      "relevance_score_snapshot": 237.2117,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 27,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.ast.2024.109017",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s13272-024-00733-x",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Can Urban Air Mobility become reality? Opportunities and challenges of UAM as innovative mode of transport and DLR contribution to ongoing research",
+      "authors": [
+        "Henry Pak",
+        "Lukas Asmer",
+        "Petra Kokus",
+        "Bianca Isabella Schuchardt",
+        "Albert End",
+        "Frank Meller",
+        "Karolin Schweiger",
+        "Christoph Torens",
+        "Carolina Barzantny",
+        "Dennis Becker",
+        "Johannes M. Ernst",
+        "Florian Jäger",
+        "Tim Laudien",
+        "Nabih Naeem",
+        "Anne Papenfuß",
+        "Jan Pertz",
+        "Prajwal Shiva Prakasha",
+        "Patrick Ratei",
+        "Fabian Reimer",
+        "Patrick Sieb"
+      ],
+      "year": 2024,
+      "publication_date": "2024-05-07",
+      "type": "article",
+      "venue": "CEAS Aeronautical Journal",
+      "doi": "10.1007/s13272-024-00733-x",
+      "openalex_id": "https://openalex.org/W4396693513",
+      "official_url": "https://doi.org/10.1007/s13272-024-00733-x",
+      "cited_by_count_snapshot": 50,
+      "relevance_score_snapshot": 106.21045,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 88,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s13272-024-00733-x",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s13272-024-00733-x.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.vehcom.2023.100661",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A survey on cryptographic methods to secure communications for UAV traffic management",
+      "authors": [
+        "Ridwane Aissaoui",
+        "Jean-Christophe Deneuville",
+        "Christophe Guerber",
+        "Alain Pirovano"
+      ],
+      "year": 2023,
+      "publication_date": "2023-08-19",
+      "type": "article",
+      "venue": "Vehicular Communications",
+      "doi": "10.1016/j.vehcom.2023.100661",
+      "openalex_id": "https://openalex.org/W4386003037",
+      "official_url": "https://doi.org/10.1016/j.vehcom.2023.100661",
+      "cited_by_count_snapshot": 48,
+      "relevance_score_snapshot": 162.47777,
+      "search_rank_snapshot": 44,
+      "referenced_works_count": 80,
+      "language": "en",
+      "topics": [
+        "utm-c2"
+      ],
+      "source_query": "unmanned aircraft traffic management command control remote identification",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.vehcom.2023.100661",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2214209623000918",
+        "license": "other-oa"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/buildings14113613",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Digital Twins in the Sustainable Construction Industry",
+      "authors": [
+        "Foad Zahedi",
+        "Hamidreza Alavi",
+        "Javad Majrouhi Sardroud",
+        "Hongtao Dang"
+      ],
+      "year": 2024,
+      "publication_date": "2024-11-13",
+      "type": "article",
+      "venue": "Buildings",
+      "doi": "10.3390/buildings14113613",
+      "openalex_id": "https://openalex.org/W4404357750",
+      "official_url": "https://doi.org/10.3390/buildings14113613",
+      "cited_by_count_snapshot": 47,
+      "relevance_score_snapshot": 160.32132,
+      "search_rank_snapshot": 18,
+      "referenced_works_count": 186,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/buildings14113613",
+        "pdf_url": "https://www.mdpi.com/2075-5309/14/11/3613/pdf?version=1731660208",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.xinn.2023.100392",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Urban aerial mobility: Reshaping the future of urban transportation",
+      "authors": [
+        "Kai Wang",
+        "Xiaobo Qu"
+      ],
+      "year": 2023,
+      "publication_date": "2023-02-15",
+      "type": "article",
+      "venue": "The Innovation",
+      "doi": "10.1016/j.xinn.2023.100392",
+      "openalex_id": "https://openalex.org/W4320883181",
+      "official_url": "https://doi.org/10.1016/j.xinn.2023.100392",
+      "cited_by_count_snapshot": 44,
+      "relevance_score_snapshot": 282.2858,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 4,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.xinn.2023.100392",
+        "pdf_url": null,
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1177/02783649241227968",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "MARS-LVIG dataset: A multi-sensor aerial robots SLAM dataset for LiDAR-visual-inertial-GNSS fusion",
+      "authors": [
+        "Haotian Li",
+        "Yuying Zou",
+        "Nan Chen",
+        "Jiarong Lin",
+        "Xiyuan Liu",
+        "Wei Xu",
+        "Chunran Zheng",
+        "Rundong Li",
+        "Dongjiao He",
+        "Fanze Kong",
+        "Yixi Cai",
+        "Zheng Liu",
+        "Shunbo Zhou",
+        "Kaiwen Xue",
+        "Fu Zhang"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-26",
+      "type": "article",
+      "venue": "The International Journal of Robotics Research",
+      "doi": "10.1177/02783649241227968",
+      "openalex_id": "https://openalex.org/W4391270188",
+      "official_url": "https://doi.org/10.1177/02783649241227968",
+      "cited_by_count_snapshot": 44,
+      "relevance_score_snapshot": 269.72995,
+      "search_rank_snapshot": 23,
+      "referenced_works_count": 44,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3846/aviation.2024.21672",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Classification, military applications, and opportunities of unmanned aerial vehicles",
+      "authors": [
+        "Linker Criollo",
+        "Carlos Mena-Arciniega",
+        "Xing Shen"
+      ],
+      "year": 2024,
+      "publication_date": "2024-08-19",
+      "type": "article",
+      "venue": "Aviation",
+      "doi": "10.3846/aviation.2024.21672",
+      "openalex_id": "https://openalex.org/W4401704792",
+      "official_url": "https://doi.org/10.3846/aviation.2024.21672",
+      "cited_by_count_snapshot": 44,
+      "relevance_score_snapshot": 128.98279,
+      "search_rank_snapshot": 56,
+      "referenced_works_count": 43,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.3846/aviation.2024.21672",
+        "pdf_url": "https://journals.vilniustech.lt/index.php/Aviation/article/download/21672/12376",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/lra.2022.3191038",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Season-Invariant GNSS-Denied Visual Localization for UAVs",
+      "authors": [
+        "Jouko Kinnari",
+        "Francesco Verdoja",
+        "Ville Kyrki"
+      ],
+      "year": 2022,
+      "publication_date": "2022-07-15",
+      "type": "article",
+      "venue": "IEEE Robotics and Automation Letters",
+      "doi": "10.1109/lra.2022.3191038",
+      "openalex_id": "https://openalex.org/W3202455488",
+      "official_url": "https://doi.org/10.1109/lra.2022.3191038",
+      "cited_by_count_snapshot": 42,
+      "relevance_score_snapshot": 329.95853,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 40,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1109/lra.2022.3191038",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/7083369/9831196/09830867.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2023.3339631",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Autonomous Advanced Aerial Mobility—An End-to-End Autonomy Framework for UAVs and Beyond",
+      "authors": [
+        "Sakshi Mishra",
+        "Praveen Palanisamy"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2023.3339631",
+      "openalex_id": "https://openalex.org/W4389352644",
+      "official_url": "https://doi.org/10.1109/access.2023.3339631",
+      "cited_by_count_snapshot": 38,
+      "relevance_score_snapshot": 125.27802,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 79,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2023.3339631",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10343091.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.xinn.2023.100393",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Urban aerial mobility: Network structure, transportation benefits, and Sino-US comparison",
+      "authors": [
+        "Kai Wang",
+        "Aoyong Li",
+        "Xiaobo Qu"
+      ],
+      "year": 2023,
+      "publication_date": "2023-02-15",
+      "type": "article",
+      "venue": "The Innovation",
+      "doi": "10.1016/j.xinn.2023.100393",
+      "openalex_id": "https://openalex.org/W4320884146",
+      "official_url": "https://doi.org/10.1016/j.xinn.2023.100393",
+      "cited_by_count_snapshot": 38,
+      "relevance_score_snapshot": 245.58186,
+      "search_rank_snapshot": 12,
+      "referenced_works_count": 5,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.xinn.2023.100393",
+        "pdf_url": null,
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones7070478",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Towards Safe and Efficient Unmanned Aircraft System Operations: Literature Review of Digital Twins’ Applications and European Union Regulatory Compliance",
+      "authors": [
+        "Elham Fakhraian",
+        "Ivana Šemanjski",
+        "Silvio Šemanjski",
+        "El‐Houssaine Aghezzaf"
+      ],
+      "year": 2023,
+      "publication_date": "2023-07-20",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones7070478",
+      "openalex_id": "https://openalex.org/W4385067438",
+      "official_url": "https://doi.org/10.3390/drones7070478",
+      "cited_by_count_snapshot": 36,
+      "relevance_score_snapshot": 182.86122,
+      "search_rank_snapshot": 27,
+      "referenced_works_count": 90,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones7070478",
+        "pdf_url": "https://www.mdpi.com/2504-446X/7/7/478/pdf?version=1689852626",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/drones8080354",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Safety Risk Modelling and Assessment of Civil Unmanned Aircraft System Operations: A Comprehensive Review",
+      "authors": [
+        "Sen Du",
+        "Gang Zhong",
+        "Fei Wang",
+        "Bizhao Pang",
+        "Honghai Zhang",
+        "Qingyu Jiao"
+      ],
+      "year": 2024,
+      "publication_date": "2024-07-29",
+      "type": "article",
+      "venue": "Drones",
+      "doi": "10.3390/drones8080354",
+      "openalex_id": "https://openalex.org/W4401067313",
+      "official_url": "https://doi.org/10.3390/drones8080354",
+      "cited_by_count_snapshot": 35,
+      "relevance_score_snapshot": 207.03668,
+      "search_rank_snapshot": 21,
+      "referenced_works_count": 111,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/drones8080354",
+        "pdf_url": "https://www.mdpi.com/2504-446X/8/8/354/pdf?version=1722264549",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1017/aer.2020.52",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Rotorcraft systems for urban air mobility: A reality check",
+      "authors": [
+        "Antonio Filippone",
+        "George N. Barakos"
+      ],
+      "year": 2020,
+      "publication_date": "2020-06-24",
+      "type": "article",
+      "venue": "The Aeronautical Journal",
+      "doi": "10.1017/aer.2020.52",
+      "openalex_id": "https://openalex.org/W3037973771",
+      "official_url": "https://doi.org/10.1017/aer.2020.52",
+      "cited_by_count_snapshot": 34,
+      "relevance_score_snapshot": 118.031815,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 47,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1017/aer.2020.52",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/29361FCCD1970B001146108DEEE30CA0/S0001924020000524a.pdf/div-class-title-rotorcraft-systems-for-urban-air-mobility-a-reality-check-div.pdf",
+        "license": "public-domain"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s23156810",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Review on Type of Sensors and Detection Method of Anti-Collision System of Unmanned Aerial Vehicle",
+      "authors": [
+        "Navaneetha Krishna Chandran",
+        "Mohamed Thariq Hameed Sultan",
+        "Andrzej Łukaszewicz",
+        "Farah Syazwani Shahar",
+        "Andriy Holovatyy",
+        "Wojciech Giernacki"
+      ],
+      "year": 2023,
+      "publication_date": "2023-07-30",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s23156810",
+      "openalex_id": "https://openalex.org/W4385423519",
+      "official_url": "https://doi.org/10.3390/s23156810",
+      "cited_by_count_snapshot": 31,
+      "relevance_score_snapshot": 187.0017,
+      "search_rank_snapshot": 35,
+      "referenced_works_count": 84,
+      "language": "en",
+      "topics": [
+        "aerodynamics"
+      ],
+      "source_query": "unmanned aerial vehicle flight dynamics aerodynamics weather",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s23156810",
+        "pdf_url": "https://www.mdpi.com/1424-8220/23/15/6810/pdf?version=1690721408",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1017/aer.2022.110",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Single-pilot airline operations: Designing the aircraft may be the easy part",
+      "authors": [
+        "Don Harris"
+      ],
+      "year": 2023,
+      "publication_date": "2023-02-01",
+      "type": "article",
+      "venue": "The Aeronautical Journal",
+      "doi": "10.1017/aer.2022.110",
+      "openalex_id": "https://openalex.org/W4318832987",
+      "official_url": "https://doi.org/10.1017/aer.2022.110",
+      "cited_by_count_snapshot": 31,
+      "relevance_score_snapshot": 124.88621,
+      "search_rank_snapshot": 60,
+      "referenced_works_count": 54,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1017/aer.2022.110",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A5C6DA432BC5A59EF4973F2F44E5C590/S0001924022001105a.pdf/div-class-title-single-pilot-airline-operations-designing-the-aircraft-may-be-the-easy-part-div.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2024.3376589",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Digital Twins and Control Theory: A Critical Review on Revolutionizing Quadrotor UAVs",
+      "authors": [
+        "Ghulam E Mustafa Abro",
+        "Ayman M. Abdallah"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2024.3376589",
+      "openalex_id": "https://openalex.org/W4392909051",
+      "official_url": "https://doi.org/10.1109/access.2024.3376589",
+      "cited_by_count_snapshot": 30,
+      "relevance_score_snapshot": 188.62997,
+      "search_rank_snapshot": 15,
+      "referenced_works_count": 139,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2024.3376589",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10468592.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1017/aer.2023.87",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Full envelope nonlinear flight controller design for a novel electric VTOL (eVTOL) air taxi",
+      "authors": [
+        "Emre Can Suiçmez",
+        "Ali Türker Kutay"
+      ],
+      "year": 2023,
+      "publication_date": "2023-10-19",
+      "type": "article",
+      "venue": "The Aeronautical Journal",
+      "doi": "10.1017/aer.2023.87",
+      "openalex_id": "https://openalex.org/W4387796922",
+      "official_url": "https://doi.org/10.1017/aer.2023.87",
+      "cited_by_count_snapshot": 26,
+      "relevance_score_snapshot": 145.68727,
+      "search_rank_snapshot": 19,
+      "referenced_works_count": 42,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1017/aer.2023.87",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F23B9629BAF686A6D8BE19D3717E061B/S0001924023000878a.pdf/div-class-title-full-envelope-nonlinear-flight-controller-design-for-a-novel-electric-vtol-evtol-air-taxi-div.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.54648/aila2023041",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A Drone Strategy 2.0 for a Smart and Sustainable Unmanned Aircraft Eco-System in Europe",
+      "authors": [
+        "Benjamyn I. Scott",
+        "Konstantinos I. Andritsos"
+      ],
+      "year": 2023,
+      "publication_date": "2023-06-01",
+      "type": "article",
+      "venue": "Air and Space Law",
+      "doi": "10.54648/aila2023041",
+      "openalex_id": "https://openalex.org/W4385770155",
+      "official_url": "https://doi.org/10.54648/aila2023041",
+      "cited_by_count_snapshot": 26,
+      "relevance_score_snapshot": 158.45166,
+      "search_rank_snapshot": 37,
+      "referenced_works_count": 1,
+      "language": "en",
+      "topics": [
+        "system-regulation"
+      ],
+      "source_query": "unmanned aircraft systems regulation airworthiness operations",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.54648/aila2023041",
+        "pdf_url": "https://kluwerlawonline.com/api/Product/CitationPDFURL?file=Journals\\AILA\\AILA2023041.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s25010061",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Event-Based Visual/Inertial Odometry for UAV Indoor Navigation",
+      "authors": [
+        "Ahmed Elamin",
+        "Ahmed El‐Rabbany",
+        "Sunil Jacob"
+      ],
+      "year": 2024,
+      "publication_date": "2024-12-25",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s25010061",
+      "openalex_id": "https://openalex.org/W4405781962",
+      "official_url": "https://doi.org/10.3390/s25010061",
+      "cited_by_count_snapshot": 24,
+      "relevance_score_snapshot": 237.40877,
+      "search_rank_snapshot": 33,
+      "referenced_works_count": 50,
+      "language": "en",
+      "topics": [
+        "navigation"
+      ],
+      "source_query": "UAV localization navigation GNSS visual inertial",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s25010061",
+        "pdf_url": "https://www.mdpi.com/1424-8220/25/1/61/pdf?version=1735138122",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.55214/25768484.v9i1.4156",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Aerial e-mobility perspective: Anticipated designs and operational capabilities of eVTOL urban air mobility (UAM) aircraft",
+      "authors": [
+        "Osama A. Marzouk"
+      ],
+      "year": 2025,
+      "publication_date": "2025-01-04",
+      "type": "article",
+      "venue": "Edelweiss Applied Science and Technology",
+      "doi": "10.55214/25768484.v9i1.4156",
+      "openalex_id": "https://openalex.org/W4406220657",
+      "official_url": "https://doi.org/10.55214/25768484.v9i1.4156",
+      "cited_by_count_snapshot": 22,
+      "relevance_score_snapshot": 157.85518,
+      "search_rank_snapshot": 14,
+      "referenced_works_count": 307,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion",
+        "safety-business"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.55214/25768484.v9i1.4156",
+        "pdf_url": "http://learning-gate.com/index.php/2576-8484/article/download/4156/1572",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.apm.2023.07.009",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "A heuristic approach for scheduling advanced air mobility aircraft at vertiports",
+      "authors": [
+        "Julián Alberto Espejo-Díaz",
+        "Edgar Alfonso-Lizarazo",
+        "Jairo R. Montoya‐Torres"
+      ],
+      "year": 2023,
+      "publication_date": "2023-07-07",
+      "type": "article",
+      "venue": "Applied Mathematical Modelling",
+      "doi": "10.1016/j.apm.2023.07.009",
+      "openalex_id": "https://openalex.org/W4383558915",
+      "official_url": "https://doi.org/10.1016/j.apm.2023.07.009",
+      "cited_by_count_snapshot": 22,
+      "relevance_score_snapshot": 213.26408,
+      "search_rank_snapshot": 21,
+      "referenced_works_count": 47,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://hdl.handle.net/10818/63172",
+        "pdf_url": "http://intellectum.unisabana.edu.co/bitstreams/52315192-8cb3-4a50-a355-e184cd83a7bf/download",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tmc.2024.3438152",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Semantic-Aware UAV Swarm Coordination in the Metaverse: A Reputation-Based Incentive Mechanism",
+      "authors": [
+        "Jiaqi Xu",
+        "Haipeng Yao",
+        "Ru Zhang",
+        "Tianle Mai",
+        "Shan Huang",
+        "Zehui Xiong",
+        "Dusit Niyato"
+      ],
+      "year": 2024,
+      "publication_date": "2024-08-05",
+      "type": "article",
+      "venue": "IEEE Transactions on Mobile Computing",
+      "doi": "10.1109/tmc.2024.3438152",
+      "openalex_id": "https://openalex.org/W4401325883",
+      "official_url": "https://doi.org/10.1109/tmc.2024.3438152",
+      "cited_by_count_snapshot": 19,
+      "relevance_score_snapshot": 159.0401,
+      "search_rank_snapshot": 20,
+      "referenced_works_count": 40,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s23104892",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Swarm Metaverse for Multi-Level Autonomy Using Digital Twins",
+      "authors": [
+        "Hung Nguyen",
+        "Aya Hussein",
+        "Matthew Garratt",
+        "Hussein A. Abbass"
+      ],
+      "year": 2023,
+      "publication_date": "2023-05-19",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s23104892",
+      "openalex_id": "https://openalex.org/W4377138421",
+      "official_url": "https://doi.org/10.3390/s23104892",
+      "cited_by_count_snapshot": 18,
+      "relevance_score_snapshot": 222.48572,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 64,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s23104892",
+        "pdf_url": "https://www.mdpi.com/1424-8220/23/10/4892/pdf?version=1684489587",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/infrastructures9120239",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Vertiport Infrastructure Location Optimization for Equitable Access to Urban Air Mobility",
+      "authors": [
+        "Vasileios Volakakis",
+        "Hani S. Mahmassani"
+      ],
+      "year": 2024,
+      "publication_date": "2024-12-23",
+      "type": "article",
+      "venue": "Infrastructures",
+      "doi": "10.3390/infrastructures9120239",
+      "openalex_id": "https://openalex.org/W4405720265",
+      "official_url": "https://doi.org/10.3390/infrastructures9120239",
+      "cited_by_count_snapshot": 18,
+      "relevance_score_snapshot": 254.30635,
+      "search_rank_snapshot": 11,
+      "referenced_works_count": 282,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/infrastructures9120239",
+        "pdf_url": "https://www.mdpi.com/2412-3811/9/12/239/pdf?version=1734968280",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/aerospace10080718",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "EVTOL Tilt-Wing Aircraft Design under Uncertainty Using a Multidisciplinary Possibilistic Approach",
+      "authors": [
+        "Mohsen Rostami",
+        "Julian Bardin",
+        "Daniel Neufeld",
+        "Joon Chung"
+      ],
+      "year": 2023,
+      "publication_date": "2023-08-16",
+      "type": "article",
+      "venue": "Aerospace",
+      "doi": "10.3390/aerospace10080718",
+      "openalex_id": "https://openalex.org/W4385873037",
+      "official_url": "https://doi.org/10.3390/aerospace10080718",
+      "cited_by_count_snapshot": 17,
+      "relevance_score_snapshot": 155.37704,
+      "search_rank_snapshot": 15,
+      "referenced_works_count": 55,
+      "language": "en",
+      "topics": [
+        "vehicle-propulsion"
+      ],
+      "source_query": "eVTOL UAV propulsion battery aircraft configuration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/aerospace10080718",
+        "pdf_url": "https://www.mdpi.com/2226-4310/10/8/718/pdf?version=1692194559",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tits.2025.3531120",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Digital Twin-Based Task-Driven Resource Management in Intelligent UAV Swarms",
+      "authors": [
+        "Tianyang Li",
+        "Supeng Leng",
+        "Xiwen Liao",
+        "Yan Zhang"
+      ],
+      "year": 2025,
+      "publication_date": "2025-02-04",
+      "type": "article",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems",
+      "doi": "10.1109/tits.2025.3531120",
+      "openalex_id": "https://openalex.org/W4407128631",
+      "official_url": "https://doi.org/10.1109/tits.2025.3531120",
+      "cited_by_count_snapshot": 14,
+      "relevance_score_snapshot": 229.04465,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 29,
+      "language": "en",
+      "topics": [
+        "swarm-simulation"
+      ],
+      "source_query": "UAV swarm coordination digital twin simulation",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.2514/1.i011460",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "On-Demand Urban Air Mobility Scheduling with Operational Considerations",
+      "authors": [
+        "Jaeyoul Ko",
+        "Jaemyung Ahn"
+      ],
+      "year": 2025,
+      "publication_date": "2025-02-10",
+      "type": "article",
+      "venue": "Journal of Aerospace Information Systems",
+      "doi": "10.2514/1.i011460",
+      "openalex_id": "https://openalex.org/W4407302263",
+      "official_url": "https://doi.org/10.2514/1.i011460",
+      "cited_by_count_snapshot": 9,
+      "relevance_score_snapshot": 194.71387,
+      "search_rank_snapshot": 25,
+      "referenced_works_count": 27,
+      "language": "en",
+      "topics": [
+        "fleet-infrastructure"
+      ],
+      "source_query": "urban air mobility vertiport fleet operations infrastructure",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.58567/jea03020009",
+      "field": "low-altitude",
+      "kind": "paper",
+      "title": "Advanced Air Mobility, Economic Impacts, and Equity Considerations",
+      "authors": [
+        "Robert McNab"
+      ],
+      "year": 2023,
+      "publication_date": "2023-09-13",
+      "type": "article",
+      "venue": "Journal of Economic Analysis",
+      "doi": "10.58567/jea03020009",
+      "openalex_id": "https://openalex.org/W4386710776",
+      "official_url": "https://doi.org/10.58567/jea03020009",
+      "cited_by_count_snapshot": 5,
+      "relevance_score_snapshot": 72.88702,
+      "search_rank_snapshot": 27,
+      "referenced_works_count": 68,
+      "language": "en",
+      "topics": [
+        "safety-business"
+      ],
+      "source_query": "advanced air mobility safety risk assessment certification economics",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.58567/jea03020009",
+        "pdf_url": "https://anser.press/index.php/JEA/article/download/584/536",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    }
+  ]
+}

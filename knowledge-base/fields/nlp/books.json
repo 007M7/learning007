@@ -1,0 +1,300 @@
+{
+  "field": "nlp",
+  "title": "自然语言处理（NLP）",
+  "curated_count": 10,
+  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "records": [
+    {
+      "id": "book:nlp:slp3",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Speech and Language Processing (3rd ed. draft)",
+      "authors": [
+        "Dan Jurafsky",
+        "James H. Martin"
+      ],
+      "year": 2026,
+      "publisher": "authors",
+      "topics": [
+        "nlp-foundations",
+        "language-models",
+        "speech"
+      ],
+      "official_url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "authority_reason": "NLP 领域最广泛采用的综合教材之一，第三版持续更新现代语言模型内容。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:08:31.282Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:nltk-book",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Natural Language Processing with Python",
+      "authors": [
+        "Steven Bird",
+        "Ewan Klein",
+        "Edward Loper"
+      ],
+      "year": 2009,
+      "publisher": "O'Reilly",
+      "topics": [
+        "nlp-foundations",
+        "corpora",
+        "annotation"
+      ],
+      "official_url": "https://www.nltk.org/book/",
+      "authority_reason": "NLTK 官方教材，长期用于 NLP 入门与语料实践。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:ir-book",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Introduction to Information Retrieval",
+      "authors": [
+        "Christopher D. Manning",
+        "Prabhakar Raghavan",
+        "Hinrich Schütze"
+      ],
+      "year": 2008,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "information-retrieval",
+        "ranking",
+        "evaluation"
+      ],
+      "official_url": "https://nlp.stanford.edu/IR-book/",
+      "authority_reason": "信息检索领域经典教材，是理解搜索与 RAG 的重要基础。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:09:31.296Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:fsnlp",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Foundations of Statistical Natural Language Processing",
+      "authors": [
+        "Christopher D. Manning",
+        "Hinrich Schütze"
+      ],
+      "year": 1999,
+      "publisher": "MIT Press",
+      "topics": [
+        "statistical-nlp",
+        "language-modeling",
+        "parsing"
+      ],
+      "official_url": "https://nlp.stanford.edu/fsnlp/",
+      "authority_reason": "统计 NLP 奠基教材，对概率语言建模与经典方法影响深远。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:nn-methods",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Neural Network Methods for Natural Language Processing",
+      "authors": [
+        "Yoav Goldberg"
+      ],
+      "year": 2017,
+      "publisher": "Morgan & Claypool",
+      "topics": [
+        "neural-nlp",
+        "embeddings",
+        "sequence-models"
+      ],
+      "official_url": "https://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037",
+      "authority_reason": "由重要 NLP 研究者编写，系统连接表示学习与神经 NLP。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:nlp-transformers",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Natural Language Processing with Transformers",
+      "authors": [
+        "Lewis Tunstall",
+        "Leandro von Werra",
+        "Thomas Wolf"
+      ],
+      "year": 2022,
+      "publisher": "O'Reilly",
+      "topics": [
+        "transformers",
+        "hugging-face",
+        "fine-tuning"
+      ],
+      "official_url": "https://www.oreilly.com/library/view/natural-language-processing/9781098136789/",
+      "authority_reason": "由 Hugging Face 核心成员编写的现代 Transformer 实践教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:text-mining-r",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Text Mining with R",
+      "authors": [
+        "Julia Silge",
+        "David Robinson"
+      ],
+      "year": 2017,
+      "publisher": "O'Reilly",
+      "topics": [
+        "text-mining",
+        "statistics",
+        "visualization"
+      ],
+      "official_url": "https://www.tidytextmining.com/",
+      "authority_reason": "开放在线文本挖掘教材，强调可复现数据分析。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:annotation-ml",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Natural Language Annotation for Machine Learning",
+      "authors": [
+        "James Pustejovsky",
+        "Amber Stubbs"
+      ],
+      "year": 2012,
+      "publisher": "O'Reilly",
+      "topics": [
+        "annotation",
+        "corpora",
+        "task-design"
+      ],
+      "official_url": "https://www.oreilly.com/library/view/natural-language-annotation/9781449332693/",
+      "authority_reason": "系统讲解语言数据标注、标签体系与质量控制。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:linguistic-fundamentals-1",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Linguistic Fundamentals for Natural Language Processing: 100 Essentials from Morphology and Syntax",
+      "authors": [
+        "Emily M. Bender"
+      ],
+      "year": 2013,
+      "publisher": "Morgan & Claypool",
+      "topics": [
+        "linguistics",
+        "morphology",
+        "syntax"
+      ],
+      "official_url": "https://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020",
+      "authority_reason": "为 NLP 工程师补足形态与句法基础的专业教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:nlp:ethics-nlp",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Ethics in Natural Language Processing",
+      "authors": [
+        "Dirk Hovy"
+      ],
+      "year": 2022,
+      "publisher": "Morgan & Claypool",
+      "topics": [
+        "ethics",
+        "bias",
+        "responsible-nlp"
+      ],
+      "official_url": "https://www.morganclaypool.com/doi/abs/10.2200/S01183ED1V01Y202208HLT056",
+      "authority_reason": "由计算社会科学与 NLP 研究者编写，专门讨论语言技术的伦理、偏差和社会影响。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    }
+  ]
+}

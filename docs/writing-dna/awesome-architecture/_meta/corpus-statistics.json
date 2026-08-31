@@ -1,0 +1,643 @@
+{
+  "source_repository": "https://github.com/study8677/awesome-architecture",
+  "source_commit": "7f43e49b95ad9c255418733738fddab4eb0f6a68",
+  "license": "MIT",
+  "analyzed_at": "2026-08-31",
+  "article_count": 40,
+  "total_characters": 344092,
+  "averages": {
+    "characters": 8602.3,
+    "paragraphs": 55.38,
+    "sentence_characters": 40.46,
+    "sentences_per_paragraph": 1.86,
+    "h2": 9.75,
+    "h3": 2.02,
+    "code_blocks": 6.05,
+    "table_rows": 13.85,
+    "bold_spans": 69.38,
+    "external_links": 2.33
+  },
+  "ranges": {
+    "characters": [
+      3494,
+      18135
+    ],
+    "h2": [
+      6,
+      15
+    ],
+    "code_blocks": [
+      1,
+      17
+    ]
+  },
+  "format_presence": {
+    "quiz": 40,
+    "summary": 40,
+    "ascii_diagram": 37,
+    "table": 31,
+    "markdown_image": 0
+  },
+  "frequent_terms": [
+    {
+      "term": "一个",
+      "count": 709
+    },
+    {
+      "term": "ai",
+      "count": 644
+    },
+    {
+      "term": "系统",
+      "count": 591
+    },
+    {
+      "term": "架构",
+      "count": 538
+    },
+    {
+      "term": "数据",
+      "count": 494
+    },
+    {
+      "term": "服务",
+      "count": 379
+    },
+    {
+      "term": "不是",
+      "count": 341
+    },
+    {
+      "term": "团队",
+      "count": 293
+    },
+    {
+      "term": "什么",
+      "count": 268
+    },
+    {
+      "term": "判断",
+      "count": 264
+    },
+    {
+      "term": "模型",
+      "count": 257
+    },
+    {
+      "term": "就是",
+      "count": 250
+    },
+    {
+      "term": "设计",
+      "count": 244
+    },
+    {
+      "term": "问题",
+      "count": 235
+    },
+    {
+      "term": "组织",
+      "count": 233
+    },
+    {
+      "term": "怎么",
+      "count": 231
+    },
+    {
+      "term": "代码",
+      "count": 198
+    },
+    {
+      "term": "成本",
+      "count": 187
+    },
+    {
+      "term": "而是",
+      "count": 177
+    },
+    {
+      "term": "边界",
+      "count": 177
+    },
+    {
+      "term": "质量",
+      "count": 172
+    },
+    {
+      "term": "约束",
+      "count": 170
+    },
+    {
+      "term": "agent",
+      "count": 168
+    },
+    {
+      "term": "没有",
+      "count": 167
+    },
+    {
+      "term": "本章",
+      "count": 167
+    },
+    {
+      "term": "为什么",
+      "count": 157
+    },
+    {
+      "term": "这个",
+      "count": 157
+    },
+    {
+      "term": "核心",
+      "count": 147
+    },
+    {
+      "term": "因为",
+      "count": 141
+    },
+    {
+      "term": "用户",
+      "count": 140
+    },
+    {
+      "term": "代价",
+      "count": 134
+    },
+    {
+      "term": "失败",
+      "count": 129
+    },
+    {
+      "term": "事件",
+      "count": 128
+    },
+    {
+      "term": "一致",
+      "count": 120
+    },
+    {
+      "term": "真实",
+      "count": 120
+    },
+    {
+      "term": "上下文",
+      "count": 120
+    },
+    {
+      "term": "安全",
+      "count": 118
+    },
+    {
+      "term": "工具",
+      "count": 118
+    },
+    {
+      "term": "所有",
+      "count": 117
+    },
+    {
+      "term": "检索",
+      "count": 116
+    },
+    {
+      "term": "这些",
+      "count": 115
+    },
+    {
+      "term": "演进",
+      "count": 114
+    },
+    {
+      "term": "决策",
+      "count": 113
+    },
+    {
+      "term": "业务",
+      "count": 113
+    },
+    {
+      "term": "关键",
+      "count": 112
+    },
+    {
+      "term": "需要",
+      "count": 112
+    },
+    {
+      "term": "复杂",
+      "count": 111
+    },
+    {
+      "term": "技术",
+      "count": 110
+    },
+    {
+      "term": "延迟",
+      "count": 109
+    },
+    {
+      "term": "状态",
+      "count": 109
+    },
+    {
+      "term": "必须",
+      "count": 108
+    },
+    {
+      "term": "取舍",
+      "count": 106
+    },
+    {
+      "term": "一致性",
+      "count": 106
+    },
+    {
+      "term": "平台",
+      "count": 106
+    },
+    {
+      "term": "自己",
+      "count": 105
+    },
+    {
+      "term": "你的",
+      "count": 104
+    },
+    {
+      "term": "正是",
+      "count": 103
+    },
+    {
+      "term": "一章",
+      "count": 102
+    },
+    {
+      "term": "一条",
+      "count": 102
+    },
+    {
+      "term": "规模",
+      "count": 101
+    },
+    {
+      "term": "模板",
+      "count": 99
+    },
+    {
+      "term": "工程",
+      "count": 99
+    },
+    {
+      "term": "的是",
+      "count": 98
+    },
+    {
+      "term": "属性",
+      "count": 97
+    },
+    {
+      "term": "一次",
+      "count": 97
+    },
+    {
+      "term": "存储",
+      "count": 96
+    },
+    {
+      "term": "分布",
+      "count": 95
+    },
+    {
+      "term": "结构",
+      "count": 94
+    },
+    {
+      "term": "决定",
+      "count": 93
+    },
+    {
+      "term": "我们",
+      "count": 92
+    },
+    {
+      "term": "还是",
+      "count": 91
+    },
+    {
+      "term": "变成",
+      "count": 91
+    },
+    {
+      "term": "一句",
+      "count": 90
+    },
+    {
+      "term": "单体",
+      "count": 90
+    },
+    {
+      "term": "可能",
+      "count": 90
+    },
+    {
+      "term": "可以",
+      "count": 89
+    },
+    {
+      "term": "流程",
+      "count": 87
+    },
+    {
+      "term": "请求",
+      "count": 87
+    },
+    {
+      "term": "它们",
+      "count": 86
+    },
+    {
+      "term": "adr",
+      "count": 85
+    },
+    {
+      "term": "它的",
+      "count": 83
+    },
+    {
+      "term": "权限",
+      "count": 83
+    },
+    {
+      "term": "机器",
+      "count": 82
+    },
+    {
+      "term": "扩展",
+      "count": 82
+    },
+    {
+      "term": "答案",
+      "count": 82
+    },
+    {
+      "term": "工作",
+      "count": 82
+    },
+    {
+      "term": "能力",
+      "count": 81
+    },
+    {
+      "term": "框架",
+      "count": 80
+    },
+    {
+      "term": "清楚",
+      "count": 79
+    },
+    {
+      "term": "需求",
+      "count": 79
+    },
+    {
+      "term": "消息",
+      "count": 78
+    },
+    {
+      "term": "真正",
+      "count": 78
+    },
+    {
+      "term": "隔离",
+      "count": 78
+    },
+    {
+      "term": "时代",
+      "count": 78
+    },
+    {
+      "term": "所以",
+      "count": 78
+    },
+    {
+      "term": "实现",
+      "count": 76
+    },
+    {
+      "term": "不同",
+      "count": 76
+    },
+    {
+      "term": "也就是",
+      "count": 75
+    },
+    {
+      "term": "时间",
+      "count": 74
+    },
+    {
+      "term": "比如",
+      "count": 74
+    },
+    {
+      "term": "api",
+      "count": 73
+    },
+    {
+      "term": "几乎",
+      "count": 73
+    },
+    {
+      "term": "解决",
+      "count": 73
+    },
+    {
+      "term": "产品",
+      "count": 73
+    },
+    {
+      "term": "eval",
+      "count": 73
+    },
+    {
+      "term": "不能",
+      "count": 72
+    },
+    {
+      "term": "出来",
+      "count": 71
+    },
+    {
+      "term": "重要",
+      "count": 71
+    },
+    {
+      "term": "任务",
+      "count": 71
+    },
+    {
+      "term": "直接",
+      "count": 71
+    },
+    {
+      "term": "简单",
+      "count": 70
+    },
+    {
+      "term": "自动",
+      "count": 70
+    },
+    {
+      "term": "东西",
+      "count": 69
+    },
+    {
+      "term": "模式",
+      "count": 68
+    },
+    {
+      "term": "流量",
+      "count": 68
+    },
+    {
+      "term": "事务",
+      "count": 68
+    },
+    {
+      "term": "最终",
+      "count": 67
+    },
+    {
+      "term": "只有",
+      "count": 66
+    },
+    {
+      "term": "智慧",
+      "count": 66
+    },
+    {
+      "term": "升级",
+      "count": 66
+    },
+    {
+      "term": "确定",
+      "count": 66
+    },
+    {
+      "term": "退款",
+      "count": 66
+    },
+    {
+      "term": "只是",
+      "count": 65
+    },
+    {
+      "term": "如果",
+      "count": 65
+    },
+    {
+      "term": "依赖",
+      "count": 65
+    },
+    {
+      "term": "一层",
+      "count": 65
+    },
+    {
+      "term": "风险",
+      "count": 64
+    },
+    {
+      "term": "不要",
+      "count": 64
+    },
+    {
+      "term": "vibe",
+      "count": 64
+    },
+    {
+      "term": "整个",
+      "count": 63
+    },
+    {
+      "term": "功能",
+      "count": 63
+    },
+    {
+      "term": "处理",
+      "count": 62
+    },
+    {
+      "term": "一步",
+      "count": 62
+    },
+    {
+      "term": "都是",
+      "count": 62
+    },
+    {
+      "term": "而不是",
+      "count": 61
+    },
+    {
+      "term": "故障",
+      "count": 61
+    },
+    {
+      "term": "接口",
+      "count": 61
+    },
+    {
+      "term": "独立",
+      "count": 61
+    },
+    {
+      "term": "部署",
+      "count": 61
+    },
+    {
+      "term": "结果",
+      "count": 61
+    },
+    {
+      "term": "步骤",
+      "count": 61
+    },
+    {
+      "term": "路径",
+      "count": 60
+    },
+    {
+      "term": "动作",
+      "count": 60
+    },
+    {
+      "term": "默认",
+      "count": 60
+    },
+    {
+      "term": "目标",
+      "count": 60
+    },
+    {
+      "term": "已经",
+      "count": 59
+    },
+    {
+      "term": "生产",
+      "count": 59
+    },
+    {
+      "term": "rag",
+      "count": 59
+    },
+    {
+      "term": "几个",
+      "count": 58
+    },
+    {
+      "term": "执行",
+      "count": 58
+    }
+  ]
+}

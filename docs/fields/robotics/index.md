@@ -2,7 +2,7 @@
 
 > 证据截止：**2026-08-30**。稳定基础不按年份淘汰；涉及模型能力、基准、标准、法规和产业状态的结论优先使用近三年一手来源，并保留发布日期与适用边界。
 
-<div class="lesson-meta"><span>RBF01—RBF30</span><span>领域深研</span><span>10 章 / 30 节点</span><span>机制＋实验＋作品证据</span></div>
+<div class="lesson-meta"><span>RBF01—RBF40</span><span>领域深研</span><span>40 章 / 40 主题</span><span>机制＋实验＋作品证据</span></div>
 
 把机械本体、状态估计、控制、规划、学习、VLA 与物理安全连接起来，拒绝只看机器人演示视频。
 
@@ -14,11 +14,11 @@
 
 | 节点 | 可观察动作 | 完成证据 |
 |---|---|---|
-| RBF01 机器人闭环 | 画感知—估计—规划—控制—环境链 | 系统边界图 |
-| RBF02 具身与可供性 | 限定本体/工具/对象/环境 | ODD 与任务卡 |
-| RBF03 任务与安全边界 | 写成功、过程约束和终止 | 三基线验收协议 |
+| RBF01 任务、环境与本体必须一起定义 | 画感知—估计—规划—控制—环境链 | 系统边界图 |
+| RBF02 感知—规划—行动闭环 | 完成“闭环数据流与状态机” | 可复查产物＋一次失败边界说明 |
+| RBF03 从执行器到任务层的系统边界 | 完成“硬件—软件分层与接口表” | 可复查产物＋一次失败边界说明 |
 
-其余 27 个节点保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
+其余 37 个主题保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
 
 ## 本领域的五条当前判断
 
@@ -46,6 +46,6 @@
 
 ## 开始方式
 
-先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 机器人系统、具身与任务闭环](/fields/robotics/01-embodiment-system)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
+先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 任务、环境与本体必须一起定义](/fields/robotics/01-task-environment-embodiment)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
 
 <div class="source-note">资料核验至 2026-08-30：<a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Gemini Robotics 2</a>、<a href="https://arxiv.org/abs/2406.09246">OpenVLA</a>、<a href="https://www.nist.gov/laboratories/tools-instruments/robotics-test-facility">NIST Robotics</a>。涉及新模型、法规或标准时，请按链接中的版本和适用范围复核。</div>

@@ -1,0 +1,41 @@
+{
+  "field": "deep-learning",
+  "title": "深度学习",
+  "updated_at": "2026-08-31",
+  "books": {
+    "total": 10,
+    "downloaded_open_fulltext": 0,
+    "declared_open_fulltext": 3,
+    "official_online": 6,
+    "commercial_metadata_only": 1,
+    "download_failures": 3
+  },
+  "papers": {
+    "total": 120,
+    "open_access": 117,
+    "since_2023": 56,
+    "snapshot_date": "2026-08-30",
+    "topic_counts": {
+      "backprop-autodiff": 15,
+      "optimization": 15,
+      "vision": 15,
+      "sequence": 14,
+      "scaling-data": 15,
+      "post-training": 15,
+      "generative": 14,
+      "multimodal-world": 15,
+      "efficient-inference": 15,
+      "evaluation-safety": 15
+    },
+    "top_venues": {
+      "arXiv (Cornell University)": 32,
+      "Nature": 7,
+      "IEEE Access": 5,
+      "Artificial Intelligence Review": 4,
+      "Proceedings of the IEEE": 3,
+      "Journal Of Big Data": 3,
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence": 3,
+      "Information Fusion": 2
+    }
+  }
+}

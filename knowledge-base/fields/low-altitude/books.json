@@ -1,0 +1,298 @@
+{
+  "field": "low-altitude",
+  "title": "物理 AI · 低空智能",
+  "curated_count": 10,
+  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "records": [
+    {
+      "id": "book:low-altitude:introduction-uas",
+      "field": "low-altitude",
+      "kind": "book",
+      "title": "Introduction to Unmanned Aircraft Systems",
+      "authors": [
+        "Richard K. Barnhart",
+        "Stephen B. Hottman",
+        "Douglas M. Marshall",
+        "Eric Shappee"
+      ],
+      "year": 2016,
+      "publisher": "CRC Press",
+      "topics": [
+        "uas-system",
+        "operations",
+        "regulation"
+      ],
+      "official_url": "https://www.routledge.com/Introduction-to-Unmanned-Aircraft-Systems/Barnhart-Hottman-Marshall-Shappee/p/book/9781482263954",
+      "authority_reason": "UAS 系统、运行与监管的综合性专业教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:small-uas",
+      "field": "low-altitude",
+      "kind": "book",
+      "title": "Small Unmanned Aircraft: Theory and Practice",
+      "authors": [
+        "Randal W. Beard",
+        "Timothy W. McLain"
+      ],
+      "year": 2012,
+      "publisher": "Princeton University Press",
+      "topics": [
+        "flight-dynamics",
+        "control",
+        "planning"
+      ],
+      "official_url": "https://press.princeton.edu/books/hardcover/9780691149219/small-unmanned-aircraft",
+      "authority_reason": "小型无人机动力学、估计、控制和规划领域的经典教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:uas-design",
+      "field": "low-altitude",
+      "kind": "book",
+      "title": "Unmanned Aircraft Systems: UAVS Design, Development and Deployment",
+      "authors": [
+        "Reg Austin"
+      ],
+      "year": 2010,
+      "publisher": "Wiley",
+      "topics": [
+        "aircraft-design",
+        "systems-engineering",
+        "deployment"
+      ],
+      "official_url": "https://www.wiley.com/en-us/Unmanned+Aircraft+Systems%3A+UAVS+Design%2C+Development+and+Deployment-p-9780470664797",
+      "authority_reason": "从构型、载荷、通信到运行系统性介绍 UAS 的经典工程专著。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:advances-uas",
+      "field": "low-altitude",
+      "kind": "handbook",
+      "title": "Handbook of Unmanned Aerial Vehicles",
+      "authors": [
+        "Kimon P. Valavanis",
+        "George J. Vachtsevanos"
+      ],
+      "year": 2015,
+      "publisher": "Springer",
+      "topics": [
+        "uas-handbook",
+        "control",
+        "applications"
+      ],
+      "official_url": "https://link.springer.com/referencework/10.1007/978-90-481-9707-1",
+      "authority_reason": "覆盖无人机设计、控制、感知、通信和应用的大型权威手册。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:aircraft-control-simulation",
+      "field": "low-altitude",
+      "kind": "book",
+      "title": "Aircraft Control and Simulation",
+      "authors": [
+        "Brian L. Stevens",
+        "Frank L. Lewis",
+        "Eric N. Johnson"
+      ],
+      "year": 2015,
+      "publisher": "Wiley",
+      "topics": [
+        "flight-control",
+        "simulation",
+        "guidance"
+      ],
+      "official_url": "https://www.wiley.com/en-us/Aircraft+Control+and+Simulation%2C+3rd+Edition-p-9781118870983",
+      "authority_reason": "飞行器建模、制导与控制的标准研究生教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:fundamentals-aerodynamics",
+      "field": "low-altitude",
+      "kind": "book",
+      "title": "Fundamentals of Aerodynamics",
+      "authors": [
+        "John D. Anderson"
+      ],
+      "year": 2017,
+      "publisher": "McGraw-Hill",
+      "topics": [
+        "aerodynamics",
+        "flight",
+        "performance"
+      ],
+      "official_url": "https://www.mheducation.com/highered/product/fundamentals-aerodynamics-anderson.html",
+      "authority_reason": "航空航天专业广泛采用的空气动力学经典教材。",
+      "access": {
+        "status": "commercial",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:faa-phak",
+      "field": "low-altitude",
+      "kind": "handbook",
+      "title": "Pilot's Handbook of Aeronautical Knowledge",
+      "authors": [
+        "Federal Aviation Administration"
+      ],
+      "year": 2023,
+      "publisher": "FAA",
+      "topics": [
+        "flight-principles",
+        "weather",
+        "operations"
+      ],
+      "official_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+      "authority_reason": "FAA 官方航空知识手册，覆盖飞行原理、气象、导航与运行基础。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "license": "US-government-work",
+        "local_path": "cache/books/low-altitude/book-low-altitude-faa-phak.pdf",
+        "sha256": "247929cace0ab56b376e683eba540cc4c8f39f199ab35414e8b604e24f395cb7",
+        "bytes": 77598564,
+        "checked_at": "2026-08-31T05:10:27.441Z",
+        "download_error": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:faa-remote-pilot",
+      "field": "low-altitude",
+      "kind": "handbook",
+      "title": "Remote Pilot – Small Unmanned Aircraft Systems Study Guide",
+      "authors": [
+        "Federal Aviation Administration"
+      ],
+      "year": 2016,
+      "publisher": "FAA",
+      "topics": [
+        "remote-pilot",
+        "airspace",
+        "weather",
+        "operations"
+      ],
+      "official_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation",
+      "authority_reason": "FAA 官方小型无人机远程驾驶员学习指南，适合建立空域和运行基础。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/remote_pilot_study_guide.pdf",
+        "license": "US-government-work",
+        "local_path": "cache/books/low-altitude/book-low-altitude-faa-remote-pilot.pdf",
+        "sha256": "55d0e7772ecd16dc201f21b0286f9d7777f67e894a97a9b074fa27464903e05f",
+        "bytes": 6730865,
+        "checked_at": "2026-08-31T04:56:34.987Z",
+        "download_error": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:easa-uas-rules",
+      "field": "low-altitude",
+      "kind": "handbook",
+      "title": "Easy Access Rules for Unmanned Aircraft Systems",
+      "authors": [
+        "European Union Aviation Safety Agency"
+      ],
+      "year": 2026,
+      "publisher": "EASA",
+      "topics": [
+        "regulation",
+        "operations",
+        "risk"
+      ],
+      "official_url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulations-eu",
+      "authority_reason": "EASA 官方汇编的无人机规则与可接受符合性方法，是欧洲运行框架的权威入口。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:low-altitude:jarus-sora",
+      "field": "low-altitude",
+      "kind": "handbook",
+      "title": "Specific Operations Risk Assessment (SORA)",
+      "authors": [
+        "Joint Authorities for Rulemaking on Unmanned Systems"
+      ],
+      "year": 2024,
+      "publisher": "JARUS",
+      "topics": [
+        "risk-assessment",
+        "operations",
+        "safety-case"
+      ],
+      "official_url": "https://www.jarus-rpas.org/sora",
+      "authority_reason": "多国监管机构共同维护的特定类无人机运行风险评估方法。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    }
+  ]
+}

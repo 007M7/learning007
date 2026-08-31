@@ -1,0 +1,41 @@
+{
+  "field": "ai-product",
+  "title": "AI 产品经理",
+  "updated_at": "2026-08-31",
+  "books": {
+    "total": 10,
+    "downloaded_open_fulltext": 1,
+    "declared_open_fulltext": 1,
+    "official_online": 1,
+    "commercial_metadata_only": 8,
+    "download_failures": 0
+  },
+  "papers": {
+    "total": 120,
+    "open_access": 120,
+    "since_2023": 57,
+    "snapshot_date": "2026-08-30",
+    "topic_counts": {
+      "problem-discovery": 15,
+      "workflow": 15,
+      "capability-architecture": 11,
+      "evaluation": 11,
+      "experimentation": 12,
+      "ux-trust": 14,
+      "economics": 15,
+      "governance": 15,
+      "operations": 15,
+      "strategy-organization": 15
+    },
+    "top_venues": {
+      "arXiv (Cornell University)": 7,
+      "IEEE Access": 6,
+      "Sustainability": 5,
+      "International Journal of Information Management": 4,
+      "Information Fusion": 3,
+      "BMC Medical Informatics and Decision Making": 3,
+      "Nature": 2,
+      "Journal Of Big Data": 2
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "field": "machine-learning",
+  "title": "机器学习",
+  "curated_count": 10,
+  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "records": [
+    {
+      "id": "book:machine-learning:esl-2e",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "The Elements of Statistical Learning",
+      "authors": [
+        "Trevor Hastie",
+        "Robert Tibshirani",
+        "Jerome Friedman"
+      ],
+      "year": 2009,
+      "publisher": "Springer",
+      "topics": [
+        "statistical-learning",
+        "supervised-learning",
+        "unsupervised-learning"
+      ],
+      "official_url": "https://hastie.su.domains/ElemStatLearn/",
+      "authority_reason": "统计学习领域公认的研究生级经典教材，长期用于顶尖大学课程。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://hastie.su.domains/Papers/ESLII.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:01:09.495Z",
+        "download_error": "fetch failed"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:islr-2e",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "An Introduction to Statistical Learning (2nd ed.)",
+      "authors": [
+        "Gareth James",
+        "Daniela Witten",
+        "Trevor Hastie",
+        "Robert Tibshirani"
+      ],
+      "year": 2021,
+      "publisher": "Springer",
+      "topics": [
+        "statistical-learning",
+        "applied-ml",
+        "model-evaluation"
+      ],
+      "official_url": "https://www.statlearning.com/",
+      "authority_reason": "由 ESL 作者团队编写的应用型权威入门教材，配套课程和实验广泛使用。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:01:20.155Z",
+        "download_error": "fetch failed"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:islp",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "An Introduction to Statistical Learning with Applications in Python",
+      "authors": [
+        "Gareth James",
+        "Daniela Witten",
+        "Trevor Hastie",
+        "Robert Tibshirani",
+        "Jonathan Taylor"
+      ],
+      "year": 2023,
+      "publisher": "Springer",
+      "topics": [
+        "applied-ml",
+        "python",
+        "model-evaluation"
+      ],
+      "official_url": "https://www.statlearning.com/",
+      "authority_reason": "ISL 官方 Python 版本，适合把统计学习原理落实为可复现实验。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:01:30.830Z",
+        "download_error": "fetch failed"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:understanding-ml",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "Understanding Machine Learning: From Theory to Algorithms",
+      "authors": [
+        "Shai Shalev-Shwartz",
+        "Shai Ben-David"
+      ],
+      "year": 2014,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "learning-theory",
+        "generalization",
+        "optimization"
+      ],
+      "official_url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/",
+      "authority_reason": "机器学习理论课程常用教材，系统覆盖 PAC、在线学习、核方法与优化。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:02:30.836Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:mathematics-for-ml",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "Mathematics for Machine Learning",
+      "authors": [
+        "Marc Peter Deisenroth",
+        "A. Aldo Faisal",
+        "Cheng Soon Ong"
+      ],
+      "year": 2020,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "linear-algebra",
+        "calculus",
+        "probability"
+      ],
+      "official_url": "https://mml-book.github.io/",
+      "authority_reason": "面向机器学习的数学前置教材，作者提供合法开放版本。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://mml-book.github.io/book/mml-book.pdf",
+        "license": "CC-BY-NC-SA",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:03:30.841Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:probml-intro",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "authors": [
+        "Kevin P. Murphy"
+      ],
+      "year": 2022,
+      "publisher": "MIT Press",
+      "topics": [
+        "probabilistic-modeling",
+        "bayesian-methods",
+        "deep-learning"
+      ],
+      "official_url": "https://probml.github.io/pml-book/book1.html",
+      "authority_reason": "Murphy 的现代概率机器学习教材，覆盖经典方法与深度学习并提供持续更新资源。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:probml-advanced",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "Probabilistic Machine Learning: Advanced Topics",
+      "authors": [
+        "Kevin P. Murphy"
+      ],
+      "year": 2023,
+      "publisher": "MIT Press",
+      "topics": [
+        "probabilistic-modeling",
+        "causal-inference",
+        "generative-models"
+      ],
+      "official_url": "https://probml.github.io/pml-book/book2.html",
+      "authority_reason": "概率机器学习进阶卷，覆盖结构化概率模型、因果与现代生成方法。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:bayesian-reasoning",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "Bayesian Reasoning and Machine Learning",
+      "authors": [
+        "David Barber"
+      ],
+      "year": 2012,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "bayesian-methods",
+        "graphical-models",
+        "inference"
+      ],
+      "official_url": "https://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/090310.pdf",
+      "authority_reason": "系统连接贝叶斯推断、图模型与机器学习，作者公开完整教材。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/090310.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:03:31.223Z",
+        "download_error": "fetch failed"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:fairness-ml",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "Fairness and Machine Learning",
+      "authors": [
+        "Solon Barocas",
+        "Moritz Hardt",
+        "Arvind Narayanan"
+      ],
+      "year": 2023,
+      "publisher": "fairmlbook.org",
+      "topics": [
+        "fairness",
+        "accountability",
+        "decision-systems"
+      ],
+      "official_url": "https://fairmlbook.org/",
+      "authority_reason": "算法公平领域的开放教材，作者均为该领域的重要研究者。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://fairmlbook.org/pdf/fairmlbook.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-08-31T05:04:31.232Z",
+        "download_error": "The operation was aborted due to timeout"
+      },
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": "book:machine-learning:causal-what-if",
+      "field": "machine-learning",
+      "kind": "book",
+      "title": "Causal Inference: What If",
+      "authors": [
+        "Miguel A. Hernán",
+        "James M. Robins"
+      ],
+      "year": 2024,
+      "publisher": "Chapman & Hall/CRC",
+      "topics": [
+        "causal-inference",
+        "experimentation",
+        "observational-data"
+      ],
+      "official_url": "https://hsph.harvard.edu/miguel-hernan/causal-inference-book/2015",
+      "authority_reason": "现代因果推断的权威开放教材，强调目标试验与可识别假设；最新版从作者官方页面阅读。",
+      "access": {
+        "status": "official_online",
+        "download_url": null,
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": null
+      },
+      "updated_at": "2026-08-31"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "query": "official PDF Speech and Language Processing third edition Introduction to Information Retrieval",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://nlp.stanford.edu/IR-book/information-retrieval-book.html",
+      "title": "Introduction to Information Retrieval",
+      "content": "# Introduction to Information Retrieval. This is the companion website for the following book. Manning, Prabhakar Raghavan and Hinrich Schütze, *Introduction to Information Retrieval*, Cambridge University Press. The best search term to use is the ISBN: 0521865719. The book aims to provide a modern approach to information retrieval from a computer science perspective. It is based on a course we have been teaching in various forms at Stanford University, the University of Stuttgart and the University of Munich. * HTML edition (2009.04.07). * PDF of the book for online viewing (with nice hyperlink features, 2009.04.01). * PDF of the book for printing (2009.04.01). * University of Munich slides and assignments (2013.09.13). ### Information retrieval resources. A list of information retrieval resources is also available. ### Introduction to Information Retrieval: Table of Contents. | 01 | Boolean retrieval | pdf html |. | 08 | Evaluation in information retrieval | pdf html |. | 11 | Probabilistic information retrieval | pdf html |.",
+      "score": 0.98555,
+      "raw_content": null,
+      "id": "bda18b-00"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
+      "title": "Speech and Language Processing",
+      "content": "Speech and Language Processing An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models Third Edition draft Daniel Jurafsky Stanford University James H. Summary of Contents I Large Language Models 1 1 Introduction. 3 2 Words and Tokens . 33 3 N-gram Language Models . . 209 II Advanced LLM Topics and Tools 225 9 Masked Language Models . . 383 III Annotating Linguistic Structure 397 18 Sequence Labeling for Parts of Speech and Named Entities . 630 2 Contents I Large Language Models 1 1 Introduction 3 1.1 What is a Large Language Model? 5 1.2 What do LLMs Learn From Word (Token) Prediction? 8 1.3 Underpinnings: Neural Networks and Embeddings . 11 1.4 A Brief History of Speech and Language Processing . 12 1.5 Linguistic Structure and Interpretability . 14 1.6 How Language Models are Trained . 24 1.9 Evaluating Large Language Models . 32 2 Words and Tokens 33 2.1 Words .",
+      "score": 0.9835,
+      "raw_content": null,
+      "id": "e5a6ea-01"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/newslides.html",
+      "title": "Introduction to Information Retrieval: Slides",
+      "content": "# Introduction to Information Retrieval: Slides. Powerpoint slides are from the Stanford CS276 class and from the Stuttgart IIR class. Latex slides are from the Stuttgart IIR class. The latex slides are in latex beamer, so you need to know/learn latex to be able to modify them. | 01 | Boolean retrieval | ppt1 ppt2 pdf pdf | pdf | pdf | src |. | 03 | Dictionaries and tolerant retrieval | ppt1 ppt2 pdf pdf | pdf | pdf | src |. | 06 | Scoring, term weighting & the vector space model | ppt1 ppt2 pdf pdf | pdf | pdf | src |. | 08 | Evaluation in information retrieval | ppt1 ppt2 pdf pdf | pdf | pdf | src |. | 11 | Probabilistic information retrieval | (old) ppt2 | pdf | pdf | src |. | 12 | Language models for information retrieval | (old) ppt2 | pdf | pdf | src |.",
+      "score": 0.97825,
+      "raw_content": null,
+      "id": "420a3a-02"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html",
+      "title": "Introduction to Information Retrieval",
+      "content": "# Introduction to Information Retrieval. Comments, corrections, and other feedback most welcome at:. * The term vocabulary and postings lists. * Scoring, term weighting and the vector space model. * Relevance feedback and query expansion. * Language models for information retrieval. + An example information retrieval problem. + The extended Boolean model versus ranked retrieval. - Obtaining the character sequence in a document. + Determining the vocabulary of terms. + Statistical properties of terms in information retrieval. - Heaps' law: Estimating the number of terms. + The vector space model for scoring. + Components of an information retrieval system. + Vector space scoring and query operator interaction. - Critiques and justifications of the concept of relevance. + Relevance feedback and pseudo relevance feedback. - The Rocchio algorithm for relevance feedback. - Relevance feedback on the web. - Evaluation of relevance feedback strategies. + A vector space model for XML retrieval. - Probabilistic approaches to relevance feedback. - A variant of the multinomial model.",
+      "score": 0.97359,
+      "raw_content": null,
+      "id": "026d64-03"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/old_dec21/ed3book_dec292021.pdf",
+      "title": "Speech and Language Processing",
+      "content": "Speech and Language Processing An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition Third Edition draft Daniel Jurafsky Stanford University James H. 1 2 Regular Expressions, Text Normalization, Edit Distance. 2 3 N-gram Language Models . 30 4 Naive Bayes and Sentiment Classiﬁcation . . 78 6 Vector Semantics and Embeddings . 102 7 Neural Networks and Neural Language Models . 133 8 Sequence Labeling for Parts of Speech and Named Entities . . 159 9 Deep Learning Architectures for Sequence Processing. 184 10 Machine Translation and Encoder-Decoder Models . 213 11 Transfer Learning with Pretrained Language Models and Contex-tual Embeddings . .555 26 Automatic Speech Recognition and Text-to-Speech . 637 2 Contents 1 Introduction 1 2 Regular Expressions, Text Normalization, Edit Distance 2 2.1 Regular Expressions . 13 2.4 Text Normalization . 28 3 N-gram Language Models 30 3.1 N-Grams . 31 3.2 Evaluating Language Models . 65 4.6 Naive Bayes as a Language Model .",
+      "score": 0.97301,
+      "raw_content": null,
+      "id": "0a5a44-04"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/old_dec21/indexdec21.html",
+      "title": "Speech and Language Processing",
+      "content": "| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---",
+      "score": 0.96976,
+      "raw_content": null,
+      "id": "6fffd8-05"
+    },
+    {
+      "url": "https://web.stanford.edu/class/cs276",
+      "title": "CS 276: Information Retrieval and Web Search",
+      "content": "4/2 | Lecture (Pandu) | **Introduction to the course**    * Videos: \"Semistructured Data\" * Slides:   PPT |   PDF/6 |   PDF/1 | * IIR chapter 1 * MG section 3.2 * MIR section 8.2 * Shakespeare plays |. 4/11 | Lecture (Chris) | **Algorithms for postings list compression**      * Videos: \"Index Compression\" * Slides:   PPT |   PDF/6 |   PDF/1 | * IIR chapter 5 * MG sections 3.3-3.4 * Compression of inverted indexes for fast query evaluation (Scholer et al. 4/30 | Lecture (Chris) | **Evaluation methods & NDCG**     * Videos: \"Result Summaries\" * Slides:   PPT |   PDF/6 |   PDF/1 | * IIR chapter 8 * MG section 4.5 * MIR chapter 3 |. 5/7 | Lecture (Pandu) | **Classification and clustering in vector spaces(Naive Bayes, kNN, decision boundaries)**   Slides:  * PPT |   PDF/6 |   PDF/1  * Videos: \"Naive Bayes\" | * IIR chapter 13 * IIR chapter 14 * Reuters-21578 * Machine learning in automated text categorization (Sebastiani 2002) * A re-examination of text categorization methods (Yang et al.",
+      "score": 0.9693,
+      "raw_content": null,
+      "id": "e31c11-06"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/11.pdf",
+      "title": "Information Retrieval and Retrieval-Augmented Generation",
+      "content": "CHAPTER 11 Information Retrieval and Retrieval-Augmented Generation On two occasions I have been asked,—“Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?” ... Even fictional computers in the 1970s like Deep Thought, invented by Douglas Adams in The Hitchhiker’s Guide to the Galaxy, answered “the Ultimate Question Of Life, The Universe, and Everything”.1 And because so much knowledge is encoded in text, systems were answering questions at human-level performance even before LLMs: IBM’s Watson system won the TV game-show Jeopardy! in 2011, surpassing humans at answering questions like: WILLIAM WILKINSON’S “AN ACCOUNT OF THE PRINCIPALITIES OF WALLACHIA AND MOLDOVIA” INSPIRED THIS AUTHOR’S MOST FAMOUS NOVEL 2 It follows naturally, then, that an important function of large language models is to fill human information needs. To get an LLM to answer these questions, we can just prompt it!",
+      "score": 0.96353,
+      "raw_content": null,
+      "id": "5375b6-07"
+    },
+    {
+      "url": "https://nlp.stanford.edu/~manning/papers",
+      "title": "Christopher Manning: Papers and publications",
+      "content": "# Christopher Manning: Papers and publications. **Papers from 2007 on:** I haven't been good at keeping this page up to date, and only a few papers have been added here. But you can almost certainly find what you need on Google Scholar, Semantic Scholar, or on the Stanford NLP Group publications page. **Papers up till 2006:** almost every paper of mine up till 2006 is available here, usually as a PDF file. Quantifying large language model usage in scientific papers. *https://nlp.stanford.edu/~manning/papers/Liang\\_et\\_al-2025-Nature\\_Human\\_Behaviour.pdf* | pdf  *Nature* |. *https://nlp.stanford.edu/~manning/papers/Magesh-Hallucination‐Free-2025.pdf* | pdf |. *https://nlp.stanford.edu/pubs/armstrong2022jampatoisnli.pdf* | pdf |. *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing*, Volume 1: Long Papers, pp. *https://nlp.stanford.edu/~manning/papers/nivre2020UDv2.pdf* | pdf |. *Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL 2019)*, pp. In *Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)*, pp.",
+      "score": 0.9622,
+      "raw_content": null,
+      "id": "37fb49-08"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/pubs.html",
+      "title": "Dan Jurafsky's Publications",
+      "content": "# Dan Jurafsky Publications. *The Language of Food: A Linguist Reads the Menu*. Jurafsky, Daniel, and James H. Speech and Language Processing: An Introduction to Natural Language Processing, Speech Recognition, and Computational Linguistics. *Speech Communication* Special Issue on Pronunciation Modeling and Lexicon Adaptation, 46:2, June 2005.- Fox, Barbara A., Dan Jurafsky, and Laura A. Cognition and Function in Language. Norton.- Jurafsky, Daniel, and James H. Fox, Barbara A., Dan Jurafsky, and Laura A. ### Journal Articles, Book Chapters, and Conference Papers (see very bottom for Corpora and Data). *Journal of Social Issues*, 2025; 81:e70017 Mirac Suzgun, Tayfun Gur, Federico Bianchi, Daniel E. Manning, Dan Jurafsky, and Karen Livescu. Proceedings of the Annual Meeting of the Cognitive Science Society 47. Aryaman Arora, Dan Jurafsky, Christopher Potts, Noah Goodman. In-Context Learning Boosts Speech Recognition via Human-like Adaptation to Speakers and Language Varieties. In Proceedings of the Sixth Workshop on the Use of Computational Methods in the Study of Endangered Languages (ComputEL-6).",
+      "score": 0.95998,
+      "raw_content": null,
+      "id": "a78e58-09"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/pdf/07system.pdf",
+      "title": "7 Computing scores in a complete",
+      "content": "135 7 Computing scores in a complete search system Chapter 6 developed the theory underlying term weighting in documents for the purposes of scoring, leading up to vector space models and the basic cosine scoring algorithm of Section 6.3.3 (page 124). In this chapter we be-gin in Section 7.1 with heuristics for speeding up this computation; many of these heuristics achieve their speed at the risk of not ﬁnding quite the top K documents matching the query. In Section 7.2 we outline a complete search engine, includ-ing indexes and structures to support not only cosine scoring but also more general ranking factors such as query term proximity. For any Online edition (c) 2009 Cambridge UP 136 7 Computing scores in a complete search system FASTCOSINESCORE(q) 1 ﬂoat Scores[N] = 0 2 for each d 3 do Initialize Length[d] to the length of doc d 4 for each query term t 5 do calculate wt,q and fetch postings list for t 6 for each pair(d, tft,d) in postings list 7 do add wft,d to Scores[d] 8 Read the array Length[d] 9 for each d 10 do Divide Scores[d] by Length[d] 11 return Top K components of Scores[] ◮Figure 7.1 A faster algorithm for vector space scores.",
+      "score": 0.95657,
+      "raw_content": null,
+      "id": "170139-10"
+    },
+    {
+      "url": "https://nlp.stanford.edu/teaching",
+      "title": "Teaching - The Stanford Natural Language Processing Group",
+      "content": "A key mission of the Natural Language Processing Group is graduate and undergraduate education in all areas of Human Language Technology including its applications, history, and social context. The Stanford NLP Faculty have also been active in producing online course materials, including:. * The complete videos from the 2021 edition of Christopher Manning's CS224N: Natural Language Processing with Deep Learning | Winter 2021 on YouTube [slides]. * The 2021 videos for Dan Jurafsky's CS124: From Languages to Information: Spring 2021. * Older classic NLP material: Natural Language Processing (a.k.a. the 2012 Coursera NLP-class) by Dan Jurafsky and Christopher Manning on YouTube [slides]. Textbooks co-authored by NLP faculty include Chris Manning and Hinrich Schütze's Foundations of Statistical Natural Language Processing, Dan Jurafsky and James Martin's Speech and Language Processing see the [u ed draft], and Manning, Raghavan, and Schütze's textbook Introduction to Information Retrieval. Natural Language Processing with Deep Learning. Ethical and Social Issues in Natural Language Processing.",
+      "score": 0.95304,
+      "raw_content": null,
+      "id": "0b1837-11"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/essir2011/pdf/11prob.pdf",
+      "title": "false [0.5cm] IIR 11: Probabilistic Information Retrieval",
+      "content": "Sch¨ utze: Probabilistic Information Retrieval 29 / 36 Probabilistic Approach to IR Binary independence model Okapi BM25 Probability estimates in adhoc retrieval Ad-hoc retrieval: no user-supplied relevance judgments available In this case: assume constant pt = 0.5 for all terms xt in the query Each query term is equally likely to occur in a relevant document, and so the pt and (1 −pt) factors cancel out in the expression for RSV. Weight ct in this case: ct = log pt (1−pt) −log ut 1−ut ≈log N/dft Sch¨ utze: Probabilistic Information Retrieval 29 / 36 Probabilistic Approach to IR Binary independence model Okapi BM25 Probability estimates in adhoc retrieval Ad-hoc retrieval: no user-supplied relevance judgments available In this case: assume constant pt = 0.5 for all terms xt in the query Each query term is equally likely to occur in a relevant document, and so the pt and (1 −pt) factors cancel out in the expression for RSV.",
+      "score": 0.95128,
+      "raw_content": null,
+      "id": "ab4633-12"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/5.pdf",
+      "title": "Embeddings",
+      "content": "10 CHAPTER 5 • EMBEDDINGS 500 1000 1500 2000 2500 3000 500 digital cherry information Dimension 1: ‘pie’ Dimension 2: ‘computer’ Figure 5.5 A (rough) graphical demonstration of cosine similarity, showing vectors for three words (cherry, digital, and information) in the two dimensional space deﬁned by counts of the words computer and pie nearby. The intuition of the skip-gram model is to base this probability on embedding similarity: a word is likely to 12 CHAPTER 5 • EMBEDDINGS occur near the target if its embedding vector is similar to the target embedding. For example Fig. 5.10 shows a visualization of changes in meaning in English words over the last two centuries, computed by building separate embedding spaces for each decade from historical corpora like Google n-grams (Lin et al., 2012) and the Corpus of Historical American English (Davies, 2012).",
+      "score": 0.94653,
+      "raw_content": null,
+      "id": "8187e3-13"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/old_oct19",
+      "title": "Index of /~jurafsky/slp3/old_oct19",
+      "content": "Index of /~jurafsky/slp3/old_oct19 ・ 2.pdf 2019-10-02 19:49 277K [ ] 3.pdf 2019-10-02 19:49 233K [ ] 4.pdf 2019-10-02 ・ ed3book.pdf 2019-10-16 18:01",
+      "score": 0.94599,
+      "raw_content": null,
+      "id": "c9cc95-14"
+    }
+  ],
+  "response_time": 5.41,
+  "request_id": "18eb59d2-e2c3-41af-ac53-26b36ba88fa8"
+}

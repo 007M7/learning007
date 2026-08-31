@@ -7,3 +7,4 @@ docs/.vitepress/cache/
 npm-debug.log*
 .env*
 !.env.example
+knowledge-base/cache/

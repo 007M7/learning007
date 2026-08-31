@@ -1,0 +1,4770 @@
+{
+  "field": "machine-learning",
+  "title": "机器学习",
+  "snapshot_date": "2026-08-30",
+  "provider": "OpenAlex",
+  "selection_method": "十个子主题分别抽取经典高影响与 2023 年以来近期论文，按 DOI/OpenAlex ID 去重并保留主题交叉；Tavily 用于官方来源与教材骨架审计。",
+  "caveat": "这是可复核的核心参考文献层，不以引用数代替论文质量判断；课程写作前仍需阅读原文并核验具体结论。",
+  "records": [
+    {
+      "id": "paper:doi:10.3758/bf03193146",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences",
+      "authors": [
+        "Franz Faul",
+        "Edgar Erdfelder",
+        "Albert-Georg Lang",
+        "Axel Buchner"
+      ],
+      "year": 2007,
+      "publication_date": "2007-05-01",
+      "type": "article",
+      "venue": "Behavior Research Methods",
+      "doi": "10.3758/bf03193146",
+      "openalex_id": "https://openalex.org/W2087484885",
+      "official_url": "https://doi.org/10.3758/bf03193146",
+      "cited_by_count_snapshot": 65765,
+      "relevance_score_snapshot": 1372.5381,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 92,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.3758/bf03193146",
+        "pdf_url": "https://link.springer.com/content/pdf/10.3758%2FBF03193146.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/5.726791",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Gradient-based learning applied to document recognition",
+      "authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "year": 1998,
+      "publication_date": "1998-01-01",
+      "type": "article",
+      "venue": "Proceedings of the IEEE",
+      "doi": "10.1109/5.726791",
+      "openalex_id": "https://openalex.org/W2112796928",
+      "official_url": "https://doi.org/10.1109/5.726791",
+      "cited_by_count_snapshot": 59426,
+      "relevance_score_snapshot": 1838.0205,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 135,
+      "language": "en",
+      "topics": [
+        "statistical-learning",
+        "kernels-representation"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://hal.science/hal-03926082",
+        "pdf_url": "https://hal.science/hal-03926082/document",
+        "license": "other-oa"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.media.2017.07.005",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A survey on deep learning in medical image analysis",
+      "authors": [
+        "Geert Litjens",
+        "Thijs Kooi",
+        "Babak Ehteshami Bejnordi",
+        "Arnaud A. A. Setio",
+        "Francesco Ciompi",
+        "Mohsen Ghafoorian",
+        "Jeroen van der Laak",
+        "Bram van Ginneken",
+        "Clara I. Sá‎nchez"
+      ],
+      "year": 2017,
+      "publication_date": "2017-07-26",
+      "type": "article",
+      "venue": "Medical Image Analysis",
+      "doi": "10.1016/j.media.2017.07.005",
+      "openalex_id": "https://openalex.org/W2592929672",
+      "official_url": "https://doi.org/10.1016/j.media.2017.07.005",
+      "cited_by_count_snapshot": 15079,
+      "relevance_score_snapshot": 1008.0223,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 578,
+      "language": "en",
+      "topics": [
+        "kernels-representation",
+        "optimization-regularization"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1016/j.media.2017.07.005",
+        "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1361841517301135-fx1_lrg.jpg",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/s40537-019-0197-0",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A survey on Image Data Augmentation for Deep Learning",
+      "authors": [
+        "Connor Shorten",
+        "Taghi M. Khoshgoftaar"
+      ],
+      "year": 2019,
+      "publication_date": "2019-07-06",
+      "type": "article",
+      "venue": "Journal Of Big Data",
+      "doi": "10.1186/s40537-019-0197-0",
+      "openalex_id": "https://openalex.org/W2954996726",
+      "official_url": "https://doi.org/10.1186/s40537-019-0197-0",
+      "cited_by_count_snapshot": 12977,
+      "relevance_score_snapshot": 1132.8281,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 119,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/s40537-019-0197-0",
+        "pdf_url": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-019-0197-0",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s42256-019-0138-9",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "From local explanations to global understanding with explainable AI for trees",
+      "authors": [
+        "Scott Lundberg",
+        "Gabriel Erion",
+        "Hugh Chen",
+        "Alex J. DeGrave",
+        "Jordan M. Prutkin",
+        "Bala G. Nair",
+        "Ronit Katz",
+        "Jonathan Himmelfarb",
+        "Nisha Bansal",
+        "Su‐In Lee"
+      ],
+      "year": 2020,
+      "publication_date": "2020-01-17",
+      "type": "article",
+      "venue": "Nature Machine Intelligence",
+      "doi": "10.1038/s42256-019-0138-9",
+      "openalex_id": "https://openalex.org/W2999615587",
+      "official_url": "https://doi.org/10.1038/s42256-019-0138-9",
+      "cited_by_count_snapshot": 9867,
+      "relevance_score_snapshot": 1936.587,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 39,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7326367",
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.inffus.2019.12.012",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+      "authors": [
+        "Alejandro Barredo Arrieta",
+        "Natalia Díaz-Rodríguez",
+        "Javier Del Ser",
+        "Adrien Bennetot",
+        "Siham Tabik",
+        "Alberto Barbado",
+        "Salvador García",
+        "Sergio Gil-López",
+        "Daniel Molina",
+        "Richard Benjamins",
+        "Raja Chatila",
+        "Francisco Herrera"
+      ],
+      "year": 2019,
+      "publication_date": "2019-12-26",
+      "type": "article",
+      "venue": "Information Fusion",
+      "doi": "10.1016/j.inffus.2019.12.012",
+      "openalex_id": "https://openalex.org/W2981731882",
+      "official_url": "https://doi.org/10.1016/j.inffus.2019.12.012",
+      "cited_by_count_snapshot": 9746,
+      "relevance_score_snapshot": 274.5451,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 668,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://hdl.handle.net/20.500.11824/1166",
+        "pdf_url": "http://hdl.handle.net/20.500.11824/1166",
+        "license": "other-oa"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1613/jair.301",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Reinforcement Learning: A Survey",
+      "authors": [
+        "Leslie Pack Kaelbling",
+        "Michael L. Littman",
+        "Andrew Moore"
+      ],
+      "year": 1996,
+      "publication_date": "1996-05-01",
+      "type": "article",
+      "venue": "Journal of Artificial Intelligence Research",
+      "doi": "10.1613/jair.301",
+      "openalex_id": "https://openalex.org/W2107726111",
+      "official_url": "https://doi.org/10.1613/jair.301",
+      "cited_by_count_snapshot": 8950,
+      "relevance_score_snapshot": 1131.3665,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 189,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.1613/jair.301",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s42254-021-00314-5",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Physics-informed machine learning",
+      "authors": [
+        "George Em Karniadakis",
+        "Ioannis G. Kevrekidis",
+        "Lu Lu",
+        "Paris Perdikaris",
+        "Sifan Wang",
+        "Liu Yang"
+      ],
+      "year": 2021,
+      "publication_date": "2021-05-24",
+      "type": "article",
+      "venue": "Nature Reviews Physics",
+      "doi": "10.1038/s42254-021-00314-5",
+      "openalex_id": "https://openalex.org/W3163993681",
+      "official_url": "https://doi.org/10.1038/s42254-021-00314-5",
+      "cited_by_count_snapshot": 7620,
+      "relevance_score_snapshot": 1544.6677,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 228,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://www.osti.gov/biblio/2282016",
+        "pdf_url": "https://www.osti.gov/servlets/purl/2282016",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1214/aos/1016218223",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Additive logistic regression: a statistical view of boosting (With discussion and a rejoinder by the authors)",
+      "authors": [
+        "Jerome H. Friedman",
+        "Trevor Hastie",
+        "Robert Tibshirani"
+      ],
+      "year": 2000,
+      "publication_date": "2000-04-01",
+      "type": "article",
+      "venue": "The Annals of Statistics",
+      "doi": "10.1214/aos/1016218223",
+      "openalex_id": "https://openalex.org/W2024046085",
+      "official_url": "https://doi.org/10.1214/aos/1016218223",
+      "cited_by_count_snapshot": 6990,
+      "relevance_score_snapshot": 692.6868,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 42,
+      "language": "en",
+      "topics": [
+        "statistical-learning",
+        "trees-boosting"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1111/j.1365-2656.2008.01390.x",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A working guide to boosted regression trees",
+      "authors": [
+        "Jane Elith",
+        "John R. Leathwick",
+        "Trevor Hastie"
+      ],
+      "year": 2008,
+      "publication_date": "2008-04-08",
+      "type": "article",
+      "venue": "Journal of Animal Ecology",
+      "doi": "10.1111/j.1365-2656.2008.01390.x",
+      "openalex_id": "https://openalex.org/W2135695572",
+      "official_url": "https://doi.org/10.1111/j.1365-2656.2008.01390.x",
+      "cited_by_count_snapshot": 6562,
+      "relevance_score_snapshot": 1555.7715,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 43,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1111/j.1365-2656.2008.01390.x",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2656.2008.01390.x",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1023/a:1007379606734",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Multitask Learning",
+      "authors": [
+        "Rich Caruana"
+      ],
+      "year": 1997,
+      "publication_date": "1997-07-01",
+      "type": "article",
+      "venue": "Machine Learning",
+      "doi": "10.1023/a:1007379606734",
+      "openalex_id": "https://openalex.org/W2913340405",
+      "official_url": "https://doi.org/10.1023/a:1007379606734",
+      "cited_by_count_snapshot": 6467,
+      "relevance_score_snapshot": 863.69055,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 77,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1023/a:1007379606734",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1023/A:1007379606734.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/s40537-016-0043-6",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A survey of transfer learning",
+      "authors": [
+        "Karl R. Weiss",
+        "Taghi M. Khoshgoftaar",
+        "Dingding Wang"
+      ],
+      "year": 2016,
+      "publication_date": "2016-05-27",
+      "type": "article",
+      "venue": "Journal Of Big Data",
+      "doi": "10.1186/s40537-016-0043-6",
+      "openalex_id": "https://openalex.org/W2395579298",
+      "official_url": "https://doi.org/10.1186/s40537-016-0043-6",
+      "cited_by_count_snapshot": 6284,
+      "relevance_score_snapshot": 925.46277,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 143,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/s40537-016-0043-6",
+        "pdf_url": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-016-0043-6",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1201/9781003456285",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Statistical Inference",
+      "authors": [
+        "George Casella",
+        "Roger L. Berger"
+      ],
+      "year": 1993,
+      "publication_date": "1993-03-01",
+      "type": "article",
+      "venue": "Biometrics",
+      "doi": "10.1201/9781003456285",
+      "openalex_id": "https://openalex.org/W2799002609",
+      "official_url": "https://doi.org/10.1201/9781003456285",
+      "cited_by_count_snapshot": 5371,
+      "relevance_score_snapshot": 722.9256,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1201/9781003456285",
+        "pdf_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.1201/9781003456285&type=googlepdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1561/2200000083",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Advances and Open Problems in Federated Learning",
+      "authors": [
+        "Peter Kairouz",
+        "H. Brendan McMahan",
+        "Brendan Avent",
+        "Aurélien Bellet",
+        "Mehdi Bennis",
+        "Arjun Nitin Bhagoji",
+        "Kallista Bonawitz",
+        "Zachary Charles",
+        "Graham Cormode",
+        "Rachel Cummings",
+        "Rafael G. L. D’Oliveira",
+        "Hubert Eichner",
+        "Salim El Rouayheb",
+        "David Evans",
+        "Joshua Gardner",
+        "Zachary Garrett",
+        "Adrià Gascón",
+        "Badih Ghazi",
+        "Phillip B. Gibbons",
+        "Marco Gruteser"
+      ],
+      "year": 2020,
+      "publication_date": "2020-12-02",
+      "type": "article",
+      "venue": "Foundations and Trends® in Machine Learning",
+      "doi": "10.1561/2200000083",
+      "openalex_id": "https://openalex.org/W2995022099",
+      "official_url": "https://doi.org/10.1561/2200000083",
+      "cited_by_count_snapshot": 5363,
+      "relevance_score_snapshot": 791.48975,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 451,
+      "language": "en",
+      "topics": [
+        "data-evaluation",
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/1912.04977",
+        "pdf_url": "https://arxiv.org/pdf/1912.04977",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s42979-021-00592-x",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Machine Learning: Algorithms, Real-World Applications and Research Directions",
+      "authors": [
+        "Iqbal H. Sarker"
+      ],
+      "year": 2021,
+      "publication_date": "2021-03-22",
+      "type": "article",
+      "venue": "SN Computer Science",
+      "doi": "10.1007/s42979-021-00592-x",
+      "openalex_id": "https://openalex.org/W3135028703",
+      "official_url": "https://doi.org/10.1007/s42979-021-00592-x",
+      "cited_by_count_snapshot": 5359,
+      "relevance_score_snapshot": 1022.3102,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 160,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1007/s42979-021-00592-x",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s42979-021-00592-x.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.48550/arxiv.1710.09412",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "mixup: Beyond Empirical Risk Minimization",
+      "authors": [
+        "Hongyi Zhang",
+        "Moustapha Cissé",
+        "Yann Dauphin",
+        "David López-Paz"
+      ],
+      "year": 2017,
+      "publication_date": "2017-10-25",
+      "type": "preprint",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.1710.09412",
+      "openalex_id": "https://openalex.org/W2765407302",
+      "official_url": "https://doi.org/10.48550/arxiv.1710.09412",
+      "cited_by_count_snapshot": 4805,
+      "relevance_score_snapshot": 1176.7145,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 29,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/1710.09412",
+        "pdf_url": "https://arxiv.org/pdf/1710.09412",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3389/fnbot.2013.00021",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Gradient boosting machines, a tutorial",
+      "authors": [
+        "Alexey Natekin",
+        "Alois Knoll"
+      ],
+      "year": 2013,
+      "publication_date": "2013-01-01",
+      "type": "article",
+      "venue": "Frontiers in Neurorobotics",
+      "doi": "10.3389/fnbot.2013.00021",
+      "openalex_id": "https://openalex.org/W2088794999",
+      "official_url": "https://doi.org/10.3389/fnbot.2013.00021",
+      "cited_by_count_snapshot": 3891,
+      "relevance_score_snapshot": 1280.4279,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 68,
+      "language": "en",
+      "topics": [
+        "trees-boosting",
+        "optimization-regularization"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3389/fnbot.2013.00021",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnbot.2013.00021/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/1471-2105-8-25",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Bias in random forest variable importance measures: Illustrations, sources and a solution",
+      "authors": [
+        "Carolin Strobl",
+        "Anne‐Laure Boulesteix",
+        "Achim Zeileis",
+        "Torsten Hothorn"
+      ],
+      "year": 2007,
+      "publication_date": "2007-01-25",
+      "type": "article",
+      "venue": "BMC Bioinformatics",
+      "doi": "10.1186/1471-2105-8-25",
+      "openalex_id": "https://openalex.org/W1875061881",
+      "official_url": "https://doi.org/10.1186/1471-2105-8-25",
+      "cited_by_count_snapshot": 3705,
+      "relevance_score_snapshot": 922.9581,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 42,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/1471-2105-8-25",
+        "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-8-25",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10994-009-5152-4",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A theory of learning from different domains",
+      "authors": [
+        "Shai Ben-David",
+        "John Blitzer",
+        "Koby Crammer",
+        "Alex Kulesza",
+        "Fernando Pereira",
+        "Jennifer Wortman Vaughan"
+      ],
+      "year": 2009,
+      "publication_date": "2009-10-22",
+      "type": "article",
+      "venue": "Machine Learning",
+      "doi": "10.1007/s10994-009-5152-4",
+      "openalex_id": "https://openalex.org/W2104094955",
+      "official_url": "https://doi.org/10.1007/s10994-009-5152-4",
+      "cited_by_count_snapshot": 3598,
+      "relevance_score_snapshot": 906.9594,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 44,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s10994-009-5152-4",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-009-5152-4.pdf",
+        "license": "cc-by-nc"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:openalex:w2104290444",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Manifold Regularization: A Geometric Framework for Learning from Labeled and Unlabeled Examples",
+      "authors": [
+        "Mikhail Belkin",
+        "Partha Niyogi",
+        "Vikas Sindhwani"
+      ],
+      "year": 2006,
+      "publication_date": "2006-12-01",
+      "type": "article",
+      "venue": null,
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2104290444",
+      "official_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.136.8216",
+      "cited_by_count_snapshot": 3266,
+      "relevance_score_snapshot": 1116.5924,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 50,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41746-020-00323-1",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "The future of digital health with federated learning",
+      "authors": [
+        "Nicola Rieke",
+        "Jonny Hancox",
+        "Wenqi Li",
+        "Fausto Milletarì",
+        "Holger R. Roth",
+        "Shadi Albarqouni",
+        "Spyridon Bakas",
+        "Mathieu N. Galtier",
+        "Bennett A. Landman",
+        "Klaus Maier-Hein",
+        "Sébastien Ourselin",
+        "Micah Sheller",
+        "Ronald M. Summers",
+        "Andrew Trask",
+        "Daguang Xu",
+        "Maximilian Baust",
+        "M. Jorge Cardoso"
+      ],
+      "year": 2020,
+      "publication_date": "2020-09-14",
+      "type": "article",
+      "venue": "npj Digital Medicine",
+      "doi": "10.1038/s41746-020-00323-1",
+      "openalex_id": "https://openalex.org/W3012501605",
+      "official_url": "https://doi.org/10.1038/s41746-020-00323-1",
+      "cited_by_count_snapshot": 2913,
+      "relevance_score_snapshot": 598.3431,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 38,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41746-020-00323-1",
+        "pdf_url": "https://www.nature.com/articles/s41746-020-00323-1.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1037/met0000167",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A tutorial on regularized partial correlation networks.",
+      "authors": [
+        "Sacha Epskamp",
+        "Eiko I. Fried"
+      ],
+      "year": 2018,
+      "publication_date": "2018-03-29",
+      "type": "article",
+      "venue": "Psychological Methods",
+      "doi": "10.1037/met0000167",
+      "openalex_id": "https://openalex.org/W2462099493",
+      "official_url": "https://doi.org/10.1037/met0000167",
+      "cited_by_count_snapshot": 2873,
+      "relevance_score_snapshot": 814.15204,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 129,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://arxiv.org/abs/1607.01367",
+        "pdf_url": "https://arxiv.org/pdf/1607.01367",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ymssp.2019.106587",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Applications of machine learning to machine fault diagnosis: A review and roadmap",
+      "authors": [
+        "Yaguo Lei",
+        "Bin Yang",
+        "Xinwei Jiang",
+        "Feng Jia",
+        "Naipeng Li",
+        "Asoke K. Nandi"
+      ],
+      "year": 2020,
+      "publication_date": "2020-01-05",
+      "type": "article",
+      "venue": "Mechanical Systems and Signal Processing",
+      "doi": "10.1016/j.ymssp.2019.106587",
+      "openalex_id": "https://openalex.org/W2998506103",
+      "official_url": "https://doi.org/10.1016/j.ymssp.2019.106587",
+      "cited_by_count_snapshot": 2854,
+      "relevance_score_snapshot": 896.3254,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 469,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://bura.brunel.ac.uk/handle/2438/20040",
+        "pdf_url": "http://bura.brunel.ac.uk/bitstream/2438/20040/1/FullText.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1146/annurev-fluid-010719-060214",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Machine Learning for Fluid Mechanics",
+      "authors": [
+        "Steven L. Brunton",
+        "Bernd R. Noack",
+        "Petros Koumoutsakos"
+      ],
+      "year": 2019,
+      "publication_date": "2019-09-12",
+      "type": "article",
+      "venue": "Annual Review of Fluid Mechanics",
+      "doi": "10.1146/annurev-fluid-010719-060214",
+      "openalex_id": "https://openalex.org/W2973119841",
+      "official_url": "https://doi.org/10.1146/annurev-fluid-010719-060214",
+      "cited_by_count_snapshot": 2787,
+      "relevance_score_snapshot": 909.2535,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 139,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/1905.11075",
+        "pdf_url": "https://arxiv.org/pdf/1905.11075",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1609/aaai.v33i01.33014780",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Regularized Evolution for Image Classifier Architecture Search",
+      "authors": [
+        "Esteban Real",
+        "Alok Aggarwal",
+        "Yanping Huang",
+        "Quoc V. Le"
+      ],
+      "year": 2019,
+      "publication_date": "2019-07-17",
+      "type": "article",
+      "venue": null,
+      "doi": "10.1609/aaai.v33i01.33014780",
+      "openalex_id": "https://openalex.org/W2965658867",
+      "official_url": "https://doi.org/10.1609/aaai.v33i01.33014780",
+      "cited_by_count_snapshot": 2699,
+      "relevance_score_snapshot": 764.29144,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 49,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3389/fninf.2014.00014",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Machine learning for neuroimaging with scikit-learn",
+      "authors": [
+        "Alexandre Abraham",
+        "Fabian Pedregosa",
+        "Michael Eickenberg",
+        "Philippe Gervais",
+        "Andreas Mueller",
+        "Jean Kossaifi",
+        "Alexandre Gramfort",
+        "Bertrand Thirion",
+        "Gaël Varoquaux"
+      ],
+      "year": 2014,
+      "publication_date": "2014-01-01",
+      "type": "article",
+      "venue": "Frontiers in Neuroinformatics",
+      "doi": "10.3389/fninf.2014.00014",
+      "openalex_id": "https://openalex.org/W2151591509",
+      "official_url": "https://doi.org/10.3389/fninf.2014.00014",
+      "cited_by_count_snapshot": 2696,
+      "relevance_score_snapshot": 859.65283,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 71,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3389/fninf.2014.00014",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fninf.2014.00014/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10462-020-09896-5",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A comparative analysis of gradient boosting algorithms",
+      "authors": [
+        "Candice Bentéjac",
+        "Anna Csörgő",
+        "Gonzalo Martínez-Muñoz"
+      ],
+      "year": 2020,
+      "publication_date": "2020-08-24",
+      "type": "article",
+      "venue": "Artificial Intelligence Review",
+      "doi": "10.1007/s10462-020-09896-5",
+      "openalex_id": "https://openalex.org/W2987201163",
+      "official_url": "https://doi.org/10.1007/s10462-020-09896-5",
+      "cited_by_count_snapshot": 2677,
+      "relevance_score_snapshot": 1077.1313,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 17,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/1911.01914",
+        "pdf_url": "https://arxiv.org/pdf/1911.01914",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.inffus.2021.05.008",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A review of uncertainty quantification in deep learning: Techniques, applications and challenges",
+      "authors": [
+        "Moloud Abdar",
+        "Farhad Pourpanah",
+        "Sadiq Hussain",
+        "Dana Rezazadegan",
+        "Li Liu",
+        "Mohammad Ghavamzadeh",
+        "Paul Fieguth",
+        "Xiaochun Cao",
+        "Abbas Khosravi",
+        "U. Rajendra Acharya",
+        "Vladimir Makarenkov",
+        "Saeid Nahavandi"
+      ],
+      "year": 2021,
+      "publication_date": "2021-05-23",
+      "type": "article",
+      "venue": "Information Fusion",
+      "doi": "10.1016/j.inffus.2021.05.008",
+      "openalex_id": "https://openalex.org/W3102100346",
+      "official_url": "https://doi.org/10.1016/j.inffus.2021.05.008",
+      "cited_by_count_snapshot": 2636,
+      "relevance_score_snapshot": 391.73224,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 1221,
+      "language": "en",
+      "topics": [
+        "causal-inference",
+        "uncertainty-fairness"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.inffus.2021.05.008",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1566253521001081/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10994-019-05855-6",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A survey on semi-supervised learning",
+      "authors": [
+        "Jesper E. van Engelen",
+        "Holger H. Hoos"
+      ],
+      "year": 2019,
+      "publication_date": "2019-11-15",
+      "type": "article",
+      "venue": "Machine Learning",
+      "doi": "10.1007/s10994-019-05855-6",
+      "openalex_id": "https://openalex.org/W2984353870",
+      "official_url": "https://doi.org/10.1007/s10994-019-05855-6",
+      "cited_by_count_snapshot": 2634,
+      "relevance_score_snapshot": 538.3786,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 264,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s10994-019-05855-6",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-019-05855-6.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1093/rfs/hhaa009",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Empirical Asset Pricing via Machine Learning",
+      "authors": [
+        "Shihao Gu",
+        "Bryan Kelly",
+        "Dacheng Xiu"
+      ],
+      "year": 2020,
+      "publication_date": "2020-02-20",
+      "type": "article",
+      "venue": "Review of Financial Studies",
+      "doi": "10.1093/rfs/hhaa009",
+      "openalex_id": "https://openalex.org/W4205539948",
+      "official_url": "https://doi.org/10.1093/rfs/hhaa009",
+      "cited_by_count_snapshot": 2426,
+      "relevance_score_snapshot": 756.4657,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 70,
+      "language": "en",
+      "topics": [
+        "statistical-learning",
+        "optimization-regularization"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1093/rfs/hhaa009",
+        "pdf_url": "https://academic.oup.com/rfs/article-pdf/33/5/2223/33209812/hhaa009.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3446776",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Understanding deep learning (still) requires rethinking generalization",
+      "authors": [
+        "Chiyuan Zhang",
+        "Samy Bengio",
+        "Moritz Hardt",
+        "Benjamin Recht",
+        "Oriol Vinyals"
+      ],
+      "year": 2021,
+      "publication_date": "2021-02-22",
+      "type": "article",
+      "venue": "Communications of the ACM",
+      "doi": "10.1145/3446776",
+      "openalex_id": "https://openalex.org/W2566079294",
+      "official_url": "https://doi.org/10.1145/3446776",
+      "cited_by_count_snapshot": 2363,
+      "relevance_score_snapshot": 789.735,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 53,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1145/3446776",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3446776",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1088/1741-2552/aab2f2",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A review of classification algorithms for EEG-based brain–computer interfaces: a 10 year update",
+      "authors": [
+        "Fabien Lotte",
+        "Laurent Bougrain",
+        "Andrzej Cichocki",
+        "Maureen Clerc",
+        "Marco Congedo",
+        "Alain Rakotomamonjy",
+        "Florian Yger"
+      ],
+      "year": 2018,
+      "publication_date": "2018-02-28",
+      "type": "article",
+      "venue": "Journal of Neural Engineering",
+      "doi": "10.1088/1741-2552/aab2f2",
+      "openalex_id": "https://openalex.org/W2794345050",
+      "official_url": "https://doi.org/10.1088/1741-2552/aab2f2",
+      "cited_by_count_snapshot": 2227,
+      "relevance_score_snapshot": 337.02148,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 269,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1088/1741-2552/aab2f2",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1741-2552/aab2f2/pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41580-021-00407-0",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A guide to machine learning for biologists",
+      "authors": [
+        "Joe G. Greener",
+        "Shaun M. Kandathil",
+        "Lewis Moffat",
+        "David T. Jones"
+      ],
+      "year": 2021,
+      "publication_date": "2021-09-13",
+      "type": "article",
+      "venue": "Nature Reviews Molecular Cell Biology",
+      "doi": "10.1038/s41580-021-00407-0",
+      "openalex_id": "https://openalex.org/W3200707343",
+      "official_url": "https://doi.org/10.1038/s41580-021-00407-0",
+      "cited_by_count_snapshot": 2165,
+      "relevance_score_snapshot": 799.6662,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 173,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "seminal-or-field-defining",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1038/s41580-021-00407-0",
+        "pdf_url": "https://discovery.ucl.ac.uk/10134478/1/NRMCB-review-accepted-forRPS.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.18637/jss.v011.i09",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "kernlab - An S4 Package for Kernel Methods in R",
+      "authors": [
+        "Alexandros Karatzoglou",
+        "Alex Smola",
+        "Kurt Hornik",
+        "Achim Zeileis"
+      ],
+      "year": 2004,
+      "publication_date": "2004-01-01",
+      "type": "article",
+      "venue": "Journal of Statistical Software",
+      "doi": "10.18637/jss.v011.i09",
+      "openalex_id": "https://openalex.org/W2157963336",
+      "official_url": "https://doi.org/10.18637/jss.v011.i09",
+      "cited_by_count_snapshot": 1864,
+      "relevance_score_snapshot": 920.4603,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 28,
+      "language": "he",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.18637/jss.v011.i09",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/s40537-020-00369-8",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "CatBoost for big data: an interdisciplinary review",
+      "authors": [
+        "John Hancock",
+        "Taghi M. Khoshgoftaar"
+      ],
+      "year": 2020,
+      "publication_date": "2020-11-04",
+      "type": "article",
+      "venue": "Journal Of Big Data",
+      "doi": "10.1186/s40537-020-00369-8",
+      "openalex_id": "https://openalex.org/W3094948551",
+      "official_url": "https://doi.org/10.1186/s40537-020-00369-8",
+      "cited_by_count_snapshot": 1772,
+      "relevance_score_snapshot": 391.72253,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 116,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/s40537-020-00369-8",
+        "pdf_url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-020-00369-8",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1214/009053607000000677",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Kernel methods in machine learning",
+      "authors": [
+        "Thomas Hofmann",
+        "Bernhard Schölkopf",
+        "Alexander J. Smola"
+      ],
+      "year": 2008,
+      "publication_date": "2008-05-26",
+      "type": "article",
+      "venue": "The Annals of Statistics",
+      "doi": "10.1214/009053607000000677",
+      "openalex_id": "https://openalex.org/W2168029744",
+      "official_url": "https://doi.org/10.1214/009053607000000677",
+      "cited_by_count_snapshot": 1616,
+      "relevance_score_snapshot": 1314.9595,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 116,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1214/009053607000000677",
+        "pdf_url": "https://projecteuclid.org/journals/annals-of-statistics/volume-36/issue-3/Kernel-methods-in-machine-learning/10.1214/009053607000000677.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1073/pnas.1510489113",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Recursive partitioning for heterogeneous causal effects",
+      "authors": [
+        "Susan Athey",
+        "Guido W. Imbens"
+      ],
+      "year": 2016,
+      "publication_date": "2016-07-05",
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.1510489113",
+      "openalex_id": "https://openalex.org/W2305754340",
+      "official_url": "https://doi.org/10.1073/pnas.1510489113",
+      "cited_by_count_snapshot": 1590,
+      "relevance_score_snapshot": 556.8914,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 45,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1073/pnas.1510489113",
+        "pdf_url": "https://www.pnas.org/content/pnas/113/27/7353.full.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10994-021-05946-3",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods",
+      "authors": [
+        "Eyke Hüllermeier",
+        "Willem Waegeman"
+      ],
+      "year": 2021,
+      "publication_date": "2021-03-01",
+      "type": "article",
+      "venue": "Machine Learning",
+      "doi": "10.1007/s10994-021-05946-3",
+      "openalex_id": "https://openalex.org/W3014596384",
+      "official_url": "https://doi.org/10.1007/s10994-021-05946-3",
+      "cited_by_count_snapshot": 1584,
+      "relevance_score_snapshot": 400.17026,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 111,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s10994-021-05946-3",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-021-05946-3.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ymssp.2020.107077",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A review of vibration-based damage detection in civil structures: From traditional methods to Machine Learning and Deep Learning applications",
+      "authors": [
+        "Onur Avcı",
+        "Osama Abdeljaber",
+        "Serkan Kıranyaz",
+        "M.F.M. Hussein",
+        "Moncef Gabbouj",
+        "Daniel J. Inman"
+      ],
+      "year": 2020,
+      "publication_date": "2020-07-02",
+      "type": "article",
+      "venue": "Mechanical Systems and Signal Processing",
+      "doi": "10.1016/j.ymssp.2020.107077",
+      "openalex_id": "https://openalex.org/W3016123475",
+      "official_url": "https://doi.org/10.1016/j.ymssp.2020.107077",
+      "cited_by_count_snapshot": 1404,
+      "relevance_score_snapshot": 473.93195,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 264,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.ymssp.2020.107077",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0888327020304635/pdf",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3561048",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Explainable AI (XAI): Core Ideas, Techniques, and Solutions",
+      "authors": [
+        "Rudresh Dwivedi",
+        "Devam Dave",
+        "Het Naik",
+        "Smiti Singhal",
+        "Omer Rana",
+        "Pankesh Patel",
+        "Bin Qian",
+        "Zhenyu Wen",
+        "Tejal Shah",
+        "Graham Morgan",
+        "Rajiv Ranjan"
+      ],
+      "year": 2022,
+      "publication_date": "2022-09-04",
+      "type": "article",
+      "venue": "ACM Computing Surveys",
+      "doi": "10.1145/3561048",
+      "openalex_id": "https://openalex.org/W4294559022",
+      "official_url": "https://doi.org/10.1145/3561048",
+      "cited_by_count_snapshot": 1310,
+      "relevance_score_snapshot": 239.46477,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 51,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://orca.cardiff.ac.uk/id/eprint/152361/",
+        "pdf_url": "https://orca.cardiff.ac.uk/152361/1/3561048.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1561/2200000071",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "An Introduction to Deep Reinforcement Learning",
+      "authors": [
+        "Vincent François-Lavet",
+        "Peter Henderson",
+        "Riashat Islam",
+        "Marc G. Bellemare",
+        "Joëlle Pineau"
+      ],
+      "year": 2018,
+      "publication_date": "2018-12-20",
+      "type": "article",
+      "venue": "Foundations and Trends® in Machine Learning",
+      "doi": "10.1561/2200000071",
+      "openalex_id": "https://openalex.org/W3100366369",
+      "official_url": "https://doi.org/10.1561/2200000071",
+      "cited_by_count_snapshot": 1287,
+      "relevance_score_snapshot": 370.9287,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 104,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/1811.12560",
+        "pdf_url": "https://arxiv.org/pdf/1811.12560",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ejor.2015.05.030",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Benchmarking state-of-the-art classification algorithms for credit scoring: An update of research",
+      "authors": [
+        "Stefan Lessmann",
+        "Bart Baesens",
+        "Hsin‐Vonn Seow",
+        "Lyn C. Thomas"
+      ],
+      "year": 2015,
+      "publication_date": "2015-05-14",
+      "type": "article",
+      "venue": "European Journal of Operational Research",
+      "doi": "10.1016/j.ejor.2015.05.030",
+      "openalex_id": "https://openalex.org/W2131816657",
+      "official_url": "https://doi.org/10.1016/j.ejor.2015.05.030",
+      "cited_by_count_snapshot": 1214,
+      "relevance_score_snapshot": 273.4378,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 175,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://lirias.kuleuven.be/handle/123456789/497988",
+        "pdf_url": "https://lirias.kuleuven.be/retrieve/bf32a4b3-c06e-47c1-b047-150fc26187d4",
+        "license": "other-oa"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41586-023-06139-9",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Transfer learning enables predictions in network biology",
+      "authors": [
+        "Christina V. Theodoris",
+        "Ling Xiao",
+        "Anant Chopra",
+        "Mark Chaffin",
+        "Zeina R. Al Sayed",
+        "Matthew C. Hill",
+        "Helene Mantineo",
+        "Elizabeth M. Brydon",
+        "Zexian Zeng",
+        "X. Shirley Liu",
+        "Patrick T. Ellinor"
+      ],
+      "year": 2023,
+      "publication_date": "2023-05-31",
+      "type": "article",
+      "venue": "Nature",
+      "doi": "10.1038/s41586-023-06139-9",
+      "openalex_id": "https://openalex.org/W4378838672",
+      "official_url": "https://doi.org/10.1038/s41586-023-06139-9",
+      "cited_by_count_snapshot": 1160,
+      "relevance_score_snapshot": 275.60794,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 159,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://escholarship.org/uc/item/8st2d5mx",
+        "pdf_url": "https://escholarship.org/content/qt8st2d5mx/qt8st2d5mx.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tnnls.2022.3160699",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Towards Personalized Federated Learning",
+      "authors": [
+        "Alysa Ziying Tan",
+        "Han Yu",
+        "Lizhen Cui",
+        "Qiang Yang"
+      ],
+      "year": 2022,
+      "publication_date": "2022-03-28",
+      "type": "article",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "doi": "10.1109/tnnls.2022.3160699",
+      "openalex_id": "https://openalex.org/W3133814152",
+      "official_url": "https://doi.org/10.1109/tnnls.2022.3160699",
+      "cited_by_count_snapshot": 1122,
+      "relevance_score_snapshot": 444.97375,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 110,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/2103.00710",
+        "pdf_url": "https://arxiv.org/pdf/2103.00710",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1088/1749-4699/8/1/014008",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Hyperopt: a Python library for model selection and hyperparameter optimization",
+      "authors": [
+        "James Bergstra",
+        "Brent Komer",
+        "Chris Eliasmith",
+        "Dan Yamins",
+        "David Cox"
+      ],
+      "year": 2015,
+      "publication_date": "2015-07-28",
+      "type": "article",
+      "venue": "Computational Science & Discovery",
+      "doi": "10.1088/1749-4699/8/1/014008",
+      "openalex_id": "https://openalex.org/W1437335841",
+      "official_url": "https://doi.org/10.1088/1749-4699/8/1/014008",
+      "cited_by_count_snapshot": 1058,
+      "relevance_score_snapshot": 882.81116,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 21,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1088/1749-4699/8/1/014008",
+        "pdf_url": "https://iopscience.iop.org/article/10.1088/1749-4699/8/1/014008/pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/info11020108",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Fastai: A Layered API for Deep Learning",
+      "authors": [
+        "Jeremy Howard",
+        "Sylvain Gugger"
+      ],
+      "year": 2020,
+      "publication_date": "2020-02-16",
+      "type": "article",
+      "venue": "Information",
+      "doi": "10.3390/info11020108",
+      "openalex_id": "https://openalex.org/W3006436762",
+      "official_url": "https://doi.org/10.3390/info11020108",
+      "cited_by_count_snapshot": 1024,
+      "relevance_score_snapshot": 313.40558,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 80,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/info11020108",
+        "pdf_url": "https://www.mdpi.com/2078-2489/11/2/108/pdf?version=1581949492",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3485128",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Tackling Climate Change with Machine Learning",
+      "authors": [
+        "Lynn H. Kaack",
+        "David Rolnick",
+        "Priya L. Donti",
+        "Kelly Kochanski",
+        "Alexandre Lacoste",
+        "Kris Sankaran",
+        "Andrew Slavin Ross",
+        "Nikola Milojevic-Dupont",
+        "Natasha Jaques",
+        "Anna Waldman‐Brown",
+        "Alexandra Sasha Luccioni",
+        "Tegan Maharaj",
+        "Evan David Sherwin",
+        "Mukkavilli, Karthik",
+        "Konrad P. Körding",
+        "Carla P. Gomes",
+        "Andrew Y. Ng",
+        "Demis Hassabis",
+        "John Platt",
+        "Felix Creutzig"
+      ],
+      "year": 2022,
+      "publication_date": "2022-02-07",
+      "type": "article",
+      "venue": "OPUS 4 (Zuse Institute Berlin)",
+      "doi": "10.1145/3485128",
+      "openalex_id": "https://openalex.org/W4210916416",
+      "official_url": "https://doi.org/10.1145/3485128",
+      "cited_by_count_snapshot": 972,
+      "relevance_score_snapshot": 491.74945,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 722,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.patter.2023.100804",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+      "authors": [
+        "Sayash Kapoor",
+        "Arvind Narayanan"
+      ],
+      "year": 2023,
+      "publication_date": "2023-08-04",
+      "type": "article",
+      "venue": "Patterns",
+      "doi": "10.1016/j.patter.2023.100804",
+      "openalex_id": "https://openalex.org/W4385576721",
+      "official_url": "https://doi.org/10.1016/j.patter.2023.100804",
+      "cited_by_count_snapshot": 906,
+      "relevance_score_snapshot": 256.9539,
+      "search_rank_snapshot": 63,
+      "referenced_works_count": 108,
+      "language": "en",
+      "topics": [
+        "statistical-learning",
+        "data-evaluation"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.patter.2023.100804",
+        "pdf_url": "http://www.cell.com/article/S2666389923001599/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1002/widm.1484",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Hyperparameter optimization: Foundations, algorithms, best practices, and open challenges",
+      "authors": [
+        "Bernd Bischl",
+        "Martin Binder",
+        "Michel Lang",
+        "Tobias Pielok",
+        "Jakob Richter",
+        "Stefan Coors",
+        "Janek Thomas",
+        "Theresa Ullmann",
+        "Marc Becker",
+        "Anne‐Laure Boulesteix",
+        "Difan Deng",
+        "Marius Lindauer"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-16",
+      "type": "article",
+      "venue": "Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery",
+      "doi": "10.1002/widm.1484",
+      "openalex_id": "https://openalex.org/W3179950556",
+      "official_url": "https://doi.org/10.1002/widm.1484",
+      "cited_by_count_snapshot": 888,
+      "relevance_score_snapshot": 662.9016,
+      "search_rank_snapshot": 16,
+      "referenced_works_count": 247,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1002/widm.1484",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/widm.1484",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/s40537-023-00727-2",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A survey on deep learning tools dealing with data scarcity: definitions, challenges, solutions, tips, and applications",
+      "authors": [
+        "Laith Alzubaidi",
+        "Jinshuai Bai",
+        "Aiman Al-Sabaawi",
+        "José Santamaría",
+        "A. S. Albahri",
+        "Bashar Sami Nayyef Al-dabbagh",
+        "Mohammed A. Fadhel",
+        "Mohamed Manoufali",
+        "Jinglan Zhang",
+        "Ali H. Al‐Timemy",
+        "Ye Duan",
+        "Amjed Abdullah",
+        "Laith Farhan",
+        "Yi Lu",
+        "Ashish Gupta",
+        "Felix Albu",
+        "Amin Abbosh",
+        "Yuantong Gu"
+      ],
+      "year": 2023,
+      "publication_date": "2023-04-14",
+      "type": "article",
+      "venue": "Journal Of Big Data",
+      "doi": "10.1186/s40537-023-00727-2",
+      "openalex_id": "https://openalex.org/W4365504037",
+      "official_url": "https://doi.org/10.1186/s40537-023-00727-2",
+      "cited_by_count_snapshot": 875,
+      "relevance_score_snapshot": 279.8192,
+      "search_rank_snapshot": 22,
+      "referenced_works_count": 561,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/s40537-023-00727-2",
+        "pdf_url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-023-00727-2",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41586-024-08328-6",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Accurate predictions on small data with a tabular foundation model",
+      "authors": [
+        "Noah Hollmann",
+        "Samuel Müller",
+        "Lennart Purucker",
+        "Arjun Krishnakumar",
+        "Max Körfer",
+        "Shi Bin Hoo",
+        "Robin Tibor Schirrmeister",
+        "Frank Hutter"
+      ],
+      "year": 2025,
+      "publication_date": "2025-01-08",
+      "type": "article",
+      "venue": "Nature",
+      "doi": "10.1038/s41586-024-08328-6",
+      "openalex_id": "https://openalex.org/W4406170795",
+      "official_url": "https://doi.org/10.1038/s41586-024-08328-6",
+      "cited_by_count_snapshot": 843,
+      "relevance_score_snapshot": 778.04193,
+      "search_rank_snapshot": 1,
+      "referenced_works_count": 43,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1038/s41586-024-08328-6",
+        "pdf_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41598-023-50600-8",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Discovering biomarkers associated and predicting cardiovascular disease with high accuracy using a novel nexus of machine learning techniques for precision medicine",
+      "authors": [
+        "William DeGroat",
+        "Habiba Abdelhalim",
+        "Kush Patel",
+        "Dinesh Mendhe",
+        "Saman Zeeshan",
+        "Zeeshan Ahmed"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-02",
+      "type": "article",
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-023-50600-8",
+      "openalex_id": "https://openalex.org/W4390506881",
+      "official_url": "https://doi.org/10.1038/s41598-023-50600-8",
+      "cited_by_count_snapshot": 837,
+      "relevance_score_snapshot": 376.631,
+      "search_rank_snapshot": 53,
+      "referenced_works_count": 63,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41598-023-50600-8",
+        "pdf_url": "https://www.nature.com/articles/s41598-023-50600-8.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41746-019-0193-y",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Integrating machine learning and multiscale modeling—perspectives, challenges, and opportunities in the biological, biomedical, and behavioral sciences",
+      "authors": [
+        "Mark Alber",
+        "Adrián Buganza Tepole",
+        "William R. Cannon",
+        "Suvranu De",
+        "Salvador Durá-Bernal",
+        "Krishna Garikipati",
+        "George Em Karniadakis",
+        "William W. Lytton",
+        "Paris Perdikaris",
+        "Linda Petzold",
+        "Ellen Kuhl"
+      ],
+      "year": 2019,
+      "publication_date": "2019-11-25",
+      "type": "article",
+      "venue": "npj Digital Medicine",
+      "doi": "10.1038/s41746-019-0193-y",
+      "openalex_id": "https://openalex.org/W2978281981",
+      "official_url": "https://doi.org/10.1038/s41746-019-0193-y",
+      "cited_by_count_snapshot": 644,
+      "relevance_score_snapshot": 329.8922,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 102,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41746-019-0193-y",
+        "pdf_url": "https://www.nature.com/articles/s41746-019-0193-y.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.ijin.2022.05.002",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Significance of machine learning in healthcare: Features, pillars and applications",
+      "authors": [
+        "Mohd Javaid",
+        "Abid Haleem",
+        "Ravi Pratap Singh",
+        "Rajiv Suman",
+        "Shanay Rab"
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-01",
+      "type": "article",
+      "venue": "International Journal of Intelligent Networks",
+      "doi": "10.1016/j.ijin.2022.05.002",
+      "openalex_id": "https://openalex.org/W4281630308",
+      "official_url": "https://doi.org/10.1016/j.ijin.2022.05.002",
+      "cited_by_count_snapshot": 643,
+      "relevance_score_snapshot": 392.17218,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 304,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.ijin.2022.05.002",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666603022000069/pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3533378",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Challenges in Deploying Machine Learning: A Survey of Case Studies",
+      "authors": [
+        "Andrei Paleyes",
+        "Raoul-Gabriel Urma",
+        "Neil D. Lawrence"
+      ],
+      "year": 2022,
+      "publication_date": "2022-04-30",
+      "type": "article",
+      "venue": "ACM Computing Surveys",
+      "doi": "10.1145/3533378",
+      "openalex_id": "https://openalex.org/W3104128335",
+      "official_url": "https://doi.org/10.1145/3533378",
+      "cited_by_count_snapshot": 607,
+      "relevance_score_snapshot": 397.93347,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 139,
+      "language": "en",
+      "topics": [
+        "automl-tabular",
+        "production-ml"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1145/3533378",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3533378",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1017/s026988891300043x",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "One-class classification: taxonomy of study and review of techniques",
+      "authors": [
+        "Shehroz S. Khan",
+        "Michael G. Madden"
+      ],
+      "year": 2014,
+      "publication_date": "2014-01-24",
+      "type": "article",
+      "venue": "The Knowledge Engineering Review",
+      "doi": "10.1017/s026988891300043x",
+      "openalex_id": "https://openalex.org/W2142047467",
+      "official_url": "https://doi.org/10.1017/s026988891300043x",
+      "cited_by_count_snapshot": 606,
+      "relevance_score_snapshot": 188.27573,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 200,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "high-impact-core",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1017/s026988891300043x",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EEDBC97CFD54B2B65BEB5FCD71593782/S026988891300043Xa.pdf/div-class-title-one-class-classification-taxonomy-of-study-and-review-of-techniques-div.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/s12911-023-02114-6",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "MRI-based brain tumor detection using convolutional deep learning methods and chosen machine learning techniques",
+      "authors": [
+        "Soheila Saeedi",
+        "Sorayya Rezayi",
+        "Hamidreza Keshavarz",
+        "Sharareh Rostam Niakan Kalhori"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-23",
+      "type": "article",
+      "venue": "BMC Medical Informatics and Decision Making",
+      "doi": "10.1186/s12911-023-02114-6",
+      "openalex_id": "https://openalex.org/W4317802907",
+      "official_url": "https://doi.org/10.1186/s12911-023-02114-6",
+      "cited_by_count_snapshot": 601,
+      "relevance_score_snapshot": 334.91754,
+      "search_rank_snapshot": 87,
+      "referenced_works_count": 36,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/s12911-023-02114-6",
+        "pdf_url": "https://bmcmedinformdecismak.biomedcentral.com/counter/pdf/10.1186/s12911-023-02114-6",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10462-023-10662-6",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Autoencoders and their applications in machine learning: a survey",
+      "authors": [
+        "Kamal Berahmand",
+        "Fatemeh Daneshfar",
+        "Elaheh Sadat Salehi",
+        "Yuefeng Li",
+        "Yue Xu"
+      ],
+      "year": 2024,
+      "publication_date": "2024-02-03",
+      "type": "article",
+      "venue": "Artificial Intelligence Review",
+      "doi": "10.1007/s10462-023-10662-6",
+      "openalex_id": "https://openalex.org/W4391514872",
+      "official_url": "https://doi.org/10.1007/s10462-023-10662-6",
+      "cited_by_count_snapshot": 573,
+      "relevance_score_snapshot": 415.72916,
+      "search_rank_snapshot": 41,
+      "referenced_works_count": 176,
+      "language": "en",
+      "topics": [
+        "kernels-representation",
+        "optimization-regularization"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s10462-023-10662-6",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-023-10662-6.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.48550/arxiv.2005.00687",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
+      "authors": [
+        "Weihua Hu",
+        "Matthias Fey",
+        "Marinka Žitnik",
+        "Yuxiao Dong",
+        "Ren, Hongyu",
+        "Liu, Bowen",
+        "Michele Catasta",
+        "Jure Leskovec"
+      ],
+      "year": 2020,
+      "publication_date": "2020-05-02",
+      "type": "preprint",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2005.00687",
+      "openalex_id": "https://openalex.org/W3021975806",
+      "official_url": "https://doi.org/10.48550/arxiv.2005.00687",
+      "cited_by_count_snapshot": 491,
+      "relevance_score_snapshot": 535.56146,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 99,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/2005.00687",
+        "pdf_url": "https://arxiv.org/pdf/2005.00687",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1021/acs.chemrev.3c00189",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Machine Learning Methods for Small Data Challenges in Molecular Science",
+      "authors": [
+        "Bozheng Dou",
+        "Zailiang Zhu",
+        "Ekaterina Merkurjev",
+        "Ke Lü",
+        "Long Chen",
+        "Jiang Jian",
+        "Yueying Zhu",
+        "Jie Liu",
+        "Bengong Zhang",
+        "Guo‐Wei Wei"
+      ],
+      "year": 2023,
+      "publication_date": "2023-06-29",
+      "type": "article",
+      "venue": "Chemical Reviews",
+      "doi": "10.1021/acs.chemrev.3c00189",
+      "openalex_id": "https://openalex.org/W4382516982",
+      "official_url": "https://doi.org/10.1021/acs.chemrev.3c00189",
+      "cited_by_count_snapshot": 490,
+      "relevance_score_snapshot": 449.04303,
+      "search_rank_snapshot": 30,
+      "referenced_works_count": 591,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10999174",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10999174/pdf/nihms-1979743.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3616865",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Fairness in Machine Learning: A Survey",
+      "authors": [
+        "Simon Caton",
+        "Christian Haas"
+      ],
+      "year": 2023,
+      "publication_date": "2023-08-23",
+      "type": "article",
+      "venue": "ACM Computing Surveys",
+      "doi": "10.1145/3616865",
+      "openalex_id": "https://openalex.org/W3092541244",
+      "official_url": "https://doi.org/10.1145/3616865",
+      "cited_by_count_snapshot": 489,
+      "relevance_score_snapshot": 407.31317,
+      "search_rank_snapshot": 54,
+      "referenced_works_count": 414,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1145/3616865",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3616865",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1093/jamia/ocz228",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A tutorial on calibration measurements and calibration models for clinical prediction models",
+      "authors": [
+        "Yingxiang Huang",
+        "Wentao Li",
+        "Fima Macheret",
+        "Rodney A. Gabriel",
+        "Lucila Ohno‐Machado"
+      ],
+      "year": 2020,
+      "publication_date": "2020-01-02",
+      "type": "article",
+      "venue": "Journal of the American Medical Informatics Association",
+      "doi": "10.1093/jamia/ocz228",
+      "openalex_id": "https://openalex.org/W3007453563",
+      "official_url": "https://doi.org/10.1093/jamia/ocz228",
+      "cited_by_count_snapshot": 482,
+      "relevance_score_snapshot": 296.7037,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 58,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1093/jamia/ocz228",
+        "pdf_url": "https://academic.oup.com/jamia/article-pdf/27/4/621/34153143/ocz228.pdf",
+        "license": "cc-by-nc"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.21105/joss.01903",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "mlr3: A modern object-oriented machine learning framework in R",
+      "authors": [
+        "Michel Lang",
+        "Martin Binder",
+        "Jakob Richter",
+        "Patrick Schratz",
+        "Florian Pfisterer",
+        "Stefan Coors",
+        "Quay Au",
+        "Giuseppe Casalicchio",
+        "Lars Kotthoff",
+        "Bernd Bischl"
+      ],
+      "year": 2019,
+      "publication_date": "2019-12-11",
+      "type": "article",
+      "venue": "The Journal of Open Source Software",
+      "doi": "10.21105/joss.01903",
+      "openalex_id": "https://openalex.org/W2996717911",
+      "official_url": "https://doi.org/10.21105/joss.01903",
+      "cited_by_count_snapshot": 480,
+      "relevance_score_snapshot": 343.79102,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 6,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.21105/joss.01903",
+        "pdf_url": "https://joss.theoj.org/papers/10.21105/joss.01903.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.patcog.2024.110424",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Federated learning for medical image analysis: A survey",
+      "authors": [
+        "Hao Guan",
+        "Pew‐Thian Yap",
+        "Andrea Bozoki",
+        "Mingxia Liu"
+      ],
+      "year": 2024,
+      "publication_date": "2024-03-12",
+      "type": "article",
+      "venue": "Pattern Recognition",
+      "doi": "10.1016/j.patcog.2024.110424",
+      "openalex_id": "https://openalex.org/W4392699793",
+      "official_url": "https://doi.org/10.1016/j.patcog.2024.110424",
+      "cited_by_count_snapshot": 465,
+      "relevance_score_snapshot": 242.07529,
+      "search_rank_snapshot": 33,
+      "referenced_works_count": 226,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10976951",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10976951/pdf/nihms-1977935.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41551-022-00898-y",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Shifting machine learning for healthcare from development to deployment and from models to data",
+      "authors": [
+        "Angela Zhang",
+        "Lei Xing",
+        "James Zou",
+        "Joseph C. Wu"
+      ],
+      "year": 2022,
+      "publication_date": "2022-07-04",
+      "type": "article",
+      "venue": "Nature Biomedical Engineering",
+      "doi": "10.1038/s41551-022-00898-y",
+      "openalex_id": "https://openalex.org/W4283801824",
+      "official_url": "https://doi.org/10.1038/s41551-022-00898-y",
+      "cited_by_count_snapshot": 422,
+      "relevance_score_snapshot": 448.7678,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 146,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1038/s41551-022-00898-y",
+        "pdf_url": "https://www.nature.com/articles/s41551-022-00898-y.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1126/sciadv.adi1480",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "SpikingJelly: An open-source machine learning infrastructure platform for spike-based intelligence",
+      "authors": [
+        "Wei Fang",
+        "Yanqi Chen",
+        "Jianhao Ding",
+        "Zhaofei Yu",
+        "Timothée Masquelier",
+        "Ding Chen",
+        "Liwei Huang",
+        "Huihui Zhou",
+        "Guoqi Li",
+        "Yonghong Tian"
+      ],
+      "year": 2023,
+      "publication_date": "2023-10-06",
+      "type": "article",
+      "venue": "Science Advances",
+      "doi": "10.1126/sciadv.adi1480",
+      "openalex_id": "https://openalex.org/W4387409844",
+      "official_url": "https://doi.org/10.1126/sciadv.adi1480",
+      "cited_by_count_snapshot": 418,
+      "relevance_score_snapshot": 260.85284,
+      "search_rank_snapshot": 29,
+      "referenced_works_count": 149,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1126/sciadv.adi1480",
+        "pdf_url": "https://www.science.org/doi/pdf/10.1126/sciadv.adi1480?download=true",
+        "license": "cc-by-nc"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1029/2012jf002367",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Probabilistic rainfall thresholds for landslide occurrence using a Bayesian approach",
+      "authors": [
+        "Matteo Berti",
+        "Mario Martina",
+        "S. Franceschini",
+        "Sara Pignone",
+        "Alessandro Simoni",
+        "Marco Pizziolo"
+      ],
+      "year": 2012,
+      "publication_date": "2012-09-10",
+      "type": "article",
+      "venue": "Journal of Geophysical Research Atmospheres",
+      "doi": "10.1029/2012jf002367",
+      "openalex_id": "https://openalex.org/W2022032797",
+      "official_url": "https://doi.org/10.1029/2012jf002367",
+      "cited_by_count_snapshot": 378,
+      "relevance_score_snapshot": 205.24385,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 47,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1029/2012jf002367",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012JF002367",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2024.3416838",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A Survey of Decision Trees: Concepts, Algorithms, and Applications",
+      "authors": [
+        "Ibomoiye Domor Mienye",
+        "Nobert Jere"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2024.3416838",
+      "openalex_id": "https://openalex.org/W4399800820",
+      "official_url": "https://doi.org/10.1109/access.2024.3416838",
+      "cited_by_count_snapshot": 339,
+      "relevance_score_snapshot": 579.3655,
+      "search_rank_snapshot": 18,
+      "referenced_works_count": 91,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2024.3416838",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1214/19-ba1195",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Bayesian Regression Tree Models for Causal Inference: Regularization, Confounding, and Heterogeneous Effects (with Discussion)",
+      "authors": [
+        "P. Richard Hahn",
+        "Jared S. Murray",
+        "Carlos M. Carvalho"
+      ],
+      "year": 2020,
+      "publication_date": "2020-01-31",
+      "type": "article",
+      "venue": "Bayesian Analysis",
+      "doi": "10.1214/19-ba1195",
+      "openalex_id": "https://openalex.org/W3004404638",
+      "official_url": "https://doi.org/10.1214/19-ba1195",
+      "cited_by_count_snapshot": 312,
+      "relevance_score_snapshot": 335.50284,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 70,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.1214/19-ba1195",
+        "pdf_url": "https://projecteuclid.org/journals/bayesian-analysis/volume-15/issue-3/Bayesian-Regression-Tree-Models-for-Causal-Inference--Regularization-Confounding/10.1214/19-BA1195.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.48550/arxiv.1709.02012",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "On Fairness and Calibration",
+      "authors": [
+        "Geoff Pleiss",
+        "Manish Raghavan",
+        "Felix Wu",
+        "Jon Kleinberg",
+        "Kilian Q. Weinberger"
+      ],
+      "year": 2017,
+      "publication_date": "2017-09-06",
+      "type": "preprint",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.1709.02012",
+      "openalex_id": "https://openalex.org/W2963178340",
+      "official_url": "https://doi.org/10.48550/arxiv.1709.02012",
+      "cited_by_count_snapshot": 288,
+      "relevance_score_snapshot": 252.2985,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/1709.02012",
+        "pdf_url": "https://arxiv.org/pdf/1709.02012",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/access.2021.3062484",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Machine Learning and Deep Learning Approaches for Brain Disease Diagnosis: Principles and Recent Advances",
+      "authors": [
+        "Protima Khan",
+        "Md. Fazlul Kader",
+        "S. M. Riazul Islam",
+        "Aisha B Rahman",
+        "Md. Shahriar Kamal",
+        "Masbah Uddin Toha",
+        "Kyung Sup Kwak"
+      ],
+      "year": 2021,
+      "publication_date": "2021-01-01",
+      "type": "article",
+      "venue": "IEEE Access",
+      "doi": "10.1109/access.2021.3062484",
+      "openalex_id": "https://openalex.org/W3133909080",
+      "official_url": "https://doi.org/10.1109/access.2021.3062484",
+      "cited_by_count_snapshot": 288,
+      "relevance_score_snapshot": 250.90352,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 188,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1109/access.2021.3062484",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09363896.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.48550/arxiv.1810.01943",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "AI Fairness 360: An Extensible Toolkit for Detecting, Understanding, and Mitigating Unwanted Algorithmic Bias",
+      "authors": [
+        "Rachel Bellamy",
+        "Kuntal Dey",
+        "Michael Hind",
+        "Samuel C. Hoffman",
+        "Stephanie Houde",
+        "Kalapriya Kannan",
+        "Pranay Lohia",
+        "Jacquelyn Martino",
+        "Sameep Mehta",
+        "Aleksandra Mojsilović",
+        "Seema Nagar",
+        "Karthikeyan Natesan Ramamurthy",
+        "John T. Richards",
+        "Diptikalyan Saha",
+        "Prasanna Sattigeri",
+        "Moninder Singh",
+        "Kush R. Varshney",
+        "Yunfeng Zhang"
+      ],
+      "year": 2018,
+      "publication_date": "2018-10-03",
+      "type": "preprint",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.1810.01943",
+      "openalex_id": "https://openalex.org/W2895471314",
+      "official_url": "https://doi.org/10.48550/arxiv.1810.01943",
+      "cited_by_count_snapshot": 269,
+      "relevance_score_snapshot": 232.93025,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 18,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/1810.01943",
+        "pdf_url": "https://arxiv.org/pdf/1810.01943",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1073/pnas.1510479113",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Causal inference in economics and marketing",
+      "authors": [
+        "Hal R. Varian"
+      ],
+      "year": 2016,
+      "publication_date": "2016-07-05",
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.1510479113",
+      "openalex_id": "https://openalex.org/W2462689321",
+      "official_url": "https://doi.org/10.1073/pnas.1510479113",
+      "cited_by_count_snapshot": 253,
+      "relevance_score_snapshot": 421.66595,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 37,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1073/pnas.1510479113",
+        "pdf_url": "https://www.pnas.org/content/pnas/113/27/7310.full.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41579-023-00984-1",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Machine learning for microbiologists",
+      "authors": [
+        "Francesco Asnicar",
+        "Andrew Maltez Thomas",
+        "Andrea Passerini",
+        "Levi Waldron",
+        "Nicola Segata"
+      ],
+      "year": 2023,
+      "publication_date": "2023-11-15",
+      "type": "article",
+      "venue": "Nature Reviews Microbiology",
+      "doi": "10.1038/s41579-023-00984-1",
+      "openalex_id": "https://openalex.org/W4388698868",
+      "official_url": "https://doi.org/10.1038/s41579-023-00984-1",
+      "cited_by_count_snapshot": 247,
+      "relevance_score_snapshot": 296.6016,
+      "search_rank_snapshot": 87,
+      "referenced_works_count": 128,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11980903",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11980903/pdf/nihms-2060580.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3649448",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Deep Learning for Time Series Classification and Extrinsic Regression: A Current Survey",
+      "authors": [
+        "Navid Mohammadi Foumani",
+        "Lynn Miller",
+        "Chang Wei Tan",
+        "Geoffrey I. Webb",
+        "Germain Forestier",
+        "Mahsa Salehi"
+      ],
+      "year": 2024,
+      "publication_date": "2024-02-27",
+      "type": "article",
+      "venue": "ACM Computing Surveys",
+      "doi": "10.1145/3649448",
+      "openalex_id": "https://openalex.org/W4392199044",
+      "official_url": "https://doi.org/10.1145/3649448",
+      "cited_by_count_snapshot": 241,
+      "relevance_score_snapshot": 208.6408,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 305,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1145/3649448",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3649448",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1371/journal.pone.0153778",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "An Original Stepwise Multilevel Logistic Regression Analysis of Discriminatory Accuracy: The Case of Neighbourhoods and Health",
+      "authors": [
+        "Juan Merlo",
+        "Philippe Wagner",
+        "Nermin Ghith",
+        "George Leckie"
+      ],
+      "year": 2016,
+      "publication_date": "2016-04-27",
+      "type": "article",
+      "venue": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0153778",
+      "openalex_id": "https://openalex.org/W2345093711",
+      "official_url": "https://doi.org/10.1371/journal.pone.0153778",
+      "cited_by_count_snapshot": 233,
+      "relevance_score_snapshot": 225.76123,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 84,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1371/journal.pone.0153778",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0153778&type=printable",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.artmed.2024.102830",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Trustworthy clinical AI solutions: A unified review of uncertainty quantification in Deep Learning models for medical image analysis",
+      "authors": [
+        "Benjamin Lambert",
+        "Florence Forbes",
+        "Senan Doyle",
+        "Harmonie Dehaene",
+        "Michel Dojat"
+      ],
+      "year": 2024,
+      "publication_date": "2024-03-04",
+      "type": "article",
+      "venue": "Artificial Intelligence in Medicine",
+      "doi": "10.1016/j.artmed.2024.102830",
+      "openalex_id": "https://openalex.org/W4304195579",
+      "official_url": "https://doi.org/10.1016/j.artmed.2024.102830",
+      "cited_by_count_snapshot": 231,
+      "relevance_score_snapshot": 212.05402,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 310,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.artmed.2024.102830",
+        "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0933365724000721-ga1_lrg.jpg",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s11831-023-09922-z",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Artificial Intelligence in Physical Sciences: Symbolic Regression Trends and Perspectives",
+      "authors": [
+        "Dimitrios Angelis",
+        "Filippos Sofos",
+        "Theodoros E. Karakasidis"
+      ],
+      "year": 2023,
+      "publication_date": "2023-04-19",
+      "type": "article",
+      "venue": "Archives of Computational Methods in Engineering",
+      "doi": "10.1007/s11831-023-09922-z",
+      "openalex_id": "https://openalex.org/W4366429305",
+      "official_url": "https://doi.org/10.1007/s11831-023-09922-z",
+      "cited_by_count_snapshot": 229,
+      "relevance_score_snapshot": 128.18904,
+      "search_rank_snapshot": 38,
+      "referenced_works_count": 234,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s11831-023-09922-z",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11831-023-09922-z.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41467-023-36159-y",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Quantum machine learning beyond kernel methods",
+      "authors": [
+        "Sofiène Jerbi",
+        "Lukas J. Fiderer",
+        "Hendrik Poulsen Nautrup",
+        "Jonas M. Kübler",
+        "Hans J. Briegel",
+        "Vedran Dunjko"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-31",
+      "type": "article",
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-023-36159-y",
+      "openalex_id": "https://openalex.org/W3209237089",
+      "official_url": "https://doi.org/10.1038/s41467-023-36159-y",
+      "cited_by_count_snapshot": 210,
+      "relevance_score_snapshot": 443.71606,
+      "search_rank_snapshot": 35,
+      "referenced_works_count": 63,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41467-023-36159-y",
+        "pdf_url": "https://www.nature.com/articles/s41467-023-36159-y.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1098/rsos.220638",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Causal machine learning for healthcare and precision medicine",
+      "authors": [
+        "Pedro Sanchez",
+        "Jeremy P. Voisey",
+        "Tian Xia",
+        "Hannah Watson",
+        "Alison Q. O’Neil",
+        "Sotirios A. Tsaftaris"
+      ],
+      "year": 2022,
+      "publication_date": "2022-08-01",
+      "type": "article",
+      "venue": "Royal Society Open Science",
+      "doi": "10.1098/rsos.220638",
+      "openalex_id": "https://openalex.org/W4289528791",
+      "official_url": "https://doi.org/10.1098/rsos.220638",
+      "cited_by_count_snapshot": 208,
+      "relevance_score_snapshot": 390.65378,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 95,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1098/rsos.220638",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1021/acscatal.3c02743",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Machine Learning-Guided Protein Engineering",
+      "authors": [
+        "Petr Kouba",
+        "Pavel Kohout",
+        "Faraneh Haddadi",
+        "Anton Bushuiev",
+        "Raman Samusevich",
+        "Jiří Sedlář",
+        "Jiřı́ Damborský",
+        "Tomáš Pluskal",
+        "Josef Šivic",
+        "Stanislav Mazurenko"
+      ],
+      "year": 2023,
+      "publication_date": "2023-10-13",
+      "type": "article",
+      "venue": "ACS Catalysis",
+      "doi": "10.1021/acscatal.3c02743",
+      "openalex_id": "https://openalex.org/W4387601539",
+      "official_url": "https://doi.org/10.1021/acscatal.3c02743",
+      "cited_by_count_snapshot": 208,
+      "relevance_score_snapshot": 249.20091,
+      "search_rank_snapshot": 31,
+      "referenced_works_count": 355,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1021/acscatal.3c02743",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s11831-023-09899-9",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "On the Analyses of Medical Images Using Traditional Machine Learning Techniques and Convolutional Neural Networks",
+      "authors": [
+        "Saeed Iqbal",
+        "Adnan N. Qureshi",
+        "Jianqiang Li",
+        "Tariq Mahmood"
+      ],
+      "year": 2023,
+      "publication_date": "2023-04-04",
+      "type": "article",
+      "venue": "Archives of Computational Methods in Engineering",
+      "doi": "10.1007/s11831-023-09899-9",
+      "openalex_id": "https://openalex.org/W4362553764",
+      "official_url": "https://doi.org/10.1007/s11831-023-09899-9",
+      "cited_by_count_snapshot": 201,
+      "relevance_score_snapshot": 189.6028,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 414,
+      "language": "en",
+      "topics": [
+        "production-ml"
+      ],
+      "source_query": "production machine learning MLOps monitoring data cascades",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s11831-023-09899-9",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11831-023-09899-9.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/electronics13020416",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "The Challenges of Machine Learning: A Critical Review",
+      "authors": [
+        "Enrico Barbierato",
+        "Alice Gatti"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-19",
+      "type": "article",
+      "venue": "Electronics",
+      "doi": "10.3390/electronics13020416",
+      "openalex_id": "https://openalex.org/W4391026828",
+      "official_url": "https://doi.org/10.3390/electronics13020416",
+      "cited_by_count_snapshot": 190,
+      "relevance_score_snapshot": 254.55661,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 57,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/electronics13020416",
+        "pdf_url": "https://www.mdpi.com/2079-9292/13/2/416/pdf?version=1705653285",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41467-024-46150-w",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Data leakage inflates prediction performance in connectome-based machine learning models",
+      "authors": [
+        "Matthew Rosenblatt",
+        "Link Tejavibulya",
+        "Rongtao Jiang",
+        "Stephanie Noble",
+        "Dustin Scheinost"
+      ],
+      "year": 2024,
+      "publication_date": "2024-02-28",
+      "type": "article",
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-024-46150-w",
+      "openalex_id": "https://openalex.org/W4392232009",
+      "official_url": "https://doi.org/10.1038/s41467-024-46150-w",
+      "cited_by_count_snapshot": 183,
+      "relevance_score_snapshot": 344.51306,
+      "search_rank_snapshot": 16,
+      "referenced_works_count": 78,
+      "language": "en",
+      "topics": [
+        "data-evaluation"
+      ],
+      "source_query": "machine learning data leakage distribution shift benchmark",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41467-024-46150-w",
+        "pdf_url": "https://www.nature.com/articles/s41467-024-46150-w.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1111/j.1467-9868.2011.01020.x",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Probabilistic Index Models",
+      "authors": [
+        "Olivier Thas",
+        "Jan De Neve",
+        "Lieven Clement",
+        "Jean‐Pierre Ottoy"
+      ],
+      "year": 2012,
+      "publication_date": "2012-07-26",
+      "type": "article",
+      "venue": "Journal of the Royal Statistical Society Series B (Statistical Methodology)",
+      "doi": "10.1111/j.1467-9868.2011.01020.x",
+      "openalex_id": "https://openalex.org/W2171038022",
+      "official_url": "https://doi.org/10.1111/j.1467-9868.2011.01020.x",
+      "cited_by_count_snapshot": 174,
+      "relevance_score_snapshot": 191.9962,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 124,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1111/j.1467-9868.2011.01020.x",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1467-9868.2011.01020.x",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10994-023-06336-7",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Classifier calibration: a survey on how to assess and improve predicted class probabilities",
+      "authors": [
+        "Telmo M. Silva Filho",
+        "Hao Song",
+        "Miquel Perelló-Nieto",
+        "Raúl Santos‐Rodríguez",
+        "Meelis Kull",
+        "Peter Flach"
+      ],
+      "year": 2023,
+      "publication_date": "2023-05-16",
+      "type": "article",
+      "venue": "Machine Learning",
+      "doi": "10.1007/s10994-023-06336-7",
+      "openalex_id": "https://openalex.org/W4376891107",
+      "official_url": "https://doi.org/10.1007/s10994-023-06336-7",
+      "cited_by_count_snapshot": 174,
+      "relevance_score_snapshot": 157.09996,
+      "search_rank_snapshot": 19,
+      "referenced_works_count": 90,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s10994-023-06336-7",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-023-06336-7.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.jbi.2011.07.001",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A review of causal inference for biomedical informatics",
+      "authors": [
+        "Samantha Kleinberg",
+        "George Hripcsak"
+      ],
+      "year": 2011,
+      "publication_date": "2011-07-22",
+      "type": "article",
+      "venue": "Journal of Biomedical Informatics",
+      "doi": "10.1016/j.jbi.2011.07.001",
+      "openalex_id": "https://openalex.org/W2012639032",
+      "official_url": "https://doi.org/10.1016/j.jbi.2011.07.001",
+      "cited_by_count_snapshot": 172,
+      "relevance_score_snapshot": 277.5553,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 133,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1016/j.jbi.2011.07.001",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1532046411001195/pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s00441-023-03816-z",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "The benefits and pitfalls of machine learning for biomarker discovery",
+      "authors": [
+        "Sandra Ng",
+        "Sara Masarone",
+        "David Watson",
+        "Michael R. Barnes"
+      ],
+      "year": 2023,
+      "publication_date": "2023-07-27",
+      "type": "article",
+      "venue": "Cell and Tissue Research",
+      "doi": "10.1007/s00441-023-03816-z",
+      "openalex_id": "https://openalex.org/W4385294821",
+      "official_url": "https://doi.org/10.1007/s00441-023-03816-z",
+      "cited_by_count_snapshot": 160,
+      "relevance_score_snapshot": 207.05725,
+      "search_rank_snapshot": 20,
+      "referenced_works_count": 66,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s00441-023-03816-z",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00441-023-03816-z.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1029/2024ef004540",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "How Interpretable Machine Learning Can Benefit Process Understanding in the Geosciences",
+      "authors": [
+        "Shijie Jiang",
+        "Lily‐belle Sweet",
+        "Georgios Blougouras",
+        "Alexander Brenning",
+        "Wantong Li",
+        "Markus Reichstein",
+        "Joachim Denzler",
+        "Wei Shangguan",
+        "Guo Yu",
+        "Feini Huang",
+        "Jakob Zscheischler"
+      ],
+      "year": 2024,
+      "publication_date": "2024-07-01",
+      "type": "article",
+      "venue": "Earth s Future",
+      "doi": "10.1029/2024ef004540",
+      "openalex_id": "https://openalex.org/W4400660198",
+      "official_url": "https://doi.org/10.1029/2024ef004540",
+      "cited_by_count_snapshot": 159,
+      "relevance_score_snapshot": 184.18083,
+      "search_rank_snapshot": 25,
+      "referenced_works_count": 145,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1029/2024ef004540",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024EF004540",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s11629-019-5839-3",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Mapping landslide susceptibility at the Three Gorges Reservoir, China, using gradient boosting decision tree, random forest and information value models",
+      "authors": [
+        "Tao Chen",
+        "Li Zhu",
+        "Ruiqing Niu",
+        "John Trinder",
+        "Ling Peng",
+        "Tao Lei"
+      ],
+      "year": 2020,
+      "publication_date": "2020-03-01",
+      "type": "article",
+      "venue": "Journal of Mountain Science",
+      "doi": "10.1007/s11629-019-5839-3",
+      "openalex_id": "https://openalex.org/W3012555526",
+      "official_url": "https://doi.org/10.1007/s11629-019-5839-3",
+      "cited_by_count_snapshot": 154,
+      "relevance_score_snapshot": 1048.1494,
+      "search_rank_snapshot": 5,
+      "referenced_works_count": 56,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1080/13658816.2021.1887490",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A comparison of a gradient boosting decision tree, random forests, and artificial neural networks to model urban land use changes: the case of the Seoul metropolitan area",
+      "authors": [
+        "Myung‐Jin Jun"
+      ],
+      "year": 2021,
+      "publication_date": "2021-03-01",
+      "type": "article",
+      "venue": "International Journal of Geographical Information Systems",
+      "doi": "10.1080/13658816.2021.1887490",
+      "openalex_id": "https://openalex.org/W3135468375",
+      "official_url": "https://doi.org/10.1080/13658816.2021.1887490",
+      "cited_by_count_snapshot": 154,
+      "relevance_score_snapshot": 1001.8159,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 50,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41598-023-32027-3",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "An improved hyperparameter optimization framework for AutoML systems using evolutionary algorithms",
+      "authors": [
+        "Amala Mary Vincent",
+        "P. Jidesh"
+      ],
+      "year": 2023,
+      "publication_date": "2023-03-23",
+      "type": "article",
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-023-32027-3",
+      "openalex_id": "https://openalex.org/W4360619614",
+      "official_url": "https://doi.org/10.1038/s41598-023-32027-3",
+      "cited_by_count_snapshot": 151,
+      "relevance_score_snapshot": 265.85535,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 58,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41598-023-32027-3",
+        "pdf_url": "https://www.nature.com/articles/s41598-023-32027-3.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/math12243935",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Exploring Kernel Machines and Support Vector Machines: Principles, Techniques, and Future Directions",
+      "authors": [
+        "Ke-Lin Du",
+        "Bingchun Jiang",
+        "Jiabin Lu",
+        "Jingyu Hua",
+        "M.N.S. Swamy"
+      ],
+      "year": 2024,
+      "publication_date": "2024-12-13",
+      "type": "article",
+      "venue": "Mathematics",
+      "doi": "10.3390/math12243935",
+      "openalex_id": "https://openalex.org/W4405424698",
+      "official_url": "https://doi.org/10.3390/math12243935",
+      "cited_by_count_snapshot": 133,
+      "relevance_score_snapshot": 365.62573,
+      "search_rank_snapshot": 58,
+      "referenced_works_count": 459,
+      "language": "en",
+      "topics": [
+        "kernels-representation"
+      ],
+      "source_query": "support vector machine kernel methods manifold learning",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/math12243935",
+        "pdf_url": "https://www.mdpi.com/2227-7390/12/24/3935/pdf?version=1734106970",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.physrep.2023.10.005",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Discovering causal relations and equations from data",
+      "authors": [
+        "Gustau Camps‐Valls",
+        "Andreas Gerhardus",
+        "Urmi Ninad",
+        "Gherardo Varando",
+        "Georg Martius",
+        "Emili Balaguer‐Ballester",
+        "Ricardo Vinuesa",
+        "Emiliano Díaz",
+        "Laure Zanna",
+        "Jakob Runge"
+      ],
+      "year": 2023,
+      "publication_date": "2023-11-07",
+      "type": "article",
+      "venue": "Physics Reports",
+      "doi": "10.1016/j.physrep.2023.10.005",
+      "openalex_id": "https://openalex.org/W4388473546",
+      "official_url": "https://doi.org/10.1016/j.physrep.2023.10.005",
+      "cited_by_count_snapshot": 124,
+      "relevance_score_snapshot": 143.14586,
+      "search_rank_snapshot": 47,
+      "referenced_works_count": 566,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.physrep.2023.10.005",
+        "pdf_url": null,
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/s23042085",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Bayesian Optimization with Support Vector Machine Model for Parkinson Disease Classification",
+      "authors": [
+        "Ahmed M. Elshewey",
+        "Mahmoud Y. Shams",
+        "Nora El-Rashidy",
+        "Abdelghafar M. Elhady",
+        "Samaa M. Shohieb",
+        "Zahraa Tarek"
+      ],
+      "year": 2023,
+      "publication_date": "2023-02-13",
+      "type": "article",
+      "venue": "Sensors",
+      "doi": "10.3390/s23042085",
+      "openalex_id": "https://openalex.org/W4320494184",
+      "official_url": "https://doi.org/10.3390/s23042085",
+      "cited_by_count_snapshot": 124,
+      "relevance_score_snapshot": 108.166565,
+      "search_rank_snapshot": 61,
+      "referenced_works_count": 63,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/s23042085",
+        "pdf_url": "https://www.mdpi.com/1424-8220/23/4/2085/pdf?version=1676273518",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1186/cc3054",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Comparison between logistic regression and neural networks to predict death in patients with suspected sepsis in the emergency room",
+      "authors": [
+        "Fabián Jaimes",
+        "Jorge Farbiarz Farbiarz",
+        "Diego Álvarez",
+        "Carlos Martínez"
+      ],
+      "year": 2005,
+      "publication_date": "2005-02-17",
+      "type": "article",
+      "venue": "Critical Care",
+      "doi": "10.1186/cc3054",
+      "openalex_id": "https://openalex.org/W1486210018",
+      "official_url": "https://doi.org/10.1186/cc3054",
+      "cited_by_count_snapshot": 122,
+      "relevance_score_snapshot": 269.16736,
+      "search_rank_snapshot": 4,
+      "referenced_works_count": 19,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1186/cc3054",
+        "pdf_url": "https://ccforum.biomedcentral.com/counter/pdf/10.1186/cc3054",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s11432-022-3696-5",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "A survey on model-based reinforcement learning",
+      "authors": [
+        "Fan-Ming Luo",
+        "Tian Xu",
+        "Hang Lai",
+        "Xionghui Chen",
+        "Weinan Zhang",
+        "Yang Yu"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-23",
+      "type": "article",
+      "venue": "Science China Information Sciences",
+      "doi": "10.1007/s11432-022-3696-5",
+      "openalex_id": "https://openalex.org/W4391259941",
+      "official_url": "https://doi.org/10.1007/s11432-022-3696-5",
+      "cited_by_count_snapshot": 118,
+      "relevance_score_snapshot": 175.79341,
+      "search_rank_snapshot": 21,
+      "referenced_works_count": 156,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1007/s11432-022-3696-5",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11432-022-3696-5.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.bushor.2023.04.003",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Democratizing artificial intelligence: How no-code AI can leverage machine learning operations",
+      "authors": [
+        "Leif Sundberg",
+        "Jonny Holmström"
+      ],
+      "year": 2023,
+      "publication_date": "2023-04-18",
+      "type": "article",
+      "venue": "Business Horizons",
+      "doi": "10.1016/j.bushor.2023.04.003",
+      "openalex_id": "https://openalex.org/W4366228214",
+      "official_url": "https://doi.org/10.1016/j.bushor.2023.04.003",
+      "cited_by_count_snapshot": 115,
+      "relevance_score_snapshot": 214.38416,
+      "search_rank_snapshot": 3,
+      "referenced_works_count": 66,
+      "language": "en",
+      "topics": [
+        "production-ml"
+      ],
+      "source_query": "production machine learning MLOps monitoring data cascades",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1016/j.bushor.2023.04.003",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1016/j.patter.2024.101046",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Avoiding common machine learning pitfalls",
+      "authors": [
+        "Michael A. Lones"
+      ],
+      "year": 2024,
+      "publication_date": "2024-08-28",
+      "type": "article",
+      "venue": "Patterns",
+      "doi": "10.1016/j.patter.2024.101046",
+      "openalex_id": "https://openalex.org/W4401951602",
+      "official_url": "https://doi.org/10.1016/j.patter.2024.101046",
+      "cited_by_count_snapshot": 115,
+      "relevance_score_snapshot": 204.9392,
+      "search_rank_snapshot": 15,
+      "referenced_works_count": 97,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1016/j.patter.2024.101046",
+        "pdf_url": null,
+        "license": "cc-by-nc"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.48185/smhs.v1i2.1225",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Ensemble deep learning and machine learning: applications, opportunities, challenges, and future directions",
+      "authors": [
+        "Nitin Liladhar Rane",
+        "Saurabh P. Choudhary",
+        "Jayesh Rane"
+      ],
+      "year": 2024,
+      "publication_date": "2024-07-04",
+      "type": "article",
+      "venue": "Studies in medical and health sciences.",
+      "doi": "10.48185/smhs.v1i2.1225",
+      "openalex_id": "https://openalex.org/W4400334922",
+      "official_url": "https://doi.org/10.48185/smhs.v1i2.1225",
+      "cited_by_count_snapshot": 114,
+      "relevance_score_snapshot": 191.12096,
+      "search_rank_snapshot": 18,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.48185/smhs.v1i2.1225",
+        "pdf_url": "https://sabapub.com/index.php/SMHS/article/download/1225/631",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s10618-022-00854-z",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Algorithmic fairness datasets: the story so far",
+      "authors": [
+        "Fabris A.",
+        "Messina S.",
+        "Silvello G.",
+        "Susto G. A."
+      ],
+      "year": 2022,
+      "publication_date": "2022-01-01",
+      "type": "article",
+      "venue": "ArTS Archivio della ricerca di Trieste (University of Trieste https://www.units.it/)",
+      "doi": "10.1007/s10618-022-00854-z",
+      "openalex_id": "https://openalex.org/W4296186062",
+      "official_url": "https://doi.org/10.1007/s10618-022-00854-z",
+      "cited_by_count_snapshot": 112,
+      "relevance_score_snapshot": 186.32928,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 556,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "https://link.springer.com/article/10.1007/s10618-022-00854-z",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10618-022-00854-z.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41467-024-45879-8",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Large language models streamline automated machine learning for clinical studies",
+      "authors": [
+        "Soroosh Tayebi Arasteh",
+        "Tianyu Han",
+        "Mahshad Lotfinia",
+        "Christiane Kühl",
+        "Jakob Nikolas Kather",
+        "Daniel Truhn",
+        "Sven Nebelung"
+      ],
+      "year": 2024,
+      "publication_date": "2024-02-21",
+      "type": "article",
+      "venue": "Nature Communications",
+      "doi": "10.1038/s41467-024-45879-8",
+      "openalex_id": "https://openalex.org/W4392016947",
+      "official_url": "https://doi.org/10.1038/s41467-024-45879-8",
+      "cited_by_count_snapshot": 110,
+      "relevance_score_snapshot": 205.17159,
+      "search_rank_snapshot": 14,
+      "referenced_works_count": 53,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41467-024-45879-8",
+        "pdf_url": "https://www.nature.com/articles/s41467-024-45879-8.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s11229-023-04334-9",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Beyond generalization: a theory of robustness in machine learning",
+      "authors": [
+        "Timo Freiesleben",
+        "Thomas Grote"
+      ],
+      "year": 2023,
+      "publication_date": "2023-09-27",
+      "type": "article",
+      "venue": "Synthese",
+      "doi": "10.1007/s11229-023-04334-9",
+      "openalex_id": "https://openalex.org/W4387103552",
+      "official_url": "https://doi.org/10.1007/s11229-023-04334-9",
+      "cited_by_count_snapshot": 102,
+      "relevance_score_snapshot": 245.59766,
+      "search_rank_snapshot": 76,
+      "referenced_works_count": 134,
+      "language": "en",
+      "topics": [
+        "statistical-learning"
+      ],
+      "source_query": "statistical learning theory empirical risk generalization",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s11229-023-04334-9",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11229-023-04334-9.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s00477-020-01891-0",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Comparison of gradient boosted decision trees and random forest for groundwater potential mapping in Dholpur (Rajasthan), India",
+      "authors": [
+        "Shruti Sachdeva",
+        "Bijendra Kumar"
+      ],
+      "year": 2020,
+      "publication_date": "2020-10-06",
+      "type": "article",
+      "venue": "Stochastic Environmental Research and Risk Assessment",
+      "doi": "10.1007/s00477-020-01891-0",
+      "openalex_id": "https://openalex.org/W3091920975",
+      "official_url": "https://doi.org/10.1007/s00477-020-01891-0",
+      "cited_by_count_snapshot": 101,
+      "relevance_score_snapshot": 997.37555,
+      "search_rank_snapshot": 8,
+      "referenced_works_count": 87,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "established",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": false,
+        "status": "closed",
+        "landing_page_url": null,
+        "pdf_url": null,
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1017/hpl.2023.47",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Data-driven science and machine learning methods in laser–plasma physics",
+      "authors": [
+        "A. Döpp",
+        "C. Eberle",
+        "Sunny Howard",
+        "Faran Irshad",
+        "Jinpu Lin",
+        "M. J. V. Streeter"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-01",
+      "type": "article",
+      "venue": "High Power Laser Science and Engineering",
+      "doi": "10.1017/hpl.2023.47",
+      "openalex_id": "https://openalex.org/W4378715422",
+      "official_url": "https://doi.org/10.1017/hpl.2023.47",
+      "cited_by_count_snapshot": 100,
+      "relevance_score_snapshot": 141.45259,
+      "search_rank_snapshot": 49,
+      "referenced_works_count": 223,
+      "language": "en",
+      "topics": [
+        "causal-inference"
+      ],
+      "source_query": "causal inference machine learning treatment effect experimentation",
+      "authority_tier": "frontier-established",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1017/hpl.2023.47",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B50C69868941B26062ECF6AFCF2BF3B9/S2095471923000476a.pdf/div-class-title-data-driven-science-and-machine-learning-methods-in-laser-plasma-physics-div.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/w12113066",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Rainfall Induced Landslide Susceptibility Mapping Based on Bayesian Optimized Random Forest and Gradient Boosting Decision Tree Models—A Case Study of Shuicheng County, China",
+      "authors": [
+        "Guangzhi Rong",
+        "Si Alu",
+        "Kaiwei Li",
+        "Yulin Su",
+        "Jiquan Zhang",
+        "Yichen Zhang",
+        "Tiantao Li"
+      ],
+      "year": 2020,
+      "publication_date": "2020-11-02",
+      "type": "article",
+      "venue": "Water",
+      "doi": "10.3390/w12113066",
+      "openalex_id": "https://openalex.org/W3096207306",
+      "official_url": "https://doi.org/10.3390/w12113066",
+      "cited_by_count_snapshot": 99,
+      "relevance_score_snapshot": 804.40607,
+      "search_rank_snapshot": 10,
+      "referenced_works_count": 61,
+      "language": "en",
+      "topics": [
+        "trees-boosting"
+      ],
+      "source_query": "decision trees random forests gradient boosting",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/w12113066",
+        "pdf_url": "https://www.mdpi.com/2073-4441/12/11/3066/pdf?version=1605841772",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3610536",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Multi-Objective Hyperparameter Optimization in Machine Learning—An Overview",
+      "authors": [
+        "Florian Karl",
+        "Tobias Pielok",
+        "Julia Moosbauer",
+        "Florian Pfisterer",
+        "Stefan Coors",
+        "Martin Binder",
+        "Lennart Schneider",
+        "Janek Thomas",
+        "Jakob Richter",
+        "Michel Lang",
+        "Eduardo C. Garrido‐Merchán",
+        "Juergen Branke",
+        "Bernd Bischl"
+      ],
+      "year": 2023,
+      "publication_date": "2023-09-05",
+      "type": "article",
+      "venue": "ACM Transactions on Evolutionary Learning and Optimization",
+      "doi": "10.1145/3610536",
+      "openalex_id": "https://openalex.org/W4386443196",
+      "official_url": "https://doi.org/10.1145/3610536",
+      "cited_by_count_snapshot": 99,
+      "relevance_score_snapshot": 342.23874,
+      "search_rank_snapshot": 83,
+      "referenced_works_count": 207,
+      "language": "en",
+      "topics": [
+        "optimization-regularization"
+      ],
+      "source_query": "machine learning optimization regularization hyperparameter selection",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1145/3610536",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3610536",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s12599-024-00857-8",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Data-Centric Artificial Intelligence",
+      "authors": [
+        "Johannes Jakubik",
+        "Michael Vössing",
+        "Niklas Kühl",
+        "Jannis Walk",
+        "Gerhard Satzger"
+      ],
+      "year": 2024,
+      "publication_date": "2024-03-05",
+      "type": "article",
+      "venue": "Business & Information Systems Engineering",
+      "doi": "10.1007/s12599-024-00857-8",
+      "openalex_id": "https://openalex.org/W4392488972",
+      "official_url": "https://doi.org/10.1007/s12599-024-00857-8",
+      "cited_by_count_snapshot": 97,
+      "relevance_score_snapshot": 84.54387,
+      "search_rank_snapshot": 16,
+      "referenced_works_count": 22,
+      "language": "en",
+      "topics": [
+        "production-ml"
+      ],
+      "source_query": "production machine learning MLOps monitoring data cascades",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s12599-024-00857-8",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1109/tcss.2023.3283009",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Calibration of Transformer-Based Models for Identifying Stress and Depression in Social Media",
+      "authors": [
+        "Loukas Ilias",
+        "Spiros Mouzakitis",
+        "Dimitris Askounis"
+      ],
+      "year": 2023,
+      "publication_date": "2023-06-16",
+      "type": "article",
+      "venue": "IEEE Transactions on Computational Social Systems",
+      "doi": "10.1109/tcss.2023.3283009",
+      "openalex_id": "https://openalex.org/W4380881406",
+      "official_url": "https://doi.org/10.1109/tcss.2023.3283009",
+      "cited_by_count_snapshot": 97,
+      "relevance_score_snapshot": 98.29005,
+      "search_rank_snapshot": 80,
+      "referenced_works_count": 77,
+      "language": "en",
+      "topics": [
+        "linear-probabilistic"
+      ],
+      "source_query": "logistic regression probabilistic classification calibration",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1109/tcss.2023.3283009",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6570650/6780646/10154134.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.48550/arxiv.2212.03332",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Edge Impulse: An MLOps Platform for Tiny Machine Learning",
+      "authors": [
+        "Shawn Hymel",
+        "Colby Banbury",
+        "Daniel Situnayake",
+        "Alex Elium",
+        "Carl Ward",
+        "Mat Kelcey",
+        "Mathijs Baaijens",
+        "Mateusz Majchrzycki",
+        "Jenny Plunkett",
+        "David Tischler",
+        "Alessandro Grande",
+        "Louis Moreau",
+        "Д. А. Маслов",
+        "Artie Beavis",
+        "Jan Jongboom",
+        "Vijay Janapa Reddi"
+      ],
+      "year": 2022,
+      "publication_date": "2022-11-02",
+      "type": "preprint",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2212.03332",
+      "openalex_id": "https://openalex.org/W4310921901",
+      "official_url": "https://doi.org/10.48550/arxiv.2212.03332",
+      "cited_by_count_snapshot": 88,
+      "relevance_score_snapshot": 336.07236,
+      "search_rank_snapshot": 2,
+      "referenced_works_count": 0,
+      "language": "en",
+      "topics": [
+        "production-ml"
+      ],
+      "source_query": "production machine learning MLOps monitoring data cascades",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "green",
+        "landing_page_url": "http://arxiv.org/abs/2212.03332",
+        "pdf_url": "https://arxiv.org/pdf/2212.03332",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3579355",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "AutoML for Deep Recommender Systems: A Survey",
+      "authors": [
+        "Ruiqi Zheng",
+        "Zhaojun Li",
+        "Bin Cui",
+        "Yuhui Shi",
+        "Hongzhi Yin"
+      ],
+      "year": 2023,
+      "publication_date": "2023-01-05",
+      "type": "article",
+      "venue": "ACM Transactions on Information Systems",
+      "doi": "10.1145/3579355",
+      "openalex_id": "https://openalex.org/W4313558118",
+      "official_url": "https://doi.org/10.1145/3579355",
+      "cited_by_count_snapshot": 72,
+      "relevance_score_snapshot": 215.56696,
+      "search_rank_snapshot": 12,
+      "referenced_works_count": 94,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1145/3579355",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3579355",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1002/med4.75",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Automated machine learning with interpretation: A systematic review of methodologies and applications in healthcare",
+      "authors": [
+        "Han Yuan",
+        "Kunyu Yu",
+        "Feng Xie",
+        "M. Liu",
+        "Shenghuan Sun"
+      ],
+      "year": 2024,
+      "publication_date": "2024-08-27",
+      "type": "review",
+      "venue": "Medicine Advances",
+      "doi": "10.1002/med4.75",
+      "openalex_id": "https://openalex.org/W4401918924",
+      "official_url": "https://doi.org/10.1002/med4.75",
+      "cited_by_count_snapshot": 55,
+      "relevance_score_snapshot": 280.9153,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 207,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "diamond",
+        "landing_page_url": "https://doi.org/10.1002/med4.75",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/med4.75",
+        "license": "cc-by-nc-nd"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41598-024-65954-w",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Uncertainty quantification for probabilistic machine learning in earth observation using conformal prediction",
+      "authors": [
+        "Geethen Singh",
+        "Glenn R. Moncrieff",
+        "Zander S. Venter",
+        "Kerry Cawse‐Nicholson",
+        "Jasper A. Slingsby",
+        "Tamara B. Robinson"
+      ],
+      "year": 2024,
+      "publication_date": "2024-07-13",
+      "type": "article",
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-024-65954-w",
+      "openalex_id": "https://openalex.org/W4400610338",
+      "official_url": "https://doi.org/10.1038/s41598-024-65954-w",
+      "cited_by_count_snapshot": 54,
+      "relevance_score_snapshot": 224.05544,
+      "search_rank_snapshot": 6,
+      "referenced_works_count": 49,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41598-024-65954-w",
+        "pdf_url": null,
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1007/s11229-023-04189-0",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Predictive policing and algorithmic fairness",
+      "authors": [
+        "Tzu-Wei Hung",
+        "Chun-Ping Yen"
+      ],
+      "year": 2023,
+      "publication_date": "2023-06-05",
+      "type": "article",
+      "venue": "Synthese",
+      "doi": "10.1007/s11229-023-04189-0",
+      "openalex_id": "https://openalex.org/W4379473793",
+      "official_url": "https://doi.org/10.1007/s11229-023-04189-0",
+      "cited_by_count_snapshot": 51,
+      "relevance_score_snapshot": 149.41266,
+      "search_rank_snapshot": 15,
+      "referenced_works_count": 123,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "hybrid",
+        "landing_page_url": "https://doi.org/10.1007/s11229-023-04189-0",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11229-023-04189-0.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1038/s41598-022-23327-1",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Benchmarking AutoML for regression tasks on small tabular data in materials design",
+      "authors": [
+        "Felix Conrad",
+        "Mauritz Mälzer",
+        "Michael Schwarzenberger",
+        "Hajo Wiemer",
+        "Steffen Ihlenfeldt"
+      ],
+      "year": 2022,
+      "publication_date": "2022-11-11",
+      "type": "article",
+      "venue": "Scientific Reports",
+      "doi": "10.1038/s41598-022-23327-1",
+      "openalex_id": "https://openalex.org/W4308792280",
+      "official_url": "https://doi.org/10.1038/s41598-022-23327-1",
+      "cited_by_count_snapshot": 50,
+      "relevance_score_snapshot": 245.12926,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 55,
+      "language": "en",
+      "topics": [
+        "automl-tabular"
+      ],
+      "source_query": "automl tabular machine learning foundation models",
+      "authority_tier": "specialist-supporting",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.1038/s41598-022-23327-1",
+        "pdf_url": "https://www.nature.com/articles/s41598-022-23327-1.pdf",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/rs16030438",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Uncertainty Quantification of Soil Organic Carbon Estimation from Remote Sensing Data with Conformal Prediction",
+      "authors": [
+        "Nafiseh Kakhani",
+        "Setareh Alamdar",
+        "Ndiye Michael Kebonye",
+        "Meisam Amani",
+        "Thomas Scholten"
+      ],
+      "year": 2024,
+      "publication_date": "2024-01-23",
+      "type": "article",
+      "venue": "Remote Sensing",
+      "doi": "10.3390/rs16030438",
+      "openalex_id": "https://openalex.org/W4391141063",
+      "official_url": "https://doi.org/10.3390/rs16030438",
+      "cited_by_count_snapshot": 41,
+      "relevance_score_snapshot": 178.13641,
+      "search_rank_snapshot": 9,
+      "referenced_works_count": 68,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/rs16030438",
+        "pdf_url": "https://www.mdpi.com/2072-4292/16/3/438/pdf?version=1705998802",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1145/3736575",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Conformal Prediction: A Data Perspective",
+      "authors": [
+        "Xiaofan Zhou",
+        "Baiting Chen",
+        "Yu Gui",
+        "Lu Cheng"
+      ],
+      "year": 2025,
+      "publication_date": "2025-05-21",
+      "type": "article",
+      "venue": "ACM Computing Surveys",
+      "doi": "10.1145/3736575",
+      "openalex_id": "https://openalex.org/W4410548472",
+      "official_url": "https://doi.org/10.1145/3736575",
+      "cited_by_count_snapshot": 36,
+      "relevance_score_snapshot": 148.32657,
+      "search_rank_snapshot": 18,
+      "referenced_works_count": 84,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1145/3736575",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3736575",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1080/00207543.2024.2447927",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Leveraging synthetic data to tackle machine learning challenges in supply chains: challenges, methods, applications, and research opportunities",
+      "authors": [
+        "Yunbo Long",
+        "Sebastian Kroeger",
+        "Michael F. Zaeh",
+        "Alexandra Brintrup"
+      ],
+      "year": 2025,
+      "publication_date": "2025-01-08",
+      "type": "article",
+      "venue": "International Journal of Production Research",
+      "doi": "10.1080/00207543.2024.2447927",
+      "openalex_id": "https://openalex.org/W4406191462",
+      "official_url": "https://doi.org/10.1080/00207543.2024.2447927",
+      "cited_by_count_snapshot": 35,
+      "relevance_score_snapshot": 121.71038,
+      "search_rank_snapshot": 7,
+      "referenced_works_count": 152,
+      "language": "en",
+      "topics": [
+        "production-ml"
+      ],
+      "source_query": "production machine learning MLOps monitoring data cascades",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1080/00207543.2024.2447927",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00207543.2024.2447927?needAccess=true",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.3390/app142411612",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "AI in Context: Harnessing Domain Knowledge for Smarter Machine Learning",
+      "authors": [
+        "Tymoteusz Miller",
+        "Irmina Durlik",
+        "Adrianna Łobodzińska",
+        "Lech Dorobczyński",
+        "R. Jasionowski"
+      ],
+      "year": 2024,
+      "publication_date": "2024-12-12",
+      "type": "article",
+      "venue": "Applied Sciences",
+      "doi": "10.3390/app142411612",
+      "openalex_id": "https://openalex.org/W4405326704",
+      "official_url": "https://doi.org/10.3390/app142411612",
+      "cited_by_count_snapshot": 34,
+      "relevance_score_snapshot": 96.1702,
+      "search_rank_snapshot": 13,
+      "referenced_works_count": 158,
+      "language": "en",
+      "topics": [
+        "production-ml"
+      ],
+      "source_query": "production machine learning MLOps monitoring data cascades",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "gold",
+        "landing_page_url": "https://doi.org/10.3390/app142411612",
+        "pdf_url": "https://www.mdpi.com/2076-3417/14/24/11612/pdf?version=1734071293",
+        "license": "cc-by"
+      },
+      "retrieved_at": "2026-08-31"
+    },
+    {
+      "id": "paper:doi:10.1063/5.0133528",
+      "field": "machine-learning",
+      "kind": "paper",
+      "title": "Materials property prediction with uncertainty quantification: A benchmark study",
+      "authors": [
+        "Daniel Varivoda",
+        "Rongzhi Dong",
+        "Sadman Sadeed Omee",
+        "Jianjun Hu"
+      ],
+      "year": 2023,
+      "publication_date": "2023-05-23",
+      "type": "article",
+      "venue": "Applied Physics Reviews",
+      "doi": "10.1063/5.0133528",
+      "openalex_id": "https://openalex.org/W4377820623",
+      "official_url": "https://doi.org/10.1063/5.0133528",
+      "cited_by_count_snapshot": 34,
+      "relevance_score_snapshot": 148.29898,
+      "search_rank_snapshot": 19,
+      "referenced_works_count": 78,
+      "language": "en",
+      "topics": [
+        "uncertainty-fairness"
+      ],
+      "source_query": "uncertainty quantification conformal prediction algorithmic fairness",
+      "authority_tier": "recent-frontier",
+      "selection_reason": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-08-30 的快照。",
+      "open_access": {
+        "is_oa": true,
+        "status": "bronze",
+        "landing_page_url": "https://doi.org/10.1063/5.0133528",
+        "pdf_url": "https://pubs.aip.org/aip/apr/article-pdf/doi/10.1063/5.0133528/17795604/021409_1_5.0133528.pdf",
+        "license": null
+      },
+      "retrieved_at": "2026-08-31"
+    }
+  ]
+}

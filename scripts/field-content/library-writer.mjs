@@ -1,6 +1,6 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { renderLearningChapter } from "./article-renderers.mjs";
+import { renderCourseChapter } from "./course-article-renderers.mjs";
 
 const root = resolve("docs", "fields");
 const list = (items) => items.map((item) => `- ${item}`).join("\n");
@@ -16,7 +16,7 @@ function renderIndex(field, domain, cutoff) {
 
 > 证据截止：**${cutoff}**。稳定基础不按年份淘汰；涉及模型能力、基准、标准、法规和产业状态的结论优先使用近三年一手来源，并保留发布日期与适用边界。
 
-<div class="lesson-meta"><span>${field.prefix}01—${field.prefix}30</span><span>领域深研</span><span>10 章 / 30 节点</span><span>机制＋实验＋作品证据</span></div>
+<div class="lesson-meta"><span>${field.prefix}01—${field.prefix}40</span><span>领域深研</span><span>40 章 / 40 主题</span><span>机制＋实验＋作品证据</span></div>
 
 ${field.promise}
 
@@ -28,9 +28,9 @@ ${field.promise}
 
 | 节点 | 可观察动作 | 完成证据 |
 |---|---|---|
-${active.ids.map((id, index) => `| ${id} ${domain.active[index].name} | ${domain.active[index].action} | ${domain.active[index].evidence} |`).join("\n")}
+${field.chapters.slice(0, 3).map((chapter, index) => `| ${chapter.ids[0]} ${chapter.text.replace(/^\d+ · /, "")} | ${index === 0 ? domain.active[0].action : `完成“${chapter.outcome}”`} | ${index === 0 ? domain.active[0].evidence : "可复查产物＋一次失败边界说明"} |`).join("\n")}
 
-其余 27 个节点保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
+其余 37 个主题保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
 
 ## 本领域的五条当前判断
 
@@ -57,10 +57,12 @@ ${sourceNote(domain.overviewSources, cutoff)}
 }
 
 function renderRoadmap(field, domain, cutoff) {
-  const rows = field.chapters.map((item, index) => `| ${index + 1}—${index + 2} | ${item.ids.join("—")} | ${item.text.replace(/^\d+ · /, "")} | ${item.outcome} |`).join("\n");
-  const graph = field.chapters.map((item, index) => {
-    const node = `C${index + 1}[${item.ids.join("—")} ${item.text.replace(/^\d+ · /, "")}]`;
-    return index ? `C${index} --> ${node}` : node;
+  const rows = field.chapters.map((item, index) => `| ${Math.floor(index / 2) + 1} | ${item.ids[0]} | ${item.text.replace(/^\d+ · /, "")} | ${item.question} | ${item.outcome} |`).join("\n");
+  const stages = [...new Set(field.chapters.map((chapter) => chapter.stage))];
+  const graph = stages.map((stage, index) => {
+    const count = field.chapters.filter((chapter) => chapter.stage === stage).length;
+    const node = `S${index + 1}[${stage.replace(/^阶段[一二三四五六七八九十] · /, "")} · ${count} 章]`;
+    return index ? `S${index} --> ${node}` : node;
   }).join("\n  ");
   return `# ${field.title}学习路线与知识图谱
 
@@ -75,10 +77,10 @@ flowchart TD
 
 顺序表达的是阻塞前置，不是职业等级。你可以围绕项目跳到后续章，但需要先完成它依赖的概念检查和风险说明。
 
-## 20 周主路线
+## 20 周、40 个独立主题
 
-| 周 | 节点 | 主题 | 最小产物 |
-|---|---|---|---|
+| 周 | 节点 | 主题 | 本章追问 | 最小产物 |
+|---|---|---|---|---|
 ${rows}
 
 ## 三层掌握目标
@@ -141,6 +143,10 @@ ${list(domain.updateTriggers)}
 export function writeDomain(field, domain, cutoff) {
   const dir = resolve(root, field.slug);
   mkdirSync(dir, { recursive: true });
+  const expectedPages = new Set(field.chapters.map((chapter) => `${chapter.link.split("/").at(-1)}.md`));
+  for (const filename of readdirSync(dir)) {
+    if (/^\d{2}-.*\.md$/.test(filename) && !expectedPages.has(filename)) unlinkSync(resolve(dir, filename));
+  }
   writeFileSync(resolve(dir, "index.md"), renderIndex(field, domain, cutoff));
   writeFileSync(resolve(dir, "roadmap.md"), renderRoadmap(field, domain, cutoff));
   writeFileSync(resolve(dir, "evidence.md"), renderEvidence(field, domain, cutoff));
@@ -149,7 +155,7 @@ export function writeDomain(field, domain, cutoff) {
     const manualSource = resolve("scripts", "field-content", "manual", field.slug, `${page}.md`);
     const content = existsSync(manualSource)
       ? readFileSync(manualSource, "utf8")
-      : renderLearningChapter(field, chapter, domain.details[index], cutoff, index);
+      : renderCourseChapter(field, chapter, domain.details[Math.floor(index / 4)], cutoff, index);
     writeFileSync(resolve(root, `${chapter.link.replace("/fields/", "")}.md`), content);
   });
 }
@@ -160,7 +166,7 @@ export function writeOverview(fields, cutoff) {
 
 > 当前证据截止：**${cutoff}**。这里新增的不是六份书单，而是六套可以长期维护、逐章学习、用作品验证的知识系统。
 
-<div class="lesson-meta"><span>6 个领域</span><span>60 个完整章节</span><span>180 个知识节点</span><span>一手来源与持续更新</span></div>
+<div class="lesson-meta"><span>6 个领域</span><span>240 个完整章节</span><span>240 个独立主题</span><span>一手来源与持续更新</span></div>
 
 ## 六个领域
 
@@ -170,7 +176,7 @@ ${fields.map((field) => `| [${field.title}](/fields/${field.slug}/) | ${field.pr
 
 ## 共同课程合同
 
-每个领域固定 10 章、30 节点。文章会在概念启蒙、原理深挖、跟做实战、决策选型、案例复盘和前沿综合六种文体间切换；共同保留的是可观察目标、可靠来源、动手应用、失败边界、自测和掌握证据，而不是一组机械重复的标题。写作规则见 [教学文章写作指南](/TEACHING-WRITING-GUIDE)。
+每个领域固定 40 个由浅入深的主题节点，每个主题独立成章，不采用“十个母题各切四篇”的结构。文章会在概念启蒙、原理推导、跟做实战、决策选型、案例复盘和前沿综合等文体间切换；共同保留的是可观察目标、可靠来源、动手应用、失败边界、自测和掌握证据，而不是一组机械重复的标题。写作规则见 [教学文章写作指南](/TEACHING-WRITING-GUIDE)。
 
 ## 防止再次陷入“接触很多但不深入”
 

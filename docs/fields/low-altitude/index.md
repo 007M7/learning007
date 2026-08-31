@@ -2,7 +2,7 @@
 
 > 证据截止：**2026-08-30**。稳定基础不按年份淘汰；涉及模型能力、基准、标准、法规和产业状态的结论优先使用近三年一手来源，并保留发布日期与适用边界。
 
-<div class="lesson-meta"><span>LAF01—LAF30</span><span>领域深研</span><span>10 章 / 30 节点</span><span>机制＋实验＋作品证据</span></div>
+<div class="lesson-meta"><span>LAF01—LAF40</span><span>领域深研</span><span>40 章 / 40 主题</span><span>机制＋实验＋作品证据</span></div>
 
 把飞行器、感知导航、控制、通信、空域服务、适航和商业运行视为同一个安全关键系统。
 
@@ -14,11 +14,11 @@
 
 | 节点 | 可观察动作 | 完成证据 |
 |---|---|---|
-| LAF01 低空系统 | 画航空器—运营—空域—服务边界 | 系统责任图 |
-| LAF02 监管框架 | 按当前日期核对法源和角色 | 法规/标准台账 |
-| LAF03 ConOps/ODD | 量化正常与异常运行条件 | 放行/拒飞清单 |
+| LAF01 从任务而非飞行器画系统边界 | 画航空器—运营—空域—服务边界 | 系统责任图 |
+| LAF02 航空器、运营人、空域与飞行活动 | 完成“主体、对象、活动与许可矩阵” | 可复查产物＋一次失败边界说明 |
+| LAF03 ConOps 与运行设计域 | 完成“ConOps、ODD 与退出条件” | 可复查产物＋一次失败边界说明 |
 
-其余 27 个节点保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
+其余 37 个主题保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
 
 ## 本领域的五条当前判断
 
@@ -46,6 +46,6 @@
 
 ## 开始方式
 
-先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 低空系统边界与监管框架](/fields/low-altitude/01-system-regulation)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
+先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 从任务而非飞行器画系统边界](/fields/low-altitude/01-mission-system-boundary)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
 
 <div class="source-note">资料核验至 2026-08-30：<a href="https://www.caac.gov.cn/PHONE/XXGK_17/XXGK/GFXWJ/202604/t20260417_230570.html">CAAC 2026 通告</a>、<a href="https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F5C4C49E2761CC5EAB22130B73F14229">GB/T 47575-2026</a>、<a href="https://www.nasa.gov/mission/advanced-air-mobility/">NASA AAM</a>。涉及新模型、法规或标准时，请按链接中的版本和适用范围复核。</div>

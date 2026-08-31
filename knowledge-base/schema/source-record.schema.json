@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://007m7.github.io/learning007/schema/source-record.schema.json",
+  "title": "Learning 007 source record",
+  "type": "object",
+  "required": ["id", "field", "kind", "title", "authors", "year", "topics", "official_url", "authority_reason", "updated_at"],
+  "properties": {
+    "id": { "type": "string", "minLength": 3 },
+    "field": { "enum": ["machine-learning", "deep-learning", "nlp", "ai-product", "low-altitude", "robotics"] },
+    "kind": { "enum": ["book", "handbook", "paper"] },
+    "title": { "type": "string", "minLength": 3 },
+    "authors": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "year": { "type": ["integer", "null"] },
+    "publisher": { "type": ["string", "null"] },
+    "venue": { "type": ["string", "null"] },
+    "doi": { "type": ["string", "null"] },
+    "openalex_id": { "type": ["string", "null"] },
+    "topics": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "official_url": { "type": "string", "format": "uri" },
+    "authority_reason": { "type": "string", "minLength": 10 },
+    "access": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["open_fulltext", "official_online", "commercial", "unknown"] },
+        "download_url": { "type": ["string", "null"] },
+        "license": { "type": ["string", "null"] },
+        "local_path": { "type": ["string", "null"] },
+        "sha256": { "type": ["string", "null"] },
+        "bytes": { "type": ["integer", "null"] },
+        "checked_at": { "type": ["string", "null"] }
+      }
+    },
+    "updated_at": { "type": "string" }
+  }
+}

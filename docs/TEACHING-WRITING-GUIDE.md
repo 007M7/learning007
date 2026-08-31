@@ -1,6 +1,8 @@
 # Learning 007 教学文章写作指南
 
-这份指南来自对 [Awesome Architecture 教程](https://study8677.github.io/awesome-architecture/) 及其 [GitHub 源码](https://github.com/study8677/awesome-architecture) 40 篇文章的逐篇结构复盘。借鉴的是教学方法，不复制原文的句子、案例和章节编排。
+这份指南来自对 [Awesome Architecture 教程](https://study8677.github.io/awesome-architecture/) 及其 [GitHub 源码](https://github.com/study8677/awesome-architecture) 40 篇文章的全量统计与结构复盘，并逐字深读其中至少 20 篇完整文章。借鉴的是教学方法，不复制原文的句子、案例和章节编排。量化语料、五层分析和可直接执行的复刻规则见 [Writing DNA](./writing-dna/awesome-architecture/Writing-DNA)。
+
+参考语料固定到提交 `7f43e49b95ad9c255418733738fddab4eb0f6a68`：40 篇共 344,092 字符，单篇平均 8,602 字符；37 篇使用文本关系图，31 篇使用表格，40 篇均有随堂检验与本章小结。这些数字用于校准真实密度，不用于机械凑字数。
 
 ## 先说结论：学习文章不是研究报告
 

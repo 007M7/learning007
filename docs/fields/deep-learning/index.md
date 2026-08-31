@@ -2,7 +2,7 @@
 
 > 证据截止：**2026-08-30**。稳定基础不按年份淘汰；涉及模型能力、基准、标准、法规和产业状态的结论优先使用近三年一手来源，并保留发布日期与适用边界。
 
-<div class="lesson-meta"><span>DLF01—DLF30</span><span>领域深研</span><span>10 章 / 30 节点</span><span>机制＋实验＋作品证据</span></div>
+<div class="lesson-meta"><span>DLF01—DLF40</span><span>领域深研</span><span>40 章 / 40 主题</span><span>机制＋实验＋作品证据</span></div>
 
 从张量与反向传播一路追到基础模型、生成模型、推理扩展和高效部署，始终保留算力与实验边界。
 
@@ -14,11 +14,11 @@
 
 | 节点 | 可观察动作 | 完成证据 |
 |---|---|---|
-| DLF01 张量合同 | 标注一段模型前向的 shape、dtype、device | 一张维度与内存表 |
-| DLF02 计算图 | 画出局部算子依赖和保存的激活 | 可解释的前后向图 |
-| DLF03 梯度验证 | 手算并数值检查一个小网络 | gradcheck 与错误复盘 |
+| DLF01 张量的形状、步幅与广播 | 标注一段模型前向的 shape、dtype、device | 一张维度与内存表 |
+| DLF02 把神经网络画成计算图 | 完成“计算图与局部 Jacobian 标注” | 可复查产物＋一次失败边界说明 |
+| DLF03 反向传播就是复用链式法则 | 完成“手算反传与复杂度对照” | 可复查产物＋一次失败边界说明 |
 
-其余 27 个节点保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
+其余 37 个主题保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
 
 ## 本领域的五条当前判断
 
@@ -46,6 +46,6 @@
 
 ## 开始方式
 
-先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 张量、计算图与自动微分](/fields/deep-learning/01-tensors-autodiff)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
+先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 张量的形状、步幅与广播](/fields/deep-learning/01-tensor-shape-stride)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
 
 <div class="source-note">资料核验至 2026-08-30：<a href="https://arxiv.org/abs/2312.00752">Mamba</a>、<a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1</a>、<a href="https://arxiv.org/abs/2605.00080">World Model Survey 2026</a>。涉及新模型、法规或标准时，请按链接中的版本和适用范围复核。</div>

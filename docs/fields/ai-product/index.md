@@ -2,7 +2,7 @@
 
 > 证据截止：**2026-08-30**。稳定基础不按年份淘汰；涉及模型能力、基准、标准、法规和产业状态的结论优先使用近三年一手来源，并保留发布日期与适用边界。
 
-<div class="lesson-meta"><span>AIPM01—AIPM30</span><span>领域深研</span><span>10 章 / 30 节点</span><span>机制＋实验＋作品证据</span></div>
+<div class="lesson-meta"><span>AIPM01—AIPM40</span><span>领域深研</span><span>40 章 / 40 主题</span><span>机制＋实验＋作品证据</span></div>
 
 把模型演示转化为问题选择、评测合同、可信交互、单位经济、治理和持续学习的产品系统。
 
@@ -14,11 +14,11 @@
 
 | 节点 | 可观察动作 | 完成证据 |
 |---|---|---|
-| AIPM01 问题空间 | 观察一个真实工作并写任务链 | 现状蓝图+非 AI 基线 |
-| AIPM02 AI 适配度 | 评估输入、评测和可恢复性 | 适配度/风险表 |
-| AIPM03 机会组合 | 给候选做区间评分和停止规则 | 机会证伪卡 |
+| AIPM01 先找结果，不从 AI 功能出发 | 观察一个真实工作并写任务链 | 现状蓝图+非 AI 基线 |
+| AIPM02 任务频率、价值与失败代价 | 完成“任务机会评分与访谈证据” | 可复查产物＋一次失败边界说明 |
+| AIPM03 什么问题适合 AI，什么问题不适合 | 完成“AI 适用性门禁与停止理由” | 可复查产物＋一次失败边界说明 |
 
-其余 27 个节点保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
+其余 37 个主题保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
 
 ## 本领域的五条当前判断
 
@@ -46,6 +46,6 @@
 
 ## 开始方式
 
-先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 问题发现与机会判断](/fields/ai-product/01-problem-opportunity)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
+先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 先找结果，不从 AI 功能出发](/fields/ai-product/01-outcome-not-feature)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
 
 <div class="source-note">资料核验至 2026-08-30：<a href="https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf">AI Index 2026</a>、<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence">NIST GAI Profile</a>、<a href="https://www.anthropic.com/research/economic-index-june-2026-report">Economic Index 2026</a>。涉及新模型、法规或标准时，请按链接中的版本和适用范围复核。</div>

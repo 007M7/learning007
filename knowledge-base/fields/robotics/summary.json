@@ -1,0 +1,41 @@
+{
+  "field": "robotics",
+  "title": "物理 AI · 机器人",
+  "updated_at": "2026-08-31",
+  "books": {
+    "total": 10,
+    "downloaded_open_fulltext": 0,
+    "declared_open_fulltext": 4,
+    "official_online": 1,
+    "commercial_metadata_only": 5,
+    "download_failures": 4
+  },
+  "papers": {
+    "total": 120,
+    "open_access": 112,
+    "since_2023": 43,
+    "snapshot_date": "2026-08-30",
+    "topic_counts": {
+      "embodiment-system": 15,
+      "kinematics-dynamics": 14,
+      "control": 15,
+      "perception-state": 14,
+      "slam-navigation": 11,
+      "manipulation": 15,
+      "learning": 15,
+      "vla-foundation": 14,
+      "sim2real-world": 15,
+      "safety-hri": 15
+    },
+    "top_venues": {
+      "arXiv (Cornell University)": 9,
+      "IEEE Access": 5,
+      "Robotics and Autonomous Systems": 4,
+      "Nature": 4,
+      "IEEE Transactions on Robotics": 4,
+      "Nature Communications": 4,
+      "Journal of Field Robotics": 2,
+      "Artificial Intelligence": 2
+    }
+  }
+}

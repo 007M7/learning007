@@ -1,0 +1,41 @@
+{
+  "field": "low-altitude",
+  "title": "物理 AI · 低空智能",
+  "updated_at": "2026-08-31",
+  "books": {
+    "total": 10,
+    "downloaded_open_fulltext": 2,
+    "declared_open_fulltext": 2,
+    "official_online": 2,
+    "commercial_metadata_only": 6,
+    "download_failures": 0
+  },
+  "papers": {
+    "total": 120,
+    "open_access": 110,
+    "since_2023": 59,
+    "snapshot_date": "2026-08-30",
+    "topic_counts": {
+      "system-regulation": 15,
+      "aerodynamics": 15,
+      "vehicle-propulsion": 15,
+      "sense-avoid": 15,
+      "navigation": 15,
+      "control-planning": 15,
+      "utm-c2": 15,
+      "fleet-infrastructure": 15,
+      "swarm-simulation": 15,
+      "safety-business": 14
+    },
+    "top_venues": {
+      "Sensors": 11,
+      "Drones": 10,
+      "IEEE Access": 8,
+      "Remote Sensing": 5,
+      "Aerospace": 3,
+      "Aerospace Science and Technology": 3,
+      "The Aeronautical Journal": 3,
+      "IEEE Communications Surveys & Tutorials": 2
+    }
+  }
+}
