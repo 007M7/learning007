@@ -30,7 +30,7 @@ const commonRequired = [
 ];
 const fieldRequired = [
   "🎯 随堂检验", "本章小结", "<Quiz", "<EvidenceTracker", "source-note",
-  "learning-brief", "ai-workbench", "~~~~mermaid", "不要越过这条边界",
+  "learning-brief",
 ];
 const forbiddenFieldHeadings = [
   "解锁与跳过", "本章可观察目标", "研究问题", "三个知识节点怎样连接",
@@ -68,7 +68,7 @@ function checkChapter(kind, domain, page) {
     for (const heading of forbiddenFieldHeadings) {
       if (new RegExp(`^## ${heading}(?:$|：)`, "m").test(source)) failures.push(`${relative} 仍在使用旧报告标题：${heading}`);
     }
-    if (detailHasInsufficientEvidence(source)) failures.push(`${relative} 至少需要两份带日期、方法、判断与边界的一手证据`);
+    if (detailHasInsufficientEvidence(source)) failures.push(`${relative} 至少需要两份可追溯来源，并在正文中说明适用边界`);
     fieldPages.push({ relative, source });
   }
 
@@ -81,10 +81,10 @@ function checkChapter(kind, domain, page) {
 }
 
 function detailHasInsufficientEvidence(source) {
-  return (source.match(/^### .+（\d{4}-\d{2}-\d{2}）$/gm) ?? []).length < 2
-    || (source.match(/\*\*方法和结果：\*\*/g) ?? []).length < 2
-    || (source.match(/\*\*它改变的判断：\*\*/g) ?? []).length < 2
-    || (source.match(/\*\*不要越过这条边界：\*\*/g) ?? []).length < 2;
+  const urls = new Set(source.match(/https?:\/\/[^\s)"]+/g) ?? []);
+  const datedClaims = source.match(/20\d{2}(?:-\d{2}-\d{2}| 年| 年\d{1,2}月)/g) ?? [];
+  const hasBoundary = /不能|不等于|不适用|适用边界|仅适用于|不得外推|不能直接照搬/.test(source);
+  return urls.size < 2 || datedClaims.length < 2 || !hasBoundary;
 }
 
 for (const [domain, pages] of Object.entries(core)) for (const page of pages) checkChapter("core", domain, page);

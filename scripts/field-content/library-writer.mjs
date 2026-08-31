@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { renderLearningChapter } from "./article-renderers.mjs";
 
@@ -145,7 +145,12 @@ export function writeDomain(field, domain, cutoff) {
   writeFileSync(resolve(dir, "roadmap.md"), renderRoadmap(field, domain, cutoff));
   writeFileSync(resolve(dir, "evidence.md"), renderEvidence(field, domain, cutoff));
   field.chapters.forEach((chapter, index) => {
-    writeFileSync(resolve(root, `${chapter.link.replace("/fields/", "")}.md`), renderLearningChapter(field, chapter, domain.details[index], cutoff, index));
+    const page = chapter.link.split("/").at(-1);
+    const manualSource = resolve("scripts", "field-content", "manual", field.slug, `${page}.md`);
+    const content = existsSync(manualSource)
+      ? readFileSync(manualSource, "utf8")
+      : renderLearningChapter(field, chapter, domain.details[index], cutoff, index);
+    writeFileSync(resolve(root, `${chapter.link.replace("/fields/", "")}.md`), content);
   });
 }
 

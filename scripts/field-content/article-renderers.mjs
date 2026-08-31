@@ -97,9 +97,9 @@ function conceptsAsProse(detail) {
 
 ${item.definition}。这里真正要支持的判断是：**${item.decision}**。
 
-- **先排除的误解：**${detail.misconceptions[index % detail.misconceptions.length]}
-- **用反例检查：**${detail.failures[index % detail.failures.length]}
-- **理解检查：**不看定义，用自己的项目举一个例子，再说明哪条观察会让这个例子不成立。`).join("\n\n");
+- **先排除的误解：** ${detail.misconceptions[index % detail.misconceptions.length]}
+- **用反例检查：** ${detail.failures[index % detail.failures.length]}
+- **理解检查：** 不看定义，用自己的项目举一个例子，再说明哪条观察会让这个例子不成立。`).join("\n\n");
 }
 
 function conceptsAsTable(detail, finalHeading) {
@@ -183,15 +183,13 @@ function evidenceSection(type, detail) {
     frontier: "发布日期较新不自动意味着证据等级更高。下面逐项看机制、结果和限制。",
     synthesis: "这些来源分别照亮闭环中的一段；拼在一起时，仍要保留各自的适用范围。",
   };
-  const stories = detail.evidence.map((item) => `### ${item.title}（${item.date}）
+  const stories = detail.evidence.map((item, index) => `### ${item.title}（${item.date}）
 
-**它追问什么：**${item.question}
+${index === 0 ? "先看" : index === detail.evidence.length - 1 ? "最后看" : "接着看"}这份来源时，要带着一个具体问题：${item.question}
 
-**方法和结果：**${item.mechanism} ${item.result}
+${item.mechanism} ${item.result} 因此，本章采用它来支持这样的判断：${item.contribution}
 
-**它改变的判断：**${item.contribution}
-
-> **不要越过这条边界：**${item.limit}`).join("\n\n");
+但它没有替我们回答所有问题。${item.limit}`).join("\n\n");
   return `## ${labels[type].evidence}\n\n${leads[type]}\n\n${stories}`;
 }
 
@@ -245,9 +243,9 @@ function practiceSection(type, detail, hasTransfer) {
     const failure = detail.failures[index % detail.failures.length];
     return `### 第 ${index + 1} 步：${step}
 
-- **这一步在验证：**${concept.name}能否支持“${concept.decision}”这项判断。
-- **至少留下：**${metric[1]}。
-- **先停下来而不是继续调参的信号：**${failure}。`;
+- **这一步在验证：** ${concept.name}能否支持“${concept.decision}”这项判断。
+- **至少留下：** ${metric[1]}。
+- **先停下来而不是继续调参的信号：** ${failure}。`;
   }).join("\n\n");
   return `## ${labels[type].practice}：${detail.exerciseTitle}
 
@@ -305,9 +303,9 @@ function boundarySection(type, detail) {
     const decision = detail.decisions[index % detail.decisions.length];
     return `### ${failure}
 
-- **先看什么：**${metric[1]}
-- **回到哪项控制：**${decision}
-- **怎样留下证据：**保存触发条件、原始输入、系统响应和人工处置；修复后把同一样本加入“${detail.exerciseTitle}”的回归记录。`;
+- **先看什么：** ${metric[1]}
+- **回到哪项控制：** ${decision}
+- **怎样留下证据：** 保存触发条件、原始输入、系统响应和人工处置；修复后把同一样本加入“${detail.exerciseTitle}”的回归记录。`;
   }).join("\n\n");
   return `## ${titles[type]}
 
