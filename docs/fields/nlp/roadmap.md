@@ -4,7 +4,7 @@
 
 ## 依赖图
 
-```mermaid
+~~~~mermaid
 flowchart TD
   C1[NLPF01—NLPF02—NLPF03 语言、任务与语料]
   C1 --> C2[NLPF04—NLPF05—NLPF06 分词、形态与开放词汇]
@@ -16,7 +16,7 @@ flowchart TD
   C7 --> C8[NLPF22—NLPF23—NLPF24 多语言、低资源与文化语境]
   C8 --> C9[NLPF25—NLPF26—NLPF27 长上下文、检索与知识边界]
   C9 --> C10[NLPF28—NLPF29—NLPF30 事实性、评价器与生产治理]
-```
+~~~~
 
 顺序表达的是阻塞前置，不是职业等级。你可以围绕项目跳到后续章，但需要先完成它依赖的概念检查和风险说明。
 

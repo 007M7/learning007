@@ -1,5 +1,5 @@
 import { fieldEvidenceCutoff, learningFieldBySlug, learningFields } from "../docs/.vitepress/field-curriculum.ts";
-import { writeDomain, writeOverview } from "./field-content/template.mjs";
+import { writeDomain, writeOverview } from "./field-content/library-writer.mjs";
 import machineLearning from "./field-content/machine-learning.mjs";
 import deepLearning from "./field-content/deep-learning.mjs";
 import nlp from "./field-content/nlp.mjs";

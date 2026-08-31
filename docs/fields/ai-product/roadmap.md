@@ -4,7 +4,7 @@
 
 ## 依赖图
 
-```mermaid
+~~~~mermaid
 flowchart TD
   C1[AIPM01—AIPM02—AIPM03 问题发现与机会判断]
   C1 --> C2[AIPM04—AIPM05—AIPM06 用户研究与工作流建模]
@@ -16,7 +16,7 @@ flowchart TD
   C7 --> C8[AIPM22—AIPM23—AIPM24 安全、隐私与治理]
   C8 --> C9[AIPM25—AIPM26—AIPM27 交付、运营与持续改进]
   C9 --> C10[AIPM28—AIPM29—AIPM30 战略、护城河与组织能力]
-```
+~~~~
 
 顺序表达的是阻塞前置，不是职业等级。你可以围绕项目跳到后续章，但需要先完成它依赖的概念检查和风险说明。
 

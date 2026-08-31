@@ -30,7 +30,7 @@
 
 ## 每章怎样学
 
-每章都遵守同一个闭环：问题定义 → 机制与公式 → 一手证据拆解 → 贯穿案例 → 最小复现 → 失败边界 → 练习 → 自测 → 作品证据。论文摘要、视频演示、运行截图和“我懂了”都不能单独证明掌握。
+每章根据主题选择不同文体：入门概念从误解或故事进入，机制章节逐步推演，实战章节带你跟做，选型章节组织约束和比较，事故章节沿时间线复盘，前沿章节区分稳定机制与最新证据。它们都要完成“理解—应用—边界”闭环，但不共享一套正文目录。论文摘要、视频演示、运行截图和“我懂了”都不能单独证明掌握。
 
 ## 贯穿项目
 
@@ -48,4 +48,4 @@
 
 先看 [学习路线与知识图谱](./roadmap)，再进入 [01 · 问题发现与机会判断](/fields/ai-product/01-problem-opportunity)。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
 
-<div class="source-note">主要来源（证据截止 2026-08-30）：<a href="https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf">AI Index 2026</a>、<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence">NIST GAI Profile</a>、<a href="https://www.anthropic.com/research/economic-index-june-2026-report">Economic Index 2026</a>。数字只描述来源中的实验设置；标准、法规与产品能力均按页面版本和适用范围解释。</div>
+<div class="source-note">资料核验至 2026-08-30：<a href="https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf">AI Index 2026</a>、<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence">NIST GAI Profile</a>、<a href="https://www.anthropic.com/research/economic-index-june-2026-report">Economic Index 2026</a>。涉及新模型、法规或标准时，请按链接中的版本和适用范围复核。</div>

@@ -4,7 +4,7 @@
 
 ## 依赖图
 
-```mermaid
+~~~~mermaid
 flowchart TD
   C1[RBF01—RBF02—RBF03 机器人系统、具身与任务闭环]
   C1 --> C2[RBF04—RBF05—RBF06 坐标、运动学与动力学]
@@ -16,7 +16,7 @@ flowchart TD
   C7 --> C8[RBF22—RBF23—RBF24 VLA 与机器人基础模型]
   C8 --> C9[RBF25—RBF26—RBF27 世界模型、合成数据与 Sim2Real]
   C9 --> C10[RBF28—RBF29—RBF30 安全、人机协作与部署]
-```
+~~~~
 
 顺序表达的是阻塞前置，不是职业等级。你可以围绕项目跳到后续章，但需要先完成它依赖的概念检查和风险说明。
 
