@@ -37,5 +37,12 @@
       "Nature": 2,
       "Journal Of Big Data": 2
     }
+  },
+  "reading_evidence": {
+    "source_ledger_present": false,
+    "retrieved_or_beyond": 0,
+    "read_or_cited": 0,
+    "cited": 0,
+    "source_grounded_lessons": 0
   }
 }

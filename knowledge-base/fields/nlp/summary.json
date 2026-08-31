@@ -37,5 +37,12 @@
       "Frontiers of Computer Science": 3,
       "Journal of Artificial Intelligence Research": 3
     }
+  },
+  "reading_evidence": {
+    "source_ledger_present": false,
+    "retrieved_or_beyond": 0,
+    "read_or_cited": 0,
+    "cited": 0,
+    "source_grounded_lessons": 0
   }
 }

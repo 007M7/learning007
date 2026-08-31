@@ -6,8 +6,9 @@
 
 ## 机器学习
 
-- 书籍/手册：10；开放全文已下载 0；仅官方在线 3；商业书仅元数据 0；下载失败 7。
+- 书籍/手册：10；开放全文已下载 3；仅官方在线 2；商业书仅元数据 0；下载失败 5。
 - 核心论文：120；其中开放获取 113；2023 年以来 48；子主题覆盖 10/10。
+- 章节级来源账本：已取得或进一步处理 7 份；已读或正文引用 7 份；支撑 4 篇原稿驱动正式章。具体阅读页码、文件哈希和采用观点见 `fields/machine-learning/reading-evidence.json`。
 - 论文元数据快照：OpenAlex 2026-08-30；完整记录见 `fields/machine-learning/papers.json`。
 
 | 书籍或手册 | 年份 | 获取状态 | 本地结果 |
@@ -15,12 +16,12 @@
 | [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/) | 2009 | open_fulltext | 失败：fetch failed |
 | [An Introduction to Statistical Learning (2nd ed.)](https://www.statlearning.com/) | 2021 | open_fulltext | 失败：fetch failed |
 | [An Introduction to Statistical Learning with Applications in Python](https://www.statlearning.com/) | 2023 | open_fulltext | 失败：fetch failed |
-| [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/) | 2014 | open_fulltext | 失败：The operation was aborted due to timeout |
+| [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/) | 2014 | open_fulltext | 已下载（2.5 MB） |
 | [Mathematics for Machine Learning](https://mml-book.github.io/) | 2020 | open_fulltext | 失败：The operation was aborted due to timeout |
-| [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) | 2022 | official_online | 官方在线阅读 |
+| [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) | 2022 | open_fulltext | 已下载（88.0 MB） |
 | [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html) | 2023 | official_online | 官方在线阅读 |
 | [Bayesian Reasoning and Machine Learning](https://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/090310.pdf) | 2012 | open_fulltext | 失败：fetch failed |
-| [Fairness and Machine Learning](https://fairmlbook.org/) | 2023 | open_fulltext | 失败：The operation was aborted due to timeout |
+| [Fairness and Machine Learning](https://fairmlbook.org/) | 2023 | open_fulltext | 已下载（2.1 MB） |
 | [Causal Inference: What If](https://hsph.harvard.edu/miguel-hernan/causal-inference-book/2015) | 2024 | official_online | 官方在线阅读 |
 
 主题分布：statistical-learning 12；data-evaluation 15；linear-probabilistic 14；trees-boosting 12；kernels-representation 15；optimization-regularization 15；automl-tabular 15；causal-inference 14；uncertainty-fairness 11；production-ml 7。
@@ -29,6 +30,7 @@
 
 - 书籍/手册：10；开放全文已下载 0；仅官方在线 6；商业书仅元数据 1；下载失败 3。
 - 核心论文：120；其中开放获取 117；2023 年以来 56；子主题覆盖 10/10。
+- 章节级来源账本：尚未建立；该领域现有页面不得声称已按书籍原稿写成正式章。
 - 论文元数据快照：OpenAlex 2026-08-30；完整记录见 `fields/deep-learning/papers.json`。
 
 | 书籍或手册 | 年份 | 获取状态 | 本地结果 |
@@ -50,6 +52,7 @@
 
 - 书籍/手册：10；开放全文已下载 0；仅官方在线 2；商业书仅元数据 6；下载失败 2。
 - 核心论文：120；其中开放获取 120；2023 年以来 57；子主题覆盖 10/10。
+- 章节级来源账本：尚未建立；该领域现有页面不得声称已按书籍原稿写成正式章。
 - 论文元数据快照：OpenAlex 2026-08-30；完整记录见 `fields/nlp/papers.json`。
 
 | 书籍或手册 | 年份 | 获取状态 | 本地结果 |
@@ -71,6 +74,7 @@
 
 - 书籍/手册：10；开放全文已下载 1；仅官方在线 1；商业书仅元数据 8；下载失败 0。
 - 核心论文：120；其中开放获取 120；2023 年以来 57；子主题覆盖 10/10。
+- 章节级来源账本：尚未建立；该领域现有页面不得声称已按书籍原稿写成正式章。
 - 论文元数据快照：OpenAlex 2026-08-30；完整记录见 `fields/ai-product/papers.json`。
 
 | 书籍或手册 | 年份 | 获取状态 | 本地结果 |
@@ -92,6 +96,7 @@
 
 - 书籍/手册：10；开放全文已下载 2；仅官方在线 2；商业书仅元数据 6；下载失败 0。
 - 核心论文：120；其中开放获取 110；2023 年以来 59；子主题覆盖 10/10。
+- 章节级来源账本：尚未建立；该领域现有页面不得声称已按书籍原稿写成正式章。
 - 论文元数据快照：OpenAlex 2026-08-30；完整记录见 `fields/low-altitude/papers.json`。
 
 | 书籍或手册 | 年份 | 获取状态 | 本地结果 |
@@ -113,6 +118,7 @@
 
 - 书籍/手册：10；开放全文已下载 0；仅官方在线 1；商业书仅元数据 5；下载失败 4。
 - 核心论文：120；其中开放获取 112；2023 年以来 43；子主题覆盖 10/10。
+- 章节级来源账本：尚未建立；该领域现有页面不得声称已按书籍原稿写成正式章。
 - 论文元数据快照：OpenAlex 2026-08-30；完整记录见 `fields/robotics/papers.json`。
 
 | 书籍或手册 | 年份 | 获取状态 | 本地结果 |
@@ -135,5 +141,6 @@
 - `npm run kb:refresh`：重建书籍种子并刷新论文快照；稳定 ID 采用 DOI，缺失 DOI 时采用 OpenAlex ID。
 - `npm run kb:download-books`：只处理标记为 `open_fulltext` 的官方公开链接，验证 PDF 文件头并记录哈希。
 - `npm run kb:validate`：验证每领域至少 10 本书、100 篇论文、唯一 ID、必要字段、十个子主题覆盖与缓存完整性。
+- `reading-evidence.json` 使用 catalogued → retrieved → extracted → read → cited 五级状态；只有登记具体阅读范围并通过来源真实性检查的文章才可称为正式章。
 - Tavily 原始教材检索快照保存在 `snapshots/tavily/`，可按日期追加并审计来源变更。
 - 引用数是候选筛选信号，不是结论真伪；课程正文写作必须回到原论文的方法、实验和局限。

@@ -41,8 +41,8 @@ features:
   <div><strong>51</strong><span>必修核心节点</span></div>
   <div><strong>54</strong><span>可选进阶节点</span></div>
   <div><strong>30</strong><span>Agent 前沿节点</span></div>
-  <div><strong>180</strong><span>领域深研节点</span></div>
-  <div><strong>106</strong><span>完整教程章节</span></div>
+  <div><strong>240</strong><span>领域深研主题</span></div>
+  <div><strong>4</strong><span>原稿驱动领域样章</span></div>
 </div>
 
 ## 这套学习系统怎样工作

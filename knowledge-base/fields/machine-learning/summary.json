@@ -4,11 +4,11 @@
   "updated_at": "2026-08-31",
   "books": {
     "total": 10,
-    "downloaded_open_fulltext": 0,
-    "declared_open_fulltext": 7,
-    "official_online": 3,
+    "downloaded_open_fulltext": 3,
+    "declared_open_fulltext": 8,
+    "official_online": 2,
     "commercial_metadata_only": 0,
-    "download_failures": 7
+    "download_failures": 5
   },
   "papers": {
     "total": 120,
@@ -37,5 +37,12 @@
       "Information Fusion": 2,
       "The Annals of Statistics": 2
     }
+  },
+  "reading_evidence": {
+    "source_ledger_present": true,
+    "retrieved_or_beyond": 7,
+    "read_or_cited": 7,
+    "cited": 7,
+    "source_grounded_lessons": 4
   }
 }

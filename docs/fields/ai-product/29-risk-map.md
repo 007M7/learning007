@@ -4,6 +4,10 @@
 
 <div class="lesson-meta"><span>AIPM29</span><span>阶段四 · 经济、治理与运营</span><span>问题建立课</span><span>证据更新至 2026-08-30</span></div>
 
+<div class="draft-status">
+  <strong>内容状态：待原稿驱动重写。</strong> 当前页保留旧资料簇生成稿，只用于展示 40 主题路线和暴露待修问题；它尚未通过“原稿已获取—具体章节已读—观点已登记—教学文章人工组织”的正式章门禁，请不要把它当成完成的学习文章。
+</div>
+
 <div class="learning-brief">
   <p><strong>本章不是要记住：</strong>一串术语或某个工具的默认参数。</p>
   <p><strong>本章完成时要交付：</strong>风险登记与残余风险所有人。</p>

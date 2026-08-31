@@ -122,11 +122,10 @@
         "status": "open_fulltext",
         "download_url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
         "license": "author-provided",
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": "2026-08-31T05:02:30.836Z",
-        "download_error": "The operation was aborted due to timeout"
+        "local_path": "knowledge-base/cache/manuscripts/machine-learning/understanding-machine-learning.pdf",
+        "sha256": "5ad0c69c922e47e423f6b469e8cfbaf07beae6933185af746b670911a8d163f2",
+        "bytes": 2601512,
+        "checked_at": "2026-08-31T14:27:34+08:00"
       },
       "updated_at": "2026-08-31"
     },
@@ -179,13 +178,13 @@
       "official_url": "https://probml.github.io/pml-book/book1.html",
       "authority_reason": "Murphy 的现代概率机器学习教材，覆盖经典方法与深度学习并提供持续更新资源。",
       "access": {
-        "status": "official_online",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
+        "status": "open_fulltext",
+        "download_url": "https://github.com/probml/pml-book/releases/latest/download/book1.pdf",
+        "license": "CC-BY-NC-ND",
+        "local_path": "knowledge-base/cache/manuscripts/machine-learning/probml-introduction.pdf",
+        "sha256": "89749245bc8065d7575f990815c621a091de3facca1585168fc0369542742dcf",
+        "bytes": 92323940,
+        "checked_at": "2026-08-31T14:27:34+08:00"
       },
       "updated_at": "2026-08-31"
     },
@@ -269,11 +268,10 @@
         "status": "open_fulltext",
         "download_url": "https://fairmlbook.org/pdf/fairmlbook.pdf",
         "license": "author-provided",
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": "2026-08-31T05:04:31.232Z",
-        "download_error": "The operation was aborted due to timeout"
+        "local_path": "knowledge-base/cache/manuscripts/machine-learning/fairmlbook.pdf",
+        "sha256": "da6e7782b714c52d2fb30d09bcf37db1e37a4fa94a3ba7ec7ca134ad82a60dc3",
+        "bytes": 2220375,
+        "checked_at": "2026-08-31T14:27:34+08:00"
       },
       "updated_at": "2026-08-31"
     },

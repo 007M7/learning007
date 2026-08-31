@@ -1,0 +1,151 @@
+{
+  "$schema": "../../schema/reading-evidence.schema.json",
+  "field": "machine-learning",
+  "updated_at": "2026-08-31T14:27:34+08:00",
+  "status_contract": {
+    "catalogued": "只确认书目或论文身份，不代表拿到原文。",
+    "retrieved": "已从作者、出版社或会议官方地址取得二进制原稿或完整页面。",
+    "extracted": "已将原稿转为可检索文本，并记录文件哈希、页码或结果 URL。",
+    "read": "已实际阅读与课程命题有关的章、节或全文。",
+    "cited": "正文已使用该来源的具体观点，并声明不能推出什么。"
+  },
+  "storage_note": "原稿和全文抽取物存于 gitignored 的 knowledge-base/cache；仓库只提交来源、哈希、阅读范围和使用记录，避免分发受版权保护的全文。",
+  "sources": [
+    {
+      "id": "book:machine-learning:probml-intro",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "official_url": "https://probml.github.io/pml-book/book1.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "direct_download",
+        "artifact": "knowledge-base/cache/manuscripts/machine-learning/probml-introduction.pdf",
+        "sha256": "89749245bc8065d7575f990815c621a091de3facca1585168fc0369542742dcf",
+        "bytes": 92323940
+      },
+      "read_scopes": [
+        { "locator": "PDF 31-60 / Chapter 1, especially 1.1, 1.2, 1.2.3, 1.6.3", "purpose": "任务、输入输出、经验风险、泛化与目标错配" },
+        { "locator": "PDF 197-209 / 5.1-5.1.6", "purpose": "行动、成本敏感分类、拒绝选项和 proper scoring rules" },
+        { "locator": "PDF 223-228 / 5.4-5.4.4", "purpose": "经验风险、总体风险、近似误差、估计误差与验证" }
+      ]
+    },
+    {
+      "id": "book:machine-learning:understanding-ml",
+      "title": "Understanding Machine Learning: From Theory to Algorithms",
+      "official_url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/",
+      "acquisition": {
+        "state": "cited",
+        "method": "direct_download",
+        "artifact": "knowledge-base/cache/manuscripts/machine-learning/understanding-machine-learning.pdf",
+        "sha256": "5ad0c69c922e47e423f6b469e8cfbaf07beae6933185af746b670911a8d163f2",
+        "bytes": 2601512
+      },
+      "read_scopes": [
+        { "locator": "PDF 19-25 / Chapter 1", "purpose": "学习、泛化、归纳偏置与何时需要机器学习" },
+        { "locator": "PDF 33-42 / Chapter 2", "purpose": "样本、假设、真实风险、ERM 和过拟合" },
+        { "locator": "PDF 43-59 / Chapters 3-4", "purpose": "一般损失、PAC 语义与一致收敛直觉" }
+      ]
+    },
+    {
+      "id": "book:machine-learning:fairness-ml",
+      "title": "Fairness and Machine Learning: Limitations and Opportunities",
+      "official_url": "https://fairmlbook.org/",
+      "acquisition": {
+        "state": "cited",
+        "method": "direct_download",
+        "artifact": "knowledge-base/cache/manuscripts/machine-learning/fairmlbook.pdf",
+        "sha256": "da6e7782b714c52d2fb30d09bcf37db1e37a4fa94a3ba7ec7ca134ad82a60dc3",
+        "bytes": 2220375
+      },
+      "read_scopes": [
+        { "locator": "PDF 14-25 / Chapter 1: machine learning loop through feedback loops", "purpose": "测量、模型、行动和反馈如何构成社会技术闭环" },
+        { "locator": "PDF 18-22 / measurement and data-to-model sections", "purpose": "目标变量、代理测量、群体样本量和数据来源边界" }
+      ]
+    },
+    {
+      "id": "paper:machine-learning:hidden-technical-debt",
+      "title": "Hidden Technical Debt in Machine Learning Systems",
+      "official_url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/cache/manuscripts/machine-learning/papers/tavily/core-paper-fulltext.json#result[0]",
+        "sha256": "8c5332432e6af7445c67f5a769300a76a8e6df1aa389c5f01ed270b652b13adc",
+        "bytes": 265297
+      },
+      "read_scopes": [
+        { "locator": "full paper; Introduction, Data Dependencies, Feedback Loops, ML-System Anti-Patterns", "purpose": "说明建模只占系统的一部分，数据依赖和反馈会形成长期成本" }
+      ]
+    },
+    {
+      "id": "paper:machine-learning:datasheets",
+      "title": "Datasheets for Datasets",
+      "official_url": "https://arxiv.org/pdf/1803.09010",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/cache/manuscripts/machine-learning/papers/tavily/core-paper-fulltext.json#result[1]",
+        "sha256": "8c5332432e6af7445c67f5a769300a76a8e6df1aa389c5f01ed270b652b13adc",
+        "bytes": 265297
+      },
+      "read_scopes": [
+        { "locator": "full paper; Introduction, Objectives, Questions and Workflow, Composition, Collection Process", "purpose": "把实例、标签、采样、收集时段、缺失和推荐切分写成数据契约" }
+      ]
+    },
+    {
+      "id": "paper:machine-learning:proper-scoring-rules",
+      "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+      "official_url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/cache/manuscripts/machine-learning/papers/tavily/core-paper-fulltext.json#result[2]",
+        "sha256": "8c5332432e6af7445c67f5a769300a76a8e6df1aa389c5f01ed270b652b13adc",
+        "bytes": 265297
+      },
+      "read_scopes": [
+        { "locator": "full paper; Introduction and Sections 2.1-2.3", "purpose": "解释概率预测为何要用鼓励诚实报告的评分规则，并保留基线比较边界" }
+      ]
+    },
+    {
+      "id": "paper:machine-learning:useful-things",
+      "title": "A Few Useful Things to Know About Machine Learning",
+      "official_url": "https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/cache/manuscripts/machine-learning/papers/tavily/core-paper-fulltext.json#result[3]",
+        "sha256": "8c5332432e6af7445c67f5a769300a76a8e6df1aa389c5f01ed270b652b13adc",
+        "bytes": 265297
+      },
+      "read_scopes": [
+        { "locator": "full paper; Generalization Counts, Data Alone Is Not Enough, Overfitting Has Many Faces, Simplicity Does Not Imply Accuracy", "purpose": "给泛化、基线、数据量与模型复杂度提供实践反例" }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": "01-business-question-to-ml-task",
+      "learning_job": "把业务愿望改写成有决策者、决策时点、可用信息、行动和失败阈值的可证伪任务。",
+      "source_ids": ["book:machine-learning:probml-intro", "book:machine-learning:fairness-ml", "paper:machine-learning:hidden-technical-debt"],
+      "claims_used": ["机器学习任务必须同时说明任务、经验和评价口径。", "预测只有进入行动与反馈闭环后才产生真实后果。", "模型优化不能代表整个机器学习系统已经成立。"]
+    },
+    {
+      "lesson": "02-samples-features-labels",
+      "learning_job": "在时间线上定义一条样本、特征截止点、标签观察窗与标签成熟日。",
+      "source_ids": ["book:machine-learning:understanding-ml", "book:machine-learning:fairness-ml", "paper:machine-learning:datasheets"],
+      "claims_used": ["训练样本是带有生成机制的观测序列，不只是表格行。", "目标变量往往是对现实构念的代理测量。", "实例含义、采样过程、收集时段和推荐切分必须被记录。"]
+    },
+    {
+      "lesson": "03-loss-and-decision-cost",
+      "learning_job": "从概率、状态和行动代价推导阈值，而不是把训练损失直接当业务价值。",
+      "source_ids": ["book:machine-learning:probml-intro", "paper:machine-learning:proper-scoring-rules"],
+      "claims_used": ["最优行动最小化后验期望损失。", "成本不对称会改变分类阈值，并可加入拒绝行动。", "proper scoring rule 评价的是概率报告，不替代行动成本。"]
+    },
+    {
+      "lesson": "04-erm-generalization-baseline",
+      "learning_job": "用训练/验证/测试分工、简单基线和学习曲线解释为何相信未见数据表现。",
+      "source_ids": ["book:machine-learning:probml-intro", "book:machine-learning:understanding-ml", "paper:machine-learning:useful-things"],
+      "claims_used": ["经验风险是可见样本上的量，总体风险才是目标。", "限制假设空间是一种归纳偏置，复杂度与样本量共同影响过拟合。", "简单不自动意味着更准，基线的作用是暴露复杂模型是否真正增益。"]
+    }
+  ]
+}

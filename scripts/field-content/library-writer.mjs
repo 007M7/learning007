@@ -6,17 +6,42 @@ const root = resolve("docs", "fields");
 const list = (items) => items.map((item) => `- ${item}`).join("\n");
 const numbered = (items) => items.map((item, index) => `${index + 1}. ${item}`).join("\n");
 
+function sourceGroundedCount(field) {
+  return field.chapters.filter((chapter) => sourceGroundedLessons(field.slug).has(chapter.link.split("/").at(-1))).length;
+}
+
+const groundedLessonCache = new Map();
+function sourceGroundedLessons(fieldSlug) {
+  if (groundedLessonCache.has(fieldSlug)) return groundedLessonCache.get(fieldSlug);
+  const ledgerPath = resolve("knowledge-base", "fields", fieldSlug, "reading-evidence.json");
+  const lessons = existsSync(ledgerPath)
+    ? new Set(JSON.parse(readFileSync(ledgerPath, "utf8")).lessons.map((lesson) => lesson.lesson))
+    : new Set();
+  groundedLessonCache.set(fieldSlug, lessons);
+  return lessons;
+}
+
+function markLegacyManualAsDraft(content) {
+  const notice = `<div class="draft-status">
+  <strong>内容状态：待原稿驱动重写。</strong> 本页是早期手写稿，但还没有章节级原稿阅读账本；在补齐“原稿已获取—具体章节已读—观点已登记”之前，不计为正式学习文章。
+</div>`;
+  return content.replace(/(<div class="lesson-meta">[\s\S]*?<\/div>)/, `$1\n\n${notice}`);
+}
+
 function sourceNote(sources, cutoff) {
   return `<div class="source-note">资料核验至 ${cutoff}：${sources.map(({ label, url }) => `<a href="${url}">${label}</a>`).join("、")}。涉及新模型、法规或标准时，请按链接中的版本和适用范围复核。</div>`;
 }
 
 function renderIndex(field, domain, cutoff) {
   const active = field.chapters[0];
+  const grounded = sourceGroundedCount(field);
   return `# ${field.title}深研路线
 
 > 证据截止：**${cutoff}**。稳定基础不按年份淘汰；涉及模型能力、基准、标准、法规和产业状态的结论优先使用近三年一手来源，并保留发布日期与适用边界。
 
-<div class="lesson-meta"><span>${field.prefix}01—${field.prefix}40</span><span>领域深研</span><span>40 章 / 40 主题</span><span>机制＋实验＋作品证据</span></div>
+<div class="lesson-meta"><span>${field.prefix}01—${field.prefix}40</span><span>40 个独立主题</span><span>${grounded} 篇原稿驱动正式章</span><span>${40 - grounded} 篇待重写草稿</span></div>
+
+> **内容状态说明：**路线中的 40 个主题已经独立规划，但只有通过章节级来源账本和原稿阅读门禁的页面才称为正式学习文章。其余页面明确标记为待重写草稿，不再用字数或模板完整度冒充完成。
 
 ${field.promise}
 
@@ -153,8 +178,10 @@ export function writeDomain(field, domain, cutoff) {
   field.chapters.forEach((chapter, index) => {
     const page = chapter.link.split("/").at(-1);
     const manualSource = resolve("scripts", "field-content", "manual", field.slug, `${page}.md`);
-    const content = existsSync(manualSource)
-      ? readFileSync(manualSource, "utf8")
+    const hasManual = existsSync(manualSource);
+    const manualContent = hasManual ? readFileSync(manualSource, "utf8") : null;
+    const content = hasManual
+      ? sourceGroundedLessons(field.slug).has(page) ? manualContent : markLegacyManualAsDraft(manualContent)
       : renderCourseChapter(field, chapter, domain.details[Math.floor(index / 4)], cutoff, index);
     writeFileSync(resolve(root, `${chapter.link.replace("/fields/", "")}.md`), content);
   });
@@ -162,11 +189,14 @@ export function writeDomain(field, domain, cutoff) {
 
 export function writeOverview(fields, cutoff) {
   mkdirSync(root, { recursive: true });
+  const grounded = fields.reduce((sum, field) => sum + sourceGroundedCount(field), 0);
   writeFileSync(resolve(root, "index.md"), `# 领域深研学习库
 
 > 当前证据截止：**${cutoff}**。这里新增的不是六份书单，而是六套可以长期维护、逐章学习、用作品验证的知识系统。
 
-<div class="lesson-meta"><span>6 个领域</span><span>240 个完整章节</span><span>240 个独立主题</span><span>一手来源与持续更新</span></div>
+<div class="lesson-meta"><span>6 个领域</span><span>240 个独立主题</span><span>${grounded} 篇原稿驱动正式章</span><span>${240 - grounded} 篇待重写草稿</span></div>
+
+> **真实进度：**“主题已经规划”不等于“文章已经完成”。正式章必须能证明原稿已取得、具体章节已阅读、采用观点已登记，并由章节自身的学习任务决定结构。当前其余页面只作为待修草稿保留。
 
 ## 六个领域
 
@@ -176,7 +206,7 @@ ${fields.map((field) => `| [${field.title}](/fields/${field.slug}/) | ${field.pr
 
 ## 共同课程合同
 
-每个领域固定 40 个由浅入深的主题节点，每个主题独立成章，不采用“十个母题各切四篇”的结构。文章会在概念启蒙、原理推导、跟做实战、决策选型、案例复盘和前沿综合等文体间切换；共同保留的是可观察目标、可靠来源、动手应用、失败边界、自测和掌握证据，而不是一组机械重复的标题。写作规则见 [教学文章写作指南](/TEACHING-WRITING-GUIDE)。
+每个领域固定 40 个由浅入深的主题节点。正式写作不再把十个资料簇各切成四篇，也不再把固定栏目换序当作结构差异；每篇文章必须由该主题自己的认知难点、例子和练习组织。写作规则见 [教学文章写作指南](/TEACHING-WRITING-GUIDE)，来源状态见 [原稿与章节证据说明](/SOURCE-GROUNDING)。
 
 ## 防止再次陷入“接触很多但不深入”
 
