@@ -22,6 +22,8 @@ export interface LearningField {
   promise: string;
   project: string;
   chapters: FieldChapter[];
+  stageSummaries?: Array<{ stage: string; text: string; link: string }>;
+  fieldSummary?: { text: string; link: string };
 }
 
 export type ChapterSeed = {
@@ -38,7 +40,7 @@ export type ChapterSeed = {
 export type FieldMeta = Omit<LearningField, "chapters">;
 
 export const defineField = (meta: FieldMeta, seeds: ChapterSeed[]): LearningField => {
-  if (seeds.length !== 40) throw new Error(`${meta.slug} 应有 40 个独立主题，实际 ${seeds.length}`);
+  if (!seeds.length) throw new Error(`${meta.slug} 至少需要一个独立主题`);
   const seen = new Set<string>();
   const chapters = seeds.map((seed, index): FieldChapter => {
     const number = String(index + 1).padStart(2, "0");

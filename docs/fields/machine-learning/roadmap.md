@@ -15,7 +15,7 @@ flowchart TD
 
 顺序表达的是阻塞前置，不是职业等级。你可以围绕项目跳到后续章，但需要先完成它依赖的概念检查和风险说明。
 
-## 20 周、40 个独立主题
+## 40 个独立主题
 
 | 周 | 节点 | 主题 | 本章追问 | 最小产物 |
 |---|---|---|---|---|
@@ -59,6 +59,15 @@ flowchart TD
 | 19 | MLF38 | 服务、影子流量与灰度发布 | 离线优秀的模型怎样在不伤害用户时接触真实流量？ | 影子对照、金丝雀门禁与回滚演练 |
 | 20 | MLF39 | 监测输入、输出、性能与业务反馈 | 没有即时标签时，哪些信号能提示模型正在失效？ | 漂移仪表盘与分层告警 |
 | 20 | MLF40 | 从模型事故回到学习飞轮 | 一次事故怎样变成数据、评测、SOP 和组织能力的复利？ | 事故复盘、回归样本与更新路线 |
+
+## 阶段总结
+
+- [阶段总结 · 从业务问题到可信实验](/fields/machine-learning/stage-1-review)
+- [阶段总结 · 建立一条可解释强基线](/fields/machine-learning/stage-2-review)
+- [阶段总结 · 从表示设计到模型选型](/fields/machine-learning/stage-3-review)
+- [阶段总结 · 从预测分数到可信行动](/fields/machine-learning/stage-4-review)
+- [阶段总结 · 让模型在生产中持续可控](/fields/machine-learning/stage-5-review)
+- [机器学习板块学习总结](/fields/machine-learning/summary)
 
 ## 三层掌握目标
 

@@ -23,14 +23,18 @@ export function fieldSidebar(slug: string) {
       text: field.title,
       items: [
         { text: "领域总览与近期队列", link: `/fields/${slug}/` },
-        { text: "40 章学习路线", link: `/fields/${slug}/roadmap` },
+        { text: `${field.chapters.length} 章学习路线`, link: `/fields/${slug}/roadmap` },
         { text: "证据账本与更新规则", link: `/fields/${slug}/evidence` },
+        ...(field.fieldSummary ? [field.fieldSummary] : []),
       ],
     },
     ...stages.map((stage) => ({
       text: stage,
       collapsed: true,
-      items: field.chapters.filter((chapter) => chapter.stage === stage).map(({ text, link }) => ({ text, link })),
+      items: [
+        ...field.chapters.filter((chapter) => chapter.stage === stage).map(({ text, link }) => ({ text, link })),
+        ...(field.stageSummaries ?? []).filter((summary) => summary.stage === stage).map(({ text, link }) => ({ text, link })),
+      ],
     })),
   ];
 }

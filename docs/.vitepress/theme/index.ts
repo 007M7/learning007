@@ -9,6 +9,8 @@ import EvidenceTracker from "./components/EvidenceTracker.vue";
 import AdvancedMap from "./components/AdvancedMap.vue";
 import AgentFrontierMap from "./components/AgentFrontierMap.vue";
 import FieldMap from "./components/FieldMap.vue";
+import KnowledgeFlow from "./components/KnowledgeFlow.vue";
+import ResourceLibrary from "./components/ResourceLibrary.vue";
 import "./custom.css";
 
 export default {
@@ -23,5 +25,7 @@ export default {
     app.component("AdvancedMap", AdvancedMap);
     app.component("AgentFrontierMap", AgentFrontierMap);
     app.component("FieldMap", FieldMap);
+    app.component("KnowledgeFlow", KnowledgeFlow);
+    app.component("ResourceLibrary", ResourceLibrary);
   },
 } satisfies Theme;

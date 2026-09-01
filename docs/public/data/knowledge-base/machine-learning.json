@@ -1,0 +1,2587 @@
+{
+  "schema_version": 2,
+  "field": "machine-learning",
+  "title": "机器学习",
+  "updated_at": "2026-09-01",
+  "storage_policy": "仅保存无需登录即可直接阅读的书籍正文或论文全文 URL 与结构化元数据；不保存课程，不下载、不镜像原文。",
+  "selection_policy": [
+    "先依据学科主线、权威教材书目和代表性研究脉络确定候选，再核验全文入口。",
+    "书籍链接必须直接打开 PDF 或作者维护的在线正文，购买页、登录页和只有简介的页面不收录。",
+    "论文链接必须直接打开全文，优先 arXiv、PMLR、JMLR、会议论文集或作者主页 PDF。",
+    "收录表示全文入口可用，不代表文章已经引用；写作时仍需记录实际阅读范围与采用观点。"
+  ],
+  "modules": [
+    {
+      "id": "foundations",
+      "name": "入门与统计学习",
+      "goal": "建立问题、数据、监督学习与模型评价的第一套完整框架。"
+    },
+    {
+      "id": "theory",
+      "name": "数学、优化与泛化",
+      "goal": "理解优化、正则化、经验风险、模型容量与泛化行为。"
+    },
+    {
+      "id": "classical",
+      "name": "经典模型与表格学习",
+      "goal": "掌握树、核方法、集成学习、降维、AutoML 与模型解释。"
+    },
+    {
+      "id": "data-eval",
+      "name": "数据、评测与分布偏移",
+      "goal": "处理数据质量、标签、切分、校准、泄漏和分布变化。"
+    },
+    {
+      "id": "trustworthy",
+      "name": "因果、公平、安全与不确定性",
+      "goal": "区分预测与干预，理解可靠性、群体影响、隐私和攻击面。"
+    },
+    {
+      "id": "production",
+      "name": "生产机器学习",
+      "goal": "把模型接入数据、服务、监控、分布式训练和持续改进流程。"
+    }
+  ],
+  "resources": [
+    {
+      "id": "book-islr",
+      "type": "book",
+      "title": "An Introduction to Statistical Learning",
+      "creator": "Gareth James、Daniela Witten、Trevor Hastie、Robert Tibshirani",
+      "year": "2013",
+      "modules": [
+        "foundations",
+        "classical"
+      ],
+      "level": "starter",
+      "role": "统计学习、重采样、线性模型、树和无监督学习的入门主教材。",
+      "review_url": "/knowledge-base/reviews/machine-learning/islr",
+      "content_url": "https://www.statlearning.com/s/ISLRSeventhPrinting.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-understanding-ml",
+      "type": "book",
+      "title": "Understanding Machine Learning: From Theory to Algorithms",
+      "creator": "Shai Shalev-Shwartz、Shai Ben-David",
+      "year": "2014",
+      "modules": [
+        "theory"
+      ],
+      "level": "advanced",
+      "role": "系统学习 PAC、经验风险、在线学习、核方法、优化与泛化理论。",
+      "review_url": "/knowledge-base/reviews/machine-learning/understanding-ml",
+      "content_url": "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-mathematics-ml",
+      "type": "book",
+      "title": "Mathematics for Machine Learning",
+      "creator": "Marc Peter Deisenroth、A. Aldo Faisal、Cheng Soon Ong",
+      "year": "2020",
+      "modules": [
+        "theory"
+      ],
+      "level": "core",
+      "role": "按机器学习用途组织线性代数、矩阵分解、微积分与概率。",
+      "review_url": "/knowledge-base/reviews/machine-learning/mathematics-ml",
+      "content_url": "https://mml-book.github.io/book/mml-book.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-probml-intro",
+      "type": "book",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "creator": "Kevin P. Murphy",
+      "year": "2022",
+      "modules": [
+        "theory",
+        "classical"
+      ],
+      "level": "core",
+      "role": "连接概率建模、决策理论、经典机器学习与现代深度学习。",
+      "review_url": "/knowledge-base/reviews/machine-learning/probml-intro",
+      "content_url": "https://probml.github.io/pml-book/book1.html",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-probml-advanced",
+      "type": "book",
+      "title": "Probabilistic Machine Learning: Advanced Topics",
+      "creator": "Kevin P. Murphy",
+      "year": "2023",
+      "modules": [
+        "theory",
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "覆盖高级推断、结构化模型、因果、生成模型与不确定性。",
+      "review_url": "/knowledge-base/reviews/machine-learning/probml-advanced",
+      "content_url": "https://probml.github.io/pml-book/book2.html",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-fairness-ml",
+      "type": "book",
+      "title": "Fairness and Machine Learning",
+      "creator": "Solon Barocas、Moritz Hardt、Arvind Narayanan",
+      "year": "2023",
+      "modules": [
+        "trustworthy",
+        "data-eval"
+      ],
+      "level": "core",
+      "role": "把测量、模型、行动、群体影响与反馈放进社会技术框架。",
+      "review_url": "/knowledge-base/reviews/machine-learning/fairness-ml",
+      "content_url": "https://fairmlbook.org/pdf/fairmlbook.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-causal-what-if",
+      "type": "book",
+      "title": "Causal Inference: What If",
+      "creator": "Miguel A. Hernán、James M. Robins",
+      "year": "2026",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "以目标试验、识别假设和观察数据为主线学习现代因果推断。",
+      "review_url": "/knowledge-base/reviews/machine-learning/causal-what-if",
+      "content_url": "https://miguelhernan.org/s/hernanrobins_WhatIf_19aug26.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-interpretable-ml",
+      "type": "book",
+      "title": "Interpretable Machine Learning",
+      "creator": "Christoph Molnar",
+      "year": "持续更新",
+      "modules": [
+        "classical",
+        "trustworthy"
+      ],
+      "level": "core",
+      "role": "系统比较解释方法，并明确特征归因的假设与不可外推边界。",
+      "review_url": "/knowledge-base/reviews/machine-learning/interpretable-ml",
+      "content_url": "https://christophm.github.io/interpretable-ml-book/",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-deep-learning",
+      "type": "book",
+      "title": "Deep Learning",
+      "creator": "Ian Goodfellow、Yoshua Bengio、Aaron Courville",
+      "year": "2016",
+      "modules": [
+        "theory"
+      ],
+      "level": "core",
+      "role": "神经网络、优化、正则化、表示学习与生成模型的开放在线教材。",
+      "review_url": "/knowledge-base/reviews/machine-learning/deep-learning",
+      "content_url": "https://www.deeplearningbook.org/",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-gpml",
+      "type": "book",
+      "title": "Gaussian Processes for Machine Learning",
+      "creator": "Carl Edward Rasmussen、Christopher K. I. Williams",
+      "year": "2006",
+      "modules": [
+        "theory",
+        "classical",
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "高斯过程、核、边际似然与预测不确定性的经典专著。",
+      "review_url": "/knowledge-base/reviews/machine-learning/gpml",
+      "content_url": "https://gaussianprocess.org/gpml/chapters/RW.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-convex-optimization",
+      "type": "book",
+      "title": "Convex Optimization",
+      "creator": "Stephen Boyd、Lieven Vandenberghe",
+      "year": "2004",
+      "modules": [
+        "theory"
+      ],
+      "level": "advanced",
+      "role": "理解凸集、对偶、约束优化和机器学习优化问题的基础教材。",
+      "review_url": "/knowledge-base/reviews/machine-learning/convex-optimization",
+      "content_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-foundations-data-science",
+      "type": "book",
+      "title": "Foundations of Data Science",
+      "creator": "Avrim Blum、John Hopcroft、Ravindran Kannan",
+      "year": "2020",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "从高维几何、随机投影、谱方法和聚类建立数据科学理论基础。",
+      "review_url": "/knowledge-base/reviews/machine-learning/foundations-data-science",
+      "content_url": "https://www.cs.cornell.edu/jeh/book.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "book-d2l",
+      "type": "book",
+      "title": "Dive into Deep Learning",
+      "creator": "Aston Zhang、Zachary C. Lipton、Mu Li、Alexander J. Smola",
+      "year": "持续更新",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "starter",
+      "role": "用可执行代码连接机器学习数学、模型训练和工程实现。",
+      "review_url": "/knowledge-base/reviews/machine-learning/d2l",
+      "content_url": "https://d2l.ai/d2l-en.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-useful-things",
+      "type": "paper",
+      "title": "A Few Useful Things to Know About Machine Learning",
+      "creator": "Pedro Domingos",
+      "year": "2012",
+      "modules": [
+        "foundations",
+        "data-eval"
+      ],
+      "level": "core",
+      "role": "用实践反例校准泛化、过拟合、数据量、特征和模型复杂度判断。",
+      "content_url": "https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-random-forests",
+      "type": "paper",
+      "title": "Random Forests",
+      "creator": "Leo Breiman",
+      "year": "2001",
+      "modules": [
+        "classical"
+      ],
+      "level": "core",
+      "role": "随机森林的原始方法论文。",
+      "content_url": "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-bagging",
+      "type": "paper",
+      "title": "Bagging Predictors",
+      "creator": "Leo Breiman",
+      "year": "1996",
+      "modules": [
+        "classical"
+      ],
+      "level": "core",
+      "role": "通过自助采样降低不稳定学习器方差的原始论文。",
+      "content_url": "https://statistics.berkeley.edu/sites/default/files/tech-reports/421.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-adaboost",
+      "type": "paper",
+      "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+      "creator": "Yoav Freund、Robert E. Schapire",
+      "year": "1997",
+      "modules": [
+        "classical",
+        "theory"
+      ],
+      "level": "core",
+      "role": "AdaBoost 的原始理论与算法论文。",
+      "content_url": "https://www.face-rec.org/algorithms/Boosting-Ensemble/decision-theoretic_generalization.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-lightgbm",
+      "type": "paper",
+      "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+      "creator": "Guolin Ke 等",
+      "year": "2017",
+      "modules": [
+        "classical",
+        "production"
+      ],
+      "level": "core",
+      "role": "大规模梯度提升中的 GOSS 与 EFB。",
+      "content_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-tsne",
+      "type": "paper",
+      "title": "Visualizing Data using t-SNE",
+      "creator": "Laurens van der Maaten、Geoffrey Hinton",
+      "year": "2008",
+      "modules": [
+        "classical"
+      ],
+      "level": "core",
+      "role": "t-SNE 的概率邻域建模与低维可视化方法。",
+      "content_url": "https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-kmeans-plus-plus",
+      "type": "paper",
+      "title": "k-means++: The Advantages of Careful Seeding",
+      "creator": "David Arthur、Sergei Vassilvitskii",
+      "year": "2007",
+      "modules": [
+        "classical"
+      ],
+      "level": "core",
+      "role": "用概率化初始化改善 k-means 聚类质量。",
+      "content_url": "https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-proper-scoring",
+      "type": "paper",
+      "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+      "creator": "Tilmann Gneiting、Adrian E. Raftery",
+      "year": "2007",
+      "modules": [
+        "data-eval",
+        "trustworthy"
+      ],
+      "level": "core",
+      "role": "概率预测与校准评价的理论基础。",
+      "content_url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-hidden-debt",
+      "type": "paper",
+      "title": "Hidden Technical Debt in Machine Learning Systems",
+      "creator": "D. Sculley 等",
+      "year": "2015",
+      "modules": [
+        "production",
+        "data-eval"
+      ],
+      "level": "core",
+      "role": "把数据依赖、反馈回路和系统债务纳入模型设计。",
+      "content_url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-ml-test-score",
+      "type": "paper",
+      "title": "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction",
+      "creator": "Eric Breck 等",
+      "year": "2017",
+      "modules": [
+        "production"
+      ],
+      "level": "core",
+      "role": "用测试与监控清单评估生产机器学习系统的准备程度。",
+      "content_url": "https://storage.googleapis.com/gweb-research2023-media/pubtools/4156.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-gender-shades",
+      "type": "paper",
+      "title": "Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification",
+      "creator": "Joy Buolamwini、Timnit Gebru",
+      "year": "2018",
+      "modules": [
+        "trustworthy",
+        "data-eval"
+      ],
+      "level": "core",
+      "role": "用交叉群体切片揭示商业分类系统的性能差异。",
+      "content_url": "https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1412-6980",
+      "type": "paper",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "creator": "Diederik P. Kingma、Jimmy Ba",
+      "year": "2014",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1412.6980",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1711-05101",
+      "type": "paper",
+      "title": "Decoupled Weight Decay Regularization",
+      "creator": "Ilya Loshchilov、Frank Hutter",
+      "year": "2017",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1711.05101",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1207-0580",
+      "type": "paper",
+      "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+      "creator": "Geoffrey E. Hinton、Nitish Srivastava、Alex Krizhevsky、Ilya Sutskever、Ruslan R. Salakhutdinov",
+      "year": "2012",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1207.0580",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1502-03167",
+      "type": "paper",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "creator": "Sergey Ioffe、Christian Szegedy",
+      "year": "2015",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1502.03167",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1607-06450",
+      "type": "paper",
+      "title": "Layer Normalization",
+      "creator": "Jimmy Lei Ba、Jamie Ryan Kiros、Geoffrey E. Hinton",
+      "year": "2016",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1607.06450",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1609-04836",
+      "type": "paper",
+      "title": "On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima",
+      "creator": "Nitish Shirish Keskar、Dheevatsa Mudigere、Jorge Nocedal、Mikhail Smelyanskiy、Ping Tak Peter Tang",
+      "year": "2016",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1609.04836",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1611-03530",
+      "type": "paper",
+      "title": "Understanding deep learning requires rethinking generalization",
+      "creator": "Chiyuan Zhang、Samy Bengio、Moritz Hardt、Benjamin Recht、Oriol Vinyals",
+      "year": "2016",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1611.03530",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1912-02292",
+      "type": "paper",
+      "title": "Deep Double Descent: Where Bigger Models and More Data Hurt",
+      "creator": "Preetum Nakkiran、Gal Kaplun、Yamini Bansal、Tristan Yang、Boaz Barak、Ilya Sutskever",
+      "year": "2019",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1912.02292",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1906-11300",
+      "type": "paper",
+      "title": "Benign Overfitting in Linear Regression",
+      "creator": "Peter L. Bartlett、Philip M. Long、Gábor Lugosi、Alexander Tsigler",
+      "year": "2019",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1906.11300",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1710-09412",
+      "type": "paper",
+      "title": "mixup: Beyond Empirical Risk Minimization",
+      "creator": "Hongyi Zhang、Moustapha Cisse、Yann N. Dauphin、David Lopez-Paz",
+      "year": "2017",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1710.09412",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1803-03635",
+      "type": "paper",
+      "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+      "creator": "Jonathan Frankle、Michael Carbin",
+      "year": "2018",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1803.03635",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2201-02177",
+      "type": "paper",
+      "title": "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets",
+      "creator": "Alethea Power、Yuri Burda、Harri Edwards、Igor Babuschkin、Vedant Misra",
+      "year": "2022",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/2201.02177",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2001-08361",
+      "type": "paper",
+      "title": "Scaling Laws for Neural Language Models",
+      "creator": "Jared Kaplan、Sam McCandlish、Tom Henighan、Tom B. Brown、Benjamin Chess、Rewon Child、Scott Gray、Alec Radford、Jeffrey Wu、Dario Amodei",
+      "year": "2020",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/2001.08361",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2203-15556",
+      "type": "paper",
+      "title": "Training Compute-Optimal Large Language Models",
+      "creator": "Jordan Hoffmann、Sebastian Borgeaud、Arthur Mensch、Elena Buchatskaya、Trevor Cai、Eliza Rutherford、Diego de Las Casas、Lisa Anne Hendricks、Johannes Welbl、Aidan Clark、Tom Hennigan、Eric Noland、Katie Millican、George van den Driessche、Bogdan Damoc、Aurelia Guy、Simon Osindero、Karen Simonyan、Erich Elsen、Jack W. Rae、Oriol Vinyals、Laurent Sifre",
+      "year": "2022",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/2203.15556",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1206-5533",
+      "type": "paper",
+      "title": "Practical recommendations for gradient-based training of deep architectures",
+      "creator": "Yoshua Bengio",
+      "year": "2012",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1206.5533",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1503-02531",
+      "type": "paper",
+      "title": "Distilling the Knowledge in a Neural Network",
+      "creator": "Geoffrey Hinton、Oriol Vinyals、Jeff Dean",
+      "year": "2015",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1503.02531",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1602-07868",
+      "type": "paper",
+      "title": "Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks",
+      "creator": "Tim Salimans、Diederik P. Kingma",
+      "year": "2016",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1602.07868",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1511-07289",
+      "type": "paper",
+      "title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+      "creator": "Djork-Arné Clevert、Thomas Unterthiner、Sepp Hochreiter",
+      "year": "2015",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1511.07289",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1803-05407",
+      "type": "paper",
+      "title": "Averaging Weights Leads to Wider Optima and Better Generalization",
+      "creator": "Pavel Izmailov、Dmitrii Podoprikhin、Timur Garipov、Dmitry Vetrov、Andrew Gordon Wilson",
+      "year": "2018",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1803.05407",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1907-08610",
+      "type": "paper",
+      "title": "Lookahead Optimizer: k steps forward, 1 step back",
+      "creator": "Michael R. Zhang、James Lucas、Geoffrey Hinton、Jimmy Ba",
+      "year": "2019",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1907.08610",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1603-06560",
+      "type": "paper",
+      "title": "Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization",
+      "creator": "Lisha Li、Kevin Jamieson、Giulia DeSalvo、Afshin Rostamizadeh、Ameet Talwalkar",
+      "year": "2016",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1603.06560",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1206-2944",
+      "type": "paper",
+      "title": "Practical Bayesian Optimization of Machine Learning Algorithms",
+      "creator": "Jasper Snoek、Hugo Larochelle、Ryan P. Adams",
+      "year": "2012",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1206.2944",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1012-2599",
+      "type": "paper",
+      "title": "A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning",
+      "creator": "Eric Brochu、Vlad M. Cora、Nando de Freitas",
+      "year": "2010",
+      "modules": [
+        "foundations",
+        "theory"
+      ],
+      "level": "core",
+      "role": "优化、正则化、模型容量与泛化研究中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1012.2599",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1603-02754",
+      "type": "paper",
+      "title": "XGBoost: A Scalable Tree Boosting System",
+      "creator": "Tianqi Chen、Carlos Guestrin",
+      "year": "2016",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1603.02754",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1706-09516",
+      "type": "paper",
+      "title": "CatBoost: unbiased boosting with categorical features",
+      "creator": "Liudmila Prokhorenkova、Gleb Gusev、Aleksandr Vorobev、Anna Veronika Dorogush、Andrey Gulin",
+      "year": "2017",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1706.09516",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1908-07442",
+      "type": "paper",
+      "title": "TabNet: Attentive Interpretable Tabular Learning",
+      "creator": "Sercan O. Arik、Tomas Pfister",
+      "year": "2019",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1908.07442",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2012-06678",
+      "type": "paper",
+      "title": "TabTransformer: Tabular Data Modeling Using Contextual Embeddings",
+      "creator": "Xin Huang、Ashish Khetan、Milan Cvitkovic、Zohar Karnin",
+      "year": "2020",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/2012.06678",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2106-11959",
+      "type": "paper",
+      "title": "Revisiting Deep Learning Models for Tabular Data",
+      "creator": "Yury Gorishniy、Ivan Rubachev、Valentin Khrulkov、Artem Babenko",
+      "year": "2021",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/2106.11959",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2207-01848",
+      "type": "paper",
+      "title": "TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second",
+      "creator": "Noah Hollmann、Samuel Müller、Katharina Eggensperger、Frank Hutter",
+      "year": "2022",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/2207.01848",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2207-08815",
+      "type": "paper",
+      "title": "Why do tree-based models still outperform deep learning on tabular data?",
+      "creator": "Léo Grinsztajn、Edouard Oyallon、Gaël Varoquaux",
+      "year": "2022",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/2207.08815",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1802-03426",
+      "type": "paper",
+      "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+      "creator": "Leland McInnes、John Healy、James Melville",
+      "year": "2018",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1802.03426",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-0805-2368",
+      "type": "paper",
+      "title": "A Kernel Method for the Two-Sample Problem",
+      "creator": "Arthur Gretton、Karsten Borgwardt、Malte J. Rasch、Bernhard Scholkopf、Alexander J. Smola",
+      "year": "2008",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/0805.2368",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1705-07321",
+      "type": "paper",
+      "title": "Accelerated Hierarchical Density Clustering",
+      "creator": "Leland McInnes、John Healy",
+      "year": "2017",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1705.07321",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1106-1813",
+      "type": "paper",
+      "title": "SMOTE: Synthetic Minority Over-sampling Technique",
+      "creator": "N. V. Chawla、K. W. Bowyer、L. O. Hall、W. P. Kegelmeyer",
+      "year": "2011",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1106.1813",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1612-08468",
+      "type": "paper",
+      "title": "Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models",
+      "creator": "Daniel W. Apley、Jingyu Zhu",
+      "year": "2016",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1612.08468",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1602-04938",
+      "type": "paper",
+      "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+      "creator": "Marco Tulio Ribeiro、Sameer Singh、Carlos Guestrin",
+      "year": "2016",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1602.04938",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1705-07874",
+      "type": "paper",
+      "title": "A Unified Approach to Interpreting Model Predictions",
+      "creator": "Scott Lundberg、Su-In Lee",
+      "year": "2017",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1705.07874",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1703-04730",
+      "type": "paper",
+      "title": "Understanding Black-box Predictions via Influence Functions",
+      "creator": "Pang Wei Koh、Percy Liang",
+      "year": "2017",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1703.04730",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1703-01365",
+      "type": "paper",
+      "title": "Axiomatic Attribution for Deep Networks",
+      "creator": "Mukund Sundararajan、Ankur Taly、Qiqi Yan",
+      "year": "2017",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1703.01365",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1711-11279",
+      "type": "paper",
+      "title": "Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)",
+      "creator": "Been Kim、Martin Wattenberg、Justin Gilmer、Carrie Cai、James Wexler、Fernanda Viegas、Rory Sayres",
+      "year": "2017",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1711.11279",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1909-06312",
+      "type": "paper",
+      "title": "Neural Oblivious Decision Ensembles for Deep Learning on Tabular Data",
+      "creator": "Sergei Popov、Stanislav Morozov、Artem Babenko",
+      "year": "2019",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1909.06312",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1603-06212",
+      "type": "paper",
+      "title": "Evaluation of a Tree-based Pipeline Optimization Tool for Automating Data Science",
+      "creator": "Randal S. Olson、Nathan Bartley、Ryan J. Urbanowicz、Jason H. Moore",
+      "year": "2016",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1603.06212",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1908-00709",
+      "type": "paper",
+      "title": "AutoML: A Survey of the State-of-the-Art",
+      "creator": "Xin He、Kaiyong Zhao、Xiaowen Chu",
+      "year": "2019",
+      "modules": [
+        "classical"
+      ],
+      "level": "advanced",
+      "role": "经典模型、表格学习、自动化建模或模型解释中的代表性原始论文。",
+      "content_url": "https://arxiv.org/pdf/1908.00709",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1803-09010",
+      "type": "paper",
+      "title": "Datasheets for Datasets",
+      "creator": "Timnit Gebru、Jamie Morgenstern、Briana Vecchione、Jennifer Wortman Vaughan、Hanna Wallach、Hal Daumé、Kate Crawford",
+      "year": "2018",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1803.09010",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1810-03993",
+      "type": "paper",
+      "title": "Model Cards for Model Reporting",
+      "creator": "Margaret Mitchell、Simone Wu、Andrew Zaldivar、Parker Barnes、Lucy Vasserman、Ben Hutchinson、Elena Spitzer、Inioluwa Deborah Raji、Timnit Gebru",
+      "year": "2018",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1810.03993",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1805-03677",
+      "type": "paper",
+      "title": "The Dataset Nutrition Label: A Framework To Drive Higher Data Quality Standards",
+      "creator": "Sarah Holland、Ahmed Hosny、Sarah Newman、Joshua Joseph、Kasia Chmielinski",
+      "year": "2018",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1805.03677",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2303-10158",
+      "type": "paper",
+      "title": "Data-centric Artificial Intelligence: A Survey",
+      "creator": "Daochen Zha、Zaid Pervaiz Bhat、Kwei-Herng Lai、Fan Yang、Zhimeng Jiang、Shaochen Zhong、Xia Hu",
+      "year": "2023",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2303.10158",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1811-03402",
+      "type": "paper",
+      "title": "A Survey on Data Collection for Machine Learning: a Big Data -- AI Integration Perspective",
+      "creator": "Yuji Roh、Geon Heo、Steven Euijong Whang",
+      "year": "2018",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1811.03402",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2012-07421",
+      "type": "paper",
+      "title": "WILDS: A Benchmark of in-the-Wild Distribution Shifts",
+      "creator": "Pang Wei Koh、Shiori Sagawa、Henrik Marklund、Sang Michael Xie、Marvin Zhang、Akshay Balsubramani、Weihua Hu、Michihiro Yasunaga、Richard Lanas Phillips、Irena Gao、Tony Lee、Etienne David、Ian Stavness、Wei Guo、Berton A. Earnshaw、Imran S. Haque、Sara Beery、Jure Leskovec、Anshul Kundaje、Emma Pierson、Sergey Levine、Chelsea Finn、Percy Liang",
+      "year": "2020",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2012.07421",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2007-01434",
+      "type": "paper",
+      "title": "In Search of Lost Domain Generalization",
+      "creator": "Ishaan Gulrajani、David Lopez-Paz",
+      "year": "2020",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2007.01434",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1407-7722",
+      "type": "paper",
+      "title": "OpenML: networked science in machine learning",
+      "creator": "Joaquin Vanschoren、Jan N. van Rijn、Bernd Bischl、Luis Torgo",
+      "year": "2014",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1407.7722",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1703-00512",
+      "type": "paper",
+      "title": "PMLB: A Large Benchmark Suite for Machine Learning Evaluation and Comparison",
+      "creator": "Randal S. Olson、William La Cava、Patryk Orzechowski、Ryan J. Urbanowicz、Jason H. Moore",
+      "year": "2017",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1703.00512",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1706-04599",
+      "type": "paper",
+      "title": "On Calibration of Modern Neural Networks",
+      "creator": "Chuan Guo、Geoff Pleiss、Yu Sun、Kilian Q. Weinberger",
+      "year": "2017",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1706.04599",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1905-11659",
+      "type": "paper",
+      "title": "Evaluating and Calibrating Uncertainty Prediction in Regression Tasks",
+      "creator": "Dan Levi、Liran Gispan、Niv Giladi、Ethan Fetaya",
+      "year": "2019",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1905.11659",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2107-07511",
+      "type": "paper",
+      "title": "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification",
+      "creator": "Anastasios N. Angelopoulos、Stephen Bates",
+      "year": "2021",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2107.07511",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2208-02814",
+      "type": "paper",
+      "title": "Conformal Risk Control",
+      "creator": "Anastasios N. Angelopoulos、Stephen Bates、Adam Fisch、Lihua Lei、Tal Schuster",
+      "year": "2022",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2208.02814",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1506-02629",
+      "type": "paper",
+      "title": "Generalization in Adaptive Data Analysis and Holdout Reuse",
+      "creator": "Cynthia Dwork、Vitaly Feldman、Moritz Hardt、Toniann Pitassi、Omer Reingold、Aaron Roth",
+      "year": "2015",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1506.02629",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1411-2664",
+      "type": "paper",
+      "title": "Preserving Statistical Validity in Adaptive Data Analysis",
+      "creator": "Cynthia Dwork、Vitaly Feldman、Moritz Hardt、Toniann Pitassi、Omer Reingold、Aaron Roth",
+      "year": "2014",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1411.2664",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2011-03395",
+      "type": "paper",
+      "title": "Underspecification Presents Challenges for Credibility in Modern Machine Learning",
+      "creator": "Alexander D'Amour、Katherine Heller、Dan Moldovan、Ben Adlam、Babak Alipanahi、Alex Beutel、Christina Chen、Jonathan Deaton、Jacob Eisenstein、Matthew D. Hoffman、Farhad Hormozdiari、Neil Houlsby、Shaobo Hou、Ghassen Jerfel、Alan Karthikesalingam、Mario Lucic、Yian Ma、Cory McLean、Diana Mincu、Akinori Mitani、Andrea Montanari、Zachary Nado、Vivek Natarajan、Christopher Nielson、Thomas F. Osborne、Rajiv Raman、Kim Ramasamy、Rory Sayres、Jessica Schrouff、Martin Seneviratne、Shannon Sequeira、Harini Suresh、Victor Veitch、Max Vladymyrov、Xuezhi Wang、Kellie Webster、Steve Yadlowsky、Taedong Yun、Xiaohua Zhai、D. Sculley",
+      "year": "2020",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2011.03395",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2004-07780",
+      "type": "paper",
+      "title": "Shortcut Learning in Deep Neural Networks",
+      "creator": "Robert Geirhos、Jörn-Henrik Jacobsen、Claudio Michaelis、Richard Zemel、Wieland Brendel、Matthias Bethge、Felix A. Wichmann",
+      "year": "2020",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2004.07780",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1906-02530",
+      "type": "paper",
+      "title": "Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift",
+      "creator": "Yaniv Ovadia、Emily Fertig、Jie Ren、Zachary Nado、D Sculley、Sebastian Nowozin、Joshua V. Dillon、Balaji Lakshminarayanan、Jasper Snoek",
+      "year": "2019",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1906.02530",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1810-11953",
+      "type": "paper",
+      "title": "Failing Loudly: An Empirical Study of Methods for Detecting Dataset Shift",
+      "creator": "Stephan Rabanser、Stephan Günnemann、Zachary C. Lipton",
+      "year": "2018",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1810.11953",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1802-03916",
+      "type": "paper",
+      "title": "Detecting and Correcting for Label Shift with Black Box Predictors",
+      "creator": "Zachary C. Lipton、Yu-Xiang Wang、Alex Smola",
+      "year": "2018",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1802.03916",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2005-00687",
+      "type": "paper",
+      "title": "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
+      "creator": "Weihua Hu、Matthias Fey、Marinka Zitnik、Yuxiao Dong、Hongyu Ren、Bowen Liu、Michele Catasta、Jure Leskovec",
+      "year": "2020",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2005.00687",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2009-10795",
+      "type": "paper",
+      "title": "Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics",
+      "creator": "Swabha Swayamdipta、Roy Schwartz、Nicholas Lourie、Yizhong Wang、Hannaneh Hajishirzi、Noah A. Smith、Yejin Choi",
+      "year": "2020",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2009.10795",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1904-02868",
+      "type": "paper",
+      "title": "Data Shapley: Equitable Valuation of Data for Machine Learning",
+      "creator": "Amirata Ghorbani、James Zou",
+      "year": "2019",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1904.02868",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1911-07128",
+      "type": "paper",
+      "title": "Scalability vs. Utility: Do We Have to Sacrifice One for the Other in Data Importance Quantification?",
+      "creator": "Ruoxi Jia、Fan Wu、Xuehui Sun、Jiacen Xu、David Dao、Bhavya Kailkhura、Ce Zhang、Bo Li、Dawn Song",
+      "year": "2019",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1911.07128",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1605-07723",
+      "type": "paper",
+      "title": "Data Programming: Creating Large Training Sets, Quickly",
+      "creator": "Alexander Ratner、Christopher De Sa、Sen Wu、Daniel Selsam、Christopher Ré",
+      "year": "2016",
+      "modules": [
+        "data-eval"
+      ],
+      "level": "advanced",
+      "role": "数据质量、评测、校准、数据价值或分布偏移中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1605.07723",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1104-3913",
+      "type": "paper",
+      "title": "Fairness Through Awareness",
+      "creator": "Cynthia Dwork、Moritz Hardt、Toniann Pitassi、Omer Reingold、Rich Zemel",
+      "year": "2011",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1104.3913",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1610-02413",
+      "type": "paper",
+      "title": "Equality of Opportunity in Supervised Learning",
+      "creator": "Moritz Hardt、Eric Price、Nathan Srebro",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1610.02413",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1709-02012",
+      "type": "paper",
+      "title": "On Fairness and Calibration",
+      "creator": "Geoff Pleiss、Manish Raghavan、Felix Wu、Jon Kleinberg、Kilian Q. Weinberger",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1709.02012",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1610-07524",
+      "type": "paper",
+      "title": "Fair prediction with disparate impact: A study of bias in recidivism prediction instruments",
+      "creator": "Alexandra Chouldechova",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1610.07524",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1412-3756",
+      "type": "paper",
+      "title": "Certifying and removing disparate impact",
+      "creator": "Michael Feldman、Sorelle Friedler、John Moeller、Carlos Scheidegger、Suresh Venkatasubramanian",
+      "year": "2014",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1412.3756",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1811-07867",
+      "type": "paper",
+      "title": "Prediction-Based Decisions and Fairness: A Catalogue of Choices, Assumptions, and Definitions",
+      "creator": "Shira Mitchell、Eric Potash、Solon Barocas、Alexander D'Amour、Kristian Lum",
+      "year": "2018",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1811.07867",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1711-07076",
+      "type": "paper",
+      "title": "Does mitigating ML's impact disparity require treatment disparity?",
+      "creator": "Zachary C. Lipton、Alexandra Chouldechova、Julian McAuley",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1711.07076",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1711-00399",
+      "type": "paper",
+      "title": "Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR",
+      "creator": "Sandra Wachter、Brent Mittelstadt、Chris Russell",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1711.00399",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1702-08608",
+      "type": "paper",
+      "title": "Towards A Rigorous Science of Interpretable Machine Learning",
+      "creator": "Finale Doshi-Velez、Been Kim",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1702.08608",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1612-01474",
+      "type": "paper",
+      "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+      "creator": "Balaji Lakshminarayanan、Alexander Pritzel、Charles Blundell",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1612.01474",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1703-04977",
+      "type": "paper",
+      "title": "What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?",
+      "creator": "Alex Kendall、Yarin Gal",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1703.04977",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1506-02142",
+      "type": "paper",
+      "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+      "creator": "Yarin Gal、Zoubin Ghahramani",
+      "year": "2015",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1506.02142",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1610-05820",
+      "type": "paper",
+      "title": "Membership Inference Attacks against Machine Learning Models",
+      "creator": "Reza Shokri、Marco Stronati、Congzheng Song、Vitaly Shmatikov",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1610.05820",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1609-02943",
+      "type": "paper",
+      "title": "Stealing Machine Learning Models via Prediction APIs",
+      "creator": "Florian Tramèr、Fan Zhang、Ari Juels、Michael K. Reiter、Thomas Ristenpart",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1609.02943",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1607-00133",
+      "type": "paper",
+      "title": "Deep Learning with Differential Privacy",
+      "creator": "Martín Abadi、Andy Chu、Ian Goodfellow、H. Brendan McMahan、Ilya Mironov、Kunal Talwar、Li Zhang",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1607.00133",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1312-6199",
+      "type": "paper",
+      "title": "Intriguing properties of neural networks",
+      "creator": "Christian Szegedy、Wojciech Zaremba、Ilya Sutskever、Joan Bruna、Dumitru Erhan、Ian Goodfellow、Rob Fergus",
+      "year": "2013",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1312.6199",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1412-6572",
+      "type": "paper",
+      "title": "Explaining and Harnessing Adversarial Examples",
+      "creator": "Ian J. Goodfellow、Jonathon Shlens、Christian Szegedy",
+      "year": "2014",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1412.6572",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1706-06083",
+      "type": "paper",
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "creator": "Aleksander Madry、Aleksandar Makelov、Ludwig Schmidt、Dimitris Tsipras、Adrian Vladu",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1706.06083",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1510-04342",
+      "type": "paper",
+      "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+      "creator": "Stefan Wager、Susan Athey",
+      "year": "2015",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1510.04342",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1610-01271",
+      "type": "paper",
+      "title": "Generalized Random Forests",
+      "creator": "Susan Athey、Julie Tibshirani、Stefan Wager",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1610.01271",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1608-00060",
+      "type": "paper",
+      "title": "Double/Debiased Machine Learning for Treatment and Causal Parameters",
+      "creator": "Victor Chernozhukov、Denis Chetverikov、Mert Demirer、Esther Duflo、Christian Hansen、Whitney Newey、James Robins",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1608.00060",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1706-03461",
+      "type": "paper",
+      "title": "Meta-learners for Estimating Heterogeneous Treatment Effects using Machine Learning",
+      "creator": "Sören R. Künzel、Jasjeet S. Sekhon、Peter J. Bickel、Bin Yu",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1706.03461",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1606-03976",
+      "type": "paper",
+      "title": "Estimating individual treatment effect: generalization bounds and algorithms",
+      "creator": "Uri Shalit、Fredrik D. Johansson、David Sontag",
+      "year": "2016",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1606.03976",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1906-02120",
+      "type": "paper",
+      "title": "Adapting Neural Networks for the Estimation of Treatment Effects",
+      "creator": "Claudia Shi、David M. Blei、Victor Veitch",
+      "year": "2019",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1906.02120",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1705-08821",
+      "type": "paper",
+      "title": "Causal Effect Inference with Deep Latent-Variable Models",
+      "creator": "Christos Louizos、Uri Shalit、Joris Mooij、David Sontag、Richard Zemel、Max Welling",
+      "year": "2017",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1705.08821",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2011-04216",
+      "type": "paper",
+      "title": "DoWhy: An End-to-End Library for Causal Inference",
+      "creator": "Amit Sharma、Emre Kiciman",
+      "year": "2020",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2011.04216",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1803-01422",
+      "type": "paper",
+      "title": "DAGs with NO TEARS: Continuous Optimization for Structure Learning",
+      "creator": "Xun Zheng、Bryon Aragam、Pradeep Ravikumar、Eric P. Xing",
+      "year": "2018",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1803.01422",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1904-10098",
+      "type": "paper",
+      "title": "DAG-GNN: DAG Structure Learning with Graph Neural Networks",
+      "creator": "Yue Yu、Jie Chen、Tian Gao、Mo Yu",
+      "year": "2019",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1904.10098",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1907-02893",
+      "type": "paper",
+      "title": "Invariant Risk Minimization",
+      "creator": "Martin Arjovsky、Léon Bottou、Ishaan Gulrajani、David Lopez-Paz",
+      "year": "2019",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1907.02893",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1501-01332",
+      "type": "paper",
+      "title": "Causal inference using invariant prediction: identification and confidence intervals",
+      "creator": "Jonas Peters、Peter Bühlmann、Nicolai Meinshausen",
+      "year": "2015",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1501.01332",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1911-10500",
+      "type": "paper",
+      "title": "Causality for Machine Learning",
+      "creator": "Bernhard Schölkopf",
+      "year": "2019",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1911.10500",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2102-11107",
+      "type": "paper",
+      "title": "Towards Causal Representation Learning",
+      "creator": "Bernhard Schölkopf、Francesco Locatello、Stefan Bauer、Nan Rosemary Ke、Nal Kalchbrenner、Anirudh Goyal、Yoshua Bengio",
+      "year": "2021",
+      "modules": [
+        "trustworthy"
+      ],
+      "level": "advanced",
+      "role": "公平、隐私、安全、不确定性或因果推断中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2102.11107",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1712-05889",
+      "type": "paper",
+      "title": "Ray: A Distributed Framework for Emerging AI Applications",
+      "creator": "Philipp Moritz、Robert Nishihara、Stephanie Wang、Alexey Tumanov、Richard Liaw、Eric Liang、Melih Elibol、Zongheng Yang、William Paul、Michael I. Jordan、Ion Stoica",
+      "year": "2017",
+      "modules": [
+        "production"
+      ],
+      "level": "advanced",
+      "role": "分布式训练、联邦学习、机器学习系统或可复现工程中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1712.05889",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1605-08695",
+      "type": "paper",
+      "title": "TensorFlow: A system for large-scale machine learning",
+      "creator": "Martín Abadi、Paul Barham、Jianmin Chen、Zhifeng Chen、Andy Davis、Jeffrey Dean、Matthieu Devin、Sanjay Ghemawat、Geoffrey Irving、Michael Isard、Manjunath Kudlur、Josh Levenberg、Rajat Monga、Sherry Moore、Derek G. Murray、Benoit Steiner、Paul Tucker、Vijay Vasudevan、Pete Warden、Martin Wicke、Yuan Yu、Xiaoqiang Zheng",
+      "year": "2016",
+      "modules": [
+        "production"
+      ],
+      "level": "advanced",
+      "role": "分布式训练、联邦学习、机器学习系统或可复现工程中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1605.08695",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1602-05629",
+      "type": "paper",
+      "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+      "creator": "H. Brendan McMahan、Eider Moore、Daniel Ramage、Seth Hampson、Blaise Agüera y Arcas",
+      "year": "2016",
+      "modules": [
+        "production"
+      ],
+      "level": "advanced",
+      "role": "分布式训练、联邦学习、机器学习系统或可复现工程中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1602.05629",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1611-04482",
+      "type": "paper",
+      "title": "Practical Secure Aggregation for Federated Learning on User-Held Data",
+      "creator": "Keith Bonawitz、Vladimir Ivanov、Ben Kreuter、Antonio Marcedone、H. Brendan McMahan、Sarvar Patel、Daniel Ramage、Aaron Segal、Karn Seth",
+      "year": "2016",
+      "modules": [
+        "production"
+      ],
+      "level": "advanced",
+      "role": "分布式训练、联邦学习、机器学习系统或可复现工程中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1611.04482",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-1912-04977",
+      "type": "paper",
+      "title": "Advances and Open Problems in Federated Learning",
+      "creator": "Peter Kairouz、H. Brendan McMahan、Brendan Avent、Aurélien Bellet、Mehdi Bennis、Arjun Nitin Bhagoji、Kallista Bonawitz、Zachary Charles、Graham Cormode、Rachel Cummings、Rafael G. L. D'Oliveira、Hubert Eichner、Salim El Rouayheb、David Evans、Josh Gardner、Zachary Garrett、Adrià Gascón、Badih Ghazi、Phillip B. Gibbons、Marco Gruteser、Zaid Harchaoui、Chaoyang He、Lie He、Zhouyuan Huo、Ben Hutchinson、Justin Hsu、Martin Jaggi、Tara Javidi、Gauri Joshi、Mikhail Khodak、Jakub Konečný、Aleksandra Korolova、Farinaz Koushanfar、Sanmi Koyejo、Tancrède Lepoint、Yang Liu、Prateek Mittal、Mehryar Mohri、Richard Nock、Ayfer Özgür、Rasmus Pagh、Mariana Raykova、Hang Qi、Daniel Ramage、Ramesh Raskar、Dawn Song、Weikang Song、Sebastian U. Stich、Ziteng Sun、Ananda Theertha Suresh、Florian Tramèr、Praneeth Vepakomma、Jianyu Wang、Li Xiong、Zheng Xu、Qiang Yang、Felix X. Yu、Han Yu、Sen Zhao",
+      "year": "2019",
+      "modules": [
+        "production"
+      ],
+      "level": "advanced",
+      "role": "分布式训练、联邦学习、机器学习系统或可复现工程中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/1912.04977",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2205-02302",
+      "type": "paper",
+      "title": "Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+      "creator": "Dominik Kreuzberger、Niklas Kühl、Sebastian Hirschl",
+      "year": "2022",
+      "modules": [
+        "production"
+      ],
+      "level": "advanced",
+      "role": "分布式训练、联邦学习、机器学习系统或可复现工程中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2205.02302",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    },
+    {
+      "id": "paper-arxiv-2003-12206",
+      "type": "paper",
+      "title": "Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program)",
+      "creator": "Joelle Pineau、Philippe Vincent-Lamarre、Koustuv Sinha、Vincent Larivière、Alina Beygelzimer、Florence d'Alché-Buc、Emily Fox、Hugo Larochelle",
+      "year": "2020",
+      "modules": [
+        "production"
+      ],
+      "level": "advanced",
+      "role": "分布式训练、联邦学习、机器学习系统或可复现工程中的核心论文。",
+      "content_url": "https://arxiv.org/pdf/2003.12206",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "arxiv-api-and-tavily-structure",
+        "checked_at": "2026-09-01"
+      }
+    }
+  ]
+}

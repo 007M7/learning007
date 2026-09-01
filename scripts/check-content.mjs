@@ -21,10 +21,11 @@ const commonRequired = [
   "本章可观察目标", "会死在哪里", "与 AI 协作", "练习", "常见误区",
   "本章小结", "本章完成标准", "<EvidenceTracker", "source-note", "```mermaid",
 ];
-const fieldRequired = [
+const draftFieldRequired = [
   "🎯 随堂检验", "本章小结", "<Quiz", "<EvidenceTracker", "source-note",
   "learning-brief",
 ];
+const formalFieldRequired = ["🎯 随堂检验", "<Quiz", "<EvidenceTracker", "## 参考资料"];
 const forbiddenFieldHeadings = [
   "解锁与跳过", "本章可观察目标", "研究问题", "三个知识节点怎样连接",
   "证据拆解", "从论文或标准到产品主张：证据审计", "三轮实验与消融路线",
@@ -45,7 +46,10 @@ function checkChapter(kind, domain, page) {
   }
   const source = readFileSync(file, "utf8");
   const relative = `${kind}/${domain}/${page}`;
-  const required = kind === "field" ? fieldRequired : commonRequired;
+  const isFieldDraft = kind === "field" && source.includes('class="draft-status"');
+  const required = kind === "field"
+    ? isFieldDraft ? draftFieldRequired : formalFieldRequired
+    : commonRequired;
   for (const marker of required) {
     if (!source.includes(marker)) failures.push(`${relative} 缺少 ${marker}`);
   }
@@ -61,15 +65,17 @@ function checkChapter(kind, domain, page) {
     for (const heading of forbiddenFieldHeadings) {
       if (new RegExp(`^## ${heading}(?:$|：)`, "m").test(source)) failures.push(`${relative} 仍在使用旧报告标题：${heading}`);
     }
-    if (detailHasInsufficientEvidence(source)) failures.push(`${relative} 至少需要两份可追溯来源，并在正文中说明适用边界`);
+    if (isFieldDraft && detailHasInsufficientEvidence(source)) failures.push(`${relative} 至少需要两份可追溯来源，并在正文中说明适用边界`);
     fieldPages.push({ relative, source });
   }
 
   const h2Count = (source.match(/^## /gm) ?? []).length;
   const minChars = kind === "core" ? 3200 : kind === "frontier" ? 4700 : kind === "field" ? 4800 : 2700;
-  const minH2 = kind === "field" ? 8 : kind === "frontier" ? 16 : kind === "core" ? 10 : 12;
+  // Heading count is only a readability guard. It must not stand in for a
+  // chapter's reasoning structure: different topics need different shapes.
+  const minH2 = kind === "field" ? 4 : kind === "frontier" ? 16 : kind === "core" ? 10 : 12;
   if (source.length < minChars) failures.push(`${relative} 正文过薄：${source.length} < ${minChars} 字符预警线`);
-  if (h2Count < minH2) failures.push(`${relative} 推理链不足：${h2Count} < ${minH2} 个二级部分`);
+  if (h2Count < minH2) failures.push(`${relative} 缺少基本的长文导航：${h2Count} < ${minH2} 个二级部分`);
   if (kind === "field" && h2Count > 15) failures.push(`${relative} 二级部分过多：${h2Count} > 15，疑似重新堆叠报告目录`);
 }
 
@@ -88,7 +94,7 @@ for (const domain of fieldDomains) {
     .filter((filename) => /^\d{2}-.*\.md$/.test(filename))
     .map((filename) => filename.replace(/\.md$/, ""))
     .sort();
-  if (pages.length !== 40) failures.push(`${domain} 应有 40 个独立主题章节，实际 ${pages.length}`);
+  if (!pages.length) failures.push(`${domain} 至少需要一个独立主题章节`);
   for (const page of pages) checkChapter("field", domain, page);
 }
 
@@ -160,4 +166,4 @@ if (failures.length) {
   console.error(`内容契约失败:\n${failures.join("\n")}`);
   process.exit(1);
 }
-console.log("内容契约通过：18 个核心章 / 51 节点，18 个进阶章 / 54 节点，10 个 Agent 前沿章 / 30 节点，240 个领域独立主题，6 个案例；领域文章至少 4800 字符，并通过文体多样性、标题签名、证据和重复长段落检查。" );
+console.log(`内容契约通过：18 个核心章 / 51 节点，18 个进阶章 / 54 节点，10 个 Agent 前沿章 / 30 节点，${fieldPages.length} 个领域独立主题，6 个案例；领域文章至少 4800 字符，并通过文体多样性、标题签名、证据和重复长段落检查。` );

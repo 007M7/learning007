@@ -10,6 +10,18 @@ function sourceGroundedCount(field) {
   return field.chapters.filter((chapter) => sourceGroundedLessons(field.slug).has(chapter.link.split("/").at(-1))).length;
 }
 
+function existingFormalContent(field, page) {
+  const path = resolve(root, field.slug, `${page}.md`);
+  if (!existsSync(path)) return null;
+  const content = readFileSync(path, "utf8");
+  const required = ["<KnowledgeFlow", "## 🎯 随堂检验", "<Quiz", "## 参考资料", "<EvidenceTracker"];
+  return !content.includes('class="draft-status"') && required.every((marker) => content.includes(marker)) ? content : null;
+}
+
+function formalLessonCount(field) {
+  return field.chapters.filter((chapter) => existingFormalContent(field, chapter.link.split("/").at(-1))).length;
+}
+
 const groundedLessonCache = new Map();
 function sourceGroundedLessons(fieldSlug) {
   if (groundedLessonCache.has(fieldSlug)) return groundedLessonCache.get(fieldSlug);
@@ -35,13 +47,14 @@ function sourceNote(sources, cutoff) {
 function renderIndex(field, domain, cutoff) {
   const active = field.chapters[0];
   const grounded = sourceGroundedCount(field);
+  const formal = formalLessonCount(field);
   return `# ${field.title}深研路线
 
 > 证据截止：**${cutoff}**。稳定基础不按年份淘汰；涉及模型能力、基准、标准、法规和产业状态的结论优先使用近三年一手来源，并保留发布日期与适用边界。
 
-<div class="lesson-meta"><span>${field.prefix}01—${field.prefix}40</span><span>40 个独立主题</span><span>${grounded} 篇原稿驱动正式章</span><span>${40 - grounded} 篇待重写草稿</span></div>
+<div class="lesson-meta"><span>${field.prefix}01—${field.prefix}${String(field.chapters.length).padStart(2, "0")}</span><span>${field.chapters.length} 个独立主题</span><span>${formal} 篇正式文章</span><span>${grounded} 篇已登记原稿阅读</span></div>
 
-> **内容状态说明：**路线中的 40 个主题已经独立规划，但只有通过章节级来源账本和原稿阅读门禁的页面才称为正式学习文章。其余页面明确标记为待重写草稿，不再用字数或模板完整度冒充完成。
+> **内容状态说明：**路线中的 ${field.chapters.length} 个主题已经独立规划，${formal} 篇已通过正式文章结构门禁，其中 ${grounded} 篇另有章节级原稿阅读账本。未通过门禁的页面会明确保留草稿标识。章节数服从知识前置与阶段产物，后续可以增补必要主题。
 
 ${field.promise}
 
@@ -49,13 +62,13 @@ ${field.promise}
 
 <FieldMap domain="${field.slug}" />
 
-## 近期只激活 3 个节点
+## 建议从 3 个节点开始
 
 | 节点 | 可观察动作 | 完成证据 |
 |---|---|---|
 ${field.chapters.slice(0, 3).map((chapter, index) => `| ${chapter.ids[0]} ${chapter.text.replace(/^\d+ · /, "")} | ${index === 0 ? domain.active[0].action : `完成“${chapter.outcome}”`} | ${index === 0 ? domain.active[0].evidence : "可复查产物＋一次失败边界说明"} |`).join("\n")}
 
-其余 37 个主题保持 locked/later。只有首章达到 basic，才按真实项目暴露的阻塞选择下一章；路线图是导航，不是同时展开的待办清单。
+先完成这 3 个节点，再按真实项目暴露的阻塞选择后续章节。路线图是导航，不是同时展开的待办清单。已经有项目经验的读者可以跳转，但要补齐目标章节依赖的产物。
 
 ## 本领域的五条当前判断
 
@@ -75,7 +88,7 @@ ${list(domain.projectCriteria)}
 
 ## 开始方式
 
-先看 [学习路线与知识图谱](./roadmap)，再进入 [${active.text}](${active.link})。若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
+先看 [学习路线与知识图谱](./roadmap)，再进入 [${active.text}](${active.link})。${field.fieldSummary ? `完成阶段练习后使用 [${field.fieldSummary.text}](${field.fieldSummary.link}) 做完整路径迁移。` : ""}若前置不足，只补阻塞当前实验的最小知识，不把学习变成无限准备。
 
 ${sourceNote(domain.overviewSources, cutoff)}
 `;
@@ -102,11 +115,17 @@ flowchart TD
 
 顺序表达的是阻塞前置，不是职业等级。你可以围绕项目跳到后续章，但需要先完成它依赖的概念检查和风险说明。
 
-## 20 周、40 个独立主题
+## ${field.chapters.length} 个独立主题
 
 | 周 | 节点 | 主题 | 本章追问 | 最小产物 |
 |---|---|---|---|---|
 ${rows}
+
+${field.stageSummaries?.length ? `## 阶段总结
+
+${field.stageSummaries.map((summary) => `- [${summary.text}](${summary.link})`).join("\n")}
+${field.fieldSummary ? `- [${field.fieldSummary.text}](${field.fieldSummary.link})` : ""}
+` : ""}
 
 ## 三层掌握目标
 
@@ -180,9 +199,10 @@ export function writeDomain(field, domain, cutoff) {
     const manualSource = resolve("scripts", "field-content", "manual", field.slug, `${page}.md`);
     const hasManual = existsSync(manualSource);
     const manualContent = hasManual ? readFileSync(manualSource, "utf8") : null;
+    const formalContent = existingFormalContent(field, page);
     const content = hasManual
       ? sourceGroundedLessons(field.slug).has(page) ? manualContent : markLegacyManualAsDraft(manualContent)
-      : renderCourseChapter(field, chapter, domain.details[Math.floor(index / 4)], cutoff, index);
+      : formalContent ?? renderCourseChapter(field, chapter, domain.details[Math.floor(index / 4)], cutoff, index);
     writeFileSync(resolve(root, `${chapter.link.replace("/fields/", "")}.md`), content);
   });
 }
@@ -194,7 +214,7 @@ export function writeOverview(fields, cutoff) {
 
 > 当前证据截止：**${cutoff}**。这里新增的不是六份书单，而是六套可以长期维护、逐章学习、用作品验证的知识系统。
 
-<div class="lesson-meta"><span>6 个领域</span><span>240 个独立主题</span><span>${grounded} 篇原稿驱动正式章</span><span>${240 - grounded} 篇待重写草稿</span></div>
+<div class="lesson-meta"><span>6 个领域</span><span>${fields.reduce((sum, field) => sum + field.chapters.length, 0)} 个独立主题</span><span>${grounded} 篇原稿驱动正式章</span><span>${fields.reduce((sum, field) => sum + field.chapters.length, 0) - grounded} 篇待重写草稿</span></div>
 
 > **真实进度：**“主题已经规划”不等于“文章已经完成”。正式章必须能证明原稿已取得、具体章节已阅读、采用观点已登记，并由章节自身的学习任务决定结构。当前其余页面只作为待修草稿保留。
 
@@ -206,7 +226,7 @@ ${fields.map((field) => `| [${field.title}](/fields/${field.slug}/) | ${field.pr
 
 ## 共同课程合同
 
-每个领域固定 40 个由浅入深的主题节点。正式写作不再把十个资料簇各切成四篇，也不再把固定栏目换序当作结构差异；每篇文章必须由该主题自己的认知难点、例子和练习组织。写作规则见 [教学文章写作指南](/TEACHING-WRITING-GUIDE)，来源状态见 [原稿与章节证据说明](/SOURCE-GROUNDING)。
+每个领域按照知识前置、真实任务和阶段产物决定主题数量，章节数不设固定配额。正式写作不再把资料簇平均切分，也不再把固定栏目换序当作结构差异；每篇文章必须由该主题自己的认知难点、例子和练习组织。写作规则见 [教学文章写作指南](/TEACHING-WRITING-GUIDE)，来源状态见 [原稿与章节证据说明](/SOURCE-GROUNDING)。
 
 ## 防止再次陷入“接触很多但不深入”
 

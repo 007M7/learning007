@@ -45,7 +45,7 @@ const I=[
   "模型事故的长期价值来自把失败变成回归样本、监控规则、发布门禁和责任改进。",
 ];
 
-export default defineField({slug:"machine-learning",title:"机器学习",shortTitle:"机器学习",prefix:"MLF",color:"#176b87",promise:"从可证伪的问题定义出发，掌握数据、模型、泛化、因果、不确定性和生产闭环，而不是只会调包。",project:"一套能解释数据切分、基线、校准、偏移、因果边界与上线监控的风险预测系统。"},[
+export default defineField({slug:"machine-learning",title:"机器学习",shortTitle:"机器学习",prefix:"MLF",color:"#176b87",promise:"从可证伪的问题定义出发，掌握数据、模型、泛化、因果、不确定性和生产闭环，而不是只会调包。",project:"一套能解释数据切分、基线、校准、偏移、因果边界与上线监控的风险预测系统。",fieldSummary:{text:"机器学习板块学习总结",link:"/fields/machine-learning/summary"},stageSummaries:[{stage:A,text:"阶段总结 · 从业务问题到可信实验",link:"/fields/machine-learning/stage-1-review"},{stage:B,text:"阶段总结 · 建立一条可解释强基线",link:"/fields/machine-learning/stage-2-review"},{stage:C,text:"阶段总结 · 从表示设计到模型选型",link:"/fields/machine-learning/stage-3-review"},{stage:D,text:"阶段总结 · 从预测分数到可信行动",link:"/fields/machine-learning/stage-4-review"},{stage:E,text:"阶段总结 · 让模型在生产中持续可控",link:"/fields/machine-learning/stage-5-review"}]},[
   L(A,"business-question-to-ml-task","从业务愿望到可证伪任务","orientation","一句‘预测流失’怎样变成有对象、有时点、有动作的学习问题？","问题定义卡与非机器学习基线",S.found),
   L(A,"samples-features-labels","样本、特征与标签不是三张表","concept","观测单位和预测时点写错，会怎样改变模型真正学习的对象？","样本单位—标签窗口—特征截止图",S.found),
   L(A,"loss-and-decision-cost","损失函数在替谁承担代价","derivation","训练损失为什么不能直接代表业务决策质量？","损失—指标—行动成本映射",S.found),

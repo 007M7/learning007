@@ -146,6 +146,30 @@
       "learning_job": "用训练/验证/测试分工、简单基线和学习曲线解释为何相信未见数据表现。",
       "source_ids": ["book:machine-learning:probml-intro", "book:machine-learning:understanding-ml", "paper:machine-learning:useful-things"],
       "claims_used": ["经验风险是可见样本上的量，总体风险才是目标。", "限制假设空间是一种归纳偏置，复杂度与样本量共同影响过拟合。", "简单不自动意味着更准，基线的作用是暴露复杂模型是否真正增益。"]
+    },
+    {
+      "lesson": "05-data-generating-process",
+      "learning_job": "从产品流程追溯一行数据如何经过准入、曝光、行动、记录和结果确认而形成。",
+      "source_ids": ["book:machine-learning:fairness-ml", "paper:machine-learning:datasheets", "paper:machine-learning:hidden-technical-debt"],
+      "claims_used": ["观测数据来自测量、抽样和行动共同构成的闭环。", "数据集需要记录实例来源、收集过程、覆盖人群和已知缺口。", "模型输出会改变后续输入与标签分布，形成反馈回路。"]
+    },
+    {
+      "lesson": "06-labels-missingness-bias",
+      "learning_job": "沿标签生产线区分没有发生、没有观察和无法确认，并检查代理测量与群体可见性差异。",
+      "source_ids": ["book:machine-learning:fairness-ml", "paper:machine-learning:datasheets", "paper:machine-learning:hidden-technical-debt"],
+      "claims_used": ["标签常是对现实构念的代理测量。", "缺失模式与业务流程有关时会改变样本代表性。", "上游数据依赖和流程变化会静默改写标签语义。"]
+    },
+    {
+      "lesson": "07-time-group-spatial-splits",
+      "learning_job": "把未来部署场景翻译成时间、实体与环境隔离规则，并用多套切分报告暴露泛化边界。",
+      "source_ids": ["book:machine-learning:understanding-ml", "paper:machine-learning:datasheets", "paper:machine-learning:useful-things"],
+      "claims_used": ["独立同分布假设决定经验表现能否外推。", "数据集应记录推荐切分及其代表的使用情景。", "随机切分会保留相似对象和短期相关性，造成不切实际的容易测试。"]
+    },
+    {
+      "lesson": "08-leakage-audit",
+      "learning_job": "沿数据谱系攻击采集、特征、预处理、切分和人工选择边界，并把修复写成回归测试。",
+      "source_ids": ["paper:machine-learning:hidden-technical-debt", "paper:machine-learning:datasheets", "book:machine-learning:understanding-ml"],
+      "claims_used": ["机器学习系统的隐性依赖远多于模型代码。", "收集过程和处理步骤必须留下可追溯记录。", "测试证据只有在未参与选择时才能支持泛化判断。"]
     }
   ]
 }
