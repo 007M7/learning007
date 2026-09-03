@@ -1,0 +1,3283 @@
+{
+  "schema_version": 2,
+  "field": "nlp",
+  "title": "自然语言处理（NLP）",
+  "updated_at": "2026-09-03",
+  "storage_policy": "仅保存无需登录即可阅读的教材正文、权威手册或论文全文 URL 与元数据；不下载、不镜像原文。",
+  "selection_policy": [
+    "先以 40 个学习节点建立覆盖矩阵，再选择能够承担系统教学任务的教材与权威手册。",
+    "教材必须直接进入作者、大学、开放出版社或专业组织维护的正文；购买页、登录页、课程页和只有简介的页面不收录。",
+    "论文按十个子主题同时保留领域奠基工作与 2023 年以来的新研究，按 DOI 或 OpenAlex ID 去重。",
+    "目录收录只证明入口和学科位置；撰写综述时还必须另记实际阅读范围、采用观点和不可推出的结论。"
+  ],
+  "modules": [
+    {
+      "id": "tasks-corpora",
+      "name": "任务、语料与标注",
+      "goal": "从语言任务、数据单位、语料偏差和标注协议建立问题边界。"
+    },
+    {
+      "id": "tokenization",
+      "name": "分词、形态与文本表示",
+      "goal": "理解字符、子词、形态和多语言文本规范化。"
+    },
+    {
+      "id": "semantics-embeddings",
+      "name": "语义与向量表示",
+      "goal": "连接分布式语义、词向量、句向量和语义相似度。"
+    },
+    {
+      "id": "encoders-decoders",
+      "name": "编码器、解码器与 Transformer",
+      "goal": "理解序列建模、注意力、BERT、T5 与生成式架构。"
+    },
+    {
+      "id": "pretraining-adaptation",
+      "name": "预训练、提示与适配",
+      "goal": "学习规模化预训练、微调、上下文学习与参数高效适配。"
+    },
+    {
+      "id": "structured-language",
+      "name": "结构化语言理解",
+      "goal": "处理序列标注、句法、实体、关系与信息抽取。"
+    },
+    {
+      "id": "generation",
+      "name": "生成、对话、翻译与摘要",
+      "goal": "理解条件生成、搜索、可控生成及任务评价。"
+    },
+    {
+      "id": "multilingual",
+      "name": "多语言与低资源 NLP",
+      "goal": "识别跨语言迁移、文字系统、文化差异和低资源限制。"
+    },
+    {
+      "id": "retrieval-context",
+      "name": "检索、问答与上下文",
+      "goal": "连接搜索、排序、RAG、问答和长上下文系统。"
+    },
+    {
+      "id": "factuality-evaluation",
+      "name": "事实性、评测与责任",
+      "goal": "处理幻觉、基准、人工评价、公平性与部署风险。"
+    }
+  ],
+  "resources": [
+    {
+      "id": "book-nlp-slp3",
+      "type": "book",
+      "title": "Speech and Language Processing (3rd ed. draft)",
+      "creator": "Dan Jurafsky、James H. Martin",
+      "year": "2026",
+      "modules": [
+        "tasks-corpora",
+        "tokenization",
+        "semantics-embeddings",
+        "encoders-decoders",
+        "pretraining-adaptation",
+        "structured-language",
+        "generation",
+        "multilingual",
+        "retrieval-context",
+        "factuality-evaluation"
+      ],
+      "level": "core",
+      "role": "覆盖现代 NLP 全链路的主教材，以语言模型、Transformer、任务系统和责任边界连接 40 个学习节点。",
+      "review_url": "/knowledge-base/reviews/nlp/slp3",
+      "content_url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-nltk-book",
+      "type": "book",
+      "title": "Natural Language Processing with Python",
+      "creator": "Steven Bird、Ewan Klein、Edward Loper",
+      "year": "2009",
+      "modules": [
+        "tasks-corpora",
+        "tokenization",
+        "structured-language"
+      ],
+      "level": "starter",
+      "role": "用公开语料和代码建立文本处理、分类、标注、解析与语义实践基础。",
+      "review_url": "/knowledge-base/reviews/ai-agent/nltk-book",
+      "content_url": "https://www.nltk.org/book/",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-ir-book",
+      "type": "book",
+      "title": "Introduction to Information Retrieval",
+      "creator": "Christopher D. Manning、Prabhakar Raghavan、Hinrich Schütze",
+      "year": "2008",
+      "modules": [
+        "semantics-embeddings",
+        "retrieval-context",
+        "factuality-evaluation"
+      ],
+      "level": "core",
+      "role": "建立索引、排序、评价、分类与检索系统的稳定理论骨架。",
+      "review_url": "/knowledge-base/reviews/ai-agent/ir-book",
+      "content_url": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-tidy-text-mining",
+      "type": "book",
+      "title": "Text Mining with R",
+      "creator": "Julia Silge、David Robinson",
+      "year": "2017",
+      "modules": [
+        "tasks-corpora",
+        "tokenization",
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "用 tidy data 视角组织分词、情感、TF-IDF、主题模型和文本统计。",
+      "review_url": "/knowledge-base/reviews/nlp/tidy-text-mining",
+      "content_url": "https://www.tidytextmining.com/",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-supervised-ml-text",
+      "type": "book",
+      "title": "Supervised Machine Learning for Text Analysis in R",
+      "creator": "Emil Hvitfeldt、Julia Silge",
+      "year": "2021",
+      "modules": [
+        "tasks-corpora",
+        "semantics-embeddings",
+        "factuality-evaluation"
+      ],
+      "level": "core",
+      "role": "以完整建模流程处理文本特征、重采样、评价、解释与部署前诊断。",
+      "review_url": "/knowledge-base/reviews/nlp/supervised-ml-text",
+      "content_url": "https://smltar.com/",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-foundations-llm",
+      "type": "book",
+      "title": "Foundations of Large Language Models",
+      "creator": "Tong Xiao、Yeyun Gong 等",
+      "year": "2025",
+      "modules": [
+        "encoders-decoders",
+        "pretraining-adaptation",
+        "generation",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "补齐大模型预训练、适配、使用与评测的近年知识。",
+      "review_url": "/knowledge-base/reviews/ai-agent/foundations-llm",
+      "content_url": "https://arxiv.org/pdf/2501.09223",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-niutrans-nlp",
+      "type": "book",
+      "title": "自然语言处理：神经网络与大语言模型",
+      "creator": "NiuTrans 团队",
+      "year": "2024",
+      "modules": [
+        "encoders-decoders",
+        "pretraining-adaptation",
+        "generation",
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "中文开放教材，从神经网络基础推进到预训练模型和大语言模型。",
+      "review_url": "/knowledge-base/reviews/ai-agent/niutrans-nlp",
+      "content_url": "https://raw.githubusercontent.com/NiuTrans/NLPBook/main/nlp-book.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-neural-nlp-primer",
+      "type": "book",
+      "title": "A Primer on Neural Network Models for Natural Language Processing",
+      "creator": "Yoav Goldberg",
+      "year": "2016",
+      "modules": [
+        "semantics-embeddings",
+        "encoders-decoders",
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "以 NLP 任务为背景解释前馈、卷积、循环和结构化神经网络。",
+      "review_url": "/knowledge-base/reviews/ai-agent/neural-nlp-primer",
+      "content_url": "https://arxiv.org/pdf/1510.00726",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-search-engines",
+      "type": "book",
+      "title": "Search Engines: Information Retrieval in Practice",
+      "creator": "W. Bruce Croft、Donald Metzler、Trevor Strohman",
+      "year": "2015",
+      "modules": [
+        "retrieval-context",
+        "factuality-evaluation"
+      ],
+      "level": "core",
+      "role": "从抓取、索引、查询处理、排序到检索评价理解搜索系统。",
+      "review_url": "/knowledge-base/reviews/nlp/search-engines",
+      "content_url": "https://ciir.cs.umass.edu/downloads/SEIRiP.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-mining-massive-datasets",
+      "type": "book",
+      "title": "Mining of Massive Datasets",
+      "creator": "Jure Leskovec、Anand Rajaraman、Jeffrey D. Ullman",
+      "year": "2020",
+      "modules": [
+        "semantics-embeddings",
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "补足大规模相似度搜索、流处理、推荐和图数据方法。",
+      "review_url": "/knowledge-base/reviews/nlp/mining-massive-datasets",
+      "content_url": "https://www.mmds.org/",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-mt-for-everyone",
+      "type": "book",
+      "title": "Machine Translation for Everyone: Empowering Users in the Age of AI",
+      "creator": "Dorothy Kenny（编）",
+      "year": "2022",
+      "modules": [
+        "generation",
+        "multilingual",
+        "factuality-evaluation"
+      ],
+      "level": "core",
+      "role": "从技术、译者实践、教学与伦理多面理解机器翻译。",
+      "review_url": "/knowledge-base/reviews/nlp/mt-for-everyone",
+      "content_url": "https://zenodo.org/record/6653406/files/342-Kenny-2022.pdf?download=1",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-unicode-cookbook",
+      "type": "book",
+      "title": "The Unicode Cookbook for Linguists",
+      "creator": "Steven Moran、Michael Cysouw",
+      "year": "2018",
+      "modules": [
+        "tasks-corpora",
+        "tokenization",
+        "multilingual"
+      ],
+      "level": "starter",
+      "role": "解决文字编码、规范化、字体和多语言数据处理中常被忽略的基础问题。",
+      "review_url": "/knowledge-base/reviews/nlp/unicode-cookbook",
+      "content_url": "https://langsci-press.org/catalog/view/176/889/1135-2",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-multiword-expressions",
+      "type": "book",
+      "title": "Multiword Expressions in NLP: Current Trends and Challenges",
+      "creator": "Verginica Barbu Mititelu、Voula Giouli（编）",
+      "year": "2026",
+      "modules": [
+        "tokenization",
+        "semantics-embeddings",
+        "structured-language",
+        "multilingual"
+      ],
+      "level": "advanced",
+      "role": "围绕多词表达的识别、表示、资源建设与跨语言难题提供最新专题材料。",
+      "review_url": "/knowledge-base/reviews/nlp/multiword-expressions",
+      "content_url": "https://zenodo.org/records/21276755/files/564-MititeluGiouli-2026.pdf?download=1",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-referring-expression",
+      "type": "book",
+      "title": "Referring Expression Generation in Context",
+      "creator": "Fahime Same",
+      "year": "2024",
+      "modules": [
+        "semantics-embeddings",
+        "generation",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "用指称表达生成展示语境、篇章、选择策略与自然语言生成评价的联动。",
+      "review_url": "/knowledge-base/reviews/nlp/referring-expression",
+      "content_url": "https://zenodo.org/records/11058114/files/451-Same-2024.pdf?download=1",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "book-nlp-universal-dependencies",
+      "type": "book",
+      "title": "Universal Dependencies Guidelines",
+      "creator": "Universal Dependencies 社区",
+      "year": "持续更新",
+      "modules": [
+        "tasks-corpora",
+        "tokenization",
+        "structured-language",
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "以跨语言一致的形态句法标注规范连接语料设计、依存分析和数据质量。",
+      "review_url": "/knowledge-base/reviews/nlp/universal-dependencies",
+      "content_url": "https://universaldependencies.org/guidelines.html",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-extract-and-official-source",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1409.0473",
+      "type": "paper",
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "creator": "Dzmitry Bahdanau、Kyunghyun Cho、Yoshua Bengio",
+      "year": "2014",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1409.0473",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00051",
+      "type": "paper",
+      "title": "Enriching Word Vectors with Subword Information",
+      "creator": "Piotr Bojanowski、Édouard Grave、Armand Joulin、Tomáš Mikolov",
+      "year": "2017",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00051#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1910.10683",
+      "type": "paper",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text\\n Transformer",
+      "creator": "Colin Raffel、Noam Shazeer、Adam Roberts、Katherine Lee、Sharan Narang、Michael Matena、Yanqi Zhou、Wei Li、Peter J. Liu",
+      "year": "2019",
+      "modules": [
+        "encoders-decoders",
+        "retrieval-context"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1910.10683",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2203.02155",
+      "type": "paper",
+      "title": "Training language models to follow instructions with human feedback",
+      "creator": "Long Ouyang、Jeff Wu、Xu Jiang、Diogo Almeida、Carroll L. Wainwright、Pamela Mishkin、Chong Zhang、Sandhini Agarwal、Katarina Slama、Alex Ray、John Schulman、Jacob Hilton、Fraser Kelton、Luke E. Miller、Maddie Simens、Amanda Askell、Peter Welinder、Paul Christiano、Jan Leike、Ryan Lowe",
+      "year": "2022",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2203.02155",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-openalex-w2952230511",
+      "type": "paper",
+      "title": "Natural Language Processing (almost) from Scratch",
+      "creator": "Ronan Collobert、Jason Weston、Léon Bottou、Michael Karlen、Koray Kavukcuoglu、Pavel P. Kuksa",
+      "year": "2011",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://infoscience.epfl.ch/record/192375/files/Collobert_JMLR_2493--2537.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2302.13971",
+      "type": "paper",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "creator": "Hugo Touvron、Thibaut Lavril、Gautier Izacard、Xavier Martinet、Marie-Anne Lachaux、Timothée Lacroix、Baptiste Rozière、Naman Goyal、Eric Hambro、Faisal Azhar、Aurelien Rodriguez、Armand Joulin、Édouard Grave、Guillaume Lample",
+      "year": "2023",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2302.13971",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1145/3560815",
+      "type": "paper",
+      "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+      "creator": "Pengfei Liu、Weizhe Yuan、Jinlan Fu、Zhengbao Jiang、Hiroaki Hayashi、Graham Neubig",
+      "year": "2022",
+      "modules": [
+        "encoders-decoders",
+        "pretraining-adaptation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://dl.acm.org/doi/pdf/10.1145/3560815#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41586-023-06291-2",
+      "type": "paper",
+      "title": "Large language models encode clinical knowledge",
+      "creator": "Karan Singhal、Shekoofeh Azizi、Tao Tu、S. Sara Mahdavi、Jason Lee、Hyung Won Chung、Nathan Scales、Ajay Kumar Tanwani、Heather Cole-Lewis、Stephen Pfohl、Perry W. Payne、Martin Seneviratne、Paul Gamble、Christopher Kelly、Abubakr Babiker、Nathanael Schärli、Aakanksha Chowdhery、P. Mansfield、Dina Demner‐Fushman、Blaise Agüera y Arcas",
+      "year": "2023",
+      "modules": [
+        "tasks-corpora",
+        "pretraining-adaptation",
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41586-023-06291-2.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/coli_a_00049",
+      "type": "paper",
+      "title": "Lexicon-Based Methods for Sentiment Analysis",
+      "creator": "Maite Taboada、Julian Brooke、Milan Tofiloski、Kimberly Voll、Manfred Stede",
+      "year": "2011",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00049#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1126/science.aal4230",
+      "type": "paper",
+      "title": "Semantics derived automatically from language corpora contain human-like biases",
+      "creator": "Aylin Caliskan、Joanna J. Bryson、Arvind Narayanan",
+      "year": "2017",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1608.07187",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.4230/lipics.cosit.2024.11",
+      "type": "paper",
+      "title": "GPT-4 Technical Report",
+      "creator": "OpenAI、Achiam, Josh、Adler, Steven、Agarwal, Sandhini、Ahmad, Lama、Akkaya, Ilge、Aleman, Florencia Leoni、Almeida, Diogo、Altenschmidt, Janko、Altman, Sam、Anadkat, Shyamal、Avila, Red、Babuschkin, Igor、Balaji, Suchir、Balcom, Valerie、Baltescu, Paul、Bao, Haiming、Bavarian, Mohammad、Belgum, Jeff、Bello, Irwan",
+      "year": "2023",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2303.08774",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2204.02311",
+      "type": "paper",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "creator": "Aakanksha Chowdhery、Sharan Narang、Jacob Devlin、Maarten Bosma、Gaurav Mishra、Adam Roberts、Paul Barham、Hyung Won Chung、Charles Sutton、Sebastian Gehrmann、Parker Schuh、Kensen Shi、Sasha Tsvyashchenko、Joshua Maynez、Abhishek S. Rao、Parker Barnes、Yi Tay、Noam Shazeer、Vinodkumar Prabhakaran、Emily Reif",
+      "year": "2022",
+      "modules": [
+        "pretraining-adaptation",
+        "multilingual",
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2204.02311",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1705.02364",
+      "type": "paper",
+      "title": "Supervised Learning of Universal Sentence Representations from Natural\\n Language Inference Data",
+      "creator": "Alexis Conneau、Douwe Kiela、Holger Schwenk、Loïc Barrault、Antoine Bordes",
+      "year": "2017",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1705.02364",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1904.09675",
+      "type": "paper",
+      "title": "BERTScore: Evaluating Text Generation with BERT",
+      "creator": "Tianyi Zhang、Varsha Kishore、Felix Wu、Kilian Q. Weinberger、Yoav Artzi",
+      "year": "2019",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1904.09675",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1136/jamia.2009.001560",
+      "type": "paper",
+      "title": "Mayo clinical Text Analysis and Knowledge Extraction System (cTAKES): architecture, component evaluation and applications",
+      "creator": "Guergana Savova、James Masanz、Philip V. Ogren、Jiaping Zheng、Sunghwan Sohn、Karin Kipper-Schuler、Christopher G. Chute",
+      "year": "2010",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://academic.oup.com/jamia/article-pdf/17/5/507/5940551/17-5-507.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1007/s11042-022-13428-4",
+      "type": "paper",
+      "title": "Natural language processing: state of the art, current trends and challenges",
+      "creator": "Diksha Khurana、Aditya Koli、Kiran Khatter、Sukhdev Singh",
+      "year": "2022",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://link.springer.com/content/pdf/10.1007/s11042-022-13428-4.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1186/s40537-021-00492-0",
+      "type": "paper",
+      "title": "Text Data Augmentation for Deep Learning",
+      "creator": "Connor Shorten、Taghi M. Khoshgoftaar、Borko Furht",
+      "year": "2021",
+      "modules": [
+        "encoders-decoders",
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-021-00492-0#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2001.08361",
+      "type": "paper",
+      "title": "Scaling Laws for Neural Language Models",
+      "creator": "Kaplan, Jared、Sam McCandlish、Tom Henighan、T. B. Brown、Benjamin Chess、Rewon Child、Scott Gray、Alec Radford、Jeffrey Wu、Dario Amodei",
+      "year": "2020",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2001.08361",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1007/s11704-026-60308-3",
+      "type": "paper",
+      "title": "A Survey of Large Language Models",
+      "creator": "Wayne Xin Zhao、Kun Zhou、Junyi Li、Tianyi Tang、Zican Dong、Yupeng Hou、Beichen Zhang、Yingqian Min、Junjie Zhang、Peiyu Liu、Xiaolei Wang、Yifan Du、Yushuo Chen、Yushuo Chen、Zhipeng Chen、Jinhao Jiang、Ruiyang Ren、Yifan Li、Xinyu Tang、Peiyu Liu",
+      "year": "2026",
+      "modules": [
+        "pretraining-adaptation",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://link.springer.com/content/pdf/10.1007/s11704-026-60308-3.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1007/s11704-024-40231-1",
+      "type": "paper",
+      "title": "A survey on large language model based autonomous agents",
+      "creator": "Lei Wang、Chen Ma、Xueyang Feng、Zeyu Zhang、Hao Yang、Jingsen Zhang、Zhiyuan Chen、Jiakai Tang、Xu Chen、Yankai Lin、Wayne Xin Zhao、Zhewei Wei、Ji-Rong Wen",
+      "year": "2024",
+      "modules": [
+        "pretraining-adaptation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://link.springer.com/content/pdf/10.1007/s11704-024-40231-1.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1703.03130",
+      "type": "paper",
+      "title": "A Structured Self-attentive Sentence Embedding",
+      "creator": "Zhouhan Lin、Minwei Feng、Cícero Nogueira dos Santos、Mo Yu、Bing Xiang、Bowen Zhou、Yoshua Bengio",
+      "year": "2017",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1703.03130",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00134",
+      "type": "paper",
+      "title": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+      "creator": "Omer Levy、Yoav Goldberg、Ido Dagan",
+      "year": "2015",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00134#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.4230/lipics.giscience.2025.5",
+      "type": "paper",
+      "title": "Analysis of Points of Interests Recommended for Leisure Walk Descriptions",
+      "creator": "Bajaj, Payal、Campos, Daniel、Craswell, Nick、Deng, Li、Jianfeng Gao、Xiaodong Liu、Rangan Majumder、Andrew McNamara、Bhaskar Mitra、Tri Gia Nguyen、Mir Rosenberg、Song, Xia、Alina Stoica、Saurabh Tiwary、Tong Wang",
+      "year": "2024",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1611.09268",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1145/3605943",
+      "type": "paper",
+      "title": "Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey",
+      "creator": "Bonan Min、Hayley Ross、Elior Sulem、Amir Pouran Ben Veyseh、Thien Huu Nguyen、Oscar Sainz、Eneko Agirre、Ilana Heintz、Dan Roth",
+      "year": "2023",
+      "modules": [
+        "tasks-corpora",
+        "encoders-decoders",
+        "pretraining-adaptation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://dl.acm.org/doi/pdf/10.1145/3605943#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2204.14198",
+      "type": "paper",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "creator": "Alayrac, Jean-Baptiste、Jeff Donahue、Pauline Luc、Antoine Miech、Iain Barr、Yana Hasson、Karel Lenc、Arthur Mensch、Katie Millican、Malcolm Reynolds、Roman Ring、Eliza Rutherford、Serkan Cabi、Tengda Han、Zhitao Gong、Sina Samangooei、Marianne Monteiro、Jacob Menick、Sebastian Borgeaud、Andrew Brock",
+      "year": "2022",
+      "modules": [
+        "pretraining-adaptation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2204.14198",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00638",
+      "type": "paper",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "creator": "Nelson F. Liu、Kevin Lin、John Hewitt、Ashwin Paranjape、Michele Bevilacqua、Fabio Petroni、Percy Liang",
+      "year": "2024",
+      "modules": [
+        "pretraining-adaptation",
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00638/2336043/tacl_a_00638.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2210.11416",
+      "type": "paper",
+      "title": "Scaling Instruction-Finetuned Language Models",
+      "creator": "Hyung Won Chung、Le Hou、Shayne Longpre、Barret Zoph、Yi Tay、William Fedus、Eric Li、Xuezhi Wang、Mostafa Dehghani、Siddhartha Brahma、Albert Webson、Shixiang Gu、Zhuyun Dai、Mirac Süzgün、Xinyun Chen、Aakanksha Chowdhery、Castro-Ros, Alex、Pellat, Marie、Robinson, Kevin、Valter, Dasha",
+      "year": "2022",
+      "modules": [
+        "pretraining-adaptation",
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2210.11416",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1904.09751",
+      "type": "paper",
+      "title": "The Curious Case of Neural Text Degeneration",
+      "creator": "Ari Holtzman、Jan Buys、Li Du、Maxwell Forbes、Yejin Choi",
+      "year": "2019",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1904.09751",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1207/s15516709cog0000_25",
+      "type": "paper",
+      "title": "An Activation‐Based Model of Sentence Processing as Skilled Memory Retrieval",
+      "creator": "Richard L. Lewis、Shravan Vasishth",
+      "year": "2005",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1207/s15516709cog0000_25#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s42256-023-00626-4",
+      "type": "paper",
+      "title": "Parameter-efficient fine-tuning of large-scale pre-trained language models",
+      "creator": "Ning Ding、Yujia Qin、Guang Yang、Fuchao Wei、Zonghan Yang、Yusheng Su、Shengding Hu、Yulin Chen、Chi-Min Chan、Weize Chen、Jing Yi、Weilin Zhao、Xiaozhi Wang、Zhiyuan Liu、Hai-Tao Zheng、Jianfei Chen、Yang Liu、Jie Tang、Juanzi Li、Maosong Sun",
+      "year": "2023",
+      "modules": [
+        "pretraining-adaptation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s42256-023-00626-4.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1912.08777",
+      "type": "paper",
+      "title": "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+      "creator": "Jingqing Zhang、Yao Zhao、Mohammad Saleh、Peter J. Liu",
+      "year": "2019",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1912.08777",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1145/4078.4081",
+      "type": "paper",
+      "title": "Three-dimensional object recognition",
+      "creator": "Paul J. Besl、Ramesh Jain",
+      "year": "1985",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://dl.acm.org/doi/pdf/10.1145/4078.4081#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.jbi.2017.11.011",
+      "type": "paper",
+      "title": "Clinical information extraction applications: A literature review",
+      "creator": "Yanshan Wang、Liwei Wang、Majid Rastegar-Mojarad、Sungrim Moon、Feichen Shen、Naveed Afzal、Sijia Liu、Yuqun Zeng、Saeed Mehrabi、Sunghwan Sohn、Hongfang Liu",
+      "year": "2017",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S1532046417302563/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1613/jair.4135",
+      "type": "paper",
+      "title": "Multimodal Distributional Semantics",
+      "creator": "Elia Bruni、Nam K. Tran、Marco Baroni",
+      "year": "2014",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.jair.org/index.php/jair/article/download/10857/25905#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2301.12597",
+      "type": "paper",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "creator": "Junnan Li、Dongxu Li、Silvio Savarese、Steven C. H. Hoi",
+      "year": "2023",
+      "modules": [
+        "pretraining-adaptation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2301.12597",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1093/database/baw068",
+      "type": "paper",
+      "title": "BioCreative V CDR task corpus: a resource for chemical disease relation extraction",
+      "creator": "Jiao Li、Yueping Sun、Robin J. Johnson、Daniela Sciaky、Chih-Hsuan Wei、Robert Leaman、Allan Peter Davis、Carolyn Mattingly、Thomas C. Wiegers、Zhiyong Lu",
+      "year": "2016",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://academic.oup.com/database/article-pdf/doi/10.1093/database/baw068/8224483/baw068.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41591-024-03423-7",
+      "type": "paper",
+      "title": "Toward expert-level medical question answering with large language models",
+      "creator": "K. K. Singhal、Tao Tu、Juraj Gottweis、Rory Sayres、Ellery Wulczyn、Mohamed Amin、Le Hou、Kevin Clark、Stephen Pfohl、Heather Cole-Lewis、Darlene Neal、Qazi Mamunur Rashid、Mike Schaekermann、Amy Wang、Dev Dash、Jonathan H. Chen、Nigam H. Shah、Sami Lachgar、P. Mansfield、Sushant Prakash",
+      "year": "2025",
+      "modules": [
+        "retrieval-context",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41591-024-03423-7.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00041",
+      "type": "paper",
+      "title": "Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science",
+      "creator": "Emily M. Bender、Batya Friedman",
+      "year": "2018",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00041/1567666/tacl_a_00041.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00177",
+      "type": "paper",
+      "title": "Grounded Compositional Semantics for Finding and Describing Images with Sentences",
+      "creator": "Richard Socher、Andrej Karpathy、Quoc V. Le、Christopher D. Manning、Andrew Y. Ng",
+      "year": "2014",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00177#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1002/aris.1440370103",
+      "type": "paper",
+      "title": "Natural language processing",
+      "creator": "Gobinda Chowdhury",
+      "year": "2003",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aris.1440370103#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1109/access.2024.3365742",
+      "type": "paper",
+      "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+      "creator": "Mohaimenul Azam Khan Raiaan、Md. Saddam Hossain Mukta、Kaniz Fatema、Nur Mohammad Fahad、Sadman Sakib、Most. Marufatul Jannat Mim、Jubaer Ahmad、Mohammed Eunus Ali、Sami Azam",
+      "year": "2024",
+      "modules": [
+        "tasks-corpora",
+        "encoders-decoders",
+        "pretraining-adaptation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10433480.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41586-024-07421-0",
+      "type": "paper",
+      "title": "Detecting hallucinations in large language models using semantic entropy",
+      "creator": "Sebastian Farquhar、Jannik Kossen、Lorenz Kuhn、Yarin Gal",
+      "year": "2024",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41586-024-07421-0.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1207/s15516709cog1902_1",
+      "type": "paper",
+      "title": "MAC/FAC: A Model of Similarity‐Based Retrieval",
+      "creator": "Kenneth D. Forbus、Dedre Gentner、Keith Law",
+      "year": "1995",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1207/s15516709cog1902_1#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41591-024-02855-5",
+      "type": "paper",
+      "title": "Adapted large language models can outperform medical experts in clinical text summarization",
+      "creator": "Dave Van Veen、Cara Van Uden、Louis Blankemeier、Jean-Benoit Delbrouck、Asad Aali、Christian Bluethgen、Anuj Pareek、Malgorzata Polacin、Eduardo Pontes Reis、Anna Seehofnerová、Nidhi Rohatgi、Poonam Hosamani、William Collins、Neera Ahuja、Curtis P. Langlotz、Jason Hom、Sergios Gatidis、John M. Pauly、Akshay Chaudhari",
+      "year": "2024",
+      "modules": [
+        "generation",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11479659/pdf/nihms-2023710.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2312.10997",
+      "type": "paper",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "creator": "Yunfan Gao、Yun Xiong、Xinyu Gao、Kangxiang Jia、Jinliu Pan、Yuxi Bi、Yi Dai、Jiawei Sun、Wang, Meng、Wang, Haofen",
+      "year": "2023",
+      "modules": [
+        "structured-language",
+        "generation",
+        "retrieval-context",
+        "pretraining-adaptation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2312.10997",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1406.5679",
+      "type": "paper",
+      "title": "Deep Fragment Embeddings for Bidirectional Image Sentence Mapping",
+      "creator": "Andrej Karpathy、Armand Joulin、Fei Fei F Li",
+      "year": "2014",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1406.5679",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2201.08239",
+      "type": "paper",
+      "title": "LaMDA: Language Models for Dialog Applications",
+      "creator": "Romal Thoppilan、Daniel De Freitas、Jamie Hall、Noam Shazeer、Apoorv Kulshreshtha、Heng-Tze Cheng、Alicia Jin、Taylor Bos、Leslie L. Baker、Yu Du、YaGuang Li、Hongrae Lee、Huaixiu Zheng、Amin Ghafouri、Marcelo Menegali、Yanping Huang、Maxim Krikun、Dmitry Lepikhin、James Qin、Dehao Chen",
+      "year": "2022",
+      "modules": [
+        "factuality-evaluation",
+        "pretraining-adaptation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2201.08239",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2304.08485",
+      "type": "paper",
+      "title": "Visual Instruction Tuning",
+      "creator": "Haotian Liu、Chunyuan Li、Qingyang Wu、Yong Jae Lee",
+      "year": "2023",
+      "modules": [
+        "pretraining-adaptation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2304.08485",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41467-024-45563-x",
+      "type": "paper",
+      "title": "Structured information extraction from scientific text with large language models",
+      "creator": "John Dagdelen、Alexander Dunn、Sang‐Hoon Lee、Nicholas Walker、Andrew Rosen、Gerbrand Ceder、Kristin A. Persson、Anubhav Jain",
+      "year": "2024",
+      "modules": [
+        "pretraining-adaptation",
+        "structured-language",
+        "generation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41467-024-45563-x.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.4230/oasics.commit2data.3",
+      "type": "paper",
+      "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+      "creator": "Scao, Teven Le、Fan, Angela、Akiki, Christopher、Pavlick, Ellie、Ilić, Suzana、Hesslow, Daniel、Castagné, Roman、Luccioni, Alexandra Sasha、François Yvon、Matthias Gallé、Jonathan Tow、Alexander M. Rush、Stella Biderman、Albert Webson、Pawan Sasanka Ammanamanchi、Thomas J. Wang、Benoît Sagot、Niklas Muennighoff、A. Villanova del Moral、Olatunji Ruwase",
+      "year": "2023",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://inria.hal.science/hal-03850124v1/document#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-openalex-w2155069789",
+      "type": "paper",
+      "title": "CoNLL-2012 Shared Task: Modeling Multilingual Unrestricted Coreference in OntoNotes",
+      "creator": "Sameer Pradhan、Alessandro Moschitti、Nianwen Xue、Olga Uryupina、Yuchen Zhang",
+      "year": "2012",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.aclweb.org/anthology/W12-4501#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.3389/fpsyg.2015.00731",
+      "type": "paper",
+      "title": "Timing in turn-taking and its implications for processing models of language",
+      "creator": "Stephen C. Levinson、Francisco Torreira",
+      "year": "2015",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00731/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/coli_a_00016",
+      "type": "paper",
+      "title": "Distributional Memory: A General Framework for Corpus-Based Semantics",
+      "creator": "Marco Baroni、Alessandro Lenci",
+      "year": "2010",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/coli_a_00016#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1145/3639372",
+      "type": "paper",
+      "title": "Explainability for Large Language Models: A Survey",
+      "creator": "Haiyan Zhao、Hanjie Chen、Fan Yang、Ninghao Liu、Huiqi Deng、Hengyi Cai、Shuaiqiang Wang、Dawei Yin、Mengnan Du",
+      "year": "2024",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://dl.acm.org/doi/pdf/10.1145/3639372#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1603.08023",
+      "type": "paper",
+      "title": "How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation",
+      "creator": "Chia‐Wei Liu、Ryan Lowe、Iulian Vlad Serban、Michael D. Noseworthy、Laurent Charlin、Joëlle Pineau",
+      "year": "2016",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1603.08023",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2001.08210",
+      "type": "paper",
+      "title": "Multilingual Denoising Pre-training for Neural Machine Translation",
+      "creator": "Yinhan Liu、Jiatao Gu、Naman Goyal、Xian Li、Sergey Edunov、Marjan Ghazvininejad、Mike Lewis、Luke Zettlemoyer",
+      "year": "2020",
+      "modules": [
+        "generation",
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2001.08210",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2010.11934",
+      "type": "paper",
+      "title": "mT5: A massively multilingual pre-trained text-to-text transformer",
+      "creator": "Linting Xue、Noah Constant、Adam P. Roberts、Mihir Kale、Rami Al‐Rfou、Aditya Siddhant、Aditya Barua、Colin Raffel",
+      "year": "2020",
+      "modules": [
+        "tokenization",
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2010.11934",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1186/s12859-015-0564-6",
+      "type": "paper",
+      "title": "An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition",
+      "creator": "George Tsatsaronis、Georgios Balikas、Prodromos Malakasiotis、Ioannis Partalas、Matthias Zschunke、Michael R. Alvers、Dirk Weissenborn、Anastasia Krithara、Sergios Petridis、Dimitris Polychronopoulos、Yannis Almirantis、John Pavlopoulos、Nicolas Baskiotis、Patrick Gallinari、Thierry Artières、Axel-Cyrille Ngonga Ngomo、Norman Heino、Éric Gaussier、Liliana Barrio-Alvers、Michael Schroeder",
+      "year": "2015",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-015-0564-6#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.2196/12239",
+      "type": "paper",
+      "title": "Natural Language Processing of Clinical Notes on Chronic Diseases: Systematic Review",
+      "creator": "Seyedmostafa Sheikhalishahi、Riccardo Miotto、Joel T. Dudley、Alberto Lavelli、Fabio Rinaldi、Venet Osmani",
+      "year": "2019",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://medinform.jmir.org/2019/2/e12239/PDF#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1093/bioinformatics/btx228",
+      "type": "paper",
+      "title": "Deep learning with word embeddings improves biomedical named entity recognition",
+      "creator": "Maryam Habibi、Leon Weber、Mariana Neves、David Luis Wiegandt、Ulf Leser",
+      "year": "2017",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://academic.oup.com/bioinformatics/article-pdf/33/14/i37/25157154/btx228.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2206.04615",
+      "type": "paper",
+      "title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+      "creator": "Aarohi Srivastava、Abhinav Rastogi、Abhishek S. Rao、Abu Awal Shoeb、Abubakar Abid、Adam Fisch、Adam R. Brown、Adam Santoro、Aditya Gupta、Adrià Garriga-Alonso、Agnieszka Kluska、Aitor Lewkowycz、Akshat Agarwal、Alethea Power、Alex Ray、Alex Warstadt、Alexander W. Kocurek、Ali Safaya、Ali Tazarv、Alice Xiang",
+      "year": "2022",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2206.04615",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/coli_a_00502",
+      "type": "paper",
+      "title": "Can Large Language Models Transform Computational Social Science?",
+      "creator": "Caleb Ziems、William A. Held、Omar Ahmed Shaikh、Jiaao Chen、Zhehao Zhang、Diyi Yang",
+      "year": "2023",
+      "modules": [
+        "tasks-corpora",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/coli/article-pdf/doi/10.1162/coli_a_00502/2191886/coli_a_00502.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1007/s40593-019-00186-y",
+      "type": "paper",
+      "title": "A Systematic Review of Automatic Question Generation for Educational Purposes",
+      "creator": "Ghader Kurdi、Jared Leo、Bijan Parsia、Uli Sattler、Salam Al-E’mari",
+      "year": "2019",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://link.springer.com/content/pdf/10.1007/s40593-019-00186-y.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2304.10592",
+      "type": "paper",
+      "title": "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models",
+      "creator": "Deyao Zhu、Jun Chen、Xiaoqian Shen、Xiang Li、Mohamed Elhoseiny",
+      "year": "2023",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2304.10592",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1146/annurev-linguistics-030514-125254",
+      "type": "paper",
+      "title": "Distributional Models of Word Meaning",
+      "creator": "Alessandro Lenci",
+      "year": "2017",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-linguistics-030514-125254#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.aiopen.2022.11.003",
+      "type": "paper",
+      "title": "PTR: Prompt Tuning with Rules for Text Classification",
+      "creator": "Xu Han、Weilin Zhao、Ning Ding、Zhiyuan Liu、Maosong Sun",
+      "year": "2022",
+      "modules": [
+        "pretraining-adaptation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S2666651022000183/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.eswa.2018.07.032",
+      "type": "paper",
+      "title": "Joint entity recognition and relation extraction as a multi-head selection problem",
+      "creator": "Giannis Bekoulis、Johannes Deleu、Thomas Demeester、Chris Develder",
+      "year": "2018",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S095741741830455X#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/089120102317341756",
+      "type": "paper",
+      "title": "A Critique and Improvement of an Evaluation Metric for Text Segmentation",
+      "creator": "L. A. Pevzner、Marti A. Hearst",
+      "year": "2002",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/coli/article-pdf/28/1/19/1797682/089120102317341756.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2006.03654",
+      "type": "paper",
+      "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+      "creator": "Pengcheng He、Xiaodong Liu、Jianfeng Gao、Weizhu Chen",
+      "year": "2020",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2006.03654",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1093/bioinformatics/btx761",
+      "type": "paper",
+      "title": "An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition",
+      "creator": "Ling Luo、Zhihao Yang、Pei Yang、Yin Zhang、Lei Wang、Hongfei Lin、Jian Wang",
+      "year": "2017",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://academic.oup.com/bioinformatics/article-pdf/34/8/1381/25119984/btx761.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1606.01541",
+      "type": "paper",
+      "title": "Deep Reinforcement Learning for Dialogue Generation",
+      "creator": "Jiwei Li、Will Monroe、Alan Ritter、Michel Galley、Jianfeng Gao、Dan Jurafsky",
+      "year": "2016",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1606.01541",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00605",
+      "type": "paper",
+      "title": "In-Context Retrieval-Augmented Language Models",
+      "creator": "Ori Ram、Yoav Levine、Itay Dalmedigos、Dor Muhlgay、Amnon Shashua、Kevin Leyton‐Brown、Yoav Shoham",
+      "year": "2023",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00605/2178834/tacl_a_00605.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.jbi.2018.09.008",
+      "type": "paper",
+      "title": "A comparison of word embeddings for the biomedical natural language processing",
+      "creator": "Yanshan Wang、Sijia Liu、Naveed Afzal、Majid Rastegar-Mojarad、Liwei Wang、Feichen Shen、Paul Kingsbury、Hongfang Liu",
+      "year": "2018",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S1532046418301825/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41746-023-00896-7",
+      "type": "paper",
+      "title": "Evaluating large language models on medical evidence summarization",
+      "creator": "Liyan Tang、Zhaoyi Sun、Betina Idnay、Jordan G. Nestor、Ali Soroush、Pierre Elias、Ziyang Xu、Ying Ding、Greg Durrett、Justin F. Rousseau、Chunhua Weng、Yifan Peng",
+      "year": "2023",
+      "modules": [
+        "generation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41746-023-00896-7.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1017/s1351324916000383",
+      "type": "paper",
+      "title": "Natural language processing in mental health applications using non-clinical texts",
+      "creator": "Rafael A. Calvo、David Milne、M. Sazzad Hussain、Helen Christensen",
+      "year": "2017",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/32645FFCFD37C67DA62CA06DB66EB2F4/S1351324916000383a.pdf/div-class-title-natural-language-processing-in-mental-health-applications-using-non-clinical-texts-a-href-fn1a-ref-type-fn-a-div.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2307.06435",
+      "type": "paper",
+      "title": "A Comprehensive Overview of Large Language Models",
+      "creator": "Humza Naveed、Asad Ullah Khan、Shi Qiu、Muhammad Saqib、Saeed Anwar、Muhammad Usman、Akhtar, Naveed、Nick Barnes、Ajmal Mian",
+      "year": "2023",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2307.06435",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2302.04023",
+      "type": "paper",
+      "title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
+      "creator": "Yejin Bang、Samuel Cahyawijaya、Nayeon Lee、Wenliang Dai、Dan Su、Bryan Wilie、Holy Lovenia、Ziwei Ji、Tiezheng Yu、Willy Chung、Quyet V. Do、Yan Xu、Pascale Fung",
+      "year": "2023",
+      "modules": [
+        "multilingual",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2302.04023",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1145/3597307",
+      "type": "paper",
+      "title": "Biases in Large Language Models: Origins, Inventory, and Discussion",
+      "creator": "Roberto Navigli、Simone Conia、Björn Roß",
+      "year": "2023",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://dl.acm.org/doi/pdf/10.1145/3597307#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1109/access.2020.3009626",
+      "type": "paper",
+      "title": "Evaluation of Sentiment Analysis in Finance: From Lexicons to Transformers",
+      "creator": "Kostadin Mishev、Ana Gjorgjevikj、Irena Vodenska、Lubomir T. Chitkushev、Dimitar Trajanov",
+      "year": "2020",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09142175.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41746-024-01258-7",
+      "type": "paper",
+      "title": "A framework for human evaluation of large language models in healthcare derived from literature review",
+      "creator": "Thomas Yu Chow Tam、Sonish Sivarajkumar、Sumit Kapoor、Alisa V Stolyar、Katelyn Polanska、Karleigh R McCarthy、Hunter Osterhoudt、Xizhi Wu、Shyam Visweswaran、Sunyang Fu、Piyush Mathur、Giovanni Cacciamani、Cong Sun、Yifan Peng、Yanshan Wang",
+      "year": "2024",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41746-024-01258-7.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.aiopen.2022.03.001",
+      "type": "paper",
+      "title": "Data augmentation approaches in natural language processing: A survey",
+      "creator": "Bohan Li、Yutai Hou、Wanxiang Che",
+      "year": "2022",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S2666651022000080/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-openalex-w1733954365",
+      "type": "paper",
+      "title": "Planning text for advisory dialogues: capturing intentional and rhetorical information",
+      "creator": "Johanna D. Moore、Cécile Paris",
+      "year": "1993",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.pure.ed.ac.uk/ws/files/18546552/Moore_Paris_1993_Planning_Text_for_Advisory_Dialogues_Capturing_Intentional_and_Rhetorical_Information.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1017/atsip.2019.12",
+      "type": "paper",
+      "title": "Evaluating word embedding models: methods and experimental results",
+      "creator": "Bin Wang、Angela Yee‐Moon Wang、Fenxiao Chen、Yun-Cheng Wang、C.‐C. Jay Kuo",
+      "year": "2019",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EDF43F837150B94E71DBB36B28B85E79/S204877031900012Xa.pdf/div-class-title-evaluating-word-embedding-models-methods-and-experimental-results-div.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2106.11520",
+      "type": "paper",
+      "title": "BARTScore: Evaluating Generated Text as Text Generation",
+      "creator": "Weizhe Yuan、Graham Neubig、Pengfei Liu",
+      "year": "2021",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2106.11520",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41746-025-01670-7",
+      "type": "paper",
+      "title": "A framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation",
+      "creator": "Elham Asgari、Nina Montaña-Brown、Magda Dubois、Saleh Khalil、Jasmine Balloch、Joshua Au Yeung、Dominic Pimenta",
+      "year": "2025",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41746-025-01670-7.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00530",
+      "type": "paper",
+      "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+      "creator": "Shamane Siriwardhana、Rivindu Weerasekera、Elliott Wen、Tharindu Kaluarachchi、Rajib Rana、Suranga Nanayakkara",
+      "year": "2023",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00530/2067834/tacl_a_00530.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2211.01910",
+      "type": "paper",
+      "title": "Large Language Models Are Human-Level Prompt Engineers",
+      "creator": "Yongchao Zhou、Andrei Ioan Muresanu、Ziwen Han、Keiran Paster、Silviu Pitis、Harris Chan、Jimmy Ba",
+      "year": "2022",
+      "modules": [
+        "pretraining-adaptation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2211.01910",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1907.05019",
+      "type": "paper",
+      "title": "Massively Multilingual Neural Machine Translation in the Wild: Findings and Challenges",
+      "creator": "Naveen Arivazhagan、Ankur Bapna、Orhan Fırat、Dmitry Lepikhin、Melvin Johnson、Maxim Krikun、Mia Xu Chen、Yuan Cao、George Foster、Colin Cherry、Wolfgang Macherey、Zhifeng Chen、Yonghui Wu",
+      "year": "2019",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1907.05019",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2007.14062",
+      "type": "paper",
+      "title": "Big Bird: Transformers for Longer Sequences",
+      "creator": "Manzil Zaheer、Guru Guruganesh、Avinava Dubey、Joshua Ainslie、Chris Alberti、Santiago Ontañón、Philip Pham、Anirudh Ravula、Qifan Wang、Yang Li、Amr Ahmed",
+      "year": "2020",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2007.14062",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1007/s10462-023-10419-1",
+      "type": "paper",
+      "title": "Impact of word embedding models on text analytics in deep learning environment: a review",
+      "creator": "Deepak Suresh Asudani、Naresh Kumar Nagwani、Pradeep Singh",
+      "year": "2023",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://link.springer.com/content/pdf/10.1007/s10462-023-10419-1.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2309.01219",
+      "type": "paper",
+      "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "creator": "Yue Zhang、Yafu Li、Leyang Cui、Deng Cai、Lemao Liu、Tingchen Fu、Xinting Huang、Enbo Zhao、Yu Zhang、Xu, Chen、Yulong Chen、Longyue Wang、Anh Tuan Luu、Wei Bi、Freda Shi、Shuming Shi",
+      "year": "2023",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2309.01219",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1609/aaai.v34i05.6374",
+      "type": "paper",
+      "title": "Effective Modeling of Encoder-Decoder Architecture for Joint Entity and Relation Extraction",
+      "creator": "Tapas Nayak、Hwee Tou Ng",
+      "year": "2020",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ojs.aaai.org/index.php/AAAI/article/download/6374/6230#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1109/access.2020.2973928",
+      "type": "paper",
+      "title": "Named Entity Extraction for Knowledge Graphs: A Literature Overview",
+      "creator": "Tareq Al-Moslmi、Marc Gallofré Ocaña、Andreas L. Opdahl、Csaba Veres",
+      "year": "2020",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08999622.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/089120105775299177",
+      "type": "paper",
+      "title": "Chinese Word Segmentation and Named Entity Recognition: A Pragmatic Approach",
+      "creator": "Jianfeng Gao、Mu Li、Changning Huang、Andi Wu",
+      "year": "2005",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/089120105775299177#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2311.05232",
+      "type": "paper",
+      "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "creator": "Lei Huang、Weijiang Yu、Weitao Ma、Wei‐Hong Zhong、Zhangyin Feng、Haotian Wang、Qianglong Chen、Weihua Peng、Xiaocheng Feng、Bing Qin、Ting Liu",
+      "year": "2023",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2311.05232",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/coli.a.16",
+      "type": "paper",
+      "title": "🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "creator": "Yue Zhang、Yafu Li、Leyang Cui、Cai Deng、Lemao Liu、Tingchen Fu、Xinting Huang、Enbo Zhao、Yanwen Zhang、Yulong Chen、Longyue Wang、Ahn Tuan Luu、Wei Bi、Freda Shi、Shuming Shi",
+      "year": "2025",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/coli/article-pdf/doi/10.1162/coli.a.16/2535477/coli.a.16.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/coli_a_00178",
+      "type": "paper",
+      "title": "A Survey of Arabic Named Entity Recognition and Classification",
+      "creator": "Khaled Shaalan",
+      "year": "2013",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00178#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1371/journal.pdig.0000877",
+      "type": "paper",
+      "title": "Retrieval augmented generation for large language models in healthcare: A systematic review",
+      "creator": "Lameck Mbangula Amugongo、Pietro Mascheroni、Steven E. Brooks、Stefan Doering、Jan Seidel",
+      "year": "2025",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2307.03109",
+      "type": "paper",
+      "title": "A Survey on Evaluation of Large Language Models",
+      "creator": "Yupeng Chang、Xu Wang、Jindong Wang、Yuan-Hsuan Wu、Linyi Yang、Kaijie Zhu、Hao Chen、Xiaoyuan Yi、Cunxiang Wang、Yidong Wang、Wei Ye、Yue Zhang、Yi Chang、Philip S. Yu、Qiang Yang、Xing Xie",
+      "year": "2023",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2307.03109",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2006.14799",
+      "type": "paper",
+      "title": "Evaluation of Text Generation: A Survey",
+      "creator": "Aslı Çelikyılmaz、Elizabeth Clark、Jianfeng Gao",
+      "year": "2020",
+      "modules": [
+        "generation"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2006.14799",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2208.03299",
+      "type": "paper",
+      "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+      "creator": "Gautier Izacard、Patrick Lewis、María Lomelí、Lucas Hosseini、Fabio Petroni、Timo Schick、Jane Dwivedi-Yu、Armand Joulin、Sebastian Riedel、Édouard Grave",
+      "year": "2022",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2208.03299",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1601.00770",
+      "type": "paper",
+      "title": "End-to-End Relation Extraction using LSTMs on Sequences and Tree Structures",
+      "creator": "Makoto Miwa、Mohit Bansal",
+      "year": "2016",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1601.00770",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41598-024-60210-7",
+      "type": "paper",
+      "title": "A multimodal approach to cross-lingual sentiment analysis with ensemble of transformer and LLM",
+      "creator": "Md Saef Ullah Miah、Md. Mohsin Kabir、Talha Bin Sarwar、Mejdl Safran、Sultan Alfarhood、M. F. Mridha",
+      "year": "2024",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41598-024-60210-7.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1093/bioinformatics/bty449",
+      "type": "paper",
+      "title": "Transfer learning for biomedical named entity recognition with neural networks",
+      "creator": "John Giorgi、Gary D. Bader",
+      "year": "2018",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://academic.oup.com/bioinformatics/article-pdf/34/23/4087/26676581/bty449.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1109/access.2023.3266377",
+      "type": "paper",
+      "title": "A Survey of Text Representation and Embedding Techniques in NLP",
+      "creator": "Rajvardhan Patil、Sorio Boit、Venkat N. Gudivada、Jagadeesh Nandigam",
+      "year": "2023",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10098736.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1609/aaai.v36i10.21379",
+      "type": "paper",
+      "title": "OneRel: Joint Entity and Relation Extraction with One Module in One Step",
+      "creator": "Yu-Ming Shang、Heyan Huang、Xian-Ling Mao",
+      "year": "2022",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ojs.aaai.org/index.php/AAAI/article/download/21379/21128#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.3389/fcell.2020.00673",
+      "type": "paper",
+      "title": "Named Entity Recognition and Relation Detection for Biomedical Information Extraction",
+      "creator": "Nadeesha Perera、Matthias Dehmer、Frank Emmert‐Streib",
+      "year": "2020",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.frontiersin.org/articles/10.3389/fcell.2020.00673/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1109/access.2023.3294090",
+      "type": "paper",
+      "title": "Machine-Generated Text: A Comprehensive Survey of Threat Models and Detection Methods",
+      "creator": "Evan Crothers、Nathalie Japkowicz、Herna L. Viktor",
+      "year": "2023",
+      "modules": [
+        "generation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10177704.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1111/lang.12232",
+      "type": "paper",
+      "title": "Task Effects on Linguistic Complexity and Accuracy: A Large‐Scale Learner Corpus Analysis Employing Natural Language Processing Techniques",
+      "creator": "Theodora Alexopoulou、Marije Michel、Akira Murakami、Detmar Meurers",
+      "year": "2017",
+      "modules": [
+        "tasks-corpora"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://eprints.lancs.ac.uk/id/eprint/83702/3/Alexopoulou_et_al_in_press.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1613/jair.2863",
+      "type": "paper",
+      "title": "Cross-lingual Annotation Projection for Semantic Roles",
+      "creator": "Sebastian Padó、Mirella Lapata",
+      "year": "2009",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://jair.org/index.php/jair/article/download/10629/25416#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.3390/medicina60030445",
+      "type": "paper",
+      "title": "Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications",
+      "creator": "Jing Miao、Charat Thongprayoon、Supawadee Suppadungsuk、Oscar A. Garcia Valencia、Wisit Cheungpasitporn",
+      "year": "2024",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mdpi.com/1648-9144/60/3/445/pdf?version=1709877206#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00080",
+      "type": "paper",
+      "title": "Learning to Understand Phrases by Embedding the Dictionary",
+      "creator": "Felix Hill、Kyunghyun Cho、Anna Korhonen、Yoshua Bengio",
+      "year": "2016",
+      "modules": [
+        "semantics-embeddings"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00080#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.3390/ai4010004",
+      "type": "paper",
+      "title": "End-to-End Transformer-Based Models in Textual-Based NLP",
+      "creator": "Abir Rahali、Moulay A. Akhloufi",
+      "year": "2023",
+      "modules": [
+        "tokenization",
+        "encoders-decoders"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mdpi.com/2673-2688/4/1/4/pdf?version=1672895769#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s42256-024-00881-z",
+      "type": "paper",
+      "title": "Factuality challenges in the era of large language models and opportunities for fact-checking",
+      "creator": "Isabelle Augenstein、Timothy Baldwin、Meeyoung Cha、Tanmoy Chakraborty、Giovanni Luca Ciampaglia、David Corney、Renée DiResta、Emilio Ferrara、Scott A. Hale、Alon Halevy、Eduard Hovy、Heng Ji、Filippo Menczer、Rubén Míguez、Preslav Nakov、Dietram A. Scheufele、Shivam Sharma、Giovanni Zagni",
+      "year": "2024",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2310.05189",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.ipm.2023.103454",
+      "type": "paper",
+      "title": "Cyberbullying detection for low-resource languages and dialects: Review of the state of the art",
+      "creator": "Tanjim Mahmud、Michał Ptaszyński、Juuso Eronen、Fumito Masui",
+      "year": "2023",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2308.15745",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1145/3604931",
+      "type": "paper",
+      "title": "Named Entity Recognition and Classification in Historical Documents: A Survey",
+      "creator": "Maud Ehrmann、Ahmed Hamdi、Elvys Linhares Pontes、Matteo Romanello、Antoine Doucet",
+      "year": "2023",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://dl.acm.org/doi/pdf/10.1145/3604931#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1809.05053",
+      "type": "paper",
+      "title": "XNLI: Evaluating Cross-lingual Sentence Representations",
+      "creator": "Alexis Conneau、Guillaume Lample、Ruty Rinott、Adina Williams、Samuel R. Bowman、Holger Schwenk、Veselin Stoyanov",
+      "year": "2018",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1809.05053",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00349",
+      "type": "paper",
+      "title": "A Primer in BERTology: What We Know About How BERT Works",
+      "creator": "Anna Rogers、Olga Kovaleva、Anna Rumshisky",
+      "year": "2020",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00349/1923281/tacl_a_00349.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00413",
+      "type": "paper",
+      "title": "Compressing Large-Scale Transformer-Based Models: A Case Study on BERT",
+      "creator": "Prakhar Ganesh、Yao Chen、Xin Lou、Mohammad Ali Khan、Yin Yang、Hassan Sajjad、Preslav Nakov、Deming Chen、Marianne Winslett",
+      "year": "2021",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00413/1964006/tacl_a_00413.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00448",
+      "type": "paper",
+      "title": "Canine : Pre-training an Efficient Tokenization-Free Encoder for Language Representation",
+      "creator": "Jonathan H. Clark、Dan Garrette、Iulia Turc、John Wieting",
+      "year": "2022",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00448/1985933/tacl_a_00448.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-openalex-w3102690631",
+      "type": "paper",
+      "title": "MLSUM: The multilingual summarization corpus",
+      "creator": "Staiano, Jacopo",
+      "year": "2020",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://aclanthology.org/2020.emnlp-main.647.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.1912.07076",
+      "type": "paper",
+      "title": "Multilingual is not enough: BERT for Finnish",
+      "creator": "Antti Virtanen、Jenna Kanerva、Rami Ilo、Jouni Luoma、Juhani Luotolahti、Tapio Salakoski、Filip Ginter、Sampo Pyysalo",
+      "year": "2019",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/1912.07076",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.3390/app11188319",
+      "type": "paper",
+      "title": "A Survey on Recent Named Entity Recognition and Relationship Extraction Techniques on Clinical Texts",
+      "creator": "Priyankar Bose、Sriram Srinivasan、William C. Sleeman、Jatinder Palta、Rishabh Kapoor、Preetam Ghosh",
+      "year": "2021",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mdpi.com/2076-3417/11/18/8319/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2010.06467",
+      "type": "paper",
+      "title": "Pretrained Transformers for Text Ranking: BERT and Beyond",
+      "creator": "Jimmy Lin、Rodrigo Nogueira、Andrew Yates",
+      "year": "2020",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2010.06467",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2112.10508",
+      "type": "paper",
+      "title": "Between words and characters: A Brief History of Open-Vocabulary Modeling and Tokenization in NLP",
+      "creator": "Sabrina J. Mielke、Zaid Alyafeai、Elizabeth Salesky、Colin Raffel、Manan Dey、Matthias Gallé、Arun Raja、Chenglei Si、Wilson Y. Lee、Benoît Sagot、Samson Tan",
+      "year": "2021",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2112.10508",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.3389/frai.2025.1622292",
+      "type": "paper",
+      "title": "Survey and analysis of hallucinations in large language models: attribution to prompting strategies or model behavior",
+      "creator": "Dang Anh-Hoang、Vu Tran、Le-Minh Nguyen",
+      "year": "2025",
+      "modules": [
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1622292/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.ipm.2017.01.004",
+      "type": "paper",
+      "title": "Supervised sentiment analysis in multilingual environments",
+      "creator": "David Vilares、Miguel Á. Alonso、Carlos Gómez‐Rodríguez",
+      "year": "2017",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S0306457316302540#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2210.08933",
+      "type": "paper",
+      "title": "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models",
+      "creator": "Shansan Gong、Mukai Li、Jiangtao Feng、Zhiyong Wu、LingPeng Kong",
+      "year": "2022",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2210.08933",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.artint.2012.06.008",
+      "type": "paper",
+      "title": "Transforming Wikipedia into a large scale multilingual concept network",
+      "creator": "Vivi Năstase、Michael Strube",
+      "year": "2012",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S0004370212000781/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2106.12672",
+      "type": "paper",
+      "title": "Charformer: Fast Character Transformers via Gradient-based Subword Tokenization",
+      "creator": "Yi Tay、Vinh Q. Tran、Sebastian Ruder、Jai Prakash Gupta、Hyung Won Chung、Dara Bahri、Zhen Qin、Simon Baumgartner、Cong Yu、Donald Metzler",
+      "year": "2021",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2106.12672",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.ipm.2015.03.002",
+      "type": "paper",
+      "title": "Multi-lingual opinion mining on YouTube",
+      "creator": "Aliaksei Severyn、Alessandro Moschitti、Olga Uryupina、Barbara Plank、Katja Filippova",
+      "year": "2015",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S0306457315000400#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1109/access.2022.3224136",
+      "type": "paper",
+      "title": "Multilingual Sentiment Analysis for Under-Resourced Languages: A Systematic Review of the Landscape",
+      "creator": "Koena Ronny Mabokela、Turgay Çelik、Mpho Raborife",
+      "year": "2022",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ieeexplore.ieee.org/ielx7/6287639/10005208/09961195.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2303.04360",
+      "type": "paper",
+      "title": "Does Synthetic Data Generation of LLMs Help Clinical Text Mining?",
+      "creator": "Ruixiang Tang、Xiaotian Han、Xiaoqian Jiang、Xia Hu",
+      "year": "2023",
+      "modules": [
+        "structured-language"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2303.04360",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1016/j.knosys.2016.07.013",
+      "type": "paper",
+      "title": "NewsReader: Using knowledge resources in a cross-lingual reading machine to generate more knowledge from massive streams of news",
+      "creator": "Piek Vossen、Rodrigo Agerri、Itziar Aldabe、Agata Cybulska、Marieke van Erp、Antske Fokkens、Egoitz Laparra、Anne-Lyse Minard、Alessio Palmero Aprosio、Germán Rigau、Marco Rospocher、Roxane Segers",
+      "year": "2016",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.sciencedirect.com/science/article/pii/S0950705116302271/pdf#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2112.10668",
+      "type": "paper",
+      "title": "Few-shot Learning with Multilingual Language Models",
+      "creator": "Xi Victoria Lin、Todor Mihaylov、Mikel Artetxe、Tianlu Wang、Shuohui Chen、Daniel Simig、Myle Ott、Naman Goyal、Shruti Bhosale、Jingfei Du、Ramakanth Pasunuru、Sam Shleifer、Punit Singh Koura、Vishrav Chaudhary、Brian O’Horo、Jeff Wang、Luke Zettlemoyer、Zornitsa Kozareva、Mona Diab、Veselin Stoyanov",
+      "year": "2021",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2112.10668",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1109/access.2022.3147588",
+      "type": "paper",
+      "title": "Cross-Lingual Few-Shot Hate Speech and Offensive Language Detection Using Meta Learning",
+      "creator": "Marzieh Mozafari、Reza Farahbakhsh、Noël Crespi",
+      "year": "2022",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09696324.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2105.13626",
+      "type": "paper",
+      "title": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+      "creator": "Linting Xue、Aditya Barua、Noah Constant、Rami Al‐Rfou、Sharan Narang、Mihir Kale、Adam Roberts、Colin Raffel",
+      "year": "2021",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2105.13626",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1038/s41746-025-01651-w",
+      "type": "paper",
+      "title": "Leveraging long context in retrieval augmented language models for medical question answering",
+      "creator": "Gongbo Zhang、Zihan Xu、Qiao Jin、Fangyi Chen、Yilu Fang、Yi Liu、Justin F. Rousseau、Ziyang Xu、Zhiyong Lu、Chunhua Weng、Yifan Peng",
+      "year": "2025",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.nature.com/articles/s41746-025-01651-w.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1145/3578707",
+      "type": "paper",
+      "title": "Impact of Tokenization on Language Models: An Analysis for Turkish",
+      "creator": "Çağrı Toraman、Eyüp Halit Yılmaz、Furkan Şahi̇nuç、Oguzhan Ozcelik",
+      "year": "2023",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://dl.acm.org/doi/pdf/10.1145/3578707#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2108.08877",
+      "type": "paper",
+      "title": "Sentence-T5: Scalable Sentence Encoders from Pre-trained Text-to-Text Models",
+      "creator": "Jianmo Ni、Gustavo Hernández Ábrego、Noah Constant、Ji Ma、Keith Hall、Daniel Cer、Yinfei Yang",
+      "year": "2021",
+      "modules": [
+        "encoders-decoders"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2108.08877",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1007/s11704-024-40579-4",
+      "type": "paper",
+      "title": "A survey on multilingual large language models: corpora, alignment, and bias",
+      "creator": "Yuemei Xu、Ling Hu、Jiayi Zhao、Zihan Qiu、Kexin Xu、Yuqi Ye、Hanwen Gu",
+      "year": "2025",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://link.springer.com/content/pdf/10.1007/s11704-024-40579-4.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1017/s1351324915000406",
+      "type": "paper",
+      "title": "Multilingual native language identification",
+      "creator": "Shervin Malmasi、Mark Dras",
+      "year": "2015",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9A67BA23C7171731D1D5B659F0F52C2A/S1351324915000406a.pdf/div-class-title-multilingual-native-language-identification-div.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2312.05187",
+      "type": "paper",
+      "title": "Seamless: Multilingual Expressive and Streaming Speech Translation",
+      "creator": "Seamless Communication、Loïc Barrault、Yu-An Chung、Mariano Coria Meglioli、David C. Dale、Ning Dong、Mark Duppenthaler、Paul-Ambroise Duquenne、Brian E. Ellis、Hady Elsahar、Justin Haaheim、John P. Hoffman、Min-Jae Hwang、Hirofumi Inaguma、Christopher Klaiber、Ilia Kulikov、Pengwei Li、Daniel J. Licht、Jean Maillard、Ruslan Mavlyutov",
+      "year": "2023",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2312.05187",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1162/tacl_a_00082",
+      "type": "paper",
+      "title": "Detecting Cross-Cultural Differences Using a Multilingual Topic Model",
+      "creator": "Elkin Gutierrez、Ekaterina Shutova、Patricia Lichtenstein、Gerard de Melo、Luca Gilardi",
+      "year": "2016",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00082#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2305.15425",
+      "type": "paper",
+      "title": "Language Model Tokenizers Introduce Unfairness Between Languages",
+      "creator": "Aleksandar Petrov、Emanuele La Malfa、Philip H. S. Torr、Adel Bibi",
+      "year": "2023",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2305.15425",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.1613/jair.4968",
+      "type": "paper",
+      "title": "Automatic Wordnet Development for Low-Resource Languages using Cross-Lingual WSD",
+      "creator": "Nasrin Taghizadeh、Hesham Faili",
+      "year": "2016",
+      "modules": [
+        "multilingual"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://jair.org/index.php/jair/article/download/11003/26162#fulltext.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2010.02534",
+      "type": "paper",
+      "title": "An Empirical Study of Tokenization Strategies for Various Korean NLP Tasks",
+      "creator": "Kyubyong Park、Joohong Lee、Seongbo Jang、Dawoon Jung",
+      "year": "2020",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "core",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2010.02534",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.7717/peerj-cs.2465",
+      "type": "paper",
+      "title": "Slovak morphological tokenizer using the Byte-Pair Encoding algorithm",
+      "creator": "Dávid Držík、Frantisek Forgac",
+      "year": "2024",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://peerj.com/articles/cs-2465.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.21203/rs.3.rs-6513777/v1",
+      "type": "paper",
+      "title": "Tokens with Meaning: A Hybrid Tokenization Approach for NLP",
+      "creator": "Mehmet Bayram、Ali Arda Fincan、Ahmet Semih Gümüş、Sercan Karakaş、Banu Di̇ri̇、Savaş Yıldırım、Demircan Çelik",
+      "year": "2025",
+      "modules": [
+        "tokenization"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的前沿与更新证据；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://www.researchsquare.com/article/rs-6513777/latest.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    },
+    {
+      "id": "paper-doi-10.48550/arxiv.2410.18050",
+      "type": "paper",
+      "title": "LongRAG: A Dual-Perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering",
+      "creator": "Qi Zhao、Ruobing Wang、Yukuo Cen、Daren Zha、Shicheng Tan、Yuxiao Dong、Tang, Jie",
+      "year": "2024",
+      "modules": [
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "role": "按检索相关性选出的主题核心文献；先按 OpenAlex 全文检索相关性收窄，再以引用影响与主题覆盖复核，引用数为 2026-09-02 的快照。",
+      "content_url": "https://arxiv.org/pdf/2410.18050",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "Tavily-source-map-and-OpenAlex-metadata",
+        "checked_at": "2026-09-03"
+      }
+    }
+  ]
+}

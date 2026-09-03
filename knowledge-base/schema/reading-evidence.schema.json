@@ -21,9 +21,14 @@
             "required": ["state", "method", "artifact", "sha256"],
             "properties": {
               "state": { "enum": ["catalogued", "retrieved", "extracted", "read", "cited"] },
-              "method": { "enum": ["direct_download", "tavily_extract", "local_reference"] },
-              "artifact": { "type": "string" },
-              "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+              "method": { "enum": ["direct_download", "tavily_extract", "official_online_read", "local_reference"] },
+              "artifact": { "type": ["string", "null"] },
+              "sha256": {
+                "anyOf": [
+                  { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+                  { "type": "null" }
+                ]
+              },
               "bytes": { "type": ["integer", "null"] }
             }
           },

@@ -2,6 +2,12 @@
 import { computed, ref } from "vue";
 import { withBase } from "vitepress";
 import machineLearningCatalog from "../../../public/data/knowledge-base/machine-learning.json";
+import aiProductCatalog from "../../../public/data/knowledge-base/ai-product.json";
+import aiAgentCatalog from "../../../public/data/knowledge-base/ai-agent.json";
+import softwareCatalog from "../../../public/data/knowledge-base/software.json";
+import qualityCatalog from "../../../public/data/knowledge-base/quality.json";
+import deepLearningCatalog from "../../../public/data/knowledge-base/deep-learning.json";
+import nlpCatalog from "../../../public/data/knowledge-base/nlp.json";
 
 type ResourceType = "book" | "paper";
 type Resource = {
@@ -12,6 +18,10 @@ type Resource = {
   year: string;
   modules: string[];
   level: "starter" | "core" | "advanced";
+  maturity?: "established" | "frontier";
+  freshness?: "current" | "recent" | "foundation";
+  citation_count?: number;
+  scholarly_venue?: string;
   role: string;
   content_url: string;
   review_url?: string;
@@ -20,17 +30,29 @@ type Resource = {
 };
 
 const props = withDefaults(defineProps<{ field?: string }>(), { field: "machine-learning" });
-const catalogs = { "machine-learning": machineLearningCatalog } as const;
+const catalogs = {
+  "machine-learning": machineLearningCatalog,
+  "ai-product": aiProductCatalog,
+  "ai-agent": aiAgentCatalog,
+  "software": softwareCatalog,
+  "quality": qualityCatalog,
+  "deep-learning": deepLearningCatalog,
+  "nlp": nlpCatalog,
+} as const;
 const catalog = computed(() => catalogs[props.field as keyof typeof catalogs] ?? machineLearningCatalog);
 
 const activeModule = ref("all");
 const activeType = ref<"all" | ResourceType>("all");
 const activeLevel = ref("all");
+const activeMaturity = ref("all");
+const activeFreshness = ref("all");
 const query = ref("");
 
 const typeLabels: Record<ResourceType, string> = { book: "教材原文", paper: "论文全文" };
 const levelLabels = { starter: "入门", core: "核心", advanced: "进阶" } as const;
 const accessLabels = { open: "无需登录" } as const;
+const maturityLabels = { established: "稳定基础", frontier: "前沿证据" } as const;
+const freshnessLabels = { current: "2025—至今", recent: "2023—2024", foundation: "奠基经典" } as const;
 const typeOrder: ResourceType[] = ["book", "paper"];
 
 const moduleById = computed(() => Object.fromEntries(catalog.value.modules.map((item) => [item.id, item])));
@@ -41,25 +63,35 @@ const filtered = computed(() => {
     const matchesModule = activeModule.value === "all" || resource.modules.includes(activeModule.value);
     const matchesType = activeType.value === "all" || resource.type === activeType.value;
     const matchesLevel = activeLevel.value === "all" || resource.level === activeLevel.value;
+    const matchesMaturity = activeMaturity.value === "all" || resource.maturity === activeMaturity.value;
+    const matchesFreshness = activeFreshness.value === "all" || resource.freshness === activeFreshness.value;
     const haystack = `${resource.title} ${resource.creator} ${resource.role}`.toLocaleLowerCase();
-    return matchesModule && matchesType && matchesLevel && (!needle || haystack.includes(needle));
+    return matchesModule && matchesType && matchesLevel && matchesMaturity && matchesFreshness && (!needle || haystack.includes(needle));
   });
 });
 const grouped = computed(() => typeOrder
   .map((type) => ({ type, items: filtered.value.filter((item) => item.type === type) }))
   .filter((group) => group.items.length));
 const counts = computed(() => Object.fromEntries(typeOrder.map((type) => [type, resources.value.filter((item) => item.type === type).length])));
+const bookUnit = computed(() => ["ai-product", "software", "quality"].includes(props.field) ? "份教材/手册" : "本教材");
+const libraryLabel = computed(() => `${catalog.value.title}资源知识库`);
 
 function resetFilters() {
   activeModule.value = "all";
   activeType.value = "all";
   activeLevel.value = "all";
+  activeMaturity.value = "all";
+  activeFreshness.value = "all";
   query.value = "";
+}
+
+function formatCitationCount(value = 0) {
+  return new Intl.NumberFormat("zh-CN", { notation: "compact", maximumFractionDigits: 1 }).format(value);
 }
 </script>
 
 <template>
-  <section class="resource-library" aria-label="机器学习资源知识库">
+  <section class="resource-library" :aria-label="libraryLabel">
     <header class="resource-library__summary">
       <div>
         <span>CURATED SOURCE CATALOG</span>
@@ -68,7 +100,7 @@ function resetFilters() {
       </div>
       <dl>
         <div><dt>{{ resources.length }}</dt><dd>条官方入口</dd></div>
-        <div><dt>{{ counts.book }}</dt><dd>本教材</dd></div>
+        <div><dt>{{ counts.book }}</dt><dd>{{ bookUnit }}</dd></div>
         <div><dt>{{ counts.paper }}</dt><dd>篇核心论文</dd></div>
         <div><dt>{{ catalog.modules.length }}</dt><dd>个知识子模块</dd></div>
       </dl>
@@ -110,6 +142,23 @@ function resetFilters() {
           <option value="advanced">进阶</option>
         </select>
       </label>
+      <label v-if="props.field === 'ai-agent'">
+        <span>证据成熟度</span>
+        <select v-model="activeMaturity">
+          <option value="all">全部成熟度</option>
+          <option value="established">稳定基础</option>
+          <option value="frontier">前沿证据</option>
+        </select>
+      </label>
+      <label v-if="props.field === 'ai-agent'">
+        <span>资料新鲜度</span>
+        <select v-model="activeFreshness">
+          <option value="all">全部年份</option>
+          <option value="current">2025—至今</option>
+          <option value="recent">2023—2024</option>
+          <option value="foundation">奠基经典</option>
+        </select>
+      </label>
       <button class="resource-library__reset" type="button" @click="resetFilters">重置</button>
     </div>
 
@@ -126,10 +175,15 @@ function resetFilters() {
             <div class="resource-card__meta">
               <span>{{ typeLabels[resource.type] }}</span>
               <span>{{ levelLabels[resource.level] }}</span>
+              <span v-if="resource.maturity">{{ maturityLabels[resource.maturity] }}</span>
+              <span v-if="resource.freshness">{{ freshnessLabels[resource.freshness] }}</span>
               <span>{{ accessLabels[resource.access] }}</span>
             </div>
             <h3>{{ resource.title }}</h3>
             <p class="resource-card__creator">{{ resource.creator }} · {{ resource.year }}</p>
+            <p v-if="resource.type === 'paper'" class="resource-card__authority">
+              {{ resource.scholarly_venue || 'arXiv 开放原文' }}<template v-if="resource.citation_count !== undefined"> · Semantic Scholar 引用 {{ formatCitationCount(resource.citation_count) }}</template>
+            </p>
             <p>{{ resource.role }}</p>
             <div class="resource-card__modules">
               <span v-for="moduleId in resource.modules" :key="moduleId">{{ moduleById[moduleId]?.name }}</span>
@@ -177,7 +231,7 @@ function resetFilters() {
 .resource-library__modules button.active { border-color: var(--vp-c-brand-1); background: var(--vp-c-brand-soft); }
 .resource-library__modules span { display: block; font-size: 14px; font-weight: 750; }
 .resource-library__modules small { display: block; margin-top: 7px; color: var(--vp-c-text-2); line-height: 1.55; }
-.resource-library__controls { display: grid; grid-template-columns: minmax(220px, 1fr) 150px 130px auto; gap: 10px; align-items: end; padding: 14px; border: 1px solid var(--vp-c-divider); border-radius: 14px; background: var(--vp-c-bg-soft); }
+.resource-library__controls { display: grid; grid-template-columns: minmax(220px, 1fr) repeat(4, minmax(120px, 150px)) auto; gap: 10px; align-items: end; padding: 14px; border: 1px solid var(--vp-c-divider); border-radius: 14px; background: var(--vp-c-bg-soft); }
 .resource-library__controls label > span { display: block; margin: 0 0 6px 2px; color: var(--vp-c-text-2); font-size: 11px; font-weight: 700; }
 .resource-library__controls input, .resource-library__controls select { width: 100%; height: 40px; padding: 0 11px; border: 1px solid var(--vp-c-divider); border-radius: 9px; background: var(--vp-c-bg); color: var(--vp-c-text-1); font: inherit; font-size: 13px; }
 .resource-library__controls input:focus, .resource-library__controls select:focus { border-color: var(--vp-c-brand-1); outline: 2px solid var(--vp-c-brand-soft); }
@@ -196,6 +250,7 @@ function resetFilters() {
 .resource-card h3 { margin: 13px 0 5px; font-size: 16px; line-height: 1.4; overflow-wrap: anywhere; }
 .resource-card p { margin: 8px 0; color: var(--vp-c-text-2); font-size: 13px; line-height: 1.65; }
 .resource-card .resource-card__creator { margin-top: 0; color: var(--vp-c-text-3); font-size: 11px; }
+.resource-card .resource-card__authority { margin: 2px 0 6px; color: var(--vp-c-brand-1); font-size: 11px; font-weight: 650; }
 .resource-card__modules { margin-top: auto; padding-top: 9px; }
 .resource-card footer { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--vp-c-divider); }
 .resource-card footer small { color: var(--vp-c-text-3); font-size: 10px; }

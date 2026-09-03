@@ -1,48 +1,39 @@
 {
   "field": "ai-product",
   "title": "AI 产品经理",
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "books": {
-    "total": 10,
-    "downloaded_open_fulltext": 1,
-    "declared_open_fulltext": 1,
-    "official_online": 1,
-    "commercial_metadata_only": 8,
-    "download_failures": 0
+    "total": 12,
+    "open_fulltext": 12,
+    "published_reviews": 1,
+    "pending_full_reviews": 11,
+    "commercial_metadata_only": 0,
+    "misclassified_sources_removed": 12
   },
   "papers": {
-    "total": 120,
-    "open_access": 120,
-    "since_2023": 57,
-    "snapshot_date": "2026-08-30",
+    "total": 106,
+    "open_access": 106,
+    "since_2023": 91,
+    "snapshot_date": "2026-09-02",
     "topic_counts": {
-      "problem-discovery": 15,
-      "workflow": 15,
+      "problem-discovery": 11,
+      "workflow": 11,
       "capability-architecture": 11,
-      "evaluation": 11,
-      "experimentation": 12,
-      "ux-trust": 14,
-      "economics": 15,
-      "governance": 15,
-      "operations": 15,
-      "strategy-organization": 15
-    },
-    "top_venues": {
-      "arXiv (Cornell University)": 7,
-      "IEEE Access": 6,
-      "Sustainability": 5,
-      "International Journal of Information Management": 4,
-      "Information Fusion": 3,
-      "BMC Medical Informatics and Decision Making": 3,
-      "Nature": 2,
-      "Journal Of Big Data": 2
+      "evaluation": 12,
+      "experimentation": 10,
+      "ux-trust": 11,
+      "economics": 10,
+      "governance": 13,
+      "operations": 14,
+      "strategy-organization": 10,
+      "generative-ai": 10
     }
   },
   "reading_evidence": {
-    "source_ledger_present": false,
-    "retrieved_or_beyond": 0,
-    "read_or_cited": 0,
-    "cited": 0,
-    "source_grounded_lessons": 0
+    "source_ledger_present": true,
+    "catalogued_fulltext_books": 12,
+    "published_reviews": 1,
+    "pending_full_reviews": 11,
+    "rule": "教材目录通过不等于综述完成；只有精读完整原稿并通过 5000 字与结构质量验收后才发布综述入口。"
   }
 }

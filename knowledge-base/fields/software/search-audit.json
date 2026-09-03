@@ -1,0 +1,16 @@
+{
+  "field": "software",
+  "checked_at": "2026-09-03",
+  "tavily_queries": [
+    "open access computer science software systems engineering textbooks official free online SICP OSTEP distributed systems",
+    "author official free online software architecture site reliability engineering database systems networking textbooks",
+    "authoritative university systems research reading list operating systems distributed systems databases networking software engineering papers"
+  ],
+  "textbook_extracts": {
+    "requested": 19,
+    "succeeded": 18
+  },
+  "paper_candidate_source": "papers-we-love/papers-we-love",
+  "openalex_enriched": 46,
+  "paper_count": 224
+}

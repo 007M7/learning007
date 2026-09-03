@@ -1,0 +1,51 @@
+{
+  "field": "quality",
+  "checked_at": "2026-09-03",
+  "gate": "catalog-review",
+  "learning_nodes": {
+    "formal": 16,
+    "advanced": 18,
+    "total": 34
+  },
+  "tavily_queries": [
+    "authoritative open access software testing reliability continuous delivery site reliability engineering books handbooks official PDF",
+    "authoritative open access software testing verification textbook handbook official PDF university",
+    "official open access DevOps continuous delivery SRE observability incident response handbook book",
+    "official Kubernetes IaC GitOps platform engineering handbook whitepaper PDF CNCF",
+    "open access performance engineering capacity planning queueing systems textbook official PDF",
+    "official software supply chain security secure development handbook NIST OWASP SLSA PDF",
+    "official resilience disaster recovery chaos engineering game day handbook open access PDF",
+    "software testing continuous integration DevOps SRE core papers reading list university",
+    "site:arxiv.org software testing continuous delivery observability reliability engineering survey",
+    "site:istqb.org CTFL syllabus v4.0.1 pdf",
+    "site:nasa.gov software engineering handbook PDF NASA",
+    "site:nist.gov software testing secure development incident response contingency planning PDF",
+    "site:cncf.io whitepaper platform engineering cloud native security PDF",
+    "site:istqb.org certified tester advanced level test automation engineering syllabus",
+    "site:nasa.gov NASA systems engineering handbook pdf",
+    "site:sre.google books site reliability engineering",
+    "platform engineering developer experience empirical study paper"
+  ],
+  "exclusions": [
+    "购买页或登录后正文",
+    "Scribd、Academia 等二手聚合页",
+    "只有课程介绍而无系统正文",
+    "标题相关但研究对象属于医疗、交通、电网或金融等领域的漂移论文"
+  ],
+  "module_paper_counts": {
+    "quality-risk": 22,
+    "testing-evidence": 22,
+    "build-artifacts": 22,
+    "delivery-release": 22,
+    "observability-recovery": 22,
+    "secure-supply-chain": 24,
+    "kubernetes-foundations": 22,
+    "kubernetes-operations": 26,
+    "iac-gitops": 23,
+    "performance-capacity": 22,
+    "chaos-sre": 23,
+    "platform-resilience": 22
+  },
+  "book_count": 42,
+  "paper_count": 264
+}

@@ -1,4 +1,4 @@
-export const updatedAt = "2026-08-31";
+export const updatedAt = "2026-09-02";
 
 export const fields = {
   "machine-learning": {
@@ -59,6 +59,45 @@ export const fields = {
       ["governance", "AI risk management privacy governance impact assessment"],
       ["operations", "MLOps technical debt production machine learning monitoring data validation"],
       ["strategy-organization", "artificial intelligence strategy organizational capabilities competitive advantage"]
+    ]
+  },
+  "ai-agent": {
+    title: "AI 应用与 Agent",
+    paperQueries: [
+      ["formal-models", "large language model scaling laws in context learning tokenization uncertainty", ["language model", "scaling", "in-context", "token"]],
+      ["formal-context", "prompt engineering structured generation constrained decoding context engineering language models", ["prompt", "structured", "constrained", "context"]],
+      ["formal-retrieval", "dense retrieval embeddings retrieval augmented generation large language models", ["retriev", "embedding", "rag"]],
+      ["formal-tools", "large language model tool use function calling API protocol", ["tool", "function call", "api", "protocol"]],
+      ["formal-runtime", "large language model agent architecture workflow runtime memory", ["agent", "workflow", "memory", "runtime"]],
+      ["formal-eval-safety", "large language model evaluation benchmark hallucination safety prompt injection", ["evaluat", "benchmark", "hallucin", "safety", "injection"]],
+      ["advanced-math", "transformer theoretical analysis attention optimization information theory", ["transformer", "attention", "optimization", "language model"]],
+      ["advanced-training", "transformer language model pretraining scaling training systems data", ["transformer", "pretrain", "training", "scaling"]],
+      ["advanced-posttraining", "instruction tuning preference optimization RLHF DPO large language model", ["instruction", "preference", "rlhf", "dpo", "alignment"]],
+      ["advanced-inference", "large language model inference serving KV cache quantization speculative decoding", ["inference", "kv cache", "quantization", "speculative", "serving"]],
+      ["advanced-rag", "advanced retrieval augmented generation graph multimodal long context", ["retrieval", "rag", "long context", "graph"]],
+      ["advanced-multiagent", "large language model multi agent coordination communication debate", ["multi-agent", "multiagent", "agents"]],
+      ["frontier-paradigm", "LLM agents planning reasoning reflection test time search autonomous agents", ["agent", "planning", "reason", "reflection", "search"]],
+      ["frontier-tools-memory", "LLM agents tool use memory context engineering benchmark", ["agent", "tool", "memory", "context"]],
+      ["frontier-computer-coding", "LLM agent computer use web browser GUI software engineering coding benchmark", ["agent", "web", "browser", "gui", "software", "coding"]],
+      ["frontier-research-learning", "LLM agent deep research multi agent reinforcement learning self improvement", ["agent", "research", "learning", "multi-agent"]],
+      ["frontier-eval-safety", "LLM agent evaluation reproducibility benchmark security safety prompt injection", ["agent", "evaluation", "benchmark", "security", "safety", "injection"]]
+    ]
+  },
+  quality: {
+    title: "质量与生产交付",
+    paperQueries: [
+      ["quality-risk", "risk based software testing requirements quality assurance"],
+      ["testing-evidence", "software testing mutation fuzzing oracle regression flaky tests"],
+      ["build-artifacts", "reproducible builds static analysis containers artifacts provenance"],
+      ["delivery-release", "continuous integration delivery deployment release rollback migration"],
+      ["observability-recovery", "observability tracing incident response SLO reliability"],
+      ["secure-supply-chain", "software supply chain security SBOM provenance vulnerability"],
+      ["kubernetes-foundations", "Kubernetes workloads networking storage orchestration"],
+      ["kubernetes-operations", "Kubernetes scheduling autoscaling RBAC cluster security"],
+      ["iac-gitops", "infrastructure as code GitOps drift policy as code"],
+      ["performance-capacity", "performance engineering capacity planning tail latency queueing"],
+      ["chaos-sre", "chaos engineering fault injection resilience error budgets"],
+      ["platform-resilience", "disaster recovery multi region platform engineering resilience"]
     ]
   },
   "low-altitude": {

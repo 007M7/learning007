@@ -1,0 +1,1172 @@
+{
+  "field": "ai-agent",
+  "title": "AI 应用与 Agent",
+  "curated_count": 44,
+  "methodology": "先按正式、进阶、前沿学习节点建立来源地图，再用 Tavily 检索权威候选；仅保留完整开放正文，并重点补入稳定的软件与系统工程底座。",
+  "records": [
+    {
+      "id": "book:ai-agent:aifca",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Artificial Intelligence: Foundations of Computational Agents (3rd ed.)",
+      "authors": [
+        "David L. Poole",
+        "Alan K. Mackworth"
+      ],
+      "year": "2023",
+      "topics": [
+        "formal-runtime",
+        "frontier-paradigm"
+      ],
+      "official_url": "https://artint.info/3e/html/ArtInt3e.html",
+      "authority_reason": "以计算 Agent 为中心系统讲解决策、搜索、概率推理、学习和多智能体，是理解 Agent 边界的稳定总教材。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/ai-agent/aifca",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://artint.info/3e/html/ArtInt3e.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:mml",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Mathematics for Machine Learning",
+      "authors": [
+        "Marc Peter Deisenroth",
+        "A. Aldo Faisal",
+        "Cheng Soon Ong"
+      ],
+      "year": "2020",
+      "topics": [
+        "advanced-math"
+      ],
+      "official_url": "https://mml-book.github.io/book/mml-book.pdf",
+      "authority_reason": "按机器学习用途组织线性代数、微积分、概率与优化，承担模型原理的数学前置。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/machine-learning/mathematics-ml",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://mml-book.github.io/book/mml-book.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:probml-intro",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "authors": [
+        "Kevin P. Murphy"
+      ],
+      "year": "2022",
+      "topics": [
+        "formal-models",
+        "advanced-math"
+      ],
+      "official_url": "https://probml.github.io/pml-book/book1.html",
+      "authority_reason": "连接概率建模、决策理论、经典机器学习与神经模型，用于校准概率、不确定性和评价判断。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/machine-learning/probml-intro",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://probml.github.io/pml-book/book1.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:probml-advanced",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Probabilistic Machine Learning: Advanced Topics",
+      "authors": [
+        "Kevin P. Murphy"
+      ],
+      "year": "2023",
+      "topics": [
+        "advanced-math",
+        "advanced-training",
+        "advanced-posttraining",
+        "frontier-paradigm"
+      ],
+      "official_url": "https://probml.github.io/pml-book/book2.html",
+      "authority_reason": "覆盖高级推断、表示学习、生成模型与决策方法，为前沿论文提供统一概率语言。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/machine-learning/probml-advanced",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://probml.github.io/pml-book/book2.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:deep-learning",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Ian Goodfellow",
+        "Yoshua Bengio",
+        "Aaron Courville"
+      ],
+      "year": "2016",
+      "topics": [
+        "advanced-math",
+        "advanced-training"
+      ],
+      "official_url": "https://www.deeplearningbook.org/",
+      "authority_reason": "神经网络、优化、正则化、表示学习与生成建模的稳定经典教材。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/machine-learning/deep-learning",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.deeplearningbook.org/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:d2l",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Dive into Deep Learning",
+      "authors": [
+        "Aston Zhang",
+        "Zachary C. Lipton",
+        "Mu Li",
+        "Alexander J. Smola"
+      ],
+      "year": "持续更新",
+      "topics": [
+        "formal-models",
+        "advanced-training"
+      ],
+      "official_url": "https://d2l.ai/d2l-en.pdf",
+      "authority_reason": "以可运行代码连接数学、模型训练和工程实现，适合建立从机制到实验的第一条路径。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/machine-learning/d2l",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://d2l.ai/d2l-en.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:understanding-deep-learning",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Understanding Deep Learning",
+      "authors": [
+        "Simon J. D. Prince"
+      ],
+      "year": "2023",
+      "topics": [
+        "advanced-math",
+        "advanced-training"
+      ],
+      "official_url": "https://udlbook.github.io/udlbook/",
+      "authority_reason": "用现代视角解释深度网络、Transformer、生成模型和泛化，适合作为经典教材与 LLM 论文之间的桥梁。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/ai-agent/understanding-deep-learning",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://udlbook.github.io/udlbook/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:geometric-deep-learning",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Geometric Deep Learning",
+      "authors": [
+        "Michael M. Bronstein",
+        "Joan Bruna",
+        "Taco Cohen",
+        "Petar Veličković"
+      ],
+      "year": "2021",
+      "topics": [
+        "advanced-math",
+        "advanced-rag"
+      ],
+      "official_url": "https://geometricdeeplearning.com/book",
+      "authority_reason": "以对称性和几何先验统一 CNN、图网络与等变模型，为图检索和结构化表示提供理论支撑。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/geometric-deep-learning",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://geometricdeeplearning.com/book",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:little-book-deep-learning",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "The Little Book of Deep Learning",
+      "authors": [
+        "François Fleuret"
+      ],
+      "year": "2024",
+      "topics": [
+        "formal-models",
+        "advanced-training"
+      ],
+      "official_url": "https://fleuret.org/public/lbdl.pdf",
+      "authority_reason": "以紧凑方式梳理张量、网络、训练和现代架构，便于建立深度学习的可复习骨架。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/ai-agent/little-book-deep-learning",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://fleuret.org/public/lbdl.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:information-theory",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Information Theory, Inference, and Learning Algorithms",
+      "authors": [
+        "David J. C. MacKay"
+      ],
+      "year": "2003",
+      "topics": [
+        "advanced-math",
+        "formal-retrieval"
+      ],
+      "official_url": "https://www.inference.org.uk/itprnn/book.pdf",
+      "authority_reason": "把信息论、贝叶斯推断与学习算法连成体系，用于理解编码、熵、压缩和概率决策。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/information-theory",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.inference.org.uk/itprnn/book.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:slp3",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Speech and Language Processing (3rd ed. draft)",
+      "authors": [
+        "Dan Jurafsky",
+        "James H. Martin"
+      ],
+      "year": "持续更新",
+      "topics": [
+        "formal-models",
+        "formal-context",
+        "formal-retrieval",
+        "advanced-training",
+        "advanced-posttraining",
+        "advanced-rag"
+      ],
+      "official_url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "authority_reason": "覆盖语言模型、Transformer、Prompt、信息检索、RAG、评测与安全，是语言应用主教材。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/ai-agent/slp3",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.stanford.edu/~jurafsky/slp3/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:nltk-book",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Natural Language Processing with Python",
+      "authors": [
+        "Steven Bird",
+        "Ewan Klein",
+        "Edward Loper"
+      ],
+      "year": "2009",
+      "topics": [
+        "formal-context",
+        "formal-retrieval"
+      ],
+      "official_url": "https://www.nltk.org/book/",
+      "authority_reason": "从语料、标注、分类和语言结构建立可执行 NLP 基础，避免把 LLM 应用等同于 API 调用。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/nltk-book",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.nltk.org/book/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:ir-book",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Introduction to Information Retrieval",
+      "authors": [
+        "Christopher D. Manning",
+        "Prabhakar Raghavan",
+        "Hinrich Schütze"
+      ],
+      "year": "2008",
+      "topics": [
+        "formal-retrieval",
+        "advanced-rag"
+      ],
+      "official_url": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf",
+      "authority_reason": "倒排索引、排序、评价、分类和聚类的权威教材，为 RAG 提供稳定的信息检索底座。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/ir-book",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:niutrans-nlp",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Natural Language Processing: Neural Networks and Large Language Models",
+      "authors": [
+        "Tong Xiao",
+        "Jingbo Zhu"
+      ],
+      "year": "2025",
+      "topics": [
+        "formal-models",
+        "formal-context",
+        "advanced-training",
+        "advanced-posttraining"
+      ],
+      "official_url": "https://raw.githubusercontent.com/NiuTrans/NLPBook/main/nlp-book.pdf",
+      "authority_reason": "从神经网络推进到 Transformer、预训练、对齐与 LLM，提供较新的完整语言模型知识链。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/ai-agent/niutrans-nlp",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/NiuTrans/NLPBook/main/nlp-book.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:foundations-llm",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Foundations of Large Language Models",
+      "authors": [
+        "Tong Xiao",
+        "Jingbo Zhu"
+      ],
+      "year": "2025",
+      "topics": [
+        "formal-models",
+        "formal-context",
+        "advanced-training",
+        "advanced-posttraining"
+      ],
+      "official_url": "https://arxiv.org/pdf/2501.09223",
+      "authority_reason": "以专著结构集中讲解预训练、生成模型、Prompt、推理与对齐，作为近两年 LLM 机制的主教材。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/ai-agent/foundations-llm",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/2501.09223",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:neural-nlp-primer",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "A Primer on Neural Network Models for Natural Language Processing",
+      "authors": [
+        "Yoav Goldberg"
+      ],
+      "year": "2016",
+      "topics": [
+        "formal-models",
+        "advanced-training"
+      ],
+      "official_url": "https://arxiv.org/pdf/1510.00726",
+      "authority_reason": "以专著长度讲清表示、前馈网络、卷积、循环网络与训练方法，是现代 NLP 模型的稳定桥梁。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/neural-nlp-primer",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/1510.00726",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:graph-representation-learning",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Graph Representation Learning",
+      "authors": [
+        "William L. Hamilton"
+      ],
+      "year": "2020",
+      "topics": [
+        "advanced-rag",
+        "advanced-math"
+      ],
+      "official_url": "https://www.cs.mcgill.ca/~wlh/grl_book/files/GRL_Book.pdf",
+      "authority_reason": "系统解释图表示、消息传递和图神经网络，为 GraphRAG 与关系检索建立算法基础。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/graph-representation-learning",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.mcgill.ca/~wlh/grl_book/files/GRL_Book.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:mapreduce-text",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Data-Intensive Text Processing with MapReduce",
+      "authors": [
+        "Jimmy Lin",
+        "Chris Dyer"
+      ],
+      "year": "2010",
+      "topics": [
+        "formal-retrieval",
+        "advanced-inference"
+      ],
+      "official_url": "https://lintool.github.io/MapReduceAlgorithms/MapReduce-book-final.pdf",
+      "authority_reason": "用 MapReduce 讲索引、图算法和语言处理，帮助理解批处理、数据局部性与可扩展检索。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/mapreduce-text",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://lintool.github.io/MapReduceAlgorithms/MapReduce-book-final.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:ultrascale-playbook",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "The Ultra-Scale Playbook: Training LLMs on GPU Clusters",
+      "authors": [
+        "Nouamane Tazi 等，Hugging Face Nanotron 团队"
+      ],
+      "year": "2025",
+      "topics": [
+        "advanced-training",
+        "advanced-inference"
+      ],
+      "official_url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
+      "authority_reason": "基于四千余次扩展实验解释并行训练、通信、显存、吞吐和瓶颈定位，补足当前大模型训练系统知识。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/ai-agent/ultrascale-playbook",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:think-bayes",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Think Bayes (2nd ed.)",
+      "authors": [
+        "Allen B. Downey"
+      ],
+      "year": "2021",
+      "topics": [
+        "formal-models",
+        "advanced-math"
+      ],
+      "official_url": "https://allendowney.github.io/ThinkBayes2/",
+      "authority_reason": "通过计算实例学习贝叶斯建模和不确定性更新，适合非科班读者补概率判断。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/think-bayes",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://allendowney.github.io/ThinkBayes2/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:rl-introduction",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Reinforcement Learning: An Introduction (2nd ed.)",
+      "authors": [
+        "Richard S. Sutton",
+        "Andrew G. Barto"
+      ],
+      "year": "2018",
+      "topics": [
+        "frontier-paradigm",
+        "frontier-research-learning",
+        "advanced-posttraining"
+      ],
+      "official_url": "http://incompleteideas.net/book/the-book-2nd.html",
+      "authority_reason": "强化学习、价值函数、策略、时序差分和近似方法的奠基教材，支撑 Agent 学习与偏好优化。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/rl-introduction",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "http://incompleteideas.net/book/the-book-2nd.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:algorithms-decision-making",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Algorithms for Decision Making",
+      "authors": [
+        "Mykel J. Kochenderfer",
+        "Tim A. Wheeler",
+        "Kyle H. Wray"
+      ],
+      "year": "2022",
+      "topics": [
+        "frontier-paradigm",
+        "frontier-eval-safety"
+      ],
+      "official_url": "https://algorithmsbook.com/decisionmaking",
+      "authority_reason": "系统讲 MDP、POMDP、规划、强化学习和多智能体决策，强调不确定环境中的可验证选择。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/algorithms-decision-making",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://algorithmsbook.com/decisionmaking",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:planning-algorithms",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Planning Algorithms",
+      "authors": [
+        "Steven M. LaValle"
+      ],
+      "year": "2006",
+      "topics": [
+        "frontier-paradigm"
+      ],
+      "official_url": "https://lavalle.pl/planning/book.pdf",
+      "authority_reason": "从离散搜索、运动规划到不确定性规划建立通用算法框架，用于校准 LLM 规划术语。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/planning-algorithms",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://lavalle.pl/planning/book.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:multiagent-systems",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations",
+      "authors": [
+        "Yoav Shoham",
+        "Kevin Leyton-Brown"
+      ],
+      "year": "2009",
+      "topics": [
+        "advanced-multiagent",
+        "frontier-research-learning"
+      ],
+      "official_url": "https://www.masfoundations.org/downloading.html",
+      "authority_reason": "连接分布式求解、博弈、通信、机制设计与认知逻辑，是多 Agent 讨论的稳定理论底座。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/multiagent-systems",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.masfoundations.org/downloading.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:marl",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
+      "authors": [
+        "Stefano V. Albrecht",
+        "Filippos Christianos",
+        "Lukas Schäfer"
+      ],
+      "year": "2024",
+      "topics": [
+        "advanced-multiagent",
+        "frontier-research-learning"
+      ],
+      "official_url": "https://www.marl-book.com/",
+      "authority_reason": "从博弈与解概念推进到现代深度 MARL，区分协作收益、非平稳性和信用分配问题。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/ai-agent/marl",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.marl-book.com/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:bandit-algorithms",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Bandit Algorithms",
+      "authors": [
+        "Tor Lattimore",
+        "Csaba Szepesvári"
+      ],
+      "year": "2020",
+      "topics": [
+        "frontier-paradigm",
+        "frontier-research-learning"
+      ],
+      "official_url": "https://tor-lattimore.com/downloads/book/book.pdf",
+      "authority_reason": "系统讲探索—利用、遗憾界与上下文 Bandit，为在线决策和 Agent 学习提供可证明基线。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/bandit-algorithms",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://tor-lattimore.com/downloads/book/book.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:distributional-rl",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Distributional Reinforcement Learning",
+      "authors": [
+        "Marc G. Bellemare",
+        "Will Dabney",
+        "Mark Rowland"
+      ],
+      "year": "2023",
+      "topics": [
+        "frontier-paradigm",
+        "frontier-research-learning"
+      ],
+      "official_url": "https://www.distributional-rl.org/",
+      "authority_reason": "把回报从单一期望扩展为分布，帮助理解风险、算子和深度强化学习中的不确定结果。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/ai-agent/distributional-rl",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.distributional-rl.org/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:rl-theory",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Reinforcement Learning: Theory and Algorithms",
+      "authors": [
+        "Alekh Agarwal",
+        "Nan Jiang",
+        "Sham M. Kakade",
+        "Wen Sun"
+      ],
+      "year": "持续更新",
+      "topics": [
+        "frontier-paradigm",
+        "frontier-research-learning"
+      ],
+      "official_url": "https://rltheorybook.github.io/",
+      "authority_reason": "以理论方式组织 MDP、函数逼近、探索和策略优化，用于审查 Agent 学习的样本与泛化主张。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/ai-agent/rl-theory",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://rltheorybook.github.io/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:software-foundations",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Software Foundations, Logical Foundations",
+      "authors": [
+        "Benjamin C. Pierce 等"
+      ],
+      "year": "持续更新",
+      "topics": [
+        "formal-tools",
+        "formal-runtime",
+        "frontier-computer-coding",
+        "frontier-eval-safety"
+      ],
+      "official_url": "https://softwarefoundations.cis.upenn.edu/lf-current/index.html",
+      "authority_reason": "用可执行证明学习程序语义、归纳和形式化验证，为类型化工具契约和关键安全属性提供基础。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/software/software-foundations",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://softwarefoundations.cis.upenn.edu/lf-current/index.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:ostep",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Operating Systems: Three Easy Pieces",
+      "authors": [
+        "Remzi H. Arpaci-Dusseau",
+        "Andrea C. Arpaci-Dusseau"
+      ],
+      "year": "持续更新",
+      "topics": [
+        "formal-runtime",
+        "advanced-inference",
+        "frontier-tools-memory"
+      ],
+      "official_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "authority_reason": "以虚拟化、并发和持久化解释运行时资源，是沙箱、进程、内存和存储判断的系统基础。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/software/ostep",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:open-data-structures",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Open Data Structures",
+      "authors": [
+        "Pat Morin"
+      ],
+      "year": "2013",
+      "topics": [
+        "formal-retrieval",
+        "formal-runtime"
+      ],
+      "official_url": "https://opendatastructures.org/ods-java/",
+      "authority_reason": "系统讲序列、树、哈希和图结构，为索引、缓存、队列和状态存储提供稳定算法基础。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/open-data-structures",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://opendatastructures.org/ods-java/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:algorithms-erickson",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Algorithms",
+      "authors": [
+        "Jeff Erickson"
+      ],
+      "year": "2019",
+      "topics": [
+        "formal-retrieval",
+        "frontier-paradigm"
+      ],
+      "official_url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+      "authority_reason": "从递归、图、贪心、动态规划到 NP 困难性，建立检索、规划和调度所需的算法判断。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/algorithms-erickson",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:computer-networking",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Computer Networking: Principles, Protocols and Practice",
+      "authors": [
+        "Olivier Bonaventure"
+      ],
+      "year": "持续更新",
+      "topics": [
+        "formal-tools",
+        "formal-runtime",
+        "advanced-inference"
+      ],
+      "official_url": "https://www.computer-networking.info/",
+      "authority_reason": "从协议、可靠传输到应用层解释网络行为，为工具调用、流式响应和服务故障建立底层模型。",
+      "freshness": "current",
+      "review_url": "/knowledge-base/reviews/software/computer-networking",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.computer-networking.info/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:database-design",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Database Design (2nd ed.)",
+      "authors": [
+        "Adrienne Watt"
+      ],
+      "year": "2014",
+      "topics": [
+        "formal-runtime",
+        "frontier-tools-memory"
+      ],
+      "official_url": "https://opentextbc.ca/dbdesign01/",
+      "authority_reason": "讲清关系模型、规范化、事务和查询，为 Agent 状态、审计和记忆存储建立数据基础。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/database-design",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://opentextbc.ca/dbdesign01/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:distributed-systems",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Distributed Systems (4th ed.)",
+      "authors": [
+        "Maarten van Steen",
+        "Andrew S. Tanenbaum"
+      ],
+      "year": "2024",
+      "topics": [
+        "formal-runtime",
+        "advanced-inference",
+        "advanced-multiagent",
+        "frontier-tools-memory"
+      ],
+      "official_url": "https://www.distributed-systems.net/index.php/books/ds4/",
+      "authority_reason": "系统覆盖通信、协调、一致性、复制、容错和安全，是多节点 Agent Runtime 的稳定工程底座。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/software/distributed-systems",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.distributed-systems.net/index.php/books/ds4/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:distributed-algorithms",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Distributed Algorithms 2020",
+      "authors": [
+        "Jukka Suomela"
+      ],
+      "year": "2020",
+      "topics": [
+        "formal-runtime",
+        "advanced-multiagent"
+      ],
+      "official_url": "https://jukkasuomela.fi/da2020/",
+      "authority_reason": "用局部性、复杂度和图问题训练分布式算法推理，避免用多 Agent 名称掩盖协调成本。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/distributed-algorithms",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://jukkasuomela.fi/da2020/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:aosa",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "The Architecture of Open Source Applications",
+      "authors": [
+        "Amy Brown",
+        "Greg Wilson 编"
+      ],
+      "year": "2012",
+      "topics": [
+        "formal-runtime",
+        "advanced-inference",
+        "frontier-computer-coding"
+      ],
+      "official_url": "https://aosabook.org/en/",
+      "authority_reason": "通过真实开源系统解释架构决策、模块边界和演进，提供 AI 应用软件层的可迁移案例。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/aosa",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://aosabook.org/en/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:aosa-500",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "500 Lines or Less",
+      "authors": [
+        "Amy Brown",
+        "Michael DiBernardo 编"
+      ],
+      "year": "2016",
+      "topics": [
+        "formal-context",
+        "formal-retrieval",
+        "formal-runtime",
+        "frontier-computer-coding"
+      ],
+      "official_url": "https://aosabook.org/en/500L/introduction.html",
+      "authority_reason": "用小型完整系统展示解析器、数据库、搜索和分布式组件，适合把 AI 组件放回可读软件结构。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/aosa-500-lines",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://aosabook.org/en/500L/introduction.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:sre",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Site Reliability Engineering",
+      "authors": [
+        "Betsy Beyer 等"
+      ],
+      "year": "2016",
+      "topics": [
+        "formal-eval-safety",
+        "advanced-inference",
+        "frontier-computer-coding",
+        "frontier-eval-safety"
+      ],
+      "official_url": "https://sre.google/sre-book/table-of-contents/",
+      "authority_reason": "以 SLO、监控、自动化和事故响应建立生产可靠性框架，防止 Agent 只按演示成功率评价。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/google-sre",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sre.google/sre-book/table-of-contents/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:sre-workbook",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "The Site Reliability Workbook",
+      "authors": [
+        "Betsy Beyer 等"
+      ],
+      "year": "2018",
+      "topics": [
+        "formal-eval-safety",
+        "advanced-inference"
+      ],
+      "official_url": "https://sre.google/workbook/table-of-contents/",
+      "authority_reason": "把 SRE 原则转成告警、容量、发布与应急实践，适合形成 AI 服务运行清单。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/sre-workbook",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sre.google/workbook/table-of-contents/",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:secure-reliable-systems",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Building Secure and Reliable Systems",
+      "authors": [
+        "Heather Adkins 等"
+      ],
+      "year": "2020",
+      "topics": [
+        "formal-tools",
+        "formal-eval-safety",
+        "frontier-eval-safety"
+      ],
+      "official_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+      "authority_reason": "把安全与可靠性共同前置到设计、部署和响应，支撑高权限 Agent 的纵深防御。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/software/secure-reliable-systems",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:security-engineering",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Security Engineering (3rd ed.)",
+      "authors": [
+        "Ross Anderson"
+      ],
+      "year": "2020",
+      "topics": [
+        "formal-tools",
+        "formal-eval-safety",
+        "frontier-eval-safety"
+      ],
+      "official_url": "https://www.cl.cam.ac.uk/~rja14/book.html",
+      "authority_reason": "从协议、访问控制、经济激励与真实失效解释安全工程，为 Prompt Injection 之外的系统威胁建模。",
+      "freshness": "foundation",
+      "review_url": "/knowledge-base/reviews/ai-agent/security-engineering",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cl.cam.ac.uk/~rja14/book.html",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:llm-cybersecurity",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Large Language Models in Cybersecurity: Threats, Exposure and Mitigation",
+      "authors": [
+        "Andrei Kucharavy",
+        "Octave Plancherel",
+        "Valentin Mulder",
+        "Alain Mermoud",
+        "Vincent Lenders 编"
+      ],
+      "year": "2024",
+      "topics": [
+        "formal-tools",
+        "formal-eval-safety",
+        "frontier-eval-safety"
+      ],
+      "official_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-54827-7.pdf",
+      "authority_reason": "系统覆盖 LLM 作为攻击工具、软件攻击面、暴露预测、缓解技术与安全集成，为最新应用安全提供开放专著证据。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/ai-agent/llm-cybersecurity",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-54827-7.pdf",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-agent:swebok",
+      "field": "ai-agent",
+      "kind": "book",
+      "title": "Guide to the Software Engineering Body of Knowledge, Version 4.0",
+      "authors": [
+        "IEEE Computer Society"
+      ],
+      "year": "2024",
+      "topics": [
+        "formal-context",
+        "formal-runtime",
+        "formal-eval-safety",
+        "frontier-computer-coding"
+      ],
+      "official_url": "https://www.computer.org/education/bodies-of-knowledge/software-engineering",
+      "authority_reason": "用权威知识体系校准需求、设计、测试、维护、配置和工程管理，补齐 AI 应用的软件生命周期。",
+      "freshness": "recent",
+      "review_url": "/knowledge-base/reviews/software/swebok-v4",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.computer.org/education/bodies-of-knowledge/software-engineering",
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    }
+  ]
+}

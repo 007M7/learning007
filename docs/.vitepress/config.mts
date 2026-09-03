@@ -1,8 +1,13 @@
 import { defineConfig } from "vitepress";
-import { domainSidebar } from "./curriculum";
-import { advancedSidebar } from "./advanced-curriculum";
-import { agentFrontierSidebar } from "./agent-frontier";
-import { fieldSidebar, learningFields } from "./field-curriculum";
+import {
+  aiLearningSidebar,
+  knowledgeBaseSidebar,
+  learningHubSidebar,
+  modelLearningSidebar,
+  physicalLearningSidebar,
+  qualityLearningSidebar,
+  softwareLearningSidebar,
+} from "./learning-navigation";
 
 export default defineConfig({
   title: "Learning 007",
@@ -21,88 +26,38 @@ export default defineConfig({
     logo: { src: "/logo.svg", alt: "Learning 007" },
     nav: [
       { text: "首页", link: "/" },
-      { text: "学习方法", link: "/guide/" },
-      { text: "三大领域", items: [
-        { text: "软件与系统工程", link: "/domains/software/" },
-        { text: "质量与生产交付", link: "/domains/quality/" },
-        { text: "AI 应用与 Agent", link: "/domains/ai/" },
-      ] },
-      { text: "项目案例", link: "/cases/" },
-      { text: "架构模板", link: "/templates/" },
-      { text: "权威来源", link: "/sources/" },
+      { text: "学习", link: "/learn/" },
       { text: "知识库", link: "/knowledge-base/" },
-      { text: "可选进阶", link: "/advanced/" },
-      { text: "Agent 前沿", link: "/frontier/agents/" },
-      { text: "领域深研", items: learningFields.map((field) => ({ text: field.title, link: `/fields/${field.slug}/` })) },
     ],
     sidebar: {
-      "/guide/": [{ text: "开始学习", items: [
-        { text: "学习系统说明", link: "/guide/" },
-        { text: "15 题起点诊断", link: "/guide/diagnostic" },
-        { text: "12 周最小路线", link: "/guide/plan" },
-        { text: "怎样与 AI 协作编码", link: "/guide/ai-coding" },
-        { text: "怎样判断真正掌握", link: "/guide/mastery" },
-        { text: "每周复盘与恢复", link: "/guide/review" },
-      ] }],
-      "/domains/software/": domainSidebar("software"),
-      "/domains/quality/": domainSidebar("quality"),
-      "/domains/ai/": domainSidebar("ai"),
-      "/cases/": [{ text: "端到端案例", items: [
-        { text: "案例总览", link: "/cases/" },
-        { text: "01 · 个人任务板", link: "/cases/01-task-board" },
-        { text: "02 · 多租户任务运行器", link: "/cases/02-task-runner" },
-        { text: "03 · 可引用知识助手", link: "/cases/03-rag-assistant" },
-        { text: "04 · 有审批的工具 Agent", link: "/cases/04-tool-agent" },
-        { text: "05 · AI 代码审查流水线", link: "/cases/05-code-review" },
-        { text: "06 · 学习证据系统", link: "/cases/06-learning-system" },
-      ] }],
-      "/templates/": [{ text: "可复用模板", items: [
-        { text: "模板总览", link: "/templates/" },
-        { text: "需求与约束画布", link: "/templates/requirements" },
-        { text: "C4 与数据流", link: "/templates/system-map" },
-        { text: "API 与数据契约", link: "/templates/contracts" },
-        { text: "测试与发布策略", link: "/templates/delivery" },
-        { text: "ADR 架构决策记录", link: "/templates/adr" },
-        { text: "Agent 安全边界", link: "/templates/agent-safety" },
-      ] }],
-      "/sources/": [{ text: "来源治理", items: [
-        { text: "权威来源总览", link: "/sources/" },
-        { text: "软件与系统来源", link: "/sources/software" },
-        { text: "质量与交付来源", link: "/sources/quality" },
-        { text: "AI 与 Agent 来源", link: "/sources/ai" },
-      ] }],
-      "/knowledge-base/": [{ text: "学习资源知识库", items: [
-        { text: "知识库总览", link: "/knowledge-base/" },
-        { text: "机器学习", collapsed: false, items: [
-          { text: "目录", link: "/knowledge-base/machine-learning" },
-          { text: "教材综述", collapsed: false, items: [
-            { text: "统计学习导论", link: "/knowledge-base/reviews/machine-learning/islr" },
-            { text: "理解机器学习", link: "/knowledge-base/reviews/machine-learning/understanding-ml" },
-            { text: "机器学习数学", link: "/knowledge-base/reviews/machine-learning/mathematics-ml" },
-            { text: "概率机器学习入门", link: "/knowledge-base/reviews/machine-learning/probml-intro" },
-            { text: "概率机器学习进阶", link: "/knowledge-base/reviews/machine-learning/probml-advanced" },
-            { text: "公平与机器学习", link: "/knowledge-base/reviews/machine-learning/fairness-ml" },
-            { text: "因果推断", link: "/knowledge-base/reviews/machine-learning/causal-what-if" },
-            { text: "可解释机器学习", link: "/knowledge-base/reviews/machine-learning/interpretable-ml" },
-            { text: "深度学习", link: "/knowledge-base/reviews/machine-learning/deep-learning" },
-            { text: "高斯过程", link: "/knowledge-base/reviews/machine-learning/gpml" },
-            { text: "凸优化", link: "/knowledge-base/reviews/machine-learning/convex-optimization" },
-            { text: "数据科学基础", link: "/knowledge-base/reviews/machine-learning/foundations-data-science" },
-            { text: "动手学深度学习", link: "/knowledge-base/reviews/machine-learning/d2l" },
-          ] },
-        ] },
-      ] }],
-      "/advanced/software/": advancedSidebar("software"),
-      "/advanced/quality/": advancedSidebar("quality"),
-      "/advanced/ai/": advancedSidebar("ai"),
-      "/advanced/": [{ text: "可选进阶", items: [
-        { text: "进阶内容总览", link: "/advanced/" },
-        { text: "软件与系统工程", link: "/advanced/software/" },
-        { text: "质量与生产交付", link: "/advanced/quality/" },
-        { text: "AI 应用与 Agent", link: "/advanced/ai/" },
-      ] }],
-      "/frontier/agents/": agentFrontierSidebar(),
-      ...Object.fromEntries(learningFields.map((field) => [`/fields/${field.slug}/`, fieldSidebar(field.slug)])),
+      "/knowledge-base/": knowledgeBaseSidebar(),
+      "/sources/": knowledgeBaseSidebar(),
+
+      "/domains/software/": softwareLearningSidebar(),
+      "/advanced/software/": softwareLearningSidebar(),
+
+      "/domains/quality/": qualityLearningSidebar(),
+      "/advanced/quality/": qualityLearningSidebar(),
+
+      "/domains/ai/": aiLearningSidebar(),
+      "/advanced/ai/": aiLearningSidebar(),
+      "/frontier/agents/": aiLearningSidebar(),
+      "/fields/ai-product/": aiLearningSidebar(),
+
+      "/fields/machine-learning/": modelLearningSidebar(),
+      "/fields/deep-learning/": modelLearningSidebar(),
+      "/fields/nlp/": modelLearningSidebar(),
+
+      "/fields/low-altitude/": physicalLearningSidebar(),
+      "/fields/robotics/": physicalLearningSidebar(),
+
+      "/learn/": learningHubSidebar(),
+      "/guide/": learningHubSidebar(),
+      "/map/": learningHubSidebar(),
+      "/cases/": learningHubSidebar(),
+      "/templates/": learningHubSidebar(),
+      "/advanced/": learningHubSidebar(),
+      "/fields/": learningHubSidebar(),
     },
     search: { provider: "local" },
     outline: { label: "本页目录", level: [2, 3] },

@@ -1,0 +1,693 @@
+{
+  "$schema": "../../schema/reading-evidence.schema.json",
+  "field": "deep-learning",
+  "updated_at": "2026-09-03T00:00:00+08:00",
+  "sources": [
+    {
+      "id": "book:deep-learning:deep-learning-book",
+      "title": "Deep Learning",
+      "official_url": "https://www.deeplearningbook.org/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-book-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化、生成建模、评测、解释与安全",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:d2l",
+      "title": "Dive into Deep Learning",
+      "official_url": "https://d2l.ai/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:understanding-deep-learning",
+      "title": "Understanding Deep Learning",
+      "official_url": "https://udlbook.github.io/udlbook/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:neural-networks-deep-learning",
+      "title": "Neural Networks and Deep Learning",
+      "official_url": "https://neuralnetworksanddeeplearning.com/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:geometric-deep-learning",
+      "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
+      "official_url": "https://geometricdeeplearning.com/book",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "卷积、视觉与几何结构、多模态与世界模型",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:probml-intro",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "official_url": "https://probml.github.io/pml-book/book1.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化、生成建模",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:probml-advanced",
+      "title": "Probabilistic Machine Learning: Advanced Topics",
+      "official_url": "https://probml.github.io/pml-book/book2.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "生成建模、多模态与世界模型、评测、解释与安全",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:mathematics-ml",
+      "title": "Mathematics for Machine Learning",
+      "official_url": "https://mml-book.github.io/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:slp3",
+      "title": "Speech and Language Processing (3rd ed. draft)",
+      "official_url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "序列、注意力与 Transformer、规模、数据与预训练、后训练与偏好对齐、评测、解释与安全",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:little-book-deep-learning",
+      "title": "The Little Book of Deep Learning",
+      "official_url": "https://fleuret.org/public/lbdl.pdf",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:principles-dl-theory",
+      "title": "The Principles of Deep Learning Theory",
+      "official_url": "https://deeplearningtheory.com/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "初始化、优化与正则化、规模、数据与预训练、评测、解释与安全",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:mathematical-engineering-dl",
+      "title": "The Mathematical Engineering of Deep Learning",
+      "official_url": "https://deeplearningmath.org/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:physics-based-dl",
+      "title": "Physics-based Deep Learning",
+      "official_url": "https://physicsbaseddeeplearning.org/intro.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "生成建模、多模态与世界模型",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:ml-systems",
+      "title": "Machine Learning Systems",
+      "official_url": "https://www.mlsysbook.ai/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "规模、数据与预训练、高效训练与推理、评测、解释与安全",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:tuning-playbook",
+      "title": "Deep Learning Tuning Playbook",
+      "official_url": "https://github.com/google-research/tuning_playbook",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "初始化、优化与正则化、规模、数据与预训练、高效训练与推理",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:foundations-llm",
+      "title": "Foundations of Large Language Models",
+      "official_url": "https://arxiv.org/abs/2501.09223",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "序列、注意力与 Transformer、规模、数据与预训练、后训练与偏好对齐、评测、解释与安全",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:deep-learning-theory",
+      "title": "Deep Learning Theory",
+      "official_url": "https://mjt.cs.illinois.edu/dlt/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "初始化、优化与正则化、规模、数据与预训练、评测、解释与安全",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:deep-learning:fastbook",
+      "title": "Deep Learning for Coders with fastai and PyTorch",
+      "official_url": "https://github.com/fastai/fastbook",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模、高效训练与推理",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/deep-learning-book",
+      "learning_job": "沿《Deep Learning》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化、生成建模、评测、解释与安全之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:deep-learning-book"
+      ],
+      "claims_used": [
+        "现代深度学习的经典系统教材，以概率、优化、表示学习与生成建模串起全局。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化、生成建模、评测、解释与安全，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/machine-learning/d2l",
+      "learning_job": "沿《Dive into Deep Learning》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:d2l"
+      ],
+      "claims_used": [
+        "用可执行代码把数学、模型与训练工程连成一条实践路线。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/understanding-deep-learning",
+      "learning_job": "沿《Understanding Deep Learning》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:understanding-deep-learning"
+      ],
+      "claims_used": [
+        "以现代视角解释神经网络、Transformer、生成模型与训练规律，并提供可复现实验。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/neural-networks-deep-learning",
+      "learning_job": "沿《Neural Networks and Deep Learning》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:neural-networks-deep-learning"
+      ],
+      "claims_used": [
+        "从手写数字、反向传播和正则化出发，适合第一次建立神经网络直觉。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/geometric-deep-learning",
+      "learning_job": "沿《Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges》的真实问题顺序，理解卷积、视觉与几何结构、多模态与世界模型之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:geometric-deep-learning"
+      ],
+      "claims_used": [
+        "用对称性和几何结构统一 CNN、图神经网络与等变模型。",
+        "本书覆盖卷积、视觉与几何结构、多模态与世界模型，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/machine-learning/probml-intro",
+      "learning_job": "沿《Probabilistic Machine Learning: An Introduction》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化、生成建模之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:probml-intro"
+      ],
+      "claims_used": [
+        "补足概率建模、决策、潜变量与深度生成模型所需的统一底座。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化、生成建模，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/machine-learning/probml-advanced",
+      "learning_job": "沿《Probabilistic Machine Learning: Advanced Topics》的真实问题顺序，理解生成建模、多模态与世界模型、评测、解释与安全之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:probml-advanced"
+      ],
+      "claims_used": [
+        "覆盖高级推断、深度生成模型、不确定性、因果与序列决策。",
+        "本书覆盖生成建模、多模态与世界模型、评测、解释与安全，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/machine-learning/mathematics-ml",
+      "learning_job": "沿《Mathematics for Machine Learning》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:mathematics-ml"
+      ],
+      "claims_used": [
+        "按机器学习用途组织线性代数、微积分、概率与优化，承担数学补给任务。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/slp3",
+      "learning_job": "沿《Speech and Language Processing (3rd ed. draft)》的真实问题顺序，理解序列、注意力与 Transformer、规模、数据与预训练、后训练与偏好对齐、评测、解释与安全之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:slp3"
+      ],
+      "claims_used": [
+        "从语言模型、Transformer 与后训练理解深度学习在语言系统中的落地。",
+        "本书覆盖序列、注意力与 Transformer、规模、数据与预训练、后训练与偏好对齐、评测、解释与安全，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/little-book-deep-learning",
+      "learning_job": "沿《The Little Book of Deep Learning》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:little-book-deep-learning"
+      ],
+      "claims_used": [
+        "用紧凑篇幅建立从张量运算到注意力模型的形式化骨架。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/principles-dl-theory",
+      "learning_job": "沿《The Principles of Deep Learning Theory》的真实问题顺序，理解初始化、优化与正则化、规模、数据与预训练、评测、解释与安全之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:principles-dl-theory"
+      ],
+      "claims_used": [
+        "从无限宽极限、核、有效理论与尺度理解深度网络的统计规律。",
+        "本书覆盖初始化、优化与正则化、规模、数据与预训练、评测、解释与安全，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/mathematical-engineering-dl",
+      "learning_job": "沿《The Mathematical Engineering of Deep Learning》的真实问题顺序，理解网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:mathematical-engineering-dl"
+      ],
+      "claims_used": [
+        "在数学推导和工程实现之间建立桥梁，覆盖 Transformer、扩散、强化学习与图网络。",
+        "本书覆盖网络、反向传播与自动微分、初始化、优化与正则化、卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/physics-based-dl",
+      "learning_job": "沿《Physics-based Deep Learning》的真实问题顺序，理解生成建模、多模态与世界模型之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:physics-based-dl"
+      ],
+      "claims_used": [
+        "讲解数据驱动、可微物理、神经算子与生成方法怎样嵌入物理系统。",
+        "本书覆盖生成建模、多模态与世界模型，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-product/ml-systems",
+      "learning_job": "沿《Machine Learning Systems》的真实问题顺序，理解规模、数据与预训练、高效训练与推理、评测、解释与安全之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:ml-systems"
+      ],
+      "claims_used": [
+        "把数据、训练、硬件、服务、监控与负责任部署作为完整系统讲解。",
+        "本书覆盖规模、数据与预训练、高效训练与推理、评测、解释与安全，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/tuning-playbook",
+      "learning_job": "沿《Deep Learning Tuning Playbook》的真实问题顺序，理解初始化、优化与正则化、规模、数据与预训练、高效训练与推理之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:tuning-playbook"
+      ],
+      "claims_used": [
+        "用可复核实验流程处理基线、批量大小、优化器、学习率和训练预算。",
+        "本书覆盖初始化、优化与正则化、规模、数据与预训练、高效训练与推理，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/foundations-llm",
+      "learning_job": "沿《Foundations of Large Language Models》的真实问题顺序，理解序列、注意力与 Transformer、规模、数据与预训练、后训练与偏好对齐、评测、解释与安全之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:foundations-llm"
+      ],
+      "claims_used": [
+        "系统连接语言模型架构、预训练、适配、使用与评测，是近年大模型部分的更新底本。",
+        "本书覆盖序列、注意力与 Transformer、规模、数据与预训练、后训练与偏好对齐、评测、解释与安全，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/deep-learning-theory",
+      "learning_job": "沿《Deep Learning Theory》的真实问题顺序，理解初始化、优化与正则化、规模、数据与预训练、评测、解释与安全之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:deep-learning-theory"
+      ],
+      "claims_used": [
+        "围绕表达能力、优化和泛化建立理论框架，同时标出经典解释的适用边界。",
+        "本书覆盖初始化、优化与正则化、规模、数据与预训练、评测、解释与安全，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/deep-learning/fastbook",
+      "learning_job": "沿《Deep Learning for Coders with fastai and PyTorch》的真实问题顺序，理解卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模、高效训练与推理之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:deep-learning:fastbook"
+      ],
+      "claims_used": [
+        "从可运行任务反推模型原理，强调迁移学习、数据处理、诊断与部署。",
+        "本书覆盖卷积、视觉与几何结构、序列、注意力与 Transformer、生成建模、高效训练与推理，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    }
+  ]
+}

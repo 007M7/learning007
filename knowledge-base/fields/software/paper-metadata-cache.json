@@ -1,0 +1,2567 @@
+[
+  {
+    "content_url": "https://www.csd.uoc.gr/~hy460/pdf/Dynamic%20Hash%20Tables.pdf",
+    "creator": "Per-Åke Larson",
+    "year": "1988",
+    "cited_by_count_snapshot": 106
+  },
+  {
+    "content_url": "https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf",
+    "creator": "Maged M. Michael、Michael L. Scott",
+    "year": "1996",
+    "cited_by_count_snapshot": 798
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/b-trees-write-optimization.pdf",
+    "creator": "Michael A. Bender、Martı́n Farach-Colton、William Jannen、Rob Johnson、Bradley C. Kuszmaul、Donald E. Porter、Jun Yuan、Yang Zhan",
+    "year": "2015",
+    "cited_by_count_snapshot": 20
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/epidemic-broadcast-trees.pdf",
+    "creator": "João Leitão、José Pereira、Luı́s Rodrigues",
+    "year": "2007",
+    "cited_by_count_snapshot": 84
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/ideal-hash-trees.pdf",
+    "creator": "Phil Bagwell",
+    "year": "2001",
+    "cited_by_count_snapshot": 59
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/lca-revisited.pdf",
+    "creator": "Michael A. Bender、Martı́n Farach-Colton",
+    "year": "2000",
+    "cited_by_count_snapshot": 757
+  },
+  {
+    "id": "paper-138bdb9ecdc4",
+    "type": "paper",
+    "title": "The Level Ancestor Problem simplifed",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "programming-foundations"
+    ],
+    "level": "core",
+    "role": "支撑“程序设计与计算基础”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/level-ancestor-simplified.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-27fc4693d060",
+    "type": "paper",
+    "title": "Back to the Future - The Story of Squeak, A Practical Smalltalk Written in Itself",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "programming-foundations"
+    ],
+    "level": "core",
+    "role": "支撑“程序设计与计算基础”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/story-of-squeak-a-practical-smalltalk-written-in-itself.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/recursive-functions-of-symbolic-expressions-and-their-computation-by-machine-parti.pdf",
+    "creator": "John McCarthy",
+    "year": "1960",
+    "cited_by_count_snapshot": 1392
+  },
+  {
+    "id": "paper-6437727111ff",
+    "type": "paper",
+    "title": "On the Computational Complexity of Algorithims",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "programming-foundations"
+    ],
+    "level": "core",
+    "role": "支撑“程序设计与计算基础”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.ams.org/journals/tran/1965-117-00/S0002-9947-1965-0170805-7/S0002-9947-1965-0170805-7.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/early-lisp-history-1956-1959-herbert-stoyan-html-rendering.pdf",
+    "creator": "Herbert Stoyan",
+    "year": "1984",
+    "cited_by_count_snapshot": 18
+  },
+  {
+    "id": "paper-981f6c56fd16",
+    "type": "paper",
+    "title": "Representing Game Dialogue as Expresions in First-Order Logic",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "programming-foundations"
+    ],
+    "level": "core",
+    "role": "支撑“程序设计与计算基础”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/logic_and_programming/representing-game-dialogue-as-expressions-in-first-order-logic.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://uberty.org/wp-content/uploads/2017/06/Martin-Lof83.pdf",
+    "creator": "Per Martin-Löf",
+    "year": "1996",
+    "cited_by_count_snapshot": 259
+  },
+  {
+    "id": "paper-a7e0768dc8d3",
+    "type": "paper",
+    "title": "Programming Languages: History and Future",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "language-runtime",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“语言、编译与运行时”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.csee.umbc.edu/courses/undergraduate/CMSC331/resources/papers/sammet1972.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f887f6d9b378",
+    "type": "paper",
+    "title": "Composable and Compilable Macros: You Want it When?",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "language-runtime"
+    ],
+    "level": "advanced",
+    "role": "支撑“语言、编译与运行时”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.cs.utah.edu/plt/publications/macromod.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+    "creator": "Philip Wadler",
+    "year": "2015",
+    "cited_by_count_snapshot": 180
+  },
+  {
+    "content_url": "https://goto.ucsd.edu/~rjhala/liquid/liquid_types.pdf",
+    "creator": "Patrick M. Rondon、Ming Kawaguci、Ranjit Jhala",
+    "year": "2008",
+    "cited_by_count_snapshot": 389
+  },
+  {
+    "content_url": "https://pdf.aminer.org/000/465/194/incremental_collection_of_mature_objects.pdf",
+    "creator": "Richard L. Hudson、J. Eliot B. Moss",
+    "year": "2005",
+    "cited_by_count_snapshot": 98
+  },
+  {
+    "content_url": "https://lamport.azurewebsites.net/pubs/garbage.pdf",
+    "creator": "Edsger W. Dijkstra、Leslie Lamport、Alain J. Martin、Carel S. Schölten、E.F.M. Steffens",
+    "year": "2022",
+    "cited_by_count_snapshot": 70
+  },
+  {
+    "id": "paper-4a30b9684d57",
+    "type": "paper",
+    "title": "The Lisp II Garbage Collector",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "language-runtime"
+    ],
+    "level": "advanced",
+    "role": "支撑“语言、编译与运行时”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.softwarepreservation.com/projects/LISP/lisp2/TM-3417_500_00_LISP2_GC_Spec.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://simonmar.github.io/bib/papers/parallel-gc.pdf",
+    "creator": "Simon Marlow、Tim Harris、Roshan P. James、Simon Peyton Jones",
+    "year": "2008",
+    "cited_by_count_snapshot": 76
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/operating_systems/unix-time-sharing-system.pdf",
+    "creator": "Dennis M. Ritchie、Ken Thompson",
+    "year": "1983",
+    "cited_by_count_snapshot": 969
+  },
+  {
+    "id": "paper-5af4d8e65735",
+    "type": "paper",
+    "title": "The operating system: should there be one?",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "os-concurrency",
+      "design-architecture",
+      "performance-observability",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“操作系统与并发”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.cl.cam.ac.uk/~srk31/research/papers/kell13operating.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://people.csail.mit.edu/nickolai/papers/clements-sc.pdf",
+    "creator": "Austin T. Clements、M. Frans Kaashoek、Nickolai Zeldovich、Robert Morris、Eddie Kohler",
+    "year": "2013",
+    "cited_by_count_snapshot": 129
+  },
+  {
+    "id": "paper-daaf5e7d3389",
+    "type": "paper",
+    "title": "Jails: Confining the omnipotent root.",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "os-concurrency",
+      "design-architecture",
+      "performance-observability",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“操作系统与并发”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://phk.freebsd.dk/pubs/sane2000-jail.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://www.usenix.org/legacy/event/lisa04/tech/full_papers/price/price.pdf",
+    "creator": "Daniel Price、Andrew Tucker",
+    "year": "2004",
+    "cited_by_count_snapshot": 136
+  },
+  {
+    "content_url": "https://sigops.org/sosp/sosp13/papers/p33-david.pdf",
+    "creator": "Tudor David、Rachid Guerraoui、Vasileios Trigonakis",
+    "year": "2013",
+    "cited_by_count_snapshot": 240
+  },
+  {
+    "content_url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+    "creator": "Leslie Lamport",
+    "year": "1978",
+    "cited_by_count_snapshot": 8478
+  },
+  {
+    "content_url": "https://www.fantasi.se/publications/ISMM02.pdf",
+    "creator": "Erik M. J. Johansson、Konstantinos Sagonas、Jesper Wilhelmsson",
+    "year": "2002",
+    "cited_by_count_snapshot": 22
+  },
+  {
+    "content_url": "https://user.it.uu.se/~kostis/Papers/escape.pdf",
+    "creator": "Richard Carlsson、Konstantinos Sagonas、Jesper Wilhelmsson",
+    "year": "2003",
+    "cited_by_count_snapshot": 9
+  },
+  {
+    "content_url": "https://publications.lib.chalmers.se/records/fulltext/125252/local_125252.pdf",
+    "creator": "Koen Claessen、Michał H. Pałka、Nicholas Smallbone、John Hughes、H. Svensson、Thomas Arts、Ulf Wiger",
+    "year": "2009",
+    "cited_by_count_snapshot": 67
+  },
+  {
+    "content_url": "https://www.cl.cam.ac.uk/~pes20/weakmemory/popl09.pdf",
+    "creator": "Susmit Sarkar、Peter Sewell、Francesco Zappa Nardelli、Scott Owens、Tom Ridge、Thomas Braibant、Magnus O. Myreen、Jade Alglave",
+    "year": "2009",
+    "cited_by_count_snapshot": 156
+  },
+  {
+    "content_url": "https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf",
+    "creator": "Maged M. Michael、Michael L. Scott",
+    "year": "1996",
+    "cited_by_count_snapshot": 798
+  },
+  {
+    "id": "paper-2524e4a53ee5",
+    "type": "paper",
+    "title": "A Wait-Free Stack (2015)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "os-concurrency"
+    ],
+    "level": "advanced",
+    "role": "支撑“操作系统与并发”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://arxiv.org/pdf/1510.00116",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://cs.brown.edu/~sk/Publications/Papers/Published/cgkmf-teach-gc/paper.pdf",
+    "creator": "Gregory H. Cooper、Arjun Guha、Shriram Krishnamurthi、Jay McCarthy、Robert Bruce Findler",
+    "year": "2013",
+    "cited_by_count_snapshot": 3
+  },
+  {
+    "id": "paper-eeaf989e2fc7",
+    "type": "paper",
+    "title": "Message Analysis Guided Allocation and Low Pause Incremental GC in a Concurrent Language",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "os-concurrency",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“操作系统与并发”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://user.it.uu.se/~kostis/Papers/ismm04.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-c8e4064ea76e",
+    "type": "paper",
+    "title": "Architectural Styles and the Design of Network-based Software Architectures (REST) by Roy Fielding",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://roy.gbiv.com/pubs/dissertation/fielding_dissertation.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-2eb8e3e21565",
+    "type": "paper",
+    "title": "Little Manual of API Design",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/api_design/api-design.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://diyhpl.us/~bryan/papers2/distributed/distributed-systems/zab.totally-ordered-broadcast-protocol.2008.pdf",
+    "creator": "Benjamin Reed、Flavio Junqueira",
+    "year": "2008",
+    "cited_by_count_snapshot": 79
+  },
+  {
+    "id": "paper-41157e444977",
+    "type": "paper",
+    "title": "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-eb5d9096de57",
+    "type": "paper",
+    "title": "Kafka: a Distributed Messaging System for Log Processing",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://notes.stephenholiday.com/Kafka.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf",
+    "creator": "Maurice Herlihy、Jeannette M. Wing",
+    "year": "1990",
+    "cited_by_count_snapshot": 3202
+  },
+  {
+    "content_url": "https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf",
+    "creator": "Fred B. Schneider",
+    "year": "1990",
+    "cited_by_count_snapshot": 2397
+  },
+  {
+    "id": "paper-1302d764e629",
+    "type": "paper",
+    "title": "Hoard: A Scalable Memory Allocator for Multithreaded Applications",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://people.cs.umass.edu/~emery/pubs/berger-asplos2000.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-b867cbef4b88",
+    "type": "paper",
+    "title": "Paxos Made Live - An Engineering Perspective",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f247b280369c",
+    "type": "paper",
+    "title": "Practical Byzantine Fault Tolerance and Proactive Recovery",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.microsoft.com/research/wp-content/uploads/2017/01/p398-castro-bft-tocs.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-2b52584d957e",
+    "type": "paper",
+    "title": "Pregel: A System for Large-Scale Graph Processing",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "network-api",
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://kowshik.github.io/JPregel/pregel_paper.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://sigops.org/sosp/sosp13/papers/p151-mashtizadeh.pdf",
+    "creator": "Ali José Mashtizadeh、Andrea Bittau、Yifeng Frank Huang、David Mazières",
+    "year": "2013",
+    "cited_by_count_snapshot": 38
+  },
+  {
+    "content_url": "https://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf",
+    "creator": "Alexander Thomson、Thaddeus Diamond、Shu-Chun Weng、Kun Ren、Philip Shao、Daniel J. Abadi",
+    "year": "2014",
+    "cited_by_count_snapshot": 28
+  },
+  {
+    "id": "paper-087a97488a89",
+    "type": "paper",
+    "title": "f4: Facebook’s Warm BLOB Storage System",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "database-transaction",
+      "storage-streaming"
+    ],
+    "level": "core",
+    "role": "支撑“数据库、事务与索引”中的机制理解、方案比较与失败边界判断。 支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-7403f8c0ea31",
+    "type": "paper",
+    "title": "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "database-transaction",
+      "storage-streaming",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“数据库、事务与索引”中的机制理解、方案比较与失败边界判断。 支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-947473c8abd5",
+    "type": "paper",
+    "title": "HaLoop: Efficient Iterative Data Processing on Large Clusters",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "database-transaction",
+      "storage-streaming"
+    ],
+    "level": "core",
+    "role": "支撑“数据库、事务与索引”中的机制理解、方案比较与失败边界判断。 支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://homes.cs.washington.edu/~billhowe/pubs/HaLoop.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-30a1322266d2",
+    "type": "paper",
+    "title": "HyperDex: A Distributed, Searchable Key-Value Store",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "database-transaction",
+      "storage-streaming"
+    ],
+    "level": "core",
+    "role": "支撑“数据库、事务与索引”中的机制理解、方案比较与失败边界判断。 支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://cs.uwaterloo.ca/~bernard/hyperdex.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://www.erlang.org/download/armstrong_thesis_2003.pdf",
+    "creator": "Joe Armstrong",
+    "year": "2003",
+    "cited_by_count_snapshot": 226
+  },
+  {
+    "content_url": "https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p172-terry.pdf",
+    "creator": "Doug Terry、Marvin Theimer、Karin Anna Petersen、Alan Demers、M. Spreitzer、Carl Hauser",
+    "year": "1995",
+    "cited_by_count_snapshot": 817
+  },
+  {
+    "content_url": "https://pages.cs.wisc.edu/~remzi/Classes/739/Spring2004/Papers/optimistic-survey.pdf",
+    "creator": "Yasushi Saitō、Marc Shapiro",
+    "year": "2005",
+    "cited_by_count_snapshot": 738
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/network-challenges-of-data-recovery-in-erasure-coded-distributed-storage-systems.pdf",
+    "creator": "K. V. Rashmi、Nihar B. Shah、Dikang Gu、Hairong Kuang、Dhruba Borthakur、Kannan Ramchandran",
+    "year": "2013",
+    "cited_by_count_snapshot": 193
+  },
+  {
+    "content_url": "https://scg.unibe.ch/archive/papers/Duca06bTOPLASTraits.pdf",
+    "creator": "Ferruccio Damiani、Johan Dovland、Einar Broch Johnsen、Ina Schaefer",
+    "year": "2013",
+    "cited_by_count_snapshot": 14
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/design/out-of-the-tar-pit.pdf",
+    "creator": "Ben Moseley、Peter J. Marks",
+    "year": "2006",
+    "cited_by_count_snapshot": 9
+  },
+  {
+    "content_url": "https://www.weizmann.ac.il/math/harel/sites/math.harel/files/users/user56/Statecharts.pdf",
+    "creator": "David Harel",
+    "year": "1987",
+    "cited_by_count_snapshot": 6754
+  },
+  {
+    "id": "paper-c2c218e07294",
+    "type": "paper",
+    "title": "Studying Attitudes and Social Norms in Agile Software Development (2019)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "design-architecture",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://arxiv.org/pdf/1904.09225.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-dc5e2c93f301",
+    "type": "paper",
+    "title": "Why Software Projects need Heroes (Lessons Learned from 1100+ Projects) (2019)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "design-architecture",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://arxiv.org/pdf/1904.09954.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-64641bbb8686",
+    "type": "paper",
+    "title": "Sparrow: Distributed, Low Latency Scheduling",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://people.csail.mit.edu/matei/papers/2013/sosp_sparrow.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf",
+    "creator": "Leslie Lamport、Robert E. Shostak、Marshall C. Pease",
+    "year": "1982",
+    "cited_by_count_snapshot": 6034
+  },
+  {
+    "id": "paper-7d78d48788be",
+    "type": "paper",
+    "title": "Hashgraph Consensus: Fair, Fast, Byzantine Fault Tolerance",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f743a0fcbb66",
+    "type": "paper",
+    "title": "There Is More Consensus in Egalitarian Parliaments",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-7931a56dda81",
+    "type": "paper",
+    "title": "Transactional Client-Server Cache Consistency: Alternatives and Performance",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://drum.lib.umd.edu/bitstream/handle/1903/751/CS-TR-3511.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-cbe0806ef474",
+    "type": "paper",
+    "title": "Unicorn: A System for Searching the Social Graph",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "design-architecture",
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "core",
+    "role": "支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-a8afd2a688f3",
+    "type": "paper",
+    "title": "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-15b6d45ed38c",
+    "type": "paper",
+    "title": "Test-driven development with mutation testing, 2020",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://link.springer.com/content/pdf/10.1007/s11219-020-09534-x.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Realizing-Quality-Improvement-Through-Test-Driven-Development-Results-and-Experiences-of-Four-Industrial-Teams-nagappan_tdd.pdf",
+    "creator": "Nachiappan Nagappan、E. Michael Maximilien、Thirumalesh Bhat、Laurie Williams",
+    "year": "2008",
+    "cited_by_count_snapshot": 150
+  },
+  {
+    "id": "paper-e813aaa38c5c",
+    "type": "paper",
+    "title": "Epitaxis: a system for syntactic and semantic software queries",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "reliability-security",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/faults_and_verification/epitaxis-a-system-for-syntactic-and-semantic-software-queries.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-63a6e9df0dbb",
+    "type": "paper",
+    "title": "A History of the Virtual Synchrony Replication Model",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-history-of-the-virtual-synchrony-replication-model.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-0a20bccecff8",
+    "type": "paper",
+    "title": "A response to Cheriton and Skeen's Criticism of Causal and Totally Ordered Communication",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-response-to-cheriton-and-skeens-criticism-of-causal-and-totally-ordered-communication.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-3eb4c6fe5b42",
+    "type": "paper",
+    "title": "A Universal Modular ACTOR Formalism for Artificial Intelligence",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "design-architecture"
+    ],
+    "level": "core",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-universal-modular-actor-formalism-for-artificial-intelligence.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-d8a690cace1a",
+    "type": "paper",
+    "title": "A Versatile Scheme for Routing Highly Variable Traffic in Service Overlays and IP Backbones",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "network-api"
+    ],
+    "level": "core",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-versatile-scheme-for-routing-highly-variable-traffic-in-service-overlays-and-ip.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-d53a1bfe7745",
+    "type": "paper",
+    "title": "Byzantine Chain Replication",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-chain-replication.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-bf0c83a36afb",
+    "type": "paper",
+    "title": "A Byzantine Fault Tolerant Distributed Commit Protocol",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "network-api"
+    ],
+    "level": "core",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-fault-tolerant-distributed-commit-protocol.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-36a82c833bff",
+    "type": "paper",
+    "title": "Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/brewers-conjecture.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f7f687627a6a",
+    "type": "paper",
+    "title": "Chain Replication for Supporting High Throughput and Availability",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "testing-verification",
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。 支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/chain-replication-for-supporting-high-throughput-and-availability.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-ece6232ead3f",
+    "type": "paper",
+    "title": "A Theoretician's Guide to the Experimental Analysis of Algorithms",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/experimental_algorithmics/a-theoreticians-guide-to-the-experimental-analysis-of-algorithms.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://barroso.org/publications/isca00.pdf",
+    "creator": "Luiz André Barroso、K. Gharachorloo、R. McNamara、Andreas Nowatzyk、Shaz Qadeer、Barton Sano、Scott F. Smith、Robert Stets 等",
+    "year": "2002",
+    "cited_by_count_snapshot": 184
+  },
+  {
+    "content_url": "https://www.usenix.org/legacy/events/hotos03/tech/full_papers/candea/candea.pdf",
+    "creator": "George Candea、Armando Fox",
+    "year": "2003",
+    "cited_by_count_snapshot": 133
+  },
+  {
+    "content_url": "https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf",
+    "creator": "George Candea、Shinichi Kawamoto、Yuichi Fujiki、Greg Friedman、Armando Fox",
+    "year": "2004",
+    "cited_by_count_snapshot": 369
+  },
+  {
+    "id": "paper-12bad8c41ad1",
+    "type": "paper",
+    "title": "Commodifying Replicated State Machines with OpenReplica",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/commodifying-replicated-state-machines-with-openreplica.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-c4b17d9fc718",
+    "type": "paper",
+    "title": "Consensusin the Presenceof Partial Synchrony",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consensus-in-presence-of-partial-synchrony.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-d7c1eecb9858",
+    "type": "paper",
+    "title": "Consistent Global States of Distributed Systems: Fundamental Concepts and Mechanisms",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-global-states-of-distributed-systems-fundamental-concepts-and-mechanisms.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-3b766b137900",
+    "type": "paper",
+    "title": "Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "network-api"
+    ],
+    "level": "core",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-hashing-and-random-trees.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-fef2590ff753",
+    "type": "paper",
+    "title": "Copysets: Reducing the Frequency of Data Loss in Cloud Storage",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/copysets-reducing-the-frequency-of-data-loss-in-cloud-storage.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-56d73eda35f3",
+    "type": "paper",
+    "title": "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/dapper-a-large-scale-distributed-tracing-infrastructure.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-98ae267586e6",
+    "type": "paper",
+    "title": "Distributed Snapshots: Determining Global States of Distributed Systems",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/distributed-snapshots-determining-global-states-of-distributed-systems.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-31058886b624",
+    "type": "paper",
+    "title": "Eluding Carnivores: File Sharing with Strong Anonymity",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/eluding-carnivores-file-sharing-with-strong-anonymity.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-d3c2140a05c9",
+    "type": "paper",
+    "title": "End-to-end arguments in system design",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "design-architecture"
+    ],
+    "level": "core",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/end-to-end-arguments-in-system-design.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-490c761c191b",
+    "type": "paper",
+    "title": "Epidemic Algorithms for Replicated Database Maintenance",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/epidemic-algorithms-for-replicated-database-maintenance.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-75fbc0a18fd0",
+    "type": "paper",
+    "title": "Harvest, Yield, and Scalable Tolerant Systems",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/harvest-yield-and-scalable-tolerant-systems.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-d9046ba5b6cc",
+    "type": "paper",
+    "title": "Herbivore: A Scalable and Efficient Protocol for Anonymous Communication",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "network-api",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/herbivore-a-scalable-and-efficient-protocol-for-anonymous.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-e572727d66b4",
+    "type": "paper",
+    "title": "High-Level Specifications: Lessons from Industry",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/high-level-specifications--lessons-from-industry.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-a2b182e61848",
+    "type": "paper",
+    "title": "How the Hidden Hand Shapes the Market for Software Reliability",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/how-the-hidden-hand-shapes-the-market-for-software-reliability.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-7e6d9abd264e",
+    "type": "paper",
+    "title": "Implementing the Omega failure detector in the crash-recovery failure model",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "testing-verification"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/implementing-the-omega-failure-detector-in-crash-recovery-failure-model.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-5333585f739e",
+    "type": "paper",
+    "title": "Impossibility of Distributed Consensus with One Faulty Process",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "testing-verification"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/impossibility-of-consensus-with-one-faulty-process.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-c1cf81a44576",
+    "type": "paper",
+    "title": "In Search of an Understandable Consensus Algorithm",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/in-search-of-an-understandable-consensus-algorithm.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-95226e544314",
+    "type": "paper",
+    "title": "Kelips: Building an Efficient and Stable P2P DHT Through Increased Memory and Background Overhead",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/kelips-building-an-efficient-and-stable-p2p-dht-through-increased-memory-and-background-overhead.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-b9e4fad2cb73",
+    "type": "paper",
+    "title": "Large-scale Incremental Processing Using Distributed Transactions and Notifications",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/large-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-fa928a71da8c",
+    "type": "paper",
+    "title": "Life beyond Distributed Transactions: an Apostate’s Opinion",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "distributed-consensus",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式系统与共识”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/life-beyond-distributed-transactions-an-apostates-opinion.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-53b5f53c4f47",
+    "type": "paper",
+    "title": "Actor Formalism",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://worrydream.com/refs/Hewitt-ActorModel.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-943c291599a5",
+    "type": "paper",
+    "title": "Bigtable: A Distributed Storage System for Structured Data",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-49eeed2960d8",
+    "type": "paper",
+    "title": "Database Metatheory: Asking Big Queries",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/database-metatheory--asking-the-big-queries.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-19eb46aa143e",
+    "type": "paper",
+    "title": "Dynamo: Amazon’s Highly Available Key-value Store",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/dynamo-amazons-highly-available-key-value-store.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-4747b99a15f9",
+    "type": "paper",
+    "title": "Elle: Inferring Isolation Anomalies from Experimental Observations",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/elle-inferring-isolation-anomalies-from-experimental-observations.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f2db34601309",
+    "type": "paper",
+    "title": "Flat Datacenter Storage",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming",
+      "network-api"
+    ],
+    "level": "core",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/flat-datacenter-storage.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/freenet-a-distributed-anonymous-information-and-retrieval-system.pdf",
+    "creator": "Ian Clarke、Oskar J. Sandberg、Brandon Wiley、Theodore W. Hong",
+    "year": "2001",
+    "cited_by_count_snapshot": 272
+  },
+  {
+    "id": "paper-e85bb7d90132",
+    "type": "paper",
+    "title": "The Google File System",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/the-google-file-system.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/megastore-providing-scalable-highly-available-storage-for-interactive-services.pdf",
+    "creator": "Jason D. Baker、Chris T. Bond、James C. Corbett、J. J. Furman、Andrey Khorlin、James A. Larson、Jean-Michel Leon、Yawei Li 等",
+    "year": "2011",
+    "cited_by_count_snapshot": 655
+  },
+  {
+    "id": "paper-574da12b3d28",
+    "type": "paper",
+    "title": "RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/rados-a-scalable-reliable-storage-service-for-petabyte-scale-storage-clusters.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-4e5208664973",
+    "type": "paper",
+    "title": "Spanner: Google’s Globally-Distributed Database",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spanner-google's-globally-distributed-database.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-639b7979fc43",
+    "type": "paper",
+    "title": "Spartan: A distributed array framework with smart tiling",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spartan-a-distributed-array-framework-with-smart-tiling.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f0a3f5195bff",
+    "type": "paper",
+    "title": "Stasis: Flexible Transactional Storage",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/stasis-flexible-transactional-storage.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-c75a464229fe",
+    "type": "paper",
+    "title": "TAO: Facebooks Distributed Data Store for the Social Graph'",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/tao-facebook-distributed-datastore.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/transactional-storage-for-geo-replicated-systems.pdf",
+    "creator": "Yair Sovran、Russell Power、Marcos K. Aguilera、Jinyang Li",
+    "year": "2011",
+    "cited_by_count_snapshot": 391
+  },
+  {
+    "id": "paper-b1c56a3c6a80",
+    "type": "paper",
+    "title": "Warp: Multi-Key Transactions for Key-Value Stores",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "storage-streaming",
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“分布式存储与流处理”中的机制理解、方案比较与失败边界判断。 支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/warp-multi-key-transactions-for-key-value-stores.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-b794c4d7e84c",
+    "type": "paper",
+    "title": "Reflections on Trusting Trust (1984)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-16724dd31747",
+    "type": "paper",
+    "title": "Looking inside the (Drop) Box (2013)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.usenix.org/system/files/conference/woot13/woot13-kholia.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-71b18f1e7839",
+    "type": "paper",
+    "title": "Making Programs Forget: Enforcing Lifetime For Sensitive Data (2011)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://www.usenix.org/events/hotos11/tech/final_files/Kannan.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-943b26fdbcc5",
+    "type": "paper",
+    "title": "Breach: Reviving The Crime Attack (2013)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-aab4e1e27f9e",
+    "type": "paper",
+    "title": "Why Silent Updates Boost Security (2009)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://tik-old.ee.ethz.ch/file/ef72343372ca8659a9ae8a98873167c0/TIKReport302.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-297ce81b55c0",
+    "type": "paper",
+    "title": "Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud (2014)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/macaroons-cookies-with-contextual-caveats.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-7e6b214fb48a",
+    "type": "paper",
+    "title": "Insertion, Evasion, and Denial of Service: eluding network intrusion detection (1998)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security",
+      "network-api"
+    ],
+    "level": "core",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/ids-evasion-ptacek-newsham.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-1ed804206a6a",
+    "type": "paper",
+    "title": "Meltdown (2018)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://meltdownattack.com/meltdown.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-b6c29802667e",
+    "type": "paper",
+    "title": "Spectre Attacks: Exploiting Speculative Execution (2018)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://spectreattack.com/spectre.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f0ba38b9af1d",
+    "type": "paper",
+    "title": "DRAM Row Hammer (2014)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://people.inf.ethz.ch/omutlu/pub/dram-row-hammer_isca14.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-47ea7688bc6e",
+    "type": "paper",
+    "title": "SoK: Eternal War in Memory (2013)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/sok-eternal-war-in-memory.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-fd55ea8295ba",
+    "type": "paper",
+    "title": "k-ANONYMITY: A model for Protecting Privacy (1998)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://epic.org/wp-content/uploads/privacy/reidentification/Sweeney_Article.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "content_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dwork.pdf",
+    "creator": "Leeman, Ethan、Manurangsi, Pasin",
+    "year": "2016",
+    "cited_by_count_snapshot": 293
+  },
+  {
+    "id": "paper-b1d1f7da9bc5",
+    "type": "paper",
+    "title": "Protecting Browser State from Web Privacy Attacks(2006)",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://crypto.stanford.edu/sameorigin/sameorigin.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-e2b8951b9c59",
+    "type": "paper",
+    "title": "A persistent system in real use-experiences of the first 13 years",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "reliability-security"
+    ],
+    "level": "advanced",
+    "role": "支撑“可靠性与安全工程”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://os.itec.kit.edu/downloads/publ_1993_liedtke_persistent-system-in-real-use.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-2bcb22cbeb1f",
+    "type": "paper",
+    "title": "MapReduce: Simplified Data Processing on Large Clusters",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mapreduce-simplified-data-processing-on-large-clusters.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-4ae2d2714459",
+    "type": "paper",
+    "title": "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-8a514b4095c5",
+    "type": "paper",
+    "title": "Oblivious routing of highly variable traffic in service overlays and IP backbones",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization",
+      "network-api"
+    ],
+    "level": "core",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/oblivious-routing-of-highly-variable-traffic-in-service-overlays-and-ip-backbones.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-1fffc1233d82",
+    "type": "paper",
+    "title": "On proof and progress in mathematics",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization",
+      "testing-verification"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/on-proof-and-progress-in-mathematics.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-f2f1b9b8e2ed",
+    "type": "paper",
+    "title": "P5: A Protocol for Scalable Anonymous Communication",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization",
+      "network-api",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/p5-a-protocal-for-scalable-anonymous-communication.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-85ab4e466254",
+    "type": "paper",
+    "title": "Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization",
+      "network-api",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/pastry-scalable-decentralized-object-location-and-routing-for-large-scale-peer-to-peer-systems.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-43e63e4195d2",
+    "type": "paper",
+    "title": "Paxos Made Moderately Complex",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-moderately-complex.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-5966714bf4fb",
+    "type": "paper",
+    "title": "Paxos Made Simple",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-simple.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-6ac37c0048dc",
+    "type": "paper",
+    "title": "Self-stabilizing Systems in Spite of Distributed Control",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/self-stabilizing-systems-in-spite-of-distributed-control.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-3418135dea11",
+    "type": "paper",
+    "title": "SIFT: Design and Analysis of a Fault-Tolerant Computer for Aircraft Control",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization",
+      "design-architecture",
+      "testing-verification"
+    ],
+    "level": "core",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“软件设计与架构”中的机制理解、方案比较与失败边界判断。 支撑“测试、验证与正确性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sift-design-and-analysis-of-a-fault-tolerant-computer-for-aircraft-contro.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-8a46dfe67775",
+    "type": "paper",
+    "title": "Solution of a Problem in Concurrent Programming Control",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/solution-of-a-problem-in-concurrent-programming-control.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-6b2e4facb7a9",
+    "type": "paper",
+    "title": "Sparse Partitions",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sparse-partitions.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-12c1867959b8",
+    "type": "paper",
+    "title": "Stronger Semantics for Low-Latency Geo-Replicated Storage",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization",
+      "performance-observability"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/stronger-semantics-for-low-latency-geo-replicated-storage.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-8b325bb0b4f8",
+    "type": "paper",
+    "title": "The Akamai Network: A Platform for High-Performance Internet Applications",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization",
+      "network-api",
+      "performance-observability"
+    ],
+    "level": "core",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。 支撑“网络、Web 与 API”中的机制理解、方案比较与失败边界判断。 支撑“性能、基准与可观测性”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-akamai-network.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-c783c60cea4a",
+    "type": "paper",
+    "title": "The Dining Cryptographers Problem: Unconditional Sender and Recipient Untraceability",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-dining-cryptographers-problem.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-98793c5d2d2e",
+    "type": "paper",
+    "title": "Tor: The Second-Generation Onion Router",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/tor-the-second-generation-onion-router.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-ae0e6c06f439",
+    "type": "paper",
+    "title": "Towards a cloud computing research agenda",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/towards-a-cloud-computing-research-agenda.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-981e61b4b93e",
+    "type": "paper",
+    "title": "Understanding the Limitations of Causally and Totally Ordered Communication",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/understanding-the-limitations-of-causally-and-totally-ordered-communication.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  },
+  {
+    "id": "paper-cc37d28f13e9",
+    "type": "paper",
+    "title": "Viewing Control Structures as Patterns of Passing Messages",
+    "creator": "原论文作者，详见原稿",
+    "year": "原稿年份",
+    "modules": [
+      "evolution-organization"
+    ],
+    "level": "advanced",
+    "role": "支撑“架构演进与工程组织”中的机制理解、方案比较与失败边界判断。",
+    "content_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/viewing-control-structures-as-patterns-of-passing-messages.pdf",
+    "access": "open",
+    "verification": {
+      "status": "fulltext-url-verified",
+      "method": "http-range-content-check",
+      "checked_at": "2026-09-02"
+    },
+    "cited_by_count_snapshot": null
+  }
+]

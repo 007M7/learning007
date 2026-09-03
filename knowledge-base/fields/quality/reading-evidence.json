@@ -1,0 +1,2441 @@
+{
+  "$schema": "../../schema/reading-evidence.schema.json",
+  "field": "quality",
+  "updated_at": "2026-09-03T00:00:00+08:00",
+  "status_contract": {
+    "catalogued": "只确认书目身份与候选价值，不代表已经打开原文。",
+    "opened": "已经打开官方页面或文件，并确认来源身份。",
+    "read": "已经阅读与本篇综述相关的明确范围。",
+    "cited": "综述正文已经采用该范围支持的具体判断。"
+  },
+  "sources": [
+    {
+      "id": "book:quality:swebok-v4",
+      "title": "Guide to the Software Engineering Body of Knowledge, Version 4.0",
+      "official_url": "https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "Official V4.0a PDF, Introduction and Table I.1",
+          "purpose": "确认知识体系定位、十八个知识领域、版本结构与领域间关系"
+        },
+        {
+          "locator": "Official V4.0a PDF, Chapters 1 through 4, focused sections on requirement attributes and tracing, architecture decisions, design quality attributes and analysis, construction for verification",
+          "purpose": "建立质量要求从需求进入架构、设计与可验证构造的关系"
+        },
+        {
+          "locator": "Official V4.0a PDF, Chapter 5 Software Testing, Introduction, Fundamentals, test levels, techniques, measures and process topic structure",
+          "purpose": "解释动态验证、有限用例、测试预言、选择与充分性、层级和技术组合的边界"
+        },
+        {
+          "locator": "Official V4.0a PDF, Chapters 6 through 8, focused sections on operations planning and delivery, maintenance issues, configuration identification, change control, auditing and release",
+          "purpose": "连接服务水平、容量、回退、事件、维护、基线、制品身份和受控发布"
+        },
+        {
+          "locator": "Official V4.0a PDF, Chapters 10, 12 through 15 and 18, focused sections on process monitoring, quality management and assurance, security lifecycle, professional responsibility, economic decisions, measurement and root cause analysis",
+          "purpose": "建立质量计划、保证、度量、风险、成本、责任与改进关系"
+        },
+        {
+          "locator": "IEEE official overview page, including purpose, development process, V4 update, audience, generally accepted knowledge, consolidated references, and terms",
+          "purpose": "确认版本、知识体系定位、选择边界、十八个知识领域与官方使用限制"
+        },
+        {
+          "locator": "IEEE official SWEBOK V4 topics page, Chapters 1 through 18 and appendices",
+          "purpose": "逐项核对十八个知识领域的完整主题结构，并重建质量与交付的跨领域关系"
+        },
+        {
+          "locator": "Official Chapter 5 Software Testing webinar deck, extracted pages 1 through 4 and published topic structure",
+          "purpose": "采用动态、受测系统、预期结果和有限用例构成的测试边界"
+        },
+        {
+          "locator": "Official Chapter 12 Software Quality webinar deck, extracted pages 1 through 4 and published topic structure",
+          "purpose": "确认质量文化、质量成本、管理、保证、Agile and DevOps shift-left 与相邻知识领域"
+        },
+        {
+          "locator": "Official Chapter 8 Software Configuration Management webinar deck, extracted pages 1 through 4 and published topic structure",
+          "purpose": "确认配置项识别、关系、版本、受控变更、审计、构建与发布管理的职责"
+        }
+      ],
+      "claims_used": [
+        "SWEBOK V4 以十八个知识领域描述得到广泛接受的软件工程知识，并明确知识体系指南不同于完整课程。",
+        "第四版把 Agile 与 DevOps 纳入多个知识领域，并新增软件架构、软件工程运行与软件安全。",
+        "软件质量与需求、架构、设计、构造、测试、维护、配置管理、管理、过程和模型方法存在直接关系。",
+        "测试以有限用例对受测系统进行动态验证，因此测试结论始终带有选择与测试预言边界。",
+        "配置管理负责识别受控对象、记录关系与版本、管理变更，并支持审计、构建和发布。"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读完整 PDF 中的每一项方法和参考文献。",
+        "本综述没有把 SWEBOK 主题目录扩写成适用于所有组织的统一流程。",
+        "本综述没有用 SWEBOK 单独支撑具体工具配置、监管合规或高风险系统认证结论。"
+      ]
+    },
+    {
+      "id": "book:quality:istqb-ctfl",
+      "title": "Certified Tester Foundation Level Syllabus v4.0.1",
+      "official_url": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“测试为什么是一项独立工程活动、七条测试原则怎样约束直觉、测试活动怎样进入生命周期”相关的关键章节",
+          "purpose": "建立《Certified Tester Foundation Level Syllabus v4.0.1》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“静态测试为何能提前改变结果、黑盒、白盒与经验技术怎样配合、测试管理怎样把资源给到风险、工具能加速什么又会放大什么”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "测试通过发现缺陷、降低风险、验证需求并为决策提供信息，它与调试的责任和产出不同",
+        "穷尽测试通常不可行，缺陷会聚集，重复用例会失去发现新问题的能力，测试还依赖具体情境",
+        "规划、监控、分析、设计、实现、执行和完成不会按瀑布式排队，它们会随迭代反复出现",
+        "评审和静态分析不需要运行软件，也能发现歧义、不一致、遗漏和不可测试设计",
+        "等价类、边界值、决策表、状态转换、语句分支覆盖和探索性测试观察的是不同缺陷面",
+        "风险分析、估算、优先级、进入退出准则、缺陷管理和报告共同决定有限时间怎样使用",
+        "管理、静态分析、自动执行、性能和协作工具可以提高重复性，也会带来维护成本与错误信任"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:istqb-test-analyst",
+      "title": "Certified Tester Advanced Level Test Analyst Syllabus",
+      "official_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-analyst",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“测试分析从利益相关者风险开始、需求质量决定测试空间、规格说明技术怎样覆盖规则”相关的关键章节",
+          "purpose": "建立《Certified Tester Advanced Level Test Analyst Syllabus》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“质量特性怎样改变观察方式、缺陷分类怎样反哺测试、探索性测试何时最有价值、测试证据怎样支持放行”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "测试分析师要理解用户、业务、法规和运行环境对失败的不同容忍度",
+        "歧义、冲突、遗漏和不可测要求会让后续用例看似完整却失去依据",
+        "等价类、边界值、决策表、状态转换、用例测试和组合技术分别处理分区、临界点、条件组合与流程",
+        "功能适合性、易用性、兼容性和可靠性会要求不同的用户、环境、数据和判定标准",
+        "缺陷类型、根因、聚集位置和遗漏阶段可以揭示现有测试模型的盲区",
+        "信息不足、变化快速或反馈即时的场景需要边学习边设计边执行",
+        "结果需要同时说明覆盖了什么、发现了什么、还有哪些不确定性"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:istqb-test-automation",
+      "title": "Certified Tester Test Automation Engineering Syllabus",
+      "official_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-automation-engineering-ctal-tae-v2-0",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“先判断自动化能解决哪类问题、通用测试自动化架构分开哪些责任、可测试性为什么先于工具选型”相关的关键章节",
+          "purpose": "建立《Certified Tester Test Automation Engineering Syllabus》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“自动化怎样部署进交付流水线、报告要帮助定位而不只给红绿、维护策略决定自动化寿命、迁移与持续改进怎样降低风险”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "重复频率、执行成本、确定性、环境可控性和反馈价值共同决定候选场景",
+        "测试生成、定义、执行、适配和报告分层可以隔离业务意图与技术细节",
+        "可控制接口、可观察状态、稳定标识和可重置数据决定脚本能否可靠运行",
+        "触发条件、执行环境、并发、凭证、制品和结果保留决定反馈是否可信",
+        "失败步骤、输入数据、环境、日志、截图、追踪和历史趋势共同缩短诊断时间",
+        "产品界面、接口、数据和依赖变化都会让测试资产老化",
+        "自动化框架更换会影响运行环境、技能、结果可比性和历史数据"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:istqb-test-management",
+      "title": "Certified Tester Advanced Level Test Management Syllabus",
+      "official_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-management",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“测试策略从组织目标落到项目、基于风险的测试怎样持续更新、估算需要暴露假设”相关的关键章节",
+          "purpose": "建立《Certified Tester Advanced Level Test Management Syllabus》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“监控和控制围绕偏差采取行动、缺陷管理连接发现与改进、团队能力与独立性需要权衡、放行建议怎样表达残余风险”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "合规、交付速度、事故成本和质量目标会形成不同的测试重点",
+        "风险识别、评估、缓解和报告贯穿生命周期，并随缺陷与变更重新排序",
+        "范围、复杂度、团队能力、环境准备、返工和不确定性都会影响工作量",
+        "进度、缺陷、覆盖、风险和资源指标应服务于是否调整计划",
+        "缺陷生命周期、分类、优先级和根因分析影响修复顺序与过程改进",
+        "领域知识、测试技能、协作关系和独立视角共同决定发现问题的能力",
+        "管理者需要知道已验证范围、关键缺陷、未完成项和后续缓解措施"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:nasa-software",
+      "title": "NASA Software Engineering Handbook",
+      "official_url": "https://swehb.nasa.gov/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“软件分类决定保证深度、计划把标准变成可执行承诺、需求和架构维护双向追踪”相关的关键章节",
+          "purpose": "建立《NASA Software Engineering Handbook》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“验证与确认回答不同问题、软件保证保持独立视角、配置管理保存任务历史、评审节点怎样支持继续或停止”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "系统用途、失效后果和任务关键性影响适用要求与独立保证力度",
+        "软件管理计划需要说明过程、组织、资源、里程碑、风险和交付物",
+        "任务目标、系统需求、软件需求、设计、代码和验证结果之间需要可追溯关系",
+        "验证检查产品是否按规定构建，确认检查最终系统是否满足真实用途",
+        "保证活动检查过程遵循、产品风险、安全问题和证据充分性",
+        "基线、变更、状态记录和审计让团队知道某次构建包含什么",
+        "生命周期评审汇总技术成熟度、风险、缺陷和剩余工作"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:nasa-systems",
+      "title": "NASA Systems Engineering Handbook",
+      "official_url": "https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“从利益相关者期望建立任务语境、技术需求要可验证并可分配、逻辑分解先解释系统做什么”相关的关键章节",
+          "purpose": "建立《NASA Systems Engineering Handbook》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“设计解形成可实现架构、实现集成验证确认形成证据阶梯、技术管理过程维持一致方向、技术评审是成熟度决策”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "目标、场景、约束和成功标准决定系统为何存在",
+        "期望需要转成清晰、必要、可行、无歧义且可验证的要求",
+        "功能、行为、数据与状态模型帮助团队在选实现方案前理解问题结构",
+        "权衡备选方案时要同时考虑性能、成本、风险、接口和生命周期",
+        "组件实现、逐层集成、要求验证和用途确认对应不同问题",
+        "风险、配置、信息、接口、决策和度量管理贯穿全部技术活动",
+        "评审用于判断基线是否足够稳定、风险是否可接受、资源是否支持下一阶段"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:pytest",
+      "title": "pytest Documentation",
+      "official_url": "https://docs.pytest.org/en/stable/contents.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“从测试发现建立稳定入口、fixture 管理资源生命周期、参数化表达输入空间”相关的关键章节",
+          "purpose": "建立《pytest Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“标记和选择组织反馈层级、异常、日志和输出帮助诊断、插件扩展需要边界、测试隔离决定并行可靠性”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "命名约定和收集规则决定哪些测试被执行",
+        "作用域、依赖和清理把环境准备从用例正文分离",
+        "同一行为可在多组输入和期望下重复验证",
+        "marker 能区分快速、集成、平台或风险分组",
+        "失败重写、捕获和断言差异减少定位时间",
+        "hook 与插件可以接入报告、并发和环境能力",
+        "临时目录、monkeypatch 与独立数据能约束副作用"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:playwright",
+      "title": "Playwright Documentation",
+      "official_url": "https://playwright.dev/docs/intro",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“浏览器上下文提供轻量隔离、定位器以用户可见语义寻找元素、自动等待围绕可操作状态”相关的关键章节",
+          "purpose": "建立《Playwright Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“断言重试处理短暂异步、网络控制划分测试边界、trace 把失败变成可回放证据、并行与重试不能掩盖不稳定”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "每个测试可拥有独立 cookie、存储和权限状态",
+        "角色、标签和文本比易变 CSS 结构更接近真实交互",
+        "动作前检查可见、稳定、可接收事件等条件",
+        "网页状态常在动作后逐步收敛",
+        "路由、拦截和 API 调用可构造错误或隔离第三方",
+        "动作、DOM、网络、日志和截图共同恢复失败现场",
+        "worker、分片和项目配置提高反馈速度"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:hypothesis",
+      "title": "Hypothesis Documentation",
+      "official_url": "https://hypothesis.readthedocs.io/en/latest/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“性质比示例描述更宽的承诺、策略决定能够探索的输入空间、缩减把失败压成最小反例”相关的关键章节",
+          "purpose": "建立《Hypothesis Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“假设和健康检查暴露坏模型、有状态测试探索操作序列、复现数据库保存已知反例、性质测试与示例测试互补”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "性质说明一类输入下始终应成立的关系",
+        "生成器描述结构、约束和组合数据",
+        "发现失败后系统寻找更简单仍会失败的输入",
+        "过度拒绝、执行过慢和共享状态会破坏生成过程",
+        "规则状态机生成动作并检查跨步骤不变量",
+        "失败样本可以在后续运行中优先重放",
+        "示例表达业务故事，性质探索故事之外的组合"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:pact",
+      "title": "Pact Documentation",
+      "official_url": "https://docs.pact.io/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“消费者契约记录真实使用方式、提供者验证把责任放回实现方、匹配规则保留必要弹性”相关的关键章节",
+          "purpose": "建立《Pact Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“Broker 保存契约和版本关系、部署矩阵回答能否安全发布、双向契约适配既有规范流程、契约治理处理团队协作”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "契约关心消费者实际依赖的请求和响应",
+        "提供者在可控状态下重放交互并检查响应",
+        "类型、正则和集合规则避免把无关字段值写死",
+        "契约、应用版本、环境与验证结果形成可查询历史",
+        "can-i-deploy 根据具体版本组合检查验证记录",
+        "部分团队从 OpenAPI 等提供者契约出发",
+        "破坏性变更、弃用和未验证契约需要明确处置"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:openapi",
+      "title": "OpenAPI Specification",
+      "official_url": "https://spec.openapis.org/oas/latest.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“文档对象建立契约根节点、路径与操作表达资源行为、Schema 约束数据形状”相关的关键章节",
+          "purpose": "建立《OpenAPI Specification》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“参数和消息体具有不同位置语义、安全方案描述调用条件、引用和组件控制重复、契约驱动需要运行验证”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "版本、信息、服务器、路径、组件和安全要求组成整体描述",
+        "HTTP 方法、operationId、参数和响应描述调用入口",
+        "类型、组合、枚举和格式描述请求响应结构",
+        "路径、查询、头部、cookie 与 body 的序列化方式不同",
+        "API key、OAuth2、OpenID Connect 等方案可在全局或操作级组合",
+        "components 与 reference 让公共结构可复用",
+        "Mock、代码生成、lint 和兼容检查利用规范自动化"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:semver",
+      "title": "Semantic Versioning 2.0.0",
+      "official_url": "https://semver.org/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“先定义什么属于公共 API、主版本承认不兼容变化、次版本容纳向后兼容新增”相关的关键章节",
+          "purpose": "建立《Semantic Versioning 2.0.0》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“修订版本限制在兼容修复、预发布与构建元数据服务不同目的、依赖范围决定升级传播、版本规范需要兼容证据支撑”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "消费者可依赖的函数、协议、配置和行为共同形成兼容表面",
+        "移除、重命名或改变既有承诺需要提升主版本",
+        "新增可选能力且不破坏旧消费者时提升次版本",
+        "修复错误且不改变公开接口时提升修订版本",
+        "预发布标识影响优先级，构建信息只补充身份",
+        "宽松和严格范围在安全更新与稳定性间权衡",
+        "API 差异、契约测试和消费者反馈才能验证承诺"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:reproducible-builds",
+      "title": "Reproducible Builds Documentation",
+      "official_url": "https://reproducible-builds.org/docs/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“确定性先从输入边界开始、时间戳是最常见的不确定来源、文件顺序和路径也会泄漏环境”相关的关键章节",
+          "purpose": "建立《Reproducible Builds Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“语言工具链各有归一化方法、独立重建提供外部核验、可复现与可验证来源互补、差异治理需要可操作流程”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "源码之外还有编译器、依赖、环境变量、区域设置和构建参数",
+        "当前时间、文件修改时间和归档头会进入制品",
+        "目录遍历顺序、绝对路径和用户名会写入二进制",
+        "编译器、链接器、压缩器和文档生成器会引入差异",
+        "不同主体根据同一源和说明生成相同结果",
+        "一致性说明重建结果相同，来源证明说明谁在何处怎样构建",
+        "非确定性问题要能分解、复现、修复和防回归"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:docker-build",
+      "title": "Docker Build Documentation",
+      "official_url": "https://docs.docker.com/build/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“构建上下文划定可见输入、层缓存取决于指令与依赖、多阶段构建分开生产与运行”相关的关键章节",
+          "purpose": "建立《Docker Build Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“挂载处理缓存与秘密、基础镜像需要身份和更新策略、多平台构建处理架构差异、构建证明进入供应链证据”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "发送给构建器的文件集合决定缓存、速度和泄漏风险",
+        "每条指令形成可复用结果，前层变化会使后层失效",
+        "编译工具可以留在构建阶段，运行镜像只复制产物",
+        "BuildKit mount 可提供临时缓存、SSH 与 secret",
+        "标签可移动，摘要固定具体内容",
+        "模拟、交叉编译和原生节点具有不同速度与保真度",
+        "缓存、导出器、SBOM 和 provenance 可关联制品来源"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:github-actions",
+      "title": "GitHub Actions Documentation",
+      "official_url": "https://docs.github.com/en/actions",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“事件和过滤器决定何时运行、作业图表达并行与依赖、Runner 是真实执行边界”相关的关键章节",
+          "purpose": "建立《GitHub Actions Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“令牌权限应按任务缩小、环境承载发布保护、制品和缓存用途不同、复用与第三方 Action 需要治理”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "push、pull request、手工和计划事件携带不同上下文",
+        "needs、矩阵和条件控制执行拓扑",
+        "托管与自托管 runner 的网络、状态和隔离能力不同",
+        "默认令牌、秘密和 OIDC 身份决定工作流能操作什么",
+        "环境审批、分支规则和环境秘密把部署与普通构建分开",
+        "artifact 保存交付或诊断结果，cache 加速可重新生成内容",
+        "可复用工作流统一策略，外部 Action 引入供应链依赖"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:google-sre",
+      "title": "Site Reliability Engineering",
+      "official_url": "https://sre.google/sre-book/table-of-contents/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“可靠性目标来自用户体验、错误预算协调速度与稳定、琐事会随服务增长吞噬团队”相关的关键章节",
+          "purpose": "建立《Site Reliability Engineering》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“监控应该支持行动、容量规划连接需求与资源、发布工程追求一致与可回退、事故响应需要角色和学习机制”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "可用性、延迟、正确性和持久性要通过用户可感知指标描述",
+        "允许失败量来自 SLO 与实际表现之差",
+        "重复、手工、可自动化且没有长期价值的工作会线性扩张",
+        "症状、原因、黑盒和白盒信号服务不同诊断阶段",
+        "增长预测、性能模型、供应周期和冗余共同决定容量",
+        "自动化构建、分阶段发布和可追踪制品降低人为差异",
+        "指挥、沟通、处置和记录分工减少混乱"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:sre-workbook",
+      "title": "The Site Reliability Workbook",
+      "official_url": "https://sre.google/workbook/table-of-contents/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“从一次 SLO 工作坊开始、基于燃烧率设计告警、监控配置本身需要测试”相关的关键章节",
+          "purpose": "建立《The Site Reliability Workbook》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“金丝雀比较新旧版本行为、过载保护优先维持关键工作、值班健康决定长期可靠性、从复盘行动项回到工程系统”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "用户旅程、好事件、总事件和时间窗口共同形成目标",
+        "短窗口发现快速消耗，长窗口识别持续问题",
+        "规则、标签、路由和通知链会像代码一样出错",
+        "少量真实流量提供错误率、延迟和资源差异",
+        "排队、拒绝、降级和负载削减控制资源耗尽",
+        "轮班规模、事件频率、升级路径和补偿影响判断质量",
+        "高质量行动项应有负责人、优先级和可验证完成条件"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:secure-reliable",
+      "title": "Building Secure and Reliable Systems",
+      "official_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“先从最坏后果识别系统危害、设计阶段保留安全不变量、最小权限限制单点失陷”相关的关键章节",
+          "purpose": "建立《Building Secure and Reliable Systems》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“纵深防御需要失效独立性、安全变更也需要渐进发布、事件期间保护决策能力、恢复目标包含可信状态”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "资产、信任边界、攻击者和故障模式共同塑造风险",
+        "身份、授权、数据完整性和关键操作约束应跨组件成立",
+        "人员、服务和自动化只获得当前任务所需能力",
+        "多层控制只有在原因不完全相同时才增加保护",
+        "认证、密钥和策略修改可能造成大面积可用性故障",
+        "预案、可信通信、取证和紧急权限要在事故前准备",
+        "服务恢复后还要确认数据、身份和构建来源未被持续控制"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:opentelemetry",
+      "title": "OpenTelemetry Documentation and Specification",
+      "official_url": "https://opentelemetry.io/docs/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“信号先回答不同问题、上下文传播维持跨进程因果、API 与 SDK 分离库和应用责任”相关的关键章节",
+          "purpose": "建立《OpenTelemetry Documentation and Specification》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“资源与语义约定保证可比较、采样在成本与证据间取舍、Collector 解耦处理与输出、可观测性需要自身健康信号”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "trace 解释路径与因果，metric 描述聚合趋势，log 保存离散事件",
+        "trace context 和 baggage 随请求跨服务传递",
+        "库可依赖稳定 API，应用选择 SDK、采样和导出",
+        "服务、部署、云环境和操作名称需要稳定属性",
+        "头部采样早做决定，尾部采样可根据完整轨迹保留异常",
+        "接收器、处理器、导出器和管线完成批处理、过滤和路由",
+        "丢弃、队列、导出失败和配置变化会影响证据完整性"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:prometheus",
+      "title": "Prometheus Documentation",
+      "official_url": "https://prometheus.io/docs/introduction/overview/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“指标名称和标签形成数据模型、Counter、Gauge、Histogram 各有语义、拉取模型定义发现与失败表现”相关的关键章节",
+          "purpose": "建立《Prometheus Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“PromQL 在时间窗口上计算关系、记录规则预计算常用结果、告警规则与通知路由分工、联邦与远程存储扩展边界”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "样本由名称、标签集合、时间和值组成",
+        "累计事件、瞬时状态和分布需要不同指标类型",
+        "服务器按目标发现规则定期抓取端点",
+        "rate、聚合、向量匹配和分位估计回答变化问题",
+        "复杂或高频查询可写成新的时间序列",
+        "Prometheus 判断条件，Alertmanager 分组、抑制和发送",
+        "分层聚合和远程读写支持长期或跨集群场景"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:nist-risk",
+      "title": "NIST SP 800-30 Rev. 1: Guide for Conducting Risk Assessments",
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“先确定评估目的与范围、威胁来源与事件需要分开、脆弱性和前置条件解释可利用性”相关的关键章节",
+          "purpose": "建立《NIST SP 800-30 Rev. 1: Guide for Conducting Risk Assessments》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“影响从组织任务衡量、可能性包含多层判断、风险结果需要沟通与响应、评估会随系统与环境变化”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "决策问题、系统边界、时间和利益相关者决定需要什么证据",
+        "来源具有意图或能力，事件描述可能发生的具体行动或情形",
+        "技术缺陷、流程缺口和环境条件共同影响事件能否发生",
+        "保密、完整、可用以及人员、财务和声誉后果需要分级",
+        "威胁发起概率、事件成功条件和已有控制共同影响总体可能性",
+        "优先级、依据、残余不确定性和建议措施应面向决策者",
+        "架构、数据、威胁和控制改变后旧结论会失效"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:nist-ssdf",
+      "title": "NIST SP 800-218: Secure Software Development Framework",
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/218/final",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“组织准备先建立角色与环境、保护软件防止未授权修改、安全需求和风险进入设计”相关的关键章节",
+          "purpose": "建立《NIST SP 800-218: Secure Software Development Framework》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“代码与依赖都要验证、构建发布保存可追踪证据、漏洞响应连接发现与修复、框架需要按风险裁剪”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "政策、责任、培训、工具链和安全开发环境决定实践能否持续",
+        "代码、配置、凭证和发布制品需要访问控制、完整性和留存",
+        "威胁建模、需求、架构评审和复用组件选择影响后续缺陷",
+        "评审、分析、测试和来源检查覆盖自有实现及第三方组件",
+        "受控构建、完整性保护和发布信息支持验证与响应",
+        "接收报告、分析根因、修复、通知和防复发构成持续过程",
+        "实践结果稳定，具体实现可随规模与技术调整"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:nist-incident",
+      "title": "NIST SP 800-61 Rev. 3: Incident Response Recommendations and Considerations",
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“治理先确定事件责任、资产与风险信息支持准备、保护措施也为响应创造条件”相关的关键章节",
+          "purpose": "建立《NIST SP 800-61 Rev. 3: Incident Response Recommendations and Considerations》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“检测需要确认与分级、响应阶段协调遏制和业务影响、恢复需要验证可信状态、事后改进回到风险管理”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "政策、权责、供应商和法律沟通决定事故中谁能做什么",
+        "系统、数据、依赖、业务影响和威胁背景决定响应优先级",
+        "日志、备份、分段、身份和配置管理限制事件影响并保留证据",
+        "多源信号、分析和上下文把异常转成可处置事件",
+        "遏制、清除、证据保存和沟通可能互相冲突",
+        "服务恢复、监控增强和业务确认共同判断能否回归运行",
+        "复盘、指标和行动项要更新架构、控制、培训与供应商要求"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:nist-contingency",
+      "title": "NIST SP 800-34 Rev. 1: Contingency Planning Guide",
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/34/r1/final",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“应急政策确定范围和授权、业务影响分析给恢复排序、预防控制降低计划启动概率”相关的关键章节",
+          "purpose": "建立《NIST SP 800-34 Rev. 1: Contingency Planning Guide》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“恢复策略匹配时间目标、计划要写成可执行步骤、测试训练演练暴露隐藏依赖、维护跟随系统变化”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "组织先规定目标、角色、资源和计划适用系统",
+        "关键流程、依赖、允许中断和数据损失决定优先级",
+        "冗余、电力、备份、环境和维护控制减少中断",
+        "备选场地、设备、通信、人员与数据方案有不同启用时间",
+        "通知、评估、激活、恢复、重建和回归需要角色、条件和顺序",
+        "桌面推演、功能演练和全规模测试提供不同强度证据",
+        "人员、供应商、架构和数据量变化会让计划老化"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:nist-container",
+      "title": "NIST SP 800-190: Application Container Security Guide",
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/190/final",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“镜像把供应链带进运行环境、注册表承担分发信任、编排器集中高权限能力”相关的关键章节",
+          "purpose": "建立《NIST SP 800-190: Application Container Security Guide》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“容器运行时控制进程边界、宿主机仍是共享根基、网络微分段限制横向移动、监控响应需要容器语境”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "漏洞、秘密、恶意层和过大软件集合都会随镜像传播",
+        "访问控制、传输保护、镜像完整性和生命周期影响谁能发布什么",
+        "调度、秘密、网络和管理 API 一旦失守会扩大影响",
+        "能力、文件系统、系统调用和资源限制影响逃逸与拒绝服务",
+        "内核、运行时和节点凭证被多个工作负载共享",
+        "服务间默认可达会让被攻陷容器探索集群",
+        "短生命周期和动态调度改变日志、取证与隔离方式"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:owasp-wstg",
+      "title": "OWASP Web Security Testing Guide",
+      "official_url": "https://owasp.org/www-project-web-security-testing-guide/stable/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“信息收集建立真实攻击面、配置与部署暴露系统性缺口、身份与认证测试账户入口”相关的关键章节",
+          "purpose": "建立《OWASP Web Security Testing Guide》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“授权需要逐对象验证、会话管理处理令牌生命周期、输入测试覆盖解释器边界、业务逻辑测试需要理解流程”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "域名、技术、入口、角色和隐藏内容决定后续测试范围",
+        "默认文件、管理接口、云存储、HTTP 方法和错误处理常泄漏能力",
+        "注册、枚举、凭证策略、重置和多因素流程共同决定账户安全",
+        "垂直越权、水平越权和直接对象引用发生在服务端决策",
+        "创建、更新、固定、注销、过期和并发会话都有攻击面",
+        "SQL、命令、模板、XML 和浏览器会以不同语法解释数据",
+        "限额、顺序、价格、并发和状态转换缺陷难以靠通用扫描发现"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:owasp-asvs",
+      "title": "OWASP Application Security Verification Standard",
+      "official_url": "https://owasp.org/www-project-application-security-verification-standard/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“验证级别决定检查深度、架构要求先检查信任边界、认证会话和授权必须分开验证”相关的关键章节",
+          "purpose": "建立《OWASP Application Security Verification Standard》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“输入、编码和反序列化围绕数据流、密码学要求包含密钥生命周期、日志与错误处理服务检测和取证、ASVS 可以连接采购与持续验证”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "不同威胁和业务后果需要不同保证强度",
+        "组件、数据流、外部服务和高价值功能需要被识别",
+        "确认身份、维持会话与决定动作是三个不同控制面",
+        "同一输入经过数据库、模板或命令解释器会产生不同风险",
+        "算法、模式、随机数、存储、轮换和撤销共同决定保护效果",
+        "安全事件需要足够上下文，同时避免泄漏秘密",
+        "需求标识可进入合同、测试和缺陷跟踪"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:slsa",
+      "title": "SLSA Specification",
+      "official_url": "https://slsa.dev/spec/v1.2/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“威胁模型聚焦供应链篡改、provenance 描述构建事实、构建平台隔离决定可信度”相关的关键章节",
+          "purpose": "建立《SLSA Specification》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“来源可用性支持审计与重建、等级表达保证而非产品排名、验证策略把证明变成门禁、SLSA 与 SBOM 承担不同问题”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "源码、依赖、构建过程和分发路径都可能被替换",
+        "构建者、过程、输入、参数和输出摘要形成可验证声明",
+        "托管、隔离和防止构建者伪造证据是高等级关键",
+        "消费者需要取得证明并解析其中依赖关系",
+        "等级说明满足的一组构建要求",
+        "可信构建者、源码仓库和参数范围需要策略约束",
+        "来源证明解释怎样构建，SBOM 描述包含哪些组件"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:in-toto",
+      "title": "in-toto Specification",
+      "official_url": "https://in-toto.io/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“Layout 表达预期供应链、Link 记录实际执行事实、材料和产物规则约束变化”相关的关键章节",
+          "purpose": "建立《in-toto Specification》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“身份与阈值限制单人控制、检查步骤验证额外条件、传输与存储需要防止缺失攻击、落地从最短关键链开始”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "步骤、检查、授权密钥和规则共同描述应发生什么",
+        "每一步保存材料、产物、命令和环境信息并由执行者签名",
+        "MATCH、CREATE、DELETE 等规则检查文件怎样流经步骤",
+        "不同步骤可交给不同功能角色并要求多方签署",
+        "inspection 可在最终验证时执行扫描或一致性检查",
+        "攻击者可能删除证明以迫使系统降级",
+        "全供应链一次建模成本很高"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:tuf",
+      "title": "The Update Framework Specification",
+      "official_url": "https://theupdateframework.github.io/specification/latest/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“多角色分离不同信任责任、Root 维护信任根与轮换规则、Targets 描述允许安装的制品”相关的关键章节",
+          "purpose": "建立《The Update Framework Specification》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“Snapshot 防止混合版本视图、Timestamp 提供仓库新鲜度、回滚与冻结攻击依靠版本过期防御、密钥恢复需要预先设计”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "根信任、目标授权、仓库一致性和新鲜度由不同元数据承担",
+        "客户端从受信 root 学习角色密钥和阈值",
+        "目标路径、长度、摘要和委托定义授权范围",
+        "仓库元数据版本关系阻止攻击者拼接旧新文件",
+        "短期在线元数据帮助客户端发现冻结攻击",
+        "客户端保存可信状态并拒绝较旧元数据",
+        "离线根密钥、阈值和轮换流程决定失陷后的处置"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:spdx",
+      "title": "SPDX Specification",
+      "official_url": "https://spdx.github.io/spdx-spec/v3.0/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“Core Profile 建立共同对象语言、元素身份决定能否合并数据、关系表达供应链结构”相关的关键章节",
+          "purpose": "建立《SPDX Specification》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“Software Profile 描述包与文件、Licensing Profile 处理声明与结论、Security 与 Build 信息扩展用途、序列化只是模型的一种表达”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "元素、Agent、命名空间、外部标识和关系是扩展基础",
+        "局部标识、命名空间与外部引用区分同名对象",
+        "包含、依赖、生成和描述等关系连接文件、包与制品",
+        "版本、下载位置、校验和与内容类型支持组件识别",
+        "许可证表达式、文本和分析结果支持合规判断",
+        "漏洞、评估、构建和生命周期信息可以关联同一元素",
+        "JSON-LD 等格式承载相同语义模型"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:cyclonedx",
+      "title": "CycloneDX Specification",
+      "official_url": "https://cyclonedx.org/specification/overview/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“BOM 元数据标识一次清单、组件模型描述软件与硬件对象、依赖图说明可达关系”相关的关键章节",
+          "purpose": "建立《CycloneDX Specification》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“服务与数据流进入 SaaSBOM、漏洞对象保存分析语境、组成与生命周期表达完整程度、BOM 需要进入持续维护流程”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "序列号、版本、时间、工具和主体说明清单身份",
+        "类型、名称、版本、purl、摘要和许可证帮助识别组件",
+        "dependsOn 连接直接和传递依赖",
+        "外部端点、认证、数据分类和信任边界扩展运行视角",
+        "来源、评级、影响版本、状态和响应解释团队判断",
+        "complete、incomplete 等信息说明清单覆盖边界",
+        "生成、签名、分发、摄取和差异分析构成运营链"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:kubernetes",
+      "title": "Kubernetes Documentation",
+      "official_url": "https://kubernetes.io/docs/home/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“声明式对象保存期望状态、控制循环处理持续偏差、Pod 是调度与共享资源单位”相关的关键章节",
+          "purpose": "建立《Kubernetes Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“工作负载控制器表达运行模式、Service 与入口提供稳定访问、配置、Secret 和存储具有生命周期、探针与资源请求影响调度和恢复”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "spec 表达用户意图，status 反映系统观察，元数据支持身份与选择",
+        "控制器观察实际状态并采取动作逼近期望状态",
+        "同一 Pod 中容器共享网络和部分存储生命周期",
+        "Deployment、StatefulSet、DaemonSet、Job 处理不同身份和更新需求",
+        "标签选择、虚拟 IP、DNS 和入口规则解耦实例变化",
+        "配置注入、持久卷和存储类连接应用与集群资源",
+        "readiness、liveness、startup 与 requests、limits 分别控制流量、重启和资源"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:kubernetes-security",
+      "title": "Kubernetes Security Checklist",
+      "official_url": "https://kubernetes.io/docs/concepts/security/security-checklist/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“API Server 是首要控制入口、RBAC 需要最小化与定期复查、Pod 安全限制运行能力”相关的关键章节",
+          "purpose": "建立《Kubernetes Security Checklist》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“网络策略控制东西向通信、Secret 与工作负载身份要缩短暴露、镜像策略连接供应链、日志与节点保护支持响应”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "认证、授权、准入和网络暴露决定谁能改变集群",
+        "Role、Binding 和 ServiceAccount 形成权限图",
+        "特权、宿主路径、能力、用户和 seccomp 影响逃逸面",
+        "命名空间和 Pod 默认互通会扩大横向移动",
+        "自动挂载令牌、环境变量和 etcd 存储影响秘密风险",
+        "来源、摘要、签名和扫描决定允许运行的制品",
+        "审计日志、节点隔离和管理接口决定能否发现与处置"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:cloud-native-security",
+      "title": "Cloud Native Security Whitepaper v2",
+      "official_url": "https://tag-security.cncf.io/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“云原生改变资产和边界、开发阶段控制来源与缺陷、分发阶段维护制品完整性”相关的关键章节",
+          "purpose": "建立《Cloud Native Security Whitepaper v2》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“部署阶段执行声明与策略、运行阶段观察和限制行为、身份成为主要控制平面、组织责任需要产品化平台支持”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "短生命周期实例、API 控制面和供应链扩大身份与自动化的重要性",
+        "代码、依赖、构建配置和秘密需要评审与保护",
+        "注册表、签名、SBOM 和来源证明连接发布者与消费者",
+        "IaC、准入控制、身份和网络策略决定工作负载获得什么能力",
+        "运行时检测、微分段、资源限制和响应处理已部署风险",
+        "人员、服务和工作负载身份跨云与集群调用资源",
+        "平台提供安全默认值，应用团队承担业务配置与代码责任"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:opengitops",
+      "title": "OpenGitOps Principles",
+      "official_url": "https://opengitops.dev/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“声明式描述期望而非操作步骤、版本化不可变保存变更历史、软件代理自动拉取期望状态”相关的关键章节",
+          "purpose": "建立《OpenGitOps Principles》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“持续调和处理运行漂移、秘密与动态数据需要另行设计、晋级和回退是版本变更、GitOps 成功需要反馈回路”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "系统目标状态需要能由机器理解和应用",
+        "期望状态需要审查、追踪和回到已知版本",
+        "运行环境主动取得被批准的声明并应用",
+        "代理反复比较实际与期望并采取修正",
+        "只有适合公开和版本化的运行数据才能以明文进入 Git",
+        "环境差异与发布顺序应通过受审查声明表达",
+        "应用状态、调和失败和策略拒绝要返回开发者"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:terraform",
+      "title": "Terraform Documentation",
+      "official_url": "https://developer.hashicorp.com/terraform/docs",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“配置表达资源和依赖关系、Provider 翻译远端 API、State 保存配置与远端身份映射”相关的关键章节",
+          "purpose": "建立《Terraform Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“Plan 是带假设的变更预览、Module 建立复用与治理边界、生命周期元参数处理特殊变更、导入、移动与重构保护既有资源”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "resource、data、variable、local 和 output 构成模块接口",
+        "Provider Schema 和生命周期决定差异怎样被读取与应用",
+        "状态含资源地址、属性和依赖，是计划的关键输入",
+        "刷新结果、未知值和依赖图生成创建、修改、替换或删除动作",
+        "输入输出和内部资源封装常见基础设施模式",
+        "create_before_destroy、prevent_destroy 和 ignore_changes 调整默认行为",
+        "import 和 moved block 让对象进入管理或改变地址"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:argocd",
+      "title": "Argo CD Documentation",
+      "official_url": "https://argo-cd.readthedocs.io/en/stable/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“Application 连接来源与目标、Sync 与 Health 回答不同问题、自动同步与自愈控制漂移”相关的关键章节",
+          "purpose": "建立《Argo CD Documentation》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“Project 提供多租户约束、同步波次和钩子处理顺序、差异定制要谨慎使用、回退和灾难恢复需要外部状态配合”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "仓库路径、版本、集群和命名空间定义一个调和单元",
+        "同步说明声明是否一致，健康说明资源能否提供预期服务",
+        "prune、selfHeal 和重试决定控制器如何处理差异",
+        "来源仓库、目标集群、资源种类和角色可以按项目限制",
+        "资源注解、hook 和健康等待组织迁移与依赖",
+        "某些控制器会合法修改字段，需要忽略无意义差异",
+        "Git 版本可恢复声明，数据库和集群密钥另有生命周期"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:principles-chaos",
+      "title": "Principles of Chaos Engineering",
+      "official_url": "https://principlesofchaos.org/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“稳态用业务结果描述系统、假设必须能够被证伪、变量来自现实世界事件”相关的关键章节",
+          "purpose": "建立《Principles of Chaos Engineering》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“生产环境提供最高保真度、爆炸半径必须主动限制、自动化用于持续验证假设、实验结果要回到系统改进”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "实验前要定义正常状态可观察范围",
+        "实验声明某种扰动下稳态仍能维持",
+        "实例终止、网络延迟、依赖失败和资源耗尽应与实际风险相关",
+        "真实流量、数据和依赖关系难以在测试环境完整复制",
+        "用户比例、区域、服务和持续时间决定潜在损失",
+        "可重复实验能够在系统变化后重新检查韧性",
+        "发现、证据、影响和后续动作形成学习记录"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:cncf-platforms",
+      "title": "CNCF Platforms White Paper",
+      "official_url": "https://tag-app-delivery.cncf.io/whitepapers/platforms/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“平台从用户与任务出发、平台能力通过接口被消费、黄金路径提供有意见的默认值”相关的关键章节",
+          "purpose": "建立《CNCF Platforms White Paper》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“平台降低认知负担但不隐藏责任、组合能力优于单体巨型平台、平台团队采用产品管理方法、度量连接用户结果与平台健康”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "应用开发者、运维和安全人员具有不同目标与约束",
+        "门户、API、CLI、模板和声明都是产品界面",
+        "平台把安全、可靠和交付实践封装进易用路径",
+        "用户无需理解全部基础设施细节，仍需知道关键质量后果",
+        "身份、构建、部署、观测和资源能力可通过契约组合",
+        "路线、用户反馈、支持成本和采用行为共同指导投资",
+        "交付时间、失败恢复、满意度和平台可靠性需共同观察"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    },
+    {
+      "id": "book:quality:platform-maturity",
+      "title": "Platform Engineering Maturity Model",
+      "official_url": "https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/",
+      "acquisition": {
+        "state": "cited",
+        "method": "official_online_read",
+        "artifact": null,
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "官方正文的目录、概念说明，以及与“成熟度是多维状态、投资方式反映组织承诺、采用从被动使用走向主动选择”相关的关键章节",
+          "purpose": "建立《Platform Engineering Maturity Model》的问题主线、对象关系和前半段判断"
+        },
+        {
+          "locator": "官方正文中与“接口从工单走向可组合自助、运营能力决定平台是否可信、度量从活动走向结果、演进路线应针对最窄约束”相关的关键章节",
+          "purpose": "确认实践方法、工程产物、适用边界和与质量交付路线的连接"
+        }
+      ],
+      "claims_used": [
+        "资金、人员、产品管理、技术接口和运营能力不会同步增长",
+        "临时兼职、固定团队和长期产品投资支持不同能力",
+        "强制接入、局部试用和广泛信任具有不同信号",
+        "人工服务、门户模板、API 和声明式能力逐步提高规模",
+        "支持、事件、容量、安全和变更管理需要产品级标准",
+        "工单数、交付周期、失败率和用户满意度反映不同层面",
+        "下一阶段由阻碍用户结果的关键维度决定"
+      ],
+      "claims_not_made": [
+        "本综述没有声称逐行精读官方正文的全部页面、附录和外部参考。",
+        "本综述没有把示例参数、组织流程或工具默认值外推为所有项目的统一要求。",
+        "具体版本、配置、合规与高风险决策仍需回查官方原文并使用本地证据验证。"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": "swebok-v4-reading-review",
+      "learning_job": "把 SWEBOK 的十八个知识领域重组为一条从需求、设计、构造、测试、配置、发布到运行反馈的质量证据关系。",
+      "source_ids": [
+        "book:quality:swebok-v4"
+      ],
+      "claims_used": [
+        "质量活动分布在需求、架构、设计、构造、测试、配置、运行、维护与管理过程之中。",
+        "测试证据受到有限输入选择和测试预言的共同约束。",
+        "配置管理让变更对象、基线、版本、构建与发布状态保持可识别和可审计。"
+      ]
+    },
+    {
+      "lesson": "istqb-ctfl-reading-review",
+      "learning_job": "围绕“测试为何不等于执行一批用例，测试人员又该在开发生命周期的哪些位置介入”建立从“测试为什么是一项独立工程活动”到“工具能加速什么又会放大什么”的连续判断。",
+      "source_ids": [
+        "book:quality:istqb-ctfl"
+      ],
+      "claims_used": [
+        "测试通过发现缺陷、降低风险、验证需求并为决策提供信息，它与调试的责任和产出不同",
+        "穷尽测试通常不可行，缺陷会聚集，重复用例会失去发现新问题的能力，测试还依赖具体情境",
+        "规划、监控、分析、设计、实现、执行和完成不会按瀑布式排队，它们会随迭代反复出现"
+      ]
+    },
+    {
+      "lesson": "istqb-test-analyst-reading-review",
+      "learning_job": "围绕“面对规则密集、场景众多的业务系统，怎样把风险转成可解释的测试条件”建立从“测试分析从利益相关者风险开始”到“测试证据怎样支持放行”的连续判断。",
+      "source_ids": [
+        "book:quality:istqb-test-analyst"
+      ],
+      "claims_used": [
+        "测试分析师要理解用户、业务、法规和运行环境对失败的不同容忍度",
+        "歧义、冲突、遗漏和不可测要求会让后续用例看似完整却失去依据",
+        "等价类、边界值、决策表、状态转换、用例测试和组合技术分别处理分区、临界点、条件组合与流程"
+      ]
+    },
+    {
+      "lesson": "istqb-test-automation-reading-review",
+      "learning_job": "围绕“自动化为何常在早期提速，半年后却成为难以维护的新负担”建立从“先判断自动化能解决哪类问题”到“迁移与持续改进怎样降低风险”的连续判断。",
+      "source_ids": [
+        "book:quality:istqb-test-automation"
+      ],
+      "claims_used": [
+        "重复频率、执行成本、确定性、环境可控性和反馈价值共同决定候选场景",
+        "测试生成、定义、执行、适配和报告分层可以隔离业务意图与技术细节",
+        "可控制接口、可观察状态、稳定标识和可重置数据决定脚本能否可靠运行"
+      ]
+    },
+    {
+      "lesson": "istqb-test-management-reading-review",
+      "learning_job": "围绕“测试经理怎样在时间有限、信息不完整的条件下分配质量资源”建立从“测试策略从组织目标落到项目”到“放行建议怎样表达残余风险”的连续判断。",
+      "source_ids": [
+        "book:quality:istqb-test-management"
+      ],
+      "claims_used": [
+        "合规、交付速度、事故成本和质量目标会形成不同的测试重点",
+        "风险识别、评估、缓解和报告贯穿生命周期，并随缺陷与变更重新排序",
+        "范围、复杂度、团队能力、环境准备、返工和不确定性都会影响工作量"
+      ]
+    },
+    {
+      "lesson": "nasa-software-reading-review",
+      "learning_job": "围绕“当软件失败会影响任务与人员安全时，工程活动怎样留下足够证据”建立从“软件分类决定保证深度”到“评审节点怎样支持继续或停止”的连续判断。",
+      "source_ids": [
+        "book:quality:nasa-software"
+      ],
+      "claims_used": [
+        "系统用途、失效后果和任务关键性影响适用要求与独立保证力度",
+        "软件管理计划需要说明过程、组织、资源、里程碑、风险和交付物",
+        "任务目标、系统需求、软件需求、设计、代码和验证结果之间需要可追溯关系"
+      ]
+    },
+    {
+      "lesson": "nasa-systems-reading-review",
+      "learning_job": "围绕“多个专业共同交付一个系统时，怎样避免局部成功与整体失败”建立从“从利益相关者期望建立任务语境”到“技术评审是成熟度决策”的连续判断。",
+      "source_ids": [
+        "book:quality:nasa-systems"
+      ],
+      "claims_used": [
+        "目标、场景、约束和成功标准决定系统为何存在",
+        "期望需要转成清晰、必要、可行、无歧义且可验证的要求",
+        "功能、行为、数据与状态模型帮助团队在选实现方案前理解问题结构"
+      ]
+    },
+    {
+      "lesson": "pytest-reading-review",
+      "learning_job": "围绕“fixture、参数化和插件怎样共同形成可扩展的测试结构”建立从“从测试发现建立稳定入口”到“测试隔离决定并行可靠性”的连续判断。",
+      "source_ids": [
+        "book:quality:pytest"
+      ],
+      "claims_used": [
+        "命名约定和收集规则决定哪些测试被执行",
+        "作用域、依赖和清理把环境准备从用例正文分离",
+        "同一行为可在多组输入和期望下重复验证"
+      ]
+    },
+    {
+      "lesson": "playwright-reading-review",
+      "learning_job": "围绕“浏览器测试怎样既接近用户又保持可诊断和可维护”建立从“浏览器上下文提供轻量隔离”到“并行与重试不能掩盖不稳定”的连续判断。",
+      "source_ids": [
+        "book:quality:playwright"
+      ],
+      "claims_used": [
+        "每个测试可拥有独立 cookie、存储和权限状态",
+        "角色、标签和文本比易变 CSS 结构更接近真实交互",
+        "动作前检查可见、稳定、可接收事件等条件"
+      ]
+    },
+    {
+      "lesson": "hypothesis-reading-review",
+      "learning_job": "围绕“怎样从少量人工示例走向可缩减、可复现的输入探索”建立从“性质比示例描述更宽的承诺”到“性质测试与示例测试互补”的连续判断。",
+      "source_ids": [
+        "book:quality:hypothesis"
+      ],
+      "claims_used": [
+        "性质说明一类输入下始终应成立的关系",
+        "生成器描述结构、约束和组合数据",
+        "发现失败后系统寻找更简单仍会失败的输入"
+      ]
+    },
+    {
+      "lesson": "pact-reading-review",
+      "learning_job": "围绕“服务怎样独立交付，又不把兼容风险推迟到集成环境”建立从“消费者契约记录真实使用方式”到“契约治理处理团队协作”的连续判断。",
+      "source_ids": [
+        "book:quality:pact"
+      ],
+      "claims_used": [
+        "契约关心消费者实际依赖的请求和响应",
+        "提供者在可控状态下重放交互并检查响应",
+        "类型、正则和集合规则避免把无关字段值写死"
+      ]
+    },
+    {
+      "lesson": "openapi-reading-review",
+      "learning_job": "围绕“机器可读接口契约怎样连接设计、实现、测试与文档”建立从“文档对象建立契约根节点”到“契约驱动需要运行验证”的连续判断。",
+      "source_ids": [
+        "book:quality:openapi"
+      ],
+      "claims_used": [
+        "版本、信息、服务器、路径、组件和安全要求组成整体描述",
+        "HTTP 方法、operationId、参数和响应描述调用入口",
+        "类型、组合、枚举和格式描述请求响应结构"
+      ]
+    },
+    {
+      "lesson": "semver-reading-review",
+      "learning_job": "围绕“版本号怎样表达兼容承诺，以及何时表达会失真”建立从“先定义什么属于公共 API”到“版本规范需要兼容证据支撑”的连续判断。",
+      "source_ids": [
+        "book:quality:semver"
+      ],
+      "claims_used": [
+        "消费者可依赖的函数、协议、配置和行为共同形成兼容表面",
+        "移除、重命名或改变既有承诺需要提升主版本",
+        "新增可选能力且不破坏旧消费者时提升次版本"
+      ]
+    },
+    {
+      "lesson": "reproducible-builds-reading-review",
+      "learning_job": "围绕“怎样证明两次构建来自同一源码并具有相同结果”建立从“确定性先从输入边界开始”到“差异治理需要可操作流程”的连续判断。",
+      "source_ids": [
+        "book:quality:reproducible-builds"
+      ],
+      "claims_used": [
+        "源码之外还有编译器、依赖、环境变量、区域设置和构建参数",
+        "当前时间、文件修改时间和归档头会进入制品",
+        "目录遍历顺序、绝对路径和用户名会写入二进制"
+      ]
+    },
+    {
+      "lesson": "docker-build-reading-review",
+      "learning_job": "围绕“怎样让镜像构建更小、更快、可缓存且不泄漏秘密”建立从“构建上下文划定可见输入”到“构建证明进入供应链证据”的连续判断。",
+      "source_ids": [
+        "book:quality:docker-build"
+      ],
+      "claims_used": [
+        "发送给构建器的文件集合决定缓存、速度和泄漏风险",
+        "每条指令形成可复用结果，前层变化会使后层失效",
+        "编译工具可以留在构建阶段，运行镜像只复制产物"
+      ]
+    },
+    {
+      "lesson": "github-actions-reading-review",
+      "learning_job": "围绕“怎样把事件、作业、权限、环境和制品组织成可审计流水线”建立从“事件和过滤器决定何时运行”到“复用与第三方 Action 需要治理”的连续判断。",
+      "source_ids": [
+        "book:quality:github-actions"
+      ],
+      "claims_used": [
+        "push、pull request、手工和计划事件携带不同上下文",
+        "needs、矩阵和条件控制执行拓扑",
+        "托管与自托管 runner 的网络、状态和隔离能力不同"
+      ]
+    },
+    {
+      "lesson": "google-sre-reading-review",
+      "learning_job": "围绕“怎样用软件工程方法管理生产可靠性，而不是无限增加运维人力”建立从“可靠性目标来自用户体验”到“事故响应需要角色和学习机制”的连续判断。",
+      "source_ids": [
+        "book:quality:google-sre"
+      ],
+      "claims_used": [
+        "可用性、延迟、正确性和持久性要通过用户可感知指标描述",
+        "允许失败量来自 SLO 与实际表现之差",
+        "重复、手工、可自动化且没有长期价值的工作会线性扩张"
+      ]
+    },
+    {
+      "lesson": "sre-workbook-reading-review",
+      "learning_job": "围绕“经典 SRE 原则怎样变成可以执行和复盘的工作方法”建立从“从一次 SLO 工作坊开始”到“从复盘行动项回到工程系统”的连续判断。",
+      "source_ids": [
+        "book:quality:sre-workbook"
+      ],
+      "claims_used": [
+        "用户旅程、好事件、总事件和时间窗口共同形成目标",
+        "短窗口发现快速消耗，长窗口识别持续问题",
+        "规则、标签、路由和通知链会像代码一样出错"
+      ]
+    },
+    {
+      "lesson": "secure-reliable-reading-review",
+      "learning_job": "围绕“安全与可靠性为何应共同设计，怎样从危害分析走到恢复”建立从“先从最坏后果识别系统危害”到“恢复目标包含可信状态”的连续判断。",
+      "source_ids": [
+        "book:quality:secure-reliable"
+      ],
+      "claims_used": [
+        "资产、信任边界、攻击者和故障模式共同塑造风险",
+        "身份、授权、数据完整性和关键操作约束应跨组件成立",
+        "人员、服务和自动化只获得当前任务所需能力"
+      ]
+    },
+    {
+      "lesson": "opentelemetry-reading-review",
+      "learning_job": "围绕“trace、metric、log 怎样通过统一上下文还原系统行为”建立从“信号先回答不同问题”到“可观测性需要自身健康信号”的连续判断。",
+      "source_ids": [
+        "book:quality:opentelemetry"
+      ],
+      "claims_used": [
+        "trace 解释路径与因果，metric 描述聚合趋势，log 保存离散事件",
+        "trace context 和 baggage 随请求跨服务传递",
+        "库可依赖稳定 API，应用选择 SDK、采样和导出"
+      ]
+    },
+    {
+      "lesson": "prometheus-reading-review",
+      "learning_job": "围绕“时间序列指标怎样从采集走到查询、告警和容量判断”建立从“指标名称和标签形成数据模型”到“联邦与远程存储扩展边界”的连续判断。",
+      "source_ids": [
+        "book:quality:prometheus"
+      ],
+      "claims_used": [
+        "样本由名称、标签集合、时间和值组成",
+        "累计事件、瞬时状态和分布需要不同指标类型",
+        "服务器按目标发现规则定期抓取端点"
+      ]
+    },
+    {
+      "lesson": "nist-risk-reading-review",
+      "learning_job": "围绕“怎样在不确定信息下系统评估威胁、脆弱性、影响与可能性”建立从“先确定评估目的与范围”到“评估会随系统与环境变化”的连续判断。",
+      "source_ids": [
+        "book:quality:nist-risk"
+      ],
+      "claims_used": [
+        "决策问题、系统边界、时间和利益相关者决定需要什么证据",
+        "来源具有意图或能力，事件描述可能发生的具体行动或情形",
+        "技术缺陷、流程缺口和环境条件共同影响事件能否发生"
+      ]
+    },
+    {
+      "lesson": "nist-ssdf-reading-review",
+      "learning_job": "围绕“安全实践怎样进入开发日常而不成为发布前一次检查”建立从“组织准备先建立角色与环境”到“框架需要按风险裁剪”的连续判断。",
+      "source_ids": [
+        "book:quality:nist-ssdf"
+      ],
+      "claims_used": [
+        "政策、责任、培训、工具链和安全开发环境决定实践能否持续",
+        "代码、配置、凭证和发布制品需要访问控制、完整性和留存",
+        "威胁建模、需求、架构评审和复用组件选择影响后续缺陷"
+      ]
+    },
+    {
+      "lesson": "nist-incident-reading-review",
+      "learning_job": "围绕“事件响应怎样嵌入组织风险管理并形成持续改进”建立从“治理先确定事件责任”到“事后改进回到风险管理”的连续判断。",
+      "source_ids": [
+        "book:quality:nist-incident"
+      ],
+      "claims_used": [
+        "政策、权责、供应商和法律沟通决定事故中谁能做什么",
+        "系统、数据、依赖、业务影响和威胁背景决定响应优先级",
+        "日志、备份、分段、身份和配置管理限制事件影响并保留证据"
+      ]
+    },
+    {
+      "lesson": "nist-contingency-reading-review",
+      "learning_job": "围绕“怎样把业务影响、恢复目标、备选能力和演练连接成可执行计划”建立从“应急政策确定范围和授权”到“维护跟随系统变化”的连续判断。",
+      "source_ids": [
+        "book:quality:nist-contingency"
+      ],
+      "claims_used": [
+        "组织先规定目标、角色、资源和计划适用系统",
+        "关键流程、依赖、允许中断和数据损失决定优先级",
+        "冗余、电力、备份、环境和维护控制减少中断"
+      ]
+    },
+    {
+      "lesson": "nist-container-reading-review",
+      "learning_job": "围绕“容器风险怎样沿镜像、注册表、编排器、运行时和宿主机传播”建立从“镜像把供应链带进运行环境”到“监控响应需要容器语境”的连续判断。",
+      "source_ids": [
+        "book:quality:nist-container"
+      ],
+      "claims_used": [
+        "漏洞、秘密、恶意层和过大软件集合都会随镜像传播",
+        "访问控制、传输保护、镜像完整性和生命周期影响谁能发布什么",
+        "调度、秘密、网络和管理 API 一旦失守会扩大影响"
+      ]
+    },
+    {
+      "lesson": "owasp-wstg-reading-review",
+      "learning_job": "围绕“怎样从信息收集走到业务逻辑与客户端测试，并留下可复现证据”建立从“信息收集建立真实攻击面”到“业务逻辑测试需要理解流程”的连续判断。",
+      "source_ids": [
+        "book:quality:owasp-wstg"
+      ],
+      "claims_used": [
+        "域名、技术、入口、角色和隐藏内容决定后续测试范围",
+        "默认文件、管理接口、云存储、HTTP 方法和错误处理常泄漏能力",
+        "注册、枚举、凭证策略、重置和多因素流程共同决定账户安全"
+      ]
+    },
+    {
+      "lesson": "owasp-asvs-reading-review",
+      "learning_job": "围绕“怎样把模糊的安全要求变成分级、可验证的控制清单”建立从“验证级别决定检查深度”到“ASVS 可以连接采购与持续验证”的连续判断。",
+      "source_ids": [
+        "book:quality:owasp-asvs"
+      ],
+      "claims_used": [
+        "不同威胁和业务后果需要不同保证强度",
+        "组件、数据流、外部服务和高价值功能需要被识别",
+        "确认身份、维持会话与决定动作是三个不同控制面"
+      ]
+    },
+    {
+      "lesson": "slsa-reading-review",
+      "learning_job": "围绕“怎样判断一个制品由什么平台、使用哪些输入、经过何种过程产生”建立从“威胁模型聚焦供应链篡改”到“SLSA 与 SBOM 承担不同问题”的连续判断。",
+      "source_ids": [
+        "book:quality:slsa"
+      ],
+      "claims_used": [
+        "源码、依赖、构建过程和分发路径都可能被替换",
+        "构建者、过程、输入、参数和输出摘要形成可验证声明",
+        "托管、隔离和防止构建者伪造证据是高等级关键"
+      ]
+    },
+    {
+      "lesson": "in-toto-reading-review",
+      "learning_job": "围绕“怎样让供应链布局和逐步证明阻止未授权步骤或材料替换”建立从“Layout 表达预期供应链”到“落地从最短关键链开始”的连续判断。",
+      "source_ids": [
+        "book:quality:in-toto"
+      ],
+      "claims_used": [
+        "步骤、检查、授权密钥和规则共同描述应发生什么",
+        "每一步保存材料、产物、命令和环境信息并由执行者签名",
+        "MATCH、CREATE、DELETE 等规则检查文件怎样流经步骤"
+      ]
+    },
+    {
+      "lesson": "tuf-reading-review",
+      "learning_job": "围绕“仓库或部分密钥失陷时，客户端怎样仍能拒绝恶意或过期更新”建立从“多角色分离不同信任责任”到“密钥恢复需要预先设计”的连续判断。",
+      "source_ids": [
+        "book:quality:tuf"
+      ],
+      "claims_used": [
+        "根信任、目标授权、仓库一致性和新鲜度由不同元数据承担",
+        "客户端从受信 root 学习角色密钥和阈值",
+        "目标路径、长度、摘要和委托定义授权范围"
+      ]
+    },
+    {
+      "lesson": "spdx-reading-review",
+      "learning_job": "围绕“怎样用共同数据模型描述软件对象、关系与证据”建立从“Core Profile 建立共同对象语言”到“序列化只是模型的一种表达”的连续判断。",
+      "source_ids": [
+        "book:quality:spdx"
+      ],
+      "claims_used": [
+        "元素、Agent、命名空间、外部标识和关系是扩展基础",
+        "局部标识、命名空间与外部引用区分同名对象",
+        "包含、依赖、生成和描述等关系连接文件、包与制品"
+      ]
+    },
+    {
+      "lesson": "cyclonedx-reading-review",
+      "learning_job": "围绕“物料清单怎样从组件列表扩展到服务、漏洞、配方与运行关系”建立从“BOM 元数据标识一次清单”到“BOM 需要进入持续维护流程”的连续判断。",
+      "source_ids": [
+        "book:quality:cyclonedx"
+      ],
+      "claims_used": [
+        "序列号、版本、时间、工具和主体说明清单身份",
+        "类型、名称、版本、purl、摘要和许可证帮助识别组件",
+        "dependsOn 连接直接和传递依赖"
+      ]
+    },
+    {
+      "lesson": "kubernetes-reading-review",
+      "learning_job": "围绕“声明式对象和控制器怎样把期望状态持续变成运行状态”建立从“声明式对象保存期望状态”到“探针与资源请求影响调度和恢复”的连续判断。",
+      "source_ids": [
+        "book:quality:kubernetes"
+      ],
+      "claims_used": [
+        "spec 表达用户意图，status 反映系统观察，元数据支持身份与选择",
+        "控制器观察实际状态并采取动作逼近期望状态",
+        "同一 Pod 中容器共享网络和部分存储生命周期"
+      ]
+    },
+    {
+      "lesson": "kubernetes-security-reading-review",
+      "learning_job": "围绕“怎样沿控制平面、身份、工作负载、网络和审计检查关键暴露面”建立从“API Server 是首要控制入口”到“日志与节点保护支持响应”的连续判断。",
+      "source_ids": [
+        "book:quality:kubernetes-security"
+      ],
+      "claims_used": [
+        "认证、授权、准入和网络暴露决定谁能改变集群",
+        "Role、Binding 和 ServiceAccount 形成权限图",
+        "特权、宿主路径、能力、用户和 seccomp 影响逃逸面"
+      ]
+    },
+    {
+      "lesson": "cloud-native-security-reading-review",
+      "learning_job": "围绕“安全责任怎样贯穿开发、分发、部署和运行，而非集中在某个扫描工具”建立从“云原生改变资产和边界”到“组织责任需要产品化平台支持”的连续判断。",
+      "source_ids": [
+        "book:quality:cloud-native-security"
+      ],
+      "claims_used": [
+        "短生命周期实例、API 控制面和供应链扩大身份与自动化的重要性",
+        "代码、依赖、构建配置和秘密需要评审与保护",
+        "注册表、签名、SBOM 和来源证明连接发布者与消费者"
+      ]
+    },
+    {
+      "lesson": "opengitops-reading-review",
+      "learning_job": "围绕“什么条件满足时才能称为 GitOps，哪些只是使用 Git 的自动化”建立从“声明式描述期望而非操作步骤”到“GitOps 成功需要反馈回路”的连续判断。",
+      "source_ids": [
+        "book:quality:opengitops"
+      ],
+      "claims_used": [
+        "系统目标状态需要能由机器理解和应用",
+        "期望状态需要审查、追踪和回到已知版本",
+        "运行环境主动取得被批准的声明并应用"
+      ]
+    },
+    {
+      "lesson": "terraform-reading-review",
+      "learning_job": "围绕“配置、状态、计划和 Provider 怎样共同管理基础设施变化”建立从“配置表达资源和依赖关系”到“导入、移动与重构保护既有资源”的连续判断。",
+      "source_ids": [
+        "book:quality:terraform"
+      ],
+      "claims_used": [
+        "resource、data、variable、local 和 output 构成模块接口",
+        "Provider Schema 和生命周期决定差异怎样被读取与应用",
+        "状态含资源地址、属性和依赖，是计划的关键输入"
+      ]
+    },
+    {
+      "lesson": "argocd-reading-review",
+      "learning_job": "围绕“期望状态、同步、健康与差异怎样构成持续交付控制器”建立从“Application 连接来源与目标”到“回退和灾难恢复需要外部状态配合”的连续判断。",
+      "source_ids": [
+        "book:quality:argocd"
+      ],
+      "claims_used": [
+        "仓库路径、版本、集群和命名空间定义一个调和单元",
+        "同步说明声明是否一致，健康说明资源能否提供预期服务",
+        "prune、selfHeal 和重试决定控制器如何处理差异"
+      ]
+    },
+    {
+      "lesson": "principles-chaos-reading-review",
+      "learning_job": "围绕“怎样从稳态假设出发安全地注入真实扰动并获得学习”建立从“稳态用业务结果描述系统”到“实验结果要回到系统改进”的连续判断。",
+      "source_ids": [
+        "book:quality:principles-chaos"
+      ],
+      "claims_used": [
+        "实验前要定义正常状态可观察范围",
+        "实验声明某种扰动下稳态仍能维持",
+        "实例终止、网络延迟、依赖失败和资源耗尽应与实际风险相关"
+      ]
+    },
+    {
+      "lesson": "cncf-platforms-reading-review",
+      "learning_job": "围绕“平台怎样围绕用户需求组合能力，而不是堆出新的工具门户”建立从“平台从用户与任务出发”到“度量连接用户结果与平台健康”的连续判断。",
+      "source_ids": [
+        "book:quality:cncf-platforms"
+      ],
+      "claims_used": [
+        "应用开发者、运维和安全人员具有不同目标与约束",
+        "门户、API、CLI、模板和声明都是产品界面",
+        "平台把安全、可靠和交付实践封装进易用路径"
+      ]
+    },
+    {
+      "lesson": "platform-maturity-reading-review",
+      "learning_job": "围绕“怎样判断平台目前在哪个阶段，下一步投资应解决什么问题”建立从“成熟度是多维状态”到“演进路线应针对最窄约束”的连续判断。",
+      "source_ids": [
+        "book:quality:platform-maturity"
+      ],
+      "claims_used": [
+        "资金、人员、产品管理、技术接口和运营能力不会同步增长",
+        "临时兼职、固定团队和长期产品投资支持不同能力",
+        "强制接入、局部试用和广泛信任具有不同信号"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "review": "swebok-v4",
+      "page": "/knowledge-base/reviews/quality/swebok-v4",
+      "status": "approved-sample",
+      "source_ids": [
+        "book:quality:swebok-v4"
+      ],
+      "learning_job": "把 SWEBOK 的十八个知识领域重组为一条从需求、设计、构造、测试、配置、发布到运行反馈的质量证据关系。"
+    },
+    {
+      "review": "istqb-ctfl",
+      "page": "/knowledge-base/reviews/quality/istqb-ctfl",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:istqb-ctfl"
+      ],
+      "learning_job": "围绕“测试为何不等于执行一批用例，测试人员又该在开发生命周期的哪些位置介入”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "istqb-test-analyst",
+      "page": "/knowledge-base/reviews/quality/istqb-test-analyst",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:istqb-test-analyst"
+      ],
+      "learning_job": "围绕“面对规则密集、场景众多的业务系统，怎样把风险转成可解释的测试条件”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "istqb-test-automation",
+      "page": "/knowledge-base/reviews/quality/istqb-test-automation",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:istqb-test-automation"
+      ],
+      "learning_job": "围绕“自动化为何常在早期提速，半年后却成为难以维护的新负担”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "istqb-test-management",
+      "page": "/knowledge-base/reviews/quality/istqb-test-management",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:istqb-test-management"
+      ],
+      "learning_job": "围绕“测试经理怎样在时间有限、信息不完整的条件下分配质量资源”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "nasa-software",
+      "page": "/knowledge-base/reviews/quality/nasa-software",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:nasa-software"
+      ],
+      "learning_job": "围绕“当软件失败会影响任务与人员安全时，工程活动怎样留下足够证据”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "nasa-systems",
+      "page": "/knowledge-base/reviews/quality/nasa-systems",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:nasa-systems"
+      ],
+      "learning_job": "围绕“多个专业共同交付一个系统时，怎样避免局部成功与整体失败”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "pytest",
+      "page": "/knowledge-base/reviews/quality/pytest",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:pytest"
+      ],
+      "learning_job": "围绕“fixture、参数化和插件怎样共同形成可扩展的测试结构”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "playwright",
+      "page": "/knowledge-base/reviews/quality/playwright",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:playwright"
+      ],
+      "learning_job": "围绕“浏览器测试怎样既接近用户又保持可诊断和可维护”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "hypothesis",
+      "page": "/knowledge-base/reviews/quality/hypothesis",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:hypothesis"
+      ],
+      "learning_job": "围绕“怎样从少量人工示例走向可缩减、可复现的输入探索”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "pact",
+      "page": "/knowledge-base/reviews/quality/pact",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:pact"
+      ],
+      "learning_job": "围绕“服务怎样独立交付，又不把兼容风险推迟到集成环境”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "openapi",
+      "page": "/knowledge-base/reviews/quality/openapi",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:openapi"
+      ],
+      "learning_job": "围绕“机器可读接口契约怎样连接设计、实现、测试与文档”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "semver",
+      "page": "/knowledge-base/reviews/quality/semver",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:semver"
+      ],
+      "learning_job": "围绕“版本号怎样表达兼容承诺，以及何时表达会失真”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "reproducible-builds",
+      "page": "/knowledge-base/reviews/quality/reproducible-builds",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:reproducible-builds"
+      ],
+      "learning_job": "围绕“怎样证明两次构建来自同一源码并具有相同结果”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "docker-build",
+      "page": "/knowledge-base/reviews/quality/docker-build",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:docker-build"
+      ],
+      "learning_job": "围绕“怎样让镜像构建更小、更快、可缓存且不泄漏秘密”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "github-actions",
+      "page": "/knowledge-base/reviews/quality/github-actions",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:github-actions"
+      ],
+      "learning_job": "围绕“怎样把事件、作业、权限、环境和制品组织成可审计流水线”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "google-sre",
+      "page": "/knowledge-base/reviews/quality/google-sre",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:google-sre"
+      ],
+      "learning_job": "围绕“怎样用软件工程方法管理生产可靠性，而不是无限增加运维人力”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "sre-workbook",
+      "page": "/knowledge-base/reviews/quality/sre-workbook",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:sre-workbook"
+      ],
+      "learning_job": "围绕“经典 SRE 原则怎样变成可以执行和复盘的工作方法”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "secure-reliable",
+      "page": "/knowledge-base/reviews/quality/secure-reliable",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:secure-reliable"
+      ],
+      "learning_job": "围绕“安全与可靠性为何应共同设计，怎样从危害分析走到恢复”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "opentelemetry",
+      "page": "/knowledge-base/reviews/quality/opentelemetry",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:opentelemetry"
+      ],
+      "learning_job": "围绕“trace、metric、log 怎样通过统一上下文还原系统行为”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "prometheus",
+      "page": "/knowledge-base/reviews/quality/prometheus",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:prometheus"
+      ],
+      "learning_job": "围绕“时间序列指标怎样从采集走到查询、告警和容量判断”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "nist-risk",
+      "page": "/knowledge-base/reviews/quality/nist-risk",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:nist-risk"
+      ],
+      "learning_job": "围绕“怎样在不确定信息下系统评估威胁、脆弱性、影响与可能性”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "nist-ssdf",
+      "page": "/knowledge-base/reviews/quality/nist-ssdf",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:nist-ssdf"
+      ],
+      "learning_job": "围绕“安全实践怎样进入开发日常而不成为发布前一次检查”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "nist-incident",
+      "page": "/knowledge-base/reviews/quality/nist-incident",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:nist-incident"
+      ],
+      "learning_job": "围绕“事件响应怎样嵌入组织风险管理并形成持续改进”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "nist-contingency",
+      "page": "/knowledge-base/reviews/quality/nist-contingency",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:nist-contingency"
+      ],
+      "learning_job": "围绕“怎样把业务影响、恢复目标、备选能力和演练连接成可执行计划”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "nist-container",
+      "page": "/knowledge-base/reviews/quality/nist-container",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:nist-container"
+      ],
+      "learning_job": "围绕“容器风险怎样沿镜像、注册表、编排器、运行时和宿主机传播”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "owasp-wstg",
+      "page": "/knowledge-base/reviews/quality/owasp-wstg",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:owasp-wstg"
+      ],
+      "learning_job": "围绕“怎样从信息收集走到业务逻辑与客户端测试，并留下可复现证据”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "owasp-asvs",
+      "page": "/knowledge-base/reviews/quality/owasp-asvs",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:owasp-asvs"
+      ],
+      "learning_job": "围绕“怎样把模糊的安全要求变成分级、可验证的控制清单”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "slsa",
+      "page": "/knowledge-base/reviews/quality/slsa",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:slsa"
+      ],
+      "learning_job": "围绕“怎样判断一个制品由什么平台、使用哪些输入、经过何种过程产生”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "in-toto",
+      "page": "/knowledge-base/reviews/quality/in-toto",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:in-toto"
+      ],
+      "learning_job": "围绕“怎样让供应链布局和逐步证明阻止未授权步骤或材料替换”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "tuf",
+      "page": "/knowledge-base/reviews/quality/tuf",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:tuf"
+      ],
+      "learning_job": "围绕“仓库或部分密钥失陷时，客户端怎样仍能拒绝恶意或过期更新”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "spdx",
+      "page": "/knowledge-base/reviews/quality/spdx",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:spdx"
+      ],
+      "learning_job": "围绕“怎样用共同数据模型描述软件对象、关系与证据”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "cyclonedx",
+      "page": "/knowledge-base/reviews/quality/cyclonedx",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:cyclonedx"
+      ],
+      "learning_job": "围绕“物料清单怎样从组件列表扩展到服务、漏洞、配方与运行关系”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "kubernetes",
+      "page": "/knowledge-base/reviews/quality/kubernetes",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:kubernetes"
+      ],
+      "learning_job": "围绕“声明式对象和控制器怎样把期望状态持续变成运行状态”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "kubernetes-security",
+      "page": "/knowledge-base/reviews/quality/kubernetes-security",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:kubernetes-security"
+      ],
+      "learning_job": "围绕“怎样沿控制平面、身份、工作负载、网络和审计检查关键暴露面”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "cloud-native-security",
+      "page": "/knowledge-base/reviews/quality/cloud-native-security",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:cloud-native-security"
+      ],
+      "learning_job": "围绕“安全责任怎样贯穿开发、分发、部署和运行，而非集中在某个扫描工具”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "opengitops",
+      "page": "/knowledge-base/reviews/quality/opengitops",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:opengitops"
+      ],
+      "learning_job": "围绕“什么条件满足时才能称为 GitOps，哪些只是使用 Git 的自动化”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "terraform",
+      "page": "/knowledge-base/reviews/quality/terraform",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:terraform"
+      ],
+      "learning_job": "围绕“配置、状态、计划和 Provider 怎样共同管理基础设施变化”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "argocd",
+      "page": "/knowledge-base/reviews/quality/argocd",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:argocd"
+      ],
+      "learning_job": "围绕“期望状态、同步、健康与差异怎样构成持续交付控制器”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "principles-chaos",
+      "page": "/knowledge-base/reviews/quality/principles-chaos",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:principles-chaos"
+      ],
+      "learning_job": "围绕“怎样从稳态假设出发安全地注入真实扰动并获得学习”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "cncf-platforms",
+      "page": "/knowledge-base/reviews/quality/cncf-platforms",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:cncf-platforms"
+      ],
+      "learning_job": "围绕“平台怎样围绕用户需求组合能力，而不是堆出新的工具门户”形成可学习、可复查的阅读路径。"
+    },
+    {
+      "review": "platform-maturity",
+      "page": "/knowledge-base/reviews/quality/platform-maturity",
+      "status": "complete-awaiting-user-review",
+      "source_ids": [
+        "book:quality:platform-maturity"
+      ],
+      "learning_job": "围绕“怎样判断平台目前在哪个阶段，下一步投资应解决什么问题”形成可学习、可复查的阅读路径。"
+    }
+  ]
+}

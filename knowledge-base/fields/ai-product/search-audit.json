@@ -1,0 +1,195 @@
+{
+  "field": "ai-product",
+  "searched_at": "2026-09-02",
+  "provider": "Tavily CLI",
+  "policy": "检索只生成候选；最终收录必须经过主题相关性、开放全文与权威来源三项人工复核。",
+  "book_queries": [
+    "AI product management book full text PDF author official university repository open access",
+    "product management product discovery open book full text author PDF handbook",
+    "machine learning product strategy book full text PDF AI product manager",
+    "human centered AI design open book guidebook full text PDF product teams",
+    "open online book product experimentation A/B testing metrics full text author",
+    "open access book digital product management product analytics full text PDF official",
+    "Shape Up full book Basecamp Field Guide to Human-Centered Design PDF IDEO",
+    "Lean Service Creation Handbook PDF official product discovery handbook full text",
+    "AI product full book GitHub product manager guidebook PDF evals UX"
+  ],
+  "rejected_book_candidates": [
+    {
+      "title": "AI Meets Strategy",
+      "reason": "Springer 页面实测为订阅预览，不是开放全文。"
+    },
+    {
+      "title": "Machine Learning Yearning",
+      "reason": "官方入口要求填写个人信息，未通过直接全文门槛。"
+    },
+    {
+      "title": "The Lean Product Playbook 非官方 PDF",
+      "reason": "第三方来源无法证明分发授权。"
+    },
+    {
+      "title": "Human-Centered AI 非官方 PDF",
+      "reason": "第三方下载站来源不明，未收录。"
+    },
+    {
+      "title": "HAX / NIST / OECD / UNESCO / WHO / ALTAI",
+      "reason": "分别属于准则、工具、标准或治理文件，不承担系统教材角色。"
+    }
+  ],
+  "paper_modules": {
+    "problem-discovery": {
+      "selected_arxiv_ids": [
+        "2301.12243",
+        "2304.12241",
+        "2402.07933",
+        "2507.15885",
+        "2104.03483",
+        "2605.00280",
+        "2509.12752",
+        "2605.00282",
+        "2112.07467",
+        "2412.07045"
+      ],
+      "selected_count": 10
+    },
+    "workflow": {
+      "selected_arxiv_ids": [
+        "2403.04931",
+        "2404.12056",
+        "2509.19152",
+        "2604.07121",
+        "2509.20666",
+        "2501.10909",
+        "2602.01481",
+        "2602.15865",
+        "2407.19098",
+        "2604.18096"
+      ],
+      "selected_count": 10
+    },
+    "capability-architecture": {
+      "selected_arxiv_ids": [
+        "2502.09670",
+        "2506.01793",
+        "2304.08354",
+        "2211.09110",
+        "2302.04761",
+        "2305.15334",
+        "2307.16789",
+        "2308.03688",
+        "2311.12983",
+        "2401.13178"
+      ],
+      "selected_count": 10
+    },
+    "evaluation": {
+      "selected_arxiv_ids": [
+        "2408.13338",
+        "2508.15361",
+        "2508.18646",
+        "2504.18838",
+        "2309.07462",
+        "2505.08253",
+        "2410.12857",
+        "2507.21504",
+        "2506.11094",
+        "2406.13990"
+      ],
+      "selected_count": 10
+    },
+    "experimentation": {
+      "selected_arxiv_ids": [
+        "2212.11366",
+        "2212.08771",
+        "2312.10624",
+        "2604.16671",
+        "2504.09723",
+        "2510.03468",
+        "2211.03262",
+        "2402.03915",
+        "2308.04929",
+        "2502.08763"
+      ],
+      "selected_count": 10
+    },
+    "ux-trust": {
+      "selected_arxiv_ids": [
+        "2511.16769",
+        "2509.23497",
+        "2603.18895",
+        "2501.16627",
+        "2605.18036",
+        "2402.07632",
+        "2410.20067",
+        "2509.08010",
+        "2502.13321",
+        "2604.05658"
+      ],
+      "selected_count": 10
+    },
+    "operations": {
+      "selected_arxiv_ids": [
+        "2504.16789",
+        "2406.09737",
+        "2311.12019",
+        "2503.15577",
+        "2205.02302",
+        "2604.16371",
+        "1606.03966",
+        "2201.00162",
+        "2502.13011",
+        "2403.16795"
+      ],
+      "selected_count": 10
+    },
+    "governance": {
+      "selected_arxiv_ids": [
+        "2508.18919",
+        "2502.13294",
+        "2408.12047",
+        "2312.06153",
+        "2506.02071",
+        "2509.20394",
+        "2506.23949",
+        "2601.22424",
+        "2407.17374",
+        "2601.13122"
+      ],
+      "selected_count": 10
+    },
+    "economics": {
+      "selected_arxiv_ids": [
+        "2506.00532",
+        "2604.18849",
+        "2304.11771",
+        "2608.15550",
+        "2504.11436",
+        "2510.12049",
+        "2502.13281",
+        "2608.11626",
+        "2505.14588",
+        "2410.18334"
+      ],
+      "selected_count": 10
+    },
+    "generative-ai": {
+      "selected_arxiv_ids": [
+        "2301.05578",
+        "2411.02662",
+        "2501.13145",
+        "2507.17774",
+        "2505.15049",
+        "2602.05299",
+        "2510.23324",
+        "2509.12491",
+        "2405.01543",
+        "2312.14231"
+      ],
+      "selected_count": 10
+    },
+    "strategy-organization": {
+      "cross_tagged_from": "economics",
+      "selected_count": 10
+    }
+  }
+}

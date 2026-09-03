@@ -1,0 +1,579 @@
+{
+  "$schema": "../../schema/reading-evidence.schema.json",
+  "field": "nlp",
+  "updated_at": "2026-09-03T00:00:00+08:00",
+  "sources": [
+    {
+      "id": "book:nlp:slp3",
+      "title": "Speech and Language Processing (3rd ed. draft)",
+      "official_url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/slp3-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "任务、语料与标注、分词、形态与文本表示、语义与向量表示、编码器、解码器与 Transformer、预训练、提示与适配、结构化语言理解、生成、对话、翻译与摘要、多语言与低资源 NLP、检索、问答与上下文、事实性、评测与责任",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:nltk-book",
+      "title": "Natural Language Processing with Python",
+      "official_url": "https://www.nltk.org/book/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "任务、语料与标注、分词、形态与文本表示、结构化语言理解",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:ir-book",
+      "title": "Introduction to Information Retrieval",
+      "official_url": "https://nlp.stanford.edu/IR-book/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "语义与向量表示、检索、问答与上下文、事实性、评测与责任",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:tidy-text-mining",
+      "title": "Text Mining with R",
+      "official_url": "https://www.tidytextmining.com/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "任务、语料与标注、分词、形态与文本表示、语义与向量表示",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:supervised-ml-text",
+      "title": "Supervised Machine Learning for Text Analysis in R",
+      "official_url": "https://smltar.com/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "任务、语料与标注、语义与向量表示、事实性、评测与责任",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:foundations-llm",
+      "title": "Foundations of Large Language Models",
+      "official_url": "https://arxiv.org/abs/2501.09223",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "编码器、解码器与 Transformer、预训练、提示与适配、生成、对话、翻译与摘要、事实性、评测与责任",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:niutrans-nlp",
+      "title": "自然语言处理：神经网络与大语言模型",
+      "official_url": "https://github.com/NiuTrans/NLPBook",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "编码器、解码器与 Transformer、预训练、提示与适配、生成、对话、翻译与摘要、多语言与低资源 NLP",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:neural-nlp-primer",
+      "title": "A Primer on Neural Network Models for Natural Language Processing",
+      "official_url": "https://arxiv.org/abs/1510.00726",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "语义与向量表示、编码器、解码器与 Transformer、结构化语言理解",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:search-engines",
+      "title": "Search Engines: Information Retrieval in Practice",
+      "official_url": "https://ciir.cs.umass.edu/downloads/SEIRiP.pdf",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "检索、问答与上下文、事实性、评测与责任",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:mining-massive-datasets",
+      "title": "Mining of Massive Datasets",
+      "official_url": "https://www.mmds.org/",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "语义与向量表示、检索、问答与上下文",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:mt-for-everyone",
+      "title": "Machine Translation for Everyone: Empowering Users in the Age of AI",
+      "official_url": "https://langsci-press.org/catalog/book/342",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "生成、对话、翻译与摘要、多语言与低资源 NLP、事实性、评测与责任",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:unicode-cookbook",
+      "title": "The Unicode Cookbook for Linguists",
+      "official_url": "https://langsci-press.org/catalog/book/176",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "任务、语料与标注、分词、形态与文本表示、多语言与低资源 NLP",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:multiword-expressions",
+      "title": "Multiword Expressions in NLP: Current Trends and Challenges",
+      "official_url": "https://langsci-press.org/catalog/book/564",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "分词、形态与文本表示、语义与向量表示、结构化语言理解、多语言与低资源 NLP",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:referring-expression",
+      "title": "Referring Expression Generation in Context",
+      "official_url": "https://langsci-press.org/catalog/book/451",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "语义与向量表示、生成、对话、翻译与摘要、事实性、评测与责任",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    },
+    {
+      "id": "book:nlp:universal-dependencies",
+      "title": "Universal Dependencies Guidelines",
+      "official_url": "https://universaldependencies.org/guidelines.html",
+      "acquisition": {
+        "state": "cited",
+        "method": "tavily_extract",
+        "artifact": "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/nlp-remaining-books-source.json",
+        "sha256": null,
+        "bytes": null
+      },
+      "read_scopes": [
+        {
+          "locator": "完整开放正文、目录与版本说明",
+          "purpose": "确认全书问题路线、章节依赖和当前版本边界"
+        },
+        {
+          "locator": "任务、语料与标注、分词、形态与文本表示、结构化语言理解、多语言与低资源 NLP",
+          "purpose": "提取本书在当前学习模块中承担的核心概念、方法与失败条件"
+        },
+        {
+          "locator": "原书案例、推导、代码或标注规范",
+          "purpose": "把定义转成可检查的实验或数据处理步骤"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": "knowledge-base/reviews/nlp/slp3",
+      "learning_job": "沿《Speech and Language Processing (3rd ed. draft)》的真实问题顺序，理解任务、语料与标注、分词、形态与文本表示、语义与向量表示、编码器、解码器与 Transformer、预训练、提示与适配、结构化语言理解、生成、对话、翻译与摘要、多语言与低资源 NLP、检索、问答与上下文、事实性、评测与责任之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:slp3"
+      ],
+      "claims_used": [
+        "覆盖现代 NLP 全链路的主教材，以语言模型、Transformer、任务系统和责任边界连接 40 个学习节点。",
+        "本书覆盖任务、语料与标注、分词、形态与文本表示、语义与向量表示、编码器、解码器与 Transformer、预训练、提示与适配、结构化语言理解、生成、对话、翻译与摘要、多语言与低资源 NLP、检索、问答与上下文、事实性、评测与责任，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/nltk-book",
+      "learning_job": "沿《Natural Language Processing with Python》的真实问题顺序，理解任务、语料与标注、分词、形态与文本表示、结构化语言理解之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:nltk-book"
+      ],
+      "claims_used": [
+        "用公开语料和代码建立文本处理、分类、标注、解析与语义实践基础。",
+        "本书覆盖任务、语料与标注、分词、形态与文本表示、结构化语言理解，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/ir-book",
+      "learning_job": "沿《Introduction to Information Retrieval》的真实问题顺序，理解语义与向量表示、检索、问答与上下文、事实性、评测与责任之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:ir-book"
+      ],
+      "claims_used": [
+        "建立索引、排序、评价、分类与检索系统的稳定理论骨架。",
+        "本书覆盖语义与向量表示、检索、问答与上下文、事实性、评测与责任，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/tidy-text-mining",
+      "learning_job": "沿《Text Mining with R》的真实问题顺序，理解任务、语料与标注、分词、形态与文本表示、语义与向量表示之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:tidy-text-mining"
+      ],
+      "claims_used": [
+        "用 tidy data 视角组织分词、情感、TF-IDF、主题模型和文本统计。",
+        "本书覆盖任务、语料与标注、分词、形态与文本表示、语义与向量表示，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/supervised-ml-text",
+      "learning_job": "沿《Supervised Machine Learning for Text Analysis in R》的真实问题顺序，理解任务、语料与标注、语义与向量表示、事实性、评测与责任之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:supervised-ml-text"
+      ],
+      "claims_used": [
+        "以完整建模流程处理文本特征、重采样、评价、解释与部署前诊断。",
+        "本书覆盖任务、语料与标注、语义与向量表示、事实性、评测与责任，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/foundations-llm",
+      "learning_job": "沿《Foundations of Large Language Models》的真实问题顺序，理解编码器、解码器与 Transformer、预训练、提示与适配、生成、对话、翻译与摘要、事实性、评测与责任之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:foundations-llm"
+      ],
+      "claims_used": [
+        "补齐大模型预训练、适配、使用与评测的近年知识。",
+        "本书覆盖编码器、解码器与 Transformer、预训练、提示与适配、生成、对话、翻译与摘要、事实性、评测与责任，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/niutrans-nlp",
+      "learning_job": "沿《自然语言处理：神经网络与大语言模型》的真实问题顺序，理解编码器、解码器与 Transformer、预训练、提示与适配、生成、对话、翻译与摘要、多语言与低资源 NLP之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:niutrans-nlp"
+      ],
+      "claims_used": [
+        "中文开放教材，从神经网络基础推进到预训练模型和大语言模型。",
+        "本书覆盖编码器、解码器与 Transformer、预训练、提示与适配、生成、对话、翻译与摘要、多语言与低资源 NLP，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/ai-agent/neural-nlp-primer",
+      "learning_job": "沿《A Primer on Neural Network Models for Natural Language Processing》的真实问题顺序，理解语义与向量表示、编码器、解码器与 Transformer、结构化语言理解之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:neural-nlp-primer"
+      ],
+      "claims_used": [
+        "以 NLP 任务为背景解释前馈、卷积、循环和结构化神经网络。",
+        "本书覆盖语义与向量表示、编码器、解码器与 Transformer、结构化语言理解，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/search-engines",
+      "learning_job": "沿《Search Engines: Information Retrieval in Practice》的真实问题顺序，理解检索、问答与上下文、事实性、评测与责任之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:search-engines"
+      ],
+      "claims_used": [
+        "从抓取、索引、查询处理、排序到检索评价理解搜索系统。",
+        "本书覆盖检索、问答与上下文、事实性、评测与责任，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/mining-massive-datasets",
+      "learning_job": "沿《Mining of Massive Datasets》的真实问题顺序，理解语义与向量表示、检索、问答与上下文之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:mining-massive-datasets"
+      ],
+      "claims_used": [
+        "补足大规模相似度搜索、流处理、推荐和图数据方法。",
+        "本书覆盖语义与向量表示、检索、问答与上下文，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/mt-for-everyone",
+      "learning_job": "沿《Machine Translation for Everyone: Empowering Users in the Age of AI》的真实问题顺序，理解生成、对话、翻译与摘要、多语言与低资源 NLP、事实性、评测与责任之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:mt-for-everyone"
+      ],
+      "claims_used": [
+        "从技术、译者实践、教学与伦理多面理解机器翻译。",
+        "本书覆盖生成、对话、翻译与摘要、多语言与低资源 NLP、事实性、评测与责任，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/unicode-cookbook",
+      "learning_job": "沿《The Unicode Cookbook for Linguists》的真实问题顺序，理解任务、语料与标注、分词、形态与文本表示、多语言与低资源 NLP之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:unicode-cookbook"
+      ],
+      "claims_used": [
+        "解决文字编码、规范化、字体和多语言数据处理中常被忽略的基础问题。",
+        "本书覆盖任务、语料与标注、分词、形态与文本表示、多语言与低资源 NLP，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/multiword-expressions",
+      "learning_job": "沿《Multiword Expressions in NLP: Current Trends and Challenges》的真实问题顺序，理解分词、形态与文本表示、语义与向量表示、结构化语言理解、多语言与低资源 NLP之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:multiword-expressions"
+      ],
+      "claims_used": [
+        "围绕多词表达的识别、表示、资源建设与跨语言难题提供最新专题材料。",
+        "本书覆盖分词、形态与文本表示、语义与向量表示、结构化语言理解、多语言与低资源 NLP，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/referring-expression",
+      "learning_job": "沿《Referring Expression Generation in Context》的真实问题顺序，理解语义与向量表示、生成、对话、翻译与摘要、事实性、评测与责任之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:referring-expression"
+      ],
+      "claims_used": [
+        "用指称表达生成展示语境、篇章、选择策略与自然语言生成评价的联动。",
+        "本书覆盖语义与向量表示、生成、对话、翻译与摘要、事实性、评测与责任，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    },
+    {
+      "lesson": "knowledge-base/reviews/nlp/universal-dependencies",
+      "learning_job": "沿《Universal Dependencies Guidelines》的真实问题顺序，理解任务、语料与标注、分词、形态与文本表示、结构化语言理解、多语言与低资源 NLP之间怎样传递对象、方法与评价条件。",
+      "source_ids": [
+        "book:nlp:universal-dependencies"
+      ],
+      "claims_used": [
+        "以跨语言一致的形态句法标注规范连接语料设计、依存分析和数据质量。",
+        "本书覆盖任务、语料与标注、分词、形态与文本表示、结构化语言理解、多语言与低资源 NLP，综述按这些主题重建学习路线。",
+        "综述只采用开放原文能够支持的定义、机制、案例与边界，不用书名或简介替代正文阅读。"
+      ]
+    }
+  ]
+}

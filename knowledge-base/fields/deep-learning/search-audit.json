@@ -1,0 +1,22 @@
+{
+  "field": "deep-learning",
+  "provider": "Tavily",
+  "checked_at": "2026-09-03",
+  "credential_storage": "API key was supplied at runtime and is not stored in the repository.",
+  "snapshots": [
+    "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/dl-books-1.json",
+    "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/dl-books-2.json",
+    "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/dl-books-3.json",
+    "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/dl-candidate-extract.json",
+    "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-book-source.json",
+    "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-remaining-books-source.json",
+    "knowledge-base/research/tavily/deep-learning-nlp-2026-09-03/deep-learning-book-practice-source.json"
+  ],
+  "excluded_patterns": [
+    "commercial purchase page",
+    "login required",
+    "course-only page",
+    "abstract-only landing page",
+    "failed extraction"
+  ]
+}

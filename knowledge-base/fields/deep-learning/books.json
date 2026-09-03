@@ -1,8 +1,8 @@
 {
   "field": "deep-learning",
   "title": "深度学习",
-  "curated_count": 10,
-  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "curated_count": 18,
+  "methodology": "先按 40 个学习节点反推知识骨架，再通过 Tavily 检索与正文提取核验作者、大学、开放出版社和专业组织的一手全文入口；排除课程、购买页、登录页和只有简介的页面。",
   "records": [
     {
       "id": "book:deep-learning:deep-learning-book",
@@ -17,22 +17,25 @@
       "year": 2016,
       "publisher": "MIT Press",
       "topics": [
-        "neural-networks",
+        "backprop-autodiff",
         "optimization",
-        "generative-models"
+        "generative",
+        "evaluation-safety"
       ],
+      "level": "core",
       "official_url": "https://www.deeplearningbook.org/",
-      "authority_reason": "现代深度学习的经典系统教材，由领域奠基研究者编写。",
+      "authority_reason": "现代深度学习的经典系统教材，以概率、优化、表示学习与生成建模串起全局。",
+      "review_url": "/knowledge-base/reviews/deep-learning/deep-learning-book",
       "access": {
         "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "download_url": "https://www.deeplearningbook.org/",
+        "license": "author-provided",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
       "id": "book:deep-learning:d2l",
@@ -48,26 +51,29 @@
       "year": 2023,
       "publisher": "Cambridge University Press",
       "topics": [
-        "neural-networks",
-        "implementation",
-        "transformers"
+        "backprop-autodiff",
+        "optimization",
+        "vision",
+        "sequence",
+        "generative"
       ],
+      "level": "starter",
       "official_url": "https://d2l.ai/",
-      "authority_reason": "将数学、代码和现代架构结合的开放教材，持续维护且适合动手学习。",
+      "authority_reason": "用可执行代码把数学、模型与训练工程连成一条实践路线。",
+      "review_url": "/knowledge-base/reviews/machine-learning/d2l",
       "access": {
         "status": "open_fulltext",
         "download_url": "https://d2l.ai/d2l-en.pdf",
-        "license": "CC-BY-SA",
+        "license": "CC BY-SA 4.0",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": "2026-08-31T05:05:31.241Z",
-        "download_error": "The operation was aborted due to timeout"
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:deep-learning:understanding-dl",
+      "id": "book:deep-learning:understanding-deep-learning",
       "field": "deep-learning",
       "kind": "book",
       "title": "Understanding Deep Learning",
@@ -77,25 +83,29 @@
       "year": 2023,
       "publisher": "MIT Press",
       "topics": [
-        "foundations",
+        "backprop-autodiff",
         "optimization",
-        "generative-models"
+        "vision",
+        "sequence",
+        "generative"
       ],
+      "level": "core",
       "official_url": "https://udlbook.github.io/udlbook/",
-      "authority_reason": "现代深度学习教材，图示与练习强调从机制建立理解。",
+      "authority_reason": "以现代视角解释神经网络、Transformer、生成模型与训练规律，并提供可复现实验。",
+      "review_url": "/knowledge-base/reviews/ai-agent/understanding-deep-learning",
       "access": {
-        "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "status": "open_fulltext",
+        "download_url": "https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf",
+        "license": "author-provided",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:deep-learning:nndl",
+      "id": "book:deep-learning:neural-networks-deep-learning",
       "field": "deep-learning",
       "kind": "book",
       "title": "Neural Networks and Deep Learning",
@@ -105,25 +115,26 @@
       "year": 2015,
       "publisher": "Determination Press",
       "topics": [
-        "neural-networks",
-        "backpropagation",
+        "backprop-autodiff",
         "optimization"
       ],
-      "official_url": "http://neuralnetworksanddeeplearning.com/",
-      "authority_reason": "以直觉和推导讲解神经网络、反向传播与正则化的开放在线教材。",
+      "level": "starter",
+      "official_url": "https://neuralnetworksanddeeplearning.com/",
+      "authority_reason": "从手写数字、反向传播和正则化出发，适合第一次建立神经网络直觉。",
+      "review_url": "/knowledge-base/reviews/deep-learning/neural-networks-deep-learning",
       "access": {
         "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "download_url": "https://neuralnetworksanddeeplearning.com/",
+        "license": "CC BY-NC 3.0",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:deep-learning:geometric-dl",
+      "id": "book:deep-learning:geometric-deep-learning",
       "field": "deep-learning",
       "kind": "book",
       "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
@@ -136,22 +147,23 @@
       "year": 2021,
       "publisher": "authors",
       "topics": [
-        "geometric-learning",
-        "graphs",
-        "symmetry"
+        "vision",
+        "multimodal-world"
       ],
+      "level": "advanced",
       "official_url": "https://geometricdeeplearning.com/book",
-      "authority_reason": "几何深度学习统一视角的权威开放在线专著，由该方向核心研究者编写。",
+      "authority_reason": "用对称性和几何结构统一 CNN、图神经网络与等变模型。",
+      "review_url": "/knowledge-base/reviews/ai-agent/geometric-deep-learning",
       "access": {
         "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "download_url": "https://geometricdeeplearning.com/book",
+        "license": "author-provided",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
       "id": "book:deep-learning:probml-intro",
@@ -164,22 +176,24 @@
       "year": 2022,
       "publisher": "MIT Press",
       "topics": [
-        "probabilistic-modeling",
-        "deep-learning",
-        "uncertainty"
+        "backprop-autodiff",
+        "optimization",
+        "generative"
       ],
+      "level": "core",
       "official_url": "https://probml.github.io/pml-book/book1.html",
-      "authority_reason": "用概率视角连接经典机器学习与现代神经网络。",
+      "authority_reason": "补足概率建模、决策、潜变量与深度生成模型所需的统一底座。",
+      "review_url": "/knowledge-base/reviews/machine-learning/probml-intro",
       "access": {
-        "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "status": "open_fulltext",
+        "download_url": "https://github.com/probml/pml-book/releases/latest/download/book1.pdf",
+        "license": "author-provided",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
       "id": "book:deep-learning:probml-advanced",
@@ -192,25 +206,27 @@
       "year": 2023,
       "publisher": "MIT Press",
       "topics": [
-        "generative-models",
-        "latent-variables",
-        "causal-models"
+        "generative",
+        "multimodal-world",
+        "evaluation-safety"
       ],
+      "level": "advanced",
       "official_url": "https://probml.github.io/pml-book/book2.html",
-      "authority_reason": "覆盖变分推断、生成模型和高级概率方法的现代进阶教材。",
+      "authority_reason": "覆盖高级推断、深度生成模型、不确定性、因果与序列决策。",
+      "review_url": "/knowledge-base/reviews/machine-learning/probml-advanced",
       "access": {
-        "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "status": "open_fulltext",
+        "download_url": "https://github.com/probml/pml2-book/releases/latest/download/book2.pdf",
+        "license": "author-provided",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:deep-learning:mathematics-for-ml",
+      "id": "book:deep-learning:mathematics-ml",
       "field": "deep-learning",
       "kind": "book",
       "title": "Mathematics for Machine Learning",
@@ -222,23 +238,23 @@
       "year": 2020,
       "publisher": "Cambridge University Press",
       "topics": [
-        "linear-algebra",
-        "calculus",
-        "probability"
+        "backprop-autodiff",
+        "optimization"
       ],
+      "level": "starter",
       "official_url": "https://mml-book.github.io/",
-      "authority_reason": "深度学习所需线性代数、微积分和概率的可靠前置。",
+      "authority_reason": "按机器学习用途组织线性代数、微积分、概率与优化，承担数学补给任务。",
+      "review_url": "/knowledge-base/reviews/machine-learning/mathematics-ml",
       "access": {
         "status": "open_fulltext",
         "download_url": "https://mml-book.github.io/book/mml-book.pdf",
-        "license": "CC-BY-NC-SA",
+        "license": "CC BY-NC-SA 4.0",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": "2026-08-31T05:06:31.254Z",
-        "download_error": "The operation was aborted due to timeout"
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
       "id": "book:deep-learning:slp3",
@@ -252,12 +268,15 @@
       "year": 2026,
       "publisher": "authors",
       "topics": [
-        "transformers",
-        "language-models",
-        "speech"
+        "sequence",
+        "scaling-data",
+        "post-training",
+        "evaluation-safety"
       ],
+      "level": "core",
       "official_url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "authority_reason": "NLP 与语言模型课程的权威持续更新教材，覆盖 Transformer 和大模型。",
+      "authority_reason": "从语言模型、Transformer 与后训练理解深度学习在语言系统中的落地。",
+      "review_url": "/knowledge-base/reviews/nlp/slp3",
       "access": {
         "status": "open_fulltext",
         "download_url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
@@ -265,39 +284,289 @@
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": "2026-08-31T05:07:31.262Z",
-        "download_error": "The operation was aborted due to timeout"
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:deep-learning:generative-dl",
+      "id": "book:deep-learning:little-book-deep-learning",
       "field": "deep-learning",
       "kind": "book",
-      "title": "Generative Deep Learning (2nd ed.)",
+      "title": "The Little Book of Deep Learning",
       "authors": [
-        "David Foster"
+        "François Fleuret"
       ],
       "year": 2023,
-      "publisher": "O'Reilly",
+      "publisher": "author",
       "topics": [
-        "generative-models",
-        "vae",
-        "gan",
-        "diffusion"
+        "backprop-autodiff",
+        "optimization",
+        "vision",
+        "sequence"
       ],
-      "official_url": "https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/",
-      "authority_reason": "面向实践系统梳理主要深度生成模型的专业教材。",
+      "level": "core",
+      "official_url": "https://fleuret.org/public/lbdl.pdf",
+      "authority_reason": "用紧凑篇幅建立从张量运算到注意力模型的形式化骨架。",
+      "review_url": "/knowledge-base/reviews/ai-agent/little-book-deep-learning",
       "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
+        "status": "open_fulltext",
+        "download_url": "https://fleuret.org/public/lbdl.pdf",
+        "license": "author-provided",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:principles-dl-theory",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "The Principles of Deep Learning Theory",
+      "authors": [
+        "Daniel A. Roberts",
+        "Sho Yaida",
+        "Boris Hanin"
+      ],
+      "year": 2022,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "optimization",
+        "scaling-data",
+        "evaluation-safety"
+      ],
+      "level": "advanced",
+      "official_url": "https://deeplearningtheory.com/",
+      "authority_reason": "从无限宽极限、核、有效理论与尺度理解深度网络的统计规律。",
+      "review_url": "/knowledge-base/reviews/deep-learning/principles-dl-theory",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://deeplearningtheory.com/",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:mathematical-engineering-dl",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "The Mathematical Engineering of Deep Learning",
+      "authors": [
+        "Benoit Liquet",
+        "Sarat Moka",
+        "Yoni Nazarathy"
+      ],
+      "year": 2024,
+      "publisher": "authors",
+      "topics": [
+        "backprop-autodiff",
+        "optimization",
+        "vision",
+        "sequence",
+        "generative"
+      ],
+      "level": "core",
+      "official_url": "https://deeplearningmath.org/",
+      "authority_reason": "在数学推导和工程实现之间建立桥梁，覆盖 Transformer、扩散、强化学习与图网络。",
+      "review_url": "/knowledge-base/reviews/deep-learning/mathematical-engineering-dl",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://deeplearningmath.org/",
+        "license": "open-online",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:physics-based-dl",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Physics-based Deep Learning",
+      "authors": [
+        "Nils Thuerey 等"
+      ],
+      "year": 2026,
+      "publisher": "authors",
+      "topics": [
+        "generative",
+        "multimodal-world"
+      ],
+      "level": "advanced",
+      "official_url": "https://physicsbaseddeeplearning.org/intro.html",
+      "authority_reason": "讲解数据驱动、可微物理、神经算子与生成方法怎样嵌入物理系统。",
+      "review_url": "/knowledge-base/reviews/deep-learning/physics-based-dl",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://physicsbaseddeeplearning.org/intro.html",
+        "license": "open-online",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:ml-systems",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Machine Learning Systems",
+      "authors": [
+        "Vijay Janapa Reddi 等"
+      ],
+      "year": 2026,
+      "publisher": "Harvard Edge / MIT Press",
+      "topics": [
+        "scaling-data",
+        "efficient-inference",
+        "evaluation-safety"
+      ],
+      "level": "core",
+      "official_url": "https://www.mlsysbook.ai/",
+      "authority_reason": "把数据、训练、硬件、服务、监控与负责任部署作为完整系统讲解。",
+      "review_url": "/knowledge-base/reviews/ai-product/ml-systems",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://www.mlsysbook.ai/",
+        "license": "open-online",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:tuning-playbook",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Deep Learning Tuning Playbook",
+      "authors": [
+        "Google Research"
+      ],
+      "year": 2023,
+      "publisher": "Google Research",
+      "topics": [
+        "optimization",
+        "scaling-data",
+        "efficient-inference"
+      ],
+      "level": "core",
+      "official_url": "https://github.com/google-research/tuning_playbook",
+      "authority_reason": "用可复核实验流程处理基线、批量大小、优化器、学习率和训练预算。",
+      "review_url": "/knowledge-base/reviews/deep-learning/tuning-playbook",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://github.com/google-research/tuning_playbook",
+        "license": "Apache-2.0",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:foundations-llm",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Foundations of Large Language Models",
+      "authors": [
+        "Tong Xiao",
+        "Yeyun Gong 等"
+      ],
+      "year": 2025,
+      "publisher": "authors",
+      "topics": [
+        "sequence",
+        "scaling-data",
+        "post-training",
+        "evaluation-safety"
+      ],
+      "level": "advanced",
+      "official_url": "https://arxiv.org/abs/2501.09223",
+      "authority_reason": "系统连接语言模型架构、预训练、适配、使用与评测，是近年大模型部分的更新底本。",
+      "review_url": "/knowledge-base/reviews/ai-agent/foundations-llm",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/2501.09223",
+        "license": "arXiv",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:deep-learning-theory",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Deep Learning Theory",
+      "authors": [
+        "Matus Telgarsky"
+      ],
+      "year": 2021,
+      "publisher": "University of Illinois",
+      "topics": [
+        "optimization",
+        "scaling-data",
+        "evaluation-safety"
+      ],
+      "level": "advanced",
+      "official_url": "https://mjt.cs.illinois.edu/dlt/",
+      "authority_reason": "围绕表达能力、优化和泛化建立理论框架，同时标出经典解释的适用边界。",
+      "review_url": "/knowledge-base/reviews/deep-learning/deep-learning-theory",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://mjt.cs.illinois.edu/dlt/index.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:deep-learning:fastbook",
+      "field": "deep-learning",
+      "kind": "book",
+      "title": "Deep Learning for Coders with fastai and PyTorch",
+      "authors": [
+        "Jeremy Howard",
+        "Sylvain Gugger"
+      ],
+      "year": 2020,
+      "publisher": "O'Reilly / fast.ai",
+      "topics": [
+        "vision",
+        "sequence",
+        "generative",
+        "efficient-inference"
+      ],
+      "level": "core",
+      "official_url": "https://github.com/fastai/fastbook",
+      "authority_reason": "从可运行任务反推模型原理，强调迁移学习、数据处理、诊断与部署。",
+      "review_url": "/knowledge-base/reviews/deep-learning/fastbook",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://github.com/fastai/fastbook",
+        "license": "Apache-2.0",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
     }
   ]
 }

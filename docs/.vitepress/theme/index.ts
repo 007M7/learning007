@@ -11,6 +11,7 @@ import AgentFrontierMap from "./components/AgentFrontierMap.vue";
 import FieldMap from "./components/FieldMap.vue";
 import KnowledgeFlow from "./components/KnowledgeFlow.vue";
 import ResourceLibrary from "./components/ResourceLibrary.vue";
+import SiteKnowledgeGraph from "./components/SiteKnowledgeGraph.vue";
 import "./custom.css";
 
 export default {
@@ -27,5 +28,6 @@ export default {
     app.component("FieldMap", FieldMap);
     app.component("KnowledgeFlow", KnowledgeFlow);
     app.component("ResourceLibrary", ResourceLibrary);
+    app.component("SiteKnowledgeGraph", SiteKnowledgeGraph);
   },
 } satisfies Theme;

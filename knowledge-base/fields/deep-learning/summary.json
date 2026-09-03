@@ -1,48 +1,48 @@
 {
   "field": "deep-learning",
   "title": "深度学习",
-  "updated_at": "2026-08-31",
-  "books": {
-    "total": 10,
-    "downloaded_open_fulltext": 0,
-    "declared_open_fulltext": 3,
-    "official_online": 6,
-    "commercial_metadata_only": 1,
-    "download_failures": 3
+  "snapshot_date": "2026-09-03",
+  "learning_nodes": 40,
+  "books": 18,
+  "papers_total": 160,
+  "papers_open_in_catalog": 150,
+  "papers_since_2023": 56,
+  "topic_counts": {
+    "backprop-autodiff": 19,
+    "optimization": 19,
+    "vision": 19,
+    "sequence": 18,
+    "scaling-data": 19,
+    "post-training": 19,
+    "generative": 18,
+    "multimodal-world": 18,
+    "efficient-inference": 18,
+    "evaluation-safety": 18
   },
-  "papers": {
-    "total": 120,
-    "open_access": 117,
-    "since_2023": 56,
-    "snapshot_date": "2026-08-30",
-    "topic_counts": {
-      "backprop-autodiff": 15,
-      "optimization": 15,
-      "vision": 15,
-      "sequence": 14,
-      "scaling-data": 15,
-      "post-training": 15,
-      "generative": 14,
-      "multimodal-world": 15,
-      "efficient-inference": 15,
-      "evaluation-safety": 15
-    },
-    "top_venues": {
-      "arXiv (Cornell University)": 32,
-      "Nature": 7,
-      "IEEE Access": 5,
-      "Artificial Intelligence Review": 4,
-      "Proceedings of the IEEE": 3,
-      "Journal Of Big Data": 3,
-      "IEEE Transactions on Pattern Analysis and Machine Intelligence": 3,
-      "Information Fusion": 2
-    }
-  },
-  "reading_evidence": {
-    "source_ledger_present": false,
-    "retrieved_or_beyond": 0,
-    "read_or_cited": 0,
-    "cited": 0,
-    "source_grounded_lessons": 0
+  "reviews": [
+    "/knowledge-base/reviews/deep-learning/deep-learning-book",
+    "/knowledge-base/reviews/machine-learning/d2l",
+    "/knowledge-base/reviews/ai-agent/understanding-deep-learning",
+    "/knowledge-base/reviews/deep-learning/neural-networks-deep-learning",
+    "/knowledge-base/reviews/ai-agent/geometric-deep-learning",
+    "/knowledge-base/reviews/machine-learning/probml-intro",
+    "/knowledge-base/reviews/machine-learning/probml-advanced",
+    "/knowledge-base/reviews/machine-learning/mathematics-ml",
+    "/knowledge-base/reviews/nlp/slp3",
+    "/knowledge-base/reviews/ai-agent/little-book-deep-learning",
+    "/knowledge-base/reviews/deep-learning/principles-dl-theory",
+    "/knowledge-base/reviews/deep-learning/mathematical-engineering-dl",
+    "/knowledge-base/reviews/deep-learning/physics-based-dl",
+    "/knowledge-base/reviews/ai-product/ml-systems",
+    "/knowledge-base/reviews/deep-learning/tuning-playbook",
+    "/knowledge-base/reviews/ai-agent/foundations-llm",
+    "/knowledge-base/reviews/deep-learning/deep-learning-theory",
+    "/knowledge-base/reviews/deep-learning/fastbook"
+  ],
+  "acceptance": {
+    "books_minimum": 15,
+    "papers_minimum": 150,
+    "books_pass": true,
+    "papers_pass": true
   }
 }

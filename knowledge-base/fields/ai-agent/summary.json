@@ -1,0 +1,48 @@
+{
+  "field": "ai-agent",
+  "title": "AI 应用与 Agent",
+  "updated_at": "2026-09-02",
+  "evidence_cutoff": "2026-09-01",
+  "curriculum_coverage": {
+    "navigation_units": 47,
+    "actual_node_ids": 67,
+    "formal": 19,
+    "advanced": 18,
+    "frontier": 30
+  },
+  "books": {
+    "total": 44,
+    "open_fulltext": 44,
+    "current_or_living": 9
+  },
+  "papers": {
+    "total": 320,
+    "open_access": 320,
+    "since_2023": 278,
+    "since_2025": 147,
+    "topic_counts": {
+      "formal-models": 27,
+      "formal-context": 22,
+      "formal-retrieval": 20,
+      "formal-tools": 17,
+      "formal-runtime": 23,
+      "formal-eval-safety": 25,
+      "advanced-math": 25,
+      "advanced-training": 26,
+      "advanced-posttraining": 28,
+      "advanced-inference": 23,
+      "advanced-rag": 21,
+      "advanced-multiagent": 17,
+      "frontier-paradigm": 20,
+      "frontier-tools-memory": 18,
+      "frontier-computer-coding": 23,
+      "frontier-research-learning": 17,
+      "frontier-eval-safety": 25
+    }
+  },
+  "source_audit": {
+    "tavily_used": true,
+    "deep_research_request_id": "41404b17-b74f-4a28-a8e6-17db4981190a",
+    "rule": "Tavily 发现候选；作者、大学、开放出版社、arXiv API 与目录结构完成最终核验。"
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "field": "software",
+  "title": "软件与系统工程",
+  "curated_count": 18,
+  "methodology": "Tavily 检索、正文抽取、官方来源复核与逐书中文综述",
+  "records": [
+    {
+      "id": "book:software:software-foundations",
+      "field": "software",
+      "kind": "book",
+      "title": "Software Foundations, Logical Foundations",
+      "authors": [
+        "Benjamin C. Pierce 等 / University of Pennsylvania"
+      ],
+      "year": "持续更新",
+      "publisher": "Benjamin C. Pierce 等 / University of Pennsylvania",
+      "topics": [
+        "programming-foundations",
+        "testing-verification"
+      ],
+      "official_url": "https://softwarefoundations.cis.upenn.edu/lf-current/index.html",
+      "review_url": "/knowledge-base/reviews/software/software-foundations",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用 Coq 把函数式程序、归纳定义、证明与程序正确性连成一条可执行路线。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://softwarefoundations.cis.upenn.edu/lf-current/index.html",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:crafting-interpreters",
+      "field": "software",
+      "kind": "book",
+      "title": "Crafting Interpreters",
+      "authors": [
+        "Robert Nystrom"
+      ],
+      "year": "2021",
+      "publisher": "Robert Nystrom",
+      "topics": [
+        "language-runtime",
+        "design-architecture"
+      ],
+      "official_url": "https://craftinginterpreters.com/contents.html",
+      "review_url": "/knowledge-base/reviews/software/crafting-interpreters",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "亲手实现树遍历解释器和字节码虚拟机，理解语言实现中的扫描、解析、作用域、对象与 GC。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://craftinginterpreters.com/contents.html",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:rust-book",
+      "field": "software",
+      "kind": "book",
+      "title": "The Rust Programming Language",
+      "authors": [
+        "Steve Klabnik",
+        "Carol Nichols / Rust Project"
+      ],
+      "year": "持续更新",
+      "publisher": "Steve Klabnik、Carol Nichols / Rust Project",
+      "topics": [
+        "programming-foundations",
+        "language-runtime",
+        "os-concurrency"
+      ],
+      "official_url": "https://doc.rust-lang.org/book/",
+      "review_url": "/knowledge-base/reviews/software/rust-book",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "通过所有权、借用、类型与并发建立内存安全和接口设计的工程直觉。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://doc.rust-lang.org/book/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:ostep",
+      "field": "software",
+      "kind": "book",
+      "title": "Operating Systems: Three Easy Pieces",
+      "authors": [
+        "Remzi H. Arpaci-Dusseau",
+        "Andrea C. Arpaci-Dusseau"
+      ],
+      "year": "持续更新",
+      "publisher": "Remzi H. Arpaci-Dusseau、Andrea C. Arpaci-Dusseau",
+      "topics": [
+        "os-concurrency",
+        "performance-observability"
+      ],
+      "official_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "review_url": "/knowledge-base/reviews/software/ostep",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "沿虚拟化、并发与持久化三条主线理解操作系统机制、策略和测量方法。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:dive-into-systems",
+      "field": "software",
+      "kind": "book",
+      "title": "Dive into Systems",
+      "authors": [
+        "Suzanne J. Matthews",
+        "Tia Newhall",
+        "Kevin C. Webb"
+      ],
+      "year": "2022",
+      "publisher": "Suzanne J. Matthews、Tia Newhall、Kevin C. Webb",
+      "topics": [
+        "programming-foundations",
+        "language-runtime",
+        "os-concurrency"
+      ],
+      "official_url": "https://diveintosystems.org/",
+      "review_url": "/knowledge-base/reviews/software/dive-into-systems",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从 C、汇编、内存和体系结构进入操作系统、并行计算与网络。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://diveintosystems.org/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:open-data-structures",
+      "field": "software",
+      "kind": "book",
+      "title": "Open Data Structures",
+      "authors": [
+        "Pat Morin"
+      ],
+      "year": "持续更新",
+      "publisher": "Pat Morin",
+      "topics": [
+        "programming-foundations",
+        "performance-observability"
+      ],
+      "official_url": "https://opendatastructures.org/ods-java/",
+      "review_url": "/knowledge-base/reviews/software/open-data-structures",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用实现、证明和复杂度分析连接数组、链表、树、哈希、图与外存结构。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://opendatastructures.org/ods-java/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:algorithms-erickson",
+      "field": "software",
+      "kind": "book",
+      "title": "Algorithms",
+      "authors": [
+        "Jeff Erickson / University of Illinois Urbana-Champaign"
+      ],
+      "year": "2019",
+      "publisher": "Jeff Erickson / University of Illinois Urbana-Champaign",
+      "topics": [
+        "programming-foundations",
+        "performance-observability"
+      ],
+      "official_url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+      "review_url": "/knowledge-base/reviews/software/algorithms-erickson",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "以递归、回溯、动态规划、图算法和复杂性训练算法建模与证明。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:computer-networking",
+      "field": "software",
+      "kind": "book",
+      "title": "Computer Networking: Principles, Protocols and Practice",
+      "authors": [
+        "Olivier Bonaventure"
+      ],
+      "year": "持续更新",
+      "publisher": "Olivier Bonaventure",
+      "topics": [
+        "network-api",
+        "distributed-consensus"
+      ],
+      "official_url": "https://www.computer-networking.info/",
+      "review_url": "/knowledge-base/reviews/software/computer-networking",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从应用层、传输层和网络层理解协议状态、可靠传输、路由与拥塞控制。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.computer-networking.info/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:database-design",
+      "field": "software",
+      "kind": "book",
+      "title": "Database Design, 2nd Edition",
+      "authors": [
+        "Adrienne Watt / BCcampus"
+      ],
+      "year": "2014",
+      "publisher": "Adrienne Watt / BCcampus",
+      "topics": [
+        "database-transaction",
+        "design-architecture"
+      ],
+      "official_url": "https://opentextbc.ca/dbdesign01/",
+      "review_url": "/knowledge-base/reviews/software/database-design",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从关系模型、规范化、SQL、事务和数据库生命周期建立数据设计基础。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://opentextbc.ca/dbdesign01/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:distributed-systems",
+      "field": "software",
+      "kind": "book",
+      "title": "Distributed Systems, 4th Edition",
+      "authors": [
+        "Maarten van Steen",
+        "Andrew S. Tanenbaum"
+      ],
+      "year": "2023",
+      "publisher": "Maarten van Steen、Andrew S. Tanenbaum",
+      "topics": [
+        "distributed-consensus",
+        "storage-streaming",
+        "reliability-security"
+      ],
+      "official_url": "https://www.distributed-systems.net/index.php/books/ds4/",
+      "review_url": "/knowledge-base/reviews/software/distributed-systems",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "系统讲解通信、协调、复制、容错、安全和分布式系统设计。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.distributed-systems.net/index.php/books/ds4/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:distributed-algorithms",
+      "field": "software",
+      "kind": "book",
+      "title": "Distributed Algorithms 2020",
+      "authors": [
+        "Jukka Suomela / Aalto University"
+      ],
+      "year": "2020",
+      "publisher": "Jukka Suomela / Aalto University",
+      "topics": [
+        "distributed-consensus",
+        "testing-verification"
+      ],
+      "official_url": "https://jukkasuomela.fi/da2020/",
+      "review_url": "/knowledge-base/reviews/software/distributed-algorithms",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从局部算法、图问题和同步模型进入分布式计算的可解性与复杂度。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://jukkasuomela.fi/da2020/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:aosa",
+      "field": "software",
+      "kind": "book",
+      "title": "The Architecture of Open Source Applications",
+      "authors": [
+        "Amy Brown",
+        "Greg Wilson 编"
+      ],
+      "year": "2011",
+      "publisher": "Amy Brown、Greg Wilson 编",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://aosabook.org/en/",
+      "review_url": "/knowledge-base/reviews/software/aosa",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "通过真实开源系统解释架构决定怎样受到历史、约束、团队和演进影响。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://aosabook.org/en/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:aosa-500-lines",
+      "field": "software",
+      "kind": "book",
+      "title": "500 Lines or Less",
+      "authors": [
+        "Amy Brown",
+        "Michael DiBernardo 编"
+      ],
+      "year": "2016",
+      "publisher": "Amy Brown、Michael DiBernardo 编",
+      "topics": [
+        "design-architecture",
+        "language-runtime"
+      ],
+      "official_url": "https://aosabook.org/en/500L/",
+      "review_url": "/knowledge-base/reviews/software/aosa-500-lines",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用小型完整系统展示数据库、Web、虚拟机、图形和分布式工具的核心结构。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://aosabook.org/en/500L/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:google-sre",
+      "field": "software",
+      "kind": "book",
+      "title": "Site Reliability Engineering",
+      "authors": [
+        "Betsy Beyer 等 / Google"
+      ],
+      "year": "2016",
+      "publisher": "Betsy Beyer 等 / Google",
+      "topics": [
+        "reliability-security",
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://sre.google/sre-book/table-of-contents/",
+      "review_url": "/knowledge-base/reviews/software/google-sre",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用 SLO、错误预算、容量、自动化和事故响应解释大规模服务怎样保持可靠。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sre.google/sre-book/table-of-contents/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:sre-workbook",
+      "field": "software",
+      "kind": "book",
+      "title": "The Site Reliability Workbook",
+      "authors": [
+        "Betsy Beyer 等 / Google"
+      ],
+      "year": "2018",
+      "publisher": "Betsy Beyer 等 / Google",
+      "topics": [
+        "reliability-security",
+        "performance-observability"
+      ],
+      "official_url": "https://sre.google/workbook/table-of-contents/",
+      "review_url": "/knowledge-base/reviews/software/sre-workbook",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把 SRE 原则变成可执行的 SLO、监控、告警、应急与组织实践。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sre.google/workbook/table-of-contents/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:secure-reliable-systems",
+      "field": "software",
+      "kind": "book",
+      "title": "Building Secure and Reliable Systems",
+      "authors": [
+        "Heather Adkins 等 / Google"
+      ],
+      "year": "2020",
+      "publisher": "Heather Adkins 等 / Google",
+      "topics": [
+        "reliability-security",
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+      "review_url": "/knowledge-base/reviews/software/secure-reliable-systems",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把安全与可靠性共同放进设计、实现、部署、响应和恢复过程。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:pro-git",
+      "field": "software",
+      "kind": "book",
+      "title": "Pro Git, 2nd Edition",
+      "authors": [
+        "Scott Chacon",
+        "Ben Straub"
+      ],
+      "year": "持续更新",
+      "publisher": "Scott Chacon、Ben Straub",
+      "topics": [
+        "programming-foundations",
+        "evolution-organization"
+      ],
+      "official_url": "https://git-scm.com/book/en/v2",
+      "review_url": "/knowledge-base/reviews/software/pro-git",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从对象模型、分支、协作流程和服务端机制理解 Git，不把版本控制缩成命令表。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://git-scm.com/book/en/v2",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:software:swebok-v4",
+      "field": "software",
+      "kind": "book",
+      "title": "Guide to the Software Engineering Body of Knowledge, Version 4.0",
+      "authors": [
+        "IEEE Computer Society"
+      ],
+      "year": "2024",
+      "publisher": "IEEE Computer Society",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.computer.org/education/bodies-of-knowledge/software-engineering",
+      "review_url": "/knowledge-base/reviews/software/swebok-v4",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用知识领域地图连接需求、设计、构造、测试、运维、过程、质量和工程管理。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.computer.org/education/bodies-of-knowledge/software-engineering",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    }
+  ]
+}

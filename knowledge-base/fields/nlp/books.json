@@ -1,8 +1,8 @@
 {
   "field": "nlp",
   "title": "自然语言处理（NLP）",
-  "curated_count": 10,
-  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "curated_count": 15,
+  "methodology": "先按 40 个学习节点反推知识骨架，再通过 Tavily 检索与正文提取核验作者、大学、开放出版社和专业组织的一手全文入口；排除课程、购买页、登录页和只有简介的页面。",
   "records": [
     {
       "id": "book:nlp:slp3",
@@ -16,12 +16,21 @@
       "year": 2026,
       "publisher": "authors",
       "topics": [
-        "nlp-foundations",
-        "language-models",
-        "speech"
+        "tasks-corpora",
+        "tokenization",
+        "semantics-embeddings",
+        "encoders-decoders",
+        "pretraining-adaptation",
+        "structured-language",
+        "generation",
+        "multilingual",
+        "retrieval-context",
+        "factuality-evaluation"
       ],
+      "level": "core",
       "official_url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "authority_reason": "NLP 领域最广泛采用的综合教材之一，第三版持续更新现代语言模型内容。",
+      "authority_reason": "覆盖现代 NLP 全链路的主教材，以语言模型、Transformer、任务系统和责任边界连接 40 个学习节点。",
+      "review_url": "/knowledge-base/reviews/nlp/slp3",
       "access": {
         "status": "open_fulltext",
         "download_url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_aug26.pdf",
@@ -29,10 +38,9 @@
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": "2026-08-31T05:08:31.282Z",
-        "download_error": "The operation was aborted due to timeout"
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
       "id": "book:nlp:nltk-book",
@@ -45,24 +53,26 @@
         "Edward Loper"
       ],
       "year": 2009,
-      "publisher": "O'Reilly",
+      "publisher": "O'Reilly / NLTK",
       "topics": [
-        "nlp-foundations",
-        "corpora",
-        "annotation"
+        "tasks-corpora",
+        "tokenization",
+        "structured-language"
       ],
+      "level": "starter",
       "official_url": "https://www.nltk.org/book/",
-      "authority_reason": "NLTK 官方教材，长期用于 NLP 入门与语料实践。",
+      "authority_reason": "用公开语料和代码建立文本处理、分类、标注、解析与语义实践基础。",
+      "review_url": "/knowledge-base/reviews/ai-agent/nltk-book",
       "access": {
         "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "download_url": "https://www.nltk.org/book/",
+        "license": "CC BY-NC-ND 3.0",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
       "id": "book:nlp:ir-book",
@@ -77,12 +87,14 @@
       "year": 2008,
       "publisher": "Cambridge University Press",
       "topics": [
-        "information-retrieval",
-        "ranking",
-        "evaluation"
+        "semantics-embeddings",
+        "retrieval-context",
+        "factuality-evaluation"
       ],
+      "level": "core",
       "official_url": "https://nlp.stanford.edu/IR-book/",
-      "authority_reason": "信息检索领域经典教材，是理解搜索与 RAG 的重要基础。",
+      "authority_reason": "建立索引、排序、评价、分类与检索系统的稳定理论骨架。",
+      "review_url": "/knowledge-base/reviews/ai-agent/ir-book",
       "access": {
         "status": "open_fulltext",
         "download_url": "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf",
@@ -90,100 +102,12 @@
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": "2026-08-31T05:09:31.296Z",
-        "download_error": "The operation was aborted due to timeout"
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:nlp:fsnlp",
-      "field": "nlp",
-      "kind": "book",
-      "title": "Foundations of Statistical Natural Language Processing",
-      "authors": [
-        "Christopher D. Manning",
-        "Hinrich Schütze"
-      ],
-      "year": 1999,
-      "publisher": "MIT Press",
-      "topics": [
-        "statistical-nlp",
-        "language-modeling",
-        "parsing"
-      ],
-      "official_url": "https://nlp.stanford.edu/fsnlp/",
-      "authority_reason": "统计 NLP 奠基教材，对概率语言建模与经典方法影响深远。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:nlp:nn-methods",
-      "field": "nlp",
-      "kind": "book",
-      "title": "Neural Network Methods for Natural Language Processing",
-      "authors": [
-        "Yoav Goldberg"
-      ],
-      "year": 2017,
-      "publisher": "Morgan & Claypool",
-      "topics": [
-        "neural-nlp",
-        "embeddings",
-        "sequence-models"
-      ],
-      "official_url": "https://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037",
-      "authority_reason": "由重要 NLP 研究者编写，系统连接表示学习与神经 NLP。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:nlp:nlp-transformers",
-      "field": "nlp",
-      "kind": "book",
-      "title": "Natural Language Processing with Transformers",
-      "authors": [
-        "Lewis Tunstall",
-        "Leandro von Werra",
-        "Thomas Wolf"
-      ],
-      "year": 2022,
-      "publisher": "O'Reilly",
-      "topics": [
-        "transformers",
-        "hugging-face",
-        "fine-tuning"
-      ],
-      "official_url": "https://www.oreilly.com/library/view/natural-language-processing/9781098136789/",
-      "authority_reason": "由 Hugging Face 核心成员编写的现代 Transformer 实践教材。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:nlp:text-mining-r",
+      "id": "book:nlp:tidy-text-mining",
       "field": "nlp",
       "kind": "book",
       "title": "Text Mining with R",
@@ -194,107 +118,364 @@
       "year": 2017,
       "publisher": "O'Reilly",
       "topics": [
-        "text-mining",
-        "statistics",
-        "visualization"
+        "tasks-corpora",
+        "tokenization",
+        "semantics-embeddings"
       ],
+      "level": "core",
       "official_url": "https://www.tidytextmining.com/",
-      "authority_reason": "开放在线文本挖掘教材，强调可复现数据分析。",
+      "authority_reason": "用 tidy data 视角组织分词、情感、TF-IDF、主题模型和文本统计。",
+      "review_url": "/knowledge-base/reviews/nlp/tidy-text-mining",
       "access": {
         "status": "official_online",
-        "download_url": null,
-        "license": null,
+        "download_url": "https://www.tidytextmining.com/",
+        "license": "CC BY-NC-SA 3.0",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:nlp:annotation-ml",
+      "id": "book:nlp:supervised-ml-text",
       "field": "nlp",
       "kind": "book",
-      "title": "Natural Language Annotation for Machine Learning",
+      "title": "Supervised Machine Learning for Text Analysis in R",
       "authors": [
-        "James Pustejovsky",
-        "Amber Stubbs"
+        "Emil Hvitfeldt",
+        "Julia Silge"
       ],
-      "year": 2012,
-      "publisher": "O'Reilly",
+      "year": 2021,
+      "publisher": "CRC Press",
       "topics": [
-        "annotation",
-        "corpora",
-        "task-design"
+        "tasks-corpora",
+        "semantics-embeddings",
+        "factuality-evaluation"
       ],
-      "official_url": "https://www.oreilly.com/library/view/natural-language-annotation/9781449332693/",
-      "authority_reason": "系统讲解语言数据标注、标签体系与质量控制。",
+      "level": "core",
+      "official_url": "https://smltar.com/",
+      "authority_reason": "以完整建模流程处理文本特征、重采样、评价、解释与部署前诊断。",
+      "review_url": "/knowledge-base/reviews/nlp/supervised-ml-text",
       "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
+        "status": "official_online",
+        "download_url": "https://smltar.com/",
+        "license": "CC BY-NC-SA 4.0",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:nlp:linguistic-fundamentals-1",
+      "id": "book:nlp:foundations-llm",
       "field": "nlp",
       "kind": "book",
-      "title": "Linguistic Fundamentals for Natural Language Processing: 100 Essentials from Morphology and Syntax",
+      "title": "Foundations of Large Language Models",
       "authors": [
-        "Emily M. Bender"
+        "Tong Xiao",
+        "Yeyun Gong 等"
       ],
-      "year": 2013,
-      "publisher": "Morgan & Claypool",
+      "year": 2025,
+      "publisher": "authors",
       "topics": [
-        "linguistics",
-        "morphology",
-        "syntax"
+        "encoders-decoders",
+        "pretraining-adaptation",
+        "generation",
+        "factuality-evaluation"
       ],
-      "official_url": "https://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020",
-      "authority_reason": "为 NLP 工程师补足形态与句法基础的专业教材。",
+      "level": "advanced",
+      "official_url": "https://arxiv.org/abs/2501.09223",
+      "authority_reason": "补齐大模型预训练、适配、使用与评测的近年知识。",
+      "review_url": "/knowledge-base/reviews/ai-agent/foundations-llm",
       "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/2501.09223",
+        "license": "arXiv",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
     },
     {
-      "id": "book:nlp:ethics-nlp",
+      "id": "book:nlp:niutrans-nlp",
       "field": "nlp",
       "kind": "book",
-      "title": "Ethics in Natural Language Processing",
+      "title": "自然语言处理：神经网络与大语言模型",
       "authors": [
-        "Dirk Hovy"
+        "NiuTrans 团队"
+      ],
+      "year": 2024,
+      "publisher": "NiuTrans",
+      "topics": [
+        "encoders-decoders",
+        "pretraining-adaptation",
+        "generation",
+        "multilingual"
+      ],
+      "level": "core",
+      "official_url": "https://github.com/NiuTrans/NLPBook",
+      "authority_reason": "中文开放教材，从神经网络基础推进到预训练模型和大语言模型。",
+      "review_url": "/knowledge-base/reviews/ai-agent/niutrans-nlp",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/NiuTrans/NLPBook/main/nlp-book.pdf",
+        "license": "repository-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:neural-nlp-primer",
+      "field": "nlp",
+      "kind": "book",
+      "title": "A Primer on Neural Network Models for Natural Language Processing",
+      "authors": [
+        "Yoav Goldberg"
+      ],
+      "year": 2016,
+      "publisher": "JAIR",
+      "topics": [
+        "semantics-embeddings",
+        "encoders-decoders",
+        "structured-language"
+      ],
+      "level": "core",
+      "official_url": "https://arxiv.org/abs/1510.00726",
+      "authority_reason": "以 NLP 任务为背景解释前馈、卷积、循环和结构化神经网络。",
+      "review_url": "/knowledge-base/reviews/ai-agent/neural-nlp-primer",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/1510.00726",
+        "license": "arXiv",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:search-engines",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Search Engines: Information Retrieval in Practice",
+      "authors": [
+        "W. Bruce Croft",
+        "Donald Metzler",
+        "Trevor Strohman"
+      ],
+      "year": 2015,
+      "publisher": "University of Massachusetts Amherst",
+      "topics": [
+        "retrieval-context",
+        "factuality-evaluation"
+      ],
+      "level": "core",
+      "official_url": "https://ciir.cs.umass.edu/downloads/SEIRiP.pdf",
+      "authority_reason": "从抓取、索引、查询处理、排序到检索评价理解搜索系统。",
+      "review_url": "/knowledge-base/reviews/nlp/search-engines",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://ciir.cs.umass.edu/downloads/SEIRiP.pdf",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:mining-massive-datasets",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Mining of Massive Datasets",
+      "authors": [
+        "Jure Leskovec",
+        "Anand Rajaraman",
+        "Jeffrey D. Ullman"
+      ],
+      "year": 2020,
+      "publisher": "Cambridge University Press",
+      "topics": [
+        "semantics-embeddings",
+        "retrieval-context"
+      ],
+      "level": "advanced",
+      "official_url": "https://www.mmds.org/",
+      "authority_reason": "补足大规模相似度搜索、流处理、推荐和图数据方法。",
+      "review_url": "/knowledge-base/reviews/nlp/mining-massive-datasets",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://www.mmds.org/",
+        "license": "author-provided",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:mt-for-everyone",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Machine Translation for Everyone: Empowering Users in the Age of AI",
+      "authors": [
+        "Dorothy Kenny（编）"
       ],
       "year": 2022,
-      "publisher": "Morgan & Claypool",
+      "publisher": "Language Science Press",
       "topics": [
-        "ethics",
-        "bias",
-        "responsible-nlp"
+        "generation",
+        "multilingual",
+        "factuality-evaluation"
       ],
-      "official_url": "https://www.morganclaypool.com/doi/abs/10.2200/S01183ED1V01Y202208HLT056",
-      "authority_reason": "由计算社会科学与 NLP 研究者编写，专门讨论语言技术的伦理、偏差和社会影响。",
+      "level": "core",
+      "official_url": "https://langsci-press.org/catalog/book/342",
+      "authority_reason": "从技术、译者实践、教学与伦理多面理解机器翻译。",
+      "review_url": "/knowledge-base/reviews/nlp/mt-for-everyone",
       "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
+        "status": "open_fulltext",
+        "download_url": "https://zenodo.org/record/6653406/files/342-Kenny-2022.pdf?download=1",
+        "license": "CC BY 4.0",
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-03"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:unicode-cookbook",
+      "field": "nlp",
+      "kind": "book",
+      "title": "The Unicode Cookbook for Linguists",
+      "authors": [
+        "Steven Moran",
+        "Michael Cysouw"
+      ],
+      "year": 2018,
+      "publisher": "Language Science Press",
+      "topics": [
+        "tasks-corpora",
+        "tokenization",
+        "multilingual"
+      ],
+      "level": "starter",
+      "official_url": "https://langsci-press.org/catalog/book/176",
+      "authority_reason": "解决文字编码、规范化、字体和多语言数据处理中常被忽略的基础问题。",
+      "review_url": "/knowledge-base/reviews/nlp/unicode-cookbook",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://langsci-press.org/catalog/view/176/889/1135-2",
+        "license": "CC BY 4.0",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:multiword-expressions",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Multiword Expressions in NLP: Current Trends and Challenges",
+      "authors": [
+        "Verginica Barbu Mititelu",
+        "Voula Giouli（编）"
+      ],
+      "year": 2026,
+      "publisher": "Language Science Press",
+      "topics": [
+        "tokenization",
+        "semantics-embeddings",
+        "structured-language",
+        "multilingual"
+      ],
+      "level": "advanced",
+      "official_url": "https://langsci-press.org/catalog/book/564",
+      "authority_reason": "围绕多词表达的识别、表示、资源建设与跨语言难题提供最新专题材料。",
+      "review_url": "/knowledge-base/reviews/nlp/multiword-expressions",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://zenodo.org/records/21276755/files/564-MititeluGiouli-2026.pdf?download=1",
+        "license": "CC BY 4.0",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:referring-expression",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Referring Expression Generation in Context",
+      "authors": [
+        "Fahime Same"
+      ],
+      "year": 2024,
+      "publisher": "Language Science Press",
+      "topics": [
+        "semantics-embeddings",
+        "generation",
+        "factuality-evaluation"
+      ],
+      "level": "advanced",
+      "official_url": "https://langsci-press.org/catalog/book/451",
+      "authority_reason": "用指称表达生成展示语境、篇章、选择策略与自然语言生成评价的联动。",
+      "review_url": "/knowledge-base/reviews/nlp/referring-expression",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://zenodo.org/records/11058114/files/451-Same-2024.pdf?download=1",
+        "license": "CC BY 4.0",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:nlp:universal-dependencies",
+      "field": "nlp",
+      "kind": "book",
+      "title": "Universal Dependencies Guidelines",
+      "authors": [
+        "Universal Dependencies 社区"
+      ],
+      "year": "持续更新",
+      "publisher": "Universal Dependencies",
+      "topics": [
+        "tasks-corpora",
+        "tokenization",
+        "structured-language",
+        "multilingual"
+      ],
+      "level": "core",
+      "official_url": "https://universaldependencies.org/guidelines.html",
+      "authority_reason": "以跨语言一致的形态句法标注规范连接语料设计、依存分析和数据质量。",
+      "review_url": "/knowledge-base/reviews/nlp/universal-dependencies",
+      "access": {
+        "status": "official_online",
+        "download_url": "https://universaldependencies.org/guidelines.html",
+        "license": "CC BY-SA 4.0",
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
     }
   ]
 }

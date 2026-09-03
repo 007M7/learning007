@@ -1,0 +1,5319 @@
+{
+  "field": "software",
+  "title": "软件与系统工程",
+  "snapshot_date": "2026-09-03",
+  "provider": "Tavily + Papers We Love + OpenAlex",
+  "selection_method": "先按正式与进阶课程模块建立来源地图，再从主题化论文清单选取直接全文并补齐元数据。",
+  "records": [
+    {
+      "id": "paper:software:8eeca86367ef",
+      "field": "software",
+      "kind": "paper",
+      "title": "Dynamic Hash Tables",
+      "authors": [
+        "Per-Åke Larson"
+      ],
+      "year": "1988",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://www.csd.uoc.gr/~hy460/pdf/Dynamic%20Hash%20Tables.pdf",
+      "cited_by_count_snapshot": 106,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.csd.uoc.gr/~hy460/pdf/Dynamic%20Hash%20Tables.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3b5e931a44bc",
+      "field": "software",
+      "kind": "paper",
+      "title": "Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms",
+      "authors": [
+        "Maged M. Michael",
+        "Michael L. Scott"
+      ],
+      "year": "1996",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf",
+      "cited_by_count_snapshot": 798,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:966ea209e1bf",
+      "field": "software",
+      "kind": "paper",
+      "title": "RRB-Trees: Efﬁcient Immutable Vectors",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://infoscience.epfl.ch/record/169879/files/RMTrees.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://infoscience.epfl.ch/record/169879/files/RMTrees.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3c12b7abf3e5",
+      "field": "software",
+      "kind": "paper",
+      "title": "Hopscotch Hashing",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://mcg.cs.tau.ac.il/papers/disc2008-hopscotch.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://mcg.cs.tau.ac.il/papers/disc2008-hopscotch.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:328d25aeeb76",
+      "field": "software",
+      "kind": "paper",
+      "title": "An Introduction to Bε-trees and Write-Optimization",
+      "authors": [
+        "Michael A. Bender",
+        "Martı́n Farach-Colton",
+        "William Jannen",
+        "Rob Johnson",
+        "Bradley C. Kuszmaul",
+        "Donald E. Porter",
+        "Jun Yuan",
+        "Yang Zhan"
+      ],
+      "year": "2015",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/b-trees-write-optimization.pdf",
+      "cited_by_count_snapshot": 20,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/b-trees-write-optimization.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:332a78db2253",
+      "field": "software",
+      "kind": "paper",
+      "title": "Epidemic Broadcast Trees",
+      "authors": [
+        "João Leitão",
+        "José Pereira",
+        "Luı́s Rodrigues"
+      ],
+      "year": "2007",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/epidemic-broadcast-trees.pdf",
+      "cited_by_count_snapshot": 84,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/epidemic-broadcast-trees.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:0d4183f8526d",
+      "field": "software",
+      "kind": "paper",
+      "title": "Ideal Hash Trees",
+      "authors": [
+        "Phil Bagwell"
+      ],
+      "year": "2001",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/ideal-hash-trees.pdf",
+      "cited_by_count_snapshot": 59,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/ideal-hash-trees.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:685880539f8e",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Least Common Ancestor Problem revisited",
+      "authors": [
+        "Michael A. Bender",
+        "Martı́n Farach-Colton"
+      ],
+      "year": "2000",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/lca-revisited.pdf",
+      "cited_by_count_snapshot": 757,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/lca-revisited.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:138bdb9ecdc4",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Level Ancestor Problem simplifed",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/level-ancestor-simplified.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/level-ancestor-simplified.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:20959994ecec",
+      "field": "software",
+      "kind": "paper",
+      "title": "Turing, On computable numbers, with an application to the Entscheidungsproblem",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:9796427870d2",
+      "field": "software",
+      "kind": "paper",
+      "title": "Mealy, A Method for Synthesizing Sequential Circuits",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://www3.alcatel-lucent.com/bstj/vol34-1955/articles/bstj34-5-1045.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www3.alcatel-lucent.com/bstj/vol34-1955/articles/bstj34-5-1045.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:27fc4693d060",
+      "field": "software",
+      "kind": "paper",
+      "title": "Back to the Future - The Story of Squeak, A Practical Smalltalk Written in Itself",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/story-of-squeak-a-practical-smalltalk-written-in-itself.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/story-of-squeak-a-practical-smalltalk-written-in-itself.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:36da4e5a68fc",
+      "field": "software",
+      "kind": "paper",
+      "title": "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+      "authors": [
+        "John McCarthy"
+      ],
+      "year": "1960",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/recursive-functions-of-symbolic-expressions-and-their-computation-by-machine-parti.pdf",
+      "cited_by_count_snapshot": 1392,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/recursive-functions-of-symbolic-expressions-and-their-computation-by-machine-parti.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2987cdd043b5",
+      "field": "software",
+      "kind": "paper",
+      "title": "An Axiomatic Basis for Computer Programming",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/axiomatic-basis-computer-programming.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/axiomatic-basis-computer-programming.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:6437727111ff",
+      "field": "software",
+      "kind": "paper",
+      "title": "On the Computational Complexity of Algorithims",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://www.ams.org/journals/tran/1965-117-00/S0002-9947-1965-0170805-7/S0002-9947-1965-0170805-7.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.ams.org/journals/tran/1965-117-00/S0002-9947-1965-0170805-7/S0002-9947-1965-0170805-7.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:558f311d6a1d",
+      "field": "software",
+      "kind": "paper",
+      "title": "Hints for Computer System Design",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations",
+        "design-architecture"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/hints-for-computer-system-design.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/hints-for-computer-system-design.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2728e34f9416",
+      "field": "software",
+      "kind": "paper",
+      "title": "Early Lisp History: 1956-1959",
+      "authors": [
+        "Herbert Stoyan"
+      ],
+      "year": "1984",
+      "topics": [
+        "programming-foundations",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/early-lisp-history-1956-1959-herbert-stoyan-html-rendering.pdf",
+      "cited_by_count_snapshot": 18,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/early-lisp-history-1956-1959-herbert-stoyan-html-rendering.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:981f6c56fd16",
+      "field": "software",
+      "kind": "paper",
+      "title": "Representing Game Dialogue as Expresions in First-Order Logic",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/logic_and_programming/representing-game-dialogue-as-expressions-in-first-order-logic.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/logic_and_programming/representing-game-dialogue-as-expressions-in-first-order-logic.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:9940101e935a",
+      "field": "software",
+      "kind": "paper",
+      "title": "On the Meanings of the Logical Constants and the Justifications of the Logical Laws",
+      "authors": [
+        "Per Martin-Löf"
+      ],
+      "year": "1996",
+      "topics": [
+        "programming-foundations"
+      ],
+      "official_url": "https://uberty.org/wp-content/uploads/2017/06/Martin-Lof83.pdf",
+      "cited_by_count_snapshot": 259,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://uberty.org/wp-content/uploads/2017/06/Martin-Lof83.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b4eb956ed98a",
+      "field": "software",
+      "kind": "paper",
+      "title": "Programming and Reasoning with Algebraic Effects and Dependent Types",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://web.archive.org/web/20150102181601id_/http://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.archive.org/web/20150102181601id_/http://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:a7e0768dc8d3",
+      "field": "software",
+      "kind": "paper",
+      "title": "Programming Languages: History and Future",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.csee.umbc.edu/courses/undergraduate/CMSC331/resources/papers/sammet1972.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.csee.umbc.edu/courses/undergraduate/CMSC331/resources/papers/sammet1972.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f887f6d9b378",
+      "field": "software",
+      "kind": "paper",
+      "title": "Composable and Compilable Macros: You Want it When?",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://www.cs.utah.edu/plt/publications/macromod.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.utah.edu/plt/publications/macromod.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7a36cd92c135",
+      "field": "software",
+      "kind": "paper",
+      "title": "Propositions as Types",
+      "authors": [
+        "Philip Wadler"
+      ],
+      "year": "2015",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+      "cited_by_count_snapshot": 180,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:07dfc7010fe0",
+      "field": "software",
+      "kind": "paper",
+      "title": "Liquid Types",
+      "authors": [
+        "Patrick M. Rondon",
+        "Ming Kawaguci",
+        "Ranjit Jhala"
+      ],
+      "year": "2008",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://goto.ucsd.edu/~rjhala/liquid/liquid_types.pdf",
+      "cited_by_count_snapshot": 389,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://goto.ucsd.edu/~rjhala/liquid/liquid_types.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5857df373833",
+      "field": "software",
+      "kind": "paper",
+      "title": "Fundamental Concepts in Programming Languages",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/fundamental-concepts-in-programming-languages.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/fundamental-concepts-in-programming-languages.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:9ebb275a4882",
+      "field": "software",
+      "kind": "paper",
+      "title": "On Understanding Types, Data Abstraction, and Polymorphism",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/on-understanding-types-data-abstraction-polymorphism.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/on-understanding-types-data-abstraction-polymorphism.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f697d3835c3d",
+      "field": "software",
+      "kind": "paper",
+      "title": "Predicate Dispatching",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/predicate-dispatching.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/predicate-dispatching.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:a41037c19bf8",
+      "field": "software",
+      "kind": "paper",
+      "title": "Principal type-schemes for functional programs",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/principal-type-schemes-for-functional-programs.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/principal-type-schemes-for-functional-programs.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d0480811928b",
+      "field": "software",
+      "kind": "paper",
+      "title": "Programming Languages: Application and Interpretation",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/programming-languages-application-and-interpretation.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/programming-languages-application-and-interpretation.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:450793044763",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Derivative of a Regular Type is its Type of One-Hole Contexts",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/the-derivative-of-a-regular-type-one-hole-contexts.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/the-derivative-of-a-regular-type-one-hole-contexts.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:aca52866a71f",
+      "field": "software",
+      "kind": "paper",
+      "title": "Theory in Programming Practice",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/theory-in-programming-practice.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/theory-in-programming-practice.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d6467afaf4ec",
+      "field": "software",
+      "kind": "paper",
+      "title": "A LISP Garbage-Collector for Virtual-Memory Computer Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime",
+        "performance-observability"
+      ],
+      "official_url": "https://www.cs.purdue.edu/homes/hosking/690M/p611-fenichel.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.purdue.edu/homes/hosking/690M/p611-fenichel.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:0a5117e84093",
+      "field": "software",
+      "kind": "paper",
+      "title": "Incremental Collection of Mature Objects",
+      "authors": [
+        "Richard L. Hudson",
+        "J. Eliot B. Moss"
+      ],
+      "year": "2005",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://pdf.aminer.org/000/465/194/incremental_collection_of_mature_objects.pdf",
+      "cited_by_count_snapshot": 98,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://pdf.aminer.org/000/465/194/incremental_collection_of_mature_objects.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d471da8d3e94",
+      "field": "software",
+      "kind": "paper",
+      "title": "Incremental Garbage Collection: The Train Algorithm",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://www.ssw.uni-linz.ac.at/General/Staff/TW/Wuerthinger05Train.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.ssw.uni-linz.ac.at/General/Staff/TW/Wuerthinger05Train.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b02e1e48d6e3",
+      "field": "software",
+      "kind": "paper",
+      "title": "On-the-Fly Garbage Collection: An Exercise in Cooperation",
+      "authors": [
+        "Edsger W. Dijkstra",
+        "Leslie Lamport",
+        "Alain J. Martin",
+        "Carel S. Schölten",
+        "E.F.M. Steffens"
+      ],
+      "year": "2022",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://lamport.azurewebsites.net/pubs/garbage.pdf",
+      "cited_by_count_snapshot": 70,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://lamport.azurewebsites.net/pubs/garbage.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:4a30b9684d57",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Lisp II Garbage Collector",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://www.softwarepreservation.com/projects/LISP/lisp2/TM-3417_500_00_LISP2_GC_Spec.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.softwarepreservation.com/projects/LISP/lisp2/TM-3417_500_00_LISP2_GC_Spec.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f41a81e0dc51",
+      "field": "software",
+      "kind": "paper",
+      "title": "Parallel Generational-Copying Garbage Collection with a Block-Structured Heap",
+      "authors": [
+        "Simon Marlow",
+        "Tim Harris",
+        "Roshan P. James",
+        "Simon Peyton Jones"
+      ],
+      "year": "2008",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://simonmar.github.io/bib/papers/parallel-gc.pdf",
+      "cited_by_count_snapshot": 76,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://simonmar.github.io/bib/papers/parallel-gc.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:00729ec9c68e",
+      "field": "software",
+      "kind": "paper",
+      "title": "One VM to Rule Them All",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime"
+      ],
+      "official_url": "https://lafo.ssw.uni-linz.ac.at/papers/2013_Onward_OneVMToRuleThemAll.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://lafo.ssw.uni-linz.ac.at/papers/2013_Onward_OneVMToRuleThemAll.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:259d0fc4f1d6",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Comparison of Software and Hardware Techniques for x86 Virtualization",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "language-runtime",
+        "evolution-organization"
+      ],
+      "official_url": "https://web.archive.org/web/20160108225910/http://www.vmware.com/pdf/asplos235_adams.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.archive.org/web/20160108225910/http://www.vmware.com/pdf/asplos235_adams.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:6b1abc063303",
+      "field": "software",
+      "kind": "paper",
+      "title": "The UNIX Time-Sharing System",
+      "authors": [
+        "Dennis M. Ritchie",
+        "Ken Thompson"
+      ],
+      "year": "1983",
+      "topics": [
+        "os-concurrency",
+        "design-architecture",
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/operating_systems/unix-time-sharing-system.pdf",
+      "cited_by_count_snapshot": 969,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/operating_systems/unix-time-sharing-system.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5af4d8e65735",
+      "field": "software",
+      "kind": "paper",
+      "title": "The operating system: should there be one?",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency",
+        "design-architecture",
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.cl.cam.ac.uk/~srk31/research/papers/kell13operating.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cl.cam.ac.uk/~srk31/research/papers/kell13operating.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:10898de3e89c",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors",
+      "authors": [
+        "Austin T. Clements",
+        "M. Frans Kaashoek",
+        "Nickolai Zeldovich",
+        "Robert Morris",
+        "Eddie Kohler"
+      ],
+      "year": "2013",
+      "topics": [
+        "os-concurrency",
+        "design-architecture",
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://people.csail.mit.edu/nickolai/papers/clements-sc.pdf",
+      "cited_by_count_snapshot": 129,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://people.csail.mit.edu/nickolai/papers/clements-sc.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:daaf5e7d3389",
+      "field": "software",
+      "kind": "paper",
+      "title": "Jails: Confining the omnipotent root.",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency",
+        "design-architecture",
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://phk.freebsd.dk/pubs/sane2000-jail.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://phk.freebsd.dk/pubs/sane2000-jail.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7b976afde1bd",
+      "field": "software",
+      "kind": "paper",
+      "title": "Solaris Zones: Operating System Support for Consolidating Commercial Workloads",
+      "authors": [
+        "Daniel Price",
+        "Andrew Tucker"
+      ],
+      "year": "2004",
+      "topics": [
+        "os-concurrency",
+        "design-architecture",
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.usenix.org/legacy/event/lisa04/tech/full_papers/price/price.pdf",
+      "cited_by_count_snapshot": 136,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.usenix.org/legacy/event/lisa04/tech/full_papers/price/price.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:9196d7332533",
+      "field": "software",
+      "kind": "paper",
+      "title": "Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask",
+      "authors": [
+        "Tudor David",
+        "Rachid Guerraoui",
+        "Vasileios Trigonakis"
+      ],
+      "year": "2013",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability"
+      ],
+      "official_url": "https://sigops.org/sosp/sosp13/papers/p33-david.pdf",
+      "cited_by_count_snapshot": 240,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sigops.org/sosp/sosp13/papers/p33-david.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:ade45f0b7a68",
+      "field": "software",
+      "kind": "paper",
+      "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+      "authors": [
+        "Leslie Lamport"
+      ],
+      "year": "1978",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability"
+      ],
+      "official_url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "cited_by_count_snapshot": 8478,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:0715e5d8e02f",
+      "field": "software",
+      "kind": "paper",
+      "title": "Heap Architectures For Concurrent Languages Using Message Passing",
+      "authors": [
+        "Erik M. J. Johansson",
+        "Konstantinos Sagonas",
+        "Jesper Wilhelmsson"
+      ],
+      "year": "2002",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability",
+        "design-architecture"
+      ],
+      "official_url": "https://www.fantasi.se/publications/ISMM02.pdf",
+      "cited_by_count_snapshot": 22,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.fantasi.se/publications/ISMM02.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:bb1a66468d34",
+      "field": "software",
+      "kind": "paper",
+      "title": "Message Analysis for Concurrent Languages",
+      "authors": [
+        "Richard Carlsson",
+        "Konstantinos Sagonas",
+        "Jesper Wilhelmsson"
+      ],
+      "year": "2003",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability"
+      ],
+      "official_url": "https://user.it.uu.se/~kostis/Papers/escape.pdf",
+      "cited_by_count_snapshot": 9,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://user.it.uu.se/~kostis/Papers/escape.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d6dc0d4bb4f8",
+      "field": "software",
+      "kind": "paper",
+      "title": "Finding Race Conditions in Erlang with QuickCheck and PULSE",
+      "authors": [
+        "Koen Claessen",
+        "Michał H. Pałka",
+        "Nicholas Smallbone",
+        "John Hughes",
+        "H. Svensson",
+        "Thomas Arts",
+        "Ulf Wiger"
+      ],
+      "year": "2009",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability"
+      ],
+      "official_url": "https://publications.lib.chalmers.se/records/fulltext/125252/local_125252.pdf",
+      "cited_by_count_snapshot": 67,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://publications.lib.chalmers.se/records/fulltext/125252/local_125252.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:46eaa55fadfb",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Semantics of x86-CC Multiprocessor Machine Code",
+      "authors": [
+        "Susmit Sarkar",
+        "Peter Sewell",
+        "Francesco Zappa Nardelli",
+        "Scott Owens",
+        "Tom Ridge",
+        "Thomas Braibant",
+        "Magnus O. Myreen",
+        "Jade Alglave"
+      ],
+      "year": "2009",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability"
+      ],
+      "official_url": "https://www.cl.cam.ac.uk/~pes20/weakmemory/popl09.pdf",
+      "cited_by_count_snapshot": 156,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cl.cam.ac.uk/~pes20/weakmemory/popl09.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c9f7007d0d3f",
+      "field": "software",
+      "kind": "paper",
+      "title": "Experience with Processes and Monitors in Mesa",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability"
+      ],
+      "official_url": "https://people.eecs.berkeley.edu/~brewer/cs262/Mesa.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://people.eecs.berkeley.edu/~brewer/cs262/Mesa.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:af87592fd131",
+      "field": "software",
+      "kind": "paper",
+      "title": "Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms",
+      "authors": [
+        "Maged M. Michael",
+        "Michael L. Scott"
+      ],
+      "year": "1996",
+      "topics": [
+        "os-concurrency",
+        "testing-verification",
+        "performance-observability"
+      ],
+      "official_url": "https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf",
+      "cited_by_count_snapshot": 798,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2524e4a53ee5",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Wait-Free Stack (2015)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency"
+      ],
+      "official_url": "https://arxiv.org/pdf/1510.00116",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/1510.00116",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:a962067b2f87",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Wait-free Queue as Fast as Fetch-and-Add (2016)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency"
+      ],
+      "official_url": "https://chaoran.me/assets/pdf/wfq-ppopp16.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://chaoran.me/assets/pdf/wfq-ppopp16.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:4b8e81430c06",
+      "field": "software",
+      "kind": "paper",
+      "title": "Efficient Lock-free B+trees (2014)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency"
+      ],
+      "official_url": "https://orbit.dtu.dk/files/102419168/abstract_ELB_trees.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://orbit.dtu.dk/files/102419168/abstract_ELB_trees.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:80ded1cf02f9",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Unified Theory of Garbage Collection",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency",
+        "performance-observability"
+      ],
+      "official_url": "https://web.eecs.umich.edu/~weimerw/2012-4610/reading/bacon-garbage.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.eecs.umich.edu/~weimerw/2012-4610/reading/bacon-garbage.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:8d2d76806cf6",
+      "field": "software",
+      "kind": "paper",
+      "title": "Teaching Garbage Collection without Implementing Compilers or Interpreters",
+      "authors": [
+        "Gregory H. Cooper",
+        "Arjun Guha",
+        "Shriram Krishnamurthi",
+        "Jay McCarthy",
+        "Robert Bruce Findler"
+      ],
+      "year": "2013",
+      "topics": [
+        "os-concurrency",
+        "performance-observability"
+      ],
+      "official_url": "https://cs.brown.edu/~sk/Publications/Papers/Published/cgkmf-teach-gc/paper.pdf",
+      "cited_by_count_snapshot": 3,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cs.brown.edu/~sk/Publications/Papers/Published/cgkmf-teach-gc/paper.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:eeaf989e2fc7",
+      "field": "software",
+      "kind": "paper",
+      "title": "Message Analysis Guided Allocation and Low Pause Incremental GC in a Concurrent Language",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency",
+        "performance-observability"
+      ],
+      "official_url": "https://user.it.uu.se/~kostis/Papers/ismm04.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://user.it.uu.se/~kostis/Papers/ismm04.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:4ee9afd20af4",
+      "field": "software",
+      "kind": "paper",
+      "title": "ScatterAlloc: Massively Parallel Dynamic Memory Allocation for the GPU",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "os-concurrency",
+        "performance-observability"
+      ],
+      "official_url": "https://markussteinberger.net/papers/ScatterAlloc.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://markussteinberger.net/papers/ScatterAlloc.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:966df7658852",
+      "field": "software",
+      "kind": "paper",
+      "title": "Bimodal Multicast",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api"
+      ],
+      "official_url": "https://www.csl.mtu.edu/cs6461/www/Reading/Birman99.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.csl.mtu.edu/cs6461/www/Reading/Birman99.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f3853584e36e",
+      "field": "software",
+      "kind": "paper",
+      "title": "End-to-End Arguments in System Design",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture"
+      ],
+      "official_url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:da84b6d8da7c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Can SPDY Really Make the Web Faster?",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api"
+      ],
+      "official_url": "https://www.eecs.qmul.ac.uk/~tysong/files/IFIPNetworking14.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.eecs.qmul.ac.uk/~tysong/files/IFIPNetworking14.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c8e4064ea76e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Architectural Styles and the Design of Network-based Software Architectures (REST) by Roy Fielding",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://roy.gbiv.com/pubs/dissertation/fielding_dissertation.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://roy.gbiv.com/pubs/dissertation/fielding_dissertation.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2eb8e3e21565",
+      "field": "software",
+      "kind": "paper",
+      "title": "Little Manual of API Design",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/api_design/api-design.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/api_design/api-design.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:666564dd0fe2",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Note on Distributed Computing",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.researchgate.net/profile/Ellen-Isaacs/publication/220168963_Why_do_users_like_video/links/02e7e5186b67219c70000000/Why-do-users-like-video.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.researchgate.net/profile/Ellen-Isaacs/publication/220168963_Why_do_users_like_video/links/02e7e5186b67219c70000000/Why-do-users-like-video.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:ee6f18d2c5d7",
+      "field": "software",
+      "kind": "paper",
+      "title": "A simple totally ordered broadcast protocol",
+      "authors": [
+        "Benjamin Reed",
+        "Flavio Junqueira"
+      ],
+      "year": "2008",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://diyhpl.us/~bryan/papers2/distributed/distributed-systems/zab.totally-ordered-broadcast-protocol.2008.pdf",
+      "cited_by_count_snapshot": 79,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://diyhpl.us/~bryan/papers2/distributed/distributed-systems/zab.totally-ordered-broadcast-protocol.2008.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:08d1b9beb509",
+      "field": "software",
+      "kind": "paper",
+      "title": "Above the Clouds: A Berkeley View of Cloud Computing",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:41157e444977",
+      "field": "software",
+      "kind": "paper",
+      "title": "Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:eb5d9096de57",
+      "field": "software",
+      "kind": "paper",
+      "title": "Kafka: a Distributed Messaging System for Log Processing",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://notes.stephenholiday.com/Kafka.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://notes.stephenholiday.com/Kafka.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:903206cb7613",
+      "field": "software",
+      "kind": "paper",
+      "title": "Large-scale cluster management at Google with Borg",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43438.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43438.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3f3308c6654e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Linearizability: A Correctness Condition for Concurrent Objects",
+      "authors": [
+        "Maurice Herlihy",
+        "Jeannette M. Wing"
+      ],
+      "year": "1990",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf",
+      "cited_by_count_snapshot": 3202,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:9cb703bc560f",
+      "field": "software",
+      "kind": "paper",
+      "title": "Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial",
+      "authors": [
+        "Fred B. Schneider"
+      ],
+      "year": "1990",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf",
+      "cited_by_count_snapshot": 2397,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:1302d764e629",
+      "field": "software",
+      "kind": "paper",
+      "title": "Hoard: A Scalable Memory Allocator for Multithreaded Applications",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://people.cs.umass.edu/~emery/pubs/berger-asplos2000.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://people.cs.umass.edu/~emery/pubs/berger-asplos2000.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c0c0e44c1b1d",
+      "field": "software",
+      "kind": "paper",
+      "title": "MillWheel: Fault-Tolerant Stream Processing at Internet Scale",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41378.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41378.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:96cd95decf8d",
+      "field": "software",
+      "kind": "paper",
+      "title": "Omega: flexible, scalable schedulers for large compute clusters",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://research.google.com/pubs/archive/41684.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://research.google.com/pubs/archive/41684.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b867cbef4b88",
+      "field": "software",
+      "kind": "paper",
+      "title": "Paxos Made Live - An Engineering Perspective",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f247b280369c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Practical Byzantine Fault Tolerance and Proactive Recovery",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.microsoft.com/research/wp-content/uploads/2017/01/p398-castro-bft-tocs.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.microsoft.com/research/wp-content/uploads/2017/01/p398-castro-bft-tocs.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2b52584d957e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Pregel: A System for Large-Scale Graph Processing",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://kowshik.github.io/JPregel/pregel_paper.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://kowshik.github.io/JPregel/pregel_paper.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5e7cf750f568",
+      "field": "software",
+      "kind": "paper",
+      "title": "Replication, History, and Grafting in the Ori File System",
+      "authors": [
+        "Ali José Mashtizadeh",
+        "Andrea Bittau",
+        "Yifeng Frank Huang",
+        "David Mazières"
+      ],
+      "year": "2013",
+      "topics": [
+        "network-api",
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://sigops.org/sosp/sosp13/papers/p151-mashtizadeh.pdf",
+      "cited_by_count_snapshot": 38,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sigops.org/sosp/sosp13/papers/p151-mashtizadeh.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3cf61fe63949",
+      "field": "software",
+      "kind": "paper",
+      "title": "Calvin: Fast Distributed Transactions for Partitioned Database Systems",
+      "authors": [
+        "Alexander Thomson",
+        "Thaddeus Diamond",
+        "Shu-Chun Weng",
+        "Kun Ren",
+        "Philip Shao",
+        "Daniel J. Abadi"
+      ],
+      "year": "2014",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf",
+      "cited_by_count_snapshot": 28,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:087a97488a89",
+      "field": "software",
+      "kind": "paper",
+      "title": "f4: Facebook’s Warm BLOB Storage System",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f60986c62f2e",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Case for Determinism in Database Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://cs-www.cs.yale.edu/homes/dna/papers/determinism-vldb10.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cs-www.cs.yale.edu/homes/dna/papers/determinism-vldb10.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:74f4381c94cf",
+      "field": "software",
+      "kind": "paper",
+      "title": "Consistency Tradeoffs in Modern Distributed Database System Design",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "design-architecture"
+      ],
+      "official_url": "https://cs-www.cs.yale.edu/homes/dna/papers/abadi-pacelc.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cs-www.cs.yale.edu/homes/dna/papers/abadi-pacelc.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:56dbb712d4ef",
+      "field": "software",
+      "kind": "paper",
+      "title": "Modularity and Scalability in Calvin",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "design-architecture",
+        "performance-observability"
+      ],
+      "official_url": "https://sites.computer.org/debull/A13june/calvin1.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sites.computer.org/debull/A13june/calvin1.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:959d2bc56a57",
+      "field": "software",
+      "kind": "paper",
+      "title": "Lightweight Locking for Main Memory Database Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "performance-observability"
+      ],
+      "official_url": "https://cs-www.cs.yale.edu/homes/dna/papers/vll-vldb13.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cs-www.cs.yale.edu/homes/dna/papers/vll-vldb13.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:cf048039ebae",
+      "field": "software",
+      "kind": "paper",
+      "title": "CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "performance-observability"
+      ],
+      "official_url": "https://www.ssrc.ucsc.edu/Papers/weil-sc06.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.ssrc.ucsc.edu/Papers/weil-sc06.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7403f8c0ea31",
+      "field": "software",
+      "kind": "paper",
+      "title": "Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "performance-observability"
+      ],
+      "official_url": "https://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3f08d80bbfb6",
+      "field": "software",
+      "kind": "paper",
+      "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/36632.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/36632.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f9bed27d57f8",
+      "field": "software",
+      "kind": "paper",
+      "title": "F1: A Distributed SQL Database That Scales",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41344.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41344.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:947473c8abd5",
+      "field": "software",
+      "kind": "paper",
+      "title": "HaLoop: Efficient Iterative Data Processing on Large Clusters",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://homes.cs.washington.edu/~billhowe/pubs/HaLoop.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://homes.cs.washington.edu/~billhowe/pubs/HaLoop.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:30a1322266d2",
+      "field": "software",
+      "kind": "paper",
+      "title": "HyperDex: A Distributed, Searchable Key-Value Store",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://cs.uwaterloo.ca/~bernard/hyperdex.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cs.uwaterloo.ca/~bernard/hyperdex.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b79dade1d09c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Introduction to a System for Distributed Databases SDD-1",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://people.eecs.berkeley.edu/~wong/wong_pubs/wong73.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://people.eecs.berkeley.edu/~wong/wong_pubs/wong73.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7f2ec6a84714",
+      "field": "software",
+      "kind": "paper",
+      "title": "Making Reliable Distributed Systems in the Presence of Software Errors",
+      "authors": [
+        "Joe Armstrong"
+      ],
+      "year": "2003",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.erlang.org/download/armstrong_thesis_2003.pdf",
+      "cited_by_count_snapshot": 226,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.erlang.org/download/armstrong_thesis_2003.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2ab27bb4a089",
+      "field": "software",
+      "kind": "paper",
+      "title": "Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System",
+      "authors": [
+        "Doug Terry",
+        "Marvin Theimer",
+        "Karin Anna Petersen",
+        "Alan Demers",
+        "M. Spreitzer",
+        "Carl Hauser"
+      ],
+      "year": "1995",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p172-terry.pdf",
+      "cited_by_count_snapshot": 817,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p172-terry.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:80583b0c5dd2",
+      "field": "software",
+      "kind": "paper",
+      "title": "Map-Reduce-Merge: Simplified Relational Data Processing on Large Clusters",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://www.cs.duke.edu/courses/cps399.28/current/papers/sigmod07-YangDasdanEtAl-map_reduce_merge.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.duke.edu/courses/cps399.28/current/papers/sigmod07-YangDasdanEtAl-map_reduce_merge.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d74f6f89d681",
+      "field": "software",
+      "kind": "paper",
+      "title": "MDCC: Multi-Data Center Consistency",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://amplab.cs.berkeley.edu/wp-content/uploads/2013/03/mdcc-eurosys13.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://amplab.cs.berkeley.edu/wp-content/uploads/2013/03/mdcc-eurosys13.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2f463787c0ee",
+      "field": "software",
+      "kind": "paper",
+      "title": "Optimistic replication",
+      "authors": [
+        "Yasushi Saitō",
+        "Marc Shapiro"
+      ],
+      "year": "2005",
+      "topics": [
+        "database-transaction",
+        "storage-streaming"
+      ],
+      "official_url": "https://pages.cs.wisc.edu/~remzi/Classes/739/Spring2004/Papers/optimistic-survey.pdf",
+      "cited_by_count_snapshot": 738,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://pages.cs.wisc.edu/~remzi/Classes/739/Spring2004/Papers/optimistic-survey.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:0b5406e1ca6c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Towards a Next Generation Data Center Architecture: Scalability and Commoditization",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "design-architecture",
+        "performance-observability"
+      ],
+      "official_url": "https://research.microsoft.com/pubs/79348/presto27-greenberg.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://research.microsoft.com/pubs/79348/presto27-greenberg.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:8b2bda4f243e",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Solution to the Network Challenges of Data Recovery in Erasure-coded Distributed Storage Systems: A Study on the Facebook Warehouse Cluster",
+      "authors": [
+        "K. V. Rashmi",
+        "Nihar B. Shah",
+        "Dikang Gu",
+        "Hairong Kuang",
+        "Dhruba Borthakur",
+        "Kannan Ramchandran"
+      ],
+      "year": "2013",
+      "topics": [
+        "database-transaction",
+        "storage-streaming",
+        "network-api"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/network-challenges-of-data-recovery-in-erasure-coded-distributed-storage-systems.pdf",
+      "cited_by_count_snapshot": 193,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/network-challenges-of-data-recovery-in-erasure-coded-distributed-storage-systems.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3bcd9d16db35",
+      "field": "software",
+      "kind": "paper",
+      "title": "Traits: A Mechanism for Fine-Grained Reuse",
+      "authors": [
+        "Ferruccio Damiani",
+        "Johan Dovland",
+        "Einar Broch Johnsen",
+        "Ina Schaefer"
+      ],
+      "year": "2013",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://scg.unibe.ch/archive/papers/Duca06bTOPLASTraits.pdf",
+      "cited_by_count_snapshot": 14,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://scg.unibe.ch/archive/papers/Duca06bTOPLASTraits.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:1ec85ea7f37c",
+      "field": "software",
+      "kind": "paper",
+      "title": "THING-MODEL-VIEW-EDITOR an Example from a planningsystem",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://heim.ifi.uio.no/~trygver/1979/mvc-1/1979-05-MVC.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://heim.ifi.uio.no/~trygver/1979/mvc-1/1979-05-MVC.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:db9e7d02de03",
+      "field": "software",
+      "kind": "paper",
+      "title": "Out of the Tar Pit",
+      "authors": [
+        "Ben Moseley",
+        "Peter J. Marks"
+      ],
+      "year": "2006",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/design/out-of-the-tar-pit.pdf",
+      "cited_by_count_snapshot": 9,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/design/out-of-the-tar-pit.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:ea8eacc007cd",
+      "field": "software",
+      "kind": "paper",
+      "title": "Statecharts: A Visual Formalism for Complex Systems",
+      "authors": [
+        "David Harel"
+      ],
+      "year": "1987",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.weizmann.ac.il/math/harel/sites/math.harel/files/users/user56/Statecharts.pdf",
+      "cited_by_count_snapshot": 6754,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.weizmann.ac.il/math/harel/sites/math.harel/files/users/user56/Statecharts.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c2c218e07294",
+      "field": "software",
+      "kind": "paper",
+      "title": "Studying Attitudes and Social Norms in Agile Software Development (2019)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://arxiv.org/pdf/1904.09225.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/1904.09225.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5358350ea790",
+      "field": "software",
+      "kind": "paper",
+      "title": "Happiness and the productivity of software engineers (2019)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://arxiv.org/ftp/arxiv/papers/1904/1904.08239.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/ftp/arxiv/papers/1904/1904.08239.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:dc5e2c93f301",
+      "field": "software",
+      "kind": "paper",
+      "title": "Why Software Projects need Heroes (Lessons Learned from 1100+ Projects) (2019)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://arxiv.org/pdf/1904.09954.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://arxiv.org/pdf/1904.09954.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:07db34c3707b",
+      "field": "software",
+      "kind": "paper",
+      "title": "Common Ground and Coordination in Joint Activity",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.researchgate.net/profile/David-Woods-19/publication/227992178_Common_Ground_and_Coordination_in_Joint_Activity/links/5ba284c892851ca9ed15cdc0/Common-Ground-and-Coordination-in-Joint-Activity.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.researchgate.net/profile/David-Woods-19/publication/227992178_Common_Ground_and_Coordination_in_Joint_Activity/links/5ba284c892851ca9ed15cdc0/Common-Ground-and-Coordination-in-Joint-Activity.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:606894a8ff62",
+      "field": "software",
+      "kind": "paper",
+      "title": "Resilient Overlay Networks",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "network-api"
+      ],
+      "official_url": "https://nms.lcs.mit.edu/papers/ron-sosp2001.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://nms.lcs.mit.edu/papers/ron-sosp2001.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2510fc300297",
+      "field": "software",
+      "kind": "paper",
+      "title": "Sinfonia: A New Paradigm for Building Scalable Distributed Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://www.mshah.org/papers/sosp_2007_aguilera.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.mshah.org/papers/sosp_2007_aguilera.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:64641bbb8686",
+      "field": "software",
+      "kind": "paper",
+      "title": "Sparrow: Distributed, Low Latency Scheduling",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://people.csail.mit.edu/matei/papers/2013/sosp_sparrow.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://people.csail.mit.edu/matei/papers/2013/sosp_sparrow.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:dc884b05ebef",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Byzantine Generals Problem",
+      "authors": [
+        "Leslie Lamport",
+        "Robert E. Shostak",
+        "Marshall C. Pease"
+      ],
+      "year": "1982",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf",
+      "cited_by_count_snapshot": 6034,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7d78d48788be",
+      "field": "software",
+      "kind": "paper",
+      "title": "Hashgraph Consensus: Fair, Fast, Byzantine Fault Tolerance",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:9cdab07a0b57",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Chubby Lock Service for Loosely-Coupled Distributed Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://static.googleusercontent.com/media/research.google.com/en/us/archive/chubby-osdi06.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://static.googleusercontent.com/media/research.google.com/en/us/archive/chubby-osdi06.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:dac28e5754e5",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Join Calculus: a Language for Distributed Mobile Programming",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://research.microsoft.com/en-us/um/people/fournet/papers/join-tutorial.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://research.microsoft.com/en-us/um/people/fournet/papers/join-tutorial.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b02dc58e0ea4",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Part-Time Parliament",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f743a0fcbb66",
+      "field": "software",
+      "kind": "paper",
+      "title": "There Is More Consensus in Egalitarian Parliaments",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7931a56dda81",
+      "field": "software",
+      "kind": "paper",
+      "title": "Transactional Client-Server Cache Consistency: Alternatives and Performance",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://drum.lib.umd.edu/bitstream/handle/1903/751/CS-TR-3511.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://drum.lib.umd.edu/bitstream/handle/1903/751/CS-TR-3511.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:cbe0806ef474",
+      "field": "software",
+      "kind": "paper",
+      "title": "Unicorn: A System for Searching the Social Graph",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3b9da5a6fb05",
+      "field": "software",
+      "kind": "paper",
+      "title": "Unikernels: Library Operating Systems for the Cloud",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "design-architecture",
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://unikernel.org/files/2013-asplos-mirage.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://unikernel.org/files/2013-asplos-mirage.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:a8afd2a688f3",
+      "field": "software",
+      "kind": "paper",
+      "title": "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification"
+      ],
+      "official_url": "https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:28c5df41b9f7",
+      "field": "software",
+      "kind": "paper",
+      "title": "QuickCheck Testing for Fun and Profit",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification"
+      ],
+      "official_url": "https://web.archive.org/web/20230912215719/http://people.inf.elte.hu/center/fulltext.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://web.archive.org/web/20230912215719/http://people.inf.elte.hu/center/fulltext.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:15b6d45ed38c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Test-driven development with mutation testing, 2020",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "evolution-organization"
+      ],
+      "official_url": "https://link.springer.com/content/pdf/10.1007/s11219-020-09534-x.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://link.springer.com/content/pdf/10.1007/s11219-020-09534-x.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5ba0ea06cc01",
+      "field": "software",
+      "kind": "paper",
+      "title": "Realizing quality improvement through test driven development: results and experiences of four industrial teams",
+      "authors": [
+        "Nachiappan Nagappan",
+        "E. Michael Maximilien",
+        "Thirumalesh Bhat",
+        "Laurie Williams"
+      ],
+      "year": "2008",
+      "topics": [
+        "testing-verification",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Realizing-Quality-Improvement-Through-Test-Driven-Development-Results-and-Experiences-of-Four-Industrial-Teams-nagappan_tdd.pdf",
+      "cited_by_count_snapshot": 150,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Realizing-Quality-Improvement-Through-Test-Driven-Development-Results-and-Experiences-of-Four-Industrial-Teams-nagappan_tdd.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:90f8a55bce9a",
+      "field": "software",
+      "kind": "paper",
+      "title": "Coq: The world’s best macro assembler?",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "reliability-security"
+      ],
+      "official_url": "https://research.microsoft.com/en-us/um/people/nick/coqasm.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://research.microsoft.com/en-us/um/people/nick/coqasm.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:e813aaa38c5c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Epitaxis: a system for syntactic and semantic software queries",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "reliability-security",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/faults_and_verification/epitaxis-a-system-for-syntactic-and-semantic-software-queries.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/faults_and_verification/epitaxis-a-system-for-syntactic-and-semantic-software-queries.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2c4f611d3290",
+      "field": "software",
+      "kind": "paper",
+      "title": "GN&C Fault Protection Fundamentals",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "reliability-security"
+      ],
+      "official_url": "https://trs.jpl.nasa.gov/bitstream/handle/2014/41696/08-0125.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://trs.jpl.nasa.gov/bitstream/handle/2014/41696/08-0125.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:984b739916ea",
+      "field": "software",
+      "kind": "paper",
+      "title": "Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.cs.utexas.edu/~shmat/courses/cs395t_fall04/chaum81.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.utexas.edu/~shmat/courses/cs395t_fall04/chaum81.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:361b3dac9817",
+      "field": "software",
+      "kind": "paper",
+      "title": "Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.pmg.csail.mit.edu/papers/vr.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.pmg.csail.mit.edu/papers/vr.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:bb96ff2ef96d",
+      "field": "software",
+      "kind": "paper",
+      "title": "VL2: A Scalable and Flexible Data Center Network",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "network-api",
+        "performance-observability"
+      ],
+      "official_url": "https://research.microsoft.com/pubs/80693/vl2-sigcomm09-final.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://research.microsoft.com/pubs/80693/vl2-sigcomm09-final.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:63a6e9df0dbb",
+      "field": "software",
+      "kind": "paper",
+      "title": "A History of the Virtual Synchrony Replication Model",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-history-of-the-virtual-synchrony-replication-model.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-history-of-the-virtual-synchrony-replication-model.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:e1100720fac0",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Hundred Impossibility Proofs for Distributed Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-hundred-impossibility-proofs-for-distributed-computing.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-hundred-impossibility-proofs-for-distributed-computing.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:0a20bccecff8",
+      "field": "software",
+      "kind": "paper",
+      "title": "A response to Cheriton and Skeen's Criticism of Causal and Totally Ordered Communication",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-response-to-cheriton-and-skeens-criticism-of-causal-and-totally-ordered-communication.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-response-to-cheriton-and-skeens-criticism-of-causal-and-totally-ordered-communication.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3eb4c6fe5b42",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Universal Modular ACTOR Formalism for Artificial Intelligence",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "design-architecture"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-universal-modular-actor-formalism-for-artificial-intelligence.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-universal-modular-actor-formalism-for-artificial-intelligence.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d8a690cace1a",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Versatile Scheme for Routing Highly Variable Traffic in Service Overlays and IP Backbones",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "network-api"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-versatile-scheme-for-routing-highly-variable-traffic-in-service-overlays-and-ip.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-versatile-scheme-for-routing-highly-variable-traffic-in-service-overlays-and-ip.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:14dd1658475f",
+      "field": "software",
+      "kind": "paper",
+      "title": "Beehive: O(1) Lookup Performance for Power-Law Query Distributions in Peer-to-Peer Overlays",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/beehive-lookup-performance-for-power-law-query-distributions-in-peer-to-peer-overlays.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/beehive-lookup-performance-for-power-law-query-distributions-in-peer-to-peer-overlays.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d53a1bfe7745",
+      "field": "software",
+      "kind": "paper",
+      "title": "Byzantine Chain Replication",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-chain-replication.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-chain-replication.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:bf0c83a36afb",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Byzantine Fault Tolerant Distributed Commit Protocol",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "network-api"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-fault-tolerant-distributed-commit-protocol.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-fault-tolerant-distributed-commit-protocol.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:36a82c833bff",
+      "field": "software",
+      "kind": "paper",
+      "title": "Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/brewers-conjecture.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/brewers-conjecture.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f7f687627a6a",
+      "field": "software",
+      "kind": "paper",
+      "title": "Chain Replication for Supporting High Throughput and Availability",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "testing-verification",
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/chain-replication-for-supporting-high-throughput-and-availability.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/chain-replication-for-supporting-high-throughput-and-availability.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:ece6232ead3f",
+      "field": "software",
+      "kind": "paper",
+      "title": "A Theoretician's Guide to the Experimental Analysis of Algorithms",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/experimental_algorithmics/a-theoreticians-guide-to-the-experimental-analysis-of-algorithms.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/experimental_algorithmics/a-theoreticians-guide-to-the-experimental-analysis-of-algorithms.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2777ada1fa05",
+      "field": "software",
+      "kind": "paper",
+      "title": "Piranha: A Scalable Architecture Based on Single-Chip Multiprocessing",
+      "authors": [
+        "Luiz André Barroso",
+        "K. Gharachorloo",
+        "R. McNamara",
+        "Andreas Nowatzyk",
+        "Shaz Qadeer",
+        "Barton Sano",
+        "Scott F. Smith",
+        "Robert Stets 等"
+      ],
+      "year": "2002",
+      "topics": [
+        "performance-observability",
+        "design-architecture"
+      ],
+      "official_url": "https://barroso.org/publications/isca00.pdf",
+      "cited_by_count_snapshot": 184,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://barroso.org/publications/isca00.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3c8b21cb1cbd",
+      "field": "software",
+      "kind": "paper",
+      "title": "Making Lockless Synchronization Fast: Performance Implications of Memory Reclamation",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "performance-observability"
+      ],
+      "official_url": "https://www.rdrop.com/users/paulmck/RCU/hart_ipdps06.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.rdrop.com/users/paulmck/RCU/hart_ipdps06.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:caffff92fc74",
+      "field": "software",
+      "kind": "paper",
+      "title": "Crash-Only Software",
+      "authors": [
+        "George Candea",
+        "Armando Fox"
+      ],
+      "year": "2003",
+      "topics": [
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.usenix.org/legacy/events/hotos03/tech/full_papers/candea/candea.pdf",
+      "cited_by_count_snapshot": 133,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.usenix.org/legacy/events/hotos03/tech/full_papers/candea/candea.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:03d1ee8b0ebf",
+      "field": "software",
+      "kind": "paper",
+      "title": "Microreboot -- A technique for cheap recovery",
+      "authors": [
+        "George Candea",
+        "Shinichi Kawamoto",
+        "Yuichi Fujiki",
+        "Greg Friedman",
+        "Armando Fox"
+      ],
+      "year": "2004",
+      "topics": [
+        "performance-observability",
+        "evolution-organization"
+      ],
+      "official_url": "https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf",
+      "cited_by_count_snapshot": 369,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:12bad8c41ad1",
+      "field": "software",
+      "kind": "paper",
+      "title": "Commodifying Replicated State Machines with OpenReplica",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/commodifying-replicated-state-machines-with-openreplica.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/commodifying-replicated-state-machines-with-openreplica.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c4b17d9fc718",
+      "field": "software",
+      "kind": "paper",
+      "title": "Consensusin the Presenceof Partial Synchrony",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consensus-in-presence-of-partial-synchrony.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consensus-in-presence-of-partial-synchrony.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d7c1eecb9858",
+      "field": "software",
+      "kind": "paper",
+      "title": "Consistent Global States of Distributed Systems: Fundamental Concepts and Mechanisms",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-global-states-of-distributed-systems-fundamental-concepts-and-mechanisms.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-global-states-of-distributed-systems-fundamental-concepts-and-mechanisms.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3b766b137900",
+      "field": "software",
+      "kind": "paper",
+      "title": "Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "network-api"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-hashing-and-random-trees.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-hashing-and-random-trees.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:fef2590ff753",
+      "field": "software",
+      "kind": "paper",
+      "title": "Copysets: Reducing the Frequency of Data Loss in Cloud Storage",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/copysets-reducing-the-frequency-of-data-loss-in-cloud-storage.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/copysets-reducing-the-frequency-of-data-loss-in-cloud-storage.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:56d73eda35f3",
+      "field": "software",
+      "kind": "paper",
+      "title": "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/dapper-a-large-scale-distributed-tracing-infrastructure.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/dapper-a-large-scale-distributed-tracing-infrastructure.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:98ae267586e6",
+      "field": "software",
+      "kind": "paper",
+      "title": "Distributed Snapshots: Determining Global States of Distributed Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/distributed-snapshots-determining-global-states-of-distributed-systems.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/distributed-snapshots-determining-global-states-of-distributed-systems.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:31058886b624",
+      "field": "software",
+      "kind": "paper",
+      "title": "Eluding Carnivores: File Sharing with Strong Anonymity",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/eluding-carnivores-file-sharing-with-strong-anonymity.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/eluding-carnivores-file-sharing-with-strong-anonymity.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d3c2140a05c9",
+      "field": "software",
+      "kind": "paper",
+      "title": "End-to-end arguments in system design",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "design-architecture"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/end-to-end-arguments-in-system-design.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/end-to-end-arguments-in-system-design.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:490c761c191b",
+      "field": "software",
+      "kind": "paper",
+      "title": "Epidemic Algorithms for Replicated Database Maintenance",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/epidemic-algorithms-for-replicated-database-maintenance.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/epidemic-algorithms-for-replicated-database-maintenance.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:75fbc0a18fd0",
+      "field": "software",
+      "kind": "paper",
+      "title": "Harvest, Yield, and Scalable Tolerant Systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/harvest-yield-and-scalable-tolerant-systems.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/harvest-yield-and-scalable-tolerant-systems.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:d9046ba5b6cc",
+      "field": "software",
+      "kind": "paper",
+      "title": "Herbivore: A Scalable and Efficient Protocol for Anonymous Communication",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "network-api",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/herbivore-a-scalable-and-efficient-protocol-for-anonymous.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/herbivore-a-scalable-and-efficient-protocol-for-anonymous.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:e572727d66b4",
+      "field": "software",
+      "kind": "paper",
+      "title": "High-Level Specifications: Lessons from Industry",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/high-level-specifications--lessons-from-industry.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/high-level-specifications--lessons-from-industry.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:a2b182e61848",
+      "field": "software",
+      "kind": "paper",
+      "title": "How the Hidden Hand Shapes the Market for Software Reliability",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/how-the-hidden-hand-shapes-the-market-for-software-reliability.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/how-the-hidden-hand-shapes-the-market-for-software-reliability.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7e6d9abd264e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Implementing the Omega failure detector in the crash-recovery failure model",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "testing-verification"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/implementing-the-omega-failure-detector-in-crash-recovery-failure-model.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/implementing-the-omega-failure-detector-in-crash-recovery-failure-model.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5333585f739e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Impossibility of Distributed Consensus with One Faulty Process",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "testing-verification"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/impossibility-of-consensus-with-one-faulty-process.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/impossibility-of-consensus-with-one-faulty-process.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c1cf81a44576",
+      "field": "software",
+      "kind": "paper",
+      "title": "In Search of an Understandable Consensus Algorithm",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/in-search-of-an-understandable-consensus-algorithm.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/in-search-of-an-understandable-consensus-algorithm.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:95226e544314",
+      "field": "software",
+      "kind": "paper",
+      "title": "Kelips: Building an Efficient and Stable P2P DHT Through Increased Memory and Background Overhead",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/kelips-building-an-efficient-and-stable-p2p-dht-through-increased-memory-and-background-overhead.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/kelips-building-an-efficient-and-stable-p2p-dht-through-increased-memory-and-background-overhead.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b9e4fad2cb73",
+      "field": "software",
+      "kind": "paper",
+      "title": "Large-scale Incremental Processing Using Distributed Transactions and Notifications",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/large-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/large-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:fa928a71da8c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Life beyond Distributed Transactions: an Apostate’s Opinion",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "distributed-consensus",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/life-beyond-distributed-transactions-an-apostates-opinion.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/life-beyond-distributed-transactions-an-apostates-opinion.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:65760d5e1019",
+      "field": "software",
+      "kind": "paper",
+      "title": "Google (GFS)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:e554ec679c6c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Hadoop (HDFS)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://storageconference.us/2010/Papers/MSST/Shvachko.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://storageconference.us/2010/Papers/MSST/Shvachko.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:53b5f53c4f47",
+      "field": "software",
+      "kind": "paper",
+      "title": "Actor Formalism",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://worrydream.com/refs/Hewitt-ActorModel.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://worrydream.com/refs/Hewitt-ActorModel.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:6d82f4b50be8",
+      "field": "software",
+      "kind": "paper",
+      "title": "Counting large numbers of events in small registers",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://www.inf.ed.ac.uk/teaching/courses/exc/reading/morris.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.inf.ed.ac.uk/teaching/courses/exc/reading/morris.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:1f78eb0968b3",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Space Complexity of Approximating the Frequency Moments",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://www.cs.ucsb.edu/~veronika/MAE/spacecomplexityapproxfreqmoments_alon_99.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.ucsb.edu/~veronika/MAE/spacecomplexityapproxfreqmoments_alon_99.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:943c291599a5",
+      "field": "software",
+      "kind": "paper",
+      "title": "Bigtable: A Distributed Storage System for Structured Data",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:49eeed2960d8",
+      "field": "software",
+      "kind": "paper",
+      "title": "Database Metatheory: Asking Big Queries",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/database-metatheory--asking-the-big-queries.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/database-metatheory--asking-the-big-queries.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:19eb46aa143e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Dynamo: Amazon’s Highly Available Key-value Store",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/dynamo-amazons-highly-available-key-value-store.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/dynamo-amazons-highly-available-key-value-store.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:4747b99a15f9",
+      "field": "software",
+      "kind": "paper",
+      "title": "Elle: Inferring Isolation Anomalies from Experimental Observations",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/elle-inferring-isolation-anomalies-from-experimental-observations.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/elle-inferring-isolation-anomalies-from-experimental-observations.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f2db34601309",
+      "field": "software",
+      "kind": "paper",
+      "title": "Flat Datacenter Storage",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming",
+        "network-api"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/flat-datacenter-storage.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/flat-datacenter-storage.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:0d1ad5baeb3f",
+      "field": "software",
+      "kind": "paper",
+      "title": "Freenet: A Distributed Anonymous Information Storage and Retrieval System",
+      "authors": [
+        "Ian Clarke",
+        "Oskar J. Sandberg",
+        "Brandon Wiley",
+        "Theodore W. Hong"
+      ],
+      "year": "2001",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/freenet-a-distributed-anonymous-information-and-retrieval-system.pdf",
+      "cited_by_count_snapshot": 272,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/freenet-a-distributed-anonymous-information-and-retrieval-system.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:e85bb7d90132",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Google File System",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/the-google-file-system.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/the-google-file-system.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b082588f4f2d",
+      "field": "software",
+      "kind": "paper",
+      "title": "Megastore: Providing Scalable, Highly Available Storage for Interactive Services",
+      "authors": [
+        "Jason D. Baker",
+        "Chris T. Bond",
+        "James C. Corbett",
+        "J. J. Furman",
+        "Andrey Khorlin",
+        "James A. Larson",
+        "Jean-Michel Leon",
+        "Yawei Li 等"
+      ],
+      "year": "2011",
+      "topics": [
+        "storage-streaming",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/megastore-providing-scalable-highly-available-storage-for-interactive-services.pdf",
+      "cited_by_count_snapshot": 655,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/megastore-providing-scalable-highly-available-storage-for-interactive-services.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:574da12b3d28",
+      "field": "software",
+      "kind": "paper",
+      "title": "RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/rados-a-scalable-reliable-storage-service-for-petabyte-scale-storage-clusters.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/rados-a-scalable-reliable-storage-service-for-petabyte-scale-storage-clusters.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:4e5208664973",
+      "field": "software",
+      "kind": "paper",
+      "title": "Spanner: Google’s Globally-Distributed Database",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spanner-google's-globally-distributed-database.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spanner-google's-globally-distributed-database.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:639b7979fc43",
+      "field": "software",
+      "kind": "paper",
+      "title": "Spartan: A distributed array framework with smart tiling",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spartan-a-distributed-array-framework-with-smart-tiling.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spartan-a-distributed-array-framework-with-smart-tiling.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f0a3f5195bff",
+      "field": "software",
+      "kind": "paper",
+      "title": "Stasis: Flexible Transactional Storage",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/stasis-flexible-transactional-storage.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/stasis-flexible-transactional-storage.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c75a464229fe",
+      "field": "software",
+      "kind": "paper",
+      "title": "TAO: Facebooks Distributed Data Store for the Social Graph'",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/tao-facebook-distributed-datastore.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/tao-facebook-distributed-datastore.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:e68d3e891e3b",
+      "field": "software",
+      "kind": "paper",
+      "title": "Transactional storage for geo-replicated systems",
+      "authors": [
+        "Yair Sovran",
+        "Russell Power",
+        "Marcos K. Aguilera",
+        "Jinyang Li"
+      ],
+      "year": "2011",
+      "topics": [
+        "storage-streaming"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/transactional-storage-for-geo-replicated-systems.pdf",
+      "cited_by_count_snapshot": 391,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/transactional-storage-for-geo-replicated-systems.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b1c56a3c6a80",
+      "field": "software",
+      "kind": "paper",
+      "title": "Warp: Multi-Key Transactions for Key-Value Stores",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "storage-streaming",
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/warp-multi-key-transactions-for-key-value-stores.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/warp-multi-key-transactions-for-key-value-stores.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b794c4d7e84c",
+      "field": "software",
+      "kind": "paper",
+      "title": "Reflections on Trusting Trust (1984)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:16724dd31747",
+      "field": "software",
+      "kind": "paper",
+      "title": "Looking inside the (Drop) Box (2013)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://www.usenix.org/system/files/conference/woot13/woot13-kholia.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.usenix.org/system/files/conference/woot13/woot13-kholia.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:71b18f1e7839",
+      "field": "software",
+      "kind": "paper",
+      "title": "Making Programs Forget: Enforcing Lifetime For Sensitive Data (2011)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://www.usenix.org/events/hotos11/tech/final_files/Kannan.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.usenix.org/events/hotos11/tech/final_files/Kannan.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:943b26fdbcc5",
+      "field": "software",
+      "kind": "paper",
+      "title": "Breach: Reviving The Crime Attack (2013)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:aab4e1e27f9e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Why Silent Updates Boost Security (2009)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://tik-old.ee.ethz.ch/file/ef72343372ca8659a9ae8a98873167c0/TIKReport302.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://tik-old.ee.ethz.ch/file/ef72343372ca8659a9ae8a98873167c0/TIKReport302.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:297ce81b55c0",
+      "field": "software",
+      "kind": "paper",
+      "title": "Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud (2014)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/macaroons-cookies-with-contextual-caveats.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/macaroons-cookies-with-contextual-caveats.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:7e6b214fb48a",
+      "field": "software",
+      "kind": "paper",
+      "title": "Insertion, Evasion, and Denial of Service: eluding network intrusion detection (1998)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security",
+        "network-api"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/ids-evasion-ptacek-newsham.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/ids-evasion-ptacek-newsham.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:1ed804206a6a",
+      "field": "software",
+      "kind": "paper",
+      "title": "Meltdown (2018)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://meltdownattack.com/meltdown.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://meltdownattack.com/meltdown.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b6c29802667e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Spectre Attacks: Exploiting Speculative Execution (2018)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://spectreattack.com/spectre.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://spectreattack.com/spectre.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f0ba38b9af1d",
+      "field": "software",
+      "kind": "paper",
+      "title": "DRAM Row Hammer (2014)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://people.inf.ethz.ch/omutlu/pub/dram-row-hammer_isca14.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://people.inf.ethz.ch/omutlu/pub/dram-row-hammer_isca14.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:47ea7688bc6e",
+      "field": "software",
+      "kind": "paper",
+      "title": "SoK: Eternal War in Memory (2013)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/sok-eternal-war-in-memory.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/sok-eternal-war-in-memory.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:fd55ea8295ba",
+      "field": "software",
+      "kind": "paper",
+      "title": "k-ANONYMITY: A model for Protecting Privacy (1998)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://epic.org/wp-content/uploads/privacy/reidentification/Sweeney_Article.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://epic.org/wp-content/uploads/privacy/reidentification/Sweeney_Article.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:009410354d58",
+      "field": "software",
+      "kind": "paper",
+      "title": "Differential Privacy(2006)",
+      "authors": [
+        "Leeman, Ethan",
+        "Manurangsi, Pasin"
+      ],
+      "year": "2016",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dwork.pdf",
+      "cited_by_count_snapshot": 293,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dwork.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:a654a6646f6d",
+      "field": "software",
+      "kind": "paper",
+      "title": "Robust De-anonymization of Large Sparse Datasets(2008)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:9b2d15825d4f",
+      "field": "software",
+      "kind": "paper",
+      "title": "Timing Attacks on Web Privacy(2000)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://www.cs.jhu.edu/~fabian/courses/CS600.424/course_papers/webtiming.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.cs.jhu.edu/~fabian/courses/CS600.424/course_papers/webtiming.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:b1d1f7da9bc5",
+      "field": "software",
+      "kind": "paper",
+      "title": "Protecting Browser State from Web Privacy Attacks(2006)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://crypto.stanford.edu/sameorigin/sameorigin.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://crypto.stanford.edu/sameorigin/sameorigin.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:344158535df9",
+      "field": "software",
+      "kind": "paper",
+      "title": "KHyperLogLog: Estimating Reidentifiability and Joinability of Large Data at Scale(2019)",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40bc2804cbd3e41ed28dc8991316361eca48630c.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40bc2804cbd3e41ed28dc8991316361eca48630c.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:10a3efa8b9c7",
+      "field": "software",
+      "kind": "paper",
+      "title": "HYDRA: the kernel of a multiprocessor operating system",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://kilthub.cmu.edu/articles/HYDRA_--_the_kernel_of_a_multiprocessor_operating_system/6606224/files/12096734.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://kilthub.cmu.edu/articles/HYDRA_--_the_kernel_of_a_multiprocessor_operating_system/6606224/files/12096734.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:e2b8951b9c59",
+      "field": "software",
+      "kind": "paper",
+      "title": "A persistent system in real use-experiences of the first 13 years",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://os.itec.kit.edu/downloads/publ_1993_liedtke_persistent-system-in-real-use.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://os.itec.kit.edu/downloads/publ_1993_liedtke_persistent-system-in-real-use.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5934e19fbd22",
+      "field": "software",
+      "kind": "paper",
+      "title": "SPIN: An extensible microkernel for application-specific operating system services",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "reliability-security"
+      ],
+      "official_url": "https://apps.dtic.mil/dtic/tr/fulltext/u2/a293537.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://apps.dtic.mil/dtic/tr/fulltext/u2/a293537.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:2bcb22cbeb1f",
+      "field": "software",
+      "kind": "paper",
+      "title": "MapReduce: Simplified Data Processing on Large Clusters",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mapreduce-simplified-data-processing-on-large-clusters.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mapreduce-simplified-data-processing-on-large-clusters.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:4ae2d2714459",
+      "field": "software",
+      "kind": "paper",
+      "title": "Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:8a514b4095c5",
+      "field": "software",
+      "kind": "paper",
+      "title": "Oblivious routing of highly variable traffic in service overlays and IP backbones",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "network-api"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/oblivious-routing-of-highly-variable-traffic-in-service-overlays-and-ip-backbones.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/oblivious-routing-of-highly-variable-traffic-in-service-overlays-and-ip-backbones.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:1fffc1233d82",
+      "field": "software",
+      "kind": "paper",
+      "title": "On proof and progress in mathematics",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "testing-verification"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/on-proof-and-progress-in-mathematics.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/on-proof-and-progress-in-mathematics.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:f2f1b9b8e2ed",
+      "field": "software",
+      "kind": "paper",
+      "title": "P5: A Protocol for Scalable Anonymous Communication",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "network-api",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/p5-a-protocal-for-scalable-anonymous-communication.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/p5-a-protocal-for-scalable-anonymous-communication.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:85ab4e466254",
+      "field": "software",
+      "kind": "paper",
+      "title": "Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "network-api",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/pastry-scalable-decentralized-object-location-and-routing-for-large-scale-peer-to-peer-systems.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/pastry-scalable-decentralized-object-location-and-routing-for-large-scale-peer-to-peer-systems.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:43e63e4195d2",
+      "field": "software",
+      "kind": "paper",
+      "title": "Paxos Made Moderately Complex",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-moderately-complex.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-moderately-complex.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:5966714bf4fb",
+      "field": "software",
+      "kind": "paper",
+      "title": "Paxos Made Simple",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-simple.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-simple.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:6ac37c0048dc",
+      "field": "software",
+      "kind": "paper",
+      "title": "Self-stabilizing Systems in Spite of Distributed Control",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/self-stabilizing-systems-in-spite-of-distributed-control.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/self-stabilizing-systems-in-spite-of-distributed-control.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:3418135dea11",
+      "field": "software",
+      "kind": "paper",
+      "title": "SIFT: Design and Analysis of a Fault-Tolerant Computer for Aircraft Control",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "design-architecture",
+        "testing-verification"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sift-design-and-analysis-of-a-fault-tolerant-computer-for-aircraft-contro.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sift-design-and-analysis-of-a-fault-tolerant-computer-for-aircraft-contro.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:8a46dfe67775",
+      "field": "software",
+      "kind": "paper",
+      "title": "Solution of a Problem in Concurrent Programming Control",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/solution-of-a-problem-in-concurrent-programming-control.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/solution-of-a-problem-in-concurrent-programming-control.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:6b2e4facb7a9",
+      "field": "software",
+      "kind": "paper",
+      "title": "Sparse Partitions",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sparse-partitions.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sparse-partitions.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:12c1867959b8",
+      "field": "software",
+      "kind": "paper",
+      "title": "Stronger Semantics for Low-Latency Geo-Replicated Storage",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/stronger-semantics-for-low-latency-geo-replicated-storage.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/stronger-semantics-for-low-latency-geo-replicated-storage.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:8b325bb0b4f8",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Akamai Network: A Platform for High-Performance Internet Applications",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "network-api",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-akamai-network.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-akamai-network.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:c783c60cea4a",
+      "field": "software",
+      "kind": "paper",
+      "title": "The Dining Cryptographers Problem: Unconditional Sender and Recipient Untraceability",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-dining-cryptographers-problem.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-dining-cryptographers-problem.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:98793c5d2d2e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Tor: The Second-Generation Onion Router",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/tor-the-second-generation-onion-router.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/tor-the-second-generation-onion-router.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:ae0e6c06f439",
+      "field": "software",
+      "kind": "paper",
+      "title": "Towards a cloud computing research agenda",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/towards-a-cloud-computing-research-agenda.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/towards-a-cloud-computing-research-agenda.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:981e61b4b93e",
+      "field": "software",
+      "kind": "paper",
+      "title": "Understanding the Limitations of Causally and Totally Ordered Communication",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/understanding-the-limitations-of-causally-and-totally-ordered-communication.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/understanding-the-limitations-of-causally-and-totally-ordered-communication.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:cc37d28f13e9",
+      "field": "software",
+      "kind": "paper",
+      "title": "Viewing Control Structures as Patterns of Passing Messages",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/viewing-control-structures-as-patterns-of-passing-messages.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/viewing-control-structures-as-patterns-of-passing-messages.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "paper:software:40420ad47cb4",
+      "field": "software",
+      "kind": "paper",
+      "title": "Zab: High-performance broadcast for primary-backup systems",
+      "authors": [
+        "原论文作者，详见原稿"
+      ],
+      "year": "原稿年份",
+      "topics": [
+        "evolution-organization",
+        "performance-observability"
+      ],
+      "official_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/zab-high-performance-broadcast-for-primary-backup-systems.pdf",
+      "cited_by_count_snapshot": null,
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/zab-high-performance-broadcast-for-primary-backup-systems.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    }
+  ]
+}

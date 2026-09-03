@@ -1,0 +1,2413 @@
+{
+  "schema_version": 2,
+  "field": "ai-product",
+  "title": "AI 产品经理",
+  "updated_at": "2026-09-02",
+  "storage_policy": "只保存无需购买、无需登录即可连续阅读的系统教材、完整实践手册和论文全文 URL；不下载、不镜像原文。",
+  "selection_policy": [
+    "先按 AI 产品经理的实际决策链建立十个模块，再确定每个模块需要什么证据，而不是按热度堆链接。",
+    "教材必须承担连续教学任务，并覆盖课程主线中的一组相邻决策；标准、法规、检查表、单篇文章和孤立工具不得作为教材凑数。",
+    "开放教材优先采用作者、出版机构、大学、OER 仓储和明确开放许可的完整书稿；商业购买页、登录页和来源不明的镜像不收录。",
+    "论文候选由 Tavily 在官方全文域检索，随后按题名相关性、方法价值、代表性和模块覆盖人工筛选。",
+    "收录只说明全文入口和主题归属已经核验；课程写作仍须阅读原稿，并记录实际采用的观点与边界。"
+  ],
+  "modules": [
+    {
+      "id": "problem-discovery",
+      "name": "问题发现与价值判断",
+      "goal": "识别值得用 AI 解决的用户任务，并把价值、风险与证据写成可证伪假设。"
+    },
+    {
+      "id": "workflow",
+      "name": "工作流与人机分工",
+      "goal": "设计人、模型、工具和审核节点之间的分工，而不是只画一个聊天框。"
+    },
+    {
+      "id": "capability-architecture",
+      "name": "能力边界与产品架构",
+      "goal": "理解模型、检索、工具、记忆和 Agent 的能力边界，完成任务—能力匹配。"
+    },
+    {
+      "id": "evaluation",
+      "name": "评测合同与质量门槛",
+      "goal": "把模糊的“效果好”改写为任务集、指标、切片、人工评审与发布门槛。"
+    },
+    {
+      "id": "experimentation",
+      "name": "实验、指标与因果",
+      "goal": "连接离线评测、在线实验、护栏指标和因果判断，避免把相关性当成产品价值。"
+    },
+    {
+      "id": "ux-trust",
+      "name": "交互、信任与可控性",
+      "goal": "通过期望管理、解释、纠错、确认和降级机制校准用户依赖。"
+    },
+    {
+      "id": "operations",
+      "name": "上线运营与学习闭环",
+      "goal": "治理数据反馈、监控、版本、事故和成本，让产品在真实使用中持续可控。"
+    },
+    {
+      "id": "governance",
+      "name": "治理、责任与合规",
+      "goal": "用风险分级、影响评估、系统卡和责任边界把原则转成产品动作。"
+    },
+    {
+      "id": "economics",
+      "name": "商业价值与组织采用",
+      "goal": "判断采用率、生产率、单位经济和组织改变，而不是只计算模型调用费用。"
+    },
+    {
+      "id": "strategy-organization",
+      "name": "产品战略与组织能力",
+      "goal": "判断自建或采购、能力积累、责任归属和组织准备度如何影响 AI 产品成败。"
+    },
+    {
+      "id": "generative-ai",
+      "name": "生成式 AI 产品设计",
+      "goal": "处理开放式输出、共创、Copilot、生成式界面和 Agent 产品特有的设计问题。"
+    }
+  ],
+  "resources": [
+    {
+      "id": "book-pair-guidebook",
+      "title": "People + AI Guidebook",
+      "creator": "Google PAIR",
+      "year": "持续更新",
+      "modules": [
+        "problem-discovery",
+        "workflow",
+        "ux-trust"
+      ],
+      "level": "starter",
+      "role": "沿用户需求、数据、心智模型、解释、反馈和失败恢复，建立人本 AI 产品设计的完整判断顺序。",
+      "content_url": "https://pair.withgoogle.com/guidebook-v2/",
+      "resource_class": "systematic-handbook",
+      "access_proof": "Google PAIR 官方完整在线正文，六章、工作表与设计模式均可直接阅读。",
+      "review_url": "/knowledge-base/reviews/ai-product/pair-guidebook",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-ai-product-manager-handbook-2026",
+      "title": "AI Product Manager Handbook 2026",
+      "creator": "IdeaPlan",
+      "year": "2026",
+      "modules": [
+        "capability-architecture",
+        "evaluation",
+        "ux-trust",
+        "economics",
+        "operations",
+        "strategy-organization"
+      ],
+      "level": "starter",
+      "role": "用十二章串起 AI 适用性、PRD、评测、UX、战略、经济性、监控和组织规模化。",
+      "content_url": "https://www.ideaplan.io/reports/ai-pm-handbook.pdf",
+      "resource_class": "open-textbook",
+      "access_proof": "出版方公开的完整 PDF，可直接读取十二章正文，无需登录或邮箱解锁。",
+      "review_url": "/knowledge-base/reviews/ai-product/ai-product-manager-handbook-2026",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-shape-up",
+      "title": "Shape Up: Stop Running in Circles and Ship Work that Matters",
+      "creator": "Ryan Singer / Basecamp",
+      "year": "2019",
+      "modules": [
+        "problem-discovery",
+        "workflow",
+        "operations",
+        "strategy-organization"
+      ],
+      "level": "core",
+      "role": "从塑形、下注到交付建立固定时间、可变范围、风险预处理和项目责任制。",
+      "content_url": "https://basecamp.com/shapeup",
+      "resource_class": "open-textbook",
+      "access_proof": "Basecamp 官方完整在线书稿，含十五章、附录和术语表。",
+      "review_url": "/knowledge-base/reviews/ai-product/shape-up",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-field-guide-hcd",
+      "title": "The Field Guide to Human-Centered Design",
+      "creator": "IDEO.org",
+      "year": "2015",
+      "modules": [
+        "problem-discovery",
+        "workflow",
+        "ux-trust",
+        "experimentation"
+      ],
+      "level": "starter",
+      "role": "通过灵感、构思和实施三个阶段以及 57 种方法，系统训练用户研究、共创、原型和验证。",
+      "content_url": "https://swchi.org/wp-content/uploads/2020/10/THE-FIELD-GUIDE-TO-HCD-from-IDEO.org_.pdf",
+      "resource_class": "open-textbook",
+      "access_proof": "完整 192 页 PDF；原书以 CC BY-NC-ND 3.0 发布，当前入口保留完整版权与许可页。",
+      "review_url": "/knowledge-base/reviews/ai-product/field-guide-hcd",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-strategic-product-management",
+      "title": "Strategic Product Management",
+      "creator": "Frank Lemser / proProduktmanagement",
+      "year": "2025 更新",
+      "modules": [
+        "problem-discovery",
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "core",
+      "role": "从市场访谈与事实分析出发，逐步形成产品战略、商业计划、路线图和跨部门决策依据。",
+      "content_url": "https://www.pro-productmanagement.com/images/downloads/strategic-product-management-book-open-product-management-workflow.pdf",
+      "resource_class": "open-textbook",
+      "access_proof": "作者机构提供的完整教材 PDF，标注 CC BY-SA 4.0 与 2025 年更新时间。",
+      "review_url": "/knowledge-base/reviews/ai-product/strategic-product-management",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-technical-product-management",
+      "title": "Technical Product Management",
+      "creator": "Frank Lemser / proProduktmanagement",
+      "year": "持续更新",
+      "modules": [
+        "workflow",
+        "capability-architecture",
+        "evaluation",
+        "operations"
+      ],
+      "level": "core",
+      "role": "系统讲解技术产品团队、需求表达、优先级、工作包、成本估算、KPI 与原型验证。",
+      "content_url": "https://www.pro-productmanagement.com/images/downloads/technical-product-management-book-open-product-management-workflow.pdf",
+      "resource_class": "open-textbook",
+      "access_proof": "作者机构提供的完整教材 PDF，可直接打开，无需购买或登录。",
+      "review_url": "/knowledge-base/reviews/ai-product/technical-product-management",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-successful-go-to-market",
+      "title": "Successful Go-to-Market",
+      "creator": "Frank Lemser / proProduktmanagement",
+      "year": "持续更新",
+      "modules": [
+        "experimentation",
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "core",
+      "role": "把定位、营销与销售协同、上市计划、收入预测和资源使用组织成可重复的上市流程。",
+      "content_url": "https://www.pro-productmanagement.com/images/downloads/successfull-go-to-market-book-open-product-management-workflow.pdf",
+      "resource_class": "open-textbook",
+      "access_proof": "作者机构提供的完整教材 PDF，可直接打开，无需购买或登录。",
+      "review_url": "/knowledge-base/reviews/ai-product/successful-go-to-market",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-real-startup-book",
+      "title": "The Real Startup Book",
+      "creator": "Tristan Kromer 等 / Kromatic",
+      "year": "2026 第二版",
+      "modules": [
+        "problem-discovery",
+        "experimentation",
+        "workflow",
+        "generative-ai"
+      ],
+      "level": "core",
+      "role": "用六十余种现场方法连接问题发现、市场实验、产品实验、原型、优先级与 AI 辅助研究。",
+      "content_url": "https://kromatic.com/real-startup-book/",
+      "resource_class": "open-textbook",
+      "access_proof": "作者团队公开的完整在线第二版，可沿目录连续阅读全部方法与附录。",
+      "review_url": "/knowledge-base/reviews/ai-product/real-startup-book",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-product-discovery-playbook",
+      "title": "The Product Discovery Playbook",
+      "creator": "Productboard",
+      "year": "2021",
+      "modules": [
+        "problem-discovery",
+        "workflow",
+        "experimentation"
+      ],
+      "level": "starter",
+      "role": "围绕持续理解用户、问题优先级、验证和证据管理建立产品发现的系统实践路径。",
+      "content_url": "https://www.productboard.com/wp-content/uploads/2021/03/The-Product-Discovery-Playbook.pdf",
+      "resource_class": "systematic-handbook",
+      "access_proof": "Productboard 官方域直接提供的完整 PDF，无需登录。",
+      "review_url": "/knowledge-base/reviews/ai-product/product-discovery-playbook",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-lean-service-creation",
+      "title": "Lean Service Creation Handbook",
+      "creator": "Futurice",
+      "year": "持续更新",
+      "modules": [
+        "problem-discovery",
+        "workflow",
+        "experimentation",
+        "strategy-organization"
+      ],
+      "level": "core",
+      "role": "把设计思维、精益创业和敏捷开发组合为从洞察、价值主张到原型与商业验证的完整服务创建流程。",
+      "content_url": "https://futurice.github.io/lean-service-creation-kit",
+      "resource_class": "systematic-handbook",
+      "access_proof": "Futurice 官方 GitHub Pages 提供完整开放方法库、画布与使用说明。",
+      "review_url": "/knowledge-base/reviews/ai-product/lean-service-creation",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-user-experience-ai",
+      "title": "User Experience + Artificial Intelligence: Assessing the Qualities of AI-infused Systems",
+      "creator": "Davide Spallazzo / Martina Sciannamè / Mauro Ceconello",
+      "year": "2025",
+      "modules": [
+        "ux-trust",
+        "evaluation",
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "从 AI 系统的体验质量出发，系统建立 AIXE 评价方法并展示其验证与产品应用。",
+      "content_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-77521-5.pdf",
+      "resource_class": "open-textbook",
+      "access_proof": "Springer 明确标记为 Open Access Book，107 页 PDF 与 EPUB 均可直接下载。",
+      "review_url": "/knowledge-base/reviews/ai-product/user-experience-ai",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "book-ai-measurement-science",
+      "title": "AI Measurement Science",
+      "creator": "Sang T. Truong / Sanmi Koyejo / Stanford AIMSLab",
+      "year": "2026",
+      "modules": [
+        "evaluation",
+        "capability-architecture",
+        "experimentation",
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "从效度、数据、模型、可靠性和效率建立 AI 评测科学，并延伸到 Agent、监督和评价生态。",
+      "content_url": "https://aimslab.stanford.edu/textbook",
+      "resource_class": "open-textbook",
+      "access_proof": "Stanford AIMSLab 官方完整在线教材，含顺序章节、交互代码、数据集和课程项目。",
+      "review_url": "/knowledge-base/reviews/ai-product/ai-measurement-science",
+      "type": "book",
+      "access": "open",
+      "review_status": "published",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-search-extract-and-manual-curriculum-audit",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-human-ai-guidelines",
+      "type": "paper",
+      "title": "Guidelines for Human-AI Interaction",
+      "creator": "Saleema Amershi 等",
+      "year": "2019",
+      "modules": [
+        "workflow",
+        "ux-trust"
+      ],
+      "level": "core",
+      "role": "提出覆盖初始、交互、失败和长期适应的十八条人机交互设计准则。",
+      "content_url": "https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-model-cards",
+      "type": "paper",
+      "title": "Model Cards for Model Reporting",
+      "creator": "Margaret Mitchell 等",
+      "year": "2019",
+      "modules": [
+        "governance",
+        "evaluation"
+      ],
+      "level": "core",
+      "role": "用模型用途、性能切片、限制和伦理考虑建立对外沟通契约。",
+      "content_url": "https://arxiv.org/pdf/1810.03993",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-datasheets",
+      "type": "paper",
+      "title": "Datasheets for Datasets",
+      "creator": "Timnit Gebru 等",
+      "year": "2021",
+      "modules": [
+        "governance",
+        "operations"
+      ],
+      "level": "core",
+      "role": "用数据动机、组成、采集、处理、使用和维护问题治理数据生命周期。",
+      "content_url": "https://arxiv.org/pdf/1803.09010",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-hidden-debt",
+      "type": "paper",
+      "title": "Hidden Technical Debt in Machine Learning Systems",
+      "creator": "D. Sculley 等",
+      "year": "2015",
+      "modules": [
+        "operations",
+        "capability-architecture"
+      ],
+      "level": "core",
+      "role": "揭示数据依赖、反馈回路、纠缠和配置债务如何改变产品成本。",
+      "content_url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-ml-test-score",
+      "type": "paper",
+      "title": "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction",
+      "creator": "Eric Breck 等",
+      "year": "2017",
+      "modules": [
+        "evaluation",
+        "operations"
+      ],
+      "level": "core",
+      "role": "用数据、模型、基础设施和监控测试评估生产准备度。",
+      "content_url": "https://storage.googleapis.com/gweb-research2023-media/pubtools/4156.pdf",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-data-cascades",
+      "type": "paper",
+      "title": "Data Cascades in High-Stakes AI",
+      "creator": "Nithya Sambasivan 等",
+      "year": "2021",
+      "modules": [
+        "problem-discovery",
+        "operations",
+        "governance"
+      ],
+      "level": "core",
+      "role": "说明早期数据问题如何在组织和产品生命周期中累积为下游伤害。",
+      "content_url": "https://arxiv.org/pdf/2011.03395",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-and-official-source",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2301-12243",
+      "type": "paper",
+      "title": "Investigating How Practitioners Use Human-AI Guidelines: A Case Study on the People + AI Guidebook",
+      "creator": "Nur Yildirim、Mahima Pushkarna、Nitesh Goyal、Martin Wattenberg、Fernanda Viegas",
+      "year": "2023",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2301.12243",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2304-12241",
+      "type": "paper",
+      "title": "Positive AI: Key Challenges in Designing Artificial Intelligence for Wellbeing",
+      "creator": "Willem van der Maden、Derek Lomas、Malak Sadek、Paul Hekkert",
+      "year": "2023",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2304.12241",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2402-07933",
+      "type": "paper",
+      "title": "Human-Centered AI Product Prototyping with No-Code AutoML: Conceptual Framework, Potentials and Limitations",
+      "creator": "Mario Truss、Marc Schmitt",
+      "year": "2024",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2402.07933",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2507-15885",
+      "type": "paper",
+      "title": "ADEPTS: A Capability Framework for Human-Centered Agent Design",
+      "creator": "Pierluca D'Oro、Caley Drooff、Joy Chen、Joseph Tighe",
+      "year": "2025",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2507.15885",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2104-03483",
+      "type": "paper",
+      "title": "Question-Driven Design Process for Explainable AI User Experiences",
+      "creator": "Q. Vera Liao、Milena Pribić、Jaesik Han、Sarah Miller、Daby Sow",
+      "year": "2021",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "core",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2104.03483",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2605-00280",
+      "type": "paper",
+      "title": "How Designers Envision Value-Oriented AI Design Concepts with Generative AI",
+      "creator": "Pitch Sinlapanuntakul、Aayushi Dangol、Xiaoyi Xue、Mark Zachry",
+      "year": "2026",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2605.00280",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2509-12752",
+      "type": "paper",
+      "title": "Participatory AI: A Scandinavian Approach to Human-Centered AI",
+      "creator": "Niklas Elmqvist、Eve Hoggan、Hans-Jörg Schulz、Marianne Graves Petersen、Peter Dalsgaard、Ira Assent、Olav W. Bertelsen、Akhil Arora 等",
+      "year": "2025",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2509.12752",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2605-00282",
+      "type": "paper",
+      "title": "Developing an AI Concept Envisioning Toolkit to Support Reflective Juxtaposition of Values and Harms",
+      "creator": "Pitch Sinlapanuntakul、Soyun Moon、Yuri Kawada、Yeha Chung、Mark Zachry",
+      "year": "2026",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2605.00282",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2112-07467",
+      "type": "paper",
+      "title": "AI Ethics Principles in Practice: Perspectives of Designers and Developers",
+      "creator": "Conrad Sanderson、David Douglas、Qinghua Lu、Emma Schleiger、Jon Whittle、Justine Lacey、Glenn Newnham、Stefan Hajkowicz 等",
+      "year": "2021",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "core",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2112.07467",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2412-07045",
+      "type": "paper",
+      "title": "Identifying the Barriers to Human-Centered Design in the Workplace: Perspectives from UX Professionals",
+      "creator": "Tim Gorichanaz",
+      "year": "2024",
+      "modules": [
+        "problem-discovery"
+      ],
+      "level": "advanced",
+      "role": "用于判断 AI 机会、利益相关者价值、设计约束与人本发现方法。",
+      "content_url": "https://arxiv.org/pdf/2412.07045",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2403-04931",
+      "type": "paper",
+      "title": "A Survey on Human-AI Collaboration with Large Foundation Models",
+      "creator": "Vanshika Vats、Marzia Binta Nizam、Minghao Liu、Ziyuan Wang、Richard Ho、Mohnish Sai Prasad、Vincent Titterton、Sai Venkat Malreddy 等",
+      "year": "2024",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2403.04931",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2404-12056",
+      "type": "paper",
+      "title": "Deconstructing Human-AI Collaboration: Agency, Interaction, and Adaptation",
+      "creator": "Steffen Holter、Mennatallah El-Assady",
+      "year": "2024",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2404.12056",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2509-19152",
+      "type": "paper",
+      "title": "A Scoping Review of Mixed Initiative Visual Analytics in the Automation Renaissance",
+      "creator": "Shayan Monadjemi、Yuhan Guo、Kai Xu、Alex Endert、Anamaria Crisan",
+      "year": "2025",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2509.19152",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2604-07121",
+      "type": "paper",
+      "title": "Mixed-Initiative Context: Structuring and Managing Context for Human-AI Collaboration",
+      "creator": "Haichang Li、Qinshi Zhang、Piaohong Wang、Zhicong Lu",
+      "year": "2026",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2604.07121",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2509-20666",
+      "type": "paper",
+      "title": "Understanding Mode Switching in Human-AI Collaboration: Behavioral Insights and Predictive Modeling",
+      "creator": "Avinash Ajit Nargund、Arthur Caetano、Kevin Yang、Rose Yiwei Liu、Philip Tezaur、Kriteen Shrestha、Qisen Pan、Tobias Höllerer 等",
+      "year": "2025",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2509.20666",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2501-10909",
+      "type": "paper",
+      "title": "Fine-Grained Appropriate Reliance: Human-AI Collaboration with a Multi-Step Transparent Decision Workflow for Complex Task Decomposition",
+      "creator": "Gaole He、Patrick Hemmer、Michael Vössing、Max Schemmer、Ujwal Gadiraju",
+      "year": "2025",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2501.10909",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2602-01481",
+      "type": "paper",
+      "title": "How Users Perceive Mixed-Initiative AI: Attitudes Toward Assistance in Problem Solving",
+      "creator": "Yunhao Luo、Arthur Caetano、Avinash Ajit Nargund、Tobias Höllerer、Misha Sra",
+      "year": "2026",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2602.01481",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2602-15865",
+      "type": "paper",
+      "title": "AI as Teammate or Tool? A Review of Human-AI Interaction in Decision Support",
+      "creator": "Most. Sharmin Sultana Samu、Nafisa Khan、Kazi Toufique Elahi、Tasnuva Binte Rahman、Md. Rakibul Islam、Farig Sadeque",
+      "year": "2026",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2602.15865",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2407-19098",
+      "type": "paper",
+      "title": "Evaluating Human-AI Collaboration: A Review and Methodological Framework",
+      "creator": "George Fragiadakis、Christos Diou、George Kousiouris、Mara Nikolaidou",
+      "year": "2024",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2407.19098",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2604-18096",
+      "type": "paper",
+      "title": "The Collaboration Gap in Human-AI Work",
+      "creator": "Varad Vishwarupe、Marina Jirotka、Nigel Shadbolt、Ivan Flechais",
+      "year": "2026",
+      "modules": [
+        "workflow"
+      ],
+      "level": "advanced",
+      "role": "用于设计混合主动、人机协作、任务分解、控制权和工作流边界。",
+      "content_url": "https://arxiv.org/pdf/2604.18096",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2502-09670",
+      "type": "paper",
+      "title": "The Science of Evaluating Foundation Models",
+      "creator": "Jiayi Yuan、Jiamu Zhang、Andrew Wen、Xia Hu",
+      "year": "2025",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2502.09670",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2506-01793",
+      "type": "paper",
+      "title": "Research-Oriented Human-Centric Evaluation for Foundation Models",
+      "creator": "Yijin Guo、Kaiyuan Ji、Xiaorong Zhu、Junying Wang、Farong Wen、Chunyi Li、Zicheng Zhang、Guangtao Zhai",
+      "year": "2025",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2506.01793",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2304-08354",
+      "type": "paper",
+      "title": "Tool Learning with Foundation Models",
+      "creator": "Yujia Qin、Shengding Hu、Yankai Lin、Weize Chen、Ning Ding、Ganqu Cui、Zheni Zeng、Yufei Huang 等",
+      "year": "2023",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2304.08354",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2211-09110",
+      "type": "paper",
+      "title": "Holistic Evaluation of Language Models",
+      "creator": "Percy Liang、Rishi Bommasani、Tony Lee、Dimitris Tsipras、Dilara Soylu、Michihiro Yasunaga、Yian Zhang、Deepak Narayanan 等",
+      "year": "2022",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "core",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2211.09110",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2302-04761",
+      "type": "paper",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "creator": "Timo Schick、Jane Dwivedi-Yu、Roberto Dessì、Roberta Raileanu、Maria Lomeli、Luke Zettlemoyer、Nicola Cancedda、Thomas Scialom",
+      "year": "2023",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2302.04761",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2305-15334",
+      "type": "paper",
+      "title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "creator": "Shishir G. Patil、Tianjun Zhang、Xin Wang、Joseph E. Gonzalez",
+      "year": "2023",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2305.15334",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2307-16789",
+      "type": "paper",
+      "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "creator": "Yujia Qin、Shihao Liang、Yining Ye、Kunlun Zhu、Lan Yan、Yaxi Lu、Yankai Lin、Xin Cong 等",
+      "year": "2023",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2307.16789",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2308-03688",
+      "type": "paper",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "creator": "Xiao Liu、Hao Yu、Hanchen Zhang、Yifan Xu、Xuanyu Lei、Hanyu Lai、Yu Gu、Hangliang Ding 等",
+      "year": "2023",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2308.03688",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2311-12983",
+      "type": "paper",
+      "title": "GAIA: a benchmark for General AI Assistants",
+      "creator": "Grégoire Mialon、Clémentine Fourrier、Craig Swift、Thomas Wolf、Yann LeCun、Thomas Scialom",
+      "year": "2023",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2311.12983",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2401-13178",
+      "type": "paper",
+      "title": "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents",
+      "creator": "Chang Ma、Junlei Zhang、Zhihao Zhu、Cheng Yang、Yujiu Yang、Yaohui Jin、Zhenzhong Lan、Lingpeng Kong 等",
+      "year": "2024",
+      "modules": [
+        "capability-architecture"
+      ],
+      "level": "advanced",
+      "role": "用于理解基础模型、工具调用和 Agent 的能力边界及产品架构。",
+      "content_url": "https://arxiv.org/pdf/2401.13178",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2408-13338",
+      "type": "paper",
+      "title": "LalaEval: A Holistic Human Evaluation Framework for Domain-Specific Large Language Models",
+      "creator": "Chongyan Sun、Ken Lin、Shiwei Wang、Hulong Wu、Chengfei Fu、Zhen Wang",
+      "year": "2024",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2408.13338",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2508-15361",
+      "type": "paper",
+      "title": "A Survey on Large Language Model Benchmarks",
+      "creator": "Shiwen Ni、Guhong Chen、Shuaimin Li、Xuanang Chen、Siyi Li、Bingli Wang、Qiyao Wang、Xingjian Wang 等",
+      "year": "2025",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2508.15361",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2508-18646",
+      "type": "paper",
+      "title": "Beyond Benchmarks: LLM Evaluation with an Anthropomorphic and Lifecycle-oriented Roadmap",
+      "creator": "Jun Wang、Ninglun Gu、Kailai Zhang、Pengyong Li、Yelun Bao、Jin Yang、Xu Yin、Liwei Liu 等",
+      "year": "2025",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2508.18646",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2504-18838",
+      "type": "paper",
+      "title": "Toward Generalizable Evaluation in the LLM Era: A Survey Beyond Benchmarks",
+      "creator": "Yixin Cao、Shibo Hong、Xinze Li、Jiahao Ying、Yubo Ma、Haiyuan Liang、Yantao Liu、Zijun Yao 等",
+      "year": "2025",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2504.18838",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2309-07462",
+      "type": "paper",
+      "title": "Are Large Language Model-based Evaluators the Solution to Scaling Up Multilingual Evaluation?",
+      "creator": "Rishav Hada、Varun Gumma、Adrian de Wynter、Harshita Diddee、Mohamed Ahmed、Monojit Choudhury、Kalika Bali、Sunayana Sitaram",
+      "year": "2023",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2309.07462",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2505-08253",
+      "type": "paper",
+      "title": "Evaluating LLM Metrics Through Real-World Capabilities",
+      "creator": "Justin K Miller、Wenjia Tang",
+      "year": "2025",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2505.08253",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2410-12857",
+      "type": "paper",
+      "title": "Enterprise Benchmarks for Large Language Model Evaluation",
+      "creator": "Bing Zhang、Mikio Takeuchi、Ryo Kawahara、Shubhi Asthana、Md. Maruf Hossain、Guang-Jie Ren、Kate Soule、Yada Zhu",
+      "year": "2024",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2410.12857",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2507-21504",
+      "type": "paper",
+      "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+      "creator": "Mahmoud Mohammadi、Yipeng Li、Jane Lo、Wendy Yip",
+      "year": "2025",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2507.21504",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2506-11094",
+      "type": "paper",
+      "title": "The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs",
+      "creator": "Songyang Liu、Chaozhuo Li、Jiameng Qiu、Xi Zhang、Feiran Huang、Litian Zhang、Yiming Hei、Philip S. Yu",
+      "year": "2025",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2506.11094",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2406-13990",
+      "type": "paper",
+      "title": "Inference-Time Decontamination: Reusing Leaked Benchmarks for Large Language Model Evaluation",
+      "creator": "Qin Zhu、Qingyuan Cheng、Runyu Peng、Xiaonan Li、Tengxiao Liu、Ru Peng、Xipeng Qiu、Xuanjing Huang",
+      "year": "2024",
+      "modules": [
+        "evaluation"
+      ],
+      "level": "advanced",
+      "role": "用于建立基础模型、LLM 与 Agent 的评测方法、基准边界和质量合同。",
+      "content_url": "https://arxiv.org/pdf/2406.13990",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2212-11366",
+      "type": "paper",
+      "title": "Statistical Challenges in Online Controlled Experiments: A Review of A/B Testing Methodology",
+      "creator": "Nicholas Larsen、Jonathan Stallrich、Srijan Sengupta、Alex Deng、Ron Kohavi、Nathaniel Stevens",
+      "year": "2022",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "core",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2212.11366",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2212-08771",
+      "type": "paper",
+      "title": "Assign Experiment Variants at Scale in Online Controlled Experiments",
+      "creator": "Qike Li、Samir Jamkhande、Pavel Kochetkov、Pai Liu",
+      "year": "2022",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "core",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2212.08771",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2312-10624",
+      "type": "paper",
+      "title": "AutoOffAB: Toward Automated Offline A/B Testing for Data-Driven Requirement Engineering",
+      "creator": "Jie JW Wu",
+      "year": "2023",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "advanced",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2312.10624",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2604-16671",
+      "type": "paper",
+      "title": "Multi-Experiment Analysis",
+      "creator": "Reza Hosseini",
+      "year": "2026",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "advanced",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2604.16671",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2504-09723",
+      "type": "paper",
+      "title": "AgentA/B: Automated and Scalable Web A/BTesting with Interactive LLM Agents",
+      "creator": "Yuxuan Lu、Ting-Yao Hsu、Hansu Gu、Limeng Cui、Yaochen Xie、William Headden、Bingsheng Yao、Akash Veeragouni 等",
+      "year": "2025",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "advanced",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2504.09723",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2510-03468",
+      "type": "paper",
+      "title": "Improving Sensitivity in A/B Tests: Integrating CUPED with Trimmed Mean Techniques",
+      "creator": "Kevin Charette、Tristan Boudreault",
+      "year": "2025",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "advanced",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2510.03468",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2211-03262",
+      "type": "paper",
+      "title": "Detecting Interference in A/B Testing with Increasing Allocation",
+      "creator": "Kevin Han、Shuangning Li、Jialiang Mao、Han Wu",
+      "year": "2022",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "core",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2211.03262",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2402-03915",
+      "type": "paper",
+      "title": "Learning Metrics that Maximise Power for Accelerated A/B-Tests",
+      "creator": "Olivier Jeunen、Aleksei Ustimenko",
+      "year": "2024",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "advanced",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2402.03915",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2308-04929",
+      "type": "paper",
+      "title": "A/B Testing: A Systematic Literature Review",
+      "creator": "Federico Quin、Danny Weyns、Matthias Galster、Camila Costa Silva",
+      "year": "2023",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "advanced",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2308.04929",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2502-08763",
+      "type": "paper",
+      "title": "Evaluating Decision Rules Across Many Weak Experiments",
+      "creator": "Winston Chou、Colin Gray、Nathan Kallus、Aurélien Bibaut、Simon Ejdemyr",
+      "year": "2025",
+      "modules": [
+        "experimentation"
+      ],
+      "level": "advanced",
+      "role": "用于设计在线对照实验、指标敏感度、干扰控制和连续实验体系。",
+      "content_url": "https://arxiv.org/pdf/2502.08763",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2511-16769",
+      "type": "paper",
+      "title": "Trust in AI emerges from distrust in humans: A machine learning study on decision-making guidance",
+      "creator": "Johan Sebastián Galindez-Acosta、Juan José Giraldo-Huertas",
+      "year": "2025",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2511.16769",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2509-23497",
+      "type": "paper",
+      "title": "Dynamic Trust Calibration Using Contextual Bandits",
+      "creator": "Bruno M. Henrique、Eugene Santos",
+      "year": "2025",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2509.23497",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2603-18895",
+      "type": "paper",
+      "title": "From Accuracy to Readiness: Metrics and Benchmarks for Human-AI Decision-Making",
+      "creator": "Min Hun Lee",
+      "year": "2026",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2603.18895",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2501-16627",
+      "type": "paper",
+      "title": "Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making",
+      "creator": "Zichen Chen、Yunhao Luo、Misha Sra",
+      "year": "2025",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2501.16627",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2605-18036",
+      "type": "paper",
+      "title": "Exploring Trust Calibration in XAI - The Impact of Exposing Model Limitations to Lay Users",
+      "creator": "Alfio Ventura、Tim Katzke、Jan Corazza、Mustafa Yalçıner",
+      "year": "2026",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2605.18036",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2402-07632",
+      "type": "paper",
+      "title": "Understanding the Effects of Miscalibrated AI Confidence on User Trust, Reliance, and Decision Efficacy",
+      "creator": "Jingshu Li、Yitian Yang、Renwen Zhang、Q. Vera Liao、Tianqi Song、Zhengtao Xu、Yi-chieh Lee",
+      "year": "2024",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2402.07632",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2410-20067",
+      "type": "paper",
+      "title": "Evaluating the Influences of Explanation Style on Human-AI Reliance",
+      "creator": "Emma Casolin、Flora D. Salim、Ben Newell",
+      "year": "2024",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2410.20067",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2509-08010",
+      "type": "paper",
+      "title": "Measuring and mitigating overreliance to build human-compatible AI",
+      "creator": "Lujain Ibrahim、Katherine M. Collins、Sunnie S. Y. Kim、Anka Reuel、Max Lamparth、Kevin Feng、Lama Ahmad、Prajna Soni 等",
+      "year": "2025",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2509.08010",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2502-13321",
+      "type": "paper",
+      "title": "Adjust for Trust: Mitigating Trust-Induced Inappropriate Reliance on AI Assistance",
+      "creator": "Tejas Srinivasan、Jesse Thomason",
+      "year": "2025",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2502.13321",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2604-05658",
+      "type": "paper",
+      "title": "How Much Trust is Enough? Towards Calibrating Trust in Technology",
+      "creator": "Gabriela Beltrão、Debora F. de Souza、Sonia Sousa、David Lamas",
+      "year": "2026",
+      "modules": [
+        "ux-trust"
+      ],
+      "level": "advanced",
+      "role": "用于研究信任校准、适当依赖、解释方式和高风险人机决策。",
+      "content_url": "https://arxiv.org/pdf/2604.05658",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2504-16789",
+      "type": "paper",
+      "title": "MLOps Monitoring at Scale for Digital Platforms",
+      "creator": "Yu Jeffrey Hu、Jeroen Rombouts、Ines Wilms",
+      "year": "2025",
+      "modules": [
+        "operations"
+      ],
+      "level": "advanced",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2504.16789",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2406-09737",
+      "type": "paper",
+      "title": "A Multivocal Review of MLOps Practices, Challenges and Open Issues",
+      "creator": "Beyza Eken、Samodha Pallewatta、Nguyen Khoi Tran、Ayse Tosun、Muhammad Ali Babar",
+      "year": "2024",
+      "modules": [
+        "operations"
+      ],
+      "level": "advanced",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2406.09737",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2311-12019",
+      "type": "paper",
+      "title": "An Empirical Study of Self-Admitted Technical Debt in Machine Learning Software",
+      "creator": "Aaditya Bhatia、Foutse Khomh、Bram Adams、Ahmed E Hassan",
+      "year": "2023",
+      "modules": [
+        "operations"
+      ],
+      "level": "advanced",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2311.12019",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2503-15577",
+      "type": "paper",
+      "title": "Navigating MLOps: Insights into Maturity, Lifecycle, Tools, and Careers",
+      "creator": "Jasper Stone、Raj Patel、Farbod Ghiasi、Sudip Mittal、Shahram Rahimi",
+      "year": "2025",
+      "modules": [
+        "operations"
+      ],
+      "level": "advanced",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2503.15577",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2205-02302",
+      "type": "paper",
+      "title": "Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+      "creator": "Dominik Kreuzberger、Niklas Kühl、Sebastian Hirschl",
+      "year": "2022",
+      "modules": [
+        "operations"
+      ],
+      "level": "core",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2205.02302",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2604-16371",
+      "type": "paper",
+      "title": "A Systematic Review of MLOps Tools: Tool Adoption, Lifecycle Coverage, and Critical Insights",
+      "creator": "Zakkarija Micallef、Keerthiga Rajenthiram、Ilias Gerostathopoulos",
+      "year": "2026",
+      "modules": [
+        "operations"
+      ],
+      "level": "advanced",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2604.16371",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-1606-03966",
+      "type": "paper",
+      "title": "Making Contextual Decisions with Low Technical Debt",
+      "creator": "Alekh Agarwal、Sarah Bird、Markus Cozowicz、Luong Hoang、John Langford、Stephen Lee、Jiaji Li、Dan Melamed 等",
+      "year": "2016",
+      "modules": [
+        "operations"
+      ],
+      "level": "core",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/1606.03966",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2201-00162",
+      "type": "paper",
+      "title": "MLOps -- Definitions, Tools and Challenges",
+      "creator": "G. Symeonidis、E. Nerantzis、A. Kazakis、G. A. Papakostas",
+      "year": "2022",
+      "modules": [
+        "operations"
+      ],
+      "level": "core",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2201.00162",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2502-13011",
+      "type": "paper",
+      "title": "Investigating Issues that Lead to Code Technical Debt in Machine Learning Systems",
+      "creator": "Rodrigo Ximenes、Antonio Pedro Santos Alves、Tatiana Escovedo、Rodrigo Spinola、Marcos Kalinowski",
+      "year": "2025",
+      "modules": [
+        "operations"
+      ],
+      "level": "advanced",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2502.13011",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2403-16795",
+      "type": "paper",
+      "title": "\"We Have No Idea How Models will Behave in Production until Production\": How Engineers Operationalize Machine Learning",
+      "creator": "Shreya Shankar、Rolando Garcia、Joseph M Hellerstein、Aditya G Parameswaran",
+      "year": "2024",
+      "modules": [
+        "operations"
+      ],
+      "level": "advanced",
+      "role": "用于治理 MLOps、技术债、生产监控、版本演进和组织协作。",
+      "content_url": "https://arxiv.org/pdf/2403.16795",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2508-18919",
+      "type": "paper",
+      "title": "Impact Assessment Card: Communicating Risks and Benefits of AI Uses",
+      "creator": "Edyta Bogucka、Marios Constantinides、Sanja Šćepanović、Daniele Quercia",
+      "year": "2025",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2508.18919",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2502-13294",
+      "type": "paper",
+      "title": "The \"Who\", \"What\", and \"How\" of Responsible AI Governance: A Systematic Review and Meta-Analysis of (Actor, Stage)-Specific Tools",
+      "creator": "Blaine Kuehnert、Rachel M. Kim、Jodi Forlizzi、Hoda Heidari",
+      "year": "2025",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2502.13294",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2408-12047",
+      "type": "paper",
+      "title": "Do Responsible AI Artifacts Advance Stakeholder Goals? Four Key Barriers Perceived by Legal and Civil Stakeholders",
+      "creator": "Anna Kawakami、Daricia Wilkinson、Alexandra Chouldechova",
+      "year": "2024",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2408.12047",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2312-06153",
+      "type": "paper",
+      "title": "Open Datasheets: Machine-readable Documentation for Open Datasets and Responsible AI Assessments",
+      "creator": "Anthony Cintron Roman、Jennifer Wortman Vaughan、Valerie See、Steph Ballard、Jehu Torres、Caleb Robinson、Juan M. Lavista Ferres",
+      "year": "2023",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2312.06153",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2506-02071",
+      "type": "paper",
+      "title": "AI Data Development: A Scorecard for the System Card Framework",
+      "creator": "Tadesse K. Bahiru、Haileleol Tibebu、Ioannis A. Kakadiaris",
+      "year": "2025",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2506.02071",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2509-20394",
+      "type": "paper",
+      "title": "Blueprints of Trust: AI System Cards for End to End Transparency and Governance",
+      "creator": "Huzaifa Sidhpurwala、Emily Fox、Garth Mollett、Florencio Cano Gabarda、Roman Zhukov",
+      "year": "2025",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2509.20394",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2506-23949",
+      "type": "paper",
+      "title": "AI Risk-Management Standards Profile for General-Purpose AI (GPAI) and Foundation Models",
+      "creator": "Anthony M. Barrett、Jessica Newman、Brandie Nonnecke、Nada Madkour、Dan Hendrycks、Evan R. Murphy、Krystal Jackson、Deepika Raman",
+      "year": "2025",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2506.23949",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2601-22424",
+      "type": "paper",
+      "title": "Toward Third-Party Assurance of AI Systems: Design Requirements, Prototype, and Early Testing",
+      "creator": "Rachel M. Kim、Blaine Kuehnert、Alice Lai、Kenneth Holstein、Hoda Heidari、Rayid Ghani",
+      "year": "2026",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2601.22424",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2407-17374",
+      "type": "paper",
+      "title": "Co-designing an AI Impact Assessment Report Template with AI Practitioners and AI Compliance Experts",
+      "creator": "Edyta Bogucka、Marios Constantinides、Sanja Šćepanović、Daniele Quercia",
+      "year": "2024",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2407.17374",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2601-13122",
+      "type": "paper",
+      "title": "Responsible AI for General-Purpose Systems: Overview, Challenges, and A Path Forward",
+      "creator": "Gourab K Patro、Himanshi Agrawal、Himanshu Gharat、Supriya Panigrahi、Nim Sherpa、Vishal Vaddina、Dagnachew Birru",
+      "year": "2026",
+      "modules": [
+        "governance"
+      ],
+      "level": "advanced",
+      "role": "用于建立责任治理、影响评估、系统卡、审计与风险管理机制。",
+      "content_url": "https://arxiv.org/pdf/2601.13122",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2506-00532",
+      "type": "paper",
+      "title": "Generative AI and Organizational Structure in the Knowledge Economy",
+      "creator": "Fasheng Xu、Jing Hou、Wei Chen、Karen Xie",
+      "year": "2025",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2506.00532",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2604-18849",
+      "type": "paper",
+      "title": "From Exposure to Adoption: Generative AI in European Workplaces",
+      "creator": "Golo Henseke",
+      "year": "2026",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2604.18849",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2304-11771",
+      "type": "paper",
+      "title": "Generative AI at Work",
+      "creator": "Erik Brynjolfsson、Danielle Li、Lindsey Raymond",
+      "year": "2023",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2304.11771",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2608-15550",
+      "type": "paper",
+      "title": "Adoption of Generative AI in the Workplace: Increasing and Shifting the Balance of Productivity and Communication Activity",
+      "creator": "Yulin Yu、Yan Chen、Rui Hu、Siddharth Suri、Scott Counts",
+      "year": "2026",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2608.15550",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2504-11436",
+      "type": "paper",
+      "title": "Shifting Work Patterns with Generative AI",
+      "creator": "Eleanor Wiske Dillon、Sonia Jaffe、Nicole Immorlica、Christopher T. Stanton",
+      "year": "2025",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2504.11436",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2510-12049",
+      "type": "paper",
+      "title": "Generative AI and Sales Productivity: Field Experiments in Online Retail",
+      "creator": "Lu Fang、Zhe Yuan、Kaifu Zhang、Dante Donati、Miklos Sarvary",
+      "year": "2025",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2510.12049",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2502-13281",
+      "type": "paper",
+      "title": "Beyond Training: How Workers Discover Value in Enterprise AI",
+      "creator": "Riya Sahni、Lydia B. Chilton",
+      "year": "2025",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2502.13281",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2608-11626",
+      "type": "paper",
+      "title": "Organizational Technology Ladders: Remote Work and Generative AI Adoption",
+      "creator": "Gregor Schubert",
+      "year": "2026",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2608.11626",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2505-14588",
+      "type": "paper",
+      "title": "Generative AI at the Crossroads: Light Bulb, Dynamo, or Microscope?",
+      "creator": "Martin Baily、David Byrne、Aidan Kane、Paul Soto",
+      "year": "2025",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2505.14588",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2410-18334",
+      "type": "paper",
+      "title": "Dear Diary: A randomized controlled trial of Generative AI coding tools in the workplace",
+      "creator": "Jenna Butler、Jina Suh、Sankeerti Haniyur、Constance Hadley",
+      "year": "2024",
+      "modules": [
+        "economics",
+        "strategy-organization"
+      ],
+      "level": "advanced",
+      "role": "用于判断生成式 AI 的采用、生产率、组织结构与真实商业价值。",
+      "content_url": "https://arxiv.org/pdf/2410.18334",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2301-05578",
+      "type": "paper",
+      "title": "Toward General Design Principles for Generative AI Applications",
+      "creator": "Justin D. Weisz、Michael Muller、Jessica He、Stephanie Houde",
+      "year": "2023",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2301.05578",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2411-02662",
+      "type": "paper",
+      "title": "Interaction Design with Generative AI: An Empirical Study of Emerging Strategies Across the Four Phases of Design",
+      "creator": "Marie Muehlhaus、Jürgen Steimle",
+      "year": "2024",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2411.02662",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2501-13145",
+      "type": "paper",
+      "title": "The GenUI Study: Exploring the Design of Generative UI Tools to Support UX Practitioners and Beyond",
+      "creator": "Xiang 'Anthony' Chen、Tiffany Knearem、Yang Li",
+      "year": "2025",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2501.13145",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2507-17774",
+      "type": "paper",
+      "title": "Human-AI Co-Creation: A Framework for Collaborative Design in Intelligent Systems",
+      "creator": "Zhangqi Liu",
+      "year": "2025",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2507.17774",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2505-15049",
+      "type": "paper",
+      "title": "Towards a Working Definition of Designing Generative User Interfaces",
+      "creator": "Kyungho Lee",
+      "year": "2025",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2505.15049",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2602-05299",
+      "type": "paper",
+      "title": "Co-Designing Collaborative Generative AI Tools for Freelancers",
+      "creator": "Kashif Imteyaz、Michael Muller、Claudia Flores-Saviaga、Saiph Savage",
+      "year": "2026",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2602.05299",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2510-23324",
+      "type": "paper",
+      "title": "Partnering with Generative AI: Experimental Evaluation of Human-Led and Model-Led Interaction in Human-AI Co-Creation",
+      "creator": "Sebastian Maier、Manuel Schneider、Stefan Feuerriegel",
+      "year": "2025",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2510.23324",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2509-12491",
+      "type": "paper",
+      "title": "Good Vibrations? A Qualitative Study of Co-Creation, Communication, Flow, and Trust in Vibe Coding",
+      "creator": "Veronica Pimenova、Sarah Fakhoury、Christian Bird、Margaret-Anne Storey、Madeline Endres",
+      "year": "2025",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2509.12491",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2405-01543",
+      "type": "paper",
+      "title": "Transforming Software Development with Generative AI: Empirical Insights on Collaboration and Workflow",
+      "creator": "Rasmus Ulfsnes、Nils Brede Moe、Viktoria Stray、Marianne Skarpen",
+      "year": "2024",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2405.01543",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    },
+    {
+      "id": "paper-arxiv-2312-14231",
+      "type": "paper",
+      "title": "Building Your Own Product Copilot: Challenges, Opportunities, and Needs",
+      "creator": "Chris Parnin、Gustavo Soares、Rahul Pandita、Sumit Gulwani、Jessica Rich、Austin Z. Henley",
+      "year": "2023",
+      "modules": [
+        "generative-ai"
+      ],
+      "level": "advanced",
+      "role": "用于设计生成式界面、Copilot、共创工作流与新型产品交互。",
+      "content_url": "https://arxiv.org/pdf/2312.14231",
+      "access": "open",
+      "verification": {
+        "status": "fulltext-url-verified",
+        "method": "tavily-arxiv-search-and-arxiv-api",
+        "checked_at": "2026-09-02"
+      }
+    }
+  ]
+}

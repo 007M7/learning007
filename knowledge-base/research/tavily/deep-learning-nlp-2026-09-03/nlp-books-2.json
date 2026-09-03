@@ -1,0 +1,170 @@
+{
+  "query": "open online NLP book information retrieval corpus annotation multilingual ethics text mining official",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://github.com/keon/awesome-nlp",
+      "title": "GitHub - keon/awesome-nlp: :book: A curated list of resources dedicated to Natural Language Processing (NLP) · GitHub",
+      "content": "MiLMMT-46 (Xiaomi, 2026) - open multilingual MT scaled across 46 languages, matching commercial systems like Google Translate and Gemini 3 Pro. [...] ## Datasets\n\nBack to Top\n\nDataset hubs and lists:\n\n HuggingFace Datasets Hub - the central index for modern NLP datasets, with versioned, streamable loaders.\n nlp-datasets - large collection of NLP datasets.\n gensim-data - data repository for pretrained NLP models and NLP corpora.\n\nPretraining-scale corpora (open):\n\n The Pile - 825 GiB diverse text corpus.\n RedPajama / RedPajama-V2 (2023-2024) - reproductions of LLaMA pretraining data; V2 is 30T tokens with quality signals.\n Dolma (AI2, 2023-2024) - 3T-token open pretraining corpus with documented filtering pipeline.\n FineWeb / FineWeb-Edu (2024) - 15T-token cleaned web corpus; FineWeb-Edu filters for educational quality.\n CulturaX - 6.3T tokens across 167 languages.\n Common Corpus (2024) - 2T-token open-license multilingual corpus. [...] GATE - General Architecture and Text Engineering is 15+ years old, free and open source\n Anafora is free and open source, web-based raw text annotation tool\n brat - brat rapid annotation tool is an online environment for collaborative text annotation\n doccano - doccano is free, open-source, and provides annotation features for text classification, sequence labeling and sequence to sequence\n INCEpTION - A semantic annotation platform offering intelligent assistance and knowledge management\n prodigy is an annotation tool powered by active learning, costs $\n LightTag - Hosted and managed text annotation tool for teams, costs $\n rstWeb - open source local or online tool for discourse tree annotations",
+      "score": 0.39452806,
+      "raw_content": null,
+      "id": "281ef3-00"
+    },
+    {
+      "url": "https://www.nltk.org/book_1ed/ch00.html",
+      "title": "Preface",
+      "content": "This book provides a highly accessible introduction to the field of NLP. It can be used for individual study or as the textbook for a course on natural language processing or computational linguistics, or as a supplement to courses in artificial intelligence, text mining, or corpus linguistics. The book is intensely practical, containing hundreds of fully-worked examples and graded exercises.\n\nThe book is based on the Python programming language together with an open source library called the Natural Language Toolkit (NLTK). NLTK includes extensive software, data, and documentation, all freely downloadable from  Distributions are provided for Windows, Macintosh and Unix platforms. We strongly encourage you to download Python and NLTK, and try out the examples and exercises along the way. [...] Technologies based on NLP are becoming increasingly widespread. For example, phones and handheld computers support predictive text and handwriting recognition; web search engines give access to information locked up in unstructured text; machine translation allows us to retrieve texts written in Chinese and read them in Spanish. By providing more natural human-machine interfaces, and more sophisticated access to stored information, language processing has come to play a central role in the multilingual information society. [...] This is a book about Natural Language Processing. By \"natural language\" we mean a language that is used for everyday communication by humans; languages like English, Hindi or Portuguese. In contrast to artificial languages such as programming languages and mathematical notations, natural languages have evolved as they pass from generation to generation, and are hard to pin down with explicit rules. We will take Natural Language Processing — or NLP for short — in a wide sense to cover any kind of computer manipulation of natural language. At one extreme, it could be as simple as counting word frequencies to compare different writing styles. At the other extreme, NLP involves \"understanding\" complete human utterances, at least to the extent of being able to give useful responses to them.",
+      "score": 0.39138326,
+      "raw_content": null,
+      "id": "8622d6-01"
+    },
+    {
+      "url": "https://www.routledge.com/Natural-Language-Processing-and-Information-Retrieval-Principles-and-Applications/Garg-Kumar-KhaderJilaniSaudagar/p/book/9781032154930",
+      "title": "Natural Language Processing and Information Retrieval: Principles and",
+      "content": "This book presents the basics and recent advancements in natural language processing and information retrieval in a single volume. It will serve as an ideal reference text for graduate students and academic researchers in interdisciplinary areas of electrical engineering, electronics engineering, computer engineering, and information technology. This text emphasizes the existing problem domains and possible new directions in natural language processing and information retrieval. It discusses the importance of information retrieval with the integration of machine learning, deep learning, and word embedding. This approach supports the quick evaluation of real-time data. It covers important topics including rumor detection techniques, sentiment analysis using graph-based techniques, social [...] sentiment analysis using graph-based techniques, social media data analysis, and language-independent text mining. [...] Features:  \n  \n• Covers aspects of information retrieval in different areas including healthcare, data analysis, and machine translation  \n• Discusses recent advancements in language- and domain-independent information extraction from textual and/or multimodal data  \n• Explains models including decision making, random walk, knowledge graphs, word embedding, n-grams, and frequent pattern mining  \n• Provides integrated approaches of machine learning, deep learning, and word embedding for natural language processing  \n• Covers latest datasets for natural language processing and information retrieval for social media like Twitter",
+      "score": 0.29370874,
+      "raw_content": null,
+      "id": "c152eb-02"
+    },
+    {
+      "url": "https://libguides.ntu.edu.sg/TDM/books",
+      "title": "Books on TDM - Text and Data Mining - LibGuides at Nanyang Technological University",
+      "content": "ISBN: 9789811600999\n\n  Publication Date: 2021\n\n  This book explores text data mining from a natural language processing (NLP) perspective, covering fundamental theories and methods such as pre-processing, text representation, classification, and clustering. It also examines key applications, including topic modeling, sentiment analysis, opinion mining, information extraction, and automatic text summarization.\n    Text Mining : a guidebook for the social sciences \n\n  ISBN: 9781483369341\n\n  Publication Date: 2017 [...] ISBN: 9781484243534\n\n  Publication Date: 2019\n\n  This book provides a comprehensive guide to NLP in Python, incorporating machine learning and deep learning for text analytics. It introduces state-of-the-art frameworks for sentiment analysis, topic modeling, text summarization, and named entity recognition (NER). Readers will learn how to engineer text representations, apply statistical and deep learning-based embedding models, and develop real-world applications like movie recommenders and sentiment analysis tools.\n    Text Mining with R \n\n  ISBN: 9781491981658\n\n  Publication Date: 2017 [...] ISBN: 9783030464929\n\n  Publication Date: 2020\n\n  This book explores how Language Technology—encompassing text mining, computational linguistics, and NLP—can enhance humanities research by enabling the analysis of large textual datasets like Google Books and Project Gutenberg. With practical examples from history, literary studies, and linguistics, it serves as a valuable resource for students and researchers in the digital humanities.\n    Practical Text Analytics : Maximizing the Value of Text Data \n\n  ISBN: 9783319956626\n\n  Publication Date: 2019",
+      "score": 0.27553815,
+      "raw_content": null,
+      "id": "ca9b36-03"
+    },
+    {
+      "url": "https://www.mdpi.com/2076-3417/15/17/9634",
+      "title": "NLP and Text Mining for Enriching IT Professional Skills Frameworks",
+      "content": "5. Tissot, P.; Centre Européen Pour le développement de la Formation Professionnelle. Terminology of Vocational Training Policy: A Multilingual Glossary for an Enlarged Europe; Office for Official Publications of the European Communities: Luxembourg, 2004. [Google Scholar]\n6. Blázquez, M. Skills-Based Profiling and Matching in PES; Publications Office of the European Union: Luxembourg, 2014. [Google Scholar]\n7. Geskus, D. Skill frameworks: Definition and Use. Available online:  (accessed on 28 June 2025).\n8. European Commission. European Multilingual Classification of Skills, Competences, Qualifications and Occupations. ESCO. Available online:  (accessed on 19 June 2024). [...] text. The MPNet model demonstrates robustness to textual variations and can effectively capture semantic similarity without explicit preprocessing. It is highly capable of processing input sentences in conjunction with multiple corpora, allowing it to retrieve the most similar sentences from the relevant corpus along with their associated similarity scores . [...] ### 3.3. Text Embedding Using LLMs\n\nWord Embedding is currently the standard in machine learning methods for NLP. It is a matrix that represents the interdependence between words in a given linguistic corpus. This matrix is N x dimension, where N is the number of words in a corpus, and the dimension is most often 100 or 300 . The representation can be a set of real numbers (a vector). Word embeddings are scattered depiction of a text in an n-dimensional space, which tries to capture the word meanings . Embeddings go beyond lexical similarity by capturing the meaning of words in context. For example, embeddings can differentiate between “bank” as a financial institution and “bank” as a riverbank.",
+      "score": 0.23035698,
+      "raw_content": null,
+      "id": "5c9c82-04"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9281254",
+      "title": "Natural language processing: state of the art, current trends and challenges",
+      "content": "Skip to main content\n\nImage 1\n\nAn official website of the United States government\n\nHere's how you know\n\nHere's how you know\n\nImage 2\n\nOfficial websites use .gov\n\n A .gov website belongs to an official government organization in the United States.\n\nImage 3\n\nSecure .gov websites use HTTPS\n\n A lock ( ) or  means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.\n\nImage 4: NCBI home page\n\nImage 5: PMC search open iconSearch \n\nImage 6Log inImage 7Image 8\n   Dashboard\n   Publications\n   Account settings\n    Log out \n\n Search…   Search NCBI \n\nPrimary site navigation\n\nImage 9: Close Search  Image 10: Search\n\nLogged in as:\n\n   Dashboard\n   Publications\n   Account settings\n\n Log in [...] into four datasets, each of which is annotated with a two-value scale that distinguishes between positive and negative sentiment at the document level. The corpus contains data from a variety of fields, including book reviews, product reviews, movie reviews, and song lyrics. The annotators meticulously followed the annotation technique for each of them. The folder “Song Lyrics” in the corpus contains 339 Telugu song lyrics written in Telugu script .2.Language Modelling: Language models analyse text data to calculate word probability. They use an algorithm to interpret the data, which establishes rules for context in natural language. The model then uses these rules to accurately predict or construct new sentences. The model basically learns the basic characteristics and features of [...] launched its own data distribution portal (www.tdil-dc.in) which has cataloged datasets .3.Machine Translation: The task of converting the text of one natural language into another language while keeping the sense of the input text is known as machine translation. Majorly used datasets are as follows:Tatoeba is a collection of multilingual sentence pairings. A tab-delimited pair of an English text sequence and the translated French text sequence appears on each line of the dataset. Each text sequence might be as simple as a single sentence or as complex as a paragraph of many sentences.The Europarl parallel corpus is derived from the European Parliament’s proceedings. It is available in 21 European languages .WMT14 provides machine translation pairs for English-German and English-French.",
+      "score": 0.22903514,
+      "raw_content": null,
+      "id": "453bd6-05"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950705104000309",
+      "title": "A multilingual text mining approach to web cross-lingual text retrieval",
+      "content": "To enable concept-based cross-lingual text retrieval (CLTR) using multilingual text mining, our approach will first discover the multilingual concept–term",
+      "score": 0.22782172,
+      "raw_content": null,
+      "id": "091136-06"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32570404",
+      "title": "On the Construction of Multilingual Corpora for Clinical Text Mining",
+      "content": "To improve the potential of natural language processing research, we developed tools to derive language specific medical corpora from publicly",
+      "score": 0.21980645,
+      "raw_content": null,
+      "id": "b71b55-07"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.5555/2602251",
+      "title": "Computational Methods for Corpus Annotation and Analysis:",
+      "content": "The book covers a wide range of computational tools for lexical, syntactic, semantic, pragmatic and discourse analysis, together with detailed",
+      "score": 0.1980335,
+      "raw_content": null,
+      "id": "2c2ed5-08"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7905448",
+      "title": "Opportunities and challenges of text mining in aterials research",
+      "content": "Information retrieval (IR) represents a broad spectrum of NLP tasks that extract various types of data from the pre-processed corpus (Figure 3). The most ubiquitous IR task is _named entities recognition_ (NER) which classifies text tokens in a specific category. In general-purpose text, these categories are usually names of locations, persons, etc., but in scientific literature the named entities can include chemical terms as well as physical parameters and properties. Extraction of action graphs of chemical synthesis and materials fabrication is another class of IR task that is closely related to NER. This task requires identification of action keywords, linking of them into a graph structure, and, if necessary, augmenting with the corresponding attributes characterizing the action [...] .Krallinger M., Rabal O., Leitner F., Vazquez M., Salgado D., Lu Z., Leaman R., Lu Y., Ji D., Lowe D.. The CHEMDNER corpus of chemicals and drugs and its annotation principles. _J.Cheminform._. 2015. 7:S2. doi: 10.1186/1758-2946-7-S1-S2 [DOI] [PMC free article] [PubMed] [Google Scholar]\n   .Krallinger M., Rabal O., Lourenço A., Oyarzabal J., Valencia A.. Information retrieval and text mining Technologies for chemistry. _Chem. Rev._. 2017. 117:7673-7761. doi: 10.1021/acs.chemrev.6b00851 [DOI] [PubMed] [Google Scholar]\n   .Kulkarni C., Xu W., Ritter A., Machiraju R.. An annotated corpus for machine reading of instructions in wet lab protocols. Association for Computational Linguistics; 2018. Volume 2:97-106. doi: 10.18653/v1/N18-2016 [DOI] [Google Scholar] [...] While a comprehensive discussion of the algorithms and methods used to accomplish each task of the pipeline is beyond the scope of this review, we cover in this Section those methods that are widely applied in scientific TM. We also revise state-of-the-art NLP parsing tools needed to handle chemical and materials science texts. We emphasize the challenges arising along the way and discuss possible solutions. For details and theoretical background on TM and NLP models in general, we refer the reader to the following books (Miner et al., 2012): and (Jurafsky and Martin, 2009).\n\n### Obtaining the text corpus",
+      "score": 0.19650257,
+      "raw_content": null,
+      "id": "e67bfa-09"
+    },
+    {
+      "url": "https://library.au.int/multilingual-text-mining",
+      "title": "Multilingual Text Mining | AUC Library",
+      "content": "CITATION: Chew, Peter A.. Multilingual Text Mining edited by Wang, John . Hershey : IGI Global , 2008. Encyclopedia of Data Warehousing and Mining, Second Edition - Available at: \n\nAfrican Union   \nLIBRARY\n\n©The AU Library, 2026\n\n\"Books are a Capital Resource.  \nThe more they are used,  \nthe more they add value  \ninto the lives of the readers....\"  \nDeputy Chairperson of the AUC, Feb. 2019\n\nLibrary Hours  \nMonday-Friday (Mornings): 8am-1pm  \nMonday-Friday (Afternoons): 2pm-5pm  \nClosed on Weekends and AU Officials Holidays\\\n\nLinks  \nContact us  | Ask a Librarian  \n<FAQ>  | Sitemap  | Help  \nAU Home  | AU Offices  | Webmail [...] languages spoken in general by the world’s population. For example, while English is spoken by under 10% of the world’s population (Gordon 2005), it is still predominant on the WWW, accounting for perhaps two-thirds of documents. There are variety of possible reasons for this disparity, including technological inequities between different parts of the world and the fact that the WWW had its genesis in an English-speaking country. Whatever the cause for the dominance of English, the fact that two-thirds of the WWW is in one language is, in all likelihood, a major reason that the concept of multilingual text mining is still relatively new. Until recently, there simply has not been a significant and widespread need for multilingual text mining. A number of recent developments have begun to [...] text mining. A number of recent developments have begun to change the situation, however. Perhaps these developments can be grouped under the general rubric of ‘globalization’. They include the increasing adoption, use, and popularization of the WWW in non-Englishspeaking societies; the trend towards political integration of diverse linguistic communities (highly evident, for example, in the European Union); and a growing interest in understanding social, technological and political developments in other parts of the world. All these developments contribute to a greater demand for multilingual text processing – essentially, methods for handling, managing, and comparing documents in multiple languages, some of which may not even be known to the end user.",
+      "score": 0.18594754,
+      "raw_content": null,
+      "id": "d2eca2-10"
+    },
+    {
+      "url": "https://guides.library.uq.edu.au/tools-and-techniques/text-mining-and-analysis/ethics-copyright-licensing-etiquette",
+      "title": "Ethics, copyright, licensing and etiquette - Text mining and text analysis - Library Guides at University of Queensland Library",
+      "content": "## Online mining etiquette\n\nEven if the licence permits it, some approaches to text and data mining are considered poor etiquette due to the inconvenience they can cause to data providers. For example, bulk scraping or non-rate-limited programmatic querying via APIs can place a significant burden on data providers’ servers, causing slow response times or even down time for other users. Best practice is to check the requirements of the data provider and comply with their preferences regarding data mining activities. [...] For example, many data providers license their data to be mined for research purposes only and either prohibit or require special negotiation for data mining with potential commercial applications. If you have any questions about licensing conditions or negotiating permission for potential commercial applications of data mining with data providers please contact your Librarian.\n\n## Online mining etiquette [...] # Text mining and text analysis\n\n## Ethics\n\nWhen accessing research data made available by other organisations it is important that mining activities do not inadvertently disclose confidential information or breach the privacy of research subjects. Although the primary responsibility for the ethical collection, storage and access to research data sits with the research owner, it may be possible to filter data in ways that can reveal confidential or identifying details. This is why some data owners require researchers to make application to use their data or may license its use via a formal agreement or Creative Commons license. Researchers need to ensure that they abide by the terms of use of any data they access.\n\n## Copyright",
+      "score": 0.18042447,
+      "raw_content": null,
+      "id": "384f86-11"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/information-retrieval-book.html",
+      "title": "Introduction to Information Retrieval",
+      "content": "We'd be pleased to get feedback about how this book works out as a textbook, what is missing, or covered in too much detail, or what is simply wrong. Please send any feedback or comments to: informationretrieval (at) yahoogroups (dot) com\n\n### Online resources\n\nApart from small differences (mainly concerning copy editing and figures), the online editions should have the same content as the print edition.\n\nThe following materials are available online. The date of last update is given in parentheses. [...] # Introduction to Information Retrieval\n\nIntroduction to Information Retrieval\n\nThis is the companion website for the following book.\n\nChristopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, Introduction to Information Retrieval, Cambridge University Press. 2008.\n\nYou can order this book at  CUP, at your local bookstore or on the internet. The best search term to use is the ISBN: 0521865719.\n\nThe book aims to provide a modern approach to information retrieval from a computer science perspective. It is based on a course we have been teaching in various forms at Stanford University, the University of Stuttgart and the University of Munich. [...] |  |  |  |\n --- \n|  | chapter | resources |\n|  | Front matter (incl. table of notations) | pdf |  |\n| 01 | Boolean retrieval | pdf html |\n| 02 | The term vocabulary & postings lists | pdf html |\n| 03 | Dictionaries and tolerant retrieval | pdf html |\n| 04 | Index construction | pdf html |\n| 05 | Index compression | pdf html |\n| 06 | Scoring, term weighting & the vector space model | pdf html |\n| 07 | Computing scores in a complete search system | pdf html |\n| 08 | Evaluation in information retrieval | pdf html |\n| 09 | Relevance feedback & query expansion | pdf html |\n| 10 | XML retrieval | pdf html |\n| 11 | Probabilistic information retrieval | pdf html |\n| 12 | Language models for information retrieval | pdf html |\n| 13 | Text classification & Naive Bayes | pdf html |",
+      "score": 0.1406077,
+      "raw_content": null,
+      "id": "8a1e48-12"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2026.1815172/full",
+      "title": "Frontiers | Text mining and natural language processing in construction research: a scientometric analysis and qualitative review",
+      "content": "### 2.1 Data collection\n\nThe data for this study were collected from three major academic databases: Scopus, Web of Science (WoS) Core Collection, and Google Scholar. These databases were selected to ensure broad coverage and completeness of bibliometric information in the construction domain, as they include literature across multiple languages and publication types, along with detailed metadata such as authorship, institutional affiliations, countries, and cited references. Cross-database retrieval also helps reduce the risk of omission that may arise when relying on a single database source. [...] This rapid increase also reflects the interdisciplinary nature of the field, involving collaboration across computer science, construction engineering, and management disciplines. Notably, since 2024, large language models (LLMs) and generative AI have dominated methodological innovation, rapidly replacing traditional machine learning approaches such as SVM and CNN as the dominant technical framework by early 2026. Retrieval results from the Scopus database further support this observation, indicating that TM and NLP publications related to construction increased at an annual rate of approximately 47% between 2022 and 2024, with interdisciplinary studies accounting for 62% of the total and primarily focusing on the integration of artificial intelligence technologies with construction [...] Text mining and natural language processing are closely related subfields within data science. Text mining primarily focuses on extracting structured information and hidden patterns from unstructured textual data through techniques such as topic modeling, keyword analysis, and sentiment analysis, whereas NLP emphasizes enabling computers to understand, interpret, and generate human language using advanced algorithms and linguistic models. Together, these technologies provide powerful tools to address persistent challenges in the construction sector. For example, text mining can streamline document review by automatically extracting key contractual clauses or identifying recurring safety issues from incident reports, while NLP can facilitate real-time stakeholder communication, automate",
+      "score": 0.137869,
+      "raw_content": null,
+      "id": "4605f8-13"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/natural-language-processing/article/natural-language-processing-applications-for-lowresource-languages/7D3DA31DB6C01B13C6B1F698D4495951",
+      "title": "Natural language processing applications for low-resource languages | Natural Language Processing | Cambridge Core",
+      "content": "Question answering generates automatic answers to questions that users in natural languages pose. It applies to various NLP applications such as information retrieval, chatbot systems, and customer support. While monolingual question-answering models are widespread, expanding multilingual data on the internet demands the evolution of a multilingual question-answering system. The authors (Pawan Lahoti and Singh Reference Pawan Lahoti and Singh2023) curate a multilingual dataset, EHMQuAD, for the question-answering system by using the approach of alignment and synthetic corpora generation, which combines Hindi, English, and a low-resource language, Marathi. The present work also develops an multilingual question answering (MQA) model, EHMMQA, by applying deep neural networks such as [...] Processing low-resource languages to build NLP applications is a challenging task but can be achieved through various strategies. The text data of target languages can be collected from various sources or artificial methods will be applied to enlarge the limited dataset. The community of target languages can be engaged via an online platform to annotate and collect the data for low-resource language. Collaborating with communities, linguistics, and local language experts can provide useful insights and help to create linguistic resources. To process the data, transfer learning and pre-trained models of high-resource languages are applied to adapt low-resource language datasets for specific tasks. [...] Natural language processing (NLP) (Jurafsky Reference Jurafsky2000) focuses on the development of models and algorithms that enable computer systems to understand, process, and generate natural languages in a way that must be valuable and meaningful. It has become essential expertise in various domains such as industrial, cultural, and academic. A wide range of accomplished NLP applications have emerged, significantly affecting and shaping several aspects of our lives. These applications encompass a broad range of fields including sentiment analysis, Chatbot Functionality (Sari et al. Reference Sari, Virnilia, Susanto, Phiedono and Hartono2020), Information Retrieval (Kobayashi and Takeda Reference Kobayashi and Takeda2000), Machine Translation (Brown et al. Reference Brown, Cocke, Della",
+      "score": 0.13745166,
+      "raw_content": null,
+      "id": "336c74-14"
+    },
+    {
+      "url": "https://durham-repository.worktribe.com/output/1621950/an-ethic-for-researching-multilingually-in-transnational-multilingual-multidisiplinary-research-teams",
+      "title": "An ethic for researching multilingually in transnational, multilingual ...",
+      "content": "Our aim is to provide an ethical stance towards multilingual researcher practices in a multilingual network of researchers, who in this case, are working in",
+      "score": 0.13198808,
+      "raw_content": null,
+      "id": "1646b2-15"
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/cambridge-handbook-of-learner-corpus-research/learner-corpora-and-natural-language-processing/058EF05B97B56A022944ABA12A69A5C8",
+      "title": "Learner corpora and natural language processing (Chapter 24) - The Cambridge Handbook of Learner Corpus Research",
+      "content": "Find out more about the Kindle Personal Document Service.\n\n# Save book to Dropbox\n\nTo save content items to your  account,\nplease confirm that you agree to abide by our usage policies.\nIf this is the first time you use this feature, you will be asked to authorise Cambridge Core to connect with your  account.\nFind out more about saving content to Dropbox.\n\n# Save book to Google Drive\n\nTo save content items to your  account,\nplease confirm that you agree to abide by our usage policies.\nIf this is the first time you use this feature, you will be asked to authorise Cambridge Core to connect with your  account.\nFind out more about saving content to Google Drive.\n\nCambridge University Press\n\n## Our Site\n\n## Quick Links\n\n## Our Products\n\n## Join us online\n\nPlease choose a valid location.\n\n# [...] ## Login Alert\n\nTemporary Disruption\n\nWe have implemented additional assurance measures to protect our systems.\n\nAs a result, we have suspended some of our systems and services. We apologise for any temporary disruption some customers may experience.\n\nMenu links\n\n## Book contents\n\n# 24 - Learner corpora and natural language processing\n\nfrom Part V - Learner corpus research and natural language processing\n\nPublished online by Cambridge University Press: \n05 October 2015\n\n## Summary\n\nImage of the first page of this content. For PDF version, please use the ‘Save PDF’ preceeding this image.'\n\n## Information\n\n## Access options\n\n### Book purchase\n\n### Temporarily unavailable\n\n## Accessibility standard: Unknown\n\n### Why this information is here\n\n### Accessibility Information\n\n# Cited by [...] ### Accessibility Information\n\n# Cited by\n\nLoading...\n\n# Save book to Kindle\n\nTo save this book to your Kindle, first ensure no-reply@cambridge.org\nis added to your Approved Personal Document E-mail List under your Personal Document Settings\non the Manage Your Content and Devices page of your Amazon account. Then enter the ‘name’ part\nof your Kindle email address below.\nFind out more about saving to your Kindle.\n\nNote you can select to save to either the @free.kindle.com or @kindle.com variations.\n‘@free.kindle.com’ emails are free but can only be saved to your device when it is connected to wi-fi.\n‘@kindle.com’ emails can be delivered even when you are not connected to wi-fi, but note that service fees apply.\n\nFind out more about the Kindle Personal Document Service.",
+      "score": 0.12123791,
+      "raw_content": null,
+      "id": "74fb05-16"
+    },
+    {
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/x121b4/what_are_your_favorite_nlp_books",
+      "title": "What are your favorite NLP books? : r/LanguageTechnology",
+      "content": "Hi, everyone. I'm looking for recommendations of NLP books you found particularly enjoyable or taught you a key skill for your career. Would also be interested",
+      "score": 0.12086384,
+      "raw_content": null,
+      "id": "20497e-17"
+    },
+    {
+      "url": "https://link.springer.com/book/10.1007/978-3-319-78503-5",
+      "title": "Clinical Text Mining - Springer Nature",
+      "content": "by H Dalianis · Cited by 307 — This open access book describes how to automatically process clinical patient records by using different medical coding systems and various tools.",
+      "score": 0.10350391,
+      "raw_content": null,
+      "id": "2a2f4a-18"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/full/10.1177/2332858420940312",
+      "title": "Content Analysis of Textbooks via Natural Language Processing",
+      "content": "by L Lucy · 2020 · Cited by 230 — A number of recent studies outside education have used NLP methods to study the reflection of gender and other social variables in text: Fast et",
+      "score": 0.0909696,
+      "raw_content": null,
+      "id": "ff800a-19"
+    }
+  ],
+  "response_time": 0.0,
+  "request_id": "253543c1-1e41-4a90-a374-b440317d9e9c"
+}

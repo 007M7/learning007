@@ -1,0 +1,170 @@
+{
+  "query": "open access deep learning textbook official author PDF neural networks transformers generative models 2023 2024 2025",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "url": "https://www.scribd.com/document/878774407/Generative-Deep-Learning-PDF",
+      "title": "Generative Deep Learning by David Foster | PDF | Deep Learning | Machine Learning",
+      "content": "Scribd\n\n# Generative Deep Learning by David Foster\n\nGenerative Deep Learning by David Foster\n\n## Uploaded by\n\nAI-enhanced title and description\n\n# Generative Deep Learning by David Foster\n\nThe book 'Generative Deep Learning' by David Foster provides a comprehensive guide to generative modeling techniques in AI, focusing on methods like variational autoencoders and generative adversarial networks. It aims to equip machine learning engineers and data scientists with practical strategies and insights for enhancing model performance and creativity, utilizing libraries such as Keras and TensorFlow. The author emphasizes the importance of understanding both the theoretical and practical aspects of generative models to empower practitioners in creative domains. [...] # Generative Deep Learning by David Foster\n\nGenerative Deep Learning by David Foster\n\n## Uploaded by\n\nAI-enhanced title and description\n\n## Share this document\n\n## Footer menu\n\n## About\n\n## Support\n\n## Legal\n\n## Social\n\n## Get our free apps\n\nScribd - Download on the App Store\nScribd - Get it on Google Play\n\n## About\n\n## Legal\n\n## Support\n\n## Social\n\n## Get our free apps\n\nScribd - Download on the App Store\nScribd - Get it on Google Play",
+      "score": 0.5622973,
+      "raw_content": null,
+      "id": "a05030-00"
+    },
+    {
+      "url": "https://udlbook.github.io/udlbook",
+      "title": "Understanding Deep Learning",
+      "content": "RECENT NEWS:\n\nContent from this book is now being improved and added to the website . See this video for details.\n\n03/26/26\n\nFive new blogs ( on ODEs and SDEs in machine learning.\n\n01/23/25\n\nAdded bibfile for book andLaTeX for all equations\n\n12/17/24\n\nVideo lectures for chapters 1-12 from Tamer Elsayed of Qatar University.\n\n12/05/24\n\nNew blog on Neural network Gaussian processes\n\n11/14/24\n\nNew blog on Bayesian Neural Networks\n\nCITATION:\n\n```\n\n    @book{prince2023understanding,\n        author = \"Simon J.D. Prince\",\n        title = \"Understanding Deep Learning\",\n        publisher = \"The MIT Press\",\n        year = 2023,\n        url = \"\n    }\n    \n```\n\nFollow me on Twitter or LinkedIn for updates.\n\nDownload full PDF (09 Feb 2026)  \nBuy the bookAnswers to selected questionsErrata [...] 1. Introduction: PDF /  SVG / PPTX\n2. Supervised learning: PDF /  SVG / PPTX\n3. Shallow neural networks: PDF /  SVG / PPTX\n4. Deep neural networks: PDF /  SVG / PPTX\n5. Loss functions: PDF /  SVG / PPTX\n6. Training models: PDF /  SVG / PPTX\n7. Gradients and initialization: PDF /  SVG / PPTX\n8. Measuring performance: PDF /  SVG / PPTX\n9. Regularization: PDF /  SVG / PPTX\n10. Convolutional networks: PDF /  SVG / PPTX\n11. Residual networks: PDF /  SVG / PPTX\n12. Transformers: PDF /  SVG / PPTX\n13. Graph neural networks: PDF /  SVG / PPTX\n14. Unsupervised learning: PDF /  SVG / PPTX\n15. GANs: PDF /  SVG / PPTX\n16. Normalizing flows: PDF /  SVG / PPTX\n17. Variational autoencoders: PDF /  SVG / PPTX\n18. Diffusion models: PDF /  SVG / PPTX\n19. Deep reinforcement learning: PDF /  SVG / PPTX [...] ML Theory",
+      "score": 0.528607,
+      "raw_content": null,
+      "id": "c8de12-01"
+    },
+    {
+      "url": "https://github.com/d2l-ai/d2l-en",
+      "title": "GitHub - d2l-ai/d2l-en: Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 500 universities from 70 countries including Stanford, MIT, Harvard, and Cambridge. · GitHub",
+      "content": "`@book{zhang2023dive,\ntitle={Dive into Deep Learning},\nauthor={Zhang, Aston and Lipton, Zachary C. and Li, Mu and Smola, Alexander J.},\npublisher={Cambridge University Press},\nnote={\\url{\nyear={2023}\n}`\n\n## Endorsements\n\n\"In less than a decade, the AI revolution has swept from research labs to broad industries to every corner of our daily life. Dive into Deep Learning is an excellent text on deep learning and deserves attention from anyone who wants to learn why deep learning has ignited the AI revolution: the most powerful technology force of our time.\" [...] | Name | | Name | Last commit message | Last commit date |\n ---  --- \n| .github | | .github |  |  |\n| chapter\\_appendix-mathematics-for-deep-learning | | chapter\\_appendix-mathematics-for-deep-learning |  |  |\n| chapter\\_appendix-tools-for-deep-learning | | chapter\\_appendix-tools-for-deep-learning |  |  |\n| chapter\\_attention-mechanisms-and-transformers | | chapter\\_attention-mechanisms-and-transformers |  |  |\n| chapter\\_builders-guide | | chapter\\_builders-guide |  |  |\n| chapter\\_computational-performance | | chapter\\_computational-performance |  |  |\n| chapter\\_computer-vision | | chapter\\_computer-vision |  |  |\n| chapter\\_convolutional-modern | | chapter\\_convolutional-modern |  |  |\n| chapter\\_convolutional-neural-networks | | chapter\\_convolutional-neural-networks |  |  | [...] | chapter\\_gaussian-processes | | chapter\\_gaussian-processes |  |  |\n| chapter\\_generative-adversarial-networks | | chapter\\_generative-adversarial-networks |  |  |\n| chapter\\_hyperparameter-optimization | | chapter\\_hyperparameter-optimization |  |  |\n| chapter\\_installation | | chapter\\_installation |  |  |\n| chapter\\_introduction | | chapter\\_introduction |  |  |\n| chapter\\_linear-classification | | chapter\\_linear-classification |  |  |\n| chapter\\_linear-regression | | chapter\\_linear-regression |  |  |\n| chapter\\_multilayer-perceptrons | | chapter\\_multilayer-perceptrons |  |  |\n| chapter\\_natural-language-processing-applications | | chapter\\_natural-language-processing-applications |  |  |",
+      "score": 0.44796792,
+      "raw_content": null,
+      "id": "c9a045-02"
+    },
+    {
+      "url": "https://d2l.ai",
+      "title": "Dive into Deep Learning — Dive into Deep Learning 1.0.3 documentation",
+      "content": "### BibTeX entry for citing the book\n\n  \n\n```\n@book{zhang2023dive, title={Dive into Deep Learning}, author={Zhang, Aston and Lipton, Zachary C. and Li, Mu and Smola, Alexander J.}, publisher={Cambridge University Press}, note={\\url{ year={2023} }\n```\n\n## Table of contents\n\n Preface\n Installation\n Notation [...] ## Framework Adaptation Authors\n\n### Anirudh Dagar\n\nAmazon  \nPyTorch Adaptation  \nJAX Adaptation\n\n### Yuan Tang\n\nAkuity  \nTensorFlow Adaptation\n\n### We thank all the community contributors for making this open source book better for everyone.\n\n#### Contribute to the book\n\n## Each section is an executable Jupyter notebook\n\nYou can modify the code and tune hyperparameters to get instant feedback to accumulate practical experiences in deep learning.\n\nRun  \nlocally\n\nAmazon SageMaker  \nStudio Lab\n\nAmazon  \nSageMaker\n\nGoogle  \nColab\n\n## Mathematics + Figures + Code\n\nWe offer an interactive learning experience with mathematics, figures, code, text, and discussions, where concepts and techniques are illustrated and implemented with experiments on real data sets.\n\n## Active community support [...] ## Active community support\n\nYou can discuss and learn with thousands of peers in the community through the link provided in each section.\n\n## D2L as a textbook or a reference book",
+      "score": 0.42005292,
+      "raw_content": null,
+      "id": "cf9f7c-03"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/392967372_Transformer_Models_in_Deep_Learning_Foundations_Advances_Challenges_and_Future_Directions",
+      "title": "Transformer Models in Deep Learning: Foundations, Advances ...",
+      "content": "PDF | Transformer models have significantly advanced deep learning by introducing parallel processing and enabling the modeling of",
+      "score": 0.40500212,
+      "raw_content": null,
+      "id": "758361-04"
+    },
+    {
+      "url": "https://www.deeplearningbook.org",
+      "title": "Deep Learning",
+      "content": "# Deep Learning\n\n## An MIT Press book\n\n### Ian Goodfellow and Yoshua Bengio and Aaron Courville\n\n  \n\nExercises   Lectures   External Links\n\nThe Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general and deep learning in particular. The online version of the book is now complete and will remain available online for free.\n\nThe deep learning textbook can now be ordered on Amazon.\n\nFor up to date announcements, join our mailing list.\n\n## Citing the book\n\nTo cite this book, please use this bibtex entry: \n\n```\n@book{Goodfellow-et-al-2016, title={Deep Learning}, author={Ian Goodfellow and Yoshua Bengio and Aaron Courville}, publisher={MIT Press}, note={\\url{ year={2016} } \n``` [...] Part III: Deep Learning Research\n\n+ 13 Linear Factor Models\n+ 14 Autoencoders\n+ 15 Representation Learning\n+ 16 Structured Probabilistic Models for Deep Learning\n+ 17 Monte Carlo Methods\n+ 18 Confronting the Partition Function\n+ 19 Approximate Inference\n+ 20 Deep Generative Models\n\n- Bibliography\n- Index\n\n## FAQ\n\n Can I get a PDF of this book?\n\n  No, our contract with MIT Press forbids distribution of too easily copied electronic formats of the book.\n Why are you using HTML format for the web version of the book?\n\n  This format is a sort of weak DRM required by our contract with MIT Press. It's intended to discourage unauthorized copying/editing of the book.\n What is the best way to print the HTML format? [...] Printing seems to work best printing directly from the browser, using Chrome. Other browsers do not work as well.\n Can I translate the book into Chinese?\n\nPosts and Telecom Press has purchased the rights.\n\nIf you notice any typos (besides the known issues listed below) or have suggestions for exercises to add to the website, do not hesitate to contact the authors directly by e-mail at: feedback@deeplearningbook.org\n\nSince the book is complete and in print, we do not make large changes, only small corrections.\n\nKnown issues: In outdated versions of the Edge browser, the \"does not equal\" sign sometimes appears as the \"equals\" sign. This may be resolved by updating to the latest version.",
+      "score": 0.37408215,
+      "raw_content": null,
+      "id": "2b82b7-05"
+    },
+    {
+      "url": "https://dokumen.pub/generative-deep-learning-teaching-machines-to-paint-write-compose-and-play-1492041947-978-1492041948.html",
+      "title": "Generative Deep Learning: Teaching Machines to Paint, Write ...",
+      "content": "In Part I of this book I shall introduce the key techniques that we will be using to build generative models, including an overview of deep learning,",
+      "score": 0.31488264,
+      "raw_content": null,
+      "id": "8f7eae-06"
+    },
+    {
+      "url": "https://www.datacamp.com/blog/top-10-deep-learning-books-to-read-in-2022",
+      "title": "Top 11 Deep Learning Books to Read in 2026 | DataCamp",
+      "content": "Author: Charu C. Aggarwal  \nYear: 2018\n\nNeural Networks and Deep Learning is another great resource for those who are taking their first steps in the world of deep learning. The book covers the most important deep learning algorithms with a balanced and accessible combination of theory, math, and Python code examples. It discusses the relationship between neural networks and traditional machine learning algorithms. Particularly well-suited for students, the book is written in a textbook style and includes exercises, a solution manual, and instructor slides.\n\n### 4. Fundamentals of Deep Learning\n\nFundamentals of Deep Learning: Designing Next-Generation Machine Learning Algorithms by Nithin Buduma, Nikhil Buduma and Joe Papa [...] Author: Andrew W. Trask  \nYear: 2019\n\nGrokking Deep Learning gives one of the most beginner-friendly introductions to deep learning. The book teaches you how to build neural networks from scratch, combining intuitive theory with coding samples while notably using only Python and its popular math-supporting library NumPy.\n\nCovering use cases that range from processing images to translating text into different languages, the book is a great resource for starting your deep learning journey before you’re ready to move on to more complex frameworks.\n\n### 3. Neural Networks and Deep Learning\n\nNeural networks and deep learning.png\n\nNeural networks and deep learning.png\n\nAuthor: Charu C. Aggarwal  \nYear: 2018 [...] Fundamentals of Deep Learning: Designing Next-Generation Machine Learning Algorithms by Nithin Buduma, Nikhil Buduma and Joe Papa\n\nAuthors: Nithin Buduma, Nikhil Buduma, and Joe Papa  \nYear: 2017\n\nWhen neural networks first started to deliver magical results in the 2010s, deep learning became the forefront of artificial intelligence. Today, deep learning is an active area of research, powering some of the most innovative applications in data science. However, deep learning is often seen as a discipline restricted to professionals with PhD-level knowledge of machine learning and mathematics because of its complexity. Fundamentals of Deep Learning proves the opposite.",
+      "score": 0.29666492,
+      "raw_content": null,
+      "id": "15d3b4-07"
+    },
+    {
+      "url": "https://ai.stackexchange.com/questions/41439/modern-graduate-level-machine-learning-books-with-focus-on-generative-models",
+      "title": "Modern graduate-level machine learning books with focus on ...",
+      "content": "Deep Learning by Goodfellow and Bengio; Berkeley CS294-158 is a graduate-level course on deep unsupervised learning. They cover a lot of",
+      "score": 0.21158007,
+      "raw_content": null,
+      "id": "eed940-08"
+    },
+    {
+      "url": "https://theaisummer.com/learn-ai",
+      "title": "Learn AI - AI Summer",
+      "content": "Deep Learning in Production · Introduction to Deep Learning & Neural Networks · Representation Learning MSc course 2023 · Deep Reinforcement Learning Course.",
+      "score": 0.19966704,
+      "raw_content": null,
+      "id": "8f46de-09"
+    },
+    {
+      "url": "https://www.reddit.com/r/unt/comments/1aeeiy5/online_textbookpdf_resources_megathread_post_your",
+      "title": "Online Textbook/PDF Resources Megathread (Post Your ...",
+      "content": "Image 35: u/ivyinteractive avatar ivyinteractive  •Ad    AI agents can now write 99% of the code. This changes what it means to be a developer. Our role shifts to knowing what good looks like. To do that, we need completely new developer tools. Tendril is that tool and replaces your IDE in an agentic era.    Image 36: Thumbnail image: AI agents can now write 99% of the code. This changes what it means to be a developer. Our role shifts to knowing what good looks like. To do that, we need completely new developer tools. Tendril is that tool and replaces your IDE in an agentic era.    ivy.app  Download   \n\n  \n\n   The End Times are here.Image 37 r/unt•4mo ago    ### The End Times are here.  Image 38: r/unt - The End Times are here.   123 upvotes ·25 comments [...] Books for ClassesImage 62 r/unt•2mo ago    ### Books for Classes    6 upvotes ·8 comments    \n\n  \n\n   StrugglingImage 63 r/unt•7d ago    ### Struggling    34 upvotes ·49 comments    \n\n  \n\n   How tf do you take notes from textbooks (-anxious freshman)Image 64 r/unt•12d ago    ### How tf do you take notes from textbooks (-anxious freshman)    17 upvotes ·12 comments    \n\n  \n\n   Built a Grade Distribution Website for UNT to Help with RegistrationImage 65 r/unt•6mo ago    ### Built a Grade Distribution Website for UNT to Help with Registration    37 upvotes ·13 comments    \n\n  \n\n## View Post in\n\n简体中文\n\n日本語\n\nPortuguês (Brasil)\n\nFrançais\n\n繁體中文\n\n See more  See fewer \n\nTürkçe\n\nবাংলা\n\nItaliano\n\nБългарски\n\nRomână\n\nDeutsch\n\nالعربية\n\nNederlands\n\nไทย\n\nPortuguês (Portugal)\n\nČeština [...] العربية\n\nNederlands\n\nไทย\n\nPortuguês (Portugal)\n\nČeština\n\nEspañol (España)\n\n한국어\n\nSvenska\n\nதமிழ்\n\nSlovenčina\n\n Public \n\nAnyone can view, post, and comment to this community\n\n0 0\n\n## Top Posts\n\n   Reddit reReddit: Top posts of January 30, 2024   \n   Reddit reReddit: Top posts of January 2024   \n   Reddit reReddit: Top posts of 2024   \n\n   Home\n   Popular\n   News\n   Explore\n   Best of Reddit\n   Best of Reddit in Portuguese\n   Best of Reddit in German\n   Reddit Rules\n   Privacy Policy\n   User Agreement\n   Accessibility\n   Reddit, Inc. © 2026. All rights reserved.\n\nImage 66\nJoin the most real place on the internet\n\n Continue with Phone Number \n\n Continue with Email \n\nBy continuing, you agree to our User Agreement and acknowledge that you understand the Privacy Policy.\n\nImage 67",
+      "score": 0.10426756,
+      "raw_content": null,
+      "id": "035caa-10"
+    },
+    {
+      "url": "https://chatgpt.com/cyber",
+      "title": "OpenAI — Trusted Access for Cyber verification",
+      "content": "# Trusted Access for Cyber\n\nWith trusted access, you can verify your identity and use our most capable models for cybersecurity work.\n\nLooking to get trusted access for your organization?\n\n## How it works\n\n## FAQs",
+      "score": 0.04503662,
+      "raw_content": null,
+      "id": "b54584-11"
+    },
+    {
+      "url": "https://www.zanichelli.it/scuola/per-chi-studia/siti-laz/myzanichelli/link/myzanichelli-d1b1f4",
+      "title": "myZanichelli",
+      "content": "Zanichelli digital books and resources: prepare lessons, find and create exercises, manage your training and virtual classrooms.",
+      "score": 0.044039294,
+      "raw_content": null,
+      "id": "2f3d07-12"
+    },
+    {
+      "url": "https://access-ci.org",
+      "title": "Access: Home",
+      "content": "Skip to content\n\nNational Science Foundation logo \n\nAccess\n\nAccess Home\n\n## ADVANCING SCIENCE WITH ACCESS\n\nHow can ACCESS supercharge your research?\n\nGET STARTED\n\nACCESS is a program established and funded by the U.S. National Science Foundation to help researchers and educators, with or without supporting grants, to utilize the nation’s advanced computing systems and services – at no cost to you.\n\nWhether you’re looking for advanced computational resources to take your research to the next level, want to contribute resources to the ACCESS ecosystem, explore a career in advanced cyberinfrastructure or experience the amazing scientific discoveries enabled by supercomputers, you’re in the right place.\n\n# Find information just for you\n\nFOR RESEARCHERS\n\nFOR EDUCATORS\n\nFOR GRADUATE STUDENTS [...] FOR RESEARCHERS\n\nFOR EDUCATORS\n\nFOR GRADUATE STUDENTS\n\nFOR RESOURCE PROVIDERS\n\nFOR THE CI COMMUNITY\n\n# See how ACCESS is advancing science\n\n Science Stories\n\n  ## From Polymers to Plasma Shields\n\n  UT Arlington team illustrates how AI-driven ceramics could unlock hypersonic flight.\n Program News\n\n  ## Stretching Your Credits\n\n  ACCESS is excited to roll out a new feature that brings greater flexibility to resource allocation: the ACCESS Variable Marketplace.\n\nALL NEWS\n\n# Watch videos\n\nALL VIDEOS\n\n## ACCESS is a large, distributed ecosystem. We’re here to help you every step of the way.\n\nOPEN A HELP TICKET\n\n#### Sign up for ACCESS news and updates.\n\nReceive our monthly newsletter with ACCESS program news in your inbox. Read past issues.",
+      "score": 0.03488425,
+      "raw_content": null,
+      "id": "b47d8d-13"
+    },
+    {
+      "url": "https://www.edutopia.org/textbook-publishing-controversy",
+      "title": "A Textbook Example of What's Wrong with Education",
+      "content": "### Share This Story\n\nfacebook icon\nbluesky icon\npinterest icon\nemail icon\n\n### Filed Under\n\n##### Popular Topics\n\n##### Grade Levels\n\n##### About Us\n\n### Follow Edutopia\n\nfacebook icon\nbluesky icon\npinterest icon\ninstagram icon\nyoutube icon\nGeorge Lucas Educational Foundation [...] At that moment, someone pointed out another story that fit our criteria. Without further conversation, we chose that one and moved on. Only in retrospect did I realize we had censored the first story based on rumors of allegations. Our unspoken thinking seemed to be, If even the most unlikely taint existed, the Gablers would find it, so why take a chance?\n\nSelf-censorship like this goes unreported because we the censors hardly notice ourselves doing it. In that room, none of us said no to any story. We just converged around a different story. The dangerous author, incidentally, was celebrated best-selling science fiction writer Isaac Asimov.\n\n### Turn the Page\n\nThere's no quick, simple fix for the blanding of American textbooks, but several steps are key to reform: [...] The new ideas are born at universities and wash down to publishers through research papers and conferences. Textbook editors swarm to events like the five-day International Reading Association conference to pick up the buzz. They all run around wondering, What's the coming thing? Is it critical thinking? Metacognition? Constructivism? Project learning?\n\nAt those same conferences, senior editors look for up-and-coming academics and influential educational consultants to sign as \"authors\" of the textbooks that the worker bees are already putting together back at the shop.\n\n### Content Lite",
+      "score": 0.031430993,
+      "raw_content": null,
+      "id": "217486-14"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cCrJX_1mApc",
+      "title": "10 books that will make you ADDICTED to reading!",
+      "content": "3787 comments\n### Transcript: [...] what they might be experiencing that it's one of the few books that has ever given me a very strong visceral reaction. It's made my heart race. It made my palm sweat. Uh it's just an absolute page turner of a book. and the fact that it's non-fiction just adds a little bit of oomph to it that I think you probably wouldn't get if it were a work of fiction. With that said, there have been some rebuttals to this book, some push back about some of the details. I don't want to spoil too much, but there's a pretty tragic situation that happens in this book, and some of the details about that particular event specifically have been called into question. But with that said, I think overall this is a really wellressearched, well done book. And if you aren't super hung up on every little single [...] during World War II in Russia, and it follows the story of two Russian soldiers. And if you're not really familiar with what was happening in Russia during World War II, basically Hitler and Stalin had a pact. They were going to buddy buddy up to one another and Hitler broke that pact and ended up attacking Russia and Russia was not really prepared for it. This causes a lot of stress on their infrastructure because now all of a sudden they were fighting a war against one of the world's uh most powerful militaries and they were short on food. They were short on supplies. People were going cold, hungry, homeless. And that uh extended to the soldiers, too. Just because you were in the military doesn't mean you were wellfed, well taken care of, and you were being asked to put your life on the",
+      "score": 0.028895615,
+      "raw_content": null,
+      "id": "0c4581-15"
+    },
+    {
+      "url": "https://www.accesscorp.com",
+      "title": "Access | Modern Records Management Solutions | Store ...",
+      "content": "Understand how AI regulation, Shadow AI, and AI-generated records are changing the way organizations manage information, compliance, and risk.\n\nAI rarely enters an organization through one door. It shows up in draft policies, meeting notes, customer summaries, uploaded files, and decisions made with help from tools your teams may already be using.\n\nOver time, those prompts, outputs, logs, and AI-assisted decisions can contain sensitive information or become records that need to be retained, protected, and managed. The challenge is knowing where that risk appears, who owns it, and how to bring AI use into your broader information governance strategy.\n\nIn this eBook, you’ll learn: [...] In this eBook, you’ll learn:\n\n How global AI regulation is developing across the EU\n Why Shadow AI creates risk\n Where AI-related risk appears across departments\n What to include in a practical AI governance framework\n\nDownload your copy to learn how to reduce risk, improve governance, and support responsible AI use across your organization.\n\nDownload the Guide Now\n\n## Modern Information Management powered by Access Unify\n\nToday’s information management requires more than just a storage solution. Organizations need greater visibility, digital access to information, governance, and defensible retention throughout the lifecycle of their records. [...] From Policy to Proof: Building Audit-Ready Healthcare Information Governance\n\nBlog  |  4 min read\n\nFive Information Security Practices That Reduce Organizational Risk\n\nFive Information Security Practices That Reduce Organizational Risk\n\nBlog  |  3 min read\n\nTag, you’re it! Ownership and Accountability in AI Implementation\n\nTag, you’re it! Ownership and Accountability in AI Implementation\n\nWebinars  |  1 min read\n\nTruth or Dare: Can AI Really Clean Up Your Records?\n\nTruth or Dare: Can AI Really Clean Up Your Records?\n\nWebinars  |  1 min read\n\nChutes & Ladders: Why Information Readiness Comes First\n\nChutes & Ladders: Why Information Readiness Comes First\n\nWebinars  |  1 min read\n\n## Get the Information You Need — Securely, Quickly, and Reliably",
+      "score": 0.026078671,
+      "raw_content": null,
+      "id": "a9c1d0-16"
+    },
+    {
+      "url": "https://www.accesscommunity.org",
+      "title": "ACCESS | Assisting, improving, and empowering our community.",
+      "content": "Skip to content Skip to navigation\n\n About\n News\n Careers\n Get Involved\n Contact\n الصفحة العربية\n\n|  |  |  |  |\n ---  --- |\n|  |  |  |  |\n|  |  |  |  |\n\nACCESS logo\n\n Donate\n Get Involved\n Events\n\nMenu\n\n1. \n\n   assisting.\n\n   Your contribution could be the difference between life and death.\n2. \n\n   improving.\n\n   Learn about the Living With Alzheimer's Program, offered in English and Arabic.\n3. \n\n   empowering.\n\n   ACCESS Announces Planned Leadership Transition and Appointment of Next President\n\n assisting.\n\n  Your contribution could be the difference between life and death.\n\n   [](\n improving.\n\n  Learn about the Living With Alzheimer's Program, offered in English and Arabic.\n\n   [](\n empowering.\n\n  ACCESS Announces Planned Leadership Transition and Appointment of Next President\n\n   []( [...] Home\n Contact Us\n Careers\n Privacy Policy\n Site Map\n\n###### ACCESS is an equal opportunity employer and social service provider, committed to maintaining a workplace and service environment free from discrimination. We do not discriminate in employment or in the provision of social services on any basis. [...] Over $400,000 Awarded to 30 Arts & Cultural Organizations\n\nWallace Foundation and ACCESS Partnership facilitates nearly half a million in grants.\n\nRead more\n\nLink\n\nBecome an AANM Member today!\n\nMembership directly supports Arab American storytelling & arts. Check out the perks!\n\nLearn more.\n\nLink\n\nACCESS Delivers Living with Alzheimer’s Program to Uplift Families Caring for Loved Ones with Dementia in Michigan\n\nLiving with Alzheimer’s Program offers support in Wayne, Oakland, and MaComb counties.\n\nLearn more.\n\nLink\n\n© 2026 ACCESS All rights reserved.\n\n Home\n Contact Us\n Careers\n Privacy Policy\n Site Map",
+      "score": 0.024184622,
+      "raw_content": null,
+      "id": "e7c0d2-17"
+    },
+    {
+      "url": "https://www.accessnow.org",
+      "title": "Access Now - Access Now",
+      "content": "a web of connected eyes on a purple and blue background \n\nDigital Security\n\nDigital Security\n\n## Russia used Cellebrite tool to jail activist after company claimed to have ended contract\n\n25 Jun 2026  • \n\nA Citizen Lab investigation confirms evidence Russian authorities used Cellebrite tool to hack prominent Russian activist Andrey Pivovarov after the Cellebrite claimed to have ceased sales to Russia.\n\nPost\n\nRussia used Cellebrite tool to jail activist after company claimed to have ended contract\n\n25 Jun 2026\n\nRussia used Cellebrite tool to jail activist after company claimed to have ended contract\n\nAI Action Summit \n\nArtificial Intelligence\n\nArtificial Intelligence\n\n## AI-accelerated warfare must stop\n\n15 Jun 2026  • [...] ↗\n\n8 Dec 2025\n\nDon’t let dictators decide the future of the internet. Fund the good fight!\n\n## RightsCon Continues: what’s next for 2026\n\n9 Jul 2026\n\nNews\n\nRightsCon Continues: what’s next for 2026\n\n↗\n\n9 Jul 2026\n\nRightsCon Continues: what’s next for 2026\n\n## #KeepItOn @10: celebrating a decade of fighting internet shutdowns\n\n11 Aug 2026  • \n\nInternet shutdowns have to stop. As Access Now marks the 10th anniversary of the #KeepItOn campaign in 2026, we’re reflecting on the path travelled so far — and the journey still to come as we continue to fight to #KeepItOn around the world.\n\nPost\n\n#KeepItOn @10: celebrating a decade of fighting internet shutdowns\n\n11 Aug 2026\n\n#KeepItOn @10: celebrating a decade of fighting internet shutdowns [...] ## AI-accelerated warfare must stop\n\n15 Jun 2026  • \n\nAs AI-accelerated warfare is rapidly becoming a means of rubber-stamping killing at unprecedented speed and scale, Access Now, Amnesty International, and more than 200 civil society organizations and individuals are calling attention to the militarization of artificial intelligence (AI) technologies and for an immediate halt to the use of AI systems in the military kill chain.\n\nPress Release\n\nAI-accelerated warfare must stop\n\n15 Jun 2026\n\nAI-accelerated warfare must stop\n\nVisit News & Updates For More\n\nRightscon 2025 RightsCon\n\n## RightsCon\n\nThe world’s leading summit on human rights in the digital age\n\nHelpline  Helpline\n\n## Helpline\n\n24/7 assistance for human rights defenders at risk in every region",
+      "score": 0.023261933,
+      "raw_content": null,
+      "id": "94671d-18"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2TnzXTzJ-N4",
+      "title": "EASY Amazon Side Hustle Selling Ai Coloring Books (HOW TO ...",
+      "content": "Christian caption to each page. Format at 8.5  11 in and make it Amazon KDP ready. Then, just hit enter. Now, GenSpark will begin designing each page automatically. And it's going to create the illustrations, the captions, the page layouts, and the PDF that we need. So, inside GenSpark's AI image agent, I asked it to create clean black and white line art that works perfectly for coloring books. And here's the prompt that we can use for this. So, again, you can screenshot this and use this for your own. Just switching out whatever you need, but it should be like a long very similar to this. So, let's submit that. And oh my gosh, you guys, look how nice this looks. All done with AI. Like, it is so crazy because this would have taken me hours if we did this manually. We would have had to be [...] sellers. We can see reviews. We can check what people are, you know, requesting what problems that people have. So, you can actually like really examine the market and see like what's missing from the market and you can definitely like generate and just educate yourself this way. And you'll quickly notice patterns. Like maybe axolotls are trending. It's an animal that kids love. We don't need to reinvent the wheel or reinvent or make a new crazy business idea. You can see that it's just usually like these small little ideas that can just be so profitable. And then we can let AI make our own unique version of it. So, step four guys is creating the cover. This is important because this is what's going to initially grab a customer's attention when they're scrolling through Amazon. So, let's [...] 374 comments\n### Transcript:",
+      "score": 0.021716805,
+      "raw_content": null,
+      "id": "a671e9-19"
+    }
+  ],
+  "response_time": 0.0,
+  "request_id": "6b7bb604-3f2a-4681-885d-e2761e1f1098"
+}

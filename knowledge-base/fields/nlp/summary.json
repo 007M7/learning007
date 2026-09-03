@@ -1,48 +1,45 @@
 {
   "field": "nlp",
   "title": "自然语言处理（NLP）",
-  "updated_at": "2026-08-31",
-  "books": {
-    "total": 10,
-    "downloaded_open_fulltext": 0,
-    "declared_open_fulltext": 2,
-    "official_online": 2,
-    "commercial_metadata_only": 6,
-    "download_failures": 2
+  "snapshot_date": "2026-09-03",
+  "learning_nodes": 40,
+  "books": 15,
+  "papers_total": 160,
+  "papers_open_in_catalog": 150,
+  "papers_since_2023": 58,
+  "topic_counts": {
+    "tasks-corpora": 20,
+    "tokenization": 19,
+    "semantics-embeddings": 17,
+    "encoders-decoders": 19,
+    "pretraining-adaptation": 20,
+    "structured-language": 19,
+    "generation": 19,
+    "multilingual": 19,
+    "retrieval-context": 19,
+    "factuality-evaluation": 19
   },
-  "papers": {
-    "total": 120,
-    "open_access": 120,
-    "since_2023": 57,
-    "snapshot_date": "2026-08-30",
-    "topic_counts": {
-      "tasks-corpora": 16,
-      "tokenization": 15,
-      "semantics-embeddings": 11,
-      "encoders-decoders": 14,
-      "pretraining-adaptation": 15,
-      "structured-language": 13,
-      "generation": 15,
-      "multilingual": 15,
-      "retrieval-context": 15,
-      "factuality-evaluation": 15
-    },
-    "top_venues": {
-      "arXiv (Cornell University)": 41,
-      "Transactions of the Association for Computational Linguistics": 9,
-      "IEEE Access": 6,
-      "ACM Computing Surveys": 4,
-      "Computational Linguistics": 4,
-      "npj Digital Medicine": 4,
-      "Frontiers of Computer Science": 3,
-      "Journal of Artificial Intelligence Research": 3
-    }
-  },
-  "reading_evidence": {
-    "source_ledger_present": false,
-    "retrieved_or_beyond": 0,
-    "read_or_cited": 0,
-    "cited": 0,
-    "source_grounded_lessons": 0
+  "reviews": [
+    "/knowledge-base/reviews/nlp/slp3",
+    "/knowledge-base/reviews/ai-agent/nltk-book",
+    "/knowledge-base/reviews/ai-agent/ir-book",
+    "/knowledge-base/reviews/nlp/tidy-text-mining",
+    "/knowledge-base/reviews/nlp/supervised-ml-text",
+    "/knowledge-base/reviews/ai-agent/foundations-llm",
+    "/knowledge-base/reviews/ai-agent/niutrans-nlp",
+    "/knowledge-base/reviews/ai-agent/neural-nlp-primer",
+    "/knowledge-base/reviews/nlp/search-engines",
+    "/knowledge-base/reviews/nlp/mining-massive-datasets",
+    "/knowledge-base/reviews/nlp/mt-for-everyone",
+    "/knowledge-base/reviews/nlp/unicode-cookbook",
+    "/knowledge-base/reviews/nlp/multiword-expressions",
+    "/knowledge-base/reviews/nlp/referring-expression",
+    "/knowledge-base/reviews/nlp/universal-dependencies"
+  ],
+  "acceptance": {
+    "books_minimum": 15,
+    "papers_minimum": 150,
+    "books_pass": true,
+    "papers_pass": true
   }
 }

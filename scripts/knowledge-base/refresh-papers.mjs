@@ -6,6 +6,7 @@ const endpoint = "https://api.openalex.org/works";
 const recentFrom = "2023-01-01";
 const currentSnapshotDate = process.env.KB_SNAPSHOT_DATE || yesterdayIso();
 const targetPerField = Number(process.env.KB_PAPER_TARGET || 120);
+const selectedField = process.env.KB_FIELD || "";
 const apiKey = process.env.OPENALEX_API_KEY || "";
 const mailto = process.env.OPENALEX_MAILTO || "";
 const allowedTypes = new Set(["article", "preprint", "review"]);
@@ -16,20 +17,26 @@ function sleep(milliseconds) {
 
 async function fetchJson(url, attempts = 5) {
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
-    const response = await fetch(url, {
-      headers: { "User-Agent": "Learning007KnowledgeBase/1.0 (metadata research)" }
-    });
-    if (response.ok) {
-      const data = await response.json();
-      await sleep(350);
-      return data;
+    try {
+      const response = await fetch(url, {
+        headers: { "User-Agent": "Learning007KnowledgeBase/1.0 (metadata research)" },
+        signal: AbortSignal.timeout(20_000),
+      });
+      if (response.ok) {
+        const data = await response.json();
+        await sleep(350);
+        return data;
+      }
+      const message = `${response.status} ${response.statusText}`;
+      if (attempt === attempts || ![403, 429, 500, 502, 503, 504].includes(response.status)) {
+        throw new Error(`OpenAlex request failed: ${message} (${url})`);
+      }
+      const retryAfter = Number(response.headers.get("retry-after") || 0) * 1000;
+      await sleep(Math.max(retryAfter, 3000 * 2 ** (attempt - 1)));
+    } catch (error) {
+      if (attempt === attempts) throw error;
+      await sleep(1500 * attempt);
     }
-    const message = `${response.status} ${response.statusText}`;
-    if (attempt === attempts || ![403, 429, 500, 502, 503, 504].includes(response.status)) {
-      throw new Error(`OpenAlex request failed: ${message} (${url})`);
-    }
-    const retryAfter = Number(response.headers.get("retry-after") || 0) * 1000;
-    await sleep(Math.max(retryAfter, 3000 * 2 ** (attempt - 1)));
   }
 }
 
@@ -115,6 +122,12 @@ function eligible(work) {
   );
 }
 
+function matchesTitle(work, terms = []) {
+  if (!terms.length) return true;
+  const title = work.title.toLocaleLowerCase();
+  return terms.some((term) => title.includes(term.toLocaleLowerCase()));
+}
+
 function mergeRecord(target, incoming) {
   target.topics = [...new Set([...target.topics, ...incoming.topics])];
   if (incoming.cited_by_count_snapshot > target.cited_by_count_snapshot) {
@@ -125,20 +138,22 @@ function mergeRecord(target, incoming) {
 }
 
 for (const [field, config] of Object.entries(fields)) {
-  const requests = config.paperQueries.map(([topic, query]) => ({ topic, query }));
+  if (selectedField && field !== selectedField) continue;
+  const requests = config.paperQueries.map(([topic, query, titleTerms = []]) => ({ topic, query, titleTerms }));
   const responses = await mapLimit(requests, 1, async (request) => {
     const data = await fetchJson(makeUrl(request.query));
-    return { ...request, works: (data.results ?? []).filter(eligible) };
+    return { ...request, works: (data.results ?? []).filter((work) => eligible(work) && matchesTitle(work, request.titleTerms)) };
   });
 
   const selected = [];
   const reserveByTopic = new Map(config.paperQueries.map(([topic]) => [topic, []]));
   for (const response of responses) {
     const mapped = response.works.map((work, index) => simplify(work, field, response.topic, response.query, "按检索相关性选出的主题核心文献", index + 1));
-    const classic = mapped.slice(0, 8);
+    const isLargeCatalog = targetPerField >= 300;
+    const classic = mapped.slice(0, isLargeCatalog ? 12 : 8);
     const recent = mapped
       .filter((record) => record.year >= Number(recentFrom.slice(0, 4)) && !classic.some((item) => item.id === record.id))
-      .slice(0, 4)
+      .slice(0, isLargeCatalog ? 8 : 4)
       .map((record) => ({ ...record, selection_reason: record.selection_reason.replace("主题核心文献", "前沿与更新证据") }));
     selected.push(...classic, ...recent);
     const selectedIds = new Set([...classic, ...recent].map((record) => record.id));
@@ -179,7 +194,7 @@ for (const [field, config] of Object.entries(fields)) {
     title: config.title,
     snapshot_date: currentSnapshotDate,
     provider: "OpenAlex",
-    selection_method: "十个子主题分别抽取经典高影响与 2023 年以来近期论文，按 DOI/OpenAlex ID 去重并保留主题交叉；Tavily 用于官方来源与教材骨架审计。",
+    selection_method: `${config.paperQueries.length} 个子主题分别抽取经典高影响与 2023 年以来近期论文，按 DOI/OpenAlex ID 去重并保留主题交叉；Tavily 用于来源地图、权威候选与教材骨架审计。`,
     caveat: "这是可复核的核心参考文献层，不以引用数代替论文质量判断；课程写作前仍需阅读原文并核验具体结论。",
     records
   });

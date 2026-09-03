@@ -1,6 +1,7 @@
 ---
 title: 深度学习经典教材综述
 description: 从表示学习、优化与概率建模理解深度网络的基本问题和历史坐标。
+review-status: formal
 ---
 
 # 深度学习经典教材综述

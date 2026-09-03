@@ -1,0 +1,10 @@
+{
+  "field": "quality",
+  "title": "质量与生产交付",
+  "generated_at": "2026-09-03",
+  "books": 42,
+  "papers": 264,
+  "modules": 12,
+  "node_coverage": 34,
+  "review_status": "complete-awaiting-user-review"
+}

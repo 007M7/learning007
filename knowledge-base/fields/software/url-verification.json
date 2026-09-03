@@ -1,0 +1,1800 @@
+{
+  "checked_at": "2026-09-02",
+  "total": 224,
+  "valid": 154,
+  "invalid": 70,
+  "results": [
+    {
+      "id": "paper-8eeca86367ef",
+      "url": "https://www.csd.uoc.gr/~hy460/pdf/Dynamic%20Hash%20Tables.pdf",
+      "final_url": "https://www.csd.uoc.gr/~hy460/pdf/Dynamic%20Hash%20Tables.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-3b5e931a44bc",
+      "url": "https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf",
+      "final_url": "https://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-966ea209e1bf",
+      "url": "https://infoscience.epfl.ch/record/169879/files/RMTrees.pdf",
+      "final_url": "https://infoscience.epfl.ch/record/169879/files/RMTrees.pdf",
+      "status": 405,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-3c12b7abf3e5",
+      "url": "https://mcg.cs.tau.ac.il/papers/disc2008-hopscotch.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-328d25aeeb76",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/b-trees-write-optimization.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/b-trees-write-optimization.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-332a78db2253",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/epidemic-broadcast-trees.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/epidemic-broadcast-trees.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-0d4183f8526d",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/ideal-hash-trees.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/ideal-hash-trees.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-685880539f8e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/lca-revisited.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/lca-revisited.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-138bdb9ecdc4",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/level-ancestor-simplified.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/data_structures/level-ancestor-simplified.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-20959994ecec",
+      "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-9796427870d2",
+      "url": "https://www3.alcatel-lucent.com/bstj/vol34-1955/articles/bstj34-5-1045.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-27fc4693d060",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/story-of-squeak-a-practical-smalltalk-written-in-itself.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/story-of-squeak-a-practical-smalltalk-written-in-itself.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-36da4e5a68fc",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/recursive-functions-of-symbolic-expressions-and-their-computation-by-machine-parti.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/recursive-functions-of-symbolic-expressions-and-their-computation-by-machine-parti.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-2987cdd043b5",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/axiomatic-basis-computer-programming.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-6437727111ff",
+      "url": "https://www.ams.org/journals/tran/1965-117-00/S0002-9947-1965-0170805-7/S0002-9947-1965-0170805-7.pdf",
+      "final_url": "https://www.ams.org/journals/tran/1965-117-00/S0002-9947-1965-0170805-7/S0002-9947-1965-0170805-7.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-558f311d6a1d",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/hints-for-computer-system-design.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-2728e34f9416",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/early-lisp-history-1956-1959-herbert-stoyan-html-rendering.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/comp_sci_fundamentals_and_history/early-lisp-history-1956-1959-herbert-stoyan-html-rendering.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-981f6c56fd16",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/logic_and_programming/representing-game-dialogue-as-expressions-in-first-order-logic.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/logic_and_programming/representing-game-dialogue-as-expressions-in-first-order-logic.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-9940101e935a",
+      "url": "https://uberty.org/wp-content/uploads/2017/06/Martin-Lof83.pdf",
+      "final_url": "https://uberty.org/wp-content/uploads/2017/06/Martin-Lof83.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-b4eb956ed98a",
+      "url": "https://web.archive.org/web/20150102181601id_/http://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-a7e0768dc8d3",
+      "url": "https://www.csee.umbc.edu/courses/undergraduate/CMSC331/resources/papers/sammet1972.pdf",
+      "final_url": "https://courses.cs.umbc.edu/undergraduate/CMSC331/resources/papers/sammet1972.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-f887f6d9b378",
+      "url": "https://www.cs.utah.edu/plt/publications/macromod.pdf",
+      "final_url": "https://www-old.cs.utah.edu/plt/publications/macromod.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-7a36cd92c135",
+      "url": "https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+      "final_url": "https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-07dfc7010fe0",
+      "url": "https://goto.ucsd.edu/~rjhala/liquid/liquid_types.pdf",
+      "final_url": "https://goto.ucsd.edu/~rjhala/liquid/liquid_types.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-5857df373833",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/fundamental-concepts-in-programming-languages.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "paper-9ebb275a4882",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/on-understanding-types-data-abstraction-polymorphism.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "paper-f697d3835c3d",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/predicate-dispatching.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-a41037c19bf8",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/principal-type-schemes-for-functional-programs.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-d0480811928b",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/programming-languages-application-and-interpretation.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-450793044763",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/the-derivative-of-a-regular-type-one-hole-contexts.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "paper-aca52866a71f",
+      "url": "https://github.com/papers-we-love/papers-we-love/blob/main/languages-theory/theory-in-programming-practice.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "paper-d6467afaf4ec",
+      "url": "https://www.cs.purdue.edu/homes/hosking/690M/p611-fenichel.pdf",
+      "final_url": "https://www.cs.purdue.edu/homes/hosking/690M/p611-fenichel.pdf",
+      "status": 404,
+      "content_type": "text/html",
+      "ok": false
+    },
+    {
+      "id": "paper-0a5117e84093",
+      "url": "https://pdf.aminer.org/000/465/194/incremental_collection_of_mature_objects.pdf",
+      "final_url": "https://www.aminer.cn/000/465/194/incremental_collection_of_mature_objects.pdf",
+      "status": 206,
+      "content_type": "text/html",
+      "ok": true
+    },
+    {
+      "id": "paper-d471da8d3e94",
+      "url": "https://www.ssw.uni-linz.ac.at/General/Staff/TW/Wuerthinger05Train.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-b02e1e48d6e3",
+      "url": "https://lamport.azurewebsites.net/pubs/garbage.pdf",
+      "final_url": "https://lamport.azurewebsites.net/pubs/garbage.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-4a30b9684d57",
+      "url": "https://www.softwarepreservation.com/projects/LISP/lisp2/TM-3417_500_00_LISP2_GC_Spec.pdf",
+      "final_url": "https://softwarepreservation.computerhistory.org/LISP/lisp2/TM-3417_500_00_LISP2_GC_Spec.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-f41a81e0dc51",
+      "url": "https://simonmar.github.io/bib/papers/parallel-gc.pdf",
+      "final_url": "https://simonmar.github.io/bib/papers/parallel-gc.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-00729ec9c68e",
+      "url": "https://lafo.ssw.uni-linz.ac.at/papers/2013_Onward_OneVMToRuleThemAll.pdf",
+      "final_url": "https://lafo.ssw.uni-linz.ac.at/papers/2013_Onward_OneVMToRuleThemAll.pdf",
+      "status": 401,
+      "content_type": "text/html; charset=iso-8859-1",
+      "ok": false
+    },
+    {
+      "id": "paper-259d0fc4f1d6",
+      "url": "https://web.archive.org/web/20160108225910/http://www.vmware.com/pdf/asplos235_adams.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-6b1abc063303",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/operating_systems/unix-time-sharing-system.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/operating_systems/unix-time-sharing-system.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-5af4d8e65735",
+      "url": "https://www.cl.cam.ac.uk/~srk31/research/papers/kell13operating.pdf",
+      "final_url": "https://www.humprog.org/~stephen//research/papers/kell13operating.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-10898de3e89c",
+      "url": "https://people.csail.mit.edu/nickolai/papers/clements-sc.pdf",
+      "final_url": "https://people.csail.mit.edu/nickolai/papers/clements-sc.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-daaf5e7d3389",
+      "url": "https://phk.freebsd.dk/pubs/sane2000-jail.pdf",
+      "final_url": "https://phk.freebsd.dk/pubs/sane2000-jail.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-7b976afde1bd",
+      "url": "https://www.usenix.org/legacy/event/lisa04/tech/full_papers/price/price.pdf",
+      "final_url": "https://www.usenix.org/legacy/event/lisa04/tech/full_papers/price/price.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-9196d7332533",
+      "url": "https://sigops.org/sosp/sosp13/papers/p33-david.pdf",
+      "final_url": "https://sigops.org/s/conferences/sosp/2013/papers/p33-david.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-ade45f0b7a68",
+      "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "final_url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-0715e5d8e02f",
+      "url": "https://www.fantasi.se/publications/ISMM02.pdf",
+      "final_url": "https://www.fantasi.se/publications/ISMM02.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-bb1a66468d34",
+      "url": "https://user.it.uu.se/~kostis/Papers/escape.pdf",
+      "final_url": "https://user.it.uu.se/~kostis/Papers/escape.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-d6dc0d4bb4f8",
+      "url": "https://publications.lib.chalmers.se/records/fulltext/125252/local_125252.pdf",
+      "final_url": "https://publications.lib.chalmers.se/records/fulltext/125252/local_125252.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-46eaa55fadfb",
+      "url": "https://www.cl.cam.ac.uk/~pes20/weakmemory/popl09.pdf",
+      "final_url": "https://www.cl.cam.ac.uk/~pes20/weakmemory/popl09.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-c9f7007d0d3f",
+      "url": "https://people.eecs.berkeley.edu/~brewer/cs262/Mesa.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-af87592fd131",
+      "url": "https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf",
+      "final_url": "https://www.cs.rochester.edu/~scott/papers/1996_PODC_queues.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-2524e4a53ee5",
+      "url": "https://arxiv.org/pdf/1510.00116",
+      "final_url": "https://arxiv.org/pdf/1510.00116",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-a962067b2f87",
+      "url": "https://chaoran.me/assets/pdf/wfq-ppopp16.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-4b8e81430c06",
+      "url": "https://orbit.dtu.dk/files/102419168/abstract_ELB_trees.pdf",
+      "final_url": "https://orbit.dtu.dk/files/102419168/abstract_ELB_trees.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-80ded1cf02f9",
+      "url": "https://web.eecs.umich.edu/~weimerw/2012-4610/reading/bacon-garbage.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-8d2d76806cf6",
+      "url": "https://cs.brown.edu/~sk/Publications/Papers/Published/cgkmf-teach-gc/paper.pdf",
+      "final_url": "https://cs.brown.edu/people/sk/Publications/Papers/Published/cgkmf-teach-gc/paper.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-eeaf989e2fc7",
+      "url": "https://user.it.uu.se/~kostis/Papers/ismm04.pdf",
+      "final_url": "https://user.it.uu.se/~kostis/Papers/ismm04.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-4ee9afd20af4",
+      "url": "https://markussteinberger.net/papers/ScatterAlloc.pdf",
+      "final_url": "https://markussteinberger.net/papers/ScatterAlloc.pdf",
+      "status": 404,
+      "content_type": "text/html",
+      "ok": false
+    },
+    {
+      "id": "paper-966df7658852",
+      "url": "https://www.csl.mtu.edu/cs6461/www/Reading/Birman99.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-f3853584e36e",
+      "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+      "final_url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf",
+      "status": 403,
+      "content_type": "text/html",
+      "ok": false
+    },
+    {
+      "id": "paper-da84b6d8da7c",
+      "url": "https://www.eecs.qmul.ac.uk/~tysong/files/IFIPNetworking14.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-c8e4064ea76e",
+      "url": "https://roy.gbiv.com/pubs/dissertation/fielding_dissertation.pdf",
+      "final_url": "https://roy.gbiv.com/pubs/dissertation/fielding_dissertation.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-2eb8e3e21565",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/api_design/api-design.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/api_design/api-design.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-666564dd0fe2",
+      "url": "https://www.researchgate.net/profile/Ellen-Isaacs/publication/220168963_Why_do_users_like_video/links/02e7e5186b67219c70000000/Why-do-users-like-video.pdf",
+      "final_url": "https://www.researchgate.net/profile/Ellen-Isaacs/publication/220168963_Why_do_users_like_video/links/02e7e5186b67219c70000000/Why-do-users-like-video.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-ee6f18d2c5d7",
+      "url": "https://diyhpl.us/~bryan/papers2/distributed/distributed-systems/zab.totally-ordered-broadcast-protocol.2008.pdf",
+      "final_url": "https://diyhpl.us/~bryan/papers2/distributed/distributed-systems/zab.totally-ordered-broadcast-protocol.2008.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-08d1b9beb509",
+      "url": "https://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "paper-41157e444977",
+      "url": "https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf",
+      "final_url": "https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-eb5d9096de57",
+      "url": "https://notes.stephenholiday.com/Kafka.pdf",
+      "final_url": "https://notes.stephenholiday.com/Kafka.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-903206cb7613",
+      "url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43438.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-3f3308c6654e",
+      "url": "https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf",
+      "final_url": "https://cs.brown.edu/people/mph/HerlihyW90/p463-herlihy.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-9cb703bc560f",
+      "url": "https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf",
+      "final_url": "https://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-1302d764e629",
+      "url": "https://people.cs.umass.edu/~emery/pubs/berger-asplos2000.pdf",
+      "final_url": "https://people.cs.umass.edu/~emery/pubs/berger-asplos2000.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-c0c0e44c1b1d",
+      "url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41378.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-96cd95decf8d",
+      "url": "https://research.google.com/pubs/archive/41684.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-b867cbef4b88",
+      "url": "https://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/papers/paper2-1.pdf",
+      "final_url": "https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/paper2-1.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-f247b280369c",
+      "url": "https://www.microsoft.com/research/wp-content/uploads/2017/01/p398-castro-bft-tocs.pdf",
+      "final_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/p398-castro-bft-tocs.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-2b52584d957e",
+      "url": "https://kowshik.github.io/JPregel/pregel_paper.pdf",
+      "final_url": "https://kowshik.github.io/JPregel/pregel_paper.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-5e7cf750f568",
+      "url": "https://sigops.org/sosp/sosp13/papers/p151-mashtizadeh.pdf",
+      "final_url": "https://sigops.org/s/conferences/sosp/2013/papers/p151-mashtizadeh.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-3cf61fe63949",
+      "url": "https://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf",
+      "final_url": "https://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-087a97488a89",
+      "url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf",
+      "final_url": "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-f60986c62f2e",
+      "url": "https://cs-www.cs.yale.edu/homes/dna/papers/determinism-vldb10.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-74f4381c94cf",
+      "url": "https://cs-www.cs.yale.edu/homes/dna/papers/abadi-pacelc.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-56dbb712d4ef",
+      "url": "https://sites.computer.org/debull/A13june/calvin1.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-959d2bc56a57",
+      "url": "https://cs-www.cs.yale.edu/homes/dna/papers/vll-vldb13.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-cf048039ebae",
+      "url": "https://www.ssrc.ucsc.edu/Papers/weil-sc06.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-7403f8c0ea31",
+      "url": "https://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf",
+      "final_url": "https://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-3f08d80bbfb6",
+      "url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/36632.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-f9bed27d57f8",
+      "url": "https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41344.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-947473c8abd5",
+      "url": "https://homes.cs.washington.edu/~billhowe/pubs/HaLoop.pdf",
+      "final_url": "https://homes.cs.washington.edu/~billhowe/pubs/HaLoop.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-30a1322266d2",
+      "url": "https://cs.uwaterloo.ca/~bernard/hyperdex.pdf",
+      "final_url": "https://cs.uwaterloo.ca/~bernard/hyperdex.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-b79dade1d09c",
+      "url": "https://people.eecs.berkeley.edu/~wong/wong_pubs/wong73.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-7f2ec6a84714",
+      "url": "https://www.erlang.org/download/armstrong_thesis_2003.pdf",
+      "final_url": "https://www.erlang.org/download/armstrong_thesis_2003.pdf",
+      "status": 206,
+      "content_type": "text/plain; charset=utf-8",
+      "ok": true
+    },
+    {
+      "id": "paper-2ab27bb4a089",
+      "url": "https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p172-terry.pdf",
+      "final_url": "https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p172-terry.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-80583b0c5dd2",
+      "url": "https://www.cs.duke.edu/courses/cps399.28/current/papers/sigmod07-YangDasdanEtAl-map_reduce_merge.pdf",
+      "final_url": "https://cs.duke.edu/courses/cps399.28/current/papers/sigmod07-YangDasdanEtAl-map_reduce_merge.pdf",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-d74f6f89d681",
+      "url": "https://amplab.cs.berkeley.edu/wp-content/uploads/2013/03/mdcc-eurosys13.pdf",
+      "final_url": "https://amplab.cs.berkeley.edu/wp-content/uploads/2013/03/mdcc-eurosys13.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=iso-8859-1",
+      "ok": false
+    },
+    {
+      "id": "paper-2f463787c0ee",
+      "url": "https://pages.cs.wisc.edu/~remzi/Classes/739/Spring2004/Papers/optimistic-survey.pdf",
+      "final_url": "https://pages.cs.wisc.edu/~remzi/Classes/739/Spring2004/Papers/optimistic-survey.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-0b5406e1ca6c",
+      "url": "https://research.microsoft.com/pubs/79348/presto27-greenberg.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "paper-8b2bda4f243e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/network-challenges-of-data-recovery-in-erasure-coded-distributed-storage-systems.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/network-challenges-of-data-recovery-in-erasure-coded-distributed-storage-systems.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-3bcd9d16db35",
+      "url": "https://scg.unibe.ch/archive/papers/Duca06bTOPLASTraits.pdf",
+      "final_url": "https://scg.unibe.ch/archive/papers/Duca06bTOPLASTraits.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-1ec85ea7f37c",
+      "url": "https://heim.ifi.uio.no/~trygver/1979/mvc-1/1979-05-MVC.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-db9e7d02de03",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/design/out-of-the-tar-pit.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/design/out-of-the-tar-pit.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-ea8eacc007cd",
+      "url": "https://www.weizmann.ac.il/math/harel/sites/math.harel/files/users/user56/Statecharts.pdf",
+      "final_url": "https://www.weizmann.ac.il/math/harel/sites/math.harel/files/users/user56/Statecharts.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-c2c218e07294",
+      "url": "https://arxiv.org/pdf/1904.09225.pdf",
+      "final_url": "https://arxiv.org/pdf/1904.09225",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-5358350ea790",
+      "url": "https://arxiv.org/ftp/arxiv/papers/1904/1904.08239.pdf",
+      "final_url": "https://arxiv.org/ftp/arxiv/papers/1904/1904.08239.pdf",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "ok": false
+    },
+    {
+      "id": "paper-dc5e2c93f301",
+      "url": "https://arxiv.org/pdf/1904.09954.pdf",
+      "final_url": "https://arxiv.org/pdf/1904.09954",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-07db34c3707b",
+      "url": "https://www.researchgate.net/profile/David-Woods-19/publication/227992178_Common_Ground_and_Coordination_in_Joint_Activity/links/5ba284c892851ca9ed15cdc0/Common-Ground-and-Coordination-in-Joint-Activity.pdf",
+      "final_url": "https://www.researchgate.net/profile/David-Woods-19/publication/227992178_Common_Ground_and_Coordination_in_Joint_Activity/links/5ba284c892851ca9ed15cdc0/Common-Ground-and-Coordination-in-Joint-Activity.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-606894a8ff62",
+      "url": "https://nms.lcs.mit.edu/papers/ron-sosp2001.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-2510fc300297",
+      "url": "https://www.mshah.org/papers/sosp_2007_aguilera.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-64641bbb8686",
+      "url": "https://people.csail.mit.edu/matei/papers/2013/sosp_sparrow.pdf",
+      "final_url": "https://people.csail.mit.edu/matei/papers/2013/sosp_sparrow.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-dc884b05ebef",
+      "url": "https://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf",
+      "final_url": "https://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-7d78d48788be",
+      "url": "https://swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf",
+      "final_url": "https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-9cdab07a0b57",
+      "url": "https://static.googleusercontent.com/media/research.google.com/en/us/archive/chubby-osdi06.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-dac28e5754e5",
+      "url": "https://research.microsoft.com/en-us/um/people/fournet/papers/join-tutorial.pdf",
+      "final_url": "https://www.microsoft.com/en-us/research/publication/join-calculus-language-distributed-mobile-programming/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-b02dc58e0ea4",
+      "url": "https://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf",
+      "final_url": "https://www.microsoft.com/en-us/research/publication/part-time-parliament/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-f743a0fcbb66",
+      "url": "https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf",
+      "final_url": "https://www.cs.cmu.edu/~dga/papers/epaxos-sosp2013.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-7931a56dda81",
+      "url": "https://drum.lib.umd.edu/bitstream/handle/1903/751/CS-TR-3511.pdf",
+      "final_url": "https://api.drum.lib.umd.edu/server/api/core/bitstreams/53dfc197-7edb-4afd-8530-548f6847d527/content",
+      "status": 206,
+      "content_type": "application/pdf;charset=UTF-8",
+      "ok": true
+    },
+    {
+      "id": "paper-cbe0806ef474",
+      "url": "https://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf",
+      "final_url": "https://db.disi.unitn.eu/pages/VLDBProgram/pdf/industry/p871-curtiss.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-3b9da5a6fb05",
+      "url": "https://unikernel.org/files/2013-asplos-mirage.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-a8afd2a688f3",
+      "url": "https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf",
+      "final_url": "https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-28c5df41b9f7",
+      "url": "https://web.archive.org/web/20230912215719/http://people.inf.elte.hu/center/fulltext.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-15b6d45ed38c",
+      "url": "https://link.springer.com/content/pdf/10.1007/s11219-020-09534-x.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/s11219-020-09534-x.pdf?error=cookies_not_supported&code=b53859ff-9b40-4cb3-aba6-21e30ebf8a76",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-5ba0ea06cc01",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Realizing-Quality-Improvement-Through-Test-Driven-Development-Results-and-Experiences-of-Four-Industrial-Teams-nagappan_tdd.pdf",
+      "final_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Realizing-Quality-Improvement-Through-Test-Driven-Development-Results-and-Experiences-of-Four-Industrial-Teams-nagappan_tdd.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-90f8a55bce9a",
+      "url": "https://research.microsoft.com/en-us/um/people/nick/coqasm.pdf",
+      "final_url": "https://www.microsoft.com/en-us/research/publication/coq-worlds-best-macro-assembler/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-e813aaa38c5c",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/faults_and_verification/epitaxis-a-system-for-syntactic-and-semantic-software-queries.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/faults_and_verification/epitaxis-a-system-for-syntactic-and-semantic-software-queries.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-2c4f611d3290",
+      "url": "https://trs.jpl.nasa.gov/bitstream/handle/2014/41696/08-0125.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-984b739916ea",
+      "url": "https://www.cs.utexas.edu/~shmat/courses/cs395t_fall04/chaum81.pdf",
+      "final_url": "https://www.cs.utexas.edu/~shmat/courses/cs395t_fall04/chaum81.pdf",
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "ok": false
+    },
+    {
+      "id": "paper-361b3dac9817",
+      "url": "https://www.pmg.csail.mit.edu/papers/vr.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-bb96ff2ef96d",
+      "url": "https://research.microsoft.com/pubs/80693/vl2-sigcomm09-final.pdf",
+      "final_url": "https://www.microsoft.com/en-us/research/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-63a6e9df0dbb",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-history-of-the-virtual-synchrony-replication-model.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-history-of-the-virtual-synchrony-replication-model.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-e1100720fac0",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-hundred-impossibility-proofs-for-distributed-computing.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "paper-0a20bccecff8",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-response-to-cheriton-and-skeens-criticism-of-causal-and-totally-ordered-communication.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-response-to-cheriton-and-skeens-criticism-of-causal-and-totally-ordered-communication.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-3eb4c6fe5b42",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-universal-modular-actor-formalism-for-artificial-intelligence.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-universal-modular-actor-formalism-for-artificial-intelligence.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-d8a690cace1a",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-versatile-scheme-for-routing-highly-variable-traffic-in-service-overlays-and-ip.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/a-versatile-scheme-for-routing-highly-variable-traffic-in-service-overlays-and-ip.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-14dd1658475f",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/beehive-lookup-performance-for-power-law-query-distributions-in-peer-to-peer-overlays.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-d53a1bfe7745",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-chain-replication.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-chain-replication.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-bf0c83a36afb",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-fault-tolerant-distributed-commit-protocol.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/byzantine-fault-tolerant-distributed-commit-protocol.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-36a82c833bff",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/brewers-conjecture.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/brewers-conjecture.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-f7f687627a6a",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/chain-replication-for-supporting-high-throughput-and-availability.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/chain-replication-for-supporting-high-throughput-and-availability.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-ece6232ead3f",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/experimental_algorithmics/a-theoreticians-guide-to-the-experimental-analysis-of-algorithms.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/experimental_algorithmics/a-theoreticians-guide-to-the-experimental-analysis-of-algorithms.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-2777ada1fa05",
+      "url": "https://barroso.org/publications/isca00.pdf",
+      "final_url": "https://barroso.org/publications/isca00.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-3c8b21cb1cbd",
+      "url": "https://www.rdrop.com/users/paulmck/RCU/hart_ipdps06.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-caffff92fc74",
+      "url": "https://www.usenix.org/legacy/events/hotos03/tech/full_papers/candea/candea.pdf",
+      "final_url": "https://www.usenix.org/legacy/events/hotos03/tech/full_papers/candea/candea.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-03d1ee8b0ebf",
+      "url": "https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf",
+      "final_url": "https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-12bad8c41ad1",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/commodifying-replicated-state-machines-with-openreplica.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/commodifying-replicated-state-machines-with-openreplica.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-c4b17d9fc718",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consensus-in-presence-of-partial-synchrony.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consensus-in-presence-of-partial-synchrony.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-d7c1eecb9858",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-global-states-of-distributed-systems-fundamental-concepts-and-mechanisms.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-global-states-of-distributed-systems-fundamental-concepts-and-mechanisms.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-3b766b137900",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-hashing-and-random-trees.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/consistent-hashing-and-random-trees.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-fef2590ff753",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/copysets-reducing-the-frequency-of-data-loss-in-cloud-storage.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/copysets-reducing-the-frequency-of-data-loss-in-cloud-storage.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-56d73eda35f3",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/dapper-a-large-scale-distributed-tracing-infrastructure.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/dapper-a-large-scale-distributed-tracing-infrastructure.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-98ae267586e6",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/distributed-snapshots-determining-global-states-of-distributed-systems.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/distributed-snapshots-determining-global-states-of-distributed-systems.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-31058886b624",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/eluding-carnivores-file-sharing-with-strong-anonymity.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/eluding-carnivores-file-sharing-with-strong-anonymity.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-d3c2140a05c9",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/end-to-end-arguments-in-system-design.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/end-to-end-arguments-in-system-design.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-490c761c191b",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/epidemic-algorithms-for-replicated-database-maintenance.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/epidemic-algorithms-for-replicated-database-maintenance.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-75fbc0a18fd0",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/harvest-yield-and-scalable-tolerant-systems.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/harvest-yield-and-scalable-tolerant-systems.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-d9046ba5b6cc",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/herbivore-a-scalable-and-efficient-protocol-for-anonymous.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/herbivore-a-scalable-and-efficient-protocol-for-anonymous.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-e572727d66b4",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/high-level-specifications--lessons-from-industry.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/high-level-specifications--lessons-from-industry.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-a2b182e61848",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/how-the-hidden-hand-shapes-the-market-for-software-reliability.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/how-the-hidden-hand-shapes-the-market-for-software-reliability.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-7e6d9abd264e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/implementing-the-omega-failure-detector-in-crash-recovery-failure-model.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/implementing-the-omega-failure-detector-in-crash-recovery-failure-model.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-5333585f739e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/impossibility-of-consensus-with-one-faulty-process.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/impossibility-of-consensus-with-one-faulty-process.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-c1cf81a44576",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/in-search-of-an-understandable-consensus-algorithm.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/in-search-of-an-understandable-consensus-algorithm.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-95226e544314",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/kelips-building-an-efficient-and-stable-p2p-dht-through-increased-memory-and-background-overhead.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/kelips-building-an-efficient-and-stable-p2p-dht-through-increased-memory-and-background-overhead.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-b9e4fad2cb73",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/large-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/large-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-fa928a71da8c",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/life-beyond-distributed-transactions-an-apostates-opinion.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/life-beyond-distributed-transactions-an-apostates-opinion.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-65760d5e1019",
+      "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    },
+    {
+      "id": "paper-e554ec679c6c",
+      "url": "https://storageconference.us/2010/Papers/MSST/Shvachko.pdf",
+      "final_url": "https://msstconference.org/2010/Papers/MSST/Shvachko.pdf",
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "ok": false
+    },
+    {
+      "id": "paper-53b5f53c4f47",
+      "url": "https://worrydream.com/refs/Hewitt-ActorModel.pdf",
+      "final_url": "https://worrydream.com/refs/Hewitt_1973_-_A_Universal_Modular_Actor_Formalism_for_Artificial_Intelligence.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-6d82f4b50be8",
+      "url": "https://www.inf.ed.ac.uk/teaching/courses/exc/reading/morris.pdf",
+      "final_url": "https://www.inf.ed.ac.uk/teaching/courses/exc/reading/morris.pdf",
+      "status": 410,
+      "content_type": "text/html; charset=iso-8859-1",
+      "ok": false
+    },
+    {
+      "id": "paper-1f78eb0968b3",
+      "url": "https://www.cs.ucsb.edu/~veronika/MAE/spacecomplexityapproxfreqmoments_alon_99.pdf",
+      "final_url": "https://sites.cs.ucsb.edu/~veronika/MAE/spacecomplexityapproxfreqmoments_alon_99.pdf",
+      "status": 403,
+      "content_type": "text/html; charset=iso-8859-1",
+      "ok": false
+    },
+    {
+      "id": "paper-943c291599a5",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-49eeed2960d8",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/database-metatheory--asking-the-big-queries.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/database-metatheory--asking-the-big-queries.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-19eb46aa143e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/dynamo-amazons-highly-available-key-value-store.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/dynamo-amazons-highly-available-key-value-store.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-4747b99a15f9",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/elle-inferring-isolation-anomalies-from-experimental-observations.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/elle-inferring-isolation-anomalies-from-experimental-observations.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-f2db34601309",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/flat-datacenter-storage.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/flat-datacenter-storage.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-0d1ad5baeb3f",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/freenet-a-distributed-anonymous-information-and-retrieval-system.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/freenet-a-distributed-anonymous-information-and-retrieval-system.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-e85bb7d90132",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/the-google-file-system.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/the-google-file-system.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-b082588f4f2d",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/megastore-providing-scalable-highly-available-storage-for-interactive-services.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/megastore-providing-scalable-highly-available-storage-for-interactive-services.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-574da12b3d28",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/rados-a-scalable-reliable-storage-service-for-petabyte-scale-storage-clusters.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/rados-a-scalable-reliable-storage-service-for-petabyte-scale-storage-clusters.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-4e5208664973",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spanner-google's-globally-distributed-database.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spanner-google's-globally-distributed-database.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-639b7979fc43",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spartan-a-distributed-array-framework-with-smart-tiling.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/spartan-a-distributed-array-framework-with-smart-tiling.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-f0a3f5195bff",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/stasis-flexible-transactional-storage.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/stasis-flexible-transactional-storage.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-c75a464229fe",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/tao-facebook-distributed-datastore.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/tao-facebook-distributed-datastore.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-e68d3e891e3b",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/transactional-storage-for-geo-replicated-systems.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/transactional-storage-for-geo-replicated-systems.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-b1c56a3c6a80",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/warp-multi-key-transactions-for-key-value-stores.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/datastores/warp-multi-key-transactions-for-key-value-stores.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-b794c4d7e84c",
+      "url": "https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf",
+      "final_url": "http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-16724dd31747",
+      "url": "https://www.usenix.org/system/files/conference/woot13/woot13-kholia.pdf",
+      "final_url": "https://www.usenix.org/system/files/conference/woot13/woot13-kholia.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-71b18f1e7839",
+      "url": "https://www.usenix.org/events/hotos11/tech/final_files/Kannan.pdf",
+      "final_url": "https://www.usenix.org/legacy/events/hotos11/tech/final_files/Kannan.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-943b26fdbcc5",
+      "url": "https://breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf",
+      "final_url": "https://breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-aab4e1e27f9e",
+      "url": "https://tik-old.ee.ethz.ch/file/ef72343372ca8659a9ae8a98873167c0/TIKReport302.pdf",
+      "final_url": "https://tik-old.ee.ethz.ch/file/ef72343372ca8659a9ae8a98873167c0/TIKReport302.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-297ce81b55c0",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/macaroons-cookies-with-contextual-caveats.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/macaroons-cookies-with-contextual-caveats.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-7e6b214fb48a",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/ids-evasion-ptacek-newsham.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/ids-evasion-ptacek-newsham.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-1ed804206a6a",
+      "url": "https://meltdownattack.com/meltdown.pdf",
+      "final_url": "https://meltdownattack.com/meltdown.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-b6c29802667e",
+      "url": "https://spectreattack.com/spectre.pdf",
+      "final_url": "https://spectreattack.com/spectre.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-f0ba38b9af1d",
+      "url": "https://people.inf.ethz.ch/omutlu/pub/dram-row-hammer_isca14.pdf",
+      "final_url": "https://people.inf.ethz.ch/omutlu/pub/dram-row-hammer_isca14.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-47ea7688bc6e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/sok-eternal-war-in-memory.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/security/sok-eternal-war-in-memory.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-fd55ea8295ba",
+      "url": "https://epic.org/wp-content/uploads/privacy/reidentification/Sweeney_Article.pdf",
+      "final_url": "https://epic.org/wp-content/uploads/privacy/reidentification/Sweeney_Article.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-009410354d58",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dwork.pdf",
+      "final_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dwork.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-a654a6646f6d",
+      "url": "https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf",
+      "final_url": "https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf",
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "ok": false
+    },
+    {
+      "id": "paper-9b2d15825d4f",
+      "url": "https://www.cs.jhu.edu/~fabian/courses/CS600.424/course_papers/webtiming.pdf",
+      "final_url": "https://www.cs.jhu.edu/~fabian/courses/CS600.424/course_papers/webtiming.pdf",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-b1d1f7da9bc5",
+      "url": "https://crypto.stanford.edu/sameorigin/sameorigin.pdf",
+      "final_url": "https://crypto.stanford.edu/sameorigin/sameorigin.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-344158535df9",
+      "url": "https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40bc2804cbd3e41ed28dc8991316361eca48630c.pdf",
+      "final_url": "https://storage.googleapis.com/pub-tools-public-publication-data/pdf/40bc2804cbd3e41ed28dc8991316361eca48630c.pdf",
+      "status": 403,
+      "content_type": "application/xml; charset=UTF-8",
+      "ok": false
+    },
+    {
+      "id": "paper-10a3efa8b9c7",
+      "url": "https://kilthub.cmu.edu/articles/HYDRA_--_the_kernel_of_a_multiprocessor_operating_system/6606224/files/12096734.pdf",
+      "final_url": "https://kilthub.cmu.edu/articles/HYDRA_--_the_kernel_of_a_multiprocessor_operating_system/6606224/files/12096734.pdf",
+      "status": 403,
+      "content_type": "text/html",
+      "ok": false
+    },
+    {
+      "id": "paper-e2b8951b9c59",
+      "url": "https://os.itec.kit.edu/downloads/publ_1993_liedtke_persistent-system-in-real-use.pdf",
+      "final_url": "https://os.itec.kit.edu/downloads/publ_1993_liedtke_persistent-system-in-real-use.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "ok": true
+    },
+    {
+      "id": "paper-5934e19fbd22",
+      "url": "https://apps.dtic.mil/dtic/tr/fulltext/u2/a293537.pdf",
+      "final_url": "https://apps.dtic.mil/dtic/tr/fulltext/u2/a293537.pdf",
+      "status": 403,
+      "content_type": "text/html",
+      "ok": false
+    },
+    {
+      "id": "paper-2bcb22cbeb1f",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mapreduce-simplified-data-processing-on-large-clusters.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mapreduce-simplified-data-processing-on-large-clusters.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-4ae2d2714459",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/mesos-a-platform-for-fine-grained-resource-sharing-in-the-data-center.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-8a514b4095c5",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/oblivious-routing-of-highly-variable-traffic-in-service-overlays-and-ip-backbones.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/oblivious-routing-of-highly-variable-traffic-in-service-overlays-and-ip-backbones.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-1fffc1233d82",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/on-proof-and-progress-in-mathematics.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/on-proof-and-progress-in-mathematics.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-f2f1b9b8e2ed",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/p5-a-protocal-for-scalable-anonymous-communication.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/p5-a-protocal-for-scalable-anonymous-communication.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-85ab4e466254",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/pastry-scalable-decentralized-object-location-and-routing-for-large-scale-peer-to-peer-systems.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/pastry-scalable-decentralized-object-location-and-routing-for-large-scale-peer-to-peer-systems.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-43e63e4195d2",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-moderately-complex.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-moderately-complex.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-5966714bf4fb",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-simple.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/paxos-made-simple.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-6ac37c0048dc",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/self-stabilizing-systems-in-spite-of-distributed-control.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/self-stabilizing-systems-in-spite-of-distributed-control.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-3418135dea11",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sift-design-and-analysis-of-a-fault-tolerant-computer-for-aircraft-contro.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sift-design-and-analysis-of-a-fault-tolerant-computer-for-aircraft-contro.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-8a46dfe67775",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/solution-of-a-problem-in-concurrent-programming-control.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/solution-of-a-problem-in-concurrent-programming-control.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-6b2e4facb7a9",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sparse-partitions.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/sparse-partitions.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-12c1867959b8",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/stronger-semantics-for-low-latency-geo-replicated-storage.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/stronger-semantics-for-low-latency-geo-replicated-storage.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-8b325bb0b4f8",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-akamai-network.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-akamai-network.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-c783c60cea4a",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-dining-cryptographers-problem.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/the-dining-cryptographers-problem.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-98793c5d2d2e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/tor-the-second-generation-onion-router.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/tor-the-second-generation-onion-router.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-ae0e6c06f439",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/towards-a-cloud-computing-research-agenda.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/towards-a-cloud-computing-research-agenda.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-981e61b4b93e",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/understanding-the-limitations-of-causally-and-totally-ordered-communication.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/understanding-the-limitations-of-causally-and-totally-ordered-communication.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-cc37d28f13e9",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/viewing-control-structures-as-patterns-of-passing-messages.pdf",
+      "final_url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/viewing-control-structures-as-patterns-of-passing-messages.pdf",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "ok": true
+    },
+    {
+      "id": "paper-40420ad47cb4",
+      "url": "https://raw.githubusercontent.com/papers-we-love/papers-we-love/main/distributed_systems/zab-high-performance-broadcast-for-primary-backup-systems.pdf",
+      "status": null,
+      "content_type": null,
+      "ok": false,
+      "error": "TypeError"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "field": "ai-agent",
+  "checked_at": "2026-09-02",
+  "evidence_cutoff": "2026-09-01",
+  "provider": "Tavily CLI + arXiv API + Semantic Scholar Graph API",
+  "authenticated": true,
+  "requests": [
+    {
+      "request_id": "41404b17-b74f-4a28-a8e6-17db4981190a",
+      "mode": "research-pro",
+      "purpose": "建立正式、进阶、前沿论文的来源地图与可复现筛选流程",
+      "decision": "采用分层 taxonomy、来源优先级、去重、开放全文和人工复核原则；没有直接照收其宽泛书目建议。"
+    },
+    {
+      "request_id": "2039bc0a-6dca-4e22-9d13-70ccc4d7428e",
+      "mode": "search-advanced",
+      "purpose": "发现开放 AI Agent、RAG 与多 Agent 教材及论文入口",
+      "decision": "结果中混有 Medium、Scribd、购买页和低质量论文，全部排除；保留 arXiv 综述作为检索线索。"
+    },
+    {
+      "request_id": "e43e0dd4-1cde-44fe-a546-6069022f233c",
+      "mode": "search-advanced",
+      "purpose": "核验 Agent、强化学习、规划与多 Agent 权威开放教材",
+      "decision": "确认 Artificial Intelligence: Foundations of Computational Agents 与 MIT Press 开放教材体系；排除收费落地页。"
+    },
+    {
+      "request_id": "88b416cd-5f77-479e-b62d-99f9cbcdf2ab",
+      "mode": "search-advanced",
+      "purpose": "核验 Multi-Agent Reinforcement Learning 教材身份与开放全文",
+      "decision": "作者官网明确提供 MIT Press 2024 教材免费 PDF、代码和讲义，作为多 Agent 进阶主教材。"
+    },
+    {
+      "request_id": "030cb1b4-2c0b-488e-b710-9f6b969f5719",
+      "mode": "search-advanced",
+      "purpose": "核验 Multiagent Systems 教材开放授权入口",
+      "decision": "使用作者与 Cambridge 协议下的官方下载页，不直链第三方镜像。"
+    },
+    {
+      "request_id": "d59370b6-c5ce-4fcf-98ef-43decb1e1c72",
+      "mode": "search-advanced",
+      "purpose": "核验 Distributional Reinforcement Learning 开放正文",
+      "decision": "使用作者维护的完整在线草稿；不把 MIT Press 商品信息页作为阅读入口。"
+    },
+    {
+      "request_id": "3ca3da38-3ca7-4936-9685-befecc179b10",
+      "mode": "search-advanced",
+      "purpose": "修正 500 Lines or Less 的完整正文入口",
+      "decision": "目录根路径返回 404，改用作者站点的正式导言页进入全书章节。"
+    },
+    {
+      "request_id": "11e3df37-27a5-4e28-803c-5de950e549f3",
+      "mode": "search-advanced",
+      "purpose": "核验 Sutton 与 Barto 强化学习教材的官方开放正文",
+      "decision": "作者官网明确提供第二版完整 PDF、代码、勘误与教学材料；因旧站仅稳定支持 HTTP，记录为受控的 legacy HTTP 例外。"
+    },
+    {
+      "request_id": "99957533-46b1-4e32-8407-356f2dd54ebe",
+      "mode": "search-advanced",
+      "purpose": "核验 Algorithms for Decision Making 与 Google SRE 两本开放教材",
+      "decision": "Algorithms for Decision Making 改用含完整目录和官方 PDF 入口的作者站；Google SRE 与 Workbook 由官方 books 页交叉确认可全文在线阅读。"
+    },
+    {
+      "request_id": "e98e504e-8600-4789-95dc-46d1df2c6f97",
+      "mode": "search-advanced",
+      "purpose": "定位 2023—2026 Agent 工具、记忆、规划、评测与安全综述",
+      "decision": "用综述发现基准和原始论文，再回到 arXiv 原文核验；综述引用列表不自动等于入库。"
+    },
+    {
+      "request_id": "700885f2-253f-4ffb-a2f8-1bf826020a1f",
+      "mode": "search-advanced",
+      "purpose": "核验 2025 年 Foundations of Large Language Models 的开放正文与教材属性",
+      "decision": "采用作者在 arXiv 发布的 CC BY-NC 完整专著；排除 Scribd、Z-Library 等第三方入口。"
+    },
+    {
+      "request_id": "5189b20c-f4d2-4931-b54f-adb23e45ace6",
+      "mode": "search-advanced",
+      "purpose": "核验 Hugging Face 2025 年 Ultra-Scale Playbook",
+      "decision": "采用 Nanotron 团队维护的完整在线书，补入分布式训练和系统扩展的新知识。"
+    },
+    {
+      "request_id": "855e2fea-322e-465b-b755-64f80937cc30",
+      "mode": "search-advanced",
+      "purpose": "核验 Springer 2024 年 LLM 网络安全开放专著",
+      "decision": "采用 Springer 官方开放全文 PDF，补入最新 LLM 攻击面与缓解机制。"
+    },
+    {
+      "request_id": "f45207bf-1d67-4f97-9802-a23ec34a41b2",
+      "mode": "search-advanced",
+      "purpose": "检索 2024—2026 年主流开放大模型的官方技术报告",
+      "decision": "锁定 Qwen2.5、DeepSeek-V3、DeepSeek-R1、Gemma 3、Qwen3 与 Kimi K2 的 arXiv 原稿入口，不采用媒体解读或模型榜单替代技术报告。"
+    },
+    {
+      "request_id": "234279b6-8726-4964-acfb-67474459e91e",
+      "mode": "search-advanced",
+      "purpose": "交叉核验 Qwen3 与 DeepSeek-R1 技术报告的标题、日期和原稿",
+      "decision": "确认 2025 年报告身份，并固定为模型机制、后训练与推理范式模块的人工锚点。"
+    },
+    {
+      "request_id": "f5fe7aff-f6b2-49a3-aa0d-fcf669b61887",
+      "mode": "search-advanced",
+      "purpose": "交叉核验 Gemma 3 与 DeepSeek-V3 技术报告",
+      "decision": "确认官方作者团队与 arXiv 原稿，用于补充多模态、长上下文、MoE 和训练系统的新进展。"
+    },
+    {
+      "request_id": "635526b9-bdc0-4d08-9506-09e1d4f98813",
+      "mode": "search-advanced",
+      "purpose": "交叉核验 Qwen2.5 与 Kimi K2 技术报告",
+      "decision": "确认原始技术报告，并将其作为 2024—2025 年训练、推理与 Agentic Intelligence 的时效性证据。"
+    }
+  ],
+  "exclusion_rules": [
+    "课程页、登录页、购买页、样章、营销文章和第三方文档镜像不得作为教材入口。",
+    "搜索结果相关不等于权威；教材需承担系统教学任务，论文需与具体学习节点建立关系。",
+    "正式与进阶优先稳定算法、系统机制和可复用工程证据；前沿材料必须标注成熟度与证据截止日。",
+    "论文候选先按模块执行标题正向匹配与垂直行业漂移排除，再结合引用量、影响引用、正式发表场所、arXiv 相关性与前沿时效排序；引用量不是唯一入选标准。",
+    "旧论文只能作为人工确认的奠基锚点进入；正式、进阶、前沿分别设置 2025 年后资料配额，Agent 前沿检索窗口缩短到最近两年。"
+  ],
+  "result": {
+    "books": 44,
+    "papers": 320,
+    "papers_since_2023": 278,
+    "papers_since_2025": 147,
+    "current_or_recent_books": 18,
+    "modules": 17,
+    "navigation_units": 47,
+    "actual_node_ids": 67
+  }
+}

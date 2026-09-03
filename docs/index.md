@@ -7,16 +7,16 @@ hero:
   actions:
     - theme: brand
       text: 开始学习 →
-      link: /guide/
+      link: /learn/
     - theme: alt
-      text: 浏览三大领域
-      link: /domains/software/
+      text: 查看全站知识关系
+      link: /map/
     - theme: alt
       text: Agent 前沿强化
       link: /frontier/agents/
     - theme: alt
-      text: 六大领域深研
-      link: /fields/
+      text: 正式学习目录
+      link: /learn/formal/
     - theme: alt
       text: 查看 GitHub
       link: https://github.com/007M7/learning007
@@ -60,6 +60,8 @@ features:
 ```
 
 知识地图可以一次看全，但近期学习队列始终只保留 **3—5 个节点**。六个领域不是六份同时开工的待办：先选一条路线，把首章三个节点做成可观察证据，再依据项目阻塞解锁下一章。
+
+[查看三大主线、进阶、Agent 前沿与六大深研的完整关系 →](/map/)
 
 ## 三条学习原则
 

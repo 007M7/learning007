@@ -1,0 +1,1099 @@
+{
+  "field": "quality",
+  "title": "质量与生产交付",
+  "curated_count": 42,
+  "methodology": "Tavily 主题检索 + 官方正文核验 + 逐份资料卡写作 + 阅读综述批量验收",
+  "records": [
+    {
+      "id": "book:quality:swebok-v4",
+      "field": "quality",
+      "kind": "book",
+      "title": "Guide to the Software Engineering Body of Knowledge, Version 4.0",
+      "authors": [
+        "IEEE Computer Society"
+      ],
+      "year": "2024",
+      "publisher": "IEEE Computer Society",
+      "topics": [
+        "quality-risk",
+        "testing-evidence",
+        "build-artifacts"
+      ],
+      "official_url": "https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf",
+      "review_url": "/knowledge-base/reviews/quality/swebok-v4",
+      "review_status": "approved-sample",
+      "authority_reason": "以软件工程知识体系校准质量、测试、配置、运维和工程过程之间的边界。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://ieeecs-media.computer.org/media/education/swebok/swebok-v4.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:istqb-ctfl",
+      "field": "quality",
+      "kind": "book",
+      "title": "Certified Tester Foundation Level Syllabus v4.0.1",
+      "authors": [
+        "ISTQB"
+      ],
+      "year": "2024",
+      "publisher": "ISTQB",
+      "topics": [
+        "quality-risk",
+        "testing-evidence"
+      ],
+      "official_url": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0",
+      "review_url": "/knowledge-base/reviews/quality/istqb-ctfl",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "系统组织测试原则、生命周期、静态测试、测试设计、管理和工具，是测试语言与基础判断的共同底座。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:istqb-test-analyst",
+      "field": "quality",
+      "kind": "book",
+      "title": "Certified Tester Advanced Level Test Analyst Syllabus",
+      "authors": [
+        "ISTQB"
+      ],
+      "year": "持续更新",
+      "publisher": "ISTQB",
+      "topics": [
+        "quality-risk",
+        "testing-evidence"
+      ],
+      "official_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-analyst",
+      "review_url": "/knowledge-base/reviews/quality/istqb-test-analyst",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "围绕风险分析、黑盒设计、缺陷分析和测试过程深化业务侧测试判断。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-analyst",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:istqb-test-automation",
+      "field": "quality",
+      "kind": "book",
+      "title": "Certified Tester Test Automation Engineering Syllabus",
+      "authors": [
+        "ISTQB"
+      ],
+      "year": "持续更新",
+      "publisher": "ISTQB",
+      "topics": [
+        "testing-evidence",
+        "delivery-release"
+      ],
+      "official_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-automation-engineering-ctal-tae-v2-0",
+      "review_url": "/knowledge-base/reviews/quality/istqb-test-automation",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把自动化架构、部署、维护、度量和持续改进放进完整测试系统。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-automation-engineering-ctal-tae-v2-0",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:istqb-test-management",
+      "field": "quality",
+      "kind": "book",
+      "title": "Certified Tester Advanced Level Test Management Syllabus",
+      "authors": [
+        "ISTQB"
+      ],
+      "year": "持续更新",
+      "publisher": "ISTQB",
+      "topics": [
+        "quality-risk",
+        "testing-evidence",
+        "delivery-release"
+      ],
+      "official_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-management",
+      "review_url": "/knowledge-base/reviews/quality/istqb-test-management",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "连接组织风险、测试策略、监控、估算和团队协作，避免只按测试用例数量管理质量。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://istqb.org/certifications/certified-tester-advanced-level-test-management",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:nasa-software",
+      "field": "quality",
+      "kind": "book",
+      "title": "NASA Software Engineering Handbook",
+      "authors": [
+        "NASA"
+      ],
+      "year": "持续更新",
+      "publisher": "NASA",
+      "topics": [
+        "quality-risk",
+        "testing-evidence",
+        "delivery-release"
+      ],
+      "official_url": "https://swehb.nasa.gov/",
+      "review_url": "/knowledge-base/reviews/quality/nasa-software",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用高可信系统的生命周期要求解释验证、确认、配置、审查和软件保证。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://swehb.nasa.gov/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:nasa-systems",
+      "field": "quality",
+      "kind": "book",
+      "title": "NASA Systems Engineering Handbook",
+      "authors": [
+        "NASA"
+      ],
+      "year": "2016",
+      "publisher": "NASA",
+      "topics": [
+        "quality-risk",
+        "observability-recovery",
+        "platform-resilience"
+      ],
+      "official_url": "https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf",
+      "review_url": "/knowledge-base/reviews/quality/nasa-systems",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从需求、技术评审、验证确认、风险和运行过渡建立系统级质量视角。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:pytest",
+      "field": "quality",
+      "kind": "book",
+      "title": "pytest Documentation",
+      "authors": [
+        "pytest Project"
+      ],
+      "year": "持续更新",
+      "publisher": "pytest Project",
+      "topics": [
+        "testing-evidence"
+      ],
+      "official_url": "https://docs.pytest.org/en/stable/contents.html",
+      "review_url": "/knowledge-base/reviews/quality/pytest",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "通过 fixture、参数化、标记、插件和失败诊断建立可维护的自动化测试实践。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://docs.pytest.org/en/stable/contents.html",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:playwright",
+      "field": "quality",
+      "kind": "book",
+      "title": "Playwright Documentation",
+      "authors": [
+        "Microsoft"
+      ],
+      "year": "持续更新",
+      "publisher": "Microsoft",
+      "topics": [
+        "testing-evidence",
+        "delivery-release"
+      ],
+      "official_url": "https://playwright.dev/docs/intro",
+      "review_url": "/knowledge-base/reviews/quality/playwright",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "围绕定位器、自动等待、隔离、追踪和并行执行构造低脆弱性的关键旅程测试。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://playwright.dev/docs/intro",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:hypothesis",
+      "field": "quality",
+      "kind": "book",
+      "title": "Hypothesis Documentation",
+      "authors": [
+        "Hypothesis Project"
+      ],
+      "year": "持续更新",
+      "publisher": "Hypothesis Project",
+      "topics": [
+        "testing-evidence"
+      ],
+      "official_url": "https://hypothesis.readthedocs.io/en/latest/",
+      "review_url": "/knowledge-base/reviews/quality/hypothesis",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用性质、生成器、缩减和状态机测试补足人工示例无法覆盖的输入空间。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://hypothesis.readthedocs.io/en/latest/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:pact",
+      "field": "quality",
+      "kind": "book",
+      "title": "Pact Documentation",
+      "authors": [
+        "Pact Foundation"
+      ],
+      "year": "持续更新",
+      "publisher": "Pact Foundation",
+      "topics": [
+        "testing-evidence",
+        "delivery-release"
+      ],
+      "official_url": "https://docs.pact.io/",
+      "review_url": "/knowledge-base/reviews/quality/pact",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用消费者驱动契约、验证代理和版本矩阵约束独立服务演进。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://docs.pact.io/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:openapi",
+      "field": "quality",
+      "kind": "book",
+      "title": "OpenAPI Specification",
+      "authors": [
+        "OpenAPI Initiative"
+      ],
+      "year": "持续更新",
+      "publisher": "OpenAPI Initiative",
+      "topics": [
+        "testing-evidence",
+        "delivery-release"
+      ],
+      "official_url": "https://spec.openapis.org/oas/latest.html",
+      "review_url": "/knowledge-base/reviews/quality/openapi",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "以机器可读接口契约支撑验证、兼容分析、Mock 和跨团队交付。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://spec.openapis.org/oas/latest.html",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:semver",
+      "field": "quality",
+      "kind": "book",
+      "title": "Semantic Versioning 2.0.0",
+      "authors": [
+        "Tom Preston-Werner / semver.org"
+      ],
+      "year": "2.0.0",
+      "publisher": "Tom Preston-Werner / semver.org",
+      "topics": [
+        "build-artifacts",
+        "delivery-release"
+      ],
+      "official_url": "https://semver.org/",
+      "review_url": "/knowledge-base/reviews/quality/semver",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把公开 API 的兼容承诺编码进版本号，同时提醒版本号不能替代真正的兼容测试。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://semver.org/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:reproducible-builds",
+      "field": "quality",
+      "kind": "book",
+      "title": "Reproducible Builds Documentation",
+      "authors": [
+        "Reproducible Builds Project"
+      ],
+      "year": "持续更新",
+      "publisher": "Reproducible Builds Project",
+      "topics": [
+        "build-artifacts",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://reproducible-builds.org/docs/",
+      "review_url": "/knowledge-base/reviews/quality/reproducible-builds",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "系统解释确定性构建、环境差异、归档元数据和独立重建怎样证明制品一致。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://reproducible-builds.org/docs/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:docker-build",
+      "field": "quality",
+      "kind": "book",
+      "title": "Docker Build Documentation",
+      "authors": [
+        "Docker"
+      ],
+      "year": "持续更新",
+      "publisher": "Docker",
+      "topics": [
+        "build-artifacts"
+      ],
+      "official_url": "https://docs.docker.com/build/",
+      "review_url": "/knowledge-base/reviews/quality/docker-build",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "覆盖构建上下文、层、缓存、多阶段构建、构建器和镜像最佳实践。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://docs.docker.com/build/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:github-actions",
+      "field": "quality",
+      "kind": "book",
+      "title": "GitHub Actions Documentation",
+      "authors": [
+        "GitHub"
+      ],
+      "year": "持续更新",
+      "publisher": "GitHub",
+      "topics": [
+        "delivery-release",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://docs.github.com/en/actions",
+      "review_url": "/knowledge-base/reviews/quality/github-actions",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "说明工作流、事件、Runner、制品、环境审批和 OpenID Connect 等交付构件。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://docs.github.com/en/actions",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:google-sre",
+      "field": "quality",
+      "kind": "book",
+      "title": "Site Reliability Engineering",
+      "authors": [
+        "Betsy Beyer 等 / Google"
+      ],
+      "year": "2016",
+      "publisher": "Betsy Beyer 等 / Google",
+      "topics": [
+        "observability-recovery",
+        "performance-capacity",
+        "chaos-sre"
+      ],
+      "official_url": "https://sre.google/sre-book/table-of-contents/",
+      "review_url": "/knowledge-base/reviews/quality/google-sre",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用 SLI/SLO、错误预算、监控、容量、自动化和事故响应建立生产可靠性的稳定框架。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sre.google/sre-book/table-of-contents/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:sre-workbook",
+      "field": "quality",
+      "kind": "book",
+      "title": "The Site Reliability Workbook",
+      "authors": [
+        "Betsy Beyer 等 / Google"
+      ],
+      "year": "2018",
+      "publisher": "Betsy Beyer 等 / Google",
+      "topics": [
+        "delivery-release",
+        "observability-recovery",
+        "chaos-sre"
+      ],
+      "official_url": "https://sre.google/workbook/table-of-contents/",
+      "review_url": "/knowledge-base/reviews/quality/sre-workbook",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把 SRE 原则转化为 SLO、告警、金丝雀、过载、值班和应急演练。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://sre.google/workbook/table-of-contents/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:secure-reliable",
+      "field": "quality",
+      "kind": "book",
+      "title": "Building Secure and Reliable Systems",
+      "authors": [
+        "Heather Adkins 等 / Google"
+      ],
+      "year": "2020",
+      "publisher": "Heather Adkins 等 / Google",
+      "topics": [
+        "secure-supply-chain",
+        "observability-recovery",
+        "platform-resilience"
+      ],
+      "official_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+      "review_url": "/knowledge-base/reviews/quality/secure-reliable",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把安全和可靠性共同前置到设计、实现、部署、响应和恢复。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:opentelemetry",
+      "field": "quality",
+      "kind": "book",
+      "title": "OpenTelemetry Documentation and Specification",
+      "authors": [
+        "Cloud Native Computing Foundation"
+      ],
+      "year": "持续更新",
+      "publisher": "Cloud Native Computing Foundation",
+      "topics": [
+        "observability-recovery",
+        "performance-capacity"
+      ],
+      "official_url": "https://opentelemetry.io/docs/",
+      "review_url": "/knowledge-base/reviews/quality/opentelemetry",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "以统一语义和上下文传播连接 traces、metrics、logs、采样与 Collector。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://opentelemetry.io/docs/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:prometheus",
+      "field": "quality",
+      "kind": "book",
+      "title": "Prometheus Documentation",
+      "authors": [
+        "Cloud Native Computing Foundation"
+      ],
+      "year": "持续更新",
+      "publisher": "Cloud Native Computing Foundation",
+      "topics": [
+        "observability-recovery",
+        "performance-capacity"
+      ],
+      "official_url": "https://prometheus.io/docs/introduction/overview/",
+      "review_url": "/knowledge-base/reviews/quality/prometheus",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从时间序列、抓取、查询、规则到告警解释指标系统的工作方式与限制。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://prometheus.io/docs/introduction/overview/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:nist-risk",
+      "field": "quality",
+      "kind": "book",
+      "title": "NIST SP 800-30 Rev. 1: Guide for Conducting Risk Assessments",
+      "authors": [
+        "NIST"
+      ],
+      "year": "2012",
+      "publisher": "NIST",
+      "topics": [
+        "quality-risk"
+      ],
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+      "review_url": "/knowledge-base/reviews/quality/nist-risk",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用威胁、脆弱性、影响、可能性和不确定性组织风险评估，不把风险分数冒充精确概率。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:nist-ssdf",
+      "field": "quality",
+      "kind": "book",
+      "title": "NIST SP 800-218: Secure Software Development Framework",
+      "authors": [
+        "NIST"
+      ],
+      "year": "2022",
+      "publisher": "NIST",
+      "topics": [
+        "secure-supply-chain",
+        "delivery-release"
+      ],
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/218/final",
+      "review_url": "/knowledge-base/reviews/quality/nist-ssdf",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "以组织准备、软件保护、生产安全软件和漏洞响应四组实践约束开发生命周期。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://csrc.nist.gov/pubs/sp/800/218/final",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:nist-incident",
+      "field": "quality",
+      "kind": "book",
+      "title": "NIST SP 800-61 Rev. 3: Incident Response Recommendations and Considerations",
+      "authors": [
+        "NIST"
+      ],
+      "year": "2025",
+      "publisher": "NIST",
+      "topics": [
+        "observability-recovery",
+        "platform-resilience"
+      ],
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+      "review_url": "/knowledge-base/reviews/quality/nist-incident",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把事故响应纳入风险管理、准备、检测、处置、恢复与持续改进。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:nist-contingency",
+      "field": "quality",
+      "kind": "book",
+      "title": "NIST SP 800-34 Rev. 1: Contingency Planning Guide",
+      "authors": [
+        "NIST"
+      ],
+      "year": "2010",
+      "publisher": "NIST",
+      "topics": [
+        "observability-recovery",
+        "platform-resilience"
+      ],
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/34/r1/final",
+      "review_url": "/knowledge-base/reviews/quality/nist-contingency",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "系统说明业务影响分析、恢复策略、计划编制、测试演练和维护。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://csrc.nist.gov/pubs/sp/800/34/r1/final",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:nist-container",
+      "field": "quality",
+      "kind": "book",
+      "title": "NIST SP 800-190: Application Container Security Guide",
+      "authors": [
+        "NIST"
+      ],
+      "year": "2017",
+      "publisher": "NIST",
+      "topics": [
+        "build-artifacts",
+        "kubernetes-operations",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://csrc.nist.gov/pubs/sp/800/190/final",
+      "review_url": "/knowledge-base/reviews/quality/nist-container",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "按镜像、注册表、编排器、容器和宿主机拆解容器风险与控制。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://csrc.nist.gov/pubs/sp/800/190/final",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:owasp-wstg",
+      "field": "quality",
+      "kind": "book",
+      "title": "OWASP Web Security Testing Guide",
+      "authors": [
+        "OWASP Foundation"
+      ],
+      "year": "持续更新",
+      "publisher": "OWASP Foundation",
+      "topics": [
+        "testing-evidence",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://owasp.org/www-project-web-security-testing-guide/stable/",
+      "review_url": "/knowledge-base/reviews/quality/owasp-wstg",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "以系统化测试场景覆盖身份、会话、输入、业务逻辑、客户端和 API 安全。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://owasp.org/www-project-web-security-testing-guide/stable/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:owasp-asvs",
+      "field": "quality",
+      "kind": "book",
+      "title": "OWASP Application Security Verification Standard",
+      "authors": [
+        "OWASP Foundation"
+      ],
+      "year": "5.0",
+      "publisher": "OWASP Foundation",
+      "topics": [
+        "quality-risk",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://owasp.org/www-project-application-security-verification-standard/",
+      "review_url": "/knowledge-base/reviews/quality/owasp-asvs",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把应用安全需求组织为可分级、可验证的控制集合，用于确定测试深度。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://owasp.org/www-project-application-security-verification-standard/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:slsa",
+      "field": "quality",
+      "kind": "book",
+      "title": "SLSA Specification",
+      "authors": [
+        "OpenSSF / SLSA Steering Committee"
+      ],
+      "year": "1.2",
+      "publisher": "OpenSSF / SLSA Steering Committee",
+      "topics": [
+        "build-artifacts",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://slsa.dev/spec/v1.2/",
+      "review_url": "/knowledge-base/reviews/quality/slsa",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用来源、构建平台和 provenance 的保证等级讨论软件供应链完整性。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://slsa.dev/spec/v1.2/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:in-toto",
+      "field": "quality",
+      "kind": "book",
+      "title": "in-toto Specification",
+      "authors": [
+        "in-toto Project / CNCF"
+      ],
+      "year": "持续更新",
+      "publisher": "in-toto Project / CNCF",
+      "topics": [
+        "build-artifacts",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://in-toto.io/",
+      "review_url": "/knowledge-base/reviews/quality/in-toto",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用布局、步骤、签名和证明记录供应链中由谁执行了什么。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://in-toto.io/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:tuf",
+      "field": "quality",
+      "kind": "book",
+      "title": "The Update Framework Specification",
+      "authors": [
+        "TUF Project / CNCF"
+      ],
+      "year": "持续更新",
+      "publisher": "TUF Project / CNCF",
+      "topics": [
+        "delivery-release",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://theupdateframework.github.io/specification/latest/",
+      "review_url": "/knowledge-base/reviews/quality/tuf",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "通过角色分离、阈值签名、版本和过期机制抵御软件更新系统中的密钥与仓库攻击。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://theupdateframework.github.io/specification/latest/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:spdx",
+      "field": "quality",
+      "kind": "book",
+      "title": "SPDX Specification",
+      "authors": [
+        "Linux Foundation"
+      ],
+      "year": "3.0",
+      "publisher": "Linux Foundation",
+      "topics": [
+        "secure-supply-chain"
+      ],
+      "official_url": "https://spdx.github.io/spdx-spec/v3.0/",
+      "review_url": "/knowledge-base/reviews/quality/spdx",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "定义软件、包、文件、依赖和许可证的可交换 SBOM 数据模型。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://spdx.github.io/spdx-spec/v3.0/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:cyclonedx",
+      "field": "quality",
+      "kind": "book",
+      "title": "CycloneDX Specification",
+      "authors": [
+        "OWASP Foundation"
+      ],
+      "year": "持续更新",
+      "publisher": "OWASP Foundation",
+      "topics": [
+        "secure-supply-chain"
+      ],
+      "official_url": "https://cyclonedx.org/specification/overview/",
+      "review_url": "/knowledge-base/reviews/quality/cyclonedx",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "覆盖 SBOM、SaaSBOM、漏洞、配方、证明和运营使用场景。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://cyclonedx.org/specification/overview/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:kubernetes",
+      "field": "quality",
+      "kind": "book",
+      "title": "Kubernetes Documentation",
+      "authors": [
+        "Kubernetes Project / CNCF"
+      ],
+      "year": "持续更新",
+      "publisher": "Kubernetes Project / CNCF",
+      "topics": [
+        "kubernetes-foundations",
+        "kubernetes-operations"
+      ],
+      "official_url": "https://kubernetes.io/docs/home/",
+      "review_url": "/knowledge-base/reviews/quality/kubernetes",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "从对象模型、控制器、工作负载、服务、配置、存储到集群管理建立编排主线。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://kubernetes.io/docs/home/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:kubernetes-security",
+      "field": "quality",
+      "kind": "book",
+      "title": "Kubernetes Security Checklist",
+      "authors": [
+        "Kubernetes Project / CNCF"
+      ],
+      "year": "持续更新",
+      "publisher": "Kubernetes Project / CNCF",
+      "topics": [
+        "kubernetes-operations",
+        "secure-supply-chain"
+      ],
+      "official_url": "https://kubernetes.io/docs/concepts/security/security-checklist/",
+      "review_url": "/knowledge-base/reviews/quality/kubernetes-security",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "按认证授权、Pod、网络、密钥、镜像和日志给出共享集群的最低安全检查面。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://kubernetes.io/docs/concepts/security/security-checklist/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:cloud-native-security",
+      "field": "quality",
+      "kind": "book",
+      "title": "Cloud Native Security Whitepaper v2",
+      "authors": [
+        "CNCF TAG Security"
+      ],
+      "year": "2022",
+      "publisher": "CNCF TAG Security",
+      "topics": [
+        "kubernetes-operations",
+        "secure-supply-chain",
+        "platform-resilience"
+      ],
+      "official_url": "https://tag-security.cncf.io/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper/",
+      "review_url": "/knowledge-base/reviews/quality/cloud-native-security",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "沿开发、分发、部署和运行生命周期组织云原生安全责任与控制。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://tag-security.cncf.io/community/resources/security-whitepaper/v2/cloud-native-security-whitepaper/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:opengitops",
+      "field": "quality",
+      "kind": "book",
+      "title": "OpenGitOps Principles",
+      "authors": [
+        "CNCF OpenGitOps Working Group"
+      ],
+      "year": "持续更新",
+      "publisher": "CNCF OpenGitOps Working Group",
+      "topics": [
+        "iac-gitops"
+      ],
+      "official_url": "https://opengitops.dev/",
+      "review_url": "/knowledge-base/reviews/quality/opengitops",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用声明式、版本化、自动拉取和持续调和定义 GitOps 的稳定边界。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://opengitops.dev/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:terraform",
+      "field": "quality",
+      "kind": "book",
+      "title": "Terraform Documentation",
+      "authors": [
+        "HashiCorp"
+      ],
+      "year": "持续更新",
+      "publisher": "HashiCorp",
+      "topics": [
+        "iac-gitops"
+      ],
+      "official_url": "https://developer.hashicorp.com/terraform/docs",
+      "review_url": "/knowledge-base/reviews/quality/terraform",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "解释配置、状态、计划、Provider、Module 与远端执行的 IaC 工作流。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://developer.hashicorp.com/terraform/docs",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:argocd",
+      "field": "quality",
+      "kind": "book",
+      "title": "Argo CD Documentation",
+      "authors": [
+        "Argo Project / CNCF"
+      ],
+      "year": "持续更新",
+      "publisher": "Argo Project / CNCF",
+      "topics": [
+        "iac-gitops",
+        "delivery-release"
+      ],
+      "official_url": "https://argo-cd.readthedocs.io/en/stable/",
+      "review_url": "/knowledge-base/reviews/quality/argocd",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "围绕期望状态、同步、健康检查、差异和回滚实现 Kubernetes 持续交付。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://argo-cd.readthedocs.io/en/stable/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:principles-chaos",
+      "field": "quality",
+      "kind": "book",
+      "title": "Principles of Chaos Engineering",
+      "authors": [
+        "Chaos Engineering Community"
+      ],
+      "year": "持续更新",
+      "publisher": "Chaos Engineering Community",
+      "topics": [
+        "chaos-sre"
+      ],
+      "official_url": "https://principlesofchaos.org/",
+      "review_url": "/knowledge-base/reviews/quality/principles-chaos",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用稳态假设、真实事件、生产实验、自动化和最小爆炸半径界定混沌实验。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://principlesofchaos.org/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:cncf-platforms",
+      "field": "quality",
+      "kind": "book",
+      "title": "CNCF Platforms White Paper",
+      "authors": [
+        "CNCF TAG App Delivery"
+      ],
+      "year": "2023",
+      "publisher": "CNCF TAG App Delivery",
+      "topics": [
+        "platform-resilience",
+        "iac-gitops"
+      ],
+      "official_url": "https://tag-app-delivery.cncf.io/whitepapers/platforms/",
+      "review_url": "/knowledge-base/reviews/quality/cncf-platforms",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "把内部平台定义为面向用户需求组合能力的产品，而不是工具门户。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://tag-app-delivery.cncf.io/whitepapers/platforms/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": "book:quality:platform-maturity",
+      "field": "quality",
+      "kind": "book",
+      "title": "Platform Engineering Maturity Model",
+      "authors": [
+        "CNCF TAG App Delivery"
+      ],
+      "year": "2023",
+      "publisher": "CNCF TAG App Delivery",
+      "topics": [
+        "platform-resilience"
+      ],
+      "official_url": "https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/",
+      "review_url": "/knowledge-base/reviews/quality/platform-maturity",
+      "review_status": "complete-awaiting-user-review",
+      "authority_reason": "用投资、采用、接口、运营和度量维度判断平台能力的成熟度与下一步。",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/",
+        "local_path": null,
+        "checked_at": "2026-09-03"
+      },
+      "updated_at": "2026-09-03"
+    }
+  ]
+}

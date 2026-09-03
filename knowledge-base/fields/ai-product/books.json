@@ -1,293 +1,398 @@
 {
   "field": "ai-product",
   "title": "AI 产品经理",
-  "curated_count": 10,
-  "methodology": "人工精选学科骨架；Tavily 检索官方大学、出版社、政府与专业机构页面进行来源审计。",
+  "curated_count": 12,
+  "methodology": "按 AI 产品经理课程决策链反推教材角色；使用 Tavily 扩展检索并逐本核验完整目录、全文入口、来源授权与课程覆盖。",
   "records": [
-    {
-      "id": "book:ai-product:human-centered-ai",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "Human-Centered AI",
-      "authors": [
-        "Ben Shneiderman"
-      ],
-      "year": 2022,
-      "publisher": "Oxford University Press",
-      "topics": [
-        "human-centered-ai",
-        "reliability",
-        "governance"
-      ],
-      "official_url": "https://global.oup.com/academic/product/human-centered-ai-9780192845290",
-      "authority_reason": "由 HCI 领域权威学者提出以高自动化与高人类控制并行的系统框架。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:ai-product:designing-ml-systems",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "Designing Machine Learning Systems",
-      "authors": [
-        "Chip Huyen"
-      ],
-      "year": 2022,
-      "publisher": "O'Reilly",
-      "topics": [
-        "product-architecture",
-        "data",
-        "deployment"
-      ],
-      "official_url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
-      "authority_reason": "系统覆盖从问题定义、数据到部署监控的 ML 产品工程实践。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:ai-product:ai-engineering",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "AI Engineering",
-      "authors": [
-        "Chip Huyen"
-      ],
-      "year": 2025,
-      "publisher": "O'Reilly",
-      "topics": [
-        "foundation-models",
-        "evaluation",
-        "product-development"
-      ],
-      "official_url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
-      "authority_reason": "面向基础模型时代的应用构建、评测和迭代，是当前 AI 产品工程的重要新教材。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:ai-product:building-ml-apps",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "Building Machine Learning Powered Applications",
-      "authors": [
-        "Emmanuel Ameisen"
-      ],
-      "year": 2020,
-      "publisher": "O'Reilly",
-      "topics": [
-        "problem-framing",
-        "prototyping",
-        "iteration"
-      ],
-      "official_url": "https://www.oreilly.com/library/view/building-machine-learning/9781492045106/",
-      "authority_reason": "从产品问题到部署的端到端实践书，强调错误分析和迭代。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:ai-product:inspired",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "INSPIRED: How to Create Tech Products Customers Love",
-      "authors": [
-        "Marty Cagan"
-      ],
-      "year": 2017,
-      "publisher": "Wiley",
-      "topics": [
-        "product-discovery",
-        "teams",
-        "strategy"
-      ],
-      "official_url": "https://www.svpg.com/inspired-how-to-create-products-customers-love/",
-      "authority_reason": "现代科技产品管理的行业经典，用于建立产品发现和团队责任基础。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:ai-product:continuous-discovery",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "Continuous Discovery Habits",
-      "authors": [
-        "Teresa Torres"
-      ],
-      "year": 2021,
-      "publisher": "Product Talk",
-      "topics": [
-        "discovery",
-        "experimentation",
-        "user-research"
-      ],
-      "official_url": "https://www.producttalk.org/continuous-discovery-habits/",
-      "authority_reason": "持续发现方法的代表作，适合约束 AI 功能从真实机会而非演示出发。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:ai-product:prediction-machines",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "Prediction Machines",
-      "authors": [
-        "Ajay Agrawal",
-        "Joshua Gans",
-        "Avi Goldfarb"
-      ],
-      "year": 2018,
-      "publisher": "Harvard Business Review Press",
-      "topics": [
-        "economics",
-        "decision-making",
-        "strategy"
-      ],
-      "official_url": "https://www.predictionmachines.ai/",
-      "authority_reason": "由经济学者从预测成本与决策互补资产解释 AI 产品价值。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
-    {
-      "id": "book:ai-product:power-and-prediction",
-      "field": "ai-product",
-      "kind": "book",
-      "title": "Power and Prediction",
-      "authors": [
-        "Ajay Agrawal",
-        "Joshua Gans",
-        "Avi Goldfarb"
-      ],
-      "year": 2022,
-      "publisher": "Harvard Business Review Press",
-      "topics": [
-        "system-redesign",
-        "economics",
-        "organization"
-      ],
-      "official_url": "https://www.powerandprediction.com/",
-      "authority_reason": "进一步讨论 AI 从点工具到系统级工作流重构的经济逻辑。",
-      "access": {
-        "status": "commercial",
-        "download_url": null,
-        "license": null,
-        "local_path": null,
-        "sha256": null,
-        "bytes": null,
-        "checked_at": null
-      },
-      "updated_at": "2026-08-31"
-    },
     {
       "id": "book:ai-product:pair-guidebook",
       "field": "ai-product",
-      "kind": "handbook",
+      "kind": "book",
+      "resource_class": "systematic-handbook",
       "title": "People + AI Guidebook",
       "authors": [
         "Google PAIR"
       ],
-      "year": 2019,
-      "publisher": "Google",
+      "year": "持续更新",
+      "publisher": "Google PAIR",
       "topics": [
-        "ai-ux",
-        "trust",
-        "human-ai-interaction"
+        "problem-discovery",
+        "workflow",
+        "ux-trust"
       ],
-      "official_url": "https://pair.withgoogle.com/guidebook/",
-      "authority_reason": "Google PAIR 基于 HAI 研究整理的公开设计手册，包含真实交互模式和工作表。",
+      "official_url": "https://pair.withgoogle.com/guidebook-v2/",
+      "authority_reason": "沿用户需求、数据、心智模型、解释、反馈和失败恢复，建立人本 AI 产品设计的完整判断顺序。",
+      "access_proof": "Google PAIR 官方完整在线正文，六章、工作表与设计模式均可直接阅读。",
+      "review_status": "published",
       "access": {
-        "status": "official_online",
-        "download_url": null,
+        "status": "open_fulltext",
+        "download_url": "https://pair.withgoogle.com/guidebook-v2/",
         "license": null,
         "local_path": null,
         "sha256": null,
         "bytes": null,
-        "checked_at": null
+        "checked_at": "2026-09-02"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-02"
     },
     {
-      "id": "book:ai-product:nist-ai-rmf",
+      "id": "book:ai-product:ai-product-manager-handbook-2026",
       "field": "ai-product",
-      "kind": "handbook",
-      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "AI Product Manager Handbook 2026",
       "authors": [
-        "NIST"
+        "IdeaPlan"
       ],
-      "year": 2023,
-      "publisher": "National Institute of Standards and Technology",
+      "year": 2026,
+      "publisher": "IdeaPlan",
       "topics": [
-        "risk-management",
-        "governance",
-        "measurement"
+        "capability-architecture",
+        "evaluation",
+        "ux-trust",
+        "economics",
+        "operations",
+        "strategy-organization"
       ],
-      "official_url": "https://www.nist.gov/itl/ai-risk-management-framework",
-      "authority_reason": "美国 NIST 正式风险管理框架，为 AI 产品治理、测量与责任分配提供权威公共基线。",
+      "official_url": "https://www.ideaplan.io/reports/ai-pm-handbook.pdf",
+      "authority_reason": "用十二章串起 AI 适用性、PRD、评测、UX、战略、经济性、监控和组织规模化。",
+      "access_proof": "出版方公开的完整 PDF，可直接读取十二章正文，无需登录或邮箱解锁。",
+      "review_status": "published",
       "access": {
         "status": "open_fulltext",
-        "download_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-        "license": "US-government-work",
-        "local_path": "cache/books/ai-product/book-ai-product-nist-ai-rmf.pdf",
-        "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
-        "bytes": 1946127,
-        "checked_at": "2026-08-31T04:56:17.166Z",
-        "download_error": null
+        "download_url": "https://www.ideaplan.io/reports/ai-pm-handbook.pdf",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
       },
-      "updated_at": "2026-08-31"
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:shape-up",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "Shape Up: Stop Running in Circles and Ship Work that Matters",
+      "authors": [
+        "Ryan Singer",
+        "Basecamp"
+      ],
+      "year": 2019,
+      "publisher": "Ryan Singer / Basecamp",
+      "topics": [
+        "problem-discovery",
+        "workflow",
+        "operations",
+        "strategy-organization"
+      ],
+      "official_url": "https://basecamp.com/shapeup",
+      "authority_reason": "从塑形、下注到交付建立固定时间、可变范围、风险预处理和项目责任制。",
+      "access_proof": "Basecamp 官方完整在线书稿，含十五章、附录和术语表。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://basecamp.com/shapeup",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:field-guide-hcd",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "The Field Guide to Human-Centered Design",
+      "authors": [
+        "IDEO.org"
+      ],
+      "year": 2015,
+      "publisher": "IDEO.org",
+      "topics": [
+        "problem-discovery",
+        "workflow",
+        "ux-trust",
+        "experimentation"
+      ],
+      "official_url": "https://swchi.org/wp-content/uploads/2020/10/THE-FIELD-GUIDE-TO-HCD-from-IDEO.org_.pdf",
+      "authority_reason": "通过灵感、构思和实施三个阶段以及 57 种方法，系统训练用户研究、共创、原型和验证。",
+      "access_proof": "完整 192 页 PDF；原书以 CC BY-NC-ND 3.0 发布，当前入口保留完整版权与许可页。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://swchi.org/wp-content/uploads/2020/10/THE-FIELD-GUIDE-TO-HCD-from-IDEO.org_.pdf",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:strategic-product-management",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "Strategic Product Management",
+      "authors": [
+        "Frank Lemser",
+        "proProduktmanagement"
+      ],
+      "year": "2025 更新",
+      "publisher": "Frank Lemser / proProduktmanagement",
+      "topics": [
+        "problem-discovery",
+        "economics",
+        "strategy-organization"
+      ],
+      "official_url": "https://www.pro-productmanagement.com/images/downloads/strategic-product-management-book-open-product-management-workflow.pdf",
+      "authority_reason": "从市场访谈与事实分析出发，逐步形成产品战略、商业计划、路线图和跨部门决策依据。",
+      "access_proof": "作者机构提供的完整教材 PDF，标注 CC BY-SA 4.0 与 2025 年更新时间。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.pro-productmanagement.com/images/downloads/strategic-product-management-book-open-product-management-workflow.pdf",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:technical-product-management",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "Technical Product Management",
+      "authors": [
+        "Frank Lemser",
+        "proProduktmanagement"
+      ],
+      "year": "持续更新",
+      "publisher": "Frank Lemser / proProduktmanagement",
+      "topics": [
+        "workflow",
+        "capability-architecture",
+        "evaluation",
+        "operations"
+      ],
+      "official_url": "https://www.pro-productmanagement.com/images/downloads/technical-product-management-book-open-product-management-workflow.pdf",
+      "authority_reason": "系统讲解技术产品团队、需求表达、优先级、工作包、成本估算、KPI 与原型验证。",
+      "access_proof": "作者机构提供的完整教材 PDF，可直接打开，无需购买或登录。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.pro-productmanagement.com/images/downloads/technical-product-management-book-open-product-management-workflow.pdf",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:successful-go-to-market",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "Successful Go-to-Market",
+      "authors": [
+        "Frank Lemser",
+        "proProduktmanagement"
+      ],
+      "year": "持续更新",
+      "publisher": "Frank Lemser / proProduktmanagement",
+      "topics": [
+        "experimentation",
+        "economics",
+        "strategy-organization"
+      ],
+      "official_url": "https://www.pro-productmanagement.com/images/downloads/successfull-go-to-market-book-open-product-management-workflow.pdf",
+      "authority_reason": "把定位、营销与销售协同、上市计划、收入预测和资源使用组织成可重复的上市流程。",
+      "access_proof": "作者机构提供的完整教材 PDF，可直接打开，无需购买或登录。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.pro-productmanagement.com/images/downloads/successfull-go-to-market-book-open-product-management-workflow.pdf",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:real-startup-book",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "The Real Startup Book",
+      "authors": [
+        "Tristan Kromer 等",
+        "Kromatic"
+      ],
+      "year": "2026 第二版",
+      "publisher": "Tristan Kromer 等 / Kromatic",
+      "topics": [
+        "problem-discovery",
+        "experimentation",
+        "workflow",
+        "generative-ai"
+      ],
+      "official_url": "https://kromatic.com/real-startup-book/",
+      "authority_reason": "用六十余种现场方法连接问题发现、市场实验、产品实验、原型、优先级与 AI 辅助研究。",
+      "access_proof": "作者团队公开的完整在线第二版，可沿目录连续阅读全部方法与附录。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://kromatic.com/real-startup-book/",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:product-discovery-playbook",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "systematic-handbook",
+      "title": "The Product Discovery Playbook",
+      "authors": [
+        "Productboard"
+      ],
+      "year": 2021,
+      "publisher": "Productboard",
+      "topics": [
+        "problem-discovery",
+        "workflow",
+        "experimentation"
+      ],
+      "official_url": "https://www.productboard.com/wp-content/uploads/2021/03/The-Product-Discovery-Playbook.pdf",
+      "authority_reason": "围绕持续理解用户、问题优先级、验证和证据管理建立产品发现的系统实践路径。",
+      "access_proof": "Productboard 官方域直接提供的完整 PDF，无需登录。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://www.productboard.com/wp-content/uploads/2021/03/The-Product-Discovery-Playbook.pdf",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:lean-service-creation",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "systematic-handbook",
+      "title": "Lean Service Creation Handbook",
+      "authors": [
+        "Futurice"
+      ],
+      "year": "持续更新",
+      "publisher": "Futurice",
+      "topics": [
+        "problem-discovery",
+        "workflow",
+        "experimentation",
+        "strategy-organization"
+      ],
+      "official_url": "https://futurice.github.io/lean-service-creation-kit",
+      "authority_reason": "把设计思维、精益创业和敏捷开发组合为从洞察、价值主张到原型与商业验证的完整服务创建流程。",
+      "access_proof": "Futurice 官方 GitHub Pages 提供完整开放方法库、画布与使用说明。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://futurice.github.io/lean-service-creation-kit",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:user-experience-ai",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "User Experience + Artificial Intelligence: Assessing the Qualities of AI-infused Systems",
+      "authors": [
+        "Davide Spallazzo",
+        "Martina Sciannamè",
+        "Mauro Ceconello"
+      ],
+      "year": 2025,
+      "publisher": "Davide Spallazzo / Martina Sciannamè / Mauro Ceconello",
+      "topics": [
+        "ux-trust",
+        "evaluation",
+        "workflow"
+      ],
+      "official_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-77521-5.pdf",
+      "authority_reason": "从 AI 系统的体验质量出发，系统建立 AIXE 评价方法并展示其验证与产品应用。",
+      "access_proof": "Springer 明确标记为 Open Access Book，107 页 PDF 与 EPUB 均可直接下载。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-77521-5.pdf",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": "book:ai-product:ai-measurement-science",
+      "field": "ai-product",
+      "kind": "book",
+      "resource_class": "open-textbook",
+      "title": "AI Measurement Science",
+      "authors": [
+        "Sang T. Truong",
+        "Sanmi Koyejo",
+        "Stanford AIMSLab"
+      ],
+      "year": 2026,
+      "publisher": "Sang T. Truong / Sanmi Koyejo / Stanford AIMSLab",
+      "topics": [
+        "evaluation",
+        "capability-architecture",
+        "experimentation",
+        "governance"
+      ],
+      "official_url": "https://aimslab.stanford.edu/textbook",
+      "authority_reason": "从效度、数据、模型、可靠性和效率建立 AI 评测科学，并延伸到 Agent、监督和评价生态。",
+      "access_proof": "Stanford AIMSLab 官方完整在线教材，含顺序章节、交互代码、数据集和课程项目。",
+      "review_status": "published",
+      "access": {
+        "status": "open_fulltext",
+        "download_url": "https://aimslab.stanford.edu/textbook",
+        "license": null,
+        "local_path": null,
+        "sha256": null,
+        "bytes": null,
+        "checked_at": "2026-09-02"
+      },
+      "updated_at": "2026-09-02"
     }
   ]
 }
