@@ -81,6 +81,14 @@ if ($LASTEXITCODE -ne 0) {
 if ($LASTEXITCODE -ne 0) {
     throw "HEAD does not contain the recorded content baseline commit."
 }
+& git cat-file -e "$($manifest.handoff_materials_commit)^{commit}"
+if ($LASTEXITCODE -ne 0) {
+    throw "Handoff materials commit is unavailable: $($manifest.handoff_materials_commit)"
+}
+& git merge-base --is-ancestor $manifest.handoff_materials_commit HEAD
+if ($LASTEXITCODE -ne 0) {
+    throw "HEAD does not contain the recorded handoff materials commit."
+}
 
 $tracked = @(& git ls-files)
 $forbiddenTracked = @($tracked | Where-Object {
