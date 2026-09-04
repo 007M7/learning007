@@ -43,7 +43,7 @@ const I=[
   "红队不是一次攻击比赛，而是把威胁模型、攻击样本、修复和回归测试连接成循环。",
   "模型卡应把能力、风险、数据、预算和不适用条件绑定到具体版本，使结论能够被更新。",
 ];
-export default defineField({slug:"deep-learning",title:"深度学习",shortTitle:"深度学习",prefix:"DLF",color:"#6f42c1",promise:"从张量与反向传播一路追到基础模型、生成模型、推理扩展和高效部署，始终保留算力与实验边界。",project:"训练并评估一个可复现的小型多模态模型，交付数据、训练、消融、推理和安全报告。"},[
+export default defineField({slug:"deep-learning",title:"深度学习",shortTitle:"深度学习",prefix:"DLF",color:"#6f42c1",promise:"从张量与反向传播一路追到基础模型、生成模型、推理扩展和高效部署，始终保留算力与实验边界。",project:"训练并评估一个可复现的小型多模态模型，交付数据、训练、消融、推理和安全报告。",stageSummaries:[{stage:A,text:"阶段总结 · 让一条训练曲线值得相信",link:"/fields/deep-learning/stage-1-review"}]},[
   L(A,"tensor-shape-stride","张量的形状、步幅与广播","guided","一行广播为何可能算对形状却算错语义？","形状推演、内存布局与单元测试",S.grad),
   L(A,"computation-graph","把神经网络画成计算图","concept","前向值、局部导数与依赖怎样组成可求导程序？","计算图与局部 Jacobian 标注",S.grad),
   L(A,"backprop-chain-rule","反向传播就是复用链式法则","derivation","为何反向模式适合一个标量损失和海量参数？","手算反传与复杂度对照",S.grad),

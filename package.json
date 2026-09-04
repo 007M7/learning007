@@ -34,7 +34,8 @@
     "kb:build-software-expanded-reviews": "node scripts/knowledge-base/build-expanded-software-reviews.mjs",
     "kb:verify-software-urls": "node scripts/knowledge-base/verify-software-paper-urls.mjs",
     "kb:report": "node scripts/knowledge-base/report.mjs",
-    "analyze:writing-dna": "node scripts/analyze-reference-writing-dna.mjs"
+    "analyze:writing-dna": "node scripts/analyze-reference-writing-dna.mjs",
+    "analyze:writing-dna:csdiy": "node scripts/analyze-csdiy-writing-dna.mjs"
   },
   "devDependencies": {
     "@types/node": "22.19.19",

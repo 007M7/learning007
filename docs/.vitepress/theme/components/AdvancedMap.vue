@@ -19,7 +19,9 @@ const current = computed(() => advancedDomains.find((item) => item.key === props
         <div class="content">
           <b>{{ chapter.text.replace(/^\d+ · /, "") }}</b>
           <small>{{ chapter.ids.join(" · ") }}</small>
-          <p><em>解锁：</em>{{ chapter.unlock }}</p>
+          <p v-if="chapter.hardPrerequisite"><em>硬前置：</em>{{ chapter.hardPrerequisite }}</p>
+          <p v-if="chapter.recommendedPrerequisite"><em>推荐：</em>{{ chapter.recommendedPrerequisite }}</p>
+          <p><em>解锁证据：</em>{{ chapter.unlockEvidence ?? chapter.unlock }}</p>
           <p><em>产出：</em>{{ chapter.outcome }}</p>
         </div>
         <span class="arrow" aria-hidden="true">→</span>

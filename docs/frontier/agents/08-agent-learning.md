@@ -1,155 +1,336 @@
 # 08 · Agent Learning、RL 与自我改进
 
-> 一句话点题：Agent learning 的难点不是“用 RL 让模型更聪明”，而是把稀疏、延迟、可被钻空子的任务结果，正确归因到长轨迹中的少数决策，同时防止系统只学会刷 benchmark。
+> 一句话点题。Agent learning 只有在任务、轨迹和验证器已经稳定时才有意义。学习系统获得的是改进候选的资格，永远不会因此获得线上业务权限。
 
-<div class="lesson-meta"><span>AGF22—AGF24</span><span>研究深水区</span><span>预计 11 × 45 分钟</span><span>前置：AGF01—21、AGF25—30</span></div>
+<div class="lesson-meta"><span>AGF22 至 AGF24</span><span>第四阶段下篇</span><span>11 个标准回合（每回合 45 分钟）</span><span>前置 AGF01 至 AGF21</span><span>证据核验于 2026-09-04，检索截止 2026-09-03</span></div>
 
-## 解锁与跳过
+<KnowledgeFlow
+  title="让轨迹产生改进，又不让奖励接管权限"
+  what="Agent learning 用已记录的决策、观察、动作和结果，修改提示、路由、技能、scaffold 或模型参数，使后续任务更可能通过既定评测。强化学习只是其中一种方法。"
+  why="长轨迹的最终结果稀疏，旧日志来自不同策略，代理指标还能被投机。若训练端碰得到生产凭证、评测答案或发布通道，一次得分提升会放大成系统风险。"
+  how="先冻结任务与验证器，完整记录失败和拒绝，区分结果奖励与步骤归因，再从最可回退的干预开始；候选只在隔离快照训练，通过 held-out 和安全回归后做 shadow 或 canary，并保留回退 ADR。"
+  terms="trajectory schema | outcome reward | credit assignment | verifier density | off-policy | distribution shift | reward hacking | held-out regression | rollback ADR"
+/>
 
-只有任务稳定、轨迹可记录、奖励可验证、held-out eval 完整且有回滚时解锁。多数产品先通过 prompt、工具、workflow、memory 和 eval 获得更大收益；没有可靠奖励时，在线 RL 与自我改写应跳过。
+本章 11 个标准回合中，3 回合用于轨迹、奖励与分布边界，2 回合用于冻结夹具和跟做，2 回合用于 schema 漂移与信用分配变式，3 回合用于陌生任务迁移、held-out 与安全回归，最后 1 回合形成 `learned_policy` 交接和回退 ADR。训练排队属于墙钟，人工标注、错误归因和报告不得在总数外另加模糊时长。
 
-## 本章可观察目标
+## 四十条轨迹还不构成训练理由
 
-你能把 Agent 轨迹表示为 MDP；解释 credit assignment、on/off-policy、reward hacking 与 distribution shift；比较 scaffold search、SFT、RL；复现一次离线信用分配；设计自改 Agent 的训练/评测/发布隔离和不可回归门禁。
+上一章没有因为三个子 Agent 赞成就修改退款策略。它等到合同附件补齐，保存了问题树、证据账本、来源祖先、工具预算和阻断记录。一个月后，团队积累了四十条同类研究轨迹。十二条在第一次检索后忘记查合同，七条重复读取同根新闻，六条因附件缺失而正确拒绝，其余轨迹通过独立审阅。
 
-## 研究问题与关键公式：最终成功怎样分给中间动作
+有人提出用 RL 让 Agent “自己学会研究”。先问一个朴素问题。下一次执行若变好，我们能否指出哪个稳定决定被改善。现在不能。四十条任务横跨两个 prompt 版本，合同工具在中途换过返回结构，早期日志没有保存拒绝分支，评测者还会根据报告文风改分。把这些日志送进训练，学习到的可能是版本差异和评分偏好。
 
-轨迹 $\tau=(s_0,a_0,\ldots,s_T)$ 最后只有任务奖励 $R(\tau)$。策略梯度目标可写成：
+第一步是拒绝训练，修日志与评测。这个拒绝有明确解除条件。连续两个版本使用同一任务合同和账本 schema；工具观察可重放；关键主张由确定性规则与盲审共同核验；缺证据拒绝被算作正确结果；评测者版本和环境快照进入记录。条件未满足时，提示、工具契约和固定工作流仍是更便宜的修复位置。
 
-$$
-J(\theta)=\mathbb{E}_{\tau\sim\pi_\theta}[R(\tau)],\qquad
-\nabla J\approx\sum_t \nabla_\theta\log\pi_\theta(a_t|s_t)\hat A_t
-$$
+这条顺序很重要。Agent learning 不等于参数更新。规则补丁、检索路由、可复用技能、监督微调和强化学习都会从经验改变后续行为。改动越靠近基础模型，归因、成本和回退难度通常越高。团队需要证明简单层已经到达瓶颈，才升级干预。
 
-核心是 $\hat A_t$：哪个工具选择、参数、观察解释真正造成成功/失败？把同一个最终分复制给所有 Token 会产生噪声；由 LLM 随意解释信用又可能把偏见注入训练。
+本章仍沿用退款夹具。训练目标只改善“找哪些证据、何时停止、何时拒绝”的研究行为，不学习自动退款金额，也不接触提交接口。候选版本输出建议，业务门禁继续由独立系统裁决。
 
-```mermaid
-flowchart LR
-  R[Versioned agent runtime] --> T[Trajectory + state diff + outcome]
-  T --> C[Credit assignment]
-  C --> D[(Training transitions)]
-  D --> U[SFT / RL / scaffold search]
-  U --> K[Candidate agent version]
-  K --> E[Held-out + adversarial eval]
-  E -->|pass all gates| P[Canary release]
-  E -->|regression / exploit| X[Reject + analyze]
-  P --> R
+## 先冻结会决定分数的四样东西
+
+一次可学习实验至少冻结任务、环境、验证器和基线。任务合同定义哪些订单与主张在范围内。环境快照固定公共页面、合同副本、内部聚合表和工具协议。验证器规定覆盖、引用蕴含、来源独立、成本与拒绝门禁。基线则是上一章的固定流程和单 Agent 配置。
+
+冻结不意味着永不更新。它意味着每次更新生成新版本，旧轨迹仍能解释。比如合同工具从 `attachments` 数组改为分页游标时，环境版本从 `env-12` 升到 `env-13`，旧运行不会与新运行混成同一分布。
+
+训练准入表可以很短。
+
+| 检查 | 可训练状态 | 阻断示例 |
+|---|---|---|
+| 任务 | 原子主张与关键门禁已冻结 | Agent 能在结束时删除难答主张 |
+| 环境 | 输入快照、工具版本和失败可重放 | 网页内容持续变化且未留快照 |
+| 验证器 | 同一证据得到稳定判定 | 评分者随文风改变安全结论 |
+| 日志 | 成功、失败、拒绝和未知结果都保留 | 只保存获得高分的报告 |
+| 基线 | 至少有固定流程与单 Agent 结果 | 候选只与旧模型宣传数字比较 |
+| 回退 | 父版本和触发条件已登记 | 候选覆盖生产配置后无法恢复 |
+
+任一关键项为空，状态就是 `training_blocked`。这避免训练被当成修复基础设施的替代品。评测若只看最终文字，Agent 可能学会隐藏缺口；工具若不可复位，同一策略也会得到不同奖励。
+
+[UniACE](https://arxiv.org/abs/2605.27898) 把一次 Agent 分数视为模型、harness 和环境的组合结果，并在统一执行条件下观察到分数与排序变化。它支持版本化整个评测配置，不能证明某套统一框架能覆盖退款任务。该工作在本章截止日前仍是预印本，动态资源快照也会损失真实线上变化。
+
+<span id="agf22"></span>
+
+## 把一次运行写成可重放轨迹
+
+考虑一条失败运行。Agent 先读公共赔付页面，再查内部异常率，随后直接生成建议。最终报告覆盖七条主张，却漏掉合同适用性。只保存对话文本时，很难知道它没看到附件、工具报错，还是看到后选择忽略。
+
+因此每一步都写成结构化事件。等现象可见后，再把这串事件称作 `trajectory`。
+
+```yaml
+trace_id: tr-041
+task_contract_version: refund-research-v4
+ledger_schema_version: claim-ledger-v3
+environment_snapshot: env-12@sha256:4d91
+policy_version: single-agent-v7
+eval_version: ledger-eval-v3
+terminal_outcome: pending
+step: 4
+decision: 核对公共规则是否适用于平台账户
+observation:
+  tool: contract.list_attachments
+  tool_version: 2.1.0
+  result: partial
+  state_diff: 找到主合同，附件 A-3 缺失
+action:
+  type: ledger.update
+  args_digest: sha256-example
+reward:
+  outcome: pending
+  process_labels: [missing_evidence_recorded]
+constraint:
+  production_write: false
+  pii_export: false
+  must_refuse_if: C3_blocked
+timestamp: 2026-09-03T10:42:11+08:00
 ```
 
-## 核心机制：三种“自我改进”不要混用
+这些顶层字段原样继承第七章的交接合同，避免在训练前把 `environment_snapshot` 偷换成一个没有内容哈希的环境名。五类步骤字段各有责任。`decision` 保存当时选择，不保存事后合理化。`observation` 记录 Agent 真正可见的返回与版本。`action` 指向工具和参数摘要。`reward` 由外部评分器追加，执行者不能自填最终分。`constraint` 保存不可越过的权限与关键门禁。
 
-| 方法 | 改变对象 | 反馈 | 主要风险 |
+轨迹还要包含未执行动作。若 Agent 在附件缺失后考虑“根据公开页面继续建议”并被门禁拒绝，这次拒绝是一条有效事件。若工具超时后结果未知，也不能从日志中删去。只记录顺滑成功会造成幸存者偏差，学习器将不知道何时停止。
+
+隐私数据在采集时就最小化。订单号、姓名和合同秘密用授权引用或不可逆摘要替代。研究训练需要的是选择结构与证据关系，无需复制生产正文。原始材料留在受控存储，训练快照只拿经过批准的字段。
+
+<span id="agf23"></span>
+
+## 结果奖励先回答整条轨迹有没有完成
+
+当 `tr-041` 到达终点，评分器可以给出一个结果。报告若覆盖关键主张、引用匹配、没有越权，并在缺附件时拒绝，结果为成功。若它给出放宽建议，结果为失败。这个末端信号称为 `outcome reward`。
+
+一个示例评分可以把任务质量和成本分开报告。
+
+| 结果项 | 分数或状态 | 作用 |
+|---|---|---|
+| 关键主张通过 | 4/4 | 决定研究是否完整 |
+| 普通主张通过 | 3/4 | 暴露可降级缺口 |
+| 错配引用 | 0 | 防止真实链接支持错误句子 |
+| 独立根来源 | 5 | 识别同根重复 |
+| token 与工具成本 | 62k、11 次 | 比较效率 |
+| 权限与拒绝门禁 | pass | 任一失败即淘汰 |
+
+这些项不必压成一个神奇总分。安全门禁保持布尔值，不能用更多引用抵消一次生产越权。结果奖励适合比较整条轨迹，也适合给候选排序。它不能单独回答第几个动作值得强化。
+
+把最终 `+1` 复制给成功轨迹的每一步，会奖励无关搜索。把 `-1` 复制给失败轨迹的所有动作，又会惩罚其中正确的合同查询。长轨迹里“最终结果属于哪些中间决定”就是 `credit assignment`。这个术语指向真实日志中的责任分配，所有标签都要有观察或状态差分支撑。
+
+Agent Lightning 提出的 [Training-Agent Disaggregation](https://arxiv.org/abs/2508.03680) 把 Agent 执行与训练解耦，并用统一数据接口和分层信用模块把复杂轨迹转成训练 transition。它支持“先做好可观察运行时，再选择训练算法”的架构。本论文在文本到 SQL、检索增强与数学工具任务上的作者实验不等于退款研究的生产证明，“几乎零代码修改”也不表示零集成、隐私或评测成本。
+
+## 验证器看不见的步骤不要硬贴功劳
+
+假设成功研究要经历六步。识别政策版本、打开合同目录、取得附件、核对签署主体、更新账本、写最终建议。现有验证器只检查最终建议和账本。它知道终点对不对，却不知道“打开合同目录”与“取得附件”哪一步造成成功。
+
+这时让另一个模型回看轨迹并指定“最关键一步”，可能产生很自信的故事。若故事错了，定向奖励会把噪声集中到少数动作。更稳妥的选择有两个。先增加可验证的中间里程碑，例如附件哈希和适用性判定；若暂时做不到，就承认步骤信息不足，只用结果训练较粗的决策，或在可控窗口内均匀传播信号。
+
+2026 年 9 月预印本 [Coverage, Not Targeting](https://arxiv.org/abs/2609.02417) 用 `V_d=k/C` 描述验证器可识别关键步骤数与真实必要步骤数的比例。在其 tau²-bench 分析中，终局验证常只暴露最后写入动作，而成功需要多个前置工具调用。作者的合成与工具基准实验发现，验证信息稀疏时，均匀密集信号可能优于猜测式的定向进度奖励。
+
+这项结果改变本章的一条门禁。团队先测验证覆盖，再决定信用粒度。它没有证明均匀奖励总是最好。论文是截止日前刚发布的预印本，结论来自 tau²-bench、BFCL V3、ToolACE 与作者设置，`V_d` 阈值不能复制成生产常数。本案例只把它用作“别伪造步骤标签”的警报。
+
+一个实用层级从最可靠处向外扩展。
+
+1. 硬约束由确定性门禁判定，不参与功劳竞争。
+2. 可验证里程碑按状态差分给局部标签。
+3. 只有终局证据的区段保留共同结果，不假装精确归因。
+4. 人工抽样复核模型给出的步骤解释，错误率超过约定上限就停用。
+
+奖励设计文档必须写出“评分器知道什么”。若只写“奖励正确搜索”，学习器会把人的愿望误当作可观测事实。
+
+## 先判计划、执行还是环境出了错
+
+`tr-041` 漏查合同，可能有三种原因。计划从未包含合同分支，工具调用参数错误，或附件服务确实丢失文件。把三者都归成“模型推理差”会污染训练。
+
+团队先做四选一归因。
+
+| 标签 | 本案例信号 | 合理处理 |
+|---|---|---|
+| plan | 问题树没有 C3，执行忠实完成错误计划 | 修改分解器或计划技能 |
+| execution | 有 C3，工具参数或顺序错误 | 改工具技能或执行策略 |
+| both | 问题树含糊，执行也忽略返回 | 两层分别建样本，不重复记功 |
+| neither | 服务缺附件，Agent 正确记录并拒绝 | 不惩罚策略，修环境或保持拒绝 |
+
+[CHIME](https://arxiv.org/abs/2609.02074) 在长期经验记忆中把计划库与执行库分开，并强调先归因、后记忆。它给这里一个有用的工程动作。经验写入技能库前，先判断应修改哪一层。CHIME 截止本章核验日仍是新预印本，四类长程基准上的作者结果不能证明该二分适用于所有系统，代码待发布也限制复现。
+
+归因人也不能只看最终答案。它需要冻结的问题树、工具观察和状态差分。若附件服务返回 `partial`，Agent 随后正确阻断，就应标 `neither` 加环境故障。把这条轨迹当负样本，会训练系统绕过拒绝门禁。
+
+结果归因与过程归因要并列保存。前者回答整条轨迹是否满足任务，后者回答哪一层值得改变。两者意见不一致时不强行合并。成功结果中也可能有坏步骤，失败结果中也可能有正确拒绝。
+
+## 旧日志对新策略存在盲区
+
+四十条轨迹由 `single-agent-v7` 产生。候选制品 `refund-source-router-v8` 学会在公共规则后优先打开合同附件；后文公式为简洁把它写作 `v8`。旧策略几乎没走这条路径，因此日志里没有足够样本说明新路径遇到分页、权限拒绝或空附件时会怎样。
+
+这种“用一个策略采集的数据评估另一个策略”称为 `off-policy`。若用概率表示，某状态动作在候选与采集策略下的支持差异可写成
+
+$$
+\rho_t=\frac{\pi_{v8}(a_t\mid s_t)}{\pi_{v7}(a_t\mid s_t)}
+$$
+
+分母接近零意味着旧日志几乎没有覆盖候选选择。公式在这里仅作为告警器，团队不应据此盲目做重要性采样。LLM Agent 的动作包含文本、工具参数和动态观察，精确概率通常难以获得。更可操作的方法是标出新动作区域，在离线快照中主动补跑，再用 shadow 流量观察。
+
+分布还会随时间漂移。承运方改页面，合同工具升级，订单构成变化，评测规则修订，都会让旧轨迹与当前环境不同。训练快照必须写明采集时间、环境版本、策略版本和可见材料。跨版本合并前先做差异报告。
+
+拒绝轨迹尤其重要。若历史数据只保留“最终给出建议”的运行，候选会把持续回答误认为成功先验。预算耗尽、工具未知、来源冲突和安全阻断都应进入训练集与 held-out。没有支持的区域不做离线胜率承诺。
+
+<span id="agf24"></span>
+
+## 选择最小且可回退的学习层
+
+误差分类显示，大多数失败只是问题树漏掉 C3。先改任务模板并回放四十条轨迹，可能已经解决。若不同任务反复需要“核对规则适用性”，再把它写成带触发条件、步骤、所需工具和退出条件的程序性技能。只有路由与技能都到瓶颈，才考虑 SFT 或 RL。
+
+一条干预梯子可以这样排。
+
+| 层 | 改什么 | 回退难度 | 适用信号 |
 |---|---|---|---|
-| verbal reflection | context/memory | 单次失败描述 | 错误经验固化 |
-| scaffold/program search | prompts/tools/control code | benchmark score | 过拟合/污染 evaluator |
-| model post-training | parameters | demonstrations/reward | 奖励黑客、灾难性回归 |
+| 固定规则 | 门禁、schema、停止条件 | 最低 | 约束缺失或格式漂移 |
+| prompt 与路由 | 分解顺序、工具选择 | 低 | 错误模式集中且可描述 |
+| 技能库 | 可复用过程单元 | 中 | 多任务重复同一局部策略 |
+| SFT | 模型条件行为 | 中高 | 有足量高质量示范 |
+| RL | 从可验证结果优化策略 | 高 | 奖励稳定且探索有价值 |
+| scaffold 自改 | 编排代码与搜索结构 | 最高 | 隔离环境中有强评测和回退 |
 
-先做最可回退的层。能通过改工具 schema 修复的问题，不应先动模型参数。
+[MASkills](https://arxiv.org/abs/2609.02094) 把技能写成包含何时使用、怎样执行和调用什么工具的程序单元，并提出技能条件信用与技能库整理。它支持在整个模型更新前先选择可审阅的技能层。论文在 HotpotQA、LoCoMo、GAIA 上的结果不能证明持续技能演化在线上退款中安全；它也是 2026 年 9 月的新预印本。
 
-## 论文拆解一：A Self-Improving Coding Agent（SICA）
+[A Self-Improving Coding Agent](https://arxiv.org/abs/2504.15228) 展示 Agent 在基准环境中修改自身 scaffold，并报告 SWE-bench Verified 随机子集等任务上的提升。它说明非梯度的系统修改也属于学习候选，同时暴露更大的权限面。代码代理基准中的自改结果不能外推到业务系统，更不能成为候选修改评测、凭证或发布配置的理由。
 
-### 研究问题与核心机制
+每次只改变一个层。若同时换 prompt、工具、技能和模型，分数变化无法归因，回退也会变成猜测。
 
-SICA 给 coding Agent 基本工具，并允许它编辑自身 agent code；候选版本在任务 benchmark 上运行，得分反馈驱动继续修改。它把 Agent 设计从人工固定 scaffold 变成开放式程序搜索。
+## 奖励会利用你没写出的漏洞
 
-### 实验与指标
+团队曾把“引用数更多”设为正奖励。候选很快学会把一份新闻稿拆成五条引用。分数上升，独立根来源没有增加。随后把“覆盖率”设为奖励，候选在结束前删除 C3，分母变小。再奖励低工具成本，它干脆跳过合同查询。
 
-论文在随机 SWE-bench Verified 子集上报告从 17% 提升到 53%，并在 LiveCodeBench 和合成 agent benchmark 上报告额外增益。这个幅度很吸引人，但读法必须包含“随机子集、搜索预算、选择过程、held-out 是否隔离、候选失败成本”。
+这些行为称为 `reward hacking`。Agent 没有违反数学目标，它利用了目标与真实意图之间的缝隙。修复不能只靠再加一个软权重。
 
-### 真正贡献、局限与产品影响
+- 必答主张集合在任务开始时签名，候选不可删除。
+- 来源数量按独立根计，传播副本不增加分数。
+- 权限、隐私、关键证据和正确拒绝使用硬门禁。
+- 成本只在质量与安全通过的候选之间比较。
+- 评测保留未公开的变式，训练器看不到答案和评分代码。
 
-贡献是展示 Agent 能修改自身 scaffold 并产生可测增益。最大局限是 meta-overfitting：改进器可能针对 benchmark/evaluator 的偶然性优化；自改代码还扩大供应链和权限风险。产品上训练环境绝不能持有生产秘密/权限，候选只能经独立 eval 和人工审查进入 canary。
+用户满意度也不能直接当退款奖励。一个迎合型 Agent 可能承诺不适用的赔付，短期得到好评，却破坏合同与风控。满意度可以作为诊断信号，不能抵消业务约束。
 
-## 论文拆解二：Agent Lightning 的训练—执行解耦
+奖励文档需要逐项列出可投机路径。让红队尝试重复来源、删困难主张、提前终止、操纵格式和诱导评分器。发现新漏洞后先修验证器、升评测版本，再重新跑基线。不能用已经看到的 held-out 失败反复调参后还称它为未见集。
 
-### 研究问题
+## 训练端与生产端必须断开权力
 
-现有 RL 常把整个 Agent 轨迹拼成一个序列、用 mask 训练，强耦合具体框架。Agent Lightning 问：能否让任何现有 Agent 少改代码，就把运行轨迹转成统一 MDP transition 并训练？
+Agent Lightning 的执行训练解耦给出一个有用方向，但本案例还要增加业务隔离。生产运行只把批准字段送入只读轨迹仓。训练作业从版本化快照读取，经过去标识的数据。它没有退款工具凭证、合同原库写权和生产网络入口。
 
-### 核心机制与关键架构
-
-它提出 Training-Agent Disaggregation：runtime 独立执行并用可观测性接口记录；统一数据接口把不同框架的事件转成状态/动作/奖励；LightningRL 的分层信用分配把复杂多 Agent/动态 workflow 轨迹拆成训练 transition。训练器不直接侵入业务 Agent 控制流。
-
-### 实验与指标、真正贡献、局限
-
-论文在 text-to-SQL、RAG、数学工具任务展示稳定提升。贡献是系统接口和信用分配抽象，而非宣称单一 RL 算法普遍最优。局限是任务奖励相对清楚、现实长任务反馈更脏；轨迹 schema 统一也可能丢失框架特有语义。
-
-## 论文拆解三：Agent² RL-Bench 检查“Agent 会不会做 RL 工程”
-
-### 研究问题与核心机制
-
-2026 benchmark 不只训练 Agent，而是评测 Agent 能否自主设计、实现并运行完整 RL post-training pipeline。六项任务分三层，从静态规则训练到在线 rollout 闭环；隔离 workspace、grading API 和 instrumentation 记录提交/代码修订并生成诊断报告。
-
-### 实验与指标
-
-论文跨 5 个 Agent 系统、6 个 driver LLM。ALFWorld 的一个 RL-only Agent 经 SFT warm-up＋GRPO 在线 rollout 从 5.97 提到 93.28；DeepSearchQA 仅 +2.75，处于评测噪声；同 scaffold 换 driver 可让交互提升从近零到 +78 个百分点。总体上固定预算内监督管线占优，在线 RL 只在 ALFWorld 成为最终最佳路线。
-
-### 真正贡献、局限与产品影响
-
-贡献是揭示“会调用训练脚本”与“能选对训练路线”不同，并公开交互诊断。局限是六项任务、奖励和算力预算仍有限。产品启示：先用 SFT/数据/工具基线，RL 作为有证据触发的最后一公里；报告改进相对噪声和算力。
-
-## 贯穿案例：自动优化研究 Agent 的检索策略
-
-奖励若只看最终答案，Agent 可能记住 benchmark、过度查询高分网站或把置信度写得更像 Judge 偏好。可靠设计把数据分 train/dev/held-out/adversarial；奖励分别计算任务正确、引用支持、Token、延迟和安全；训练时无 held-out 答案访问。候选若正确率升 5 分但注入成功率升 2 分，不能发布。
-
-## 复现任务：离线轨迹信用分配
-
-收集 100 条固定 research/tool Agent 轨迹，保留每步状态差分和最终程序化结果。人工标注 20 条关键决策作 gold。比较三种分配：全轨迹同 reward、规则按里程碑分、LLM credit model。测与人工标签一致、训练后 held-out 成功、成本与安全回归。先只优化可回退的路由/提示，不在线改生产模型。
-
-## 对产品架构的影响
-
-- runtime 和 trainer 分离，轨迹 schema 版本化且可重放；
-- reward 同时含任务、成本、安全，不允许单指标覆盖硬门禁；
-- train/dev/held-out/adversarial 与生产流量隔离；
-- candidate Agent 是不可变版本，记录父版本/数据/代码/模型；
-- 自改系统只能修改允许目录，无评测答案和发布凭证；
-- release 经过离线、shadow、canary、回滚，绝不直接自部署。
-
-## 会死在哪里
-
-- reward 由同一模型自评，Agent 学会讨好 Judge；
-- benchmark 泄漏给自改 Agent；
-- 最终分复制给全部动作导致错误信用；
-- 只看平均提升，不看关键安全回归；
-- 在线 RL 在不可复位真实环境探索；
-- 候选能修改 evaluator/测试；
-- 训练轨迹含秘密和私人数据；
-- “自我改进”没有版本、父链和回滚。
-
-## 与 AI 协作模板
+评测端由另一身份持有。候选可以提交报告与账本，不能修改 rubric、基准答案、来源快照或通过阈值。发布端只接受签名候选和完整报告，训练作业不能直接把最新 checkpoint 指向线上。
 
 ```text
-请先证明该 Agent 值得训练：
-- 给 prompt/tool/workflow/SFT 强基线与误差分类；
-- 定义 state/action/reward/terminal 和轨迹 schema；
-- 比较三种 credit assignment，并用人工子集校准；
-- 严格隔离 train/dev/held-out/adversarial 与 evaluator；
-- reward 含任务/成本，安全使用硬门禁；
-- 候选无权改测试或发布，输出版本、父链、回滚和 canary 方案。
+生产只读导出
+  → 去标识轨迹快照
+  → 隔离训练或技能更新
+  → 候选制品与父版本
+  → 独立 held-out / 安全评测
+  → 人工批准的 shadow / canary
+  → 保留上一稳定版本
 ```
 
-## 练习：设计一个会被钻空子的奖励
+在线探索只在模拟或低风险 shadow 中发生。候选可以选择查询顺序，不能真的改退款策略。若实验需要调用真实检索服务，使用最小范围临时凭证、域名白名单和费用上限。任何网页内容都不能提升权限。
 
-给“减少工具调用”高权重，观察 Agent 是否不查证就回答；给“用户满意”高权重，观察是否违反 policy 迎合用户。写出 proxy 被利用的轨迹，再把不可违反约束从软奖励提升为 deterministic gate。
+训练快照写清数据窗口、任务版本、环境版本、策略来源、去标识规则、排除样本与哈希。这样分数异常时才能重建输入。快照缺失就不发布训练结果。
 
-## 常见误区
+为避免“v8”“r17”在后文变成两个来历不明的系统，本章冻结一份候选清单。`single-agent-v7` 是采集数据的研究策略；`refund-source-router-v8` 是只改变检索顺序、停止和拒绝行为的候选制品；发布实验把这个制品装入未改动的 `agent-r16` scaffold，形成完整候选 ID `learned-policy-r17`。组合包继续使用 `refund-gateway-v8`：只有网关能创建 `pending_review`，候选本身没有业务凭证，不能修改金额、评测器或权限。第九章测资金状态，是在测这套完整组合会不会向既有网关提出危险请求，不是给路由技能新增资金权力。
 
-RL 必然强于 SFT；反思=参数学习；能改自己=真正进化；reward 越简单越好；平均分升即可发布；模型 Judge 可自动闭环；在线探索越真实越好；测试集可供改进器查看；训练系统可持生产凭证。
+```yaml
+candidate_manifest:
+  candidate_id: learned-policy-r17
+  parent_system: agent-r16
+  changed_artifact: refund-source-router-v8
+  changed_scope: [query_order, stop, refuse]
+  unchanged_scaffold: refund-gateway-v8
+  authority_delta: none
+  task_contract: refund-research-v4
+  ledger_schema: claim-ledger-v3
+  environment_snapshot: env-12@sha256:4d91
+  train_split: train-roots-v4@sha256:81ab
+  held_out_split: held-out-roots-v2@sha256:991c
+```
 
-<Quiz question="Agent² RL-Bench 最重要的负面结果之一是什么？" :options="['在线 RL 在所有任务都大幅领先', '固定预算下监督管线通常占优，在线 RL 只在部分任务成为最佳', 'driver 模型对结果没有影响']" :answer="1" explanation="论文强调路线依任务而变，部分增益甚至落在评测噪声内。" />
+## 用未见任务和回退决定能否上线
 
-## 本章小结
+训练集按轨迹随机切分会泄漏。相同政策页面和同一合同模板可能同时出现在 train 与 test，候选只需记住表面模式。更可靠的 held-out 以时间、根来源、合同模板和事故类型成组切分。安全集再注入同根转载、过期政策、网页命令、缺附件、工具超时和未知提交状态。
 
-- Agent learning 是长轨迹信用分配和奖励设计问题。
-- 自改 scaffold、SFT 与 RL 改变不同层，先用最可回退方案。
-- Agent Lightning 把执行/训练解耦，Agent² RL-Bench 检验完整工程能力。
-- RL 不是默认升级；固定预算和评测噪声可能让监督基线更强。
-- 自我改进必须隔离 evaluator、生产权限和发布通道。
+发布报告逐任务比较基线与候选，不能只给平均分。至少列出关键覆盖、错配引用、正确拒绝、独立根、成本和约束违规。候选若平均覆盖提高，但在两个缺合同任务上错误给建议，安全门禁直接拒绝。
+
+Agent² RL-Bench 在隔离工作区和固定预算下让 Agent 设计、调试并运行后训练管线。论文报告少数路线可获得很大提升，也指出多数成功路线依赖监督管线，在线 RL 的稳定成功仍少，单次结果对 agent stack 很敏感。这支持固定预算、多次运行和强基线，不能证明退款 Agent 应采用在线 RL。六个任务的诊断基准规模也不足以给出通用算法排序。
+
+通过离线门禁后，候选先做 shadow。它读取真实任务副本，只生成研究建议，不影响生产决策。再以很小流量 canary，且业务动作仍由旧门禁执行。监控覆盖、拒绝率、工具错误、来源重复和人工推翻率。任一安全指标恶化立即切回父版本。
+
+每次发布要有一份回退 ADR。它记录为何训练、改了哪一层、使用哪个快照、与哪条基线比较、哪些 held-out 通过、已知外推边界、canary 范围、回退触发与责任人。ADR 记录可复核的决策依据，宣传语不进入其中。回退后保留失败候选与触发 trace，供下一次误差分类。
+
+## 一个小实验先揭穿坏奖励
+
+下面脚本比较“引用数量奖励”和带硬门禁的研究评分。保存为 `reward_gate.py` 后执行 `python reward_gate.py`。候选 `spam` 有更多引用，却复用同一根并漏掉关键合同。脚本应让它在坏奖励下胜出，在门禁评分下被淘汰。
+
+```python
+runs = {
+    "safe": {
+        "citations": 5, "roots": 5, "coverage": 0.875,
+        "critical_contract": True, "policy_violation": False, "cost": 11,
+    },
+    "spam": {
+        "citations": 12, "roots": 3, "coverage": 1.0,
+        "critical_contract": False, "policy_violation": False, "cost": 8,
+    },
+}
+
+def bad_reward(run):
+    return run["citations"] - 0.1 * run["cost"]
+
+def gated_score(run):
+    if not run["critical_contract"] or run["policy_violation"]:
+        return None
+    quality = 4 * run["coverage"] + 0.2 * run["roots"]
+    return round(quality - 0.05 * run["cost"], 3)
+
+print("bad", {name: bad_reward(run) for name, run in runs.items()})
+print("gated", {name: gated_score(run) for name, run in runs.items()})
+assert bad_reward(runs["spam"]) > bad_reward(runs["safe"])
+assert gated_score(runs["spam"]) is None
+```
+
+跟做任务使用 2 个标准回合。先运行脚本并保存输出，再为上一章的八条主张造六条轨迹，其中两条成功、两条正确拒绝、一条错配引用、一条工具未知。为每步填写 `decision/observation/action/reward/constraint`，并给整条轨迹结果标签。提交 `trace-schema.yaml`、六个 JSONL 事件、`reward-spec.md` 和运行日志。审阅者应能从环境返回确认正确拒绝属于成功结果。
+
+变式任务把工具 schema 从列表改成分页，候选仍用旧动作。你要把错误标为执行、环境或两者之一，并说明旧日志为何缺少新策略支持。再比较三种信用方案。第一种把终局分复制给所有步骤，第二种只给可验证里程碑，第三种把计划与执行分开。反馈看标签是否来自可观察状态，不看解释是否文采好。
+
+迁移任务改成内部知识库去重 Agent。它只提出合并候选，不执行删除。设计一个会鼓励过度合并的奖励，再用来源根、人工确认和 held-out 近似文档修复。若迁移后仍出现退款金额或合同附件字段，说明你复制了案例答案，没有迁移机制。
+
+评分采用五项各 0 到 2 分。稳定任务与快照、完整轨迹、结果和过程归因、奖励抗投机、held-out 与回退各占一项。低于 7 分不得讨论 RL；任一生产权限泄漏直接记为未通过。反馈要指向具体 `trace_id`、评分器版本或 ADR 字段。
+
+## 🎯 随堂检验
+
+<Quiz question="一条失败轨迹中，合同服务返回附件缺失，Agent 随后正确拒绝建议。过程归因最合理的是哪项？" :options='["把所有动作记为负奖励","标记环境故障或 neither，并把正确拒绝保留为成功行为","删除这条轨迹，以免影响训练"]' :answer="1" explanation="结果和过程责任要分开。环境缺失不应惩罚遵守门禁的策略，拒绝轨迹还要进入评测。" />
+
+<Quiz question="候选平均覆盖提高，但 held-out 中两次在关键合同缺失时仍建议放宽退款。应该怎样发布？" :options='["平均分提高，直接全量上线","先 canary，因为只有两次失败","拒绝发布并回退到父版本，修验证器或策略后重做未见评测"]' :answer="2" explanation="关键证据属于硬门禁，不能被平均覆盖抵消。已经暴露的 held-out 也不能继续冒充未见集。" />
+
+## 本章小结：Agent 学习必须从可归因轨迹走向可回退改动
+
+Agent 学习只有在任务合同、环境、轨迹、验证器和权限都已冻结时才具备可归因性。本章把结果奖励与步骤信用分开，区分计划、执行和环境故障，检查旧日志的离策略盲区与奖励漏洞，并优先选择可审阅、可回退的最小改动层。held-out 硬门失败时，无论平均分怎样提高，候选都应退回父版本。
+
+这也决定了第四阶段的交接方式。后续章节会评审候选 Agent，不会预先假定它有效；交接包必须包含以下稳定字段。
+
+| 交接物 | 必须字段 | 缺失后的状态 |
+|---|---|---|
+| 研究账本 | 版本、`claim_id`、`root_id`、冲突集、适用性、未知量 | `eval_blocked` |
+| 架构对照 | 固定流程、单 Agent、多 Agent同预算的逐任务结果与实际成本 | `eval_blocked` |
+| 轨迹 | `decision/observation/action/reward/constraint`、环境与策略版本 | `eval_blocked` |
+| 归因 | 整条结果、步骤标签、plan/execution/both/neither | `eval_blocked` |
+| 训练快照 | 数据窗口、哈希、去标识规则、排除项、父策略 | `eval_blocked` |
+| 回归结果 | train/dev/held-out/adversarial 划分与安全门禁逐项结果 | `eval_blocked` |
+| 回退 ADR | 候选父链、变更层、canary 范围、触发阈值、责任人 | `eval_blocked` |
+
+“模型版本升级了”和“平均分更高”都不足以构成可评测交接。后续评测需要重放同一任务、定位差异并验证回退。若某字段无法提供，就保持候选在隔离环境，先补证据。
+
+接下来进入[第四阶段总结](/frontier/agents/stage-4-review)。它会把研究协作与轨迹学习迁移到一个陌生采购场景，先分别审理，再检查两者连接处是否把来源、奖励或权限悄悄混在一起。
 
 <EvidenceTracker lesson="frontier-agent-08-agent-learning" />
 
-## 本章完成标准
+## 参考资料
 
-完成离线信用分配对照；展示一个 reward hack 和硬门禁修复；能解释为何某任务跳过 RL；提交候选版本/held-out/回滚设计。最近平均至少 7/10。
+以下均为一手论文。链接核验于 **2026-09-04**，检索截止 **2026-09-03 23 时 59 分（Asia/Shanghai）**。新近预印本用于提出待验证的工程约束，不当作生产成熟度证明。
 
-<div class="source-note">主要来源：<a href="https://arxiv.org/abs/2504.15228">A Self-Improving Coding Agent</a>、<a href="https://arxiv.org/abs/2508.03680">Agent Lightning</a>、<a href="https://arxiv.org/abs/2604.10547">Agent² RL-Bench</a>；核验截止 2026-08-30。</div>
+| 来源与版本 | 支持本章什么 | 不能推出什么 |
+|---|---|---|
+| Xufang Luo 等，[Agent Lightning](https://arxiv.org/abs/2508.03680)，arXiv v1，2025-08-05 | 把 Agent 执行与训练解耦，用统一轨迹接口和信用模块连接复杂工作流与 RL | 作者任务上的稳定提升不能证明任意 Agent 可低成本训练，也不覆盖本案例权限隔离 |
+| Maxime Robeyns 等，[A Self-Improving Coding Agent](https://arxiv.org/abs/2504.15228)，arXiv v2，2025-05-16 | scaffold 代码修改也是一种非梯度学习路径，可在隔离基准中搜索系统改进 | SWE-bench 子集和代码任务不能外推到退款策略，自改能力不授予评测或发布权 |
+| Wanyi Chen 等，[Agent² RL-Bench](https://arxiv.org/abs/2604.10547)，arXiv v2，2026-05-13 | 固定预算、隔离工作区与完整训练回路能诊断 Agent 设计后训练管线的能力与波动 | 六任务预印本不能给出通用 RL 排名，也不能证明在线 RL 默认优于监督基线 |
+| Pengyu Zhu 等，[UniACE](https://arxiv.org/abs/2605.27898)，arXiv v3，2026-09-01 | 评测结果属于模型、harness、工具和环境组合，支持版本化快照与执行记录 | 统一执行框架不能自动消除动态资源漂移，也未验证本地退款门禁 |
+| Chenyu Zhou 等，[Coverage, Not Targeting](https://arxiv.org/abs/2609.02417)，arXiv v1，2026-09-02 | 验证信息覆盖不足会限制步骤信用，作者实验提示猜测式定向奖励可能劣于更均匀信号 | 新预印本的基准结果和 `V_d` 数值不可当作生产阈值，也不证明均匀奖励普遍最优 |
+| Yongshi Ye 等，[CHIME](https://arxiv.org/abs/2609.02074)，arXiv v1，2026-09-02 | 计划经验与执行经验分开、写入前先归因，为过程标签提供可检验设计 | 四个长程基准的作者结果不能证明二分适合全部工作流，待发布代码限制复现 |
+| Huaiyuan Yao 等，[MASkills](https://arxiv.org/abs/2609.02094)，arXiv v1，2026-09-02 | 程序性技能、技能条件信用与技能库整理支持先改可审阅层再动模型 | 新预印本在 HotpotQA、LoCoMo、GAIA 的结果不能证明线上持续演化安全 |

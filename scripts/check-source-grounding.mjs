@@ -1,12 +1,158 @@
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
-import { basename, resolve } from "node:path";
+import { basename, relative, resolve } from "node:path";
 
 const manualRoot = resolve("scripts", "field-content", "manual");
 const docsRoot = resolve("docs", "fields");
+const aiSourceLedgerPath = resolve("docs", "sources", "ai.md");
+const frontierSourceLedgerPath = resolve("docs", "frontier", "agents", "evidence.md");
 const failures = [];
 let formalCount = 0;
 let referencedFormalCount = 0;
+let aiLearningPageCount = 0;
+let aiReferenceOccurrenceCount = 0;
+const aiUniqueReferenceUrls = new Set();
+
+const aiLearningGroups = [
+  {
+    label: "core AI",
+    directory: resolve("docs", "domains", "ai"),
+    ledgerPaths: [aiSourceLedgerPath],
+  },
+  {
+    label: "advanced AI",
+    directory: resolve("docs", "advanced", "ai"),
+    ledgerPaths: [aiSourceLedgerPath],
+  },
+  {
+    label: "frontier agents",
+    directory: resolve("docs", "frontier", "agents"),
+    ledgerPaths: [aiSourceLedgerPath, frontierSourceLedgerPath],
+  },
+];
+
+function stripFencedCodeBlocks(markdown) {
+  const kept = [];
+  let activeFence = null;
+  for (const line of markdown.split(/\r?\n/)) {
+    const fenceMatch = line.match(/^\s*(`{3,}|~{3,})/);
+    if (fenceMatch) {
+      const marker = fenceMatch[1];
+      if (!activeFence) {
+        activeFence = { character: marker[0], length: marker.length };
+      } else if (marker[0] === activeFence.character && marker.length >= activeFence.length) {
+        activeFence = null;
+      }
+      continue;
+    }
+    if (!activeFence) kept.push(line);
+  }
+  return kept.join("\n");
+}
+
+function normalizeExternalUrl(url) {
+  // Only collapse a trailing slash. Query strings, fragments, dated specs and
+  // other version-bearing path segments remain distinct ledger identities.
+  const trimmed = url.trim();
+  const trailingPathSlash = trimmed.match(/^(https?:\/\/[^?#]*?)\/+([?#].*)?$/);
+  return trailingPathSlash ? `${trailingPathSlash[1]}${trailingPathSlash[2] ?? ""}` : trimmed;
+}
+
+function extractMarkdownExternalUrls(markdown) {
+  const source = stripFencedCodeBlocks(markdown);
+  const urls = new Set();
+  const linkPattern = /\[[^\]\r\n]*\]\(\s*<?(https?:\/\/[^)\s>]+)>?(?:\s+(?:"[^"]*"|'[^']*'))?\s*\)/g;
+  for (const match of source.matchAll(linkPattern)) {
+    urls.add(normalizeExternalUrl(match[1]));
+  }
+  return urls;
+}
+
+function extractReferenceSection(article) {
+  const lines = article.split(/\r?\n/);
+  const headingIndex = lines.findIndex((line) => /^## 参考资料[ \t]*$/.test(line));
+  if (headingIndex < 0) return null;
+  const section = [];
+  let activeFence = null;
+  for (const line of lines.slice(headingIndex + 1)) {
+    const fenceMatch = line.match(/^\s*(`{3,}|~{3,})/);
+    if (fenceMatch) {
+      const marker = fenceMatch[1];
+      if (!activeFence) {
+        activeFence = { character: marker[0], length: marker.length };
+      } else if (marker[0] === activeFence.character && marker.length >= activeFence.length) {
+        activeFence = null;
+      }
+      section.push(line);
+      continue;
+    }
+    if (!activeFence && /^## [^\r\n]+/.test(line)) break;
+    section.push(line);
+  }
+  return section.join("\n");
+}
+
+function collectLedgerRows(markdown) {
+  const rowsByUrl = new Map();
+  for (const line of stripFencedCodeBlocks(markdown).split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed.startsWith("|") || !trimmed.endsWith("|")) continue;
+    const cells = trimmed.slice(1, -1).split("|").map((cell) => cell.trim());
+    if (cells.length < 4 || cells.some((cell) => !cell) || cells.every((cell) => /^:?-{3,}:?$/.test(cell))) continue;
+    for (const url of extractMarkdownExternalUrls(line)) {
+      if (!rowsByUrl.has(url)) rowsByUrl.set(url, []);
+      rowsByUrl.get(url).push({ cells, line });
+    }
+  }
+  return rowsByUrl;
+}
+
+function readSourceLedger(path) {
+  if (!existsSync(path)) {
+    failures.push(`缺少 AI 来源台账 ${path}`);
+    return { path, rowsByUrl: new Map() };
+  }
+  const source = readFileSync(path, "utf8");
+  if (!/核验日[：:]\s*(?:\*\*)?20\d{2}-\d{2}-\d{2}/u.test(source)) {
+    failures.push(`${path} 缺少 YYYY-MM-DD 核验日`);
+  }
+  if (!/检索截止[：:]\s*(?:\*\*)?20\d{2}-\d{2}-\d{2}/u.test(source)) {
+    failures.push(`${path} 缺少 YYYY-MM-DD 检索截止日`);
+  }
+  if (!/(?:使用边界|外推边界|不能外推到哪里|边界)/u.test(source)) {
+    failures.push(`${path} 缺少用途或外推边界字段`);
+  }
+  return { path, rowsByUrl: collectLedgerRows(source) };
+}
+
+function isAiLearningPage(filename) {
+  return /^(?:\d{2}-.+|stage-\d+-review|summary)\.md$/.test(filename);
+}
+
+function referenceSectionHasBoundary(section) {
+  return /(?:不能|不等于|不可|不替代|不代表|不负责|不证明|不构成|不得|仍需|只适用于|限于|边界|依赖|可能变化|尚未|未覆盖)/u.test(section);
+}
+
+function verifyAiReferenceParserContract() {
+  const fixture = [
+    "[source](https://example.invalid/reference/)",
+    "```text",
+    "[code example](https://example.invalid/code-only)",
+    "```",
+  ].join("\n");
+  const urls = extractMarkdownExternalUrls(fixture);
+  if (!urls.has("https://example.invalid/reference") || urls.has("https://example.invalid/code-only")) {
+    failures.push("AI 参考资料解析器没有正确规范化尾斜杠或排除代码块 URL");
+  }
+  if (normalizeExternalUrl("https://example.invalid/spec/2026-07-28") === normalizeExternalUrl("https://example.invalid/spec/2025-11-25")) {
+    failures.push("AI 参考资料解析器错误合并了不同版本 URL");
+  }
+  if (normalizeExternalUrl("https://example.invalid/path/?next=/") !== "https://example.invalid/path?next=/") {
+    failures.push("AI 参考资料解析器在规范化路径尾斜杠时改变了查询参数");
+  }
+}
+
+verifyAiReferenceParserContract();
 
 function hashFile(path) {
   return createHash("sha256").update(readFileSync(path)).digest("hex");
@@ -76,9 +222,52 @@ for (const fieldEntry of readdirSync(manualRoot, { withFileTypes: true })) {
   }
 }
 
+const ledgers = new Map([
+  [aiSourceLedgerPath, readSourceLedger(aiSourceLedgerPath)],
+  [frontierSourceLedgerPath, readSourceLedger(frontierSourceLedgerPath)],
+]);
+
+for (const group of aiLearningGroups) {
+  if (!existsSync(group.directory)) {
+    failures.push(`缺少 AI 学习目录 ${group.directory}`);
+    continue;
+  }
+  const pages = readdirSync(group.directory)
+    .filter(isAiLearningPage)
+    .sort();
+  for (const filename of pages) {
+    const pagePath = resolve(group.directory, filename);
+    const article = readFileSync(pagePath, "utf8");
+    const referenceSection = extractReferenceSection(article);
+    aiLearningPageCount += 1;
+    if (referenceSection === null) {
+      failures.push(`${group.label}/${filename} 缺少二级标题“参考资料”`);
+      continue;
+    }
+    const urls = extractMarkdownExternalUrls(referenceSection);
+    aiReferenceOccurrenceCount += urls.size;
+    for (const url of urls) aiUniqueReferenceUrls.add(url);
+    if (urls.size < 2) {
+      failures.push(`${group.label}/${filename} 的参考资料区至少需要两个不同的 Markdown 外链，实际 ${urls.size}`);
+    }
+    if (!referenceSectionHasBoundary(referenceSection)) {
+      failures.push(`${group.label}/${filename} 的参考资料区缺少用途或外推边界说明`);
+    }
+    for (const url of urls) {
+      const ledgerEntries = group.ledgerPaths.flatMap((path) => ledgers.get(path)?.rowsByUrl.get(url) ?? []);
+      if (!ledgerEntries.length) {
+        const allowedLedgers = group.ledgerPaths.map((path) => relative(".", path).replaceAll("\\", "/")).join(" 或 ");
+        failures.push(`${group.label}/${filename} 的引用未进入允许的来源台账：${url}（应在 ${allowedLedgers}）`);
+      }
+    }
+  }
+}
+
 if (failures.length) {
-  console.error(`来源真实性检查失败:\n${failures.join("\n")}`);
+  console.error(`来源契约检查失败:\n${failures.join("\n")}`);
   process.exit(1);
 }
 
-console.log(`来源真实性检查通过：${formalCount} 篇通过原稿阅读账本与本地工件核验；${referencedFormalCount} 篇正式章通过参考资料与结构核验。`);
+console.log(`来源契约检查通过：${formalCount} 篇领域正式章完成阅读账本与本地工件哈希核验；${referencedFormalCount} 篇领域正式章完成参考资料结构检查。`);
+console.log(`AI 学习页目录交叉校验通过：${aiLearningPageCount} 篇页面，${aiReferenceOccurrenceCount} 条页面内去重引用，${aiUniqueReferenceUrls.size} 个全局去重 URL。`);
+console.log("本检查只验证本地参考资料区、来源台账和本地工件的一致性；未执行网络可达性或来源真实性核验。");

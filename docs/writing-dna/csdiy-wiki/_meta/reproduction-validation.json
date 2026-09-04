@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-09-04",
+  "input_mode": "short-writing-dna-only",
+  "sample_path": "docs/writing-dna/csdiy-wiki/_meta/short-dna-reproduction-sample.md",
+  "sample_han_characters": 1190,
+  "generator_task": "short_dna_generate",
+  "generator_read_files": [
+    "docs/writing-dna/csdiy-wiki/Writing-DNA.md"
+  ],
+  "input_sha256": "9a2c9ca5444eb53a80b38fb14154f4bf85178cd3883b1c244ad1796937819e35",
+  "generator_non_content_reads": [
+    "the output sample itself, reopened only for machine character counting"
+  ],
+  "score_evidence_path": "docs/writing-dna/csdiy-wiki/_meta/short-dna-reproduction-score.md",
+  "sample_sha256": "f781131e17cf183ed96d376a47a1b1e07709f45ccf83c3469a6586821f98b77b",
+  "score_evidence_sha256": "5857cdeeeebc89fdf73dfc5a6b47564c85bac5893f68bbe0803e57cbba9d5ac7",
+  "scorer_task": "ai_nav_fix/short_dna_score",
+  "scorer_corpus_pages_read": 23,
+  "scorer_excluded_inputs": [
+    "Writing-DNA.md",
+    "all README files",
+    "the earlier reproduction score",
+    "the generator task history"
+  ],
+  "rubric": {
+    "decision_value": 2,
+    "evidence_and_artifact": 1,
+    "cost_and_branching": 2,
+    "structure_and_action_entry": 2,
+    "voice_and_boundaries": 1
+  },
+  "score_total": 8,
+  "passing_score": 7,
+  "result": "pass",
+  "limitations": [
+    "This is one isolated generation on one fictional topic, not evidence of stable cross-topic reproduction.",
+    "The sample received task facts in addition to Writing-DNA.md; those facts supplied no stylistic guidance.",
+    "The evaluator is an independent agent rather than a human panel, so the score is a reproducible engineering gate rather than a psychometric result.",
+    "The sample under-reproduces CSDIY's first-person experience and live-resource navigation; these two rubric dimensions lost one point each."
+  ]
+}

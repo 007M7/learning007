@@ -1,6 +1,6 @@
 import { domains } from "./curriculum";
 import { advancedDomains } from "./advanced-curriculum";
-import { agentFrontierChapters } from "./agent-frontier";
+import { agentFrontierChapters, agentFrontierRoadmap } from "./agent-frontier";
 import { learningFieldBySlug } from "./field-curriculum";
 
 type SidebarItem = {
@@ -70,7 +70,11 @@ const domainModule = (key: "software" | "quality" | "ai", label: string): Sideba
     items: [
       { text: "专题总览", link: `/domains/${key}/` },
       { text: "学习路线", link: `/domains/${key}/roadmap` },
-      ...domain.chapters.map(({ text, link }) => ({ text, link })),
+      ...domain.chapters.flatMap(({ text, link, stageReview }) => [
+        { text, link },
+        ...(stageReview ? [stageReview] : []),
+      ]),
+      ...(domain.summary ? [domain.summary] : []),
     ],
   };
 };
@@ -82,7 +86,12 @@ const advancedModule = (key: "software" | "quality" | "ai", label: string): Side
     collapsed: true,
     items: [
       { text: "进阶总览", link: `/advanced/${key}/` },
-      ...domain.chapters.map(({ text, link }) => ({ text, link })),
+      ...(domain.roadmap ? [domain.roadmap] : []),
+      ...domain.chapters.flatMap(({ text, link, stageReview }) => [
+        { text, link },
+        ...(stageReview ? [stageReview] : []),
+      ]),
+      ...(domain.summary ? [domain.summary] : []),
     ],
   };
 };
@@ -116,7 +125,12 @@ const agentModule: SidebarItem = {
   collapsed: true,
   items: [
     { text: "专题总览", link: "/frontier/agents/" },
-    ...agentFrontierChapters.map(({ text, link }) => ({ text, link })),
+    agentFrontierRoadmap,
+    ...agentFrontierChapters.flatMap(({ text, link, stageReview }) => [
+      { text, link },
+      ...(stageReview ? [stageReview] : []),
+    ]),
+    { text: "Agent 前沿总结 · 用证据决定自治", link: "/frontier/agents/summary" },
   ],
 };
 
@@ -139,7 +153,7 @@ export const aiLearningSidebar = (): SidebarItem[] => [
   {
     text: "AI 应用与 Agent",
     items: [
-      domainModule("ai", "核心学习 · 19 节点"),
+      domainModule("ai", "核心学习 · 19 节点 / 7 章"),
       advancedModule("ai", "AI 进阶 · 18 节点"),
       agentModule,
       fieldModule("ai-product", "AI 产品经理 · 正式学习"),

@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "source_commit": "adce8e13789dc16aa6d1fbe163e9541736defae4",
+  "verified_at": "2026-09-04",
+  "sample_count": 14,
+  "build_evidence": {
+    "path": "knowledge-base/cache/reference/cs-self-learning/site-dna",
+    "status": "existing untracked local build artifact; inspected but not rebuilt in this task",
+    "generator_declared_in_html": "mkdocs-1.6.1, mkdocs-material-9.5.2",
+    "shared_css": ["assets/stylesheets/main.50c56a3b.min.css", "assets/stylesheets/palette.06af60db.min.css"],
+    "declared_fonts": ["Roboto Slab", "Roboto Mono"],
+    "declared_light_palette": "default / light-blue primary / deep-purple accent",
+    "declared_dark_palette": "slate / cyan primary / deep-purple accent",
+    "common_dom_features": ["primary navigation sidebar", "secondary table-of-contents sidebar", "search dialog", "light/dark palette switch", "language selector", "repository link"],
+    "boundary": "Because site-dna was already present and is not tracked at the pinned Git HEAD, this audit does not claim a byte-for-byte reproducible build. It records the exact existing HTML/CSS plus fresh local renders."
+  },
+  "render_evidence": {
+    "browser": "Microsoft Edge 152.0.4191.53, headless",
+    "desktop_viewport": "1440x1000",
+    "desktop_settings": ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--run-all-compositor-stages-before-draw", "--virtual-time-budget=1500"],
+    "screenshots": "14 temporary PNG files were visually inspected and SHA-256 hashed; they are verification aids and are intentionally not committed.",
+    "supplementary_mobile": {
+      "page": "必学工具/workflow/index.html",
+      "viewport": "390x844",
+      "screenshot_sha256": "ea85535b56e1817bd94cfb83a1631a971e5179ac562cebf0b333b12f3f7bfa37",
+      "observation": "The primary and secondary sidebars collapse behind the top bar, body text becomes a single column, and the wide first workflow diagram extends beyond the narrow viewport and is visibly clipped. This single mobile render establishes a boundary, not full cross-device coverage."
+    }
+  },
+  "cross_sample_observations": [
+    "At desktop width, most pages use a stable three-zone reading shell: hierarchical navigation at left, restrained prose column in the center, and an in-page outline at right when headings exist.",
+    "The shell is visually quiet: white background, cyan top bar and links, gray slab-serif headings, dark body copy, generous inter-section spacing, and monospace treatment for code or technical tokens.",
+    "Information density changes by teaching function. Route pages expose deeper outlines and more links; course cards surface five decision fields before prose; workflow pages let diagrams carry relationships; short cards end after resources without artificial recap sections.",
+    "These are observed affordances, not a mandate that every learning article copy the three-column shell or course-card field order."
+  ],
+  "records": [
+    {
+      "id": "ui-01",
+      "page": "index.html",
+      "source_markdown": "index.md",
+      "title": "CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 9, "h3": 0, "images": 2, "tables": 0, "code_blocks": 0, "external_links": 6},
+      "screenshot_sha256": "cc83d22a16a8194ba1ca415fa49963d095f70dce4a01c17ee8e0505269e10ebe",
+      "visual_observation": "A cyan top bar spans the captured desktop viewport. The opening uses a large centered brand graphic, then a gray '前言' heading and a blue release line; left navigation and the right section outline frame the central prose.",
+      "teaching_function": "identity and orientation before the site's argument and navigation choices"
+    },
+    {
+      "id": "ui-02",
+      "page": "使用指南/index.html",
+      "source_markdown": "使用指南.md",
+      "title": "如何使用这本书 - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 3, "h3": 0, "images": 0, "tables": 1, "code_blocks": 0, "external_links": 2},
+      "screenshot_sha256": "c55e3c46c0ccaa95d3f3cdfab3842d83fb3cffded28161985cfd40568780fae7",
+      "visual_observation": "A compact three-item right outline mirrors the three reader paths. Long explanatory paragraphs remain in the same centered column; no decorative visual interrupts the reader classification.",
+      "teaching_function": "choose a route by reader state rather than browse every page"
+    },
+    {
+      "id": "ui-03",
+      "page": "CS学习规划/index.html",
+      "source_markdown": "CS学习规划.md",
+      "title": "一个仅供参考的CS学习规划 - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 5, "h3": 25, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 39},
+      "screenshot_sha256": "6b9dee8f403e97e723180360da132e85deb6cd89f084fce0c5f1680c67022ddd",
+      "visual_observation": "The page opens with the scope warning and a prominent blue overview-course link. The right outline is much denser than on ordinary cards, exposing nested domains and letting readers jump rather than scroll linearly.",
+      "teaching_function": "map prerequisites and domains while preserving reader-controlled navigation"
+    },
+    {
+      "id": "ui-04",
+      "page": "必学工具/workflow/index.html",
+      "source_markdown": "必学工具/workflow.md",
+      "title": "日常学习工作流 - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 6, "h3": 5, "images": 15, "tables": 0, "code_blocks": 0, "external_links": 3},
+      "screenshot_sha256": "f5ef205437c47ff73ece1f6f5e653e72cc411a4f3a48787858ecd5794db7470d",
+      "visual_observation": "A contributor callout precedes the prose. The three-box collection→processing→review diagram appears before the first mechanism section, while the right outline previews the same progression. On the supplemental narrow render, this wide diagram is clipped rather than fully scaled.",
+      "teaching_function": "let diagrams progressively assemble a relationship-heavy personal workflow"
+    },
+    {
+      "id": "ui-05",
+      "page": "必学工具/信息检索/index.html",
+      "source_markdown": "必学工具/信息检索.md",
+      "title": "信息检索 - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 4, "h3": 8, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 8},
+      "screenshot_sha256": "83b1370f62a3b2aafd5d5a1a4fe6a7fc9d13ee91a225b788d03d81a2fb0063c3",
+      "visual_observation": "An italicized, blunt opening rule leads into prose and a numbered three-stage mechanism. The right outline splits principles, engine operation, query techniques and code-search contexts; hierarchy does most of the wayfinding.",
+      "teaching_function": "move from a memorable search rule to mechanism and situational procedures"
+    },
+    {
+      "id": "ui-06",
+      "page": "编程入门/Python/CS61A/index.html",
+      "source_markdown": "编程入门/Python/CS61A.md",
+      "title": "UCB CS61A: Structure and Interpretation of Computer Programs - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 3, "h3": 0, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 18},
+      "screenshot_sha256": "eb3151efee0dd1232228c45d743530f9031601f1f676a4a784cf617e83a731c5",
+      "visual_observation": "The course title is followed immediately by a five-field bulleted card: university, prerequisites, languages, difficulty suns and estimated time. Judgment and a beginner-risk warning follow before resource links.",
+      "teaching_function": "support a go/no-go course decision before asking the reader to invest time"
+    },
+    {
+      "id": "ui-07",
+      "page": "编程入门/C/CS50/index.html",
+      "source_markdown": "编程入门/C/CS50.md",
+      "title": "Harvard CS50: This is CS50x - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 3, "h3": 0, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 7},
+      "screenshot_sha256": "b44ef08f2d5161b91cef34335a8fff5c63af8d5b838513245ba991ab5189d151",
+      "visual_observation": "The same five-field decision block fits above a very short appraisal, then course and community links. The sparse page ends naturally instead of padding the recommendation into a long lesson.",
+      "teaching_function": "deliver a low-friction beginner recommendation with enough cost and resource information"
+    },
+    {
+      "id": "ui-08",
+      "page": "数学基础/MITLA/index.html",
+      "source_markdown": "数学基础/MITLA.md",
+      "title": "MIT18.06: Linear Algebra - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 2, "h3": 0, "images": 1, "tables": 0, "code_blocks": 0, "external_links": 4},
+      "screenshot_sha256": "b1fb7c4452930a536c015891c87437b864c9e07181d9ad108f1bea5a0de9e173",
+      "visual_observation": "After the standard decision fields, a large book cover anchors the specific fifth-edition recommendation. The page keeps substantial white space rather than surrounding the image with dense callouts.",
+      "teaching_function": "identify a particular textbook edition while preserving the course decision card"
+    },
+    {
+      "id": "ui-09",
+      "page": "计算机系统基础/CSAPP/index.html",
+      "source_markdown": "计算机系统基础/CSAPP.md",
+      "title": "CMU 15-213: CSAPP - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 2, "h3": 0, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 14},
+      "screenshot_sha256": "4e02ae9f72e7808cb6ff788b30351c6fddcb52a46ee7603b7499bdd7f31996ae",
+      "visual_observation": "The five-field card makes the 150-hour cost and three-sun difficulty visible before the strongly worded warning against copying project answers. Resource bullets begin in the first screenful.",
+      "teaching_function": "make commitment and academic-integrity boundaries part of the recommendation"
+    },
+    {
+      "id": "ui-10",
+      "page": "操作系统/MIT6.S081/index.html",
+      "source_markdown": "操作系统/MIT6.S081.md",
+      "title": "MIT 6.S081: Operating System Engineering - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 4, "h3": 1, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 25},
+      "screenshot_sha256": "57c3417b9c7a56a9194467dd15542816bf814b61e29d0428e8c12d0c2ca3b8ad",
+      "visual_observation": "A five-sun difficulty signal and demanding prerequisites lead into several evidence-rich paragraphs. The right outline previews official resources, xv6 supplements and blogs rather than forcing those sources into the opening.",
+      "teaching_function": "separate fit/cost signals, experiential judgment and layered follow-up resources"
+    },
+    {
+      "id": "ui-11",
+      "page": "数据库系统/15445/index.html",
+      "source_markdown": "数据库系统/15445.md",
+      "title": "CMU 15-445: Database Systems - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 4, "h3": 0, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 13},
+      "screenshot_sha256": "7b4a355d0276352f66d0c2772e74735c131cfbf5d1e9b0e65d1a58b1ade17a53",
+      "visual_observation": "Prerequisites and 100-hour cost sit above prose that names concrete Bustub components. Inline code styling makes shell.cpp and project identifiers visible without turning the page into a code-heavy tutorial.",
+      "teaching_function": "connect a course decision to tangible system components and feedback mechanisms"
+    },
+    {
+      "id": "ui-12",
+      "page": "计算机图形学/15462/index.html",
+      "source_markdown": "计算机图形学/15462.md",
+      "title": "CMU 15-462 - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 2, "h3": 0, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 6},
+      "screenshot_sha256": "61a6e11bf7769b3311d17c6b60571aac1bb7998667e1be4653e5926216e47438",
+      "visual_observation": "A standard decision card is followed by one dense scope paragraph and a resource list. The page's minimal outline reflects its reference-card function and does not manufacture narrative stages.",
+      "teaching_function": "quickly expose breadth, prerequisites and primary learning resources"
+    },
+    {
+      "id": "ui-13",
+      "page": "机器学习系统/CSE234/index.html",
+      "source_markdown": "机器学习系统/CSE234.md",
+      "title": "UCSD CSE234: Data Systems for Machine Learning - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 5, "h3": 0, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 8},
+      "screenshot_sha256": "3c11b66e9128ee04ca840d4f012fb99e548d6edcb39bc1c2dd300883c7d2c8cc",
+      "visual_observation": "A broad prerequisite line precedes a three-part curriculum written as labeled paragraphs and bullets. The first screen shows computation, GPU/kernel, memory and LLM-system scope rather than hiding prerequisites under links.",
+      "teaching_function": "bound a fast-moving systems course by prerequisites, subsystems and extension paths"
+    },
+    {
+      "id": "ui-14",
+      "page": "深度生成模型/roadmap/index.html",
+      "source_markdown": "深度生成模型/roadmap.md",
+      "title": "学习路线图 - CS自学指南",
+      "dom_counts": {"h1": 1, "h2": 0, "h3": 0, "images": 0, "tables": 0, "code_blocks": 0, "external_links": 10},
+      "screenshot_sha256": "4254f1b75ea0595a0d54fc289b514278ce5ae0dc4320c63175fa726bd1a7b7f2",
+      "visual_observation": "The page opens with scope disclosure and an explicit correction that LLMs are one branch of generative modeling, then uses linked bullets for course families. With no H2/H3, there is no visible right-hand section list despite the shared shell.",
+      "teaching_function": "correct a hotspot-driven mental model and route readers among model, implementation and systems options"
+    }
+  ]
+}

@@ -14,7 +14,13 @@
 
 | 日期 | 来源 | 本课程采用的证据 | 不外推到 |
 |---|---|---|---|
+| 2010 | [Understanding the Difficulty of Training Deep Feedforward Neural Networks](https://proceedings.mlr.press/v9/glorot10a.html) | fan-in、fan-out 与激活函数共同决定训练初期的前向和反向尺度，Xavier 初始化给出可检验的起点。 | 方差推导使用独立性等近似；尺度稳定不能保证收敛、泛化或适配任意现代架构。 |
+| 2014-12-22 | [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980) | Adam 维护梯度的一阶矩与二阶原始矩估计，并通过偏差修正和逐坐标缩放产生更新。 | 二阶原始矩不是 Hessian；原论文不能证明 Adam 在所有任务、预算和超参数下占优。 |
+| 2015-02-06 | [Delving Deep into Rectifiers](https://arxiv.org/abs/1502.01852) | He 初始化把整流激活对信号二阶矩的影响写入权重尺度，并展示深层整流网络的训练证据。 | 原始视觉实验不能直接覆盖 Transformer、门控网络、残差缩放或所有低精度配置。 |
+| 2015-02-11 | [Batch Normalization](https://arxiv.org/abs/1502.03167) | BatchNorm 使用批量统计、可学习仿射参数与运行统计改变激活尺度和训练行为。 | 内部协变量偏移不是唯一得到确认的因果解释；小批量、跨设备和分布变化需单独验证。 |
 | 2015-12-10 | [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) | 贡献是提供可扩展深度的优化接口，影响远超视觉。 | 原始结果不能代表今天最优骨干；残差也不保证任意深度/尺度稳定。 |
+| 2016-07-21 | [Layer Normalization](https://arxiv.org/abs/1607.06450) | LayerNorm 在单个样本的指定特征轴内计算统计，不依赖同批其他样本或运行均值。 | 原始序列实验不能证明任何归一化位置、维度与现代架构组合都稳定。 |
+| 2017-10-11 | [Mixed Precision Training](https://arxiv.org/abs/1710.03740) | 低精度计算、高精度权重副本与损失缩放可以联合提高训练效率，并暴露溢出与跳步监测需求。 | 收益和安全范围依硬件、算子、格式与实现；不能把一种混合精度配方直接迁移到所有模型。 |
 | 2018-10-17 | [Automatic Differentiation in Machine Learning: a Survey](https://arxiv.org/abs/1502.05767) | 贡献是让反传被理解为通用程序变换而非神经网络特例。 | 综述不替代具体框架在随机、控制流、复数和分布式算子上的实现文档。 |
 | 2019-01-04 | [Decoupled Weight Decay Regularization](https://arxiv.org/abs/1711.05101) | 贡献是修正广泛使用的优化器正则实现。 | 具体优势依任务和调参；AdamW 也不会自动解决学习率、数据或数值问题。 |
 | 2019-12-05 | [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/abs/1912.01703) | 贡献是建立现代研究代码的执行模型。 | 框架持续演进，论文中的编译与分布式能力已非 2026 完整状态；必须查当前官方文档。 |

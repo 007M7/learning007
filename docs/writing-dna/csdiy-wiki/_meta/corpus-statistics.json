@@ -1,0 +1,1691 @@
+{
+  "source_site": "https://csdiy.wiki/",
+  "source_repository": "https://github.com/PKUFlyingPig/cs-self-learning",
+  "source_commit": "adce8e13789dc16aa6d1fbe163e9541736defae4",
+  "source_commit_date": "2026-08-13T22:20:47+08:00",
+  "source_cache_validation": {
+    "expected_commit": "adce8e13789dc16aa6d1fbe163e9541736defae4",
+    "actual_head": "adce8e13789dc16aa6d1fbe163e9541736defae4",
+    "head_matches_expected": true,
+    "tracked_docs_clean": true,
+    "command_scope": "git HEAD, commit timestamp, and tracked docs status were read dynamically"
+  },
+  "license": "MIT",
+  "analyzed_at": "2026-09-04T04:47:51.614Z",
+  "analyzed_date_asia_shanghai": "2026-09-04",
+  "article_count": 136,
+  "deep_read_count": 31,
+  "deep_read_evidence": {
+    "manifest": "review-evidence.json",
+    "records": 31,
+    "required_fields_validated": true,
+    "complete_page_read_claim": "31/31 selected pages were read from first line through EOF; all exceed 700 source characters. At least 28 form a conservative self-contained content loop, so the 20-complete-page floor is met.",
+    "limitations": [
+      "author and publication date stay unknown unless stated in page prose; Git contributor history and commit time are not treated as authorship or publication date",
+      "CSE234 contains an editor template comment, machine-learning roadmap ends as an explicitly incomplete future section, and EECS498-007 has a terse resource ending; none showed a fetch truncation marker",
+      "image content is not inferred here; it is independently audited in image-audit.json"
+    ]
+  },
+  "metadata_coverage": {
+    "title": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    },
+    "date": {
+      "recorded": 136,
+      "known_or_observed": 1,
+      "total": 136,
+      "note": "unknown is recorded but is not counted as known"
+    },
+    "author": {
+      "recorded": 136,
+      "known_or_observed": 2,
+      "total": 136,
+      "note": "unknown is recorded but is not counted as known"
+    },
+    "column": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    },
+    "article_type": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    },
+    "topic_tags": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    },
+    "hook_type": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    },
+    "structure_pattern": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    },
+    "source_types": {
+      "recorded": 136,
+      "known_or_observed": 109,
+      "total": 136
+    },
+    "word_count": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    },
+    "notable": {
+      "recorded": 136,
+      "known_or_observed": 136,
+      "total": 136
+    }
+  },
+  "total_characters": 195249,
+  "normalized_narrative_audit": {
+    "method": "Computed on every run. Remove fenced code; drop entire heading, list, table, blockquote, image-only, HTML-only and link-definition lines; remove image payloads, link URLs, bare URLs and Markdown emphasis/code marks; retain prose anchor text. This is a prose-only audit, not total visible page copy.",
+    "known_bias": "Dropping list lines excludes course metadata and resource bullets, so counts describe narrative prose and must not be used as total article length.",
+    "non_whitespace_characters": 74253,
+    "han_characters": 52224,
+    "line_count": 745,
+    "sentence_count": 1293,
+    "average_sentence_characters": 57.43,
+    "median_sentence_characters": 51,
+    "p25_sentence_characters": 34,
+    "p75_sentence_characters": 72,
+    "quantile_method": "sorted[floor((n-1)*q)]",
+    "short_sentence_ratio": 0.039,
+    "long_sentence_ratio": 0.523,
+    "narrative_paragraph_count": 688,
+    "average_sentences_per_paragraph": 2.05,
+    "single_sentence_paragraph_ratio": 0.472
+  },
+  "lexical_audit": {
+    "method": "Intl.Segmenter supplies word-like segmentation but no part-of-speech labels. noun_like_candidates are frequent multi-character segments after stop-word, verb-lexicon and adverb-lexicon exclusion; they are candidates, not POS-tagged nouns. Verb/adverb tables count exact substrings from disclosed hand-built lexicons and therefore include context ambiguity.",
+    "pronoun_and_condition_markers": {
+      "你": 377,
+      "我": 295,
+      "如果": 124
+    },
+    "noun_like_candidates": [
+      {
+        "term": "课程",
+        "count": 483
+      },
+      {
+        "term": "系统",
+        "count": 187
+      },
+      {
+        "term": "作业",
+        "count": 172
+      },
+      {
+        "term": "计算",
+        "count": 149
+      },
+      {
+        "term": "代码",
+        "count": 144
+      },
+      {
+        "term": "知识",
+        "count": 117
+      },
+      {
+        "term": "语言",
+        "count": 95
+      },
+      {
+        "term": "所有",
+        "count": 94
+      },
+      {
+        "term": "数据",
+        "count": 87
+      },
+      {
+        "term": "资源",
+        "count": 87
+      },
+      {
+        "term": "理论",
+        "count": 85
+      },
+      {
+        "term": "算法",
+        "count": 82
+      },
+      {
+        "term": "github",
+        "count": 80
+      },
+      {
+        "term": "基础",
+        "count": 77
+      },
+      {
+        "term": "老师",
+        "count": 73
+      },
+      {
+        "term": "领域",
+        "count": 73
+      },
+      {
+        "term": "学生",
+        "count": 73
+      },
+      {
+        "term": "编译",
+        "count": 64
+      },
+      {
+        "term": "操作",
+        "count": 64
+      },
+      {
+        "term": "模型",
+        "count": 63
+      },
+      {
+        "term": "问题",
+        "count": 62
+      },
+      {
+        "term": "实验",
+        "count": 61
+      },
+      {
+        "term": "project",
+        "count": 61
+      },
+      {
+        "term": "深度",
+        "count": 60
+      },
+      {
+        "term": "pkuflyingpig",
+        "count": 60
+      },
+      {
+        "term": "网络",
+        "count": 59
+      },
+      {
+        "term": "用到",
+        "count": 59
+      },
+      {
+        "term": "自学",
+        "count": 59
+      },
+      {
+        "term": "入门",
+        "count": 58
+      },
+      {
+        "term": "软件",
+        "count": 57
+      },
+      {
+        "term": "mit",
+        "count": 56
+      },
+      {
+        "term": "很多",
+        "count": 53
+      },
+      {
+        "term": "框架",
+        "count": 53
+      },
+      {
+        "term": "深入",
+        "count": 53
+      },
+      {
+        "term": "实践",
+        "count": 53
+      },
+      {
+        "term": "部分",
+        "count": 52
+      },
+      {
+        "term": "教授",
+        "count": 47
+      },
+      {
+        "term": "工具",
+        "count": 46
+      },
+      {
+        "term": "视频",
+        "count": 46
+      },
+      {
+        "term": "信息",
+        "count": 46
+      },
+      {
+        "term": "结构",
+        "count": 44
+      },
+      {
+        "term": "例如",
+        "count": 44
+      },
+      {
+        "term": "搜索",
+        "count": 44
+      },
+      {
+        "term": "程序",
+        "count": 42
+      },
+      {
+        "term": "大学",
+        "count": 42
+      },
+      {
+        "term": "等等",
+        "count": 42
+      },
+      {
+        "term": "机器",
+        "count": 42
+      },
+      {
+        "term": "难度",
+        "count": 42
+      },
+      {
+        "term": "数学",
+        "count": 41
+      },
+      {
+        "term": "项目",
+        "count": 41
+      },
+      {
+        "term": "安全",
+        "count": 40
+      },
+      {
+        "term": "过程",
+        "count": 40
+      },
+      {
+        "term": "作为",
+        "count": 40
+      },
+      {
+        "term": "技术",
+        "count": 39
+      },
+      {
+        "term": "时间",
+        "count": 39
+      },
+      {
+        "term": "也是",
+        "count": 39
+      },
+      {
+        "term": "实际",
+        "count": 38
+      },
+      {
+        "term": "核心",
+        "count": 37
+      },
+      {
+        "term": "同学",
+        "count": 37
+      },
+      {
+        "term": "重要",
+        "count": 37
+      },
+      {
+        "term": "包括",
+        "count": 35
+      },
+      {
+        "term": "质量",
+        "count": 35
+      },
+      {
+        "term": "环境",
+        "count": 34
+      },
+      {
+        "term": "教材",
+        "count": 34
+      },
+      {
+        "term": "网站",
+        "count": 33
+      },
+      {
+        "term": "因此",
+        "count": 33
+      },
+      {
+        "term": "最后",
+        "count": 33
+      },
+      {
+        "term": "帮助",
+        "count": 32
+      },
+      {
+        "term": "覆盖",
+        "count": 32
+      },
+      {
+        "term": "觉得",
+        "count": 32
+      },
+      {
+        "term": "研究",
+        "count": 32
+      },
+      {
+        "term": "中的",
+        "count": 32
+      },
+      {
+        "term": "不同",
+        "count": 31
+      },
+      {
+        "term": "能力",
+        "count": 31
+      },
+      {
+        "term": "版本",
+        "count": 30
+      },
+      {
+        "term": "了解",
+        "count": 30
+      },
+      {
+        "term": "英文",
+        "count": 30
+      },
+      {
+        "term": "lab",
+        "count": 30
+      },
+      {
+        "term": "论文",
+        "count": 29
+      },
+      {
+        "term": "一定",
+        "count": 29
+      },
+      {
+        "term": "工程",
+        "count": 28
+      },
+      {
+        "term": "你的",
+        "count": 28
+      },
+      {
+        "term": "其他",
+        "count": 28
+      },
+      {
+        "term": "原理",
+        "count": 28
+      },
+      {
+        "term": "中文",
+        "count": 28
+      },
+      {
+        "term": "本科",
+        "count": 27
+      },
+      {
+        "term": "丰富",
+        "count": 27
+      },
+      {
+        "term": "个人",
+        "count": 27
+      },
+      {
+        "term": "基于",
+        "count": 27
+      },
+      {
+        "term": "涉及",
+        "count": 27
+      },
+      {
+        "term": "甚至",
+        "count": 27
+      },
+      {
+        "term": "文件",
+        "count": 27
+      },
+      {
+        "term": "vim",
+        "count": 27
+      },
+      {
+        "term": "的是",
+        "count": 26
+      },
+      {
+        "term": "工作",
+        "count": 26
+      },
+      {
+        "term": "官方",
+        "count": 26
+      },
+      {
+        "term": "神经",
+        "count": 26
+      },
+      {
+        "term": "体验",
+        "count": 26
+      },
+      {
+        "term": "应用",
+        "count": 26
+      },
+      {
+        "term": "python",
+        "count": 26
+      }
+    ],
+    "verb_lexicon_counts": [
+      {
+        "term": "学习",
+        "count": 309
+      },
+      {
+        "term": "实现",
+        "count": 166
+      },
+      {
+        "term": "设计",
+        "count": 102
+      },
+      {
+        "term": "需要",
+        "count": 90
+      },
+      {
+        "term": "使用",
+        "count": 88
+      },
+      {
+        "term": "理解",
+        "count": 87
+      },
+      {
+        "term": "开发",
+        "count": 65
+      },
+      {
+        "term": "分析",
+        "count": 59
+      },
+      {
+        "term": "推荐",
+        "count": 55
+      },
+      {
+        "term": "参考",
+        "count": 53
+      },
+      {
+        "term": "提供",
+        "count": 52
+      },
+      {
+        "term": "开始",
+        "count": 48
+      },
+      {
+        "term": "介绍",
+        "count": 41
+      },
+      {
+        "term": "掌握",
+        "count": 41
+      },
+      {
+        "term": "适合",
+        "count": 36
+      },
+      {
+        "term": "编写",
+        "count": 35
+      },
+      {
+        "term": "阅读",
+        "count": 33
+      },
+      {
+        "term": "讲解",
+        "count": 31
+      },
+      {
+        "term": "建议",
+        "count": 27
+      },
+      {
+        "term": "完成",
+        "count": 27
+      },
+      {
+        "term": "构建",
+        "count": 26
+      },
+      {
+        "term": "测试",
+        "count": 25
+      },
+      {
+        "term": "练习",
+        "count": 24
+      },
+      {
+        "term": "处理",
+        "count": 23
+      },
+      {
+        "term": "要求",
+        "count": 23
+      },
+      {
+        "term": "支持",
+        "count": 23
+      },
+      {
+        "term": "比较",
+        "count": 21
+      },
+      {
+        "term": "运行",
+        "count": 19
+      },
+      {
+        "term": "选择",
+        "count": 18
+      },
+      {
+        "term": "解决",
+        "count": 17
+      },
+      {
+        "term": "配置",
+        "count": 16
+      },
+      {
+        "term": "发现",
+        "count": 15
+      },
+      {
+        "term": "讨论",
+        "count": 15
+      },
+      {
+        "term": "注意",
+        "count": 15
+      },
+      {
+        "term": "建立",
+        "count": 14
+      },
+      {
+        "term": "证明",
+        "count": 13
+      },
+      {
+        "term": "尝试",
+        "count": 12
+      },
+      {
+        "term": "部署",
+        "count": 10
+      },
+      {
+        "term": "展示",
+        "count": 10
+      },
+      {
+        "term": "管理",
+        "count": 9
+      },
+      {
+        "term": "进入",
+        "count": 9
+      },
+      {
+        "term": "写出",
+        "count": 9
+      },
+      {
+        "term": "总结",
+        "count": 9
+      },
+      {
+        "term": "修改",
+        "count": 8
+      },
+      {
+        "term": "更新",
+        "count": 7
+      },
+      {
+        "term": "解释",
+        "count": 7
+      },
+      {
+        "term": "安装",
+        "count": 6
+      },
+      {
+        "term": "访问",
+        "count": 6
+      },
+      {
+        "term": "加入",
+        "count": 6
+      },
+      {
+        "term": "调试",
+        "count": 5
+      }
+    ],
+    "adverb_noise_counts": [
+      {
+        "term": "非常",
+        "count": 111
+      },
+      {
+        "term": "基本",
+        "count": 37
+      },
+      {
+        "term": "已经",
+        "count": 33
+      },
+      {
+        "term": "可能",
+        "count": 26
+      },
+      {
+        "term": "相当",
+        "count": 24
+      },
+      {
+        "term": "只是",
+        "count": 24
+      },
+      {
+        "term": "比较",
+        "count": 21
+      },
+      {
+        "term": "直接",
+        "count": 21
+      },
+      {
+        "term": "其实",
+        "count": 20
+      },
+      {
+        "term": "完全",
+        "count": 20
+      },
+      {
+        "term": "当然",
+        "count": 17
+      },
+      {
+        "term": "也许",
+        "count": 16
+      },
+      {
+        "term": "十分",
+        "count": 15
+      },
+      {
+        "term": "一般",
+        "count": 12
+      },
+      {
+        "term": "特别",
+        "count": 10
+      },
+      {
+        "term": "最终",
+        "count": 9
+      },
+      {
+        "term": "确实",
+        "count": 8
+      },
+      {
+        "term": "尤其",
+        "count": 8
+      },
+      {
+        "term": "真正",
+        "count": 7
+      },
+      {
+        "term": "大致",
+        "count": 6
+      },
+      {
+        "term": "仍然",
+        "count": 5
+      },
+      {
+        "term": "通常",
+        "count": 5
+      },
+      {
+        "term": "大概",
+        "count": 4
+      },
+      {
+        "term": "尽量",
+        "count": 4
+      },
+      {
+        "term": "往往",
+        "count": 4
+      },
+      {
+        "term": "逐渐",
+        "count": 4
+      },
+      {
+        "term": "仅仅",
+        "count": 2
+      }
+    ],
+    "frequent_terms": [
+      {
+        "term": "课程",
+        "count": 483
+      },
+      {
+        "term": "学习",
+        "count": 309
+      },
+      {
+        "term": "系统",
+        "count": 187
+      },
+      {
+        "term": "作业",
+        "count": 172
+      },
+      {
+        "term": "实现",
+        "count": 166
+      },
+      {
+        "term": "计算",
+        "count": 149
+      },
+      {
+        "term": "代码",
+        "count": 144
+      },
+      {
+        "term": "知识",
+        "count": 117
+      },
+      {
+        "term": "设计",
+        "count": 99
+      },
+      {
+        "term": "语言",
+        "count": 95
+      },
+      {
+        "term": "所有",
+        "count": 94
+      },
+      {
+        "term": "理解",
+        "count": 87
+      },
+      {
+        "term": "使用",
+        "count": 87
+      },
+      {
+        "term": "数据",
+        "count": 87
+      },
+      {
+        "term": "资源",
+        "count": 87
+      },
+      {
+        "term": "理论",
+        "count": 85
+      },
+      {
+        "term": "算法",
+        "count": 82
+      },
+      {
+        "term": "github",
+        "count": 80
+      },
+      {
+        "term": "基础",
+        "count": 77
+      },
+      {
+        "term": "老师",
+        "count": 73
+      },
+      {
+        "term": "领域",
+        "count": 73
+      },
+      {
+        "term": "学生",
+        "count": 73
+      },
+      {
+        "term": "开发",
+        "count": 65
+      },
+      {
+        "term": "编译",
+        "count": 64
+      },
+      {
+        "term": "操作",
+        "count": 64
+      },
+      {
+        "term": "模型",
+        "count": 63
+      },
+      {
+        "term": "问题",
+        "count": 62
+      },
+      {
+        "term": "实验",
+        "count": 61
+      },
+      {
+        "term": "project",
+        "count": 61
+      },
+      {
+        "term": "深度",
+        "count": 60
+      },
+      {
+        "term": "pkuflyingpig",
+        "count": 60
+      },
+      {
+        "term": "分析",
+        "count": 59
+      },
+      {
+        "term": "网络",
+        "count": 59
+      },
+      {
+        "term": "用到",
+        "count": 59
+      },
+      {
+        "term": "自学",
+        "count": 59
+      },
+      {
+        "term": "入门",
+        "count": 58
+      },
+      {
+        "term": "软件",
+        "count": 57
+      },
+      {
+        "term": "mit",
+        "count": 56
+      },
+      {
+        "term": "推荐",
+        "count": 55
+      },
+      {
+        "term": "很多",
+        "count": 53
+      },
+      {
+        "term": "框架",
+        "count": 53
+      },
+      {
+        "term": "深入",
+        "count": 53
+      },
+      {
+        "term": "实践",
+        "count": 53
+      },
+      {
+        "term": "部分",
+        "count": 52
+      },
+      {
+        "term": "提供",
+        "count": 52
+      },
+      {
+        "term": "参考",
+        "count": 50
+      },
+      {
+        "term": "教授",
+        "count": 47
+      },
+      {
+        "term": "工具",
+        "count": 46
+      },
+      {
+        "term": "开始",
+        "count": 46
+      },
+      {
+        "term": "视频",
+        "count": 46
+      },
+      {
+        "term": "信息",
+        "count": 46
+      },
+      {
+        "term": "结构",
+        "count": 44
+      },
+      {
+        "term": "例如",
+        "count": 44
+      },
+      {
+        "term": "搜索",
+        "count": 44
+      },
+      {
+        "term": "程序",
+        "count": 42
+      },
+      {
+        "term": "大学",
+        "count": 42
+      },
+      {
+        "term": "等等",
+        "count": 42
+      },
+      {
+        "term": "机器",
+        "count": 42
+      },
+      {
+        "term": "难度",
+        "count": 42
+      },
+      {
+        "term": "介绍",
+        "count": 41
+      },
+      {
+        "term": "数学",
+        "count": 41
+      },
+      {
+        "term": "项目",
+        "count": 41
+      },
+      {
+        "term": "掌握",
+        "count": 41
+      },
+      {
+        "term": "安全",
+        "count": 40
+      },
+      {
+        "term": "过程",
+        "count": 40
+      },
+      {
+        "term": "作为",
+        "count": 40
+      },
+      {
+        "term": "技术",
+        "count": 39
+      },
+      {
+        "term": "时间",
+        "count": 39
+      },
+      {
+        "term": "也是",
+        "count": 39
+      },
+      {
+        "term": "实际",
+        "count": 38
+      },
+      {
+        "term": "核心",
+        "count": 37
+      },
+      {
+        "term": "同学",
+        "count": 37
+      },
+      {
+        "term": "重要",
+        "count": 37
+      },
+      {
+        "term": "适合",
+        "count": 36
+      },
+      {
+        "term": "包括",
+        "count": 35
+      },
+      {
+        "term": "编写",
+        "count": 35
+      },
+      {
+        "term": "基本",
+        "count": 35
+      },
+      {
+        "term": "质量",
+        "count": 35
+      },
+      {
+        "term": "环境",
+        "count": 34
+      },
+      {
+        "term": "教材",
+        "count": 34
+      },
+      {
+        "term": "网站",
+        "count": 33
+      },
+      {
+        "term": "因此",
+        "count": 33
+      },
+      {
+        "term": "阅读",
+        "count": 33
+      },
+      {
+        "term": "最后",
+        "count": 33
+      },
+      {
+        "term": "帮助",
+        "count": 32
+      },
+      {
+        "term": "覆盖",
+        "count": 32
+      },
+      {
+        "term": "觉得",
+        "count": 32
+      },
+      {
+        "term": "研究",
+        "count": 32
+      },
+      {
+        "term": "中的",
+        "count": 32
+      },
+      {
+        "term": "不同",
+        "count": 31
+      },
+      {
+        "term": "讲解",
+        "count": 31
+      },
+      {
+        "term": "能力",
+        "count": 31
+      },
+      {
+        "term": "版本",
+        "count": 30
+      },
+      {
+        "term": "了解",
+        "count": 30
+      },
+      {
+        "term": "英文",
+        "count": 30
+      },
+      {
+        "term": "lab",
+        "count": 30
+      },
+      {
+        "term": "论文",
+        "count": 29
+      },
+      {
+        "term": "一定",
+        "count": 29
+      },
+      {
+        "term": "工程",
+        "count": 28
+      },
+      {
+        "term": "你的",
+        "count": 28
+      },
+      {
+        "term": "其他",
+        "count": 28
+      },
+      {
+        "term": "原理",
+        "count": 28
+      },
+      {
+        "term": "中文",
+        "count": 28
+      },
+      {
+        "term": "本科",
+        "count": 27
+      },
+      {
+        "term": "丰富",
+        "count": 27
+      },
+      {
+        "term": "个人",
+        "count": 27
+      },
+      {
+        "term": "基于",
+        "count": 27
+      },
+      {
+        "term": "建议",
+        "count": 27
+      },
+      {
+        "term": "涉及",
+        "count": 27
+      },
+      {
+        "term": "甚至",
+        "count": 27
+      },
+      {
+        "term": "文件",
+        "count": 27
+      },
+      {
+        "term": "vim",
+        "count": 27
+      },
+      {
+        "term": "的是",
+        "count": 26
+      },
+      {
+        "term": "工作",
+        "count": 26
+      },
+      {
+        "term": "官方",
+        "count": 26
+      },
+      {
+        "term": "神经",
+        "count": 26
+      },
+      {
+        "term": "体验",
+        "count": 26
+      },
+      {
+        "term": "应用",
+        "count": 26
+      },
+      {
+        "term": "python",
+        "count": 26
+      },
+      {
+        "term": "测试",
+        "count": 25
+      },
+      {
+        "term": "都是",
+        "count": 25
+      },
+      {
+        "term": "翻译",
+        "count": 25
+      },
+      {
+        "term": "生成",
+        "count": 25
+      },
+      {
+        "term": "完成",
+        "count": 25
+      },
+      {
+        "term": "智能",
+        "count": 25
+      },
+      {
+        "term": "cmu",
+        "count": 25
+      },
+      {
+        "term": "emacs",
+        "count": 25
+      },
+      {
+        "term": "stanford",
+        "count": 25
+      },
+      {
+        "term": "还是",
+        "count": 24
+      },
+      {
+        "term": "函数",
+        "count": 24
+      },
+      {
+        "term": "教程",
+        "count": 24
+      },
+      {
+        "term": "具体",
+        "count": 24
+      },
+      {
+        "term": "练习",
+        "count": 24
+      },
+      {
+        "term": "相当",
+        "count": 24
+      },
+      {
+        "term": "训练",
+        "count": 24
+      },
+      {
+        "term": "硬件",
+        "count": 24
+      },
+      {
+        "term": "资料",
+        "count": 24
+      },
+      {
+        "term": "并行",
+        "count": 23
+      },
+      {
+        "term": "方向",
+        "count": 23
+      },
+      {
+        "term": "功能",
+        "count": 23
+      },
+      {
+        "term": "讲授",
+        "count": 23
+      },
+      {
+        "term": "教学",
+        "count": 23
+      },
+      {
+        "term": "来说",
+        "count": 23
+      },
+      {
+        "term": "你在",
+        "count": 23
+      },
+      {
+        "term": "要求",
+        "count": 23
+      },
+      {
+        "term": "支持",
+        "count": 23
+      },
+      {
+        "term": "只是",
+        "count": 23
+      },
+      {
+        "term": "ucb",
+        "count": 23
+      },
+      {
+        "term": "笔记",
+        "count": 22
+      },
+      {
+        "term": "并不",
+        "count": 22
+      }
+    ]
+  },
+  "heading_audit": {
+    "scope": "all H2 and H3 headings in the 136-page Chinese corpus",
+    "h2_count": 375,
+    "h3_count": 51,
+    "total": 426,
+    "average_non_whitespace_characters": 4.84,
+    "median_non_whitespace_characters": 4,
+    "p25_non_whitespace_characters": 4,
+    "p75_non_whitespace_characters": 4
+  },
+  "punctuation_audit": {
+    "scope": "normalized narrative prose defined above",
+    "counts": {
+      "，": 2290,
+      "。": 1233,
+      "？": 35,
+      "！": 13,
+      "；": 11,
+      "：": 113,
+      "、": 412,
+      "“": 68,
+      "”": 68,
+      "‘": 0,
+      "’": 0,
+      "《": 7,
+      "》": 7
+    },
+    "per_1000_non_whitespace_characters": {
+      "，": 30.841,
+      "。": 16.605,
+      "？": 0.471,
+      "！": 0.175,
+      "；": 0.148,
+      "：": 1.522,
+      "、": 5.549,
+      "“": 0.916,
+      "”": 0.916,
+      "‘": 0,
+      "’": 0,
+      "《": 0.094,
+      "》": 0.094
+    },
+    "paired_quote_totals": {
+      "chinese_double_quote_marks": 136,
+      "chinese_single_quote_marks": 0,
+      "book_title_marks": 14,
+      "ascii_double_quote_marks": 6,
+      "ascii_single_quote_marks": 1
+    },
+    "dash_parenthesis_usage": {
+      "dash_unit_definition": "one em-dash run (one or two em dashes) or one ASCII -- sequence",
+      "parenthetical_unit_definition": "one matched Chinese or ASCII parenthetical span on one line",
+      "dash_units": 19,
+      "parenthetical_units": 200,
+      "dash_to_parenthetical_ratio": 0.095
+    },
+    "quote_context_samples": [
+      "“容器”",
+      "“Emacs 表面上是个编辑器，其实是一个操作系统”",
+      "“它值得！”",
+      "“我为人人，人人为我”",
+      "“递归”",
+      "“信息的处理”",
+      "“计算机教学中消失的一个学期”",
+      "“Pythonic”",
+      "“futures”",
+      "“无限长的 token 超前扫描”",
+      "“神秘面纱”",
+      "“操作系统如何自学”",
+      "“操作系统的公开课推荐”",
+      "“有哪些让你相见恨晚的计算机课程”",
+      "“弱弱地问，什么是操作系统”",
+      "“揭开操作系统钢琴的盖子”",
+      "“那就首先让程序进入内存”",
+      "“特有的”",
+      "“一言不合”",
+      "“程序就是状态机”",
+      "“万恶之源”",
+      "“骚扰”",
+      "“可怕”",
+      "“骚扰”",
+      "“调包侠”",
+      "“全栈”",
+      "“炼丹侠”",
+      "“模型、数据、系统、硬件”",
+      "“为什么某些 LLM 系统设计是现在这个样子”",
+      "“  计算机的世界里没有魔法  ”"
+    ]
+  },
+  "mixed_language_audit": {
+    "scope": "normalized narrative sentences",
+    "sentence_count": 1293,
+    "sentences_with_han_and_latin": 808,
+    "mixed_sentence_ratio": 0.625,
+    "top_latin_tokens": [
+      {
+        "term": "github",
+        "count": 80
+      },
+      {
+        "term": "project",
+        "count": 60
+      },
+      {
+        "term": "mit",
+        "count": 53
+      },
+      {
+        "term": "pkuflyingpig",
+        "count": 31
+      },
+      {
+        "term": "lab",
+        "count": 30
+      },
+      {
+        "term": "vim",
+        "count": 27
+      },
+      {
+        "term": "emacs",
+        "count": 25
+      },
+      {
+        "term": "python",
+        "count": 25
+      },
+      {
+        "term": "cmu",
+        "count": 23
+      },
+      {
+        "term": "stanford",
+        "count": 23
+      },
+      {
+        "term": "c++",
+        "count": 22
+      },
+      {
+        "term": "cs",
+        "count": 21
+      },
+      {
+        "term": "and",
+        "count": 20
+      },
+      {
+        "term": "rust",
+        "count": 20
+      },
+      {
+        "term": "c",
+        "count": 19
+      },
+      {
+        "term": "java",
+        "count": 19
+      },
+      {
+        "term": "linux",
+        "count": 19
+      },
+      {
+        "term": "llm",
+        "count": 18
+      },
+      {
+        "term": "ucb",
+        "count": 18
+      },
+      {
+        "term": "ai",
+        "count": 16
+      },
+      {
+        "term": "git",
+        "count": 16
+      },
+      {
+        "term": "system",
+        "count": 15
+      },
+      {
+        "term": "docker",
+        "count": 14
+      },
+      {
+        "term": "ide",
+        "count": 14
+      },
+      {
+        "term": "learning",
+        "count": 14
+      },
+      {
+        "term": "to",
+        "count": 14
+      },
+      {
+        "term": "web",
+        "count": 14
+      },
+      {
+        "term": "computer",
+        "count": 13
+      },
+      {
+        "term": "coursera",
+        "count": 13
+      },
+      {
+        "term": "introduction",
+        "count": 13
+      }
+    ],
+    "note": "Latin tokens are surface forms, not semantic categories; URLs were removed before counting."
+  },
+  "averages": {
+    "characters": 1435.65,
+    "paragraphs": 5.06,
+    "sentence_characters": 56.44,
+    "h2": 2.76,
+    "h3": 0.38,
+    "external_links": 4.96
+  },
+  "ranges": {
+    "characters": [
+      71,
+      19278
+    ],
+    "h2": [
+      0,
+      20
+    ]
+  },
+  "course_cards": {
+    "count": 115,
+    "with_prerequisite": 115,
+    "with_difficulty": 114,
+    "with_estimated_time": 110,
+    "with_complete_core_metadata": 109,
+    "with_course_resource": 110,
+    "with_resource_summary": 60,
+    "under_700_characters": 30
+  },
+  "format_presence": {
+    "code_block": 1,
+    "table": 1,
+    "markdown_image": 2,
+    "html_image": 1,
+    "any_image": 3
+  },
+  "supporting_audit_validation": {
+    "image_records": 18,
+    "interface_records": 14,
+    "short_writing_dna_han_characters": 822,
+    "reproduction_score": 8,
+    "reproduction_input_mode": "short-writing-dna-only"
+  }
+}

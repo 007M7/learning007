@@ -10,6 +10,7 @@ import AdvancedMap from "./components/AdvancedMap.vue";
 import AgentFrontierMap from "./components/AgentFrontierMap.vue";
 import FieldMap from "./components/FieldMap.vue";
 import KnowledgeFlow from "./components/KnowledgeFlow.vue";
+import LearningNodeCatalog from "./components/LearningNodeCatalog.vue";
 import ResourceLibrary from "./components/ResourceLibrary.vue";
 import SiteKnowledgeGraph from "./components/SiteKnowledgeGraph.vue";
 import "./custom.css";
@@ -27,6 +28,7 @@ export default {
     app.component("AgentFrontierMap", AgentFrontierMap);
     app.component("FieldMap", FieldMap);
     app.component("KnowledgeFlow", KnowledgeFlow);
+    app.component("LearningNodeCatalog", LearningNodeCatalog);
     app.component("ResourceLibrary", ResourceLibrary);
     app.component("SiteKnowledgeGraph", SiteKnowledgeGraph);
   },
